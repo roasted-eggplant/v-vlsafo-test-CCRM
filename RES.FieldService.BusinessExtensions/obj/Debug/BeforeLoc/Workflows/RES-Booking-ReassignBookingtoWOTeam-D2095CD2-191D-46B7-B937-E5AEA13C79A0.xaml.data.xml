@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{d2095cd2-191d-46b7-b937-e5aea13c79a0}" Name="RES - Booking - Reassign Booking to WO Team">
+  <XamlFileName>/Workflows/RES-Booking-ReassignBookingtoWOTeam-D2095CD2-191D-46B7-B937-E5AEA13C79A0.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>0</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnUpdateAttributeList></TriggerOnUpdateAttributeList>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
+  <CreateStage>40</CreateStage>
+  <RunAs>0</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <PrimaryEntity>BookableResourceBooking</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="RES - Booking - Reassign Booking to WO Team" />
+  </LocalizedNames>
+</Workflow>

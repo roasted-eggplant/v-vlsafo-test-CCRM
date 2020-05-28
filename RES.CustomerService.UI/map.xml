@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Mapping>
+  <!--<FileToPath map="WebResources\*.*" to="..\..\..\..\RES.CrmPackage\WebResources\**" />-->
+  <FileToFile map="WebResources\new_ReClassifyServiceRequest" to="..\..\..\..\RES.CrmPackage\WebResources\CustomerService.UI\new_ReClassifyServiceRequest.htm" />
+  <FileToFile map="WebResources\new_ReClassifyServiceRequestjs" to="..\..\..\..\RES.CrmPackage\WebResources\CustomerService.UI\new_ReClassifyServiceRequestjs.js" />
+  <FileToFile map="WebResources\smp_AI_Telemetry" to="..\..\..\..\RES.CrmPackage\WebResources\CustomerService.UI\smp_AI_Telemetry.js" />
+  <FileToFile map="WebResources\smp_cancelmodify" to="..\..\..\..\RES.CrmPackage\WebResources\CustomerService.UI\smp_cancelmodify.js" />
+  <FileToFile map="WebResources\smp_CheckUserRole_CSR" to="..\..\..\..\RES.CrmPackage\WebResources\CustomerService.UI\smp_CheckUserRole_CSR.js" />
+  <FileToFile map="WebResources\smp_escalationtable" to="..\..\..\..\RES.CrmPackage\WebResources\CustomerService.UI\smp_escalationtable.htm" />
+  <FileToFile map="WebResources\smp_FSServiceRequest.js" to="..\..\..\..\RES.CrmPackage\WebResources\CustomerService.UI\smp_FSServiceRequest.js" />
+  <FileToFile map="WebResources\smp_HideButtons" to="..\..\..\..\RES.CrmPackage\WebResources\CustomerService.UI\smp_HideButtons.js" />
+  <FileToFile  map="WebResources\smp_script" to="..\..\..\..\RES.CrmPackage\WebResources\CustomerService.UI\smp_script.js" />
+</Mapping>

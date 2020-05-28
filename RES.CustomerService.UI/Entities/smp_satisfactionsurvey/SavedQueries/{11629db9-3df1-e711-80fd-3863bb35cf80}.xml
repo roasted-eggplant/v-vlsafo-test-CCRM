@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{11629db9-3df1-e711-80fd-3863bb35cf80}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_name" select="1" icon="1" preview="1">
+        <row name="result" id="smp_satisfactionsurveyid">
+          <cell name="smp_name" width="300" />
+          <cell name="createdon" width="125" />
+          <cell name="smp_b6d68d0c07914b5dbe4665def2af8dd6" width="125" />
+          <cell name="smp_2fc71c11ac6141cfa92aebd830420325" width="125" />
+          <cell name="smp_6cf97d0d075941d4b1967c610b5f57cd" width="125" />
+          <cell name="smp_d34a6d84bdd6416d99d2849e9220921a" width="125" />
+          <cell name="smp_9f9cfa0b95724f17bfef844ae729f15a" width="125" />
+          <cell name="smp_44c1306bc20443a78eb80401a9b8b1f4" width="125" />
+          <cell name="smp_082d459e5b6a4aad965b5dd73214af92" width="125" />
+          <cell name="smp_a0c758b0247b4a4ba020420eb4142c5a" width="125" />
+          <cell name="smp_07a6915f69904737ad3cb1bd29e5eae8" width="125" />
+          <cell name="smp_39755fb4d3334042ac37c1478d5aa613" width="125" />
+          <cell name="smp_acknowledged" width="125" />
+          <cell name="smp_escalated" width="125" />
+          <cell name="smp_maxscore" width="125" />
+          <cell name="smp_scoreaspercentage" width="125" />
+          <cell name="smp_score" width="125" />
+          <cell name="smp_log" width="125" />
+          <cell name="smp_acknowledgedresponse" width="125" />
+          <cell name="smp_scoreaspercentageallroutes" width="125" />
+          <cell name="smp_completedon" width="125" />
+          <cell name="smp_contactid" width="125" />
+          <cell name="smp_responseoutcomeid" width="125" />
+          <cell name="smp_incidentid" width="125" />
+          <cell name="smp_surveyid" width="125" />
+          <cell name="smp_surveyinviteid" width="125" />
+          <cell name="smp_surveyresponseid" width="125" />
+          <cell name="smp_name" width="125" />
+          <cell name="smp_satisfactionsurveyid" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_satisfactionsurvey">
+          <attribute name="smp_name" />
+          <attribute name="smp_b6d68d0c07914b5dbe4665def2af8dd6" />
+          <attribute name="smp_2fc71c11ac6141cfa92aebd830420325" />
+          <attribute name="smp_6cf97d0d075941d4b1967c610b5f57cd" />
+          <attribute name="smp_d34a6d84bdd6416d99d2849e9220921a" />
+          <attribute name="smp_9f9cfa0b95724f17bfef844ae729f15a" />
+          <attribute name="smp_44c1306bc20443a78eb80401a9b8b1f4" />
+          <attribute name="smp_082d459e5b6a4aad965b5dd73214af92" />
+          <attribute name="smp_a0c758b0247b4a4ba020420eb4142c5a" />
+          <attribute name="smp_07a6915f69904737ad3cb1bd29e5eae8" />
+          <attribute name="smp_39755fb4d3334042ac37c1478d5aa613" />
+          <attribute name="smp_acknowledged" />
+          <attribute name="smp_escalated" />
+          <attribute name="smp_maxscore" />
+          <attribute name="smp_scoreaspercentage" />
+          <attribute name="smp_score" />
+          <attribute name="smp_log" />
+          <attribute name="smp_acknowledgedresponse" />
+          <attribute name="smp_scoreaspercentageallroutes" />
+          <attribute name="smp_completedon" />
+          <attribute name="smp_contactid" />
+          <attribute name="smp_responseoutcomeid" />
+          <attribute name="smp_incidentid" />
+          <attribute name="smp_surveyid" />
+          <attribute name="smp_surveyinviteid" />
+          <attribute name="smp_surveyresponseid" />
+          <attribute name="smp_name" />
+          <attribute name="smp_satisfactionsurveyid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Export View (All Attributes)" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="An auto generated view to assist with exporting data." languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

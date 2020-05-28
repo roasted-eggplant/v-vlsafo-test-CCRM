@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{cfe385ae-cdd6-4e8d-a028-594b15c63193}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_buildingname" select="1" icon="1" preview="1">
+        <row name="result" id="smp_buildingid">
+          <cell name="smp_buildingname" width="300" />
+          <cell name="smp_addressline1" width="100" />
+          <cell name="smp_addressline2" width="100" />
+          <cell name="smp_city" width="100" />
+          <cell name="smp_state" width="100" />
+          <cell name="smp_zipcode" width="100" />
+          <cell name="smp_country" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_building">
+          <attribute name="smp_buildingname" />
+          <attribute name="createdon" />
+          <order attribute="smp_buildingname" descending="false" />
+          <attribute name="smp_zipcode" />
+          <attribute name="smp_state" />
+          <attribute name="smp_country" />
+          <attribute name="smp_city" />
+          <attribute name="smp_addressline2" />
+          <attribute name="smp_addressline1" />
+          <attribute name="smp_buildingid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Building Advanced Find View" languagecode="1033" />
+      <LocalizedName description="Creación de vista de búsqueda avanzada" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

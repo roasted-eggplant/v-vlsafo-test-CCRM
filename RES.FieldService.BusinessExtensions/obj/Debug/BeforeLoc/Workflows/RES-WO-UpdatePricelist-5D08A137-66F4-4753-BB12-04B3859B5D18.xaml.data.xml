@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{5d08a137-66f4-4753-bb12-04b3859b5d18}" Name="RES - WO - Update Pricelist">
+  <XamlFileName>/Workflows/RES-WO-UpdatePricelist-5D08A137-66F4-4753-BB12-04B3859B5D18.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>0</Category>
+  <Mode>1</Mode>
+  <Scope>1</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnUpdateAttributeList>msdyn_pricelist</TriggerOnUpdateAttributeList>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
+  <CreateStage>40</CreateStage>
+  <UpdateStage>20</UpdateStage>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <PrimaryEntity>msdyn_workorder</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="RES - WO - Update Pricelist" />
+  </LocalizedNames>
+</Workflow>

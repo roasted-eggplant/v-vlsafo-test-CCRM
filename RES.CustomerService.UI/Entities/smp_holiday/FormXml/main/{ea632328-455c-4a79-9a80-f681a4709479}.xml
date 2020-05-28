@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{ea632328-455c-4a79-9a80-f681a4709479}</formid>
+    <IntroducedVersion>3.0.0.12</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{5ba24c3f-6062-46f8-b21c-13f20dba5824}" IsUserDefined="1" name="{5ba24c3f-6062-46f8-b21c-13f20dba5824}" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{6724ea03-34be-4b21-a459-f68e48bb1995}" name="{6724ea03-34be-4b21-a459-f68e48bb1995}" columns="11" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d45f3821-49be-4ab2-b726-8756b8452475}">
+                        <labels>
+                          <label description="Holiday Name" languagecode="1033" />
+                        </labels>
+                        <control id="smp_holidayname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_holidayname" />
+                      </cell>
+                      <cell id="{824bb1d6-72a7-172e-3607-e85744121465}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Date" languagecode="1033" />
+                        </labels>
+                        <control id="smp_date" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="smp_date" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{447c1b9d-539d-5700-3734-c1a6acb1cb71}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Building" languagecode="1033" />
+                        </labels>
+                        <control id="smp_buildingid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_buildingid" disabled="false" />
+                      </cell>
+                      <cell id="{304e397a-5acc-4233-9be7-75d0a6da7f59}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{00000000-0000-0000-00aa-000010001034}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="title" select="1" icon="1" preview="1">
+        <row name="result" id="incidentid">
+          <cell name="ticketnumber" width="150" />
+          <cell name="statuscode" width="100" />
+          <cell name="smp_requestcancelledreason" width="150" disableSorting="1" />
+          <cell name="smp_submitteddatetime" width="150" />
+          <cell name="smp_contact" width="100" />
+          <cell name="smp_problembuilding" width="150" />
+          <cell name="smp_problemroom" width="100" />
+          <cell name="smp_problemclassid" width="100" />
+          <cell name="smp_problemtypeid" width="100" />
+          <cell name="customerid" width="200" />
+          <cell name="smp_priorityid" width="100" />
+          <cell name="createdon" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="incident">
+          <attribute name="ticketnumber" />
+          <attribute name="createdon" />
+          <filter>
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <order attribute="ticketnumber" descending="false" />
+          <attribute name="smp_submitteddatetime" />
+          <attribute name="statuscode" />
+          <attribute name="smp_requestcancelledreason" />
+          <attribute name="customerid" />
+          <attribute name="smp_problemtypeid" />
+          <attribute name="smp_problemroom" />
+          <attribute name="smp_problemclassid" />
+          <attribute name="smp_problembuilding" />
+          <attribute name="smp_priorityid" />
+          <attribute name="smp_contact" />
+          <attribute name="incidentid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Closed Service Requests" languagecode="1033" />
+      <LocalizedName description="Incidents résolus" languagecode="1036" />
+      <LocalizedName description="解決済みサポート案件" languagecode="1041" />
+      <LocalizedName description="해결된 서비스 케이스" languagecode="1042" />
+      <LocalizedName description="Ocorrências Resolvidas" languagecode="1046" />
+      <LocalizedName description="已解决案例" languagecode="2052" />
+      <LocalizedName description="Incidentes Resolvidos" languagecode="2070" />
+      <LocalizedName description="Casos resueltos" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

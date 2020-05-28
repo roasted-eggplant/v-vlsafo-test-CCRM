@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{0e0385df-2f06-41f6-a451-b293570b9767}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_name" select="1" icon="1" preview="1">
+        <row name="result" id="smp_inspectionquestionid">
+          <cell name="smp_inspectiontypeid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_order" width="100" />
+          <cell name="smp_questiontext" width="300" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_inspectionquestion">
+          <attribute name="createdon" />
+          <order attribute="smp_inspectiontypeid" descending="false" />
+          <order attribute="smp_order" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="smp_questiontext" />
+          <attribute name="smp_order" />
+          <attribute name="smp_inspectiontypeid" />
+          <attribute name="smp_inspectionquestionid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Inspection Questions" languagecode="1033" />
+      <LocalizedName description="Preguntas de inspección activa" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

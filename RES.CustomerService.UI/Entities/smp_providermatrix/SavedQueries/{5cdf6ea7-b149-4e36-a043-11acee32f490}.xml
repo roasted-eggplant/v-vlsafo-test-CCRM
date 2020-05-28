@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{5cdf6ea7-b149-4e36-a043-11acee32f490}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_name" select="1" icon="1" preview="1">
+        <row name="result" id="smp_providermatrixid">
+          <cell name="smp_name" width="100" />
+          <cell name="smp_buildingid" width="100" />
+          <cell name="smp_problemclassid" width="100" />
+          <cell name="smp_problemtypeid" width="100" />
+          <cell name="smp_primaryproviderid" width="100" />
+          <cell name="smp_secondaryproviderid" width="125" />
+          <cell name="smp_tertiaryproviderid" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_providermatrix">
+          <attribute name="createdon" />
+          <order attribute="smp_buildingid" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="smp_tertiaryproviderid" />
+          <attribute name="smp_secondaryproviderid" />
+          <attribute name="smp_problemtypeid" />
+          <attribute name="smp_problemclassid" />
+          <attribute name="smp_primaryproviderid" />
+          <attribute name="smp_buildingid" />
+          <attribute name="smp_name" />
+          <attribute name="smp_providermatrixid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Provider Matrix" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

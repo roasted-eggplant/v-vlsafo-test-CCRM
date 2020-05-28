@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{1d200228-273e-4be3-acf6-c4c503c1c320}" Name="RES - WO - Update Service Request Work Order Billable changed">
+  <XamlFileName>/Workflows/RES-WO-UpdateServiceRequestWorkOrderBillablechange-1D200228-273E-4BE3-ACF6-C4C503C1C320.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>0</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnUpdateAttributeList>smp_billable</TriggerOnUpdateAttributeList>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <PrimaryEntity>msdyn_workorder</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="RES - WO - Update Service Request Work Order Billable changed" />
+  </LocalizedNames>
+</Workflow>

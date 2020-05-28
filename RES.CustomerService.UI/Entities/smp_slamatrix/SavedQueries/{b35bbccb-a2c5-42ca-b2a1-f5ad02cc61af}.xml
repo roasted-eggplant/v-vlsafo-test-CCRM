@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b35bbccb-a2c5-42ca-b2a1-f5ad02cc61af}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="smp_description" select="1" icon="1" preview="1">
+        <row name="smp_slamatrix" id="smp_slamatrixid">
+          <cell name="smp_description" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_slamatrix">
+          <attribute name="smp_slamatrixid" />
+          <attribute name="smp_description" />
+          <attribute name="createdon" />
+          <order attribute="smp_description" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="SLA Matrix Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

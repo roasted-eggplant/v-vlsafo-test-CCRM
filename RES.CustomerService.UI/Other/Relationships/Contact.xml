@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="adx_contactproduct">
+    <EntityRelationshipType>ManyToMany</EntityRelationshipType>
+    <IntroducedVersion>1.0.0.4</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <FirstEntityName>Contact</FirstEntityName>
+    <SecondEntityName>Product</SecondEntityName>
+    <IntersectEntityName>adx_contactproduct</IntersectEntityName>
+    <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+    <EntityRelationshipRoles>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>DoNotDisplay</NavPaneDisplayOption>
+        <NavigationPropertyName>adx_contactproduct</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="" languagecode="1042" />
+          <CustomLabel description="" languagecode="2052" />
+          <CustomLabel description="" languagecode="1033" />
+          <CustomLabel description="" languagecode="2070" />
+          <CustomLabel description="" languagecode="1036" />
+          <CustomLabel description="" languagecode="1041" />
+          <CustomLabel description="" languagecode="3082" />
+        </CustomLabels>
+        <AssociationRoleOrdinal>1</AssociationRoleOrdinal>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>DoNotDisplay</NavPaneDisplayOption>
+        <NavigationPropertyName>adx_contactproduct</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="" languagecode="1041" />
+          <CustomLabel description="" languagecode="1033" />
+          <CustomLabel description="" languagecode="2052" />
+          <CustomLabel description="" languagecode="1042" />
+          <CustomLabel description="" languagecode="2070" />
+          <CustomLabel description="" languagecode="3082" />
+          <CustomLabel description="" languagecode="1036" />
+        </CustomLabels>
+        <AssociationRoleOrdinal>2</AssociationRoleOrdinal>
+      </EntityRelationshipRole>
+    </EntityRelationshipRoles>
+  </EntityRelationship>
+</EntityRelationships>

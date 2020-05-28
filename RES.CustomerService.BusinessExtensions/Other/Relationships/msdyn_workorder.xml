@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="bpf_msdyn_workorder_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IntroducedVersion>6.1.0.0</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39</ReferencingEntityName>
+    <ReferencedEntityName>msdyn_workorder</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>RemoveLink</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <CascadeRollupView>NoCascade</CascadeRollupView>
+    <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+    <ReferencingAttributeName>bpf_msdyn_workorderid</ReferencingAttributeName>
+    <RelationshipDescription />
+    <EntityRelationshipRoles>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>UseLabel</NavPaneDisplayOption>
+        <NavPaneArea>Details</NavPaneArea>
+        <NavPaneOrder>10000</NavPaneOrder>
+        <NavigationPropertyName>bpf_msdyn_workorderid</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="msdyn_workorder" languagecode="1033" />
+          <CustomLabel description="msdyn_workorder" languagecode="3082" />
+          <CustomLabel description="msdyn_workorder" languagecode="1036" />
+          <CustomLabel description="msdyn_workorder" languagecode="1041" />
+          <CustomLabel description="msdyn_workorder" languagecode="1042" />
+          <CustomLabel description="msdyn_workorder" languagecode="2070" />
+          <CustomLabel description="msdyn_workorder" languagecode="2052" />
+          <CustomLabel description="msdyn_ordem de serviço" languagecode="1046" />
+        </CustomLabels>
+        <RelationshipRoleType>1</RelationshipRoleType>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <RelationshipRoleType>0</RelationshipRoleType>
+      </EntityRelationshipRole>
+    </EntityRelationshipRoles>
+  </EntityRelationship>
+</EntityRelationships>

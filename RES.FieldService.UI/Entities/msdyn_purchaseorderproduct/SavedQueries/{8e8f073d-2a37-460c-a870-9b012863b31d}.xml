@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{8e8f073d-2a37-460c-a870-9b012863b31d}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msdyn_name" select="1" icon="1" preview="1">
+        <row name="result" id="msdyn_purchaseorderproductid">
+          <cell name="msdyn_purchaseorder" width="150" />
+          <cell name="msdyn_product" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_vendor" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msdyn_quantity" width="100" />
+          <cell name="createdon" width="125" />
+          <cell name="msdyn_lineorder" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msdyn_purchaseorderproduct">
+          <attribute name="createdon" />
+          <order attribute="createdon" descending="true" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="msdyn_purchaseorder" />
+          <attribute name="msdyn_product" />
+          <attribute name="msdyn_lineorder" />
+          <attribute name="msdyn_quantity" />
+          <attribute name="smp_vendor" />
+          <attribute name="msdyn_purchaseorderproductid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>3.1.0.3</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Purchase Requisition Products" languagecode="1033" />
+      <LocalizedName description="Produits de bon de commande actif" languagecode="1036" />
+      <LocalizedName description="アクティブな発注書の製品" languagecode="1041" />
+      <LocalizedName description="활성 구매 주문 제품" languagecode="1042" />
+      <LocalizedName description="Requisição de Compra Ativa de Produtos" languagecode="1046" />
+      <LocalizedName description="可用采购订单产品" languagecode="2052" />
+      <LocalizedName description="Produtos da Nota de Encomenda Ativa" languagecode="2070" />
+      <LocalizedName description="Productos de pedidos de compra activos" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

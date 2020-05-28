@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{00000000-0000-0000-00aa-000010001004}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" preview="1" icon="1" select="1" jump="fullname">
+        <row id="contactid" name="result">
+          <cell name="lastname" width="100" />
+          <cell name="firstname" width="100" />
+          <cell name="telephone1" width="125" />
+          <cell name="mobilephone" width="125" />
+          <cell name="emailaddress1" width="150" />
+          <cell name="smp_company" width="150" />
+          <cell name="parentcustomerid" width="150" />
+          <cell name="smp_staffingresourcetype" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch mapping="logical" output-format="xml-platform" version="1.0">
+        <entity name="contact">
+          <order descending="false" attribute="lastname" />
+          <filter type="and">
+            <condition value="0" attribute="statecode" operator="eq" />
+          </filter>
+          <attribute name="emailaddress1" />
+          <attribute name="mobilephone" />
+          <attribute name="smp_company" />
+          <attribute name="lastname" />
+          <attribute name="firstname" />
+          <attribute name="parentcustomerid" />
+          <attribute name="telephone1" />
+          <attribute name="smp_staffingresourcetype" />
+          <attribute name="contactid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Contacts" languagecode="1033" />
+      <LocalizedName description="Contacts actifs" languagecode="1036" />
+      <LocalizedName description="アクティブな取引先担当者" languagecode="1041" />
+      <LocalizedName description="활성 연락처" languagecode="1042" />
+      <LocalizedName description="Contatos Ativos" languagecode="1046" />
+      <LocalizedName description="可用联系人" languagecode="2052" />
+      <LocalizedName description="Contactos Ativos" languagecode="2070" />
+      <LocalizedName description="Contactos activos" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

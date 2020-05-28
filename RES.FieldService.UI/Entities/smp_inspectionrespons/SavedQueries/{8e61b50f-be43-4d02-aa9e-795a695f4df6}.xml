@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{8e61b50f-be43-4d02-aa9e-795a695f4df6}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="smp_name" select="1" icon="1" preview="1">
+        <row name="smp_inspectionrespons" id="smp_inspectionresponsid">
+          <cell name="smp_name" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_inspectionrespons">
+          <attribute name="smp_name" />
+          <attribute name="createdon" />
+          <order attribute="smp_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="smp_inspectionresponsid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inspection Response Associated View" languagecode="1033" />
+      <LocalizedName description="Visualização associada à resposta de inspeção" languagecode="1046" />
+      <LocalizedName description="Vista de Búsqueda Asociada de Respuesta de Inspección" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

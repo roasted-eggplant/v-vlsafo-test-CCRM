@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{6e3c6748-2aee-4691-8966-19d39a04c9f4}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msdyn_name" select="1" icon="1" preview="1">
+        <row name="result" id="msdyn_workorderid">
+          <cell name="msdyn_name" width="300" />
+          <cell name="msdyn_serviceaccount" width="125" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msdyn_workorder">
+          <attribute name="msdyn_name" />
+          <attribute name="createdon" />
+          <order attribute="msdyn_name" descending="false" />
+          <attribute name="msdyn_serviceaccount" />
+          <attribute name="msdyn_workorderid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>3.1.0.3</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Work Order Advanced Find View" languagecode="1033" />
+      <LocalizedName description="Vue Recherche avancée Ordre de travail" languagecode="1036" />
+      <LocalizedName description="作業指示書の高度な検索ビュー" languagecode="1041" />
+      <LocalizedName description="작업 주문 상세하게 찾기 보기" languagecode="1042" />
+      <LocalizedName description="Visualização de localização avançada de ordem de serviço" languagecode="1046" />
+      <LocalizedName description="工作订单高级查找视图" languagecode="2052" />
+      <LocalizedName description="Vista Localização Avançada de Ordens de Intervenção" languagecode="2070" />
+      <LocalizedName description="Vista de búsqueda avanzada de órdenes de trabajo" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

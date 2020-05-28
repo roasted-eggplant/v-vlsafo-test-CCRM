@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <isquickfindquery>0</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>0</isdefault>
+  <savedqueryid>{d55234c3-d2df-45d1-ab39-2274047d84c9}</savedqueryid>
+  <layoutxml>
+    <grid name="resultset" jump="msdyn_name" select="1" icon="1" preview="1">
+      <row name="result" id="msdyn_incidenttypeid">
+        <cell name="msdyn_name" width="200" />
+        <cell name="msdyn_estimatedduration" width="125" />
+        <cell name="createdon" width="125" />
+        <cell name="statecode" width="100" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>0</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="msdyn_incidenttype">
+        <attribute name="msdyn_name" />
+        <attribute name="createdon" />
+        <order attribute="msdyn_name" descending="false" />
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="1" />
+        </filter>
+        <attribute name="msdyn_estimatedduration" />
+        <attribute name="msdyn_incidenttypeid" />
+        <attribute name="statecode" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>3.1.0.3</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Inactive Incident Types" languagecode="1033" />
+    <LocalizedName description="Types d'incidents inactifs" languagecode="1036" />
+    <LocalizedName description="非アクティブなインシデントの種類" languagecode="1041" />
+    <LocalizedName description="비활성 문제 유형" languagecode="1042" />
+    <LocalizedName description="Tipos de Incidente Inativo" languagecode="1046" />
+    <LocalizedName description="停用的事件类型" languagecode="2052" />
+    <LocalizedName description="Tipos de Incidente Inativos" languagecode="2070" />
+    <LocalizedName description="Tipos de incidentes inactivos" languagecode="3082" />
+  </LocalizedNames>
+</savedquery>

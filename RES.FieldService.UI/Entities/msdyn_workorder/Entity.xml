@@ -1,0 +1,826 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Work Order" OriginalName="Work Order">msdyn_workorder</Name>
+  <EntityInfo>
+    <entity Name="msdyn_workorder">
+      <attributes>
+        <attribute PhysicalName="msdyn_IoTAlert">
+          <Type>lookup</Type>
+          <Name>msdyn_iotalert</Name>
+          <LogicalName>msdyn_iotalert</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="IoT 알림" languagecode="1042" />
+            <displayname description="Alerta de IoT" languagecode="2070" />
+            <displayname description="Alerte IoT" languagecode="1036" />
+            <displayname description="IoT 通知" languagecode="1041" />
+            <displayname description="IoT 警报" languagecode="2052" />
+            <displayname description="Alerta de IoT" languagecode="3082" />
+            <displayname description="IoT Alert" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="The iot alert which initiated this work order." languagecode="1033" />
+            <Description description="启动此工作订单的 IoT 警报。" languagecode="2052" />
+            <Description description="この作業指示書を開始した IoT 通知です。" languagecode="1041" />
+            <Description description="이 작업 주문을 시작한 IoT 알림입니다." languagecode="1042" />
+            <Description description="La alerta de iot que inició esta orden de trabajo." languagecode="3082" />
+            <Description description="O alerta de IoT que iniciou esta ordem de intervenção." languagecode="2070" />
+            <Description description="Alerte IoT qui a lancé cet ordre de travail." languagecode="1036" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="msdyn_name">
+          <Type>nvarchar</Type>
+          <Name>msdyn_name</Name>
+          <LogicalName>msdyn_name</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>QueueItemTitle|ActivityPointerRegardingName|PrimaryName|ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="Work Order Number" languagecode="1033" />
+            <displayname description="Número de orden de trabajo" languagecode="3082" />
+            <displayname description="Numéro d'ordre de travail" languagecode="1036" />
+            <displayname description="作業指示書番号" languagecode="1041" />
+            <displayname description="작업 주문 번호" languagecode="1042" />
+            <displayname description="Número da Ordem de Intervenção" languagecode="2070" />
+            <displayname description="工作订单号" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Enter the name of the custom entity." languagecode="1033" />
+            <Description description="Escriba el nombre de la entidad personalizada." languagecode="3082" />
+            <Description description="Entrez le nom de l'entité personnalisée." languagecode="1036" />
+            <Description description="ユーザー定義エンティティの名前を入力します。" languagecode="1041" />
+            <Description description="사용자 지정 엔터티의 이름을 입력합니다." languagecode="1042" />
+            <Description description="Introduza o nome da entidade personalizada." languagecode="2070" />
+            <Description description="输入自定义实体的名称。" languagecode="2052" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="msdyn_PrimaryIncidentType">
+          <Type>lookup</Type>
+          <Name>msdyn_primaryincidenttype</Name>
+          <LogicalName>msdyn_primaryincidenttype</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Problem Type" languagecode="1033" />
+            <displayname description="Tipo de incidente principal" languagecode="3082" />
+            <displayname description="Type d'incident principal" languagecode="1036" />
+            <displayname description="プライマリ インシデントの種類" languagecode="1041" />
+            <displayname description="기본 문제 유형" languagecode="1042" />
+            <displayname description="Tipo de Incidente Principal" languagecode="2070" />
+            <displayname description="主要事件类型" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Problem Type" languagecode="1033" />
+            <Description description="Tipo de incidente principal notificado" languagecode="3082" />
+            <Description description="Type d'incident principal signalé" languagecode="1036" />
+            <Description description="報告されたプライマリ インシデントの種類です" languagecode="1041" />
+            <Description description="보고된 기본 문제 유형" languagecode="1042" />
+            <Description description="Tipo de incidente principal reportado" languagecode="2070" />
+            <Description description="报告的主要事件类型" languagecode="2052" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="msdyn_Priority">
+          <Type>lookup</Type>
+          <Name>msdyn_priority</Name>
+          <LogicalName>msdyn_priority</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>1</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Priority" languagecode="1033" />
+            <displayname description="Prioridad" languagecode="3082" />
+            <displayname description="Priorité" languagecode="1036" />
+            <displayname description="優先度" languagecode="1041" />
+            <displayname description="우선 순위" languagecode="1042" />
+            <displayname description="Prioridade" languagecode="2070" />
+            <displayname description="优先级" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Priority of the Work Order. To be taken into consideration while scheduling resources" languagecode="1033" />
+            <Description description="Prioridad de la orden de trabajo. Se tendrá en cuenta al programar recursos" languagecode="3082" />
+            <Description description="Priorité de l'ordre de travail. À prendre en compte lors de la planification des ressources" languagecode="1036" />
+            <Description description="作業指示書の優先度です。リソースのスケジュールを設定する際に考慮されます" languagecode="1041" />
+            <Description description="작업 주문 우선 순위입니다. 리소스를 예약하는 동안 고려되어야 합니다." languagecode="1042" />
+            <Description description="Prioridade da Ordem de Intervenção. A considerar durante o agendamento de recursos" languagecode="2070" />
+            <Description description="工作订单的优先级。将在安排资源时考虑" languagecode="2052" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="msdyn_ServiceAccount">
+          <Type>lookup</Type>
+          <Name>msdyn_serviceaccount</Name>
+          <LogicalName>msdyn_serviceaccount</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Problem Building" languagecode="1033" />
+            <displayname description="Cuenta de servicio" languagecode="3082" />
+            <displayname description="Compte de service" languagecode="1036" />
+            <displayname description="サービス アカウント" languagecode="1041" />
+            <displayname description="서비스 계정" languagecode="1042" />
+            <displayname description="Conta de Serviço" languagecode="2070" />
+            <displayname description="服务帐户" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Account to be serviced" languagecode="1033" />
+            <Description description="Cuenta a la que se prestará servicio" languagecode="3082" />
+            <Description description="Compte à servir" languagecode="1036" />
+            <Description description="サービス対象の取引先企業" languagecode="1041" />
+            <Description description="서비스되는 계정" languagecode="1042" />
+            <Description description="Conta a ser coberta" languagecode="2070" />
+            <Description description="要接受服务的帐户" languagecode="2052" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="msdyn_ServiceRequest">
+          <Type>lookup</Type>
+          <Name>msdyn_servicerequest</Name>
+          <LogicalName>msdyn_servicerequest</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Service Request" languagecode="1033" />
+            <displayname description="Caso" languagecode="3082" />
+            <displayname description="Incident" languagecode="1036" />
+            <displayname description="サポート案件" languagecode="1041" />
+            <displayname description="서비스 케이스" languagecode="1042" />
+            <displayname description="Incidente" languagecode="2070" />
+            <displayname description="案例" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Case of which this work order originates from" languagecode="1033" />
+            <Description description="Caso del que procede esta orden de trabajo" languagecode="3082" />
+            <Description description="Incident à l'origine de cet ordre de travail" languagecode="1036" />
+            <Description description="この作業指示書の発生元であるサポート案件です" languagecode="1041" />
+            <Description description="이 작업 주문에서 비롯된 서비스 케이스" languagecode="1042" />
+            <Description description="Incidente no qual esta ordem de intervenção tem origem" languagecode="2070" />
+            <Description description="从中生成此工作订单的案例" languagecode="2052" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="msdyn_SubStatus">
+          <Type>lookup</Type>
+          <Name>msdyn_substatus</Name>
+          <LogicalName>msdyn_substatus</LogicalName>
+          <RequiredLevel>recommended</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>1</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Sub-Status" languagecode="1033" />
+            <displayname description="Subestado" languagecode="3082" />
+            <displayname description="Sous-statut" languagecode="1036" />
+            <displayname description="サブ状態" languagecode="1041" />
+            <displayname description="하위 상태" languagecode="1042" />
+            <displayname description="Subestado" languagecode="2070" />
+            <displayname description="子状态" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Work Order sub-status" languagecode="1033" />
+            <Description description="Subestado de la orden de trabajo" languagecode="3082" />
+            <Description description="Sous-statut de l'ordre de travail" languagecode="1036" />
+            <Description description="作業指示書のサブ状態です" languagecode="1041" />
+            <Description description="작업 주문 하위 상태" languagecode="1042" />
+            <Description description="Subestado da Ordem de Intervenção" languagecode="2070" />
+            <Description description="工作订单子状态" languagecode="2052" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="msdyn_SystemStatus">
+          <Type>picklist</Type>
+          <Name>msdyn_systemstatus</Name>
+          <LogicalName>msdyn_systemstatus</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>-1</AppDefaultValue>
+          <OptionSetName>msdyn_wosystemstatus</OptionSetName>
+          <displaynames>
+            <displayname description="System Status" languagecode="1033" />
+            <displayname description="Estado del sistema" languagecode="3082" />
+            <displayname description="État du système" languagecode="1036" />
+            <displayname description="システムの状態" languagecode="1041" />
+            <displayname description="시스템 상태" languagecode="1042" />
+            <displayname description="Estado do Sistema" languagecode="2070" />
+            <displayname description="系统状态" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Tracks the current system status." languagecode="1033" />
+            <Description description="Hace un seguimiento del estado actual del sistema." languagecode="3082" />
+            <Description description="Suit le statut système actuel." languagecode="1036" />
+            <Description description="現在のシステムの状態を追跡します。" languagecode="1041" />
+            <Description description="현재 시스템 상태를 추적합니다." languagecode="1042" />
+            <Description description="Monitoriza o estado atual do sistema." languagecode="2070" />
+            <Description description="跟踪当前系统状态。" languagecode="2052" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="msdyn_WorkOrderSummary">
+          <Type>ntext</Type>
+          <Name>msdyn_workordersummary</Name>
+          <LogicalName>msdyn_workordersummary</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format></Format>
+          <MaxLength>8000</MaxLength>
+          <displaynames>
+            <displayname description="Problem Description" languagecode="1033" />
+            <displayname description="Resumen de orden de trabajo" languagecode="3082" />
+            <displayname description="Résumé de l'ordre de travail" languagecode="1036" />
+            <displayname description="作業指示書概要" languagecode="1041" />
+            <displayname description="작업 주문 요약" languagecode="1042" />
+            <displayname description="Resumo da Ordem de Intervenção" languagecode="2070" />
+            <displayname description="工作订单摘要" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Type a summary description of the job." languagecode="1033" />
+            <Description description="Escriba una descripción resumida del trabajo." languagecode="3082" />
+            <Description description="Tapez une description résumée de la tâche." languagecode="1036" />
+            <Description description="ジョブの概要を入力します。" languagecode="1041" />
+            <Description description="작업에 대한 요약 설명을 입력합니다." languagecode="1042" />
+            <Description description="Escreva uma descrição do resumo da tarefa." languagecode="2070" />
+            <Description description="键入作业的摘要说明。" languagecode="2052" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="msdyn_WorkOrderType">
+          <Type>lookup</Type>
+          <Name>msdyn_workordertype</Name>
+          <LogicalName>msdyn_workordertype</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Problem Class" languagecode="1033" />
+            <displayname description="Tipo de orden de trabajo" languagecode="3082" />
+            <displayname description="Type d'ordre de travail" languagecode="1036" />
+            <displayname description="作業指示書の種類" languagecode="1041" />
+            <displayname description="작업 주문 유형" languagecode="1042" />
+            <displayname description="Tipo de Ordem de Intervenção" languagecode="2070" />
+            <displayname description="工作订单类型" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Problem Class" languagecode="1033" />
+            <Description description="Tipo de orden de trabajo" languagecode="3082" />
+            <Description description="Type d'ordre de travail" languagecode="1036" />
+            <Description description="作業指示書の種類" languagecode="1041" />
+            <Description description="작업 주문 유형" languagecode="1042" />
+            <Description description="Tipo de Ordem de Intervenção" languagecode="2070" />
+            <Description description="工作订单类型" languagecode="2052" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="OwnerId">
+          <Type>owner</Type>
+          <Name>ownerid</Name>
+          <LogicalName>ownerid</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes>
+            <LookupType id="00000000-0000-0000-0000-000000000000">8</LookupType>
+            <LookupType id="00000000-0000-0000-0000-000000000000">9</LookupType>
+          </LookupTypes>
+          <displaynames>
+            <displayname description="Owner" languagecode="1033" />
+            <displayname description="负责人" languagecode="2052" />
+            <displayname description="Propriétaire" languagecode="1036" />
+            <displayname description="所有者" languagecode="1041" />
+            <displayname description="담당자" languagecode="1042" />
+            <displayname description="Proprietário" languagecode="2070" />
+            <displayname description="Propietario" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Owner Id" languagecode="1033" />
+            <Description description="负责人 ID" languagecode="2052" />
+            <Description description="ID du propriétaire" languagecode="1036" />
+            <Description description="所有者 ID です" languagecode="1041" />
+            <Description description="담당자 Id" languagecode="1042" />
+            <Description description="ID do Proprietário" languagecode="2070" />
+            <Description description="Id. del propietario" languagecode="3082" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_DueDate">
+          <Type>datetime</Type>
+          <Name>smp_duedate</Name>
+          <LogicalName>smp_duedate</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>datetime</Format>
+          <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
+          <Behavior>1</Behavior>
+          <displaynames>
+            <displayname description="Calculated Due Date" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_DynamicProblemTypeNotes">
+          <Type>ntext</Type>
+          <Name>smp_dynamicproblemtypenotes</Name>
+          <LogicalName>smp_dynamicproblemtypenotes</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format></Format>
+          <MaxLength>50000</MaxLength>
+          <displaynames>
+            <displayname description="Dynamic Problem Type Notes" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_LeadTechnician">
+          <Type>lookup</Type>
+          <Name>smp_leadtechnician</Name>
+          <LogicalName>smp_leadtechnician</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Lead Technician" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Lead technician for the Work Order" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_RequestorName">
+          <Type>lookup</Type>
+          <Name>smp_requestorname</Name>
+          <LogicalName>smp_requestorname</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>1</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Requestor Name" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_Room">
+          <Type>lookup</Type>
+          <Name>smp_room</Name>
+          <LogicalName>smp_room</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Problem Room Number" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_RoomType">
+          <Type>lookup</Type>
+          <Name>smp_roomtype</Name>
+          <LogicalName>smp_roomtype</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Room Type" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="statecode">
+          <Type>state</Type>
+          <Name>statecode</Name>
+          <LogicalName>statecode</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>1</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <optionset Name="msdyn_workorder_statecode">
+            <OptionSetType>state</OptionSetType>
+            <IntroducedVersion>6.2.0.342</IntroducedVersion>
+            <displaynames>
+              <displayname description="Status" languagecode="1033" />
+              <displayname description="状态" languagecode="2052" />
+              <displayname description="Statut" languagecode="1036" />
+              <displayname description="状態" languagecode="1041" />
+              <displayname description="상태" languagecode="1042" />
+              <displayname description="Estado" languagecode="2070" />
+              <displayname description="Estado" languagecode="3082" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Status of the Work Order" languagecode="1033" />
+              <Description description="工作订单的状态" languagecode="2052" />
+              <Description description="Statut de l'élément Ordre de travail" languagecode="1036" />
+              <Description description="作業指示書の状態" languagecode="1041" />
+              <Description description="작업 주문의 상태입니다." languagecode="1042" />
+              <Description description="Estado da Entidade Ordem de Intervenção" languagecode="2070" />
+              <Description description="Estado del Orden de trabajo" languagecode="3082" />
+            </Descriptions>
+            <states>
+              <state value="0" defaultstatus="1" invariantname="Active">
+                <labels>
+                  <label description="Active" languagecode="1033" />
+                  <label description="Activo" languagecode="3082" />
+                  <label description="Actif" languagecode="1036" />
+                  <label description="アクティブ" languagecode="1041" />
+                  <label description="활성" languagecode="1042" />
+                  <label description="Ativo" languagecode="2070" />
+                  <label description="可用" languagecode="2052" />
+                  <label description="Ativo" languagecode="1046" />
+                </labels>
+              </state>
+              <state value="1" defaultstatus="2" invariantname="Inactive">
+                <labels>
+                  <label description="Inactive" languagecode="1033" />
+                  <label description="Inactivo" languagecode="3082" />
+                  <label description="Inactif" languagecode="1036" />
+                  <label description="非アクティブ" languagecode="1041" />
+                  <label description="비활성" languagecode="1042" />
+                  <label description="Inativo" languagecode="2070" />
+                  <label description="停用" languagecode="2052" />
+                  <label description="Inativo" languagecode="1046" />
+                </labels>
+              </state>
+            </states>
+          </optionset>
+          <displaynames>
+            <displayname description="Status" languagecode="1033" />
+            <displayname description="状态" languagecode="2052" />
+            <displayname description="Statut" languagecode="1036" />
+            <displayname description="状態" languagecode="1041" />
+            <displayname description="상태" languagecode="1042" />
+            <displayname description="Estado" languagecode="2070" />
+            <displayname description="Estado" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Status of the Work Order" languagecode="1033" />
+            <Description description="工作订单的状态" languagecode="2052" />
+            <Description description="Statut de l'ordre de travail" languagecode="1036" />
+            <Description description="作業指示書の状態です" languagecode="1041" />
+            <Description description="작업 주문 상태" languagecode="1042" />
+            <Description description="Estado da Ordem de Intervenção" languagecode="2070" />
+            <Description description="Estado de la orden de trabajo" languagecode="3082" />
+          </Descriptions>
+        </attribute>
+      </attributes>
+    </entity>
+  </EntityInfo>
+  <FormXml />
+  <SavedQueries />
+  <RibbonDiffXml />
+</Entity>

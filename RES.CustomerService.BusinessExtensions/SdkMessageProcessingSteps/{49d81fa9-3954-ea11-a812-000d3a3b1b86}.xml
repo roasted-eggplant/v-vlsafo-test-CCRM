@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="CCRM.REF.OptimizedPlugins.PreValidationCustomerAssetCreate: Create of msdyn_customerasset" SdkMessageProcessingStepId="{49d81fa9-3954-ea11-a812-000d3a3b1b86}">
+  <PluginTypeName>CCRM.REF.OptimizedPlugins.PreValidationCustomerAssetCreate, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126</PluginTypeName>
+  <PluginTypeId>705cc85b-8bc5-4a94-82d0-45fe1a70fa00</PluginTypeId>
+  <PrimaryEntity>msdyn_customerasset</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>CCRM.REF.OptimizedPlugins.PreValidationCustomerAssetCreate: Create of msdyn_customerasset</Description>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>0</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{9ebdbb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>10</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

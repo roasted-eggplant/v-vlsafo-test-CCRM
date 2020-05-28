@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{2525ce3a-ed4e-4899-bfc4-fc5c6c886b24}" Name="RES - WO - Work Order BPF" Description="BPF on Work Order to represent the current status of the Work Order">
+  <XamlFileName>/Workflows/RES-WO-WorkOrderBPF-2525CE3A-ED4E-4899-BFC4-FC5C6C886B24.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>0</processorder>
+  <processroleassignment>&lt;DisplayConditions&gt;&lt;Role Id="{EF7EB356-A3A4-4946-99C9-15349A9FCB21}" /&gt;&lt;Role Id="{627090ff-40a3-4053-8790-584edc5be201}" /&gt;&lt;Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" /&gt;&lt;Role Id="{7701E179-39C9-4A45-80B5-463DE05589FE}" /&gt;&lt;Role Id="{E4F16EED-F7E2-434A-B89E-693EF30FB888}" /&gt;&lt;Role Id="{8C63865D-44DC-4ABE-98B0-945F877D3DF5}" /&gt;&lt;Role Id="{149F8A4D-D347-4D43-A5A2-B20A0DE611FA}" /&gt;&lt;Role Id="{B71B4803-A577-4A56-829E-BBFF6371269F}" /&gt;&lt;Role Id="{391DF185-C346-4D1C-A3D1-C857315A0A3B}" /&gt;&lt;Role Id="{7C9C219E-A3A6-4BEA-A729-D38B57C856CE}" /&gt;&lt;Role Id="{7F2A3A7A-990E-4FB8-926F-E8EF4066859B}" /&gt;&lt;Role Id="{FD90C71F-794D-4401-A4D1-ECA7E0319666}" /&gt;&lt;/DisplayConditions&gt;</processroleassignment>
+  <RunAs>1</RunAs>
+  <UniqueName>smp_workorderbpf</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>3.5.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>msdyn_workorder</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="RES - WO - Work Order BPF" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="BPF on Work Order to represent the current status of the Work Order" />
+  </Descriptions>
+  <labels>
+    <steplabels id="{ee0cc7a1-a2f5-42bd-958c-4608c308275a}">
+      <label languagecode="1033" description="Work Order" />
+    </steplabels>
+    <steplabels id="{ef35dd54-0ae4-4f3e-96a8-aeab0080c738}">
+      <label languagecode="1033" description="Stage" />
+    </steplabels>
+    <steplabels id="{945c95fa-6278-4ec9-ab5c-ab5beeae6485}">
+      <label languagecode="1033" description="Schedule Work Order" />
+    </steplabels>
+    <steplabels id="{524042af-7430-433f-9640-ced4d2032364}">
+      <label languagecode="1033" description="Stage" />
+    </steplabels>
+    <steplabels id="{fbc2c632-4509-4622-a118-0a3c2935e1a0}">
+      <label languagecode="1033" description="Close Work Order" />
+    </steplabels>
+    <steplabels id="{b131a393-165f-4bc9-8cec-46e2bed5b6a3}">
+      <label languagecode="1033" description="Stage" />
+    </steplabels>
+  </labels>
+</Workflow>

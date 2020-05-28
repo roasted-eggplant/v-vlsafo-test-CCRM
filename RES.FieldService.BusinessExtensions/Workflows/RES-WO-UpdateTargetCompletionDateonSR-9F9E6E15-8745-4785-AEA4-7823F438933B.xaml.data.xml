@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{9f9e6e15-8745-4785-aea4-7823f438933b}" Name="RES - WO - Update Target Completion Date on SR">
+  <XamlFileName>/Workflows/RES-WO-UpdateTargetCompletionDateonSR-9F9E6E15-8745-4785-AEA4-7823F438933B.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>0</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnUpdateAttributeList>smp_targetcompletedate,smp_targetcompletion</TriggerOnUpdateAttributeList>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>1</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <UpdateStage>40</UpdateStage>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <PrimaryEntity>msdyn_workorder</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="RES - WO - Update Target Completion Date on SR" />
+  </LocalizedNames>
+</Workflow>

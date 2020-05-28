@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityMaps>
+  <EntityMap>
+    <EntitySource>msdyn_workorder</EntitySource>
+    <EntityTarget>smp_fulfilmentrequestlineitem</EntityTarget>
+    <AttributeMaps>
+      <AttributeMap>
+        <AttributeSource>smp_duedate</AttributeSource>
+        <AttributeTarget>smp_requesteddate</AttributeTarget>
+      </AttributeMap>
+    </AttributeMaps>
+  </EntityMap>
+  <EntityMap>
+    <EntitySource>msdyn_workorder</EntitySource>
+    <EntityTarget>smp_inspection</EntityTarget>
+    <AttributeMaps>
+      <AttributeMap>
+        <AttributeSource>ownerid</AttributeSource>
+        <AttributeTarget>ownerid</AttributeTarget>
+      </AttributeMap>
+    </AttributeMaps>
+  </EntityMap>
+</EntityMaps>

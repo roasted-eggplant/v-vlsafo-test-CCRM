@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{40f80c00-ecee-4f06-899a-aac8b07854bc}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="smp_name" select="1" icon="1" preview="1">
+        <row name="smp_priority" id="smp_priorityid">
+          <cell name="smp_name" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_priority">
+          <attribute name="smp_name" />
+          <order attribute="smp_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="smp_priorityid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Priority Associated View" languagecode="1033" />
+      <LocalizedName description="Visualização associada prioritária" languagecode="1046" />
+      <LocalizedName description="Vista asociada de prioridad" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

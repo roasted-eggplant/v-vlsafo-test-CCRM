@@ -1,0 +1,4 @@
+CCRM.REFFS.Plugins.dll
+CCRM.REF.TelemetryLog.dll
+Microsoft.Crm.Sdk.Proxy.dll
+MSBuild.AutoILMerge.Task.dll

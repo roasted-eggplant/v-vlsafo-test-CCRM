@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{94b5c091-c479-e211-90bd-08002700f46f}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_name" select="1" preview="1" icon="1">
+        <row name="result" id="smp_buildingannouncementid">
+          <cell name="smp_name" width="200" />
+          <cell name="smp_name_fr_fr" width="200" />
+          <cell name="smp_announcement" width="150" disableSorting="1" />
+          <cell name="smp_announcement_fr_fr" width="300" disableSorting="1" />
+          <cell name="smp_buildingid" width="100" />
+          <cell name="smp_expirationdate" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="smp_buildingannouncement">
+          <order attribute="smp_name" descending="false" />
+          <attribute name="smp_announcement_fr_fr" />
+          <attribute name="smp_name_fr_fr" />
+          <attribute name="smp_announcement" />
+          <attribute name="smp_expirationdate" />
+          <attribute name="smp_buildingid" />
+          <attribute name="smp_name" />
+          <attribute name="smp_buildingannouncementid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Building Announcement - With Translations" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="bpf_msdyn_workorder_smp_workorderbpf" />
+  <EntityRelationship Name="business_unit_msdyn_agreementbookingsetup" />
+  <EntityRelationship Name="business_unit_msdyn_incidenttype" />
+  <EntityRelationship Name="lk_msdyn_agreementbookingsetup_createdby" />
+  <EntityRelationship Name="lk_msdyn_agreementbookingsetup_modifiedby" />
+  <EntityRelationship Name="lk_msdyn_incidenttype_createdby" />
+  <EntityRelationship Name="lk_msdyn_incidenttype_modifiedby" />
+  <EntityRelationship Name="lk_smp_workorderbpf_activestageid" />
+  <EntityRelationship Name="lk_smp_workorderbpf_createdby" />
+  <EntityRelationship Name="lk_smp_workorderbpf_modifiedby" />
+  <EntityRelationship Name="lk_smp_workorderbpf_processid" />
+  <EntityRelationship Name="msdyn_bookableresource_msdyn_agreementbookingsetup_PreferredResource" />
+  <EntityRelationship Name="msdyn_msdyn_agreement_msdyn_agreementbookingsetup_Agreement" />
+  <EntityRelationship Name="msdyn_msdyn_priority_msdyn_agreementbookingsetup_Priority" />
+  <EntityRelationship Name="msdyn_msdyn_workordertype_msdyn_agreementbookingsetup_WorkOrderType" />
+  <EntityRelationship Name="msdyn_msdyn_workordertype_msdyn_incidenttype_DefaultWorkOrderType" />
+  <EntityRelationship Name="organization_smp_workorderbpf" />
+  <EntityRelationship Name="owner_msdyn_agreementbookingsetup" />
+  <EntityRelationship Name="owner_msdyn_incidenttype" />
+  <EntityRelationship Name="smp_knowledgearticle_msdyn_agreementbookingsetup_KnowledgeArticle" />
+  <EntityRelationship Name="smp_msdyn_customerasset_msdyn_agreementbookin" />
+  <EntityRelationship Name="smp_smp_inspectiontype_msdyn_incidenttype" />
+  <EntityRelationship Name="smp_smp_procedure_msdyn_agreementbookingsetup" />
+  <EntityRelationship Name="smp_smp_procedure_msdyn_workorder" />
+  <EntityRelationship Name="team_msdyn_agreementbookingsetup" />
+  <EntityRelationship Name="team_msdyn_incidenttype" />
+  <EntityRelationship Name="user_msdyn_agreementbookingsetup" />
+  <EntityRelationship Name="user_msdyn_incidenttype" />
+</EntityRelationships>

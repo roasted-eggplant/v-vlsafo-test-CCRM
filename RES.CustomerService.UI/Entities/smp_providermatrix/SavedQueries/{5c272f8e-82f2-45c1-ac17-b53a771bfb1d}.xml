@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{5c272f8e-82f2-45c1-ac17-b53a771bfb1d}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_name" select="1" icon="1" preview="1">
+        <row name="result" id="smp_providermatrixid">
+          <cell name="createdon" width="125" />
+          <cell name="smp_buildingid" width="100" />
+          <cell name="smp_primaryproviderid" width="100" />
+          <cell name="smp_problemclassid" width="100" />
+          <cell name="smp_problemtypeid" width="100" />
+          <cell name="smp_secondaryproviderid" width="100" />
+          <cell name="statecode" width="100" />
+          <cell name="statuscode" width="100" />
+          <cell name="smp_tertiaryproviderid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_providermatrix">
+          <attribute name="createdon" />
+          <order attribute="createdon" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="smp_tertiaryproviderid" />
+          <attribute name="statuscode" />
+          <attribute name="statecode" />
+          <attribute name="smp_secondaryproviderid" />
+          <attribute name="smp_problemtypeid" />
+          <attribute name="smp_problemclassid" />
+          <attribute name="smp_primaryproviderid" />
+          <attribute name="smp_buildingid" />
+          <attribute name="smp_providermatrixid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Provider Matrix" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

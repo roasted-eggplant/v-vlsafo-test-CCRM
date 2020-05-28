@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{d522d706-b563-e211-895a-000c2959f9b8}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msdyn_name" select="1" preview="1" icon="1">
+        <row name="result" id="msdyn_purchaseorderproductid">
+          <cell name="msdyn_name" width="150" />
+          <cell name="msdyn_quantity" width="100" />
+          <cell name="smp_vendor" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="msdyn_purchaseorderproduct">
+          <order attribute="msdyn_name" descending="false" />
+          <attribute name="msdyn_name" />
+          <attribute name="msdyn_quantity" />
+          <attribute name="smp_vendor" />
+          <attribute name="msdyn_purchaseorderproductid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>3.1.0.3</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Purchase Requisition Products Subgrid - Purchase Requisition Products (default view)" languagecode="1033" />
+      <LocalizedName description="Sous-grille des produits de réception de bon de commande : produits de bon de commande (vue par défaut)" languagecode="1036" />
+      <LocalizedName description="PurchaseOrderReceipt 製品サブグリッド - 発注書の製品 (既定のビュー)" languagecode="1041" />
+      <LocalizedName description="PurchaseOrderReceipt 제품 하위 표 - 구매 주문 제품(기본 보기)" languagecode="1042" />
+      <LocalizedName description="Sub-grade de Requisição de Compra de Produtos - Requisição de Compra de Produtos (Visualização Padrão)" languagecode="1046" />
+      <LocalizedName description="PurchaseOrderReceipt 产品子网格 - 采购订单产品(默认视图)" languagecode="2052" />
+      <LocalizedName description="Subgrelha de Produtos de PurchaseOrderReceipt - Produtos da Nota de Encomenda (vista predefinida)" languagecode="2070" />
+      <LocalizedName description="Subcuadrícula de productos PurchaseOrderReceipt: productos de pedidos de compra (vista predeterminada)" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="For PurchaseOrderReceiptProducts Subgrid" languagecode="1033" />
+      <Description description="Pour la sous-grille PurchaseOrderReceiptProducts" languagecode="1036" />
+      <Description description="PurchaseOrderReceiptProducts サブグリッド用" languagecode="1041" />
+      <Description description="PurchaseOrderReceiptProducts 하위 표의 경우" languagecode="1042" />
+      <Description description="Para Recebimento de Pedido de Compra de Sub-grade de Produtos" languagecode="1046" />
+      <Description description="对于 PurchaseOrderReceiptProducts 子网格" languagecode="2052" />
+      <Description description="Para a Subgrelha de PurchaseOrderReceiptProducts" languagecode="2070" />
+      <Description description="Para la subcuadrícula Productos de recibo de pedido de compra" languagecode="3082" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

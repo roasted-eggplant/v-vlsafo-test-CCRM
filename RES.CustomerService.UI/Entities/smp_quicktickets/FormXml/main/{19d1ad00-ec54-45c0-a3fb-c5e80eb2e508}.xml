@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{19d1ad00-ec54-45c0-a3fb-c5e80eb2e508}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{1ca012c2-4882-4622-9429-035a27bf1973}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="true" showbar="true" IsUserDefined="0" id="{3a14f096-a20c-4d67-9202-54c90a74fc27}" name="{3a14f096-a20c-4d67-9202-54c90a74fc27}" columns="11" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{40553c2e-8123-ed57-1849-6620b75209a9}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Quick Ticket Name" languagecode="1033" />
+                        </labels>
+                        <control id="smp_quickticketname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_quickticketname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ec4f1aa2-6cb4-4cf6-8f7c-ffd69cc2dd47}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="smp_description" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c146e327-520a-cc1a-574a-c47666514c49}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Building" languagecode="1033" />
+                        </labels>
+                        <control id="smp_buildingid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_buildingid" disabled="false" />
+                      </cell>
+                      <cell id="{f319e27f-9904-440d-aaa7-b16f6ba7516e}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{44653144-434a-bb90-893a-41d7578584d5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Room Type" languagecode="1033" />
+                        </labels>
+                        <control id="smp_roomtypeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_roomtypeid" disabled="false" />
+                      </cell>
+                      <cell id="{b2a56639-c4c4-1a42-4306-ac9e19e22147}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Problem Type" languagecode="1033" />
+                        </labels>
+                        <control id="smp_problemtypeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_problemtypeid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{26bd8837-3495-68ae-8a20-20a331879eb3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Is Master Record" languagecode="1033" />
+                        </labels>
+                        <control id="smp_ismasterrecord" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="smp_ismasterrecord" disabled="false" />
+                      </cell>
+                      <cell id="{c09dc503-470c-811d-5de1-c49571bc1bd7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Select Problem Type" languagecode="1033" />
+                        </labels>
+                        <control id="smp_selectproblemtype" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="smp_selectproblemtype" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{1ca012c2-4882-4622-9429-035a27bf1973}_section_2" showlabel="true" showbar="true" locklevel="0" id="{3d3b60e3-87a2-4ce4-7c38-21d0c0ba1584}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" height="auto" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b4ccc90c-4417-3c45-bdcc-4849990b1840}" showlabel="false" rowspan="5" auto="true" colspan="2" locklevel="0">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row height="auto"></row>
+                  </rows>
+                </section>
+                <section name="{1ca012c2-4882-4622-9429-035a27bf1973}_section_3" showlabel="true" showbar="true" locklevel="0" id="{9342cd2a-88a9-2ac3-4e00-58a673077a24}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Translations" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{37693499-2e7d-a681-d953-131a4a0eee23}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Quick Ticket Name - French - France" languagecode="1033" />
+                        </labels>
+                        <control id="smp_quickticketname_fr_fr" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_quickticketname_fr_fr" disabled="false" />
+                      </cell>
+                      <cell id="{e299544d-3dac-7b78-b134-337c57619765}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Quick Ticket Name - Japanese – Japan" languagecode="1033" />
+                        </labels>
+                        <control id="smp_quickticketname_ja_jp" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_quickticketname_ja_jp" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{22873d23-0658-3191-ce55-1c511d757356}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Quick Ticket Name - Korean – Korea" languagecode="1033" />
+                        </labels>
+                        <control id="smp_quickticketname_ko_kr" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_quickticketname_ko_kr" disabled="false" />
+                      </cell>
+                      <cell id="{4dc2edab-92c5-025c-e805-650e9252ce94}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Quick Ticket Name - Mandarin – Mainland China" languagecode="1033" />
+                        </labels>
+                        <control id="smp_quickticketname_zh_cn" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_quickticketname_zh_cn" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e0d416e2-ec87-157a-89d7-ea65eebc8dc3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Quick Ticket Name - Portuguese – Portugal" languagecode="1033" />
+                        </labels>
+                        <control id="smp_quickticketname_pt_pt" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_quickticketname_pt_pt" disabled="false" />
+                      </cell>
+                      <cell id="{8ba5b5be-8e54-b493-6b59-cb63916455ed}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Quick Ticket Name - Spanish – Mexico" languagecode="1033" />
+                        </labels>
+                        <control id="smp_quickticketname_es_mx" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_quickticketname_es_mx" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3b36e39c-137d-69c4-2197-01ce4e662989}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Description - French - France" languagecode="1033" />
+                        </labels>
+                        <control id="smp_description_fr_fr" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_description_fr_fr" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{71a1de89-26a4-4239-ed1a-264b6d549560}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Description - Japanese – Japan" languagecode="1033" />
+                        </labels>
+                        <control id="smp_description_ja_jp" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_description_ja_jp" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3d6a0776-68d5-c735-8ea7-9073d73c116c}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Description - Korean – Korea" languagecode="1033" />
+                        </labels>
+                        <control id="smp_description_ko_kr" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_description_ko_kr" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{184653e5-06be-0a68-82c5-6345776456c6}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Description - Mandarin – Mainland China" languagecode="1033" />
+                        </labels>
+                        <control id="smp_description_zh_cn" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_description_zh_cn" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{130555db-326b-8a8c-027c-61abae519863}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Description - Portuguese – Portugal" languagecode="1033" />
+                        </labels>
+                        <control id="smp_description_pt_pt" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_description_pt_pt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3d728891-0620-4898-b953-a6154eb4ab55}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Description - Spanish – Mexico" languagecode="1033" />
+                        </labels>
+                        <control id="smp_description_es_mx" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_description_es_mx" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{b2f8682a-488c-416d-b16f-072b9cae0fbe}">
+        <rows>
+          <row>
+            <cell id="{18799118-4248-47e1-bb1e-91e11e6d15c5}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control id="footer_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Processes" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

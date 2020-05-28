@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{33782284-0987-4ecb-ad44-49a742e634fb}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400">
+      <tabs>
+        <tab id="{c48ff946-7e00-4899-8b91-e57598a0ef2d}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{ac8bfa88-7b62-46df-8146-ca676ce924ce}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="BUILDING DETAILS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{bc120cce-96b3-de96-826b-ae333547dc43}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Ownership Type" languagecode="1033" />
+                        </labels>
+                        <control id="smp_ownershiptype" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_ownershiptype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9d6b6131-3e34-0ee0-b3bb-69622565465a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Lease Indicator" languagecode="1033" />
+                        </labels>
+                        <control id="smp_leaseindicator" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="smp_leaseindicator" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{21aa47ac-c18b-b6c1-9cc5-737174043c57}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Property Type" languagecode="1033" />
+                        </labels>
+                        <control id="smp_propertytype" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_propertytype" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Building Details" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

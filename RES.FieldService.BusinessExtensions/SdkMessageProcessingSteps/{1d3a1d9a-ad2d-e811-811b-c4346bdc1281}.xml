@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="CCRM.REFFS.Plugins.UpdateNotesFormSRToWO: Create of annotation" SdkMessageProcessingStepId="{1d3a1d9a-ad2d-e811-811b-c4346bdc1281}">
+  <PluginTypeName>CCRM.REFFS.Plugins.UpdateNotesFormSRToWO, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f</PluginTypeName>
+  <PluginTypeId>a1776a27-9c76-e811-811a-3863bb355d28</PluginTypeId>
+  <PrimaryEntity>annotation</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>CCRM.REFFS.Plugins.UpdateNotesFormSRToWO: Create of annotation</Description>
+  <FilteringAttributes></FilteringAttributes>
+  <ImpersonatingUserIdName>REF UAT Account #</ImpersonatingUserIdName>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{9ebdbb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

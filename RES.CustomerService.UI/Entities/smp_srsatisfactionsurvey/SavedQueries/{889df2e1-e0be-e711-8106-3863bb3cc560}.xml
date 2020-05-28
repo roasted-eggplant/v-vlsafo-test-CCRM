@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{889df2e1-e0be-e711-8106-3863bb3cc560}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_name" select="1" icon="1" preview="1">
+        <row name="result" id="smp_srsatisfactionsurveyid">
+          <cell name="a_25cc23cd3574e21190bd08002700f46f.ticketnumber" width="100" disableSorting="1" />
+          <cell name="createdon" width="125" />
+          <cell name="smp_thetechniciancompletedtheworkontime" width="100" />
+          <cell name="smp_thetechniciancompletedtheworkrightthefirs" width="100" />
+          <cell name="smp_itwaseasytorequestservice" width="100" />
+          <cell name="smp_courteousservicewasreceivedfromthecustom" width="100" />
+          <cell name="smp_overallsatisfaction" width="100" />
+          <cell name="smp_pleaseprovideanyadditionalcommentsyoumayh" width="100" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_srsatisfactionsurvey">
+          <attribute name="createdon" />
+          <order attribute="createdon" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="smp_completedon" operator="last-year" />
+          </filter>
+          <link-entity alias="a_25cc23cd3574e21190bd08002700f46f" name="incident" from="incidentid" to="smp_servicerequest" link-type="outer" visible="false">
+            <attribute name="ticketnumber" />
+          </link-entity>
+          <attribute name="smp_thetechniciancompletedtheworkrightthefirs" />
+          <attribute name="smp_thetechniciancompletedtheworkontime" />
+          <attribute name="smp_itwaseasytorequestservice" />
+          <attribute name="smp_courteousservicewasreceivedfromthecustom" />
+          <attribute name="smp_overallsatisfaction" />
+          <attribute name="smp_pleaseprovideanyadditionalcommentsyoumayh" />
+          <attribute name="smp_srsatisfactionsurveyid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active SR Satisfaction Surveys in the last Year" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Auto generated view to filter feedback to the last year.  Can be modified safely" languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

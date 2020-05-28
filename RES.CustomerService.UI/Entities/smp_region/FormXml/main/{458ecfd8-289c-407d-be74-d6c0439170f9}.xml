@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{458ecfd8-289c-407d-be74-d6c0439170f9}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{42c90d87-3190-4013-976f-f4777b228b8a}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{4262779a-c04d-4b85-8ee5-1279f5f31634}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{00b0acda-3ea4-4d48-be3f-786dccd1a799}">
+                        <labels>
+                          <label description="Region Name" languagecode="1033" />
+                        </labels>
+                        <control id="smp_regionname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_regionname" />
+                      </cell>
+                      <cell id="{977b7b46-e43b-697d-3015-2789decdad3a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Company" languagecode="1033" />
+                        </labels>
+                        <control id="smp_companyid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_companyid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ad51e356-5f36-45bf-ad1e-0480b9ca6da5}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                      <cell id="{1e3701b5-16e1-ba07-1d1e-e2b7c6d799dc}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{e2018be7-267c-4bd5-912e-705cec38aa04}">
+        <rows>
+          <row>
+            <cell id="{afc4fc4d-62bd-446b-aa16-f6cfbd4c493f}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control id="footer_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Processes" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <formLibraries>
+        <Library name="smp_JSON" libraryUniqueId="{95281813-3914-43e9-0ab7-d14b94a57356}" />
+        <Library name="smp_script" libraryUniqueId="{93c0d06d-046d-8cdd-1c87-c1e61489a554}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="RetrieveAndSetCompanyName" libraryName="smp_script" handlerUniqueId="{10351ab8-9d0d-1cd5-adc4-3d4842d7d005}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

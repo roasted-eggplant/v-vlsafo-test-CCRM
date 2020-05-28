@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="msdyn_bookableresource_msdyn_agreementbookingsetup_PreferredResource">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IntroducedVersion>6.0.3.0</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>msdyn_agreementbookingsetup</ReferencingEntityName>
+    <ReferencedEntityName>BookableResource</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>RemoveLink</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <CascadeRollupView>NoCascade</CascadeRollupView>
+    <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+    <ReferencingAttributeName>msdyn_PreferredResource</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Preferred Resource to booked" languagecode="1033" />
+        <Description description="Recurso preferido que se va a reservar" languagecode="3082" />
+        <Description description="Ressource préférée à réserver" languagecode="1036" />
+        <Description description="予約される優先リソースです" languagecode="1041" />
+        <Description description="예약되는 선호 리소스" languagecode="1042" />
+        <Description description="Recurso Preferencial a reservar" languagecode="2070" />
+        <Description description="要预订的首选资源" languagecode="2052" />
+      </Descriptions>
+    </RelationshipDescription>
+    <EntityRelationshipRoles>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>UseCollectionName</NavPaneDisplayOption>
+        <NavPaneArea>Details</NavPaneArea>
+        <NavPaneOrder>10000</NavPaneOrder>
+        <NavigationPropertyName>msdyn_preferredresource</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="" languagecode="1033" />
+          <CustomLabel description="" languagecode="3082" />
+          <CustomLabel description="" languagecode="1036" />
+          <CustomLabel description="" languagecode="1041" />
+          <CustomLabel description="" languagecode="1042" />
+          <CustomLabel description="" languagecode="2070" />
+          <CustomLabel description="" languagecode="2052" />
+        </CustomLabels>
+        <RelationshipRoleType>1</RelationshipRoleType>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <RelationshipRoleType>0</RelationshipRoleType>
+      </EntityRelationshipRole>
+    </EntityRelationshipRoles>
+  </EntityRelationship>
+</EntityRelationships>

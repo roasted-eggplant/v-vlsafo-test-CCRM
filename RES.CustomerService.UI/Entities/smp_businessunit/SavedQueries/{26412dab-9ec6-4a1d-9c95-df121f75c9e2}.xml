@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{26412dab-9ec6-4a1d-9c95-df121f75c9e2}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_businessunitname" select="1" icon="1" preview="1">
+        <row name="result" id="smp_businessunitid">
+          <cell name="smp_businessunitname" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_businessunit">
+          <attribute name="smp_businessunitname" />
+          <attribute name="createdon" />
+          <order attribute="smp_businessunitname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="smp_businessunitname" operator="like" value="{0}" />
+          </filter>
+          <attribute name="smp_businessunitid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Business Units" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

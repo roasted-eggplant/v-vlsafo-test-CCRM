@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{55f2f3b4-a087-4256-823c-1c6b3eed9df1}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{d3e89a35-bf3d-4e91-a54c-f3e9f6f76dd2}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{324153c9-d87b-42a6-9933-2c1bc1832d95}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{942a268b-b71c-9e1c-d4ca-e80116dd83ac}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Start Hours" languagecode="1033" />
+                        </labels>
+                        <control id="smp_starthours" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="smp_starthours" disabled="false" />
+                      </cell>
+                      <cell id="{158257c7-34d2-dd2c-70d9-813a24b370c7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="End Hours" languagecode="1033" />
+                        </labels>
+                        <control id="smp_endhours" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="smp_endhours" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0a38e1b1-eacb-0253-3730-3b566d8c20a3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Is Financial State Campus" languagecode="1033" />
+                        </labels>
+                        <control id="smp_isfinancialstatecampus" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="smp_isfinancialstatecampus" disabled="false" />
+                      </cell>
+                      <cell id="{3169299c-ad6a-b9cc-c7c5-3a653018b454}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Problem Class" languagecode="1033" />
+                        </labels>
+                        <control id="smp_problemclassid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_problemclassid" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{F6B82D26-B835-4A35-B453-18C5CD4E042E}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{12c5dead-5c2d-0a1d-9037-643da1b47dd9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Problem Type" languagecode="1033" />
+                        </labels>
+                        <control id="smp_problemtypeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_problemtypeid" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{93772127-420B-4244-9DCA-D61C8FED7AFD}</DefaultViewId>
+                            <FilterRelationshipName>smp_smp_problemclass_smp_problemtype_ProblemClass</FilterRelationshipName>
+                            <DependentAttributeName>smp_slamatrix.smp_problemclassid</DependentAttributeName>
+                            <DependentAttributeType>smp_problemclass</DependentAttributeType>
+                            <AllowFilterOff>true</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{8765ba9e-6958-ca30-9b10-8b1753e5759b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Zone" languagecode="1033" />
+                        </labels>
+                        <control id="smp_zone" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="smp_zone" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e37a4947-34eb-6885-e582-e5aaa88889ec}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Priority" languagecode="1033" />
+                        </labels>
+                        <control id="smp_priorityid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_priorityid" disabled="false" />
+                      </cell>
+                      <cell id="{bfc47e6e-1e8c-4b2a-9c2e-6ae6c60307e0}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{82546678-5bab-4da1-a9f9-7db13d434a76}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="smp_description" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_description" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{91c9bd1c-340b-4f33-9e86-c372e4c34d2f}">
+        <rows>
+          <row>
+            <cell id="{4861b27c-6115-41a0-9aa4-d36542fc4be4}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control id="footer_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Processes" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <formLibraries>
+        <Library name="smp_script" libraryUniqueId="{8ea71638-0009-14b1-2dd8-9c41416aa158}" />
+      </formLibraries>
+      <events>
+        <event name="onchange" application="false" active="false" attribute="smp_problemclassid">
+          <Handlers>
+            <Handler functionName="ProblemClassOnchange" libraryName="smp_script" handlerUniqueId="{35dc2aa6-b4bc-4c5a-8794-db097e4bc76d}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

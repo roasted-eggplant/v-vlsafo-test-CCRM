@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="organization_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IsCustomizable>1</IsCustomizable>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39</ReferencingEntityName>
+    <ReferencedEntityName>Organization</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>NoCascade</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <ReferencingAttributeName>OrganizationId</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Unique identifier for the organization" languagecode="1033" />
+        <Description description="组织的唯一标识符" languagecode="2052" />
+        <Description description="Identificateur unique de l'organisation" languagecode="1036" />
+        <Description description="組織を表す一意識別子です" languagecode="1041" />
+        <Description description="조직의 고유 식별자" languagecode="1042" />
+        <Description description="Identificador exclusivo da organização" languagecode="2070" />
+        <Description description="Identificador único de la organización" languagecode="3082" />
+      </Descriptions>
+    </RelationshipDescription>
+  </EntityRelationship>
+</EntityRelationships>

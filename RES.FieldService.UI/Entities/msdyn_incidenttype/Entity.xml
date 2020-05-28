@@ -1,0 +1,941 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Incident Type" OriginalName="Incident Type">msdyn_incidenttype</Name>
+  <EntityInfo>
+    <entity Name="msdyn_incidenttype">
+      <LocalizedNames>
+        <LocalizedName description="Incident Type" languagecode="1033" />
+        <LocalizedName description="Tipo de incidente" languagecode="3082" />
+        <LocalizedName description="Type d'incident" languagecode="1036" />
+        <LocalizedName description="インシデントの種類" languagecode="1041" />
+        <LocalizedName description="문제 유형" languagecode="1042" />
+        <LocalizedName description="Tipo de Incidente" languagecode="2070" />
+        <LocalizedName description="事件类型" languagecode="2052" />
+      </LocalizedNames>
+      <LocalizedCollectionNames>
+        <LocalizedCollectionName description="Incident Types" languagecode="1033" />
+        <LocalizedCollectionName description="Tipos de incidente" languagecode="3082" />
+        <LocalizedCollectionName description="Types d'incident" languagecode="1036" />
+        <LocalizedCollectionName description="インシデントの種類" languagecode="1041" />
+        <LocalizedCollectionName description="문제 유형" languagecode="1042" />
+        <LocalizedCollectionName description="Tipos de Incidente" languagecode="2070" />
+        <LocalizedCollectionName description="事件类型" languagecode="2052" />
+      </LocalizedCollectionNames>
+      <Descriptions>
+        <Description description="Incident types define the various types of incidents (issues) that a customer could report, on which work orders are based." languagecode="1033" />
+        <Description description="Los tipos de incidente definen los diversos tipos de incidentes (problemas) que un cliente puede notificar, en los que se basan las órdenes de trabajo." languagecode="3082" />
+        <Description description="Les types d'incident définissent les différents types d'incidents (problèmes) qu'un client doit signaler, et sur lesquels les ordres de travail se fondent." languagecode="1036" />
+        <Description description="インシデントの種類では、顧客が報告する可能性のあるさまざまな種類のインシデント (問題) を定義します。これらのインシデントに基づいて作業指示書を作成します。" languagecode="1041" />
+        <Description description="문제 유형은 작업 주문이 기반으로 하는, 고객이 보고할 수 있는 문제의 다양한 유형을 정의합니다." languagecode="1042" />
+        <Description description="Tipos de incidente define os diversos tipos de incidente (problema) que um cliente pode reportar, no qual se baseiam as ordens de intervenção." languagecode="2070" />
+        <Description description="事件类型定义客户可报告的各种类型的事件(问题)，工作订单将基于这些类型。" languagecode="2052" />
+      </Descriptions>
+      <attributes>
+        <attribute PhysicalName="CreatedBy">
+          <Type>lookup</Type>
+          <Name>createdby</Name>
+          <LogicalName>createdby</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForReadApi>1</ValidForReadApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Created By" languagecode="1033" />
+            <displayname description="创建者" languagecode="2052" />
+            <displayname description="Créé par" languagecode="1036" />
+            <displayname description="作成者" languagecode="1041" />
+            <displayname description="만든 사람" languagecode="1042" />
+            <displayname description="Criado Por" languagecode="2070" />
+            <displayname description="Autor" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier of the user who created the record." languagecode="1033" />
+            <Description description="创建记录的用户的唯一标识符。" languagecode="2052" />
+            <Description description="Identificateur unique de l’utilisateur qui a créé l’enregistrement." languagecode="1036" />
+            <Description description="レコードを作成したユーザーを表す一意識別子です。" languagecode="1041" />
+            <Description description="레코드를 만든 사용자의 고유 식별자입니다." languagecode="1042" />
+            <Description description="Identificador exclusivo do utilizador que criou o registo." languagecode="2070" />
+            <Description description="Identificador único del usuario que creó el registro." languagecode="3082" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="CreatedOnBehalfBy">
+          <Type>lookup</Type>
+          <Name>createdonbehalfby</Name>
+          <LogicalName>createdonbehalfby</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForReadApi>1</ValidForReadApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Created By (Delegate)" languagecode="1033" />
+            <displayname description="创建者(代理)" languagecode="2052" />
+            <displayname description="Créé par (délégué)" languagecode="1036" />
+            <displayname description="作成者 (代理)" languagecode="1041" />
+            <displayname description="만든 사람(대리인)" languagecode="1042" />
+            <displayname description="Criado Por (Delegado)" languagecode="2070" />
+            <displayname description="Creado por (delegado)" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Shows who created the record on behalf of another user." languagecode="1033" />
+            <Description description="显示代表其他用户创建记录的人员。" languagecode="2052" />
+            <Description description="Affiche l'utilisateur qui a créé l'enregistrement pour un autre utilisateur." languagecode="1036" />
+            <Description description="別のユーザーに代わってレコードを作成したユーザーを表示します。" languagecode="1041" />
+            <Description description="다른 사용자 대신 레코드를 만든 사람을 표시합니다." languagecode="1042" />
+            <Description description="Mostra quem criou o registo em nome de outro utilizador." languagecode="2070" />
+            <Description description="Muestra quién creó el registro en nombre de otro usuario." languagecode="3082" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="ModifiedBy">
+          <Type>lookup</Type>
+          <Name>modifiedby</Name>
+          <LogicalName>modifiedby</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForReadApi>1</ValidForReadApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Modified By" languagecode="1033" />
+            <displayname description="修改者" languagecode="2052" />
+            <displayname description="Modifié par" languagecode="1036" />
+            <displayname description="修正者" languagecode="1041" />
+            <displayname description="수정한 사람" languagecode="1042" />
+            <displayname description="Modificado Por" languagecode="2070" />
+            <displayname description="Modificado por" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier of the user who modified the record." languagecode="1033" />
+            <Description description="修改记录的用户的唯一标识符。" languagecode="2052" />
+            <Description description="Identificateur unique de l'utilisateur qui a modifié l'enregistrement." languagecode="1036" />
+            <Description description="レコードを修正したユーザーを表す一意識別子です。" languagecode="1041" />
+            <Description description="레코드를 수정한 사용자의 고유 식별자입니다." languagecode="1042" />
+            <Description description="Identificador exclusivo do utilizador que modificou o registo." languagecode="2070" />
+            <Description description="Identificador único del usuario que modificó el registro." languagecode="3082" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="ModifiedOnBehalfBy">
+          <Type>lookup</Type>
+          <Name>modifiedonbehalfby</Name>
+          <LogicalName>modifiedonbehalfby</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForReadApi>1</ValidForReadApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Modified By (Delegate)" languagecode="1033" />
+            <displayname description="修改者(代理)" languagecode="2052" />
+            <displayname description="Modifié par (délégué)" languagecode="1036" />
+            <displayname description="修正者 (代理)" languagecode="1041" />
+            <displayname description="수정한 사람(대리인)" languagecode="1042" />
+            <displayname description="Modificado Por (Delegado)" languagecode="2070" />
+            <displayname description="Modificado por (delegado)" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Shows who last updated the record on behalf of another user." languagecode="1033" />
+            <Description description="显示上次代表其他用户更新记录的人员。" languagecode="2052" />
+            <Description description="Affiche la personne à l'origine de la dernière mise à jour de l'enregistrement pour un autre utilisateur." languagecode="1036" />
+            <Description description="別のユーザーに代わってレコードを最後に更新したユーザーを表示します。" languagecode="1041" />
+            <Description description="다른 사용자 대신 레코드를 마지막으로 업데이트한 사람을 표시합니다." languagecode="1042" />
+            <Description description="Mostra quem foi a última pessoa a atualizar o registo em nome de outro utilizador." languagecode="2070" />
+            <Description description="Muestra quién actualizó el registro en nombre de otro usuario por última vez." languagecode="3082" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="msdyn_CopyIncidentItemstoAgreement">
+          <Type>bit</Type>
+          <Name>msdyn_copyincidentitemstoagreement</Name>
+          <LogicalName>msdyn_copyincidentitemstoagreement</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>6.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="msdyn_incidenttype_msdyn_copyincidentitemstoagreement">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>6.2.0.342</IntroducedVersion>
+            <displaynames>
+              <displayname description="Copy Incident Items to Agreement" languagecode="1033" />
+              <displayname description="Copier les éléments d'incident dans le contrat" languagecode="1036" />
+              <displayname description="インシデント項目を契約にコピー" languagecode="1041" />
+              <displayname description="계약에 문제 항목 복사" languagecode="1042" />
+              <displayname description="将事件项复制到协议" languagecode="2052" />
+              <displayname description="Copiar Itens de Incidente para Contrato" languagecode="2070" />
+              <displayname description="Copiar elementos de incidentes al acuerdo" languagecode="3082" />
+            </displaynames>
+            <Descriptions>
+              <Description description="" languagecode="1033" />
+              <Description description="" languagecode="1036" />
+              <Description description="" languagecode="1041" />
+              <Description description="" languagecode="1042" />
+              <Description description="" languagecode="2052" />
+              <Description description="" languagecode="2070" />
+              <Description description="" languagecode="3082" />
+            </Descriptions>
+            <options>
+              <option value="0" Color="#0000ff">
+                <labels>
+                  <label description="No" languagecode="1033" />
+                  <label description="Não" languagecode="1046" />
+                  <label description="No" languagecode="3082" />
+                  <label description="Non" languagecode="1036" />
+                  <label description="いいえ" languagecode="1041" />
+                  <label description="아니요" languagecode="1042" />
+                  <label description="否" languagecode="2052" />
+                  <label description="Não" languagecode="2070" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="" languagecode="3082" />
+                </Descriptions>
+              </option>
+              <option value="1" Color="#0000ff">
+                <labels>
+                  <label description="Yes" languagecode="1033" />
+                  <label description="Sim" languagecode="1046" />
+                  <label description="Sí" languagecode="3082" />
+                  <label description="Oui" languagecode="1036" />
+                  <label description="はい" languagecode="1041" />
+                  <label description="예" languagecode="1042" />
+                  <label description="是" languagecode="2052" />
+                  <label description="Sim" languagecode="2070" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="" languagecode="3082" />
+                </Descriptions>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Copy Incident Items to Agreement" languagecode="1033" />
+            <displayname description="Copier les éléments d'incident dans le contrat" languagecode="1036" />
+            <displayname description="インシデント項目を契約にコピー" languagecode="1041" />
+            <displayname description="계약에 문제 항목 복사" languagecode="1042" />
+            <displayname description="将事件项复制到协议" languagecode="2052" />
+            <displayname description="Copiar Itens de Incidente para Contrato" languagecode="2070" />
+            <displayname description="Copiar elementos de incidentes al acuerdo" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
+            <Description description="" languagecode="1041" />
+            <Description description="" languagecode="1042" />
+            <Description description="" languagecode="2052" />
+            <Description description="" languagecode="2070" />
+            <Description description="" languagecode="3082" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="OwnerId">
+          <Type>owner</Type>
+          <Name>ownerid</Name>
+          <LogicalName>ownerid</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>1</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes>
+            <LookupType id="00000000-0000-0000-0000-000000000000">8</LookupType>
+            <LookupType id="00000000-0000-0000-0000-000000000000">9</LookupType>
+          </LookupTypes>
+          <displaynames>
+            <displayname description="Owner" languagecode="1033" />
+            <displayname description="负责人" languagecode="2052" />
+            <displayname description="Propriétaire" languagecode="1036" />
+            <displayname description="所有者" languagecode="1041" />
+            <displayname description="담당자" languagecode="1042" />
+            <displayname description="Proprietário" languagecode="2070" />
+            <displayname description="Propietario" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Owner Id" languagecode="1033" />
+            <Description description="负责人 ID" languagecode="2052" />
+            <Description description="ID du propriétaire" languagecode="1036" />
+            <Description description="所有者 ID です" languagecode="1041" />
+            <Description description="담당자 Id" languagecode="1042" />
+            <Description description="ID do Proprietário" languagecode="2070" />
+            <Description description="Id. del propietario" languagecode="3082" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="OwningBusinessUnit">
+          <Type>lookup</Type>
+          <Name>owningbusinessunit</Name>
+          <LogicalName>owningbusinessunit</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <ImeMode>auto</ImeMode>
+          <ValidForReadApi>1</ValidForReadApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>1</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Owning Business Unit" languagecode="1033" />
+            <displayname description="负责的业务部门" languagecode="2052" />
+            <displayname description="Division propriétaire" languagecode="1036" />
+            <displayname description="所有部署" languagecode="1041" />
+            <displayname description="담당 사업부" languagecode="1042" />
+            <displayname description="Unidade de Negócio Proprietária" languagecode="2070" />
+            <displayname description="Unidad de negocio propietaria" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for the business unit that owns the record" languagecode="1033" />
+            <Description description="负责记录的业务部门的唯一标识符" languagecode="2052" />
+            <Description description="Identificateur unique de la division propriétaire de l'enregistrement" languagecode="1036" />
+            <Description description="レコードを所有する部署を表す一意識別子です" languagecode="1041" />
+            <Description description="레코드를 담당하는 사업부의 고유 식별자" languagecode="1042" />
+            <Description description="Identificador exclusivo da unidade de negócio proprietária do registo" languagecode="2070" />
+            <Description description="Identificador único de la unidad de negocio propietaria del registro" languagecode="3082" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="OwningTeam">
+          <Type>lookup</Type>
+          <Name>owningteam</Name>
+          <LogicalName>owningteam</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <ImeMode>auto</ImeMode>
+          <ValidForReadApi>1</ValidForReadApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsLogical>1</IsLogical>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Owning Team" languagecode="1033" />
+            <displayname description="负责团队" languagecode="2052" />
+            <displayname description="Équipe propriétaire" languagecode="1036" />
+            <displayname description="所有チーム" languagecode="1041" />
+            <displayname description="담당 팀" languagecode="1042" />
+            <displayname description="Equipa Proprietária" languagecode="2070" />
+            <displayname description="Equipo propietario" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for the team that owns the record." languagecode="1033" />
+            <Description description="负责记录的团队的唯一标识符。" languagecode="2052" />
+            <Description description="Identificateur unique de l’équipe à qui appartient l’enregistrement." languagecode="1036" />
+            <Description description="レコードを所有するチームを表す一意識別子です。" languagecode="1041" />
+            <Description description="레코드를 담당하는 팀의 고유 식별자입니다." languagecode="1042" />
+            <Description description="Identificador exclusivo da equipa proprietária do registo." languagecode="2070" />
+            <Description description="Identificador único del equipo propietario del registro." languagecode="3082" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="OwningUser">
+          <Type>lookup</Type>
+          <Name>owninguser</Name>
+          <LogicalName>owninguser</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <ImeMode>auto</ImeMode>
+          <ValidForReadApi>1</ValidForReadApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsLogical>1</IsLogical>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Owning User" languagecode="1033" />
+            <displayname description="负责用户" languagecode="2052" />
+            <displayname description="Utilisateur propriétaire" languagecode="1036" />
+            <displayname description="所有ユーザー" languagecode="1041" />
+            <displayname description="담당 사용자" languagecode="1042" />
+            <displayname description="Utilizador Proprietário" languagecode="2070" />
+            <displayname description="Usuario propietario" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for the user that owns the record." languagecode="1033" />
+            <Description description="负责记录的用户的唯一标识符。" languagecode="2052" />
+            <Description description="Identificateur unique de l'utilisateur propriétaire de l'enregistrement." languagecode="1036" />
+            <Description description="レコードを所有するユーザーを表す一意識別子です。" languagecode="1041" />
+            <Description description="레코드를 담당하는 사용자의 고유 식별자입니다." languagecode="1042" />
+            <Description description="Identificador exclusivo do utilizador proprietário do registo." languagecode="2070" />
+            <Description description="Identificador único del usuario propietario del registro." languagecode="3082" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_AllowonAgreement">
+          <Type>bit</Type>
+          <Name>smp_allowonagreement</Name>
+          <LogicalName>smp_allowonagreement</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="smp_msdyn_incidenttype_smp_allowonagreement">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Allow on Agreement" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="0" Color="#0000ff">
+                <labels>
+                  <label description="No" languagecode="1033" />
+                  <label description="Não" languagecode="1046" />
+                  <label description="No" languagecode="3082" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="" languagecode="3082" />
+                </Descriptions>
+              </option>
+              <option value="1" Color="#0000ff">
+                <labels>
+                  <label description="Yes" languagecode="1033" />
+                  <label description="Sim" languagecode="1046" />
+                  <label description="Sí" languagecode="3082" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="" languagecode="3082" />
+                </Descriptions>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Allow on Agreement" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_AllowonSR">
+          <Type>bit</Type>
+          <Name>smp_allowonsr</Name>
+          <LogicalName>smp_allowonsr</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="smp_msdyn_incidenttype_smp_allowonsr">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Allow on SR" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="0" Color="#0000ff">
+                <labels>
+                  <label description="No" languagecode="1033" />
+                  <label description="Não" languagecode="1046" />
+                  <label description="No" languagecode="3082" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="" languagecode="3082" />
+                </Descriptions>
+              </option>
+              <option value="1" Color="#0000ff">
+                <labels>
+                  <label description="Yes" languagecode="1033" />
+                  <label description="Sim" languagecode="1046" />
+                  <label description="Sí" languagecode="3082" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="" languagecode="3082" />
+                </Descriptions>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Allow on SR" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_InspectionTypeId">
+          <Type>lookup</Type>
+          <Name>smp_inspectiontypeid</Name>
+          <LogicalName>smp_inspectiontypeid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Inspection Type" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Inspection Type associated with Incident Type." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="statecode">
+          <Type>state</Type>
+          <Name>statecode</Name>
+          <LogicalName>statecode</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>1</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <optionset Name="msdyn_incidenttype_statecode">
+            <OptionSetType>state</OptionSetType>
+            <IntroducedVersion>6.2.0.342</IntroducedVersion>
+            <displaynames>
+              <displayname description="Status" languagecode="1033" />
+              <displayname description="Statut" languagecode="1036" />
+              <displayname description="状態" languagecode="1041" />
+              <displayname description="상태" languagecode="1042" />
+              <displayname description="状态" languagecode="2052" />
+              <displayname description="Estado" languagecode="2070" />
+              <displayname description="Estado" languagecode="3082" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Status of the Incident Type" languagecode="1033" />
+              <Description description="Statut du type d'incident" languagecode="1036" />
+              <Description description="インシデントの種類の状態です" languagecode="1041" />
+              <Description description="문제 유형 상태" languagecode="1042" />
+              <Description description="事件类型的状态" languagecode="2052" />
+              <Description description="Estado do Tipo de Incidente" languagecode="2070" />
+              <Description description="Estado del tipo de incidente" languagecode="3082" />
+            </Descriptions>
+            <states>
+              <state value="0" defaultstatus="1" invariantname="Active">
+                <labels>
+                  <label description="Active" languagecode="1033" />
+                  <label description="Ativo" languagecode="1046" />
+                  <label description="Activo" languagecode="3082" />
+                  <label description="Actif" languagecode="1036" />
+                  <label description="アクティブ" languagecode="1041" />
+                  <label description="활성" languagecode="1042" />
+                  <label description="可用" languagecode="2052" />
+                  <label description="Ativo" languagecode="2070" />
+                </labels>
+              </state>
+              <state value="1" defaultstatus="2" invariantname="Inactive">
+                <labels>
+                  <label description="Inactive" languagecode="1033" />
+                  <label description="Inativo" languagecode="1046" />
+                  <label description="Inactivo" languagecode="3082" />
+                  <label description="Inactif" languagecode="1036" />
+                  <label description="非アクティブ" languagecode="1041" />
+                  <label description="비활성" languagecode="1042" />
+                  <label description="停用" languagecode="2052" />
+                  <label description="Inativo" languagecode="2070" />
+                </labels>
+              </state>
+            </states>
+          </optionset>
+          <displaynames>
+            <displayname description="Status" languagecode="1033" />
+            <displayname description="Statut" languagecode="1036" />
+            <displayname description="状態" languagecode="1041" />
+            <displayname description="상태" languagecode="1042" />
+            <displayname description="状态" languagecode="2052" />
+            <displayname description="Estado" languagecode="2070" />
+            <displayname description="Estado" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Status of the Incident Type" languagecode="1033" />
+            <Description description="Statut du type d'incident" languagecode="1036" />
+            <Description description="インシデントの種類の状態です" languagecode="1041" />
+            <Description description="문제 유형 상태" languagecode="1042" />
+            <Description description="事件类型的状态" languagecode="2052" />
+            <Description description="Estado do Tipo de Incidente" languagecode="2070" />
+            <Description description="Estado del tipo de incidente" languagecode="3082" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="statuscode">
+          <Type>status</Type>
+          <Name>statuscode</Name>
+          <LogicalName>statuscode</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <optionset Name="msdyn_incidenttype_statuscode">
+            <OptionSetType>status</OptionSetType>
+            <IntroducedVersion>6.2.0.342</IntroducedVersion>
+            <displaynames>
+              <displayname description="Status Reason" languagecode="1033" />
+              <displayname description="Raison du statut" languagecode="1036" />
+              <displayname description="状態の理由" languagecode="1041" />
+              <displayname description="상태 설명" languagecode="1042" />
+              <displayname description="状态描述" languagecode="2052" />
+              <displayname description="Razão do Estado" languagecode="2070" />
+              <displayname description="Razón para el estado" languagecode="3082" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Reason for the status of the Incident Type" languagecode="1033" />
+              <Description description="Raison du statut du type d'incident" languagecode="1036" />
+              <Description description="インシデントの種類の状態の理由です" languagecode="1041" />
+              <Description description="문제 유형 상태에 대한 설명" languagecode="1042" />
+              <Description description="事件类型的状态描述" languagecode="2052" />
+              <Description description="Razão para o estado do Tipo de Incidente" languagecode="2070" />
+              <Description description="Razón para el estado del tipo de incidente" languagecode="3082" />
+            </Descriptions>
+            <statuses>
+              <status value="1" state="0">
+                <labels>
+                  <label description="Active" languagecode="1033" />
+                  <label description="Ativo" languagecode="1046" />
+                  <label description="Activo" languagecode="3082" />
+                  <label description="Actif" languagecode="1036" />
+                  <label description="アクティブ" languagecode="1041" />
+                  <label description="활성" languagecode="1042" />
+                  <label description="可用" languagecode="2052" />
+                  <label description="Ativo" languagecode="2070" />
+                </labels>
+              </status>
+              <status value="2" state="1">
+                <labels>
+                  <label description="Inactive" languagecode="1033" />
+                  <label description="Inativo" languagecode="1046" />
+                  <label description="Inactivo" languagecode="3082" />
+                  <label description="Inactif" languagecode="1036" />
+                  <label description="非アクティブ" languagecode="1041" />
+                  <label description="비활성" languagecode="1042" />
+                  <label description="停用" languagecode="2052" />
+                  <label description="Inativo" languagecode="2070" />
+                </labels>
+              </status>
+            </statuses>
+          </optionset>
+          <displaynames>
+            <displayname description="Status Reason" languagecode="1033" />
+            <displayname description="Raison du statut" languagecode="1036" />
+            <displayname description="状態の理由" languagecode="1041" />
+            <displayname description="상태 설명" languagecode="1042" />
+            <displayname description="状态描述" languagecode="2052" />
+            <displayname description="Razão do Estado" languagecode="2070" />
+            <displayname description="Razón para el estado" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Reason for the status of the Incident Type" languagecode="1033" />
+            <Description description="Raison du statut du type d'incident" languagecode="1036" />
+            <Description description="インシデントの種類の状態の理由です" languagecode="1041" />
+            <Description description="문제 유형 상태에 대한 설명" languagecode="1042" />
+            <Description description="事件类型的状态描述" languagecode="2052" />
+            <Description description="Razão para o estado do Tipo de Incidente" languagecode="2070" />
+            <Description description="Razón para el estado del tipo de incidente" languagecode="3082" />
+          </Descriptions>
+        </attribute>
+      </attributes>
+      <EntitySetName>msdyn_incidenttypes</EntitySetName>
+      <IsDuplicateCheckSupported>1</IsDuplicateCheckSupported>
+      <IsBusinessProcessEnabled>0</IsBusinessProcessEnabled>
+      <IsRequiredOffline>0</IsRequiredOffline>
+      <IsInteractionCentricEnabled>0</IsInteractionCentricEnabled>
+      <IsCollaboration>0</IsCollaboration>
+      <AutoRouteToOwnerQueue>0</AutoRouteToOwnerQueue>
+      <IsConnectionsEnabled>0</IsConnectionsEnabled>
+      <EntityColor></EntityColor>
+      <IsDocumentManagementEnabled>0</IsDocumentManagementEnabled>
+      <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
+      <IsKnowledgeManagementEnabled>0</IsKnowledgeManagementEnabled>
+      <IsSLAEnabled>0</IsSLAEnabled>
+      <IsDocumentRecommendationsEnabled>0</IsDocumentRecommendationsEnabled>
+      <IsBPFEntity>0</IsBPFEntity>
+      <OwnershipTypeMask>UserOwned</OwnershipTypeMask>
+      <IsAuditEnabled>1</IsAuditEnabled>
+      <IsRetrieveAuditEnabled>0</IsRetrieveAuditEnabled>
+      <IsRetrieveMultipleAuditEnabled>0</IsRetrieveMultipleAuditEnabled>
+      <IsActivity>0</IsActivity>
+      <ActivityTypeMask>CommunicationActivity</ActivityTypeMask>
+      <IsActivityParty>0</IsActivityParty>
+      <IsReplicated>0</IsReplicated>
+      <IsReplicationUserFiltered>0</IsReplicationUserFiltered>
+      <IsMailMergeEnabled>0</IsMailMergeEnabled>
+      <IsVisibleInMobile>0</IsVisibleInMobile>
+      <IsVisibleInMobileClient>0</IsVisibleInMobileClient>
+      <IsReadOnlyInMobileClient>0</IsReadOnlyInMobileClient>
+      <IsOfflineInMobileClient>0</IsOfflineInMobileClient>
+      <DaysSinceRecordLastModified>0</DaysSinceRecordLastModified>
+      <MobileOfflineFilters></MobileOfflineFilters>
+      <IsMapiGridEnabled>1</IsMapiGridEnabled>
+      <IsReadingPaneEnabled>0</IsReadingPaneEnabled>
+      <IsQuickCreateEnabled>0</IsQuickCreateEnabled>
+      <SyncToExternalSearchIndex>0</SyncToExternalSearchIndex>
+      <IntroducedVersion>3.1.0.3</IntroducedVersion>
+      <IconMediumName>msdyn_/Icons/Entity/Incident_32/_imgs/NavBar/Invisible.gif</IconMediumName>
+      <IconSmallName>msdyn_/Icons/Entity/Incident_16.png</IconSmallName>
+      <EnforceStateTransitions>0</EnforceStateTransitions>
+      <EntityHelpUrlEnabled>1</EntityHelpUrlEnabled>
+      <EntityHelpUrl>http://go.microsoft.com/fwlink/?LinkId=773453</EntityHelpUrl>
+      <ChangeTrackingEnabled>1</ChangeTrackingEnabled>
+      <IsEnabledForExternalChannels>0</IsEnabledForExternalChannels>
+      <IsSolutionAware>0</IsSolutionAware>
+      <HasRelatedNotes>True</HasRelatedNotes>
+    </entity>
+  </EntityInfo>
+  <FormXml />
+  <SavedQueries />
+  <RibbonDiffXml />
+</Entity>

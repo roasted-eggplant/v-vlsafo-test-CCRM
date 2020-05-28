@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{4f2f6a85-816a-e611-8106-00155db8820b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msdyn_name" select="1" preview="1" icon="1">
+        <row name="result" id="msdyn_customerassetid">
+          <cell name="msdyn_name" width="150" />
+          <cell name="msdyn_account" width="100" />
+          <cell name="msdyn_product" width="100" />
+          <cell name="msdyn_parentasset" width="100" />
+          <cell name="createdon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="msdyn_customerasset">
+          <attribute name="msdyn_name" />
+          <attribute name="msdyn_product" />
+          <attribute name="msdyn_parentasset" />
+          <attribute name="createdon" />
+          <attribute name="msdyn_account" />
+          <order attribute="createdon" descending="true" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="msdyn_registrationstatus" operator="eq" value="192350003" />
+          </filter>
+          <attribute name="msdyn_customerassetid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Registered Assets" languagecode="1033" />
+      <LocalizedName description="Actifs inscrits actifs" languagecode="1036" />
+      <LocalizedName description="アクティブな登録済み資産" languagecode="1041" />
+      <LocalizedName description="등록된 활성 자산" languagecode="1042" />
+      <LocalizedName description="Ativos registrados ativos" languagecode="1046" />
+      <LocalizedName description="可用已注册资产" languagecode="2052" />
+      <LocalizedName description="Ativos Registados Ativos" languagecode="2070" />
+      <LocalizedName description="Activos registrados activos" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

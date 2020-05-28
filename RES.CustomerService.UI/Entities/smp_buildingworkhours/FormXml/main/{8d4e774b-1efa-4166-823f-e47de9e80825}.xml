@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{8d4e774b-1efa-4166-823f-e47de9e80825}</formid>
+    <IntroducedVersion>3.0.0.14</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{96929e8c-4cb4-41f1-9d51-49447d02d257}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{88d240fd-18e9-43a9-9098-4020e133f66a}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{67a9c3b2-bad2-d358-0823-b3ea758163c3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Start Hours" languagecode="1033" />
+                        </labels>
+                        <control id="smp_starthours" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="smp_starthours" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{13262c58-b965-27aa-9a3a-d9609489a928}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="End Hours" languagecode="1033" />
+                        </labels>
+                        <control id="smp_endhours" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="smp_endhours" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6c37ee15-6319-be19-c015-1b2329251282}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Building" languagecode="1033" />
+                        </labels>
+                        <control id="smp_buildingid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_buildingid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{36c464ed-9ef9-4cd5-b186-ca3e574f2009}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="smp_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{04e1932c-ab23-4c37-9149-65cea4b818b2}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%">
+              <sections>
+                <section showlabel="false" showbar="false" id="{eac53920-b2ff-4652-a463-070851897d2b}" IsUserDefined="0" height="auto">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" rowspan="15" auto="false" id="{b4775441-fbca-45c2-852f-54005ef73de7}">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}">
+                          <parameters>
+                            <DefaultTabId>NotesTab</DefaultTabId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row height="auto"></row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

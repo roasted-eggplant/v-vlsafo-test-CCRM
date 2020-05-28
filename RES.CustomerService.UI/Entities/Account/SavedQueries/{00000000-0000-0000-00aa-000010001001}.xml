@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{00000000-0000-0000-00aa-000010001001}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" icon="1" preview="1">
+        <row name="result" id="accountid">
+          <cell name="name" width="300" />
+          <cell name="telephone1" width="100" />
+          <cell name="address1_city" width="100" />
+          <cell name="primarycontactid" width="150" />
+          <cell name="a_fe9401b589c84fd0abe83f930dd80966.emailaddress1" width="150" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="account">
+          <attribute name="name" />
+          <attribute name="address1_city" />
+          <attribute name="primarycontactid" />
+          <attribute name="telephone1" />
+          <order attribute="name" descending="false" />
+          <filter type="and">
+            <condition attribute="ownerid" operator="eq-userid" />
+            <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="smp_accounttype" operator="eq" value="180620001" />
+          </filter>
+          <link-entity name="contact" from="contactid" to="primarycontactid" visible="false" link-type="outer" alias="a_fe9401b589c84fd0abe83f930dd80966">
+            <attribute name="emailaddress1" />
+          </link-entity>
+          <attribute name="accountid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="My Active Providers" languagecode="1033" />
+      <LocalizedName description="Mes comptes actifs" languagecode="1036" />
+      <LocalizedName description="自分のアクティブな取引先企業" languagecode="1041" />
+      <LocalizedName description="내 활성 거래처" languagecode="1042" />
+      <LocalizedName description="Minhas Contas Ativas" languagecode="1046" />
+      <LocalizedName description="我的可用客户" languagecode="2052" />
+      <LocalizedName description="As Minhas Contas Ativas" languagecode="2070" />
+      <LocalizedName description="Mis cuentas activas" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

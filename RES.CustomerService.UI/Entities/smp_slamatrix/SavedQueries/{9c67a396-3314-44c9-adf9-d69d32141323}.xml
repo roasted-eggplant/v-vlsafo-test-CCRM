@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{9c67a396-3314-44c9-adf9-d69d32141323}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="smp_description" select="1" icon="1" preview="0">
+        <row name="smp_slamatrix" id="smp_slamatrixid">
+          <cell name="smp_description" width="300" />
+          <cell name="smp_problemclassid" width="100" />
+          <cell name="smp_problemtypeid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_slamatrix">
+          <attribute name="smp_slamatrixid" />
+          <attribute name="smp_description" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="smp_description" descending="false" />
+          <attribute name="smp_problemtypeid" />
+          <attribute name="smp_problemclassid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="SLA Matrix Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

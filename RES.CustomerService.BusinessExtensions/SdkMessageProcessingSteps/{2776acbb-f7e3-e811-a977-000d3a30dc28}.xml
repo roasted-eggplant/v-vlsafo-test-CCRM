@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="CCRM.REF.OptimizedPlugins.PostUpdateSRUpdateDynNotes: Update of incident" SdkMessageProcessingStepId="{2776acbb-f7e3-e811-a977-000d3a30dc28}">
+  <PluginTypeName>CCRM.REF.OptimizedPlugins.PostUpdateSRUpdateDynNotes, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126</PluginTypeName>
+  <PluginTypeId>ee990456-938e-459e-a208-2692f7c618b4</PluginTypeId>
+  <PrimaryEntity>incident</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>CCRM.REF.OptimizedPlugins.PostUpdateSRUpdateDynNotes: Update of incident</Description>
+  <FilteringAttributes>smp_problembuilding,smp_problemclassid,smp_problemtypeid</FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{20bebb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages>
+    <SdkMessageProcessingStepImage Name="PostImage">
+      <SdkMessageProcessingStepImageId>{636056f6-f7e3-e811-a96a-000d3a30da4f}</SdkMessageProcessingStepImageId>
+      <Attributes>smp_createdfrom,smp_portalsubmit,smp_problembuilding,smp_problemclassid,smp_problemtypeid,smp_referencesr,caseorigincode,statuscode</Attributes>
+      <EntityAlias>PostImage</EntityAlias>
+      <ImageType>1</ImageType>
+      <MessagePropertyName>Target</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+  </SdkMessageProcessingStepImages>
+</SdkMessageProcessingStep>

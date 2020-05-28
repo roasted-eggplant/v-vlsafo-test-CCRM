@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="smp_itemgroup" localizedName="Item Group" description="Item grouping of Field Service Inventory Products">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Item Group" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="Item grouping of Field Service Inventory Products" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="180620000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="AV Systems" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620001" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="BMS" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620002" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Cable" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="100000004" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Carpentry" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620003" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Chemical &amp; Consumable" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620004" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Construction" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620005" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Critical Spare" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620006" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Decoration" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620029" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="DG" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="Diesel Generator" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620007" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Digi Sys" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620008" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Electrical" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620009" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Ergo Furniture" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620010" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="F&amp;B" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620011" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Fire Systems" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="100000001" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Fruits" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620012" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Furniture" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="100000002" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="HK" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620028" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Housekeeping" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620013" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="HVAC" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620014" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Janitorial" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620015" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Keys/Access" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620016" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Lighting" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620017" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Other" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620018" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Painting" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="100000000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Pantry" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620019" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Plumbing" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620020" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Safety" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620021" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Signage" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620027" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Sports" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620022" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Stationary" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620024" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Structural" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620025" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Supplies" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620023" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Tools" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620026" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Vehicles" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{e0dee15d-7264-4326-8eb2-9773eefded5d}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msdyn_name" select="1" icon="1" preview="1">
+        <row name="result" id="msdyn_incidenttypeid">
+          <cell name="msdyn_name" width="200" />
+          <cell name="msdyn_estimatedduration" width="125" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msdyn_incidenttype">
+          <attribute name="msdyn_name" />
+          <attribute name="createdon" />
+          <order attribute="msdyn_name" descending="false" />
+          <attribute name="msdyn_estimatedduration" />
+          <attribute name="msdyn_incidenttypeid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>3.1.0.3</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Incident Type Advanced Find View" languagecode="1033" />
+      <LocalizedName description="Vue Recherche avancée Type d'incident" languagecode="1036" />
+      <LocalizedName description="インシデントの種類の高度な検索ビュー" languagecode="1041" />
+      <LocalizedName description="문제 유형 상세하게 찾기 보기" languagecode="1042" />
+      <LocalizedName description="Visualização de Localização do Tipo de Incidente" languagecode="1046" />
+      <LocalizedName description="事件类型高级查找视图" languagecode="2052" />
+      <LocalizedName description="Vista Localização Avançada de Tipos de Incidente" languagecode="2070" />
+      <LocalizedName description="Vista de búsqueda avanzada de tipos de incidentes" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

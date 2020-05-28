@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{cf76fac4-9a6e-436b-aa64-3a160eabb0c4}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msdyn_name" select="1" icon="1" preview="1">
+        <row name="result" id="msdyn_workorderproductid">
+          <cell name="msdyn_product" width="150" />
+          <cell name="msdyn_description" width="300" disableSorting="1" />
+          <cell name="msdyn_quantity" width="100" />
+          <cell name="msdyn_qtytobill" width="100" />
+          <cell name="msdyn_totalamount" width="100" />
+          <cell name="msdyn_linestatus" width="100" />
+          <cell name="createdon" width="125" />
+          <cell name="statecode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msdyn_workorderproduct">
+          <attribute name="createdon" />
+          <order attribute="createdon" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="msdyn_totalamount" />
+          <attribute name="msdyn_qtytobill" />
+          <attribute name="msdyn_quantity" />
+          <attribute name="msdyn_product" />
+          <attribute name="msdyn_linestatus" />
+          <attribute name="msdyn_description" />
+          <attribute name="msdyn_workorderproductid" />
+          <attribute name="statecode" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>3.1.0.3</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Work Order Products" languagecode="1033" />
+      <LocalizedName description="Produits d'ordres de travail inactifs" languagecode="1036" />
+      <LocalizedName description="非アクティブな作業指示書製品" languagecode="1041" />
+      <LocalizedName description="비활성 작업 주문 제품" languagecode="1042" />
+      <LocalizedName description="Produtos de ordem de serviço inativos" languagecode="1046" />
+      <LocalizedName description="停用的工作订单产品" languagecode="2052" />
+      <LocalizedName description="Produtos da Ordem de Intervenção Inativa" languagecode="2070" />
+      <LocalizedName description="Productos de orden de trabajo inactivos" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

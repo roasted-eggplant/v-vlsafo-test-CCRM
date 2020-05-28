@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{c4398499-b242-e111-9bb9-00155d28960b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msdyn_name" select="1" preview="1" icon="1">
+        <row name="result" id="msdyn_workorderid">
+          <cell name="msdyn_priority" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msdyn_serviceaccount" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msdyn_workordertype" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msdyn_primaryincidenttype" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msdyn_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_room" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_roomtype" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ownerid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_requestorname" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msdyn_servicerequest" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msdyn_workordersummary" width="200" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_dynamicproblemtypenotes" width="300" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_duedatebybuildingtimezone" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="msdyn_workorder">
+          <attribute name="msdyn_name" />
+          <attribute name="createdon" />
+          <order attribute="msdyn_priority" descending="false" />
+          <order attribute="createdon" descending="false" />
+          <filter type="and">
+            <condition attribute="msdyn_systemstatus" operator="eq" value="690970000" />
+            <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="ownerid" operator="eq-useroruserteams" />
+          </filter>
+          <attribute name="msdyn_workordertype" />
+          <attribute name="smp_room" />
+          <attribute name="smp_requestorname" />
+          <attribute name="msdyn_priority" />
+          <attribute name="msdyn_primaryincidenttype" />
+          <attribute name="ownerid" />
+          <attribute name="smp_roomtype" />
+          <attribute name="msdyn_servicerequest" />
+          <attribute name="msdyn_workordersummary" />
+          <attribute name="smp_dynamicproblemtypenotes" />
+          <attribute name="msdyn_serviceaccount" />
+          <attribute name="smp_duedatebybuildingtimezone" />
+          <attribute name="msdyn_workorderid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>3.1.0.3</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Unscheduled Work Orders" languagecode="1033" />
+      <LocalizedName description="Ordres de travail non planifiés" languagecode="1036" />
+      <LocalizedName description="スケジュールなしの作業指示書" languagecode="1041" />
+      <LocalizedName description="예약 취소된 작업 주문" languagecode="1042" />
+      <LocalizedName description="Ordens de serviço não programadas" languagecode="1046" />
+      <LocalizedName description="未计划的工作订单" languagecode="2052" />
+      <LocalizedName description="Ordens de Intervenção com Agendamento Anulado" languagecode="2070" />
+      <LocalizedName description="Órdenes de trabajo sin programar" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Please do not delete (required for schedule board)" languagecode="1033" />
+      <Description description="Merci de ne pas supprimer (obligatoire pour le tableau de planification)" languagecode="1036" />
+      <Description description="削除しないでください (スケジュール ボードに必要です)" languagecode="1041" />
+      <Description description="삭제하지 마십시오(일정 게시판에 필요)." languagecode="1042" />
+      <Description description="Por favor, não exclua (necessário para o quadro de horários)" languagecode="1046" />
+      <Description description="请不要删除(日程安排板必需的)" languagecode="2052" />
+      <Description description="Não elimine (necessário para o quadro da agenda)" languagecode="2070" />
+      <Description description="No lo elimine (es necesario para el tablero de programación)" languagecode="3082" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

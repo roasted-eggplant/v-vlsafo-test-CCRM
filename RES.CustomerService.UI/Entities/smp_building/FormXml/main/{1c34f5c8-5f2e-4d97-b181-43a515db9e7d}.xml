@@ -1,0 +1,610 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{1c34f5c8-5f2e-4d97-b181-43a515db9e7d}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1900">
+      <tabs>
+        <tab id="{bd3a00a4-d07f-495c-8a2e-59d21ae69f48}" IsUserDefined="1" verticallayout="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Geral" languagecode="1046" />
+            <label description="General" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{e1ef819d-81b3-4893-86e0-2ab0c45c55a9}" name="{e1ef819d-81b3-4893-86e0-2ab0c45c55a9}" IsUserDefined="0" celllabelposition="Left" celllabelalignment="Left" labelwidth="115" locklevel="0" columns="11" showbar="true" showlabel="true">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Geral" languagecode="1046" />
+                    <label description="General" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{59e37629-5827-4085-9db2-cb0fca2a551d}">
+                        <labels>
+                          <label description="Building Name" languagecode="1033" />
+                          <label description="nome do edifício" languagecode="1046" />
+                          <label description="Nombre del edificio" languagecode="3082" />
+                        </labels>
+                        <control id="smp_buildingname" datafieldname="smp_buildingname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" />
+                      </cell>
+                      <cell id="{74c65769-cbd6-099e-156a-59976c13c55b}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Address Line 2" languagecode="1033" />
+                          <label description="endereço linha 2" languagecode="1046" />
+                          <label description="Dirección Linea 2" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="smp_addressline2" datafieldname="smp_addressline2" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b8c3d889-2c43-0401-8969-3a8711134db0}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Address Line 1" languagecode="1033" />
+                          <label description="Endereço Linha 1" languagecode="1046" />
+                          <label description="Dirección Linea 1" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="smp_addressline1" datafieldname="smp_addressline1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" />
+                      </cell>
+                      <cell id="{94286be4-8742-c480-557b-b6430ee082a0}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="State" languagecode="1033" />
+                          <label description="Estado" languagecode="1046" />
+                          <label description="Estado" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="smp_state" datafieldname="smp_state" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c67b1b26-c35c-c53e-2861-4a3bd7e97a64}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="City" languagecode="1033" />
+                          <label description="Cidade" languagecode="1046" />
+                          <label description="Ciudad" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="smp_city" datafieldname="smp_city" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" />
+                      </cell>
+                      <cell id="{9c527172-540d-ed20-6690-6952a6bcb99a}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Zipcode" languagecode="1033" />
+                          <label description="Código postal" languagecode="1046" />
+                          <label description="Codigo Postal" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="smp_zipcode" datafieldname="smp_zipcode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{29d7e005-c303-a729-2726-6ed591c0996b}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Country" languagecode="1033" />
+                          <label description="País" languagecode="1046" />
+                          <label description="Pais" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="smp_country" datafieldname="smp_country" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" />
+                      </cell>
+                      <cell id="{52a29314-15e9-79d3-4de2-d0aee0a3ed57}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Is Financial State Campus" languagecode="1033" />
+                          <label description="É o Campus do Estado Financeiro" languagecode="1046" />
+                          <label description="Es el campus del estado financiero" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="smp_isfinancialstatecampus" datafieldname="smp_isfinancialstatecampus" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{62021301-8933-333e-d12d-ec5492be8305}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Is Campus" languagecode="1033" />
+                          <label description="É Campus" languagecode="1046" />
+                          <label description="Es campus" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="smp_iscampus" datafieldname="smp_iscampus" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" />
+                      </cell>
+                      <cell id="{1a6a1526-d08e-14bc-adbe-737ce741a899}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Time Zone" languagecode="1033" />
+                          <label description="Fuso horário" languagecode="1046" />
+                          <label description="Zona horaria" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="smp_timezoneid" datafieldname="smp_timezoneid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A8D00474-F47B-42F8-A68F-98C0C549CCCA}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dc271cb7-a409-0777-9d0c-0791a7565b3d}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Fiscal Region" languagecode="1033" />
+                          <label description="Região Fiscal" languagecode="1046" />
+                          <label description="Región fiscal" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="smp_fiscalregionid" datafieldname="smp_fiscalregionid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" />
+                      </cell>
+                      <cell id="{024cb527-9586-8ad5-bbdd-a86c0a307279}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Fiscal Country" languagecode="1033" />
+                          <label description="País Fiscal" languagecode="1046" />
+                          <label description="País fiscal" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="smp_fiscalcountryid" datafieldname="smp_fiscalcountryid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dc944c23-dd8a-0616-9b25-6d43acce631d}" locklevel="0" showlabel="true" visible="false">
+                        <labels>
+                          <label description="Is Saturday Holiday" languagecode="1033" />
+                          <label description="É feriado de sábado" languagecode="1046" />
+                          <label description="Es sábado feriado" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="smp_issaturdayholiday" datafieldname="smp_issaturdayholiday" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" />
+                      </cell>
+                      <cell id="{f439ffcf-1ba2-4cfb-95cc-329b6b86bc5b}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Proprietário" languagecode="1046" />
+                          <label description="Propietario" languagecode="3082" />
+                        </labels>
+                        <control id="ownerid" datafieldname="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" uniqueid="{14d55188-2698-45bb-8773-736ad57cca08}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7c00a332-cbe9-0a96-5010-6bb953a446aa}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Allow Email Notification" languagecode="1033" />
+                          <label description="允许电子邮件通知" languagecode="2052" />
+                          <label description="Autoriser la notification par courrier électronique" languagecode="1036" />
+                          <label description="電子メール通知を許可する" languagecode="1041" />
+                          <label description="이메일 알림 허용" languagecode="1042" />
+                          <label description="Permitir Notificação Email" languagecode="2070" />
+                          <label description="Permitir notificación por correo electrónico" languagecode="3082" />
+                          <label description="Permitir notificação por email" languagecode="1046" />
+                        </labels>
+                        <control disabled="false" id="smp_buildinglevelemailnotification" datafieldname="smp_buildinglevelemailnotification" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" uniqueid="{67767397-a74e-64b6-c88e-a1e7545ed7da}" />
+                      </cell>
+                      <cell id="{2ac34211-0b0c-dcd5-c33a-b0b20a595e4d}" locklevel="0" showlabel="true" visible="false">
+                        <labels>
+                          <label description="Is Sunday Holiday" languagecode="1033" />
+                          <label description="É feriado de domingo" languagecode="1046" />
+                          <label description="Es domingo feriado" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="smp_issundayholiday" datafieldname="smp_issundayholiday" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" uniqueid="{96d2a27d-b21b-b33d-5068-127d816342e6}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{665e57d5-e006-5e86-5dbc-4a561a764847}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Fiscal Sub Region" languagecode="1033" />
+                          <label description="Sub-região fiscal" languagecode="1046" />
+                          <label description="Sub región fiscal" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="smp_fiscalsubregionid" datafieldname="smp_fiscalsubregionid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" />
+                      </cell>
+                      <cell id="{c18e1978-dcdd-a05c-a680-674ac5c06dda}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Show On Portal" languagecode="1033" />
+                          <label description="Mostrar no portal" languagecode="1046" />
+                          <label description="Mostrar en el portal" languagecode="3082" />
+                        </labels>
+                        <control id="smp_showonportal" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="smp_showonportal" disabled="false" uniqueid="{ae2ece97-61e9-4979-0072-2656ea33cdab}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{81b0ac3a-4abb-56dd-d527-375e0042aa4c}" locklevel="0" showlabel="true" rowspan="6" colspan="2">
+                        <labels>
+                          <label description="Building Info" languagecode="1033" />
+                          <label description="Informações do edifício" languagecode="1046" />
+                          <label description="Informacion del edificio" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="smp_buildinginfo" datafieldname="smp_buildinginfo" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{1470392c-98ad-5a64-d499-4ebbd642e413}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Rational Sort Key" languagecode="1033" />
+                          <label description="Chave de classificação racional" languagecode="1046" />
+                          <label description="Clave de ordenación racional" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="smp_rationalsortkey" datafieldname="smp_rationalsortkey" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" />
+                      </cell>
+                      <cell id="{433e4705-e364-0833-8bbb-76363c43d564}" showlabel="false" userspacer="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4e2dd770-6321-3db7-deca-4aa4b18639bd}" showlabel="true" locklevel="0" rowspan="2">
+                        <labels>
+                          <label description="Lease Indicator" languagecode="1033" />
+                          <label description="Indicador de locação" languagecode="1046" />
+                          <label description="Indicador de arrendamiento" languagecode="3082" />
+                        </labels>
+                        <control id="smp_leaseindicator" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="smp_leaseindicator" disabled="false" uniqueid="{42867d0a-b2b5-70a1-3040-2d718122b29e}" />
+                      </cell>
+                      <cell id="{e9bb2cc6-edc1-72e0-d29b-1570a7c67b90}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Property Type" languagecode="1033" />
+                          <label description="Tipo de Propriedade" languagecode="1046" />
+                          <label description="Tipo de propiedad" languagecode="3082" />
+                        </labels>
+                        <control id="smp_propertytype" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_propertytype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b2718851-92c7-9ec7-5759-5db641450438}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Ownership Type" languagecode="1033" />
+                          <label description="Tipo de propriedade" languagecode="1046" />
+                          <label description="Tipo de Propiedad" languagecode="3082" />
+                        </labels>
+                        <control id="smp_ownershiptype" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_ownershiptype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e51aa75a-9dc1-2678-b83c-3c153d7521eb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Proprietário" languagecode="1046" />
+                          <label description="Propietario" languagecode="3082" />
+                        </labels>
+                        <control id="smp_owner" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_owner" disabled="false" />
+                      </cell>
+                      <cell id="{e05abc16-0452-0a86-0846-c3a0731e973b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Longitude" languagecode="1033" />
+                          <label description="Longitude" languagecode="1046" />
+                          <label description="Longitud" languagecode="3082" />
+                        </labels>
+                        <control id="smp_longitude" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="smp_longitude" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e9190655-7383-9dd7-875d-2d191b56a45c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Latitude" languagecode="1033" />
+                          <label description="Latitude" languagecode="1046" />
+                          <label description="Latitud" languagecode="3082" />
+                        </labels>
+                        <control id="smp_latitude" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="smp_latitude" disabled="false" />
+                      </cell>
+                      <cell id="{2ebe70e9-384e-24e4-9950-076ac8d184be}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Tier One Provider" languagecode="1033" />
+                          <label description="Fornecedor de primeiro nível" languagecode="1046" />
+                          <label description="Proveedor de nivel 1" languagecode="3082" />
+                        </labels>
+                        <control id="smp_tieroneprovider" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_tieroneprovider" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{72792b84-bd68-608d-242e-c11276822b77}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Currency" languagecode="1033" />
+                          <label description="Moeda" languagecode="1046" />
+                          <label description="Moneda" languagecode="3082" />
+                        </labels>
+                        <control id="smp_currency" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_currency" disabled="false" />
+                      </cell>
+                      <cell id="{e535058b-8580-849a-e099-8a14a56e65bd}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Site" languagecode="1033" />
+                          <label description="Local" languagecode="1046" />
+                          <label description="Sitio" languagecode="3082" />
+                        </labels>
+                        <control id="smp_site" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_site" disabled="false" uniqueid="{ad2a5b31-22c4-ae6c-a82a-cca730e15791}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ed48a8b1-5102-ad58-0bd9-25c80c121832}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="SiteCode" languagecode="1033" />
+                          <label description="Código do site" languagecode="1046" />
+                          <label description="Codigo de sitio" languagecode="3082" />
+                        </labels>
+                        <control id="smp_sitecode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_sitecode" disabled="false" uniqueid="{38216ec4-2ac7-4465-c9de-ae6e91c7775c}" />
+                      </cell>
+                      <cell id="{ad2b29a4-6d73-4aa5-0759-da4877192e61}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section id="{d38a26ba-1426-959a-c4bc-752ec607a20d}" name="{bd3a00a4-d07f-495c-8a2e-59d21ae69f48}_section_2" IsUserDefined="0" celllabelposition="Left" celllabelalignment="Left" labelwidth="115" locklevel="0" columns="11" showbar="true" showlabel="true" layout="varwidth">
+                  <labels>
+                    <label description="Translations" languagecode="1033" />
+                    <label description="Geral" languagecode="1046" />
+                    <label description="Traducciones" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9c2d8c12-6978-879b-5dde-ab3a4ee1e0c6}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Building Name - French - France" languagecode="1033" />
+                          <label description="Nome do Edifício - Francês - França" languagecode="1046" />
+                          <label description="Nombre del edificio - Frances" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="smp_buildingname_fr_fr" datafieldname="smp_buildingname_fr_fr" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" />
+                      </cell>
+                      <cell id="{d1a87049-d066-217a-ba8a-c431248a3c70}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Building Name - Japanese – Japan" languagecode="1033" />
+                          <label description="Nome do Edifício - Japonês - Japão" languagecode="1046" />
+                          <label description="Nombre del edificio - Japones" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="smp_buildingname_ja_jp" datafieldname="smp_buildingname_ja_jp" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{39e1bb0d-3201-cd0c-3558-651b9867cea1}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Building Name - Korean – Korea" languagecode="1033" />
+                          <label description="Nome do Edifício - Coreano - Coréia" languagecode="1046" />
+                          <label description="Nombre del edificio - Koreano" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="smp_buildingname_ko_kr" datafieldname="smp_buildingname_ko_kr" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" />
+                      </cell>
+                      <cell id="{5bad51e0-1bae-856b-3a1e-43b24e969c98}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Building Name - Mandarin – Mainland China" languagecode="1033" />
+                          <label description="Nome do Edifício - Mandarin - China Continental" languagecode="1046" />
+                          <label description="Nombre del edificio - China" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="smp_buildingname_zh_cn" datafieldname="smp_buildingname_zh_cn" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{eb142272-1b5b-d6ce-abab-157d147d6d12}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Building Name - Portuguese – Portugal" languagecode="1033" />
+                          <label description="Nome do Edifício - Português - Portugal" languagecode="1046" />
+                          <label description="Nombre del edificio - Portugues" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="smp_buildingname_pt_pt" datafieldname="smp_buildingname_pt_pt" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" />
+                      </cell>
+                      <cell id="{5636e268-69e4-1b2e-137b-5d8e6533893b}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Building Name - Spanish – Mexico" languagecode="1033" />
+                          <label description="Nome do Edifício - Espanhol - México" languagecode="1046" />
+                          <label description="Nombre del edificio - México" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="smp_buildingname_es_mx" datafieldname="smp_buildingname_es_mx" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{300254cb-e812-7ec9-9e6b-0ad1b18d27d9}" locklevel="0" showlabel="true" rowspan="4" colspan="2">
+                        <labels>
+                          <label description="Building Info - French - France" languagecode="1033" />
+                          <label description="Informações do edifício - Francês - França" languagecode="1046" />
+                          <label description="Informacion del edificio - Fances" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="smp_buildinginfo_fr_fr" datafieldname="smp_buildinginfo_fr_fr" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{7939acc2-ed24-9dd8-8550-6e69a2a5eb85}" locklevel="0" showlabel="true" rowspan="4" colspan="2">
+                        <labels>
+                          <label description="Building Info - Japanese – Japan" languagecode="1033" />
+                          <label description="Informações do edifício - Japonês - Japão" languagecode="1046" />
+                          <label description="Informacion del edificio - Japones" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="smp_buildinginfo_ja_jp" datafieldname="smp_buildinginfo_ja_jp" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{a95a249c-c30e-4bdc-08a1-a0c8ed00279d}" locklevel="0" showlabel="true" rowspan="4" colspan="2">
+                        <labels>
+                          <label description="Building Info - Korean – Korea" languagecode="1033" />
+                          <label description="Informações do edifício - Coreano - Coréia" languagecode="1046" />
+                          <label description="Informacion del edificio - Koreano" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="smp_buildinginfo_ko_kr" datafieldname="smp_buildinginfo_ko_kr" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{5501295a-93b1-9376-0993-4c91e49d94cd}" locklevel="0" showlabel="true" rowspan="4" colspan="2">
+                        <labels>
+                          <label description="Building Info - Mandarin – Mainland China" languagecode="1033" />
+                          <label description="Informações do edifício - Mandarim - China Continental" languagecode="1046" />
+                          <label description="Informacion del edificio - China" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="smp_buildinginfo_zh_cn" datafieldname="smp_buildinginfo_zh_cn" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{9aa44895-215a-5564-0bcd-bbe5db6a363b}" locklevel="0" showlabel="true" rowspan="4" colspan="2">
+                        <labels>
+                          <label description="Building Info - Portuguese – Portugal" languagecode="1033" />
+                          <label description="Informações do Edifício - Portuguese - Portugal" languagecode="1046" />
+                          <label description="Informacion del edificio - Portugues" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="smp_buildinginfo_pt_pt" datafieldname="smp_buildinginfo_pt_pt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{eb42150e-494c-3973-3195-64647811eebb}" locklevel="0" showlabel="true" rowspan="4" colspan="2">
+                        <labels>
+                          <label description="Building Info - Spanish – Mexico" languagecode="1033" />
+                          <label description="Informações do edifício - Espanhola - México" languagecode="1046" />
+                          <label description="Informacion del edificio - México" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="smp_buildinginfo_es_mx" datafieldname="smp_buildinginfo_es_mx" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{6a72d9a3-6613-4497-b151-28bf49026055}">
+        <rows>
+          <row>
+            <cell id="{0c2d5da3-b926-4353-ba6a-ea8f926ec438}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control id="footer_statecode" datafieldname="statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar>
+          <NavBarByRelationshipItem Id="nav_smp_smp_building_smp_buildingworkhours" Area="Info" Sequence="10001" RelationshipName="smp_smp_building_smp_buildingworkhours">
+            <Titles>
+              <Title Text="Building Work Hours" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="nav_smp_smp_building_smp_holiday" Area="Info" Sequence="10002" RelationshipName="smp_smp_building_smp_holiday">
+            <Titles>
+              <Title Text="Holidays" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="nav_smp_smp_building_smp_problemtypedescription" Area="Info" Sequence="10003" RelationshipName="smp_smp_building_smp_problemtypedescription">
+            <Titles>
+              <Title Text="Dynamic Problem Type Notes" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="nav_smp_smp_building_smp_slamatrix" Area="Info" Sequence="10004" RelationshipName="smp_smp_building_smp_slamatrix">
+            <Titles>
+              <Title Text="SLA Matrix" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="nav_smp_smp_building_contactnnrelation" Area="Info" Sequence="10006" RelationshipName="smp_smp_building_contactnnrelation">
+            <Titles>
+              <Title Text="Contacts" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="nav_smp_smp_roomtype_smp_building" Area="Info" Sequence="10007" RelationshipName="smp_smp_roomtype_smp_building">
+            <Titles>
+              <Title Text="Room Types" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="nav_smp_smp_weekdays_smp_building" Area="Info" Sequence="10008" RelationshipName="smp_smp_weekdays_smp_building">
+            <Titles>
+              <Title Text="Weekends" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="nav_smp_smp_building_contact" Area="Info" Sequence="10009" RelationshipName="smp_smp_building_contact">
+            <Titles>
+              <Title Text="Contacts" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="nav_smp_smp_building_smp_externallinks_Building" Area="Info" Sequence="10010" RelationshipName="smp_smp_building_smp_externallinks_Building">
+            <Titles>
+              <Title Text="External Links" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="nav_smp_smp_building_smp_ineedto" Area="Info" Sequence="10011" RelationshipName="smp_smp_building_smp_ineedto">
+            <Titles>
+              <Title Text="I Need To" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="nav_smp_smp_building_smp_room_Building" Area="Info" Sequence="10012" RelationshipName="smp_smp_building_smp_room_Building" Show="true">
+            <Titles>
+              <Title Text="Rooms" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="nav_smp_smp_building_smp_quicktickets" Area="Info" Sequence="10013" RelationshipName="smp_smp_building_smp_quicktickets">
+            <Titles>
+              <Title Text="Quick Tickets" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="nav_smp_smp_building_smp_providermatrix" Area="Info" Sequence="10014" RelationshipName="smp_smp_building_smp_providermatrix">
+            <Titles>
+              <Title Text="Provider Matrix" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title Text="Common" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title Text="Sales" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title Text="Service" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title Text="Marketing" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title Text="Processes" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <formLibraries>
+        <Library name="smp_script" libraryUniqueId="{c35b677b-c163-6e85-c287-83dd3ce5d9eb}" />
+      </formLibraries>
+      <events>
+        <event name="onchange" application="false" active="false" attribute="smp_showonportal">
+          <Handlers>
+            <Handler functionName="ShowCustomMessage" libraryName="smp_script" handlerUniqueId="{e92bdeac-dd30-e664-590d-a8a133ee4b93}" enabled="true" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Informação" languagecode="1046" />
+      <LocalizedName description="Información" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Um formulário para esta entidade" languagecode="1046" />
+      <Description description="Formulario para esta entidad." languagecode="3082" />
+    </Descriptions>
+  </systemform>
+</forms>

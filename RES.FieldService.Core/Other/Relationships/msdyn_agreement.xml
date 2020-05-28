@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="msdyn_msdyn_agreement_msdyn_agreementbookingsetup_Agreement">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IntroducedVersion>3.1.0.3</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>msdyn_agreementbookingsetup</ReferencingEntityName>
+    <ReferencedEntityName>msdyn_agreement</ReferencedEntityName>
+    <CascadeAssign>Cascade</CascadeAssign>
+    <CascadeDelete>Cascade</CascadeDelete>
+    <CascadeReparent>Cascade</CascadeReparent>
+    <CascadeShare>Cascade</CascadeShare>
+    <CascadeUnshare>Cascade</CascadeUnshare>
+    <CascadeRollupView>NoCascade</CascadeRollupView>
+    <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+    <ReferencingAttributeName>msdyn_Agreement</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="PM Plan this Booking Setup relates to" languagecode="1033" />
+        <Description description="Acuerdo relacionado con esta configuración de reserva" languagecode="3082" />
+        <Description description="Contrat auquel cette configuration de réservation se rapporte" languagecode="1036" />
+        <Description description="この予約設定に関連する契約です" languagecode="1041" />
+        <Description description="이 예약 설정과 관련된 계약" languagecode="1042" />
+        <Description description="Contrato ao qual esta Configuração da Reserva está relacionada" languagecode="2070" />
+        <Description description="此预订设置关联到的协议" languagecode="2052" />
+      </Descriptions>
+    </RelationshipDescription>
+    <EntityRelationshipRoles>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>UseLabel</NavPaneDisplayOption>
+        <NavPaneArea>Details</NavPaneArea>
+        <NavPaneOrder>10000</NavPaneOrder>
+        <NavigationPropertyName>msdyn_agreement</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="Agreement Bookings" languagecode="1033" />
+          <CustomLabel description="Reservas del acuerdo" languagecode="3082" />
+          <CustomLabel description="Réservations du contrat" languagecode="1036" />
+          <CustomLabel description="契約予約" languagecode="1041" />
+          <CustomLabel description="계약 예약" languagecode="1042" />
+          <CustomLabel description="Reservas do Contrato" languagecode="2070" />
+          <CustomLabel description="协议预订" languagecode="2052" />
+          <CustomLabel description="Reserva de contrato" languagecode="1046" />
+        </CustomLabels>
+        <RelationshipRoleType>1</RelationshipRoleType>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <RelationshipRoleType>0</RelationshipRoleType>
+      </EntityRelationshipRole>
+    </EntityRelationshipRoles>
+  </EntityRelationship>
+</EntityRelationships>

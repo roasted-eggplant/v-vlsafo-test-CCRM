@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{17436b04-efe9-e911-a97c-000d3a329dae}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_name" select="1" preview="1" icon="1">
+        <row id="smp_providermatrixid" name="result">
+          <cell name="smp_buildingid" imageproviderwebresource="$webresource:" imageproviderfunctionname="" width="150" />
+          <cell name="smp_problemclassid" imageproviderwebresource="$webresource:" imageproviderfunctionname="" width="200" />
+          <cell name="smp_problemtypeid" imageproviderwebresource="$webresource:" imageproviderfunctionname="" width="300" />
+          <cell name="smp_primaryproviderid" imageproviderwebresource="$webresource:" imageproviderfunctionname="" width="200" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="smp_providermatrix">
+          <attribute name="smp_problemtypeid" />
+          <attribute name="smp_problemclassid" />
+          <attribute name="smp_primaryproviderid" />
+          <attribute name="smp_buildingid" />
+          <order attribute="smp_buildingid" descending="false" />
+          <filter type="and">
+            <condition attribute="smp_fieldserviceteam" operator="null" />
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <link-entity name="account" from="accountid" to="smp_primaryproviderid" alias="aa">
+            <filter type="and">
+              <condition attribute="smp_workorderwithind365" operator="eq" value="1" />
+            </filter>
+          </link-entity>
+          <link-entity name="smp_problemclass" from="smp_problemclassid" to="smp_problemclassid" alias="ab">
+            <filter type="and">
+              <condition attribute="smp_showinportal" operator="eq" value="1" />
+            </filter>
+          </link-entity>
+          <link-entity name="smp_problemtype" from="smp_problemtypeid" to="smp_problemtypeid" alias="ac">
+            <filter type="and">
+              <condition attribute="smp_showinportal" operator="eq" value="1" />
+            </filter>
+          </link-entity>
+          <link-entity name="smp_building" from="smp_buildingid" to="smp_buildingid" alias="ad">
+            <filter type="and">
+              <condition attribute="smp_showonportal" operator="eq" value="1" />
+            </filter>
+          </link-entity>
+          <attribute name="smp_providermatrixid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Provider Matrix with Missing Field Service Teams" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Provider matrix records for active Problem Class/Types where the Provider is enabled for FS but missing a FS team" languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

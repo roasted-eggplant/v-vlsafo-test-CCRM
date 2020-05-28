@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{93772127-420b-4244-9dca-d61c8fed7afd}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="smp_problemtypename" select="1" icon="1" preview="0">
+        <row name="smp_problemtype" id="smp_problemtypeid">
+          <cell name="smp_problemtypename" width="300" />
+          <cell name="smp_problemcode" width="100" />
+          <cell name="smp_problemclass" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_problemtype">
+          <attribute name="smp_problemtypeid" />
+          <attribute name="smp_problemtypename" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="smp_problemtypename" descending="false" />
+          <attribute name="smp_problemcode" />
+          <attribute name="smp_problemclass" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Problem Type Lookup View" languagecode="1033" />
+      <LocalizedName description="Visualização de pesquisa de tipo de problema" languagecode="1046" />
+      <LocalizedName description="Vista de búsqueda de tipo de problema" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

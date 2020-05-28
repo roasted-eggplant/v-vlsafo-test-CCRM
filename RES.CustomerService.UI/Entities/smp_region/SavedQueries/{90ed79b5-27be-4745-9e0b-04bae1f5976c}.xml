@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{90ed79b5-27be-4745-9e0b-04bae1f5976c}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_regionname" select="1" icon="1" preview="1">
+        <row name="result" id="smp_regionid">
+          <cell name="smp_regionname" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_region">
+          <attribute name="smp_regionid" />
+          <attribute name="smp_regionname" />
+          <attribute name="createdon" />
+          <order attribute="smp_regionname" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Region Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

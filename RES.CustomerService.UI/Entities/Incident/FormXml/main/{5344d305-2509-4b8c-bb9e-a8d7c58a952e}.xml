@@ -1,0 +1,1842 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{5344d305-2509-4b8c-bb9e-a8d7c58a952e}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form hasmargin="false" shownavigationbar="true" enablerelatedinformation="false" relatedInformationCollapsed="false" showImage="false" maxWidth="1900">
+      <ancestor id="{4a63c8d1-6c1e-48ec-9db4-3e6c7155334c}" />
+      <tabs showlabels="true">
+        <tab id="{564b9a08-4626-46f5-8bd8-3d31e17a8873}" name="Where do you need us?" verticallayout="true" IsUserDefined="0" labelid="{72f98811-fea0-4417-815f-ec9677fe2a5e}" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Where do you need us?" languagecode="1033" />
+            <label description="&lt;div&gt;O&amp;ugrave; devons-nous intervenir?&lt;/div&gt;" languagecode="1036" />
+            <label description="&lt;div&gt;サービスを要する場所はどちらですか？&lt;/div&gt;" languagecode="1041" />
+            <label description="&lt;div&gt;도움이 필요한곳이 어디인가요?&lt;/div&gt;" languagecode="1042" />
+            <label description="Onde você precisa de nós?" languagecode="1046" />
+            <label description="&lt;div&gt;服务区域&lt;/div&gt;" languagecode="2052" />
+            <label description="&lt;div&gt;Onde você precisa de nós?&lt;/div&gt;" languagecode="2070" />
+            <label description="¿Dónde nos necesitas?" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="30%">
+              <sections>
+                <section id="{09d03c8d-5a6b-4a94-b7d9-cfa1b5364015}" name="Details" IsUserDefined="0" labelid="{8e764333-94a0-405f-b738-7f61ea246b83}" locklevel="0" showlabel="true" labelwidth="102" showbar="false" celllabelposition="Left" columns="1" celllabelalignment="Left" visible="false">
+                  <labels>
+                    <label description="CASE DETAILS" languagecode="1033" />
+                    <label description="DETALHES DO CASO" languagecode="1046" />
+                    <label description="DETALLES DEL CASO" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{70cc3529-ab81-650b-3bd0-3147ba77667d}" labelid="{25c93b01-4f4f-4e45-8c13-216b9d622177}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="SR No." languagecode="1033" />
+                          <label description="案例标题" languagecode="2052" />
+                          <label description="Titre de l'incident" languagecode="1036" />
+                          <label description="サポート案件のタイトル" languagecode="1041" />
+                          <label description="서비스 케이스 제목" languagecode="1042" />
+                          <label description="Sr. Não." languagecode="1046" />
+                          <label description="Título do Incidente" languagecode="2070" />
+                          <label description="No Señor." languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="title" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="title" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f28544c6-382e-4e29-a09c-3f2804012d04}" labelid="{b4ba54d4-9485-4eb0-8c68-93530455a842}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="ID" languagecode="1033" />
+                          <label description="案例号" languagecode="2052" />
+                          <label description="Numéro de l’incident" languagecode="1036" />
+                          <label description="サポート案件番号" languagecode="1041" />
+                          <label description="서비스 케이스 번호" languagecode="1042" />
+                          <label description="Identificação" languagecode="1046" />
+                          <label description="Número do Incidente" languagecode="2070" />
+                          <label description="ID" languagecode="3082" />
+                        </labels>
+                        <control disabled="true" id="ticketnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ticketnumber" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b6f69544-6287-4b8a-b60c-3d66f1cac75d}" labelid="{960aa58b-d1d5-4283-89cb-1ac48cabf549}" userspacer="0">
+                        <labels>
+                          <label description="Subject" languagecode="1033" />
+                          <label description="主题" languagecode="2052" />
+                          <label description="Sujet" languagecode="1036" />
+                          <label description="情報カテゴリ" languagecode="1041" />
+                          <label description="주제" languagecode="1042" />
+                          <label description="Sujeito" languagecode="1046" />
+                          <label description="Assunto" languagecode="2070" />
+                          <label description="Tema" languagecode="3082" />
+                        </labels>
+                        <control id="subjectid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="subjectid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b579ee22-ced2-44ed-0bb8-8290e9b23164}" labelid="{678fa1b5-ac66-4834-a718-0200d4320d68}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Provider" languagecode="1033" />
+                          <label description="客户" languagecode="2052" />
+                          <label description="Client" languagecode="1036" />
+                          <label description="顧客" languagecode="1041" />
+                          <label description="고객" languagecode="1042" />
+                          <label description="Fornecedor" languagecode="1046" />
+                          <label description="Cliente" languagecode="2070" />
+                          <label description="Proveedor" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="customerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="customerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{76d17ce6-ce11-da3c-aeee-e2886e506221}" labelid="{f1ce33c6-cff1-41b5-81a6-3da4a2d45332}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Service Request Origin" languagecode="1033" />
+                          <label description="起源" languagecode="2052" />
+                          <label description="Origine " languagecode="1036" />
+                          <label description="問い合わせ方法" languagecode="1041" />
+                          <label description="확보 경로" languagecode="1042" />
+                          <label description="Origem da solicitação de serviço" languagecode="1046" />
+                          <label description="Origem" languagecode="2070" />
+                          <label description="Origen de solicitud de servicio" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="caseorigincode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="caseorigincode" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{959273e2-e600-3b18-6572-763b94414e67}" labelid="{21f6c8a7-2c20-49c4-b79c-ebe3f067575c}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Entitlement" languagecode="1033" />
+                          <label description="权利" languagecode="2052" />
+                          <label description="Droit" languagecode="1036" />
+                          <label description="権利" languagecode="1041" />
+                          <label description="권리 유형" languagecode="1042" />
+                          <label description="Direito" languagecode="1046" />
+                          <label description="Elegibilidade" languagecode="2070" />
+                          <label description="Derecho" languagecode="3082" />
+                        </labels>
+                        <events>
+                          <event name="onclick" application="true" active="true">
+                            <InternalHandlers>
+                              <Handler functionName="Mscrm.entitlementid_onclick" libraryName="Service/Incident/Incident_main_system_library.js" handlerUniqueId="7ec5c88c-1333-4d0f-8743-18f1793bcf49" enabled="true">
+                                <dependencies>
+                                  <dependency id="customerid" />
+                                  <dependency id="productid" />
+                                  <dependency id="primarycontactid" />
+                                </dependencies>
+                              </Handler>
+                            </InternalHandlers>
+                          </event>
+                          <event name="setadditionalparams" application="true" active="true">
+                            <InternalHandlers>
+                              <Handler functionName="Mscrm.entitlementid_setadditionalparams" libraryName="Service/Incident/Incident_main_system_library.js" handlerUniqueId="2c712050-5072-422b-b80c-108e3f479810" enabled="true" passExecutionContext="true">
+                                <dependencies>
+                                  <dependency id="customerid" />
+                                  <dependency id="productid" />
+                                  <dependency id="primarycontactid" />
+                                </dependencies>
+                              </Handler>
+                            </InternalHandlers>
+                          </event>
+                        </events>
+                        <control disabled="false" id="entitlementid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="entitlementid">
+                          <parameters>
+                            <DefaultViewId>{e7ea283b-0490-4956-939b-3325e0798fb8}</DefaultViewId>
+                            <DisableViewPicker>true</DisableViewPicker>
+                            <IsInlineNewEnabled>false</IsInlineNewEnabled>
+                            <AllowFilterOff>true</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2973ce06-0486-461f-9381-48a174703d01}" labelid="{db8056bd-1bf3-42d9-901b-7acac7bb4ba4}">
+                        <labels>
+                          <label description="Product" languagecode="1033" />
+                          <label description="产品" languagecode="2052" />
+                          <label description="Produit" languagecode="1036" />
+                          <label description="製品" languagecode="1041" />
+                          <label description="제품" languagecode="1042" />
+                          <label description="produtos" languagecode="1046" />
+                          <label description="Produto" languagecode="2070" />
+                          <label description="Producto" languagecode="3082" />
+                        </labels>
+                        <control id="productid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="productid">
+                          <parameters>
+                            <IsInlineNewEnabled>false</IsInlineNewEnabled>
+                            <DefaultViewId>{58afc3c5-8add-4552-98cb-473bc8f75619}</DefaultViewId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{690460e7-4801-7783-2315-9971d8598d3d}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="PortalSubmit" languagecode="1033" />
+                          <label description="PortalSubmit" languagecode="2052" />
+                          <label description="PortalSubmit" languagecode="1036" />
+                          <label description="PortalSubmit" languagecode="1041" />
+                          <label description="PortalSubmit" languagecode="1042" />
+                          <label description="PortalSubmit" languagecode="2070" />
+                          <label description="PortalSubmit" languagecode="3082" />
+                          <label description="PortalSubmit" languagecode="1046" />
+                        </labels>
+                        <control disabled="false" id="smp_portalsubmit" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="smp_portalsubmit" uniqueid="{50b842da-5c77-0489-3ea6-8d1e8c45d03b}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section id="{bb13b0a3-13ee-4f84-9172-c1d89622b421}" name="Applicable SLA(STANDARD)" IsUserDefined="0" labelid="{56527f3e-3510-4a2a-a570-0a7e5573bb32}" locklevel="0" showlabel="true" labelwidth="102" showbar="false" celllabelposition="Left" columns="1" celllabelalignment="Left" visible="false">
+                  <labels>
+                    <label description="APPLICABLE SLA" languagecode="1033" />
+                    <label description="SLA APLICÁVEL" languagecode="1046" />
+                    <label description="SLA APLICABLE" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9ed95127-7c3c-9c3e-a424-07d8144a246d}" labelid="{42d50324-8ce1-483c-a4bb-7502f787d386}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="First Response By" languagecode="1033" />
+                          <label description="第一个响应方" languagecode="2052" />
+                          <label description="Première réponse par" languagecode="1036" />
+                          <label description="最初の応答期限" languagecode="1041" />
+                          <label description="첫 반응 기한" languagecode="1042" />
+                          <label description="Primeira resposta por" languagecode="1046" />
+                          <label description="Primeira Resposta de" languagecode="2070" />
+                          <label description="Primera respuesta por" languagecode="3082" />
+                        </labels>
+                        <control disabled="true" id="responseby" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="responseby" uniqueid="{9a17d14c-8e9e-9eb4-de7c-8c6076002ead}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{573b6d21-4cc3-20c7-00c0-97160b24567a}" labelid="{32dccab6-230c-43c5-8893-15af2d31ffea}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Resolve By" languagecode="1033" />
+                          <label description="解决方" languagecode="2052" />
+                          <label description="Résoudre en fonction de" languagecode="1036" />
+                          <label description="解決期限" languagecode="1041" />
+                          <label description="해결 기한:" languagecode="1042" />
+                          <label description="Resolver por" languagecode="1046" />
+                          <label description="Resolver Por" languagecode="2070" />
+                          <label description="Resolver por" languagecode="3082" />
+                        </labels>
+                        <control disabled="true" id="resolveby" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="resolveby" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section id="{a74b025e-1817-15c4-c0cd-529b34dc528b}" name="general_section_5" IsUserDefined="0" locklevel="0" showlabel="false" labelwidth="115" showbar="false" celllabelposition="Left" columns="1" celllabelalignment="Left" layout="varwidth">
+                  <labels>
+                    <label description="Where do you need us?" languagecode="1033" />
+                    <label description="&lt;div&gt;O&amp;ugrave; devons-nous intervenir?&lt;/div&gt;" languagecode="1036" />
+                    <label description="&lt;div&gt;サービスを要する場所はどちらですか？&lt;/div&gt;" languagecode="1041" />
+                    <label description="&lt;div&gt;도움이 필요한곳이 어디인가요?&lt;/div&gt;" languagecode="1042" />
+                    <label description="Onde você precisa de nós?" languagecode="1046" />
+                    <label description="&lt;div&gt;服务区域&lt;/div&gt;" languagecode="2052" />
+                    <label description="&lt;div&gt;Onde você precisa de nós?&lt;/div&gt;" languagecode="2070" />
+                    <label description="¿Dónde nos necesitas?" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4b8bbeec-5c63-253a-35c9-19ec2e4736bd}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Service Request Origin" languagecode="1033" />
+                          <label description="起源" languagecode="2052" />
+                          <label description="Origine " languagecode="1036" />
+                          <label description="問い合わせ方法" languagecode="1041" />
+                          <label description="확보 경로" languagecode="1042" />
+                          <label description="Origem da solicitação de serviço" languagecode="1046" />
+                          <label description="Origem" languagecode="2070" />
+                          <label description="Origen de solicitud de servicio" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="caseorigincode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="caseorigincode" uniqueid="{0db67601-1844-ded4-6a0a-211406776973}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{26940645-ec02-4f99-bbcf-c4cc33a2be4c}" labelid="{03a33064-ad2f-4069-8395-ccdb13d111e7}" locklevel="0" showlabel="true" visible="false">
+                        <labels>
+                          <label description="Contact" languagecode="1033" />
+                          <label description="联系人" languagecode="2052" />
+                          <label description="Contact" languagecode="1036" />
+                          <label description="取引先担当者" languagecode="1041" />
+                          <label description="연락처" languagecode="1042" />
+                          <label description="Contato" languagecode="1046" />
+                          <label description="Contacto" languagecode="2070" />
+                          <label description="Contacto" languagecode="3082" />
+                        </labels>
+                        <events>
+                          <event name="onclick" application="true" active="true">
+                            <InternalHandlers>
+                              <Handler functionName="Mscrm.primarycontactid_onclick" libraryName="Service/Incident/Incident_main_system_library.js" handlerUniqueId="1834b3ac-a3ac-4fa8-ad50-25875ff100bb" enabled="true">
+                                <dependencies>
+                                  <dependency id="customerid" />
+                                </dependencies>
+                              </Handler>
+                            </InternalHandlers>
+                          </event>
+                          <event name="setadditionalparams" application="true" active="true">
+                            <InternalHandlers>
+                              <Handler functionName="Mscrm.primarycontactid_setadditionalparams" libraryName="Service/Incident/Incident_main_system_library.js" handlerUniqueId="83d8ffab-20ef-4bc7-9706-62806ac6f36a" enabled="true" passExecutionContext="true">
+                                <dependencies>
+                                  <dependency id="customerid" />
+                                </dependencies>
+                              </Handler>
+                            </InternalHandlers>
+                          </event>
+                        </events>
+                        <control disabled="false" id="primarycontactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="primarycontactid" uniqueid="{090193b8-9e8b-5da8-9321-5be8cbd35d62}">
+                          <parameters>
+                            <IsInlineNewEnabled>false</IsInlineNewEnabled>
+                            <AllowFilterOff>false</AllowFilterOff>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A2D479C5-53E3-4C69-ADDD-802327E67A0D}</DefaultViewId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cc5805ba-4b6d-a358-3515-79720759cba0}" locklevel="0" showlabel="true" visible="false">
+                        <labels>
+                          <label description="Contact Name" languagecode="1033" />
+                          <label description="Contact (Portal)" languagecode="2052" />
+                          <label description="Contact (Portal)" languagecode="1036" />
+                          <label description="Contact (Portal)" languagecode="1041" />
+                          <label description="Contact (Portal)" languagecode="1042" />
+                          <label description="Contact (Portal)" languagecode="2070" />
+                          <label description="Nombre de contacto" languagecode="3082" />
+                          <label description="Nome de contato" languagecode="1046" />
+                        </labels>
+                        <control disabled="false" id="smp_contact" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_contact" uniqueid="{29390409-3eeb-0d43-bbd1-948aec8cacb8}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A2D479C5-53E3-4C69-ADDD-802327E67A0D}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{498a8d7b-280d-3d40-2b97-4ad37e8c52da}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Building" languagecode="1033" />
+                          <label description="服务需求大楼" languagecode="2052" />
+                          <label description="Bâtiment" languagecode="1036" />
+                          <label description="ビル" languagecode="1041" />
+                          <label description="건물" languagecode="1042" />
+                          <label description="Construction de problème" languagecode="2070" />
+                          <label description="edificio" languagecode="3082" />
+                          <label description="Construção" languagecode="1046" />
+                        </labels>
+                        <control disabled="false" id="smp_problembuilding" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_problembuilding" uniqueid="{8be8813a-4035-85db-c504-7e01c8ebbba5}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{4ED224C4-1485-474E-945D-AA5E43BB0C09}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e10a45c9-98e9-4e82-cc2a-32d231e65d21}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Problem Room Number" languagecode="1033" />
+                          <label description="需求房间号" languagecode="2052" />
+                          <label description="Numéro de chambre problématique" languagecode="1036" />
+                          <label description="リクエストルーム番号" languagecode="1041" />
+                          <label description="문제 방 번호 " languagecode="1042" />
+                          <label description="Número do quarto com problema" languagecode="2070" />
+                          <label description="Número de habitación problemática" languagecode="3082" />
+                          <label description="Número da sala do problema" languagecode="1046" />
+                        </labels>
+                        <control disabled="false" id="new_problemroomnumber" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="new_problemroomnumber" uniqueid="{1d936837-d25b-c2b2-0341-7300e3ab9a97}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{581E3CF0-0902-472C-B47F-4F63C6F174B7}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                            <FilterRelationshipName>smp_smp_building_smp_room_Building</FilterRelationshipName>
+                            <DependentAttributeName>incident.smp_problembuilding</DependentAttributeName>
+                            <DependentAttributeType>smp_building</DependentAttributeType>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{04d87cc3-380c-323a-5d95-ee7d547c2533}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Problem Room" languagecode="1033" />
+                          <label description="问题房间" languagecode="2052" />
+                          <label description="Salle du Problème" languagecode="1036" />
+                          <label description="リクエストルーム" languagecode="1041" />
+                          <label description="문제가 있는 룸" languagecode="1042" />
+                          <label description="Sala de problemas" languagecode="2070" />
+                          <label description="Sala de problemas" languagecode="3082" />
+                          <label description="Sala de Problemas" languagecode="1046" />
+                        </labels>
+                        <control disabled="false" id="smp_problemroom" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_problemroom" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7dbdb26d-5049-d65c-4cb6-9446336b4596}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Room Type" languagecode="1033" />
+                          <label description="房间类型" languagecode="2052" />
+                          <label description="Type de local" languagecode="1036" />
+                          <label description="部屋の種類" languagecode="1041" />
+                          <label description="방 유형" languagecode="1042" />
+                          <label description="Tipo de Dependência" languagecode="2070" />
+                          <label description="Tipo de habitación" languagecode="3082" />
+                          <label description="Tipo de sala" languagecode="1046" />
+                        </labels>
+                        <control disabled="false" id="smp_problemroomtype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_problemroomtype" uniqueid="{b18a77ea-3d1e-b07a-a89b-0114d0e8bd33}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>true</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{5438B18A-83CF-48E4-AE03-89BDE3453F34}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                            <DependentAttributeType>smp_building</DependentAttributeType>
+                            <AvailableViewIds>{5438B18A-83CF-48E4-AE03-89BDE3453F34}</AvailableViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{771e1947-a10e-9362-0138-4bea4c74128e}" locklevel="0" showlabel="true" visible="false">
+                        <labels>
+                          <label description="Provider Matrix" languagecode="1033" />
+                          <label description="Provider Matrix" languagecode="2052" />
+                          <label description="Provider Matrix" languagecode="1036" />
+                          <label description="Provider Matrix" languagecode="1041" />
+                          <label description="Provider Matrix" languagecode="1042" />
+                          <label description="Provider Matrix" languagecode="2070" />
+                          <label description="Matriz de proveedores" languagecode="3082" />
+                          <label description="Matriz do provedor" languagecode="1046" />
+                        </labels>
+                        <control disabled="false" id="smp_providermatrixid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_providermatrixid" uniqueid="{925c5bd8-32c6-0348-6904-67a5613ec819}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>true</DisableQuickFind>
+                            <DisableViewPicker>true</DisableViewPicker>
+                            <DefaultViewId>{5CDF6EA7-B149-4E36-A043-11ACEE32F490}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                            <FilterRelationshipName>smp_smp_building_smp_providermatrix</FilterRelationshipName>
+                            <DependentAttributeName>incident.smp_problembuilding</DependentAttributeName>
+                            <DependentAttributeType>smp_building</DependentAttributeType>
+                            <AvailableViewIds>{D3A4B544-56E3-491A-8D6B-EFBF0E2FB9F1}</AvailableViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{51a51175-5637-8c8a-3133-657303dc1d8e}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Problem Class" languagecode="1033" />
+                          <label description="问题类别" languagecode="2052" />
+                          <label description="Catégorie de la demande:" languagecode="1036" />
+                          <label description="問題の部類：" languagecode="1041" />
+                          <label description="문제 등급:" languagecode="1042" />
+                          <label description="Classe do Problema" languagecode="2070" />
+                          <label description="Clase problema" languagecode="3082" />
+                          <label description="Classe do Problema" languagecode="1046" />
+                        </labels>
+                        <control disabled="false" id="smp_problemclassid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_problemclassid" uniqueid="{66dca044-d49d-be03-474e-79e121179d74}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>true</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{76FBBA25-7FF9-4EBE-A154-1D5B75ED991E}</DefaultViewId>
+                            <DependentAttributeType>smp_providermatrix</DependentAttributeType>
+                            <AllowFilterOff>false</AllowFilterOff>
+                            <AvailableViewIds>{76FBBA25-7FF9-4EBE-A154-1D5B75ED991E},{F6B82D26-B835-4A35-B453-18C5CD4E042E}</AvailableViewIds>
+                            <FilterRelationshipName>smp_smp_problemclass_smp_providermatrix</FilterRelationshipName>
+                            <DependentAttributeName>incident.smp_providermatrixid</DependentAttributeName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{772d8e11-9ee3-1c82-eb19-41034d7369d0}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Problem Type" languagecode="1033" />
+                          <label description="问题类型" languagecode="2052" />
+                          <label description="Type de demande:" languagecode="1036" />
+                          <label description="問題点：" languagecode="1041" />
+                          <label description="문제 유형:" languagecode="1042" />
+                          <label description="Tipo do Problema" languagecode="2070" />
+                          <label description="Tipo de problema" languagecode="3082" />
+                          <label description="Tipo de Problema" languagecode="1046" />
+                        </labels>
+                        <control disabled="false" id="smp_problemtypeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_problemtypeid" uniqueid="{93a650be-61c0-a429-0698-03e736348d6a}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{93772127-420B-4244-9DCA-D61C8FED7AFD}</DefaultViewId>
+                            <FilterRelationshipName>smp_smp_problemclass_smp_problemtype_ProblemClass</FilterRelationshipName>
+                            <DependentAttributeName>incident.smp_problemclassid</DependentAttributeName>
+                            <DependentAttributeType>smp_problemclass</DependentAttributeType>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="40%">
+              <sections>
+                <section id="{68522b59-07c8-d049-9ba6-37acae6917c7}" name="general_section_6" IsUserDefined="0" locklevel="0" showlabel="false" labelwidth="115" showbar="false" celllabelposition="Left" columns="1" celllabelalignment="Left" visible="false" layout="varwidth">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Seção" languagecode="1046" />
+                    <label description="Sección" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3340db0c-a9ca-dda9-06b2-4d0ce0252160}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="30%">
+              <sections>
+                <section id="{e493f95f-d913-4063-a929-e86a5d7b01a5}" name="Customer" IsUserDefined="0" labelid="{79267102-8440-4065-ae3a-e7e45fbff439}" locklevel="0" showlabel="false" labelwidth="90" showbar="false" celllabelposition="Left" columns="11" celllabelalignment="Left" visible="false">
+                  <labels>
+                    <label description="CUSTOMER DETAILS" languagecode="1033" />
+                    <label description="DETALHES DO CLIENTE" languagecode="1046" />
+                    <label description="DETALLES DEL CLIENTE" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{eafbc418-2de0-485f-9f9a-590f97e0389d}" labelid="{11cce353-5af3-4565-a168-bf0436fdc5d7}" locklevel="1" showlabel="false" colspan="2">
+                        <labels>
+                          <label description="Provider" languagecode="1033" />
+                          <label description="客户" languagecode="2052" />
+                          <label description="Client" languagecode="1036" />
+                          <label description="顧客" languagecode="1041" />
+                          <label description="고객" languagecode="1042" />
+                          <label description="Fornecedor" languagecode="1046" />
+                          <label description="Cliente" languagecode="2070" />
+                          <label description="Proveedor" languagecode="3082" />
+                        </labels>
+                        <control id="customerpane_qfc" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="customerid">
+                          <parameters>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="contact"&gt;707FC57B-C5E6-471B-A180-E37ED28A38E2&lt;/QuickFormId&gt;&lt;QuickFormId entityname="account"&gt;B028DB32-3619-48A5-AC51-CF3F947B0EF3&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <ControlMode>Edit</ControlMode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab id="{296a69b0-a09b-98c8-a5e8-b269deab59c4}" name="Can you give us some details?" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Can you give us some details?" languagecode="1033" />
+            <label description="&lt;div&gt;Pouvez-vous nous donner quelques d&amp;eacute;tails?&lt;/div&gt;" languagecode="1036" />
+            <label description="&lt;div&gt;詳細はサービスメモに記入してください&lt;/div&gt;" languagecode="1041" />
+            <label description="&lt;div&gt;내용을 상세히 설명해 주세요.&lt;/div&gt;" languagecode="1042" />
+            <label description="Você pode nos dar alguns detalhes?" languagecode="1046" />
+            <label description="&lt;div&gt;服务备注&lt;/div&gt;" languagecode="2052" />
+            <label description="&lt;div&gt;Pode nos dar mais detalhes?&lt;/div&gt;" languagecode="2070" />
+            <label description="¿Puedes darnos algunos detalles?" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{b9169964-13ec-5bbe-a8bd-27c932a4ee7a}" name="general_section_7" IsUserDefined="0" locklevel="0" showlabel="false" labelwidth="115" showbar="false" celllabelposition="Left" columns="1" celllabelalignment="Left" layout="varwidth">
+                  <labels>
+                    <label description="&lt;h3&gt;Can you give us some details?&lt;/h3&gt;" languagecode="1033" />
+                    <label description="&lt;div&gt;Pouvez-vous nous donner quelques d&amp;eacute;tails?&lt;/div&gt;" languagecode="1036" />
+                    <label description="&lt;div&gt;詳細はサービスメモに記入してください&lt;/div&gt;" languagecode="1041" />
+                    <label description="&lt;div&gt;내용을 상세히 설명해 주세요.&lt;/div&gt;" languagecode="1042" />
+                    <label description="&lt;h3&gt; Você pode nos dar alguns detalhes? &lt;/h3&gt;" languagecode="1046" />
+                    <label description="&lt;div&gt;服务备注&lt;/div&gt;" languagecode="2052" />
+                    <label description="&lt;div&gt;Pode nos dar mais detalhes?&lt;/div&gt;" languagecode="2070" />
+                    <label description="&lt;h3&gt; ¿Puede darnos algunos detalles? &lt;/h3&gt;" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{344ba6a8-b2db-3c36-4e23-5dbe21edd3b7}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Note: Please do not enter any personal or personnel details" languagecode="1033" />
+                          <label description="Label1" languagecode="2052" />
+                          <label description="Label1" languagecode="1036" />
+                          <label description="Label1" languagecode="1041" />
+                          <label description="Label1" languagecode="1042" />
+                          <label description="Label1" languagecode="2070" />
+                          <label description="Nota: No ingrese ningún dato personal o personal" languagecode="3082" />
+                          <label description="Nota: Não insira detalhes pessoais ou pessoais" languagecode="1046" />
+                        </labels>
+                        <control disabled="false" id="new_label1" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="new_label1" uniqueid="{30438c6d-2eac-b8e5-98e7-eda27b71457d}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4967c752-78db-dc9d-8e46-2d584c7612c1}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Answer" languagecode="1033" />
+                          <label description="Answer" languagecode="2052" />
+                          <label description="*F*Answer" languagecode="1036" />
+                          <label description="*J*Answer" languagecode="1041" />
+                          <label description="*K*Answer" languagecode="1042" />
+                          <label description="Answer" languagecode="2070" />
+                          <label description="Responder" languagecode="3082" />
+                          <label description="Responda" languagecode="1046" />
+                        </labels>
+                        <control disabled="false" id="smp_answer" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="smp_answer" uniqueid="{b23d2e19-b9d8-e1b9-3c5c-3d161686d1a8}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{68d9c139-97a4-2485-0476-3b3110d5cd28}" locklevel="0" showlabel="true" visible="false">
+                        <labels>
+                          <label description="Problem Type Description" languagecode="1033" />
+                          <label description="Problem Type Description" languagecode="2052" />
+                          <label description="Problem Type Description" languagecode="1036" />
+                          <label description="Problem Type Description" languagecode="1041" />
+                          <label description="Problem Type Description" languagecode="1042" />
+                          <label description="Problem Type Description" languagecode="2070" />
+                          <label description="Descripción del tipo de problema" languagecode="3082" />
+                          <label description="Tipo de Problema Descrição" languagecode="1046" />
+                        </labels>
+                        <control disabled="false" id="smp_problemtypedescription" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="smp_problemtypedescription" uniqueid="{8cb9ee72-d744-e1e9-d89a-e5e0a7de617c}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab id="{8b62cb17-1c57-b502-ec0b-a47d3411856e}" name="Who should we contact for questions?" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Who should we contact for questions?" languagecode="1033" />
+            <label description="&lt;div&gt;Qui pouvons-nous contacter en cas de questions?&lt;/div&gt;" languagecode="1036" />
+            <label description="&lt;div&gt;リクエスター情報はこちらへどうぞ&lt;/div&gt;" languagecode="1041" />
+            <label description="&lt;div&gt;연락처 정보를 알려주세요.&lt;/div&gt;" languagecode="1042" />
+            <label description="Com quem devemos entrar em contato para tirar dúvidas?" languagecode="1046" />
+            <label description="&lt;div&gt;请求人的详细信息&lt;/div&gt;" languagecode="2052" />
+            <label description="&lt;div&gt;Quem podemos contatar caso tenhamos perguntas?&lt;/div&gt;" languagecode="2070" />
+            <label description="¿A quién debemos contactar para preguntas?" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{1362b89a-9566-d55a-7389-49663c7979b8}" name="tab_5_section_1" IsUserDefined="0" locklevel="0" showlabel="false" labelwidth="115" showbar="false" columns="1" layout="varwidth">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Seção" languagecode="1046" />
+                    <label description="Sección" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{bb09a802-9b9c-7189-ab34-6340c5890acd}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Requestor Name" languagecode="1033" />
+                          <label description="Requestor" languagecode="2052" />
+                          <label description="Alias du demandeur:" languagecode="1036" />
+                          <label description="要請者のEメールニックネーム：" languagecode="1041" />
+                          <label description="이메일 별칭 요청:" languagecode="1042" />
+                          <label description="Demander" languagecode="2070" />
+                          <label description="Nombre del solicitante" languagecode="3082" />
+                          <label description="Nome do solicitante" languagecode="1046" />
+                        </labels>
+                        <control disabled="false" id="smp_requestorid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_requestorid" uniqueid="{5591234d-0deb-1d55-07c4-67134d48079c}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A2D479C5-53E3-4C69-ADDD-802327E67A0D}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{66608b0a-c965-1085-0cac-db12ae914667}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Requested for Email Alias" languagecode="1033" />
+                          <label description="Contact (Portal)" languagecode="2052" />
+                          <label description="Contact (Portal)" languagecode="1036" />
+                          <label description="Contact (Portal)" languagecode="1041" />
+                          <label description="Contact (Portal)" languagecode="1042" />
+                          <label description="Contact (Portal)" languagecode="2070" />
+                          <label description="Solicitado alias de correo electrónico" languagecode="3082" />
+                          <label description="Alias de email solicitado" languagecode="1046" />
+                        </labels>
+                        <control disabled="false" id="smp_contact" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_contact" uniqueid="{e4468d58-5ddc-7a38-986b-7747ebbac889}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A2D479C5-53E3-4C69-ADDD-802327E67A0D}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{31a92566-ea3d-bcca-6ede-6725601298cd}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Requested for Phone" languagecode="1033" />
+                          <label description="请求人的电话:" languagecode="2052" />
+                          <label description="Téléphone du demandeur:" languagecode="1036" />
+                          <label description="要請者の電話番号：" languagecode="1041" />
+                          <label description="전화번호 요청:" languagecode="1042" />
+                          <label description="Telefone pedido:" languagecode="2070" />
+                          <label description="Solicitado por teléfono" languagecode="3082" />
+                          <label description="Solicitado por telefone" languagecode="1046" />
+                        </labels>
+                        <control disabled="false" id="smp_contactphone" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_contactphone" uniqueid="{b4c3346a-36b2-0aa8-39ab-b4072ca573c2}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dd083b19-ea2e-ecc4-ad32-edd41bedde1d}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="CC Person" languagecode="1033" />
+                          <label description="抄送人员" languagecode="2052" />
+                          <label description="Destinataire en CC" languagecode="1036" />
+                          <label description="CCの方のアリアスをご入力ください。" languagecode="1041" />
+                          <label description="참조인" languagecode="1042" />
+                          <label description="Pessoa a ser copiada na mensagem" languagecode="2070" />
+                          <label description="Persona CC" languagecode="3082" />
+                          <label description="Pessoa do CC" languagecode="1046" />
+                        </labels>
+                        <control disabled="false" id="smp_cc" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_cc" uniqueid="{e7d32c10-eeb8-97a9-6041-235396cb853b}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A2D479C5-53E3-4C69-ADDD-802327E67A0D}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{10bad893-397a-6828-be02-0a5bdc8b268a}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Allow Email Notification" languagecode="1033" />
+                          <label description="允许电子邮件通知" languagecode="2052" />
+                          <label description="Permet notification por email :" languagecode="1036" />
+                          <label description="Eメール通知設定（チェックでOn)" languagecode="1041" />
+                          <label description="&lt;p&gt;이멜통지허락:&lt;/p&gt;" languagecode="1042" />
+                          <label description="Permitir Notificação Email" languagecode="2070" />
+                          <label description="Permitir notificación por correo electrónico" languagecode="3082" />
+                          <label description="Permitir notificação por email" languagecode="1046" />
+                        </labels>
+                        <control disabled="false" id="smp_allowemailnotification" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="smp_allowemailnotification" uniqueid="{d8b76270-cc10-072b-a8ec-2326ec9769e4}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{777d4dd5-1e9d-62c4-dda5-a1001ebcbd6b}" locklevel="0" showlabel="true" visible="false">
+                        <labels>
+                          <label description="CC" languagecode="1033" />
+                          <label description="抄送人员" languagecode="2052" />
+                          <label description="*F*CC" languagecode="1036" />
+                          <label description="*J*CC" languagecode="1041" />
+                          <label description="*K*CC" languagecode="1042" />
+                          <label description="Pessoa a ser copiada na mensagem" languagecode="2070" />
+                          <label description="Cc" languagecode="3082" />
+                          <label description="CC" languagecode="1046" />
+                        </labels>
+                        <control disabled="false" id="new_ccperson" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_ccperson" uniqueid="{0644500b-5171-d5e3-4e13-71963dbae8b1}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{85523b38-5ca6-8b2c-687b-17d610054c1e}" locklevel="0" showlabel="true" visible="false">
+                        <labels>
+                          <label description="Contact CC" languagecode="1033" />
+                          <label description="Contact CC" languagecode="2052" />
+                          <label description="*F*Contact CC" languagecode="1036" />
+                          <label description="*J*Contact CC" languagecode="1041" />
+                          <label description="*K*Contact CC" languagecode="1042" />
+                          <label description="Contact CC" languagecode="2070" />
+                          <label description="Contacta con CC" languagecode="3082" />
+                          <label description="Entre em contato com a CC" languagecode="1046" />
+                        </labels>
+                        <control disabled="false" id="new_contactcc" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="new_contactcc" uniqueid="{b59c31ca-346c-539e-1b24-d757e6a98e59}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A2D479C5-53E3-4C69-ADDD-802327E67A0D}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{512845a8-13e1-514b-8996-6029a58ecd57}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Created From" languagecode="1033" />
+                          <label description="Created From" languagecode="2052" />
+                          <label description="Created From" languagecode="1036" />
+                          <label description="Created From" languagecode="1041" />
+                          <label description="Created From" languagecode="1042" />
+                          <label description="Created From" languagecode="2070" />
+                          <label description="Creado a partir de" languagecode="3082" />
+                          <label description="Criado a partir de" languagecode="1046" />
+                        </labels>
+                        <control disabled="false" id="smp_createdfrom" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="smp_createdfrom" uniqueid="{21db4559-3b68-cd18-38ca-883ee30ab9ec}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab id="{4d48595d-e062-4b3e-615d-365a98660c74}" name="Notes" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Notes" languagecode="1033" />
+            <label description="Notas" languagecode="1046" />
+            <label description="Notas" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{d820e298-4b04-9414-a72a-b6c2b909741b}" name="tab_8_section_1" IsUserDefined="0" locklevel="0" showlabel="false" labelwidth="115" showbar="false" columns="1" layout="varwidth">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Seção" languagecode="1046" />
+                    <label description="Sección" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{db4ccaa0-9b91-50bb-3367-2ab4a7ae1221}" locklevel="0" showlabel="false" colspan="1" rowspan="15" auto="false">
+                        <labels>
+                          <label description="Service Request Notes" languagecode="1033" />
+                          <label description="Notes de demande de service" languagecode="1036" />
+                          <label description="サービス要請メモ" languagecode="1041" />
+                          <label description="서비스 요청 메모" languagecode="1042" />
+                          <label description="Notas de solicitação de serviço" languagecode="1046" />
+                          <label description="Notas de solicitud de servicio" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" uniqueid="{39d78e5c-d9c0-c943-bb26-d04b961a883d}">
+                          <parameters>
+                            <DefaultTabId>NotesTab</DefaultTabId>
+                            <OrderByActivityWall>descending</OrderByActivityWall>
+                            <SortActivityWall>modifiedon</SortActivityWall>
+                            <ShowArticleTab>false</ShowArticleTab>
+                            <SelectDefaultLanguage>00000000-0000-0000-0000-000000000000</SelectDefaultLanguage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{eaa7603e-1407-308c-3cc9-01a31c1b9194}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Service Request Number" languagecode="1033" />
+                          <label description="案例号" languagecode="2052" />
+                          <label description="Numéro de l’incident" languagecode="1036" />
+                          <label description="サポート案件番号" languagecode="1041" />
+                          <label description="서비스 케이스 번호" languagecode="1042" />
+                          <label description="Número de solicitação de serviço" languagecode="1046" />
+                          <label description="Número do Incidente" languagecode="2070" />
+                          <label description="Número de solicitud de servicio" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="ticketnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ticketnumber" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{be7a5114-2348-60c5-db0c-b7060ea51394}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Problem Building" languagecode="1033" />
+                          <label description="服务需求大楼" languagecode="2052" />
+                          <label description="Edificio del Problema" languagecode="1036" />
+                          <label description="問題のある建物" languagecode="1041" />
+                          <label description="문제 건물 " languagecode="1042" />
+                          <label description="Construction de problème" languagecode="2070" />
+                          <label description="Construcción de problemas" languagecode="3082" />
+                          <label description="Construção de Problemas" languagecode="1046" />
+                        </labels>
+                        <control disabled="false" id="smp_problembuilding" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_problembuilding" uniqueid="{dcc00447-be22-623e-5439-0646e6942aa7}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{4ED224C4-1485-474E-945D-AA5E43BB0C09}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c529b396-30d5-d2e1-5ab4-5d0cad79797c}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Problem Class" languagecode="1033" />
+                          <label description="问题类别" languagecode="2052" />
+                          <label description="Catégorie de la demande" languagecode="1036" />
+                          <label description="問題の部類" languagecode="1041" />
+                          <label description="문제 등급" languagecode="1042" />
+                          <label description="Classe do Problema" languagecode="2070" />
+                          <label description="Clase problema" languagecode="3082" />
+                          <label description="Classe do Problema" languagecode="1046" />
+                        </labels>
+                        <control disabled="false" id="smp_problemclassid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_problemclassid" uniqueid="{62193d64-9273-9109-d7cb-510ae41d90e4}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{F6B82D26-B835-4A35-B453-18C5CD4E042E}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9a421b42-95cb-dd2e-81b7-50263a6610b6}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Problem Type" languagecode="1033" />
+                          <label description="问题类型" languagecode="2052" />
+                          <label description="Type de demande" languagecode="1036" />
+                          <label description="問題点" languagecode="1041" />
+                          <label description="문제 유형" languagecode="1042" />
+                          <label description="Tipo do Problema" languagecode="2070" />
+                          <label description="Tipo de problema" languagecode="3082" />
+                          <label description="Tipo de Problema" languagecode="1046" />
+                        </labels>
+                        <control disabled="false" id="smp_problemtypeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_problemtypeid" uniqueid="{c62321d0-dbed-1b5e-9771-d57009072777}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{93772127-420B-4244-9DCA-D61C8FED7AFD}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab id="{36a618aa-c6eb-8a2a-5e60-882de4c22cd1}" name="Service Request Notes" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Service Request Notes" languagecode="1033" />
+            <label description="Notes de demande de service" languagecode="1036" />
+            <label description="サービス要請メモ" languagecode="1041" />
+            <label description="서비스 요청 메모" languagecode="1042" />
+            <label description="Notas de solicitação de serviço" languagecode="1046" />
+            <label description="Notas de solicitud de servicio" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{b4a92ed7-768b-996c-347a-6390c18083e7}" name="tab_7_section_1" IsUserDefined="0" locklevel="0" showlabel="false" labelwidth="115" showbar="false" celllabelposition="Left" columns="1" celllabelalignment="Left" layout="varwidth">
+                  <labels>
+                    <label description="Service Request Notes" languagecode="1033" />
+                    <label description="Notes de demande de service" languagecode="1036" />
+                    <label description="サービス要請メモ" languagecode="1041" />
+                    <label description="서비스 요청 메모" languagecode="1042" />
+                    <label description="Notas de solicitação de serviço" languagecode="1046" />
+                    <label description="Notas de solicitud de servicio" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e8061620-d6a0-9d18-4248-7e6c7c59cb24}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Problem Building" languagecode="1033" />
+                          <label description="服务需求大楼" languagecode="2052" />
+                          <label description="Edificio del Problema" languagecode="1036" />
+                          <label description="問題のある建物" languagecode="1041" />
+                          <label description="문제 건물 " languagecode="1042" />
+                          <label description="Construction de problème" languagecode="2070" />
+                          <label description="Construcción de problemas" languagecode="3082" />
+                          <label description="Construção de Problemas" languagecode="1046" />
+                        </labels>
+                        <control disabled="false" id="smp_problembuilding" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_problembuilding" uniqueid="{1d93e139-b0a2-1e02-6079-4d8ab55a1c2a}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{83aaa2a7-3b40-b8da-2583-e47c82d60c5e}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Problem Class" languagecode="1033" />
+                          <label description="问题类别" languagecode="2052" />
+                          <label description="Catégorie de la demande" languagecode="1036" />
+                          <label description="問題の部類" languagecode="1041" />
+                          <label description="문제 등급" languagecode="1042" />
+                          <label description="Classe do Problema" languagecode="2070" />
+                          <label description="Clase problema" languagecode="3082" />
+                          <label description="Classe do Problema" languagecode="1046" />
+                        </labels>
+                        <control disabled="false" id="smp_problemclassid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_problemclassid" uniqueid="{32306d72-16e4-566b-9d3b-11eb444b1754}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0de02361-4ca8-b6ea-2be7-510852d8e252}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Problem Type" languagecode="1033" />
+                          <label description="问题类型" languagecode="2052" />
+                          <label description="Type de demande" languagecode="1036" />
+                          <label description="問題点" languagecode="1041" />
+                          <label description="문제 유형" languagecode="1042" />
+                          <label description="Tipo do Problema" languagecode="2070" />
+                          <label description="Tipo de problema" languagecode="3082" />
+                          <label description="Tipo de Problema" languagecode="1046" />
+                        </labels>
+                        <control disabled="false" id="smp_problemtypeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_problemtypeid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6815daa3-04e5-442e-3404-a933dbb07ae0}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Service Request Number" languagecode="1033" />
+                          <label description="案例号" languagecode="2052" />
+                          <label description="Numéro de l’incident" languagecode="1036" />
+                          <label description="サポート案件番号" languagecode="1041" />
+                          <label description="서비스 케이스 번호" languagecode="1042" />
+                          <label description="Número de solicitação de serviço" languagecode="1046" />
+                          <label description="Número do Incidente" languagecode="2070" />
+                          <label description="Número de solicitud de servicio" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="ticketnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ticketnumber" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab id="{da4345a8-582a-72a7-d163-6c191bd55395}" name="tab_6" IsUserDefined="0" locklevel="0" showlabel="false" expanded="true">
+          <labels>
+            <label description="Service Request Number" languagecode="1033" />
+            <label description="Numéro de l’incident" languagecode="1036" />
+            <label description="サポート案件番号" languagecode="1041" />
+            <label description="서비스 케이스 번호" languagecode="1042" />
+            <label description="Número de solicitação de serviço" languagecode="1046" />
+            <label description="Número do Incidente" languagecode="2070" />
+            <label description="Número de solicitud de servicio" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{7c5c9e8e-3ba3-6650-6613-0e5ed4a6d19c}" name="tab_6_section_1" IsUserDefined="0" locklevel="0" showlabel="false" labelwidth="115" showbar="false" celllabelposition="Left" columns="1" celllabelalignment="Left" layout="varwidth">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Seção" languagecode="1046" />
+                    <label description="Sección" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9948c490-4887-7e14-5605-177392b20b57}" locklevel="0" showlabel="false">
+                        <labels>
+                          <label description="Service Request Number" languagecode="1033" />
+                          <label description="案例号" languagecode="2052" />
+                          <label description="Numéro de l’incident" languagecode="1036" />
+                          <label description="サポート案件番号" languagecode="1041" />
+                          <label description="서비스 케이스 번호" languagecode="1042" />
+                          <label description="Número de solicitação de serviço" languagecode="1046" />
+                          <label description="Número do Incidente" languagecode="2070" />
+                          <label description="Número de solicitud de servicio" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="ticketnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ticketnumber" uniqueid="{bea7e2a8-e5cb-a83d-610e-57789ed0d20b}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3c1d5cae-56ee-0393-b8a4-5646405aba5d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Due Date By Building Timezone" languagecode="1033" />
+                          <label description="截止日期" languagecode="2052" />
+                          <label description="Date D'échéance" languagecode="1036" />
+                          <label description="締め切り日期" languagecode="1041" />
+                          <label description="마감일" languagecode="1042" />
+                          <label description="Data de Vencimento" languagecode="2070" />
+                          <label description="Fecha de vencimiento por zona horaria del edificio" languagecode="3082" />
+                          <label description="Data de vencimento, criando o fuso horário" languagecode="1046" />
+                        </labels>
+                        <control id="smp_duedatebybuildingtimezone" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_duedatebybuildingtimezone" disabled="false" uniqueid="{641662a3-9089-2367-412b-e889166c3b58}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab id="{820e1ad0-5b40-4d15-9746-32f10735edde}" name="CASERELATIONSHIP_TAB" IsUserDefined="0" labelid="{5df0566e-dd20-4548-89c4-33ea44b26a04}" locklevel="0" showlabel="true" expanded="false" visible="false">
+          <labels>
+            <label description="Case Relationships" languagecode="1033" />
+            <label description="Relações de Caso" languagecode="1046" />
+            <label description="Relaciones de casos" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="{e6031605-b0d3-42e6-a666-ae358e9e0a0e}" name="Research" IsUserDefined="0" labelid="{fd56b25e-0b1d-48d6-856c-f81f318aad8b}" showlabel="false" labelwidth="102" showbar="false" celllabelposition="Left" visible="false" layout="varwidth">
+                  <labels>
+                    <label description="RESEARCH" languagecode="1033" />
+                    <label description="PESQUISA" languagecode="1046" />
+                    <label description="INVESTIGACIÓN" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a5be55d1-d0e1-d9e8-a877-5a28e00006ee}" labelid="{a1f489e3-af68-4e1f-9b45-adcfb0128cbd}" locklevel="1" showlabel="false" colspan="1" rowspan="1" auto="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="CaseResearch_LinkControl" classid="{DFDF1CDE-837B-4AC9-98CF-AC74361FD89D}">
+                          <parameters>
+                            <LinkControlDefinitionId>{0F337699-D595-48D9-B733-6479E5F5EB07}</LinkControlDefinitionId>
+                            <ShowLinkControlLabel>false</ShowLinkControlLabel>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{f344f3e4-c7c1-43ff-8514-6405d7b8fa35}" name="MergedCases" IsUserDefined="0" labelid="{fd413a45-7ac5-4a5a-bb1a-76a93a9892c9}" showlabel="false" labelwidth="102" showbar="false" celllabelposition="Left" layout="varwidth">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1ba44d05-2868-abda-b16a-a8be1204aac9}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{b1f997ea-9b7b-4a2d-9a33-eb3cb14e08f7}" name="ChildCases" IsUserDefined="0" labelid="{0a6701d4-2d29-477e-8334-737b263b6d40}" showlabel="false" labelwidth="102" showbar="false" celllabelposition="Left" layout="varwidth">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a578bdb0-1e20-88e1-1064-dbd7dc52b9e4}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab id="{6539ac26-1798-4e6a-af34-c98a254b2b5f}" name="KBARTICLE_TAB" IsUserDefined="0" labelid="{339b48fb-d1db-41e7-b534-25f8f79426a8}" locklevel="0" showlabel="true" expanded="false" visible="false">
+          <labels>
+            <label description="Articles and Contract Information" languagecode="1033" />
+            <label description="Artigos e informações do contrato" languagecode="1046" />
+            <label description="Artículos e información del contrato" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section id="{9404c284-21bf-4194-a6d7-cdc9291b9f19}" name="kb article" IsUserDefined="0" labelid="{50de5296-c920-4620-a294-4a4a9a4e651b}" locklevel="1" showlabel="true" labelwidth="160" showbar="true" celllabelposition="Left" columns="11" celllabelalignment="Left" visible="false">
+                  <labels>
+                    <label description="ARTICLES" languagecode="1033" />
+                    <label description="ARTIGOS" languagecode="1046" />
+                    <label description="ARTÍCULOS" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{44424fb9-0507-4f9f-b42f-3d76f7c4d30d}" labelid="{9ba4d9af-cb17-4462-8b96-a33a4de3c5c2}" colspan="2">
+                        <labels>
+                          <label description="Knowledge Base Article" languagecode="1033" />
+                          <label description="知识库文章" languagecode="2052" />
+                          <label description="Article de la Base de connaissances" languagecode="1036" />
+                          <label description="サポート情報の記事" languagecode="1041" />
+                          <label description="참조 자료 문서" languagecode="1042" />
+                          <label description="Artigo da Base de Conhecimento" languagecode="1046" />
+                          <label description="Artigo da Base de Dados de Conhecimento" languagecode="2070" />
+                          <label description="Artículo de base de conocimiento" languagecode="3082" />
+                        </labels>
+                        <events>
+                          <event name="onshowdialog" application="true" active="true">
+                            <InternalHandlers>
+                              <Handler functionName="Mscrm.kbarticleid_onshowdialog" libraryName="Service/Incident/Incident_main_system_library.js" handlerUniqueId="dd2e17cf-80ec-4539-9776-c75ff6c5ad16" enabled="true" passExecutionContext="true" />
+                            </InternalHandlers>
+                          </event>
+                        </events>
+                        <control id="kbarticleid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="kbarticleid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e8536a7b-ab85-42bf-a772-ef53b8854268}" labelid="{a09f7f5b-a557-451e-9504-ccd85f0698d8}" showlabel="false" colspan="2" rowspan="3">
+                        <labels>
+                          <label description="KB Viewer" languagecode="1033" />
+                          <label description="Visualizador KB" languagecode="1046" />
+                          <label description="KB Viewer" languagecode="3082" />
+                        </labels>
+                        <control id="kbviewer" classid="{a62b6fa9-169e-406c-b1aa-eab828cb6026}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section id="{4f1cbb62-1166-4db3-a0d7-1844cea74945}" name="contract and product information" IsUserDefined="0" labelid="{755a949b-b39b-4a5d-bfbd-15fbaa9e9ba8}" locklevel="0" showlabel="true" labelwidth="115" showbar="true" celllabelposition="Left" columns="1" celllabelalignment="Left" visible="false">
+                  <labels>
+                    <label description="CONTRACT" languagecode="1033" />
+                    <label description="CONTRATO" languagecode="1046" />
+                    <label description="CONTRATO" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e41a12bc-599d-46be-85ca-e2c681350078}" labelid="{1289a4bb-3420-495a-a8b3-31b834096739}" locklevel="0" showlabel="true" visible="false">
+                        <labels>
+                          <label description="Contract" languagecode="1033" />
+                          <label description="合同" languagecode="2052" />
+                          <label description="Contrat" languagecode="1036" />
+                          <label description="契約" languagecode="1041" />
+                          <label description="계약" languagecode="1042" />
+                          <label description="Contrato" languagecode="1046" />
+                          <label description="Contrato" languagecode="2070" />
+                          <label description="Contrato" languagecode="3082" />
+                        </labels>
+                        <events>
+                          <event name="onclick" application="true" active="true">
+                            <InternalHandlers>
+                              <Handler functionName="Mscrm.contractid_onclick" libraryName="Service/Incident/Incident_main_system_library.js" handlerUniqueId="cb1cce9a-6ca5-4474-8817-b60c6af43f1d" enabled="true">
+                                <dependencies>
+                                  <dependency id="customerid" />
+                                </dependencies>
+                              </Handler>
+                            </InternalHandlers>
+                          </event>
+                          <event name="setadditionalparams" application="true" active="true">
+                            <InternalHandlers>
+                              <Handler functionName="Mscrm.contractid_setadditionalparams" libraryName="Service/Incident/Incident_main_system_library.js" handlerUniqueId="eebc0919-9ffa-4a7b-9b25-b2763a35ded1" enabled="true" passExecutionContext="true">
+                                <dependencies>
+                                  <dependency id="customerid" />
+                                </dependencies>
+                              </Handler>
+                            </InternalHandlers>
+                          </event>
+                        </events>
+                        <control disabled="false" id="contractid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="contractid" uniqueid="{a6034b4b-6ab6-aa05-7ee2-ca937bcc3d11}">
+                          <parameters>
+                            <IsInlineNewEnabled>false</IsInlineNewEnabled>
+                            <DefaultViewId>{5E32A72F-2C87-4407-B8B4-A45559229206}</DefaultViewId>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a0d5255c-e331-4297-a8f8-805e03921086}" labelid="{877e71ec-de1a-4985-9be1-a5ed7b79cfd8}">
+                        <labels>
+                          <label description="Contract Line" languagecode="1033" />
+                          <label description="合同子项" languagecode="2052" />
+                          <label description="Ligne de contrat" languagecode="1036" />
+                          <label description="契約品目" languagecode="1041" />
+                          <label description="계약 내용" languagecode="1042" />
+                          <label description="Linha do contrato" languagecode="1046" />
+                          <label description="Item de Contrato" languagecode="2070" />
+                          <label description="Linea de contrato" languagecode="3082" />
+                        </labels>
+                        <events>
+                          <event name="onclick" application="true" active="true">
+                            <InternalHandlers>
+                              <Handler functionName="Mscrm.contractdetailid_onclick" libraryName="Service/Incident/Incident_main_system_library.js" handlerUniqueId="069c3411-c466-496c-ab3e-15dc59afa9a1" enabled="true">
+                                <dependencies>
+                                  <dependency id="contractid" />
+                                </dependencies>
+                              </Handler>
+                            </InternalHandlers>
+                          </event>
+                        </events>
+                        <control id="contractdetailid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="contractdetailid">
+                          <parameters>
+                            <FilterRelationshipName>contract_line_items</FilterRelationshipName>
+                            <DependentAttributeName>incident.contractid</DependentAttributeName>
+                            <DependentAttributeType>contract</DependentAttributeType>
+                            <DefaultViewId>{8FA2705C-7E4C-4c0e-B611-4593B35A4C9E}</DefaultViewId>
+                            <IsInlineNewEnabled>false</IsInlineNewEnabled>
+                            <AllowFilterOff>true</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{CF9CD80E-17E4-438D-9705-5575B9BDF2D1}" labelwidth="115" celllabelposition="Top" columns="1111" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{58a799a6-a483-30da-d32d-12c15ba0daa0}" labelid="{580dff1f-0278-4826-9485-84cf35f04ead}" showlabel="true">
+              <labels>
+                <label description="Priority" languagecode="1033" />
+                <label description="优先级" languagecode="2052" />
+                <label description="Priorité" languagecode="1036" />
+                <label description="優先度" languagecode="1041" />
+                <label description="우선 순위" languagecode="1042" />
+                <label description="Prioridade" languagecode="1046" />
+                <label description="Prioridade" languagecode="2070" />
+                <label description="Prioridad" languagecode="3082" />
+              </labels>
+              <control disabled="false" id="header_prioritycode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="prioritycode" />
+            </cell>
+            <cell id="{67c9b29b-c1b2-aa8e-6b95-5d295b76e224}" labelid="{744c011d-70a2-4209-ad42-323373bfecb6}" showlabel="true">
+              <labels>
+                <label description="Created On" languagecode="1033" />
+                <label description="创建时间" languagecode="2052" />
+                <label description="Créé le" languagecode="1036" />
+                <label description="作成日" languagecode="1041" />
+                <label description="만든 날짜" languagecode="1042" />
+                <label description="Data de Criação" languagecode="1046" />
+                <label description="Criado Em" languagecode="2070" />
+                <label description="Fecha de creación" languagecode="3082" />
+              </labels>
+              <control disabled="true" id="header_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" uniqueid="{0c7408e5-77d6-4943-6ead-eb2856dc37b8}" />
+            </cell>
+            <cell id="{53dd311c-6ec7-4cde-b299-d39fe21c3dcf}" labelid="{b6dd83ea-d007-4762-90c8-745231b1a451}" locklevel="0" showlabel="true">
+              <labels>
+                <label description="Status" languagecode="1033" />
+                <label description="状态描述" languagecode="2052" />
+                <label description="Raison du statut" languagecode="1036" />
+                <label description="ステータス" languagecode="1041" />
+                <label description="상태 설명" languagecode="1042" />
+                <label description="Razão do Status" languagecode="1046" />
+                <label description="Razão do Estado" languagecode="2070" />
+                <label description="Razón para el estado" languagecode="3082" />
+              </labels>
+              <control disabled="false" id="header_statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" uniqueid="{704aac18-86e3-41d1-de70-c57165049505}" />
+            </cell>
+            <cell id="{d2c3b79d-4172-4f15-aa40-e69aa7bd2ab6}" labelid="{0a56c1a4-8b14-4d93-b919-4fc222688a25}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+                <label description="负责人" languagecode="2052" />
+                <label description="Propriétaire" languagecode="1036" />
+                <label description="所有者" languagecode="1041" />
+                <label description="담당자" languagecode="1042" />
+                <label description="Proprietário" languagecode="1046" />
+                <label description="Proprietário" languagecode="2070" />
+                <label description="Propietario" languagecode="3082" />
+              </labels>
+              <control disabled="false" id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <events>
+        <event name="onload" application="true" active="true">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.Form_onload" libraryName="Service/Incident/Incident_main_system_library.js" handlerUniqueId="76e18454-eeba-47c3-8a9d-6d701c77fbcc" enabled="true">
+              <dependencies>
+                <dependency id="contractid" />
+                <dependency id="contractdetailid" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+        <event name="onchange" application="true" active="true" attribute="customerid">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.customerid_onchange" libraryName="Service/Incident/Incident_main_system_library.js" handlerUniqueId="5349bfe7-817f-4c54-ae0f-f65df037361b" enabled="true">
+              <dependencies>
+                <dependency id="contractid" />
+                <dependency id="contractdetailid" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+        <event name="onchange" application="true" active="true" attribute="contractid">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.contractid_onchange" libraryName="Service/Incident/Incident_main_system_library.js" handlerUniqueId="1ff26f3d-f9f4-470b-a379-bc74ce466a53" enabled="true">
+              <dependencies>
+                <dependency id="contractdetailid" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+        <event name="onchange" application="true" active="true" attribute="contractdetailid">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.contractdetailid_onchange" libraryName="Service/Incident/Incident_main_system_library.js" handlerUniqueId="fde679b3-af20-4b24-ab99-13f7de54fbb1" enabled="true">
+              <dependencies>
+                <dependency id="contractid" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+        <event name="onchange" application="true" active="true" attribute="kbarticleid">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.kbarticleid_onchange" libraryName="Service/Incident/Incident_main_system_library.js" handlerUniqueId="1d4f95de-79c3-44e4-a782-469a8fc6132d" enabled="true" />
+          </InternalHandlers>
+        </event>
+        <event name="onchange" application="true" active="true" attribute="productid">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.productid_onchange" libraryName="Service/Incident/Incident_main_system_library.js" handlerUniqueId="97cabf35-d106-4f20-b656-97aebe91927c" enabled="true">
+              <dependencies>
+                <dependency id="entitlementid" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+        <event name="onchange" application="true" active="true" attribute="primarycontactid">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.primarycontactid_onchange" libraryName="Service/Incident/Incident_main_system_library.js" handlerUniqueId="e44c699a-b67f-40e1-8074-26a51241f017" enabled="true">
+              <dependencies>
+                <dependency id="entitlementid" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="smp_problembuilding">
+          <Handlers>
+            <Handler functionName="FilteredProblemClassLookup" libraryName="smp_script" handlerUniqueId="{a9ee836c-ecda-310a-c236-9cba8d24298b}" enabled="false" passExecutionContext="true" parameters="" />
+          </Handlers>
+        </event>
+      </events>
+      <clientresources>
+        <internalresources>
+          <clientincludes>
+            <internaljscriptfile src="/_static/cs/cases/cases.js" />
+            <internalcssfile src="/_tree/tree.css.aspx" />
+            <internaljscriptfile src="$webresource:Service/Incident/Incident_main_system_library.js" />
+          </clientincludes>
+          <clientvariables>
+            <internaljscriptvariable name="LOCID_ERROR_MISSING_CUSTOMER" resourceid="Web.cs.cases.edit.MissingCustomer" />
+          </clientvariables>
+        </internalresources>
+      </clientresources>
+      <Navigation>
+        <NavBar>
+          <NavBarByRelationshipItem Id="navActivities" Icon="/_imgs/ico_18_act.gif" Area="Info" Sequence="10" RelationshipName="Incident_ActivityPointers">
+            <Privileges>
+              <Privilege Entity="" Privilege="ReadActivity" />
+            </Privileges>
+            <Titles>
+              <Title Text="Activities" LCID="1033" />
+              <Title Text="" LCID="1026" />
+              <Title Text="" LCID="1027" />
+              <Title Text="" LCID="1029" />
+              <Title Text="" LCID="1030" />
+              <Title Text="" LCID="1031" />
+              <Title Text="" LCID="1032" />
+              <Title Text="" LCID="3082" />
+              <Title Text="" LCID="1061" />
+              <Title Text="" LCID="1069" />
+              <Title Text="" LCID="1035" />
+              <Title Text="" LCID="1036" />
+              <Title Text="" LCID="1110" />
+              <Title Text="" LCID="1081" />
+              <Title Text="" LCID="1050" />
+              <Title Text="" LCID="1038" />
+              <Title Text="" LCID="1057" />
+              <Title Text="" LCID="1040" />
+              <Title Text="" LCID="1087" />
+              <Title Text="" LCID="1063" />
+              <Title Text="" LCID="1062" />
+              <Title Text="" LCID="1086" />
+              <Title Text="" LCID="1044" />
+              <Title Text="" LCID="1043" />
+              <Title Text="" LCID="1045" />
+              <Title Text="" LCID="1046" />
+              <Title Text="" LCID="2070" />
+              <Title Text="" LCID="1048" />
+              <Title Text="" LCID="1049" />
+              <Title Text="" LCID="1051" />
+              <Title Text="" LCID="1060" />
+              <Title Text="" LCID="3098" />
+              <Title Text="" LCID="2074" />
+              <Title Text="" LCID="9242" />
+              <Title Text="" LCID="1053" />
+              <Title Text="" LCID="1054" />
+              <Title Text="" LCID="1055" />
+              <Title Text="" LCID="1058" />
+              <Title Text="" LCID="1066" />
+              <Title Text="活動" LCID="1041" />
+              <Title Text="활동" LCID="1042" />
+              <Title Text="Активности" LCID="10266" />
+              <Title Text="活动" LCID="2052" />
+              <Title Text="活動" LCID="3076" />
+              <Title Text="活動" LCID="1028" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="navActivityHistory" Icon="/_imgs/ico_18_history.gif" Area="Info" Sequence="20" RelationshipName="Incident_ActivityPointers" TitleResourceId="Tab_Label_History" ViewId="21E2B905-6FDB-470d-8517-AD69B4C01268">
+            <Privileges>
+              <Privilege Entity="" Privilege="ReadActivity" />
+            </Privileges>
+            <Titles>
+              <Title Text="Closed Activities" LCID="1033" />
+              <Title Text="" LCID="1026" />
+              <Title Text="" LCID="1027" />
+              <Title Text="" LCID="1029" />
+              <Title Text="" LCID="1030" />
+              <Title Text="" LCID="1031" />
+              <Title Text="" LCID="1032" />
+              <Title Text="" LCID="3082" />
+              <Title Text="" LCID="1061" />
+              <Title Text="" LCID="1069" />
+              <Title Text="" LCID="1035" />
+              <Title Text="" LCID="1036" />
+              <Title Text="" LCID="1110" />
+              <Title Text="" LCID="1081" />
+              <Title Text="" LCID="1050" />
+              <Title Text="" LCID="1038" />
+              <Title Text="" LCID="1057" />
+              <Title Text="" LCID="1040" />
+              <Title Text="" LCID="1087" />
+              <Title Text="" LCID="1063" />
+              <Title Text="" LCID="1062" />
+              <Title Text="" LCID="1086" />
+              <Title Text="" LCID="1044" />
+              <Title Text="" LCID="1043" />
+              <Title Text="" LCID="1045" />
+              <Title Text="" LCID="1046" />
+              <Title Text="" LCID="2070" />
+              <Title Text="" LCID="1048" />
+              <Title Text="" LCID="1049" />
+              <Title Text="" LCID="1051" />
+              <Title Text="" LCID="1060" />
+              <Title Text="" LCID="3098" />
+              <Title Text="" LCID="2074" />
+              <Title Text="" LCID="9242" />
+              <Title Text="" LCID="1053" />
+              <Title Text="" LCID="1054" />
+              <Title Text="" LCID="1055" />
+              <Title Text="" LCID="1058" />
+              <Title Text="" LCID="1066" />
+              <Title Text="クローズした活動" LCID="1041" />
+              <Title Text="종료된 활동" LCID="1042" />
+              <Title Text="Затворене активности" LCID="10266" />
+              <Title Text="已结束的活动" LCID="2052" />
+              <Title Text="已關閉的活動" LCID="3076" />
+              <Title Text="已關閉的活動" LCID="1028" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title Text="Common" LCID="1033" />
+              <Title Text="" LCID="1026" />
+              <Title Text="" LCID="1027" />
+              <Title Text="" LCID="1029" />
+              <Title Text="" LCID="1030" />
+              <Title Text="" LCID="1031" />
+              <Title Text="" LCID="1032" />
+              <Title Text="" LCID="3082" />
+              <Title Text="" LCID="1061" />
+              <Title Text="" LCID="1069" />
+              <Title Text="" LCID="1035" />
+              <Title Text="" LCID="1036" />
+              <Title Text="" LCID="1110" />
+              <Title Text="" LCID="1081" />
+              <Title Text="" LCID="1050" />
+              <Title Text="" LCID="1038" />
+              <Title Text="" LCID="1057" />
+              <Title Text="" LCID="1040" />
+              <Title Text="" LCID="1087" />
+              <Title Text="" LCID="1063" />
+              <Title Text="" LCID="1062" />
+              <Title Text="" LCID="1086" />
+              <Title Text="" LCID="1044" />
+              <Title Text="" LCID="1043" />
+              <Title Text="" LCID="1045" />
+              <Title Text="" LCID="1046" />
+              <Title Text="" LCID="2070" />
+              <Title Text="" LCID="1048" />
+              <Title Text="" LCID="1049" />
+              <Title Text="" LCID="1051" />
+              <Title Text="" LCID="1060" />
+              <Title Text="" LCID="3098" />
+              <Title Text="" LCID="2074" />
+              <Title Text="" LCID="9242" />
+              <Title Text="" LCID="1053" />
+              <Title Text="" LCID="1054" />
+              <Title Text="" LCID="1055" />
+              <Title Text="" LCID="1058" />
+              <Title Text="" LCID="1066" />
+              <Title Text="共通" LCID="1041" />
+              <Title Text="일반" LCID="1042" />
+              <Title Text="Уобичајено" LCID="10266" />
+              <Title Text="公用" LCID="2052" />
+              <Title Text="一般" LCID="3076" />
+              <Title Text="一般" LCID="1028" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title Text="Sales" LCID="1033" />
+              <Title Text="" LCID="1026" />
+              <Title Text="" LCID="1027" />
+              <Title Text="" LCID="1029" />
+              <Title Text="" LCID="1030" />
+              <Title Text="" LCID="1031" />
+              <Title Text="" LCID="1032" />
+              <Title Text="" LCID="3082" />
+              <Title Text="" LCID="1061" />
+              <Title Text="" LCID="1069" />
+              <Title Text="" LCID="1035" />
+              <Title Text="" LCID="1036" />
+              <Title Text="" LCID="1110" />
+              <Title Text="" LCID="1081" />
+              <Title Text="" LCID="1050" />
+              <Title Text="" LCID="1038" />
+              <Title Text="" LCID="1057" />
+              <Title Text="" LCID="1040" />
+              <Title Text="" LCID="1087" />
+              <Title Text="" LCID="1063" />
+              <Title Text="" LCID="1062" />
+              <Title Text="" LCID="1086" />
+              <Title Text="" LCID="1044" />
+              <Title Text="" LCID="1043" />
+              <Title Text="" LCID="1045" />
+              <Title Text="" LCID="1046" />
+              <Title Text="" LCID="2070" />
+              <Title Text="" LCID="1048" />
+              <Title Text="" LCID="1049" />
+              <Title Text="" LCID="1051" />
+              <Title Text="" LCID="1060" />
+              <Title Text="" LCID="3098" />
+              <Title Text="" LCID="2074" />
+              <Title Text="" LCID="9242" />
+              <Title Text="" LCID="1053" />
+              <Title Text="" LCID="1054" />
+              <Title Text="" LCID="1055" />
+              <Title Text="" LCID="1058" />
+              <Title Text="" LCID="1066" />
+              <Title Text="営業" LCID="1041" />
+              <Title Text="영업" LCID="1042" />
+              <Title Text="Продаја" LCID="10266" />
+              <Title Text="销售" LCID="2052" />
+              <Title Text="銷售" LCID="3076" />
+              <Title Text="銷售" LCID="1028" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title Text="Service" LCID="1033" />
+              <Title Text="" LCID="1026" />
+              <Title Text="" LCID="1027" />
+              <Title Text="" LCID="1029" />
+              <Title Text="" LCID="1030" />
+              <Title Text="" LCID="1031" />
+              <Title Text="" LCID="1032" />
+              <Title Text="" LCID="3082" />
+              <Title Text="" LCID="1061" />
+              <Title Text="" LCID="1069" />
+              <Title Text="" LCID="1035" />
+              <Title Text="" LCID="1036" />
+              <Title Text="" LCID="1110" />
+              <Title Text="" LCID="1081" />
+              <Title Text="" LCID="1050" />
+              <Title Text="" LCID="1038" />
+              <Title Text="" LCID="1057" />
+              <Title Text="" LCID="1040" />
+              <Title Text="" LCID="1087" />
+              <Title Text="" LCID="1063" />
+              <Title Text="" LCID="1062" />
+              <Title Text="" LCID="1086" />
+              <Title Text="" LCID="1044" />
+              <Title Text="" LCID="1043" />
+              <Title Text="" LCID="1045" />
+              <Title Text="" LCID="1046" />
+              <Title Text="" LCID="2070" />
+              <Title Text="" LCID="1048" />
+              <Title Text="" LCID="1049" />
+              <Title Text="" LCID="1051" />
+              <Title Text="" LCID="1060" />
+              <Title Text="" LCID="3098" />
+              <Title Text="" LCID="2074" />
+              <Title Text="" LCID="9242" />
+              <Title Text="" LCID="1053" />
+              <Title Text="" LCID="1054" />
+              <Title Text="" LCID="1055" />
+              <Title Text="" LCID="1058" />
+              <Title Text="" LCID="1066" />
+              <Title Text="サービス" LCID="1041" />
+              <Title Text="서비스" LCID="1042" />
+              <Title Text="Услуга" LCID="10266" />
+              <Title Text="服务" LCID="2052" />
+              <Title Text="服務" LCID="3076" />
+              <Title Text="服務" LCID="1028" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title Text="Marketing" LCID="1033" />
+              <Title Text="" LCID="1026" />
+              <Title Text="" LCID="1027" />
+              <Title Text="" LCID="1029" />
+              <Title Text="" LCID="1030" />
+              <Title Text="" LCID="1031" />
+              <Title Text="" LCID="1032" />
+              <Title Text="" LCID="3082" />
+              <Title Text="" LCID="1061" />
+              <Title Text="" LCID="1069" />
+              <Title Text="" LCID="1035" />
+              <Title Text="" LCID="1036" />
+              <Title Text="" LCID="1110" />
+              <Title Text="" LCID="1081" />
+              <Title Text="" LCID="1050" />
+              <Title Text="" LCID="1038" />
+              <Title Text="" LCID="1057" />
+              <Title Text="" LCID="1040" />
+              <Title Text="" LCID="1087" />
+              <Title Text="" LCID="1063" />
+              <Title Text="" LCID="1062" />
+              <Title Text="" LCID="1086" />
+              <Title Text="" LCID="1044" />
+              <Title Text="" LCID="1043" />
+              <Title Text="" LCID="1045" />
+              <Title Text="" LCID="1046" />
+              <Title Text="" LCID="2070" />
+              <Title Text="" LCID="1048" />
+              <Title Text="" LCID="1049" />
+              <Title Text="" LCID="1051" />
+              <Title Text="" LCID="1060" />
+              <Title Text="" LCID="3098" />
+              <Title Text="" LCID="2074" />
+              <Title Text="" LCID="9242" />
+              <Title Text="" LCID="1053" />
+              <Title Text="" LCID="1054" />
+              <Title Text="" LCID="1055" />
+              <Title Text="" LCID="1058" />
+              <Title Text="" LCID="1066" />
+              <Title Text="マーケティング" LCID="1041" />
+              <Title Text="마케팅" LCID="1042" />
+              <Title Text="Маркетинг" LCID="10266" />
+              <Title Text="市场营销" LCID="2052" />
+              <Title Text="行銷" LCID="3076" />
+              <Title Text="行銷" LCID="1028" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title Text="Process Sessions" LCID="1033" />
+              <Title Text="" LCID="1026" />
+              <Title Text="" LCID="1027" />
+              <Title Text="" LCID="1029" />
+              <Title Text="" LCID="1030" />
+              <Title Text="" LCID="1031" />
+              <Title Text="" LCID="1032" />
+              <Title Text="" LCID="3082" />
+              <Title Text="" LCID="1061" />
+              <Title Text="" LCID="1069" />
+              <Title Text="" LCID="1035" />
+              <Title Text="" LCID="1036" />
+              <Title Text="" LCID="1110" />
+              <Title Text="" LCID="1081" />
+              <Title Text="" LCID="1050" />
+              <Title Text="" LCID="1038" />
+              <Title Text="" LCID="1057" />
+              <Title Text="" LCID="1040" />
+              <Title Text="" LCID="1087" />
+              <Title Text="" LCID="1063" />
+              <Title Text="" LCID="1062" />
+              <Title Text="" LCID="1086" />
+              <Title Text="" LCID="1044" />
+              <Title Text="" LCID="1043" />
+              <Title Text="" LCID="1045" />
+              <Title Text="" LCID="1046" />
+              <Title Text="" LCID="2070" />
+              <Title Text="" LCID="1048" />
+              <Title Text="" LCID="1049" />
+              <Title Text="" LCID="1051" />
+              <Title Text="" LCID="1060" />
+              <Title Text="" LCID="3098" />
+              <Title Text="" LCID="2074" />
+              <Title Text="" LCID="9242" />
+              <Title Text="" LCID="1053" />
+              <Title Text="" LCID="1054" />
+              <Title Text="" LCID="1055" />
+              <Title Text="" LCID="1058" />
+              <Title Text="" LCID="1066" />
+              <Title Text="プロセス セッション" LCID="1041" />
+              <Title Text="프로세스 세션" LCID="1042" />
+              <Title Text="Сесије процеса" LCID="10266" />
+              <Title Text="进程会话" LCID="2052" />
+              <Title Text="程序工作階段" LCID="3076" />
+              <Title Text="程序工作階段" LCID="1028" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <hiddencontrols>
+        <data id="FirstResponseSLAStatus" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" datafieldname="firstresponseslastatus" />
+        <data id="ResolveBySLAStatus" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" datafieldname="resolvebyslastatus" />
+      </hiddencontrols>
+      <controlDescriptions />
+      <formLibraries>
+        <Library name="smp_script" libraryUniqueId="{0885cb04-2e56-b244-b3a4-305a106952a3}" />
+      </formLibraries>
+      <DisplayConditions Order="15">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Portal form" languagecode="1033" />
+      <LocalizedName description="Formulário do portal" languagecode="1046" />
+      <LocalizedName description="#REF!" languagecode="3082" />
+    </LocalizedNames>
+  </systemform>
+</forms>

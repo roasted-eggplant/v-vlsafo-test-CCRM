@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{36bab8df-a1b8-e711-80fd-3863bb35ed38}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="title" select="1" preview="1" icon="1">
+        <row name="result" id="incidentid">
+          <cell name="ticketnumber" width="100" />
+          <cell name="smp_problembuilding" width="100" />
+          <cell name="smp_problemtypeid" width="100" />
+          <cell name="smp_occureddatetimebybuildingtimezone" width="100" />
+          <cell name="smp_submitteddatetimebybuildingtimezone" width="100" />
+          <cell name="statuscode" width="100" />
+          <cell name="smp_contact" width="100" />
+          <cell name="smp_problemclassid" width="100" />
+          <cell name="smp_requestorid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="incident">
+          <order attribute="ticketnumber" descending="false" />
+          <attribute name="smp_submitteddatetimebybuildingtimezone" />
+          <attribute name="statuscode" />
+          <attribute name="ticketnumber" />
+          <attribute name="smp_requestorid" />
+          <attribute name="smp_problemtypeid" />
+          <attribute name="smp_problemclassid" />
+          <attribute name="smp_problembuilding" />
+          <attribute name="smp_occureddatetimebybuildingtimezone" />
+          <attribute name="smp_contact" />
+          <attribute name="incidentid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Service Requests(Detailed) - Portal" languagecode="1033" />
+      <LocalizedName description="Solicitações de serviço ativo (detalhadas) - Portal" languagecode="1046" />
+      <LocalizedName description="Active Service Requests(Detailed) - Portal" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

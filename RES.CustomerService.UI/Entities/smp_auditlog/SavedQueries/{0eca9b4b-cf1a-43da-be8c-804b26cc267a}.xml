@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{0eca9b4b-cf1a-43da-be8c-804b26cc267a}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_attribute" select="1" icon="1" preview="1">
+        <row name="result" id="smp_auditlogid">
+          <cell name="smp_attribute" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_auditlog">
+          <attribute name="smp_auditlogid" />
+          <attribute name="smp_attribute" />
+          <attribute name="createdon" />
+          <order attribute="smp_attribute" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Audit Logs" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

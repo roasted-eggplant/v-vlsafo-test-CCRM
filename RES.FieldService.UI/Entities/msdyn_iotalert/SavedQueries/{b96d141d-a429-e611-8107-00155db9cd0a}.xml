@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b96d141d-a429-e611-8107-00155db9cd0a}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msdyn_description" select="1" preview="1" icon="1">
+        <row name="result" id="msdyn_iotalertid">
+          <cell name="msdyn_description" width="300" />
+          <cell name="msdyn_alerttype" width="100" />
+          <cell name="msdyn_alerttime" width="200" />
+          <cell name="statuscode" width="200" />
+          <cell name="msdyn_device" width="150" />
+          <cell name="msdyn_customerasset" width="150" />
+          <cell name="a_082acba5525ee611810b00155dbd6a1d.msdyn_account" width="150" disableSorting="1" />
+          <cell name="a_082acba5525ee611810b00155dbd6a1d.msdyn_product" width="150" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="msdyn_iotalert">
+          <attribute name="msdyn_description" />
+          <attribute name="msdyn_alerttime" />
+          <order attribute="msdyn_alerttime" descending="true" />
+          <filter type="and">
+            <condition attribute="msdyn_parentalert" operator="null" />
+            <condition attribute="msdyn_parentalerttoken" operator="null" />
+            <condition attribute="statecode" operator="in">
+              <value>0</value>
+              <value>2</value>
+            </condition>
+          </filter>
+          <attribute name="msdyn_alerttype" />
+          <attribute name="msdyn_device" />
+          <attribute name="msdyn_customerasset" />
+          <link-entity alias="a_082acba5525ee611810b00155dbd6a1d" name="msdyn_customerasset" from="msdyn_customerassetid" to="msdyn_customerasset" link-type="outer" visible="false">
+            <attribute name="msdyn_product" />
+            <attribute name="msdyn_account" />
+          </link-entity>
+          <attribute name="statuscode" />
+          <attribute name="msdyn_iotalertid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Main Active IoT Alerts" languagecode="1033" />
+      <LocalizedName description="Alertes IoT actives principales" languagecode="1036" />
+      <LocalizedName description="メインのアクティブな IoT 通知" languagecode="1041" />
+      <LocalizedName description="기본 활성 IoT 알림" languagecode="1042" />
+      <LocalizedName description="Alertas ativos principais da IoT" languagecode="1046" />
+      <LocalizedName description="主要可用 IoT 警报" languagecode="2052" />
+      <LocalizedName description="Alertas de IoT Ativos Principais" languagecode="2070" />
+      <LocalizedName description="Alertas de IoT activas principales" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Service alerts that are the top-level in the hierarchy, which may have other subsequent iot alerts linked to them." languagecode="1033" />
+      <Description description="Alertes de service qui sont de niveau supérieur dans la hiérarchie, auxquelles des alertes IoT consécutives sont peut-être liées." languagecode="1036" />
+      <Description description="階層で最上位にあるサービス通知です。後続の他の IoT 通知がリンクされている場合もあります。" languagecode="1041" />
+      <Description description="계층 구조에서 최상위에 있는 서비스 알림으로, 여기에 연결된 다른 후속 IoT 알림이 있을 수도 있습니다." languagecode="1042" />
+      <Description description="Alertas de serviço que são de nível superior na hierarquia, que podem ter outros alertas iot subsequentes vinculados a eles." languagecode="1046" />
+      <Description description="位于层次结构顶层的服务警报，这类警报可能还有关联的其他后续 IoT 警报。" languagecode="2052" />
+      <Description description="Alertas de serviço de nível superior na hierarquia, que podem ter outros alertas de IoT subsequentes associados." languagecode="2070" />
+      <Description description="Alertas de servicio que están en el nivel superior de la jerarquía, que pueden tener otras alertas de iot posteriores vinculadas." languagecode="3082" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

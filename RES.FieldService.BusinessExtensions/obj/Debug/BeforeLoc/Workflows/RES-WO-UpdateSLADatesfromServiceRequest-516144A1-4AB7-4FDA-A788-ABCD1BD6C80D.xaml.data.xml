@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{516144a1-4ab7-4fda-a788-abcd1bd6c80d}" Name="RES - WO - Update SLA Dates from Service Request">
+  <XamlFileName>/Workflows/RES-WO-UpdateSLADatesfromServiceRequest-516144A1-4AB7-4FDA-A788-ABCD1BD6C80D.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>0</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>1</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>1</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>2.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <PrimaryEntity>msdyn_workorder</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="RES - WO - Update SLA Dates from Service Request" />
+  </LocalizedNames>
+</Workflow>

@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <OutputType>Library</OutputType>
+    <ProjectGuid>{8F062B74-D5BC-4613-B440-143C2CD292D0}</ProjectGuid>
+    <ProjectTypeGuids>{4B952A0A-A664-46EC-8D7E-51EBEA2E954D};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RES.FieldService.UI</RootNamespace>
+    <AssemblyName>RES.FieldService.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <SolutionPackagerDir>..\CoreTools</SolutionPackagerDir>
+    <SolutionLocToolsDir>..\CoreTools</SolutionLocToolsDir>
+    <SolutionType>0</SolutionType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <!--<None Include="MetadataProjectBinPlace.targets" />-->
+    <ResourceDefinition Include="WebResources.xml" />
+    <None Include="Microsoft.Crm.SolutionProjects.Metadata.targets" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Crm.SolutionProjects.MSBuild">
+      <HintPath>$(SolutionDir)packages\Microsoft.Crm.SolutionMSBuildExtention.1.3.2\lib\net452\Microsoft.Crm.SolutionProjects.MSBuild.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Entities\msdyn_agreementbookingsetup\Entity.xml" />
+    <Content Include="Entities\msdyn_agreementbookingsetup\FormXml\main\{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}.xml" />
+    <Content Include="Entities\msdyn_agreementbookingsetup\FormXml\main\{43ba8f00-d25b-45b7-89d4-52a658cc62bf}.xml" />
+    <Content Include="Entities\msdyn_agreementbookingsetup\RibbonDiff.xml" />
+    <Content Include="Entities\msdyn_agreementbookingsetup\SavedQueries\{2e22f4a7-547f-407d-9eb2-b933b28c4f1f}.xml" />
+    <Content Include="Entities\msdyn_agreementbookingsetup\SavedQueries\{458b05a8-035b-4069-b680-14aac43f68ec}.xml" />
+    <Content Include="Entities\msdyn_agreementbookingsetup\SavedQueries\{7dc3e92b-cd33-4d67-ad5d-43b5754b56a5}.xml" />
+    <Content Include="Entities\msdyn_agreementbookingsetup\SavedQueries\{a9cafcd1-ebbf-4d47-82b7-fd10b01d34c6}.xml" />
+    <Content Include="Entities\msdyn_agreementbookingsetup\SavedQueries\{ded6d2a2-b6c3-4835-b5c4-2dd03d4c4706}.xml" />
+    <Content Include="Entities\msdyn_agreementbookingsetup\SavedQueries\{e7cad13e-87a5-e111-84f4-000c2959f9b8}.xml" />
+    <Content Include="Entities\msdyn_agreementbookingsetup\SavedQueries\{eca9cccd-8c77-4f36-a22a-cb8e1bf8a0f7}.xml" />
+    <Content Include="Entities\msdyn_customerasset\Entity.xml" />
+    <Content Include="Entities\msdyn_customerasset\FormXml\main\{23a63844-ff18-4fcc-b641-eac69b6ef100}.xml" />
+    <Content Include="Entities\msdyn_customerasset\FormXml\main\{8e32cdf1-c3c0-490f-8681-37ac1e223d1a}.xml" />
+    <Content Include="Entities\msdyn_customerasset\FormXml\quickCreate\{cef1eed6-7652-4053-b7cf-9246af579b4f}.xml" />
+    <Content Include="Entities\msdyn_customerasset\FormXml\quick\{8d2d2b33-2427-42e2-b080-57f9b919a76d}.xml" />
+    <Content Include="Entities\msdyn_customerasset\RibbonDiff.xml" />
+    <Content Include="Entities\msdyn_customerasset\SavedQueries\{01d8fb0e-2e71-4230-bab4-6d14509b06de}.xml" />
+    <Content Include="Entities\msdyn_customerasset\SavedQueries\{2c964340-386a-4ef7-8dc6-bfb2c197c4b0}.xml" />
+    <Content Include="Entities\msdyn_customerasset\SavedQueries\{4f2f6a85-816a-e611-8106-00155db8820b}.xml" />
+    <Content Include="Entities\msdyn_customerasset\SavedQueries\{60b1e3a2-68f8-4369-a75d-84b2477370c0}.xml" />
+    <Content Include="Entities\msdyn_customerasset\SavedQueries\{6ecb03a4-acda-44ae-83e3-c60ba8338dbb}.xml" />
+    <Content Include="Entities\msdyn_customerasset\SavedQueries\{718410e5-6a96-4d6e-9a7c-781265eedfb9}.xml" />
+    <Content Include="Entities\msdyn_customerasset\SavedQueries\{d70bcff2-816a-e611-8106-00155db8820b}.xml" />
+    <Content Include="Entities\msdyn_customerasset\SavedQueries\{fd2fda4c-4b7f-4a68-a2cb-c1e1c6a31c8f}.xml" />
+    <Content Include="Entities\msdyn_incidenttype\Entity.xml" />
+    <Content Include="Entities\msdyn_incidenttype\FormXml\main\{4cbf19c2-8998-4fcf-b1a1-19a983797396}.xml" />
+    <Content Include="Entities\msdyn_incidenttype\RibbonDiff.xml" />
+    <Content Include="Entities\msdyn_incidenttype\SavedQueries\{467a8f92-753b-485e-8ba9-13de8b7cb3a7}.xml" />
+    <Content Include="Entities\msdyn_incidenttype\SavedQueries\{5a0393bc-f242-e811-811b-5065f38bc1a1}.xml" />
+    <Content Include="Entities\msdyn_incidenttype\SavedQueries\{6779156f-7d9b-4ff2-85b0-83e91cc95299}.xml" />
+    <Content Include="Entities\msdyn_incidenttype\SavedQueries\{6a725742-201a-e111-ad28-00155d289608}.xml" />
+    <Content Include="Entities\msdyn_incidenttype\SavedQueries\{82e357fe-4361-e111-ac14-000c2959f9b8}.xml" />
+    <Content Include="Entities\msdyn_incidenttype\SavedQueries\{a8550ece-7906-46e1-98c5-34cc2e803afc}.xml" />
+    <Content Include="Entities\msdyn_incidenttype\SavedQueries\{b9d008c2-3b48-45e9-8e44-5a6515ad778e}.xml" />
+    <Content Include="Entities\msdyn_incidenttype\SavedQueries\{d55234c3-d2df-45d1-ab39-2274047d84c9}.xml" />
+    <Content Include="Entities\msdyn_incidenttype\SavedQueries\{e0dee15d-7264-4326-8eb2-9773eefded5d}.xml" />
+    <Content Include="Entities\msdyn_iotalert\Entity.xml" />
+    <Content Include="Entities\msdyn_iotalert\FormXml\card\{90dd394d-6bc9-40f1-abd0-4dc19ab32b93}.xml" />
+    <Content Include="Entities\msdyn_iotalert\FormXml\main\{3ca57af4-97a0-476b-825e-780aab21b124}.xml" />
+    <Content Include="Entities\msdyn_iotalert\FormXml\quick\{a5bb4626-4194-4a65-9501-6f38901a4f04}.xml" />
+    <Content Include="Entities\msdyn_iotalert\RibbonDiff.xml" />
+    <Content Include="Entities\msdyn_iotalert\SavedQueries\{08738f58-2bc6-4dc5-a919-bfde2f5a575b}.xml" />
+    <Content Include="Entities\msdyn_iotalert\SavedQueries\{0d671846-601a-43fb-ad96-d4563022bfb7}.xml" />
+    <Content Include="Entities\msdyn_iotalert\SavedQueries\{1b6af391-da26-4b68-b86c-f4cc379c41b3}.xml" />
+    <Content Include="Entities\msdyn_iotalert\SavedQueries\{1d513c33-aa67-e911-a979-000d3a30da4f}.xml" />
+    <Content Include="Entities\msdyn_iotalert\SavedQueries\{2bb54a90-e84a-e611-8104-00155de2881e}.xml" />
+    <Content Include="Entities\msdyn_iotalert\SavedQueries\{85d8bcc6-f396-41c4-94f8-24b4a9970632}.xml" />
+    <Content Include="Entities\msdyn_iotalert\SavedQueries\{8904c700-a667-e911-a985-000d3a30dc28}.xml" />
+    <Content Include="Entities\msdyn_iotalert\SavedQueries\{8e276b90-d257-4057-a013-402ae209d78c}.xml" />
+    <Content Include="Entities\msdyn_iotalert\SavedQueries\{b6289902-625c-4e42-810e-7c25cc62b2d8}.xml" />
+    <Content Include="Entities\msdyn_iotalert\SavedQueries\{b96d141d-a429-e611-8107-00155db9cd0a}.xml" />
+    <Content Include="Entities\msdyn_iotalert\SavedQueries\{cf47ae20-e542-e611-80e3-3863bb2eb408}.xml" />
+    <Content Include="Entities\msdyn_iotalert\SavedQueries\{e8ac1a8f-bd5a-4fdd-9d92-66dcb37670b4}.xml" />
+    <Content Include="Entities\msdyn_purchaseorderproduct\Entity.xml" />
+    <Content Include="Entities\msdyn_purchaseorderproduct\FormXml\main\{14cfb9a8-0faf-47a1-ab97-f266331e90ec}.xml" />
+    <Content Include="Entities\msdyn_purchaseorderproduct\FormXml\main\{420361fb-c2fd-44ee-bde9-e8f2f1339480}.xml" />
+    <Content Include="Entities\msdyn_purchaseorderproduct\RibbonDiff.xml" />
+    <Content Include="Entities\msdyn_purchaseorderproduct\SavedQueries\{0331fb09-5856-4825-9d4c-d813238f4ab4}.xml" />
+    <Content Include="Entities\msdyn_purchaseorderproduct\SavedQueries\{3c56a749-a81b-4681-86b9-f7e17ea0f01a}.xml" />
+    <Content Include="Entities\msdyn_purchaseorderproduct\SavedQueries\{4668428d-75c7-4c61-81ae-29e786142373}.xml" />
+    <Content Include="Entities\msdyn_purchaseorderproduct\SavedQueries\{582d8f2f-2cf8-e111-bbe0-000c2959f9b8}.xml" />
+    <Content Include="Entities\msdyn_purchaseorderproduct\SavedQueries\{8e8f073d-2a37-460c-a870-9b012863b31d}.xml" />
+    <Content Include="Entities\msdyn_purchaseorderproduct\SavedQueries\{917e05c1-8d16-4851-9392-a7ca1f969c74}.xml" />
+    <Content Include="Entities\msdyn_purchaseorderproduct\SavedQueries\{c7f043ce-0b60-e611-8109-000d3a146973}.xml" />
+    <Content Include="Entities\msdyn_purchaseorderproduct\SavedQueries\{d18539f1-4651-485b-906d-58d791dfafeb}.xml" />
+    <Content Include="Entities\msdyn_purchaseorderproduct\SavedQueries\{d522d706-b563-e211-895a-000c2959f9b8}.xml" />
+    <Content Include="Entities\msdyn_purchaseorder\Entity.xml" />
+    <Content Include="Entities\msdyn_purchaseorder\FormXml\main\{53f3aa73-82fb-433c-b49a-72e1d900229d}.xml" />
+    <Content Include="Entities\msdyn_purchaseorder\FormXml\main\{8937ec0b-52d9-4039-8c65-3ee2123f79a1}.xml" />
+    <Content Include="Entities\msdyn_purchaseorder\RibbonDiff.xml" />
+    <Content Include="Entities\msdyn_purchaseorder\SavedQueries\{138d4b76-af1a-4206-be2e-ee9d941f9a9a}.xml" />
+    <Content Include="Entities\msdyn_purchaseorder\SavedQueries\{3b997452-4c7d-4896-8536-c61944927f8e}.xml" />
+    <Content Include="Entities\msdyn_purchaseorder\SavedQueries\{71ef727e-38d9-4d69-b29e-7cf4d8bd09b3}.xml" />
+    <Content Include="Entities\msdyn_purchaseorder\SavedQueries\{885fa661-205f-e211-895a-000c2959f9b8}.xml" />
+    <Content Include="Entities\msdyn_purchaseorder\SavedQueries\{b031d3a9-b3e8-459f-b79a-3a4c89a5ea96}.xml" />
+    <Content Include="Entities\msdyn_purchaseorder\SavedQueries\{b446c78a-6e2e-4dc8-ba85-0833990add4b}.xml" />
+    <Content Include="Entities\msdyn_purchaseorder\SavedQueries\{f35cd0e1-f678-4682-a16f-12b987321151}.xml" />
+    <Content Include="Entities\msdyn_workorderproduct\Entity.xml" />
+    <Content Include="Entities\msdyn_workorderproduct\FormXml\main\{70c4a13d-3787-44b0-ac74-35e25c4ce7df}.xml" />
+    <Content Include="Entities\msdyn_workorderproduct\FormXml\main\{ffdd4e22-a23a-440a-9d28-5d5224c1c01a}.xml" />
+    <Content Include="Entities\msdyn_workorderproduct\RibbonDiff.xml" />
+    <Content Include="Entities\msdyn_workorderproduct\SavedQueries\{1662ced4-9bc6-4e77-90b2-6bbf2bef029f}.xml" />
+    <Content Include="Entities\msdyn_workorderproduct\SavedQueries\{1a0a1153-375f-e611-8108-000d3a146973}.xml" />
+    <Content Include="Entities\msdyn_workorderproduct\SavedQueries\{293498de-a23c-e311-974a-00155da8fa1b}.xml" />
+    <Content Include="Entities\msdyn_workorderproduct\SavedQueries\{38f2138f-b25b-e111-b0e5-000c2959f9b8}.xml" />
+    <Content Include="Entities\msdyn_workorderproduct\SavedQueries\{3db514aa-60a3-4e8e-b4c0-5a62d9f1fd4f}.xml" />
+    <Content Include="Entities\msdyn_workorderproduct\SavedQueries\{ca97cfba-4b1c-48fc-8f33-7840945cf16f}.xml" />
+    <Content Include="Entities\msdyn_workorderproduct\SavedQueries\{cf76fac4-9a6e-436b-aa64-3a160eabb0c4}.xml" />
+    <Content Include="Entities\msdyn_workorderproduct\SavedQueries\{d4b5a6e3-8661-4c64-8bb1-54aaf87d2dda}.xml" />
+    <Content Include="Entities\msdyn_workorderproduct\SavedQueries\{edf36890-a7c9-4795-b131-0767492b34c8}.xml" />
+    <Content Include="Entities\msdyn_workorder\Entity.xml" />
+    <Content Include="Entities\msdyn_workorder\FormXml\main\{6bfd1f9f-759e-459a-b752-3536e6513d25}.xml" />
+    <Content Include="Entities\msdyn_workorder\FormXml\main\{f25cecf6-2f00-4eab-aeef-d773af32e027}.xml" />
+    <Content Include="Entities\msdyn_workorder\FormXml\quickCreate\{e0d97cdc-4c20-4e03-bc2a-6dbc6cb1d2c2}.xml" />
+    <Content Include="Entities\msdyn_workorder\FormXml\quick\{79c33fb4-7126-41a8-9dff-13e4462c9b19}.xml" />
+    <Content Include="Entities\msdyn_workorder\RibbonDiff.xml" />
+    <Content Include="Entities\msdyn_workorder\SavedQueries\{15476636-9244-466e-ae0b-487f0a91a31c}.xml" />
+    <Content Include="Entities\msdyn_workorder\SavedQueries\{2081810d-287b-e811-8129-5065f38bb411}.xml" />
+    <Content Include="Entities\msdyn_workorder\SavedQueries\{23a90f98-dc5d-e611-810b-00155dbd6a1d}.xml" />
+    <Content Include="Entities\msdyn_workorder\SavedQueries\{4e596fd3-277b-e811-8129-5065f38bb411}.xml" />
+    <Content Include="Entities\msdyn_workorder\SavedQueries\{5b488abe-382b-e811-811e-c4346bdcb211}.xml" />
+    <Content Include="Entities\msdyn_workorder\SavedQueries\{6e3c6748-2aee-4691-8966-19d39a04c9f4}.xml" />
+    <Content Include="Entities\msdyn_workorder\SavedQueries\{8fa22246-d50a-e811-811a-c4346bdcb211}.xml" />
+    <Content Include="Entities\msdyn_workorder\SavedQueries\{8fc5e2dc-de13-e911-a971-000d3a30da4f}.xml" />
+    <Content Include="Entities\msdyn_workorder\SavedQueries\{9197a6aa-f22c-496e-b298-5801e85aa407}.xml" />
+    <Content Include="Entities\msdyn_workorder\SavedQueries\{c0c4fd32-f265-497d-bfae-546c88d5bb3b}.xml" />
+    <Content Include="Entities\msdyn_workorder\SavedQueries\{c102290e-8b67-e911-a985-000d3a30dc28}.xml" />
+    <Content Include="Entities\msdyn_workorder\SavedQueries\{c303dde5-155d-e811-811d-5065f38bc1a1}.xml" />
+    <Content Include="Entities\msdyn_workorder\SavedQueries\{c4398499-b242-e111-9bb9-00155d28960b}.xml" />
+    <Content Include="Entities\msdyn_workorder\SavedQueries\{d3599a96-25e6-e911-a97a-000d3a3406c4}.xml" />
+    <Content Include="Entities\msdyn_workorder\SavedQueries\{d928c332-8c65-43fc-95b2-5df41d2fa558}.xml" />
+    <Content Include="Entities\msdyn_workorder\SavedQueries\{fce37246-eba1-4e92-bb9d-f8cb3ec38e3f}.xml" />
+    <Content Include="Entities\smp_fulfilmentrequestlineitem\Entity.xml" />
+    <Content Include="Entities\smp_fulfilmentrequestlineitem\FormXml\card\{2f589adc-ab56-44b4-99b3-d9d498c4704d}.xml" />
+    <Content Include="Entities\smp_fulfilmentrequestlineitem\FormXml\main\{b5475ca3-dd1b-4012-bec7-9d24f2180acb}.xml" />
+    <Content Include="Entities\smp_fulfilmentrequestlineitem\FormXml\quick\{024c7c3b-c46f-4638-b5fa-0524478316f4}.xml" />
+    <Content Include="Entities\smp_fulfilmentrequestlineitem\RibbonDiff.xml" />
+    <Content Include="Entities\smp_fulfilmentrequestlineitem\SavedQueries\{1c177b97-510a-43a0-a0cf-20f55f5cdf4a}.xml" />
+    <Content Include="Entities\smp_fulfilmentrequestlineitem\SavedQueries\{20bf7c7f-ec45-4b33-9434-65e6922e2d1b}.xml" />
+    <Content Include="Entities\smp_fulfilmentrequestlineitem\SavedQueries\{4a073f7d-7bf0-42e2-9550-4f0dfb6525d3}.xml" />
+    <Content Include="Entities\smp_fulfilmentrequestlineitem\SavedQueries\{5a52ff94-bf74-4ce7-ba47-b386266628ef}.xml" />
+    <Content Include="Entities\smp_fulfilmentrequestlineitem\SavedQueries\{9d9c9d2a-e65d-43f3-9c5d-1d80aefae9a2}.xml" />
+    <Content Include="Entities\smp_fulfilmentrequestlineitem\SavedQueries\{c1b1b0bf-4afc-49e7-a8d0-9f6a1d87b0c6}.xml" />
+    <Content Include="Entities\smp_inspectionquestion\Entity.xml" />
+    <Content Include="Entities\smp_inspectionquestion\FormXml\card\{1f5050c3-0793-495d-b57b-eec741f20a5f}.xml" />
+    <Content Include="Entities\smp_inspectionquestion\FormXml\main\{60bc66d0-5a65-4c77-b7c8-88609d48d003}.xml" />
+    <Content Include="Entities\smp_inspectionquestion\FormXml\quick\{01058666-0cb7-4945-a13a-14985ea108fe}.xml" />
+    <Content Include="Entities\smp_inspectionquestion\RibbonDiff.xml" />
+    <Content Include="Entities\smp_inspectionquestion\SavedQueries\{0e0385df-2f06-41f6-a451-b293570b9767}.xml" />
+    <Content Include="Entities\smp_inspectionquestion\SavedQueries\{2d6b847a-123e-4686-8f91-8f27b570c9a0}.xml" />
+    <Content Include="Entities\smp_inspectionquestion\SavedQueries\{52134fe9-98b6-4d59-bcef-ef5941b7a4ac}.xml" />
+    <Content Include="Entities\smp_inspectionquestion\SavedQueries\{5ecdf947-6e28-43ea-9575-d0b28dc295d6}.xml" />
+    <Content Include="Entities\smp_inspectionquestion\SavedQueries\{83c1c200-bad4-4a91-9d07-b94e01a15693}.xml" />
+    <Content Include="Entities\smp_inspectionquestion\SavedQueries\{f0f0d9c3-dcef-4819-922b-6e7b1c00dab5}.xml" />
+    <Content Include="Entities\smp_inspectionrespons\Entity.xml" />
+    <Content Include="Entities\smp_inspectionrespons\FormXml\card\{7e5ab057-e486-44aa-a92f-7c66f37a999d}.xml" />
+    <Content Include="Entities\smp_inspectionrespons\FormXml\main\{d9e940ea-0ddc-4f64-9c39-4e133ad5a6fd}.xml" />
+    <Content Include="Entities\smp_inspectionrespons\FormXml\quick\{5cf949f4-0fdb-44cb-8a0c-0b686fa74ae0}.xml" />
+    <Content Include="Entities\smp_inspectionrespons\RibbonDiff.xml" />
+    <Content Include="Entities\smp_inspectionrespons\SavedQueries\{312224bc-3c2b-e811-811a-5065f38bc1a1}.xml" />
+    <Content Include="Entities\smp_inspectionrespons\SavedQueries\{3ecb7226-32f6-43bc-903d-62b456de2974}.xml" />
+    <Content Include="Entities\smp_inspectionrespons\SavedQueries\{3f6a1c5d-9da8-4fe8-948c-f7ffc8f46356}.xml" />
+    <Content Include="Entities\smp_inspectionrespons\SavedQueries\{85acc82e-1384-423a-9633-cfba4ed2f822}.xml" />
+    <Content Include="Entities\smp_inspectionrespons\SavedQueries\{8e61b50f-be43-4d02-aa9e-795a695f4df6}.xml" />
+    <Content Include="Entities\smp_inspectionrespons\SavedQueries\{9f07ea31-01dc-4c00-a692-999075cecf0b}.xml" />
+    <Content Include="Entities\smp_inspectionrespons\SavedQueries\{e91fd8d6-5b3e-47af-b321-b437e1a73655}.xml" />
+    <Content Include="Entities\smp_inspectiontype\Entity.xml" />
+    <Content Include="Entities\smp_inspectiontype\FormXml\card\{30a925eb-c1ea-43f2-8b7b-4b4296b440ae}.xml" />
+    <Content Include="Entities\smp_inspectiontype\FormXml\main\{42fdec40-eb1a-4433-b679-d262d09f25ca}.xml" />
+    <Content Include="Entities\smp_inspectiontype\FormXml\quick\{a27e1228-0e35-44c3-bbe7-bd3d869270db}.xml" />
+    <Content Include="Entities\smp_inspectiontype\RibbonDiff.xml" />
+    <Content Include="Entities\smp_inspectiontype\SavedQueries\{02c861dc-1ad3-46ec-b25f-7e71e3a653f8}.xml" />
+    <Content Include="Entities\smp_inspectiontype\SavedQueries\{1fbaa047-61dc-44b9-9908-0acd75a3757f}.xml" />
+    <Content Include="Entities\smp_inspectiontype\SavedQueries\{343f8602-fbff-4bd5-b502-218ec89ba081}.xml" />
+    <Content Include="Entities\smp_inspectiontype\SavedQueries\{6789717c-86ee-4db4-9225-62265e159cb6}.xml" />
+    <Content Include="Entities\smp_inspectiontype\SavedQueries\{6ba7ea65-5d57-456e-9026-6a46b0d6d738}.xml" />
+    <Content Include="Entities\smp_inspectiontype\SavedQueries\{e91d5357-3405-4b2e-b9a4-7532fe6822c0}.xml" />
+    <Content Include="Entities\smp_inspection\Entity.xml" />
+    <Content Include="Entities\smp_inspection\FormXml\card\{140e291a-460d-48ed-9049-3910d8aee3c0}.xml" />
+    <Content Include="Entities\smp_inspection\FormXml\main\{da5e2948-baa4-4dcb-84b8-9f8a15b4f3a6}.xml" />
+    <Content Include="Entities\smp_inspection\FormXml\quick\{f2ed5a59-0752-4823-92f3-b37ba449b90c}.xml" />
+    <Content Include="Entities\smp_inspection\RibbonDiff.xml" />
+    <Content Include="Entities\smp_inspection\SavedQueries\{87c016cc-0f7f-4148-8713-47fb9a1918f3}.xml" />
+    <Content Include="Entities\smp_inspection\SavedQueries\{a2f8d918-2922-4387-872d-7b7019be59f5}.xml" />
+    <Content Include="Entities\smp_inspection\SavedQueries\{a60fbb85-0919-4108-8edb-67418e269ee7}.xml" />
+    <Content Include="Entities\smp_inspection\SavedQueries\{ae190423-3280-486c-9ae1-a5e8396d6521}.xml" />
+    <Content Include="Entities\smp_inspection\SavedQueries\{b2d966a4-c315-4ac5-b5e1-35e239d57838}.xml" />
+    <Content Include="Entities\smp_inspection\SavedQueries\{f62e9c78-6191-4f01-b579-8659150f9e9e}.xml" />
+    <Content Include="Entities\smp_inventory\Entity.xml" />
+    <Content Include="Entities\smp_inventory\FormXml\card\{9faa357d-1aa3-4a47-abb7-88f01f5a606c}.xml" />
+    <Content Include="Entities\smp_inventory\FormXml\main\{2ddcc2a0-d6c8-48f9-a905-f0b32bf284cc}.xml" />
+    <Content Include="Entities\smp_inventory\FormXml\quick\{56aad2cf-e105-4edb-9dd7-38ca28e71ccf}.xml" />
+    <Content Include="Entities\smp_inventory\RibbonDiff.xml" />
+    <Content Include="Entities\smp_inventory\SavedQueries\{05bce8e0-05e7-48b6-ad17-affbb6830237}.xml" />
+    <Content Include="Entities\smp_inventory\SavedQueries\{1c2f090e-5e37-47d1-b47e-81c53376de8b}.xml" />
+    <Content Include="Entities\smp_inventory\SavedQueries\{4e18e6f6-59e6-4504-9137-6d2334ada03d}.xml" />
+    <Content Include="Entities\smp_inventory\SavedQueries\{542118ba-4660-4299-b133-ce741b92f5da}.xml" />
+    <Content Include="Entities\smp_inventory\SavedQueries\{9793a58d-49b1-49da-96ec-4d5151fca0ee}.xml" />
+    <Content Include="Entities\smp_inventory\SavedQueries\{c8b670ba-90bc-4161-8a30-c75fa8efe4ee}.xml" />
+    <Content Include="Entities\smp_procedure\Entity.xml" />
+    <Content Include="Entities\smp_procedure\FormXml\card\{3385e4ad-e367-4660-b46a-9bcbf207578e}.xml" />
+    <Content Include="Entities\smp_procedure\FormXml\main\{a4aff86f-fe71-4099-b47c-760ce8077976}.xml" />
+    <Content Include="Entities\smp_procedure\FormXml\quick\{473c9108-c601-48d0-b1f8-20b4fdc2aae1}.xml" />
+    <Content Include="Entities\smp_procedure\RibbonDiff.xml" />
+    <Content Include="Entities\smp_procedure\SavedQueries\{0862868c-1932-4d26-bbdc-21248eb1cec7}.xml" />
+    <Content Include="Entities\smp_procedure\SavedQueries\{1f3292c9-c103-453b-8a24-7cc8d1d9ed34}.xml" />
+    <Content Include="Entities\smp_procedure\SavedQueries\{2145e52f-1dee-4d52-926a-0efa2334d9e3}.xml" />
+    <Content Include="Entities\smp_procedure\SavedQueries\{52b60200-51c3-40c7-b3c9-75c7eea195b9}.xml" />
+    <Content Include="Entities\smp_procedure\SavedQueries\{5697c770-52fe-4bfd-a59c-ce6ee1203c17}.xml" />
+    <Content Include="Entities\smp_procedure\SavedQueries\{81c099db-077f-4735-9a48-dd4149a69b0f}.xml" />
+    <Content Include="Entities\smp_woemailnotification\Entity.xml" />
+    <Content Include="Entities\smp_woemailnotification\FormXml\card\{12efafdf-73d2-4b4a-8a82-3e26a7568cc9}.xml" />
+    <Content Include="Entities\smp_woemailnotification\FormXml\main\{589be969-8195-4177-ac1d-fa99da9147dc}.xml" />
+    <Content Include="Entities\smp_woemailnotification\FormXml\quick\{03bbbe6c-be32-475c-ac6f-c1702eb76f64}.xml" />
+    <Content Include="Entities\smp_woemailnotification\RibbonDiff.xml" />
+    <Content Include="Entities\smp_woemailnotification\SavedQueries\{45c8f397-b452-4d53-93b2-e3698202295e}.xml" />
+    <Content Include="Entities\smp_woemailnotification\SavedQueries\{60368c51-e9f0-4627-ace5-d523eb9c68e8}.xml" />
+    <Content Include="Entities\smp_woemailnotification\SavedQueries\{70a12fe9-ff12-4960-a6f8-d05ccd0da405}.xml" />
+    <Content Include="Entities\smp_woemailnotification\SavedQueries\{9c3de35e-7372-486d-b562-8ba8cd16726e}.xml" />
+    <Content Include="Entities\smp_woemailnotification\SavedQueries\{b79b323f-00bd-4831-8101-b96b37e2fac0}.xml" />
+    <Content Include="Entities\smp_woemailnotification\SavedQueries\{d06e3081-2a8f-4d8d-b6f7-0a19640d26dc}.xml" />
+    <Content Include="Entities\smp_workorderbpf\Entity.xml" />
+    <Content Include="Entities\smp_workorderbpf\Formulas\smp_workorderbpf-bpf_duration.xaml" />
+    <Content Include="Entities\smp_workorderbpf\FormXml\main\{6b5f769b-417d-4e1f-a6e7-415693e9714f}.xml" />
+    <Content Include="Entities\smp_workorderbpf\RibbonDiff.xml" />
+    <Content Include="Entities\smp_workorderbpf\SavedQueries\{21a1ec78-bdc3-4fb7-96fc-86c0fabf525f}.xml" />
+    <Content Include="Entities\smp_workorderbpf\SavedQueries\{42d89901-b811-4919-b8b5-56f7f4ce6a30}.xml" />
+    <Content Include="Entities\smp_workorderbpf\SavedQueries\{54c310ff-c1f6-4b81-b0c4-285113dcd44b}.xml" />
+    <Content Include="Entities\smp_workorderbpf\SavedQueries\{67aa569b-884f-e911-a985-000d3a30dc28}.xml" />
+    <Content Include="Entities\smp_workorderbpf\SavedQueries\{a5cffd07-ce38-4420-8e3e-7f02c31b462e}.xml" />
+    <Content Include="Entities\smp_workorderbpf\SavedQueries\{ade7b553-897e-4b5c-8b9a-8d2d8f530a69}.xml" />
+    <Content Include="Entities\smp_workorderbpf\SavedQueries\{be7c5e68-d479-4136-ad10-84b0f29f1cc4}.xml" />
+    <Content Include="Entities\smp_workorderbpf\SavedQueries\{c4d40880-3db6-48bf-add0-548fad382542}.xml" />
+    <Content Include="Entities\smp_workorderbpf\SavedQueries\{d8a8ae02-31ba-4056-952c-7a5ddb484c8a}.xml" />
+    <Content Include="Entities\smp_workorderbpf\SavedQueries\{eef207f4-f60f-4b1d-82b5-3253791ec9ca}.xml" />
+    <Content Include="map.xml" />
+    <Content Include="Other\Customizations.xml" />
+    <Content Include="Other\EntityMaps.xml" />
+    <Content Include="Other\Relationships.xml" />
+    <Content Include="Other\Relationships\BookableResource.xml" />
+    <Content Include="Other\Relationships\BusinessUnit.xml" />
+    <Content Include="Other\Relationships\KnowledgeArticle.xml" />
+    <Content Include="Other\Relationships\msdyn_agreement.xml" />
+    <Content Include="Other\Relationships\msdyn_customerasset.xml" />
+    <Content Include="Other\Relationships\msdyn_priority.xml" />
+    <Content Include="Other\Relationships\msdyn_workorder.xml" />
+    <Content Include="Other\Relationships\msdyn_workordertype.xml" />
+    <Content Include="Other\Relationships\Organization.xml" />
+    <Content Include="Other\Relationships\Owner.xml" />
+    <Content Include="Other\Relationships\ProcessStage.xml" />
+    <Content Include="Other\Relationships\smp_inspectiontype.xml" />
+    <Content Include="Other\Relationships\smp_procedure.xml" />
+    <Content Include="Other\Relationships\SystemUser.xml" />
+    <Content Include="Other\Relationships\Team.xml" />
+    <Content Include="Other\Relationships\Workflow.xml" />
+    <Content Include="Other\Solution.xml" />
+    <Content Include="Resources\ar-SA\resources.ar-SA.resx" />
+    <Content Include="Resources\bg-BG\resources.bg-BG.resx" />
+    <Content Include="Resources\ca-ES\resources.ca-ES.resx" />
+    <Content Include="Resources\cs-CZ\resources.cs-CZ.resx" />
+    <Content Include="Resources\da-DK\resources.da-DK.resx" />
+    <Content Include="Resources\de-DE\resources.de-DE.resx" />
+    <Content Include="Resources\el-GR\resources.el-GR.resx" />
+    <Content Include="Resources\en-US\resources.en-US.resx" />
+    <Content Include="Resources\es-ES\resources.es-ES.resx" />
+    <Content Include="Resources\et-EE\resources.et-EE.resx" />
+    <Content Include="Resources\eu-ES\resources.eu-ES.resx" />
+    <Content Include="Resources\fi-FI\resources.fi-FI.resx" />
+    <Content Include="Resources\fr-FR\resources.fr-FR.resx" />
+    <Content Include="Resources\gl-ES\resources.gl-ES.resx" />
+    <Content Include="Resources\he-IL\resources.he-IL.resx" />
+    <Content Include="Resources\hi-IN\resources.hi-IN.resx" />
+    <Content Include="Resources\hr-HR\resources.hr-HR.resx" />
+    <Content Include="Resources\hu-HU\resources.hu-HU.resx" />
+    <Content Include="Resources\id-ID\resources.id-ID.resx" />
+    <Content Include="Resources\it-IT\resources.it-IT.resx" />
+    <Content Include="Resources\ja-JP\resources.ja-JP.resx" />
+    <Content Include="Resources\kk-KZ\resources.kk-KZ.resx" />
+    <Content Include="Resources\ko-KR\resources.ko-KR.resx" />
+    <Content Include="Resources\lt-LT\resources.lt-LT.resx" />
+    <Content Include="Resources\lv-LV\resources.lv-LV.resx" />
+    <Content Include="Resources\ms-MY\resources.ms-MY.resx" />
+    <Content Include="Resources\nb-NO\resources.nb-NO.resx" />
+    <Content Include="Resources\nl-NL\resources.nl-NL.resx" />
+    <Content Include="Resources\pl-PL\resources.pl-PL.resx" />
+    <Content Include="Resources\pt-BR\resources.pt-BR.resx" />
+    <Content Include="Resources\pt-PT\resources.pt-PT.resx" />
+    <Content Include="Resources\ro-RO\resources.ro-RO.resx" />
+    <Content Include="Resources\ru-RU\resources.ru-RU.resx" />
+    <Content Include="Resources\sk-SK\resources.sk-SK.resx" />
+    <Content Include="Resources\sl-SI\resources.sl-SI.resx" />
+    <Content Include="Resources\sr-Cyrl-CS\resources.sr-Cyrl-CS.resx" />
+    <Content Include="Resources\sr-Latn-CS\resources.sr-Latn-CS.resx" />
+    <Content Include="Resources\sv-SE\resources.sv-SE.resx" />
+    <Content Include="Resources\template_resources.resx" />
+    <Content Include="Resources\th-TH\resources.th-TH.resx" />
+    <Content Include="Resources\tr-TR\resources.tr-TR.resx" />
+    <Content Include="Resources\uk-UA\resources.uk-UA.resx" />
+    <Content Include="Resources\vi-VN\resources.vi-VN.resx" />
+    <Content Include="Resources\zh-CN\resources.zh-CN.resx" />
+    <Content Include="Resources\zh-HK\resources.zh-HK.resx" />
+    <Content Include="Resources\zh-TW\resources.zh-TW.resx" />
+    <Content Include="WebResources\smp_FulfillmentRequest.js">
+      <WebResourceId>fda99a68-cc42-e811-811b-5065f38bc1a1</WebResourceId>
+      <Name>smp_FulfillmentRequest.js</Name>
+      <DisplayName>Fulfillment Request</DisplayName>
+      <WebResourceType>JScript</WebResourceType>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>True</IsCustomizable>
+      <CanBeDeleted>True</CanBeDeleted>
+      <IsHidden>False</IsHidden>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="WebResources\smp_InspectionGridFieldDisable.jscript">
+      <WebResourceId>3cd00193-6f32-e811-811f-c4346bdcb211</WebResourceId>
+      <Name>smp_InspectionGridFieldDisable</Name>
+      <DisplayName>InspectionGridFieldDisable</DisplayName>
+      <WebResourceType>JScript</WebResourceType>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>True</IsCustomizable>
+      <CanBeDeleted>True</CanBeDeleted>
+      <IsHidden>False</IsHidden>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="WebResources\smp_IotAlert.js">
+      <WebResourceId>6ed19389-bd3b-e911-a978-000d3a30d7c8</WebResourceId>
+      <Name>smp_IotAlert.js</Name>
+      <DisplayName>IotAlert.Js</DisplayName>
+      <Description>It contains all javascript methods related to IOT Alerts</Description>
+      <LanguageCode>1033</LanguageCode>
+      <WebResourceType>JScript</WebResourceType>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>True</IsCustomizable>
+      <CanBeDeleted>True</CanBeDeleted>
+      <IsHidden>False</IsHidden>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="WebResources\smp_PriceList.js">
+      <WebResourceId>61fac0f0-ad38-e811-811b-5065f38bc1a1</WebResourceId>
+      <Name>smp_PriceList.js</Name>
+      <DisplayName>PriceList.js</DisplayName>
+      <WebResourceType>JScript</WebResourceType>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>True</IsCustomizable>
+      <CanBeDeleted>True</CanBeDeleted>
+      <IsHidden>False</IsHidden>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="WebResources\smp_PurchaseRequisition.js">
+      <WebResourceId>cf265b5d-8339-e811-811c-c4346bdc1281</WebResourceId>
+      <Name>smp_PurchaseRequisition.js</Name>
+      <DisplayName>PurchaseRequisition</DisplayName>
+      <WebResourceType>JScript</WebResourceType>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>True</IsCustomizable>
+      <CanBeDeleted>True</CanBeDeleted>
+      <IsHidden>False</IsHidden>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="WebResources\smp_PurchaseRequisitionProduct.js">
+      <WebResourceId>c35ce2a9-f542-e811-811b-5065f38bc1a1</WebResourceId>
+      <Name>smp_PurchaseRequisitionProduct.js</Name>
+      <DisplayName>PurchaseRequisitionProduct</DisplayName>
+      <WebResourceType>JScript</WebResourceType>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>True</IsCustomizable>
+      <CanBeDeleted>True</CanBeDeleted>
+      <IsHidden>False</IsHidden>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="WebResources\smp_WorkOrder.js">
+      <WebResourceId>20e24d2f-7206-e811-811a-c4346bdcb211</WebResourceId>
+      <Name>smp_WorkOrder.js</Name>
+      <DisplayName>Work Order.js</DisplayName>
+      <WebResourceType>JScript</WebResourceType>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>True</IsCustomizable>
+      <CanBeDeleted>True</CanBeDeleted>
+      <IsHidden>False</IsHidden>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Workflows\RES-WO-WorkOrderBPF-2525CE3A-ED4E-4899-BFC4-FC5C6C886B24.xaml" />
+    <Content Include="Workflows\RES-WO-WorkOrderBPF-2525CE3A-ED4E-4899-BFC4-FC5C6C886B24.xaml.data.xml" />
+  </ItemGroup>
+  <Import Project="Microsoft.Crm.SolutionProjects.Metadata.targets" />
+</Project>

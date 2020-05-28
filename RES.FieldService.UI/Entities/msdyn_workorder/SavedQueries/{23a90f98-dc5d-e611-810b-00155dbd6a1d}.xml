@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{23a90f98-dc5d-e611-810b-00155dbd6a1d}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msdyn_name" select="1" preview="1" icon="1">
+        <row name="result" id="msdyn_workorderid">
+          <cell name="msdyn_name" width="150" />
+          <cell name="msdyn_iotalert" width="100" />
+          <cell name="createdon" width="100" />
+          <cell name="msdyn_serviceaccount" width="100" />
+          <cell name="msdyn_systemstatus" width="100" />
+          <cell name="msdyn_substatus" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="msdyn_workorder">
+          <attribute name="msdyn_name" />
+          <attribute name="msdyn_systemstatus" />
+          <attribute name="msdyn_substatus" />
+          <attribute name="msdyn_iotalert" />
+          <attribute name="msdyn_serviceaccount" />
+          <attribute name="createdon" />
+          <order attribute="msdyn_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="msdyn_iotalert" operator="not-null" />
+          </filter>
+          <attribute name="msdyn_workorderid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Work orders for IoT Alerts" languagecode="1033" />
+      <LocalizedName description="Ordres de travail pour les alertes IoT" languagecode="1036" />
+      <LocalizedName description="IoT 通知に対応した作業指示書" languagecode="1041" />
+      <LocalizedName description="IoT 알림에 대한 작업 주문" languagecode="1042" />
+      <LocalizedName description="Ordens de serviço para alertas IoT" languagecode="1046" />
+      <LocalizedName description="IoT 警报的工作订单" languagecode="2052" />
+      <LocalizedName description="Ordens de intervenção para Alertas de IoT" languagecode="2070" />
+      <LocalizedName description="Órdenes de trabajo para alertas de IoT" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Work orders created for iot alerts" languagecode="1033" />
+      <Description description="Ordres de travail créés pour les alertes IoT" languagecode="1036" />
+      <Description description="IoT 通知に対応して作成された作業指示書です" languagecode="1041" />
+      <Description description="IoT 알림에 대해 만든 작업 주문" languagecode="1042" />
+      <Description description="Ordens de serviço criadas para alertas iot" languagecode="1046" />
+      <Description description="为 IoT 警报创建的工作订单" languagecode="2052" />
+      <Description description="Ordens de intervenção criadas para alertas de IoT" languagecode="2070" />
+      <Description description="Órdenes de trabajo creadas para alertas de iot" languagecode="3082" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

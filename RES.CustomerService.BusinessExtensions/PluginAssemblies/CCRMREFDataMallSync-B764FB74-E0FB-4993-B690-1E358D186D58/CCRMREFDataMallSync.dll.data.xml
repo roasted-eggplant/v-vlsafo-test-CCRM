@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="CCRM.REF.DataMallSync, Version=1.0.0.0, Culture=neutral, PublicKeyToken=578f53b52ee79dc2" PluginAssemblyId="b764fb74-e0fb-4993-b690-1e358d186d58" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/CCRMREFDataMallSync-B764FB74-E0FB-4993-B690-1E358D186D58/CCRMREFDataMallSync.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="CCRM.REF.DataMallSync.Common.ErrorHandlerUtility, CCRM.REF.DataMallSync, Version=1.0.0.0, Culture=neutral, PublicKeyToken=578f53b52ee79dc2" PluginTypeId="c5124ee5-cfcb-4649-81e2-cac52c3e6de3" Name="CCRM.REF.DataMallSync.Common.ErrorHandlerUtility">
+      <FriendlyName>664b81c0-cd3a-4943-b627-e09651cd12b8</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REF.DataMallSync.Common.Utility, CCRM.REF.DataMallSync, Version=1.0.0.0, Culture=neutral, PublicKeyToken=578f53b52ee79dc2" PluginTypeId="4cf67f39-d3d5-4a92-85f0-a480355bfb0e" Name="CCRM.REF.DataMallSync.Common.Utility">
+      <FriendlyName>0da29d8e-3a3d-4294-acf5-3f78296cfc18</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REF.DataMallSync.CreateUpdateContactDataMallSync, CCRM.REF.DataMallSync, Version=1.0.0.0, Culture=neutral, PublicKeyToken=578f53b52ee79dc2" PluginTypeId="e47389a6-aeb9-430b-9e7c-05ef744e3682" Name="CCRM.REF.DataMallSync.CreateUpdateContactDataMallSync">
+      <FriendlyName>7630657b-580a-4840-8a83-693b3b6c9971</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REF.DataMallSync.Plugin, CCRM.REF.DataMallSync, Version=1.0.0.0, Culture=neutral, PublicKeyToken=578f53b52ee79dc2" PluginTypeId="750f4eb5-4a6e-4300-a419-3063a59e004f" Name="CCRM.REF.DataMallSync.Plugin">
+      <FriendlyName>5e4908ac-b15a-4add-bab2-f06a750a7502</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{f35cd0e1-f678-4682-a16f-12b987321151}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msdyn_name" select="1" icon="1" preview="1">
+        <row name="result" id="msdyn_purchaseorderid">
+          <cell name="msdyn_name" width="150" />
+          <cell name="msdyn_vendor" width="200" />
+          <cell name="msdyn_purchaseorderdate" width="150" />
+          <cell name="msdyn_systemstatus" width="125" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msdyn_purchaseorder">
+          <attribute name="msdyn_name" />
+          <attribute name="createdon" />
+          <order attribute="msdyn_name" descending="true" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="msdyn_vendor" />
+          <attribute name="msdyn_purchaseorderdate" />
+          <attribute name="msdyn_systemstatus" />
+          <attribute name="msdyn_purchaseorderid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>3.1.0.3</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Purchase Requisition" languagecode="1033" />
+      <LocalizedName description="Bons de commande inactifs" languagecode="1036" />
+      <LocalizedName description="非アクティブな発注書" languagecode="1041" />
+      <LocalizedName description="비활성 구매 주문" languagecode="1042" />
+      <LocalizedName description="Requisição de Compra Inativa" languagecode="1046" />
+      <LocalizedName description="停用的采购订单" languagecode="2052" />
+      <LocalizedName description="Notas de Encomenda Inativas" languagecode="2070" />
+      <LocalizedName description="Pedidos de compra inactivos" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="CCRM.REF.OptimizedPlugins.PostCreateUpdateDoIntegration: Create of incident" SdkMessageProcessingStepId="{7ce0346d-6839-e811-811f-3863bb3630a8}">
+  <PluginTypeName>CCRM.REF.OptimizedPlugins.PostCreateUpdateDoIntegration, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126</PluginTypeName>
+  <PluginTypeId>1b199393-da5f-e811-8113-3863bb2e0660</PluginTypeId>
+  <PrimaryEntity>incident</PrimaryEntity>
+  <AsyncAutoDelete>1</AsyncAutoDelete>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>1</Mode>
+  <Rank>2</Rank>
+  <SdkMessageId>{9ebdbb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages>
+    <SdkMessageProcessingStepImage Name="PostImage">
+      <SdkMessageProcessingStepImageId>{b7365bf5-6839-e811-811f-3863bb3cc560}</SdkMessageProcessingStepImageId>
+      <Attributes></Attributes>
+      <EntityAlias>PostImage</EntityAlias>
+      <ImageType>1</ImageType>
+      <MessagePropertyName>Id</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+  </SdkMessageProcessingStepImages>
+</SdkMessageProcessingStep>

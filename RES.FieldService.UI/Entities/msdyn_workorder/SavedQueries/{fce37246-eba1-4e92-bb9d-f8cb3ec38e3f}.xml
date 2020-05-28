@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{fce37246-eba1-4e92-bb9d-f8cb3ec38e3f}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msdyn_name" select="1" icon="1" preview="1">
+        <row name="result" id="msdyn_workorderid">
+          <cell name="msdyn_priority" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msdyn_systemstatus" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msdyn_substatus" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msdyn_serviceaccount" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msdyn_workordertype" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msdyn_primaryincidenttype" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msdyn_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_room" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_roomtype" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ownerid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_requestorname" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msdyn_servicerequest" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msdyn_workordersummary" width="200" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_dynamicproblemtypenotes" width="300" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_leadtechnician" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msdyn_workorder">
+          <attribute name="msdyn_name" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="msdyn_systemstatus" />
+          <attribute name="msdyn_primaryincidenttype" />
+          <attribute name="msdyn_workordertype" />
+          <attribute name="msdyn_substatus" />
+          <attribute name="msdyn_servicerequest" />
+          <attribute name="smp_dynamicproblemtypenotes" />
+          <attribute name="ownerid" />
+          <attribute name="msdyn_priority" />
+          <attribute name="smp_room" />
+          <attribute name="smp_requestorname" />
+          <attribute name="smp_roomtype" />
+          <attribute name="msdyn_workordersummary" />
+          <order attribute="msdyn_name" descending="false" />
+          <order attribute="createdon" descending="false" />
+          <attribute name="msdyn_serviceaccount" />
+          <attribute name="smp_leadtechnician" />
+          <attribute name="msdyn_workorderid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>3.1.0.3</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Work Orders" languagecode="1033" />
+      <LocalizedName description="Ordres de travail actifs" languagecode="1036" />
+      <LocalizedName description="アクティブな作業指示書" languagecode="1041" />
+      <LocalizedName description="활성 작업 주문" languagecode="1042" />
+      <LocalizedName description="Ordens de serviço ativas" languagecode="1046" />
+      <LocalizedName description="可用工作订单" languagecode="2052" />
+      <LocalizedName description="Ordens de Intervenção Ativas" languagecode="2070" />
+      <LocalizedName description="Órdenes de trabajo activas" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

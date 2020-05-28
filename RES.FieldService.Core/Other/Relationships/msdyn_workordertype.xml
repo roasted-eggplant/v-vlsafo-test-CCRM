@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="msdyn_msdyn_workordertype_msdyn_agreementbookingsetup_WorkOrderType">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IntroducedVersion>3.1.0.3</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>msdyn_agreementbookingsetup</ReferencingEntityName>
+    <ReferencedEntityName>msdyn_workordertype</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>RemoveLink</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <CascadeRollupView>NoCascade</CascadeRollupView>
+    <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+    <ReferencingAttributeName>msdyn_WorkOrderType</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Problem Class to be used on generated Work Orders" languagecode="1033" />
+        <Description description="Tipo de orden de trabajo que se usará en las órdenes de trabajo generadas" languagecode="3082" />
+        <Description description="Type d'ordre de travail à utiliser sur les ordres de travail générés" languagecode="1036" />
+        <Description description="生成された作業指示書で使用される作業指示書の種類です" languagecode="1041" />
+        <Description description="작업 주문이 생성될 때 사용되는 작업 주문 유형" languagecode="1042" />
+        <Description description="Tipo de Ordem de Intervenção a utilizar em Ordens de Intervenção geradas" languagecode="2070" />
+        <Description description="要在生成的工作订单上使用的工作订单类型" languagecode="2052" />
+      </Descriptions>
+    </RelationshipDescription>
+    <EntityRelationshipRoles>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>UseCollectionName</NavPaneDisplayOption>
+        <NavPaneArea>Details</NavPaneArea>
+        <NavPaneOrder>10000</NavPaneOrder>
+        <NavigationPropertyName>msdyn_workordertype</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="" languagecode="1033" />
+          <CustomLabel description="" languagecode="3082" />
+          <CustomLabel description="" languagecode="1036" />
+          <CustomLabel description="" languagecode="1041" />
+          <CustomLabel description="" languagecode="1042" />
+          <CustomLabel description="" languagecode="2070" />
+          <CustomLabel description="" languagecode="2052" />
+        </CustomLabels>
+        <RelationshipRoleType>1</RelationshipRoleType>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <RelationshipRoleType>0</RelationshipRoleType>
+      </EntityRelationshipRole>
+    </EntityRelationshipRoles>
+  </EntityRelationship>
+  <EntityRelationship Name="msdyn_msdyn_workordertype_msdyn_incidenttype_DefaultWorkOrderType">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IntroducedVersion>3.1.0.3</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>msdyn_incidenttype</ReferencingEntityName>
+    <ReferencedEntityName>msdyn_workordertype</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>RemoveLink</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <CascadeRollupView>NoCascade</CascadeRollupView>
+    <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+    <ReferencingAttributeName>msdyn_DefaultWorkOrderType</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Unique identifier for Work Order Type associated with Incident Type." languagecode="1033" />
+        <Description description="Identificador único del tipo de orden de trabajo asociado al tipo de incidente." languagecode="3082" />
+        <Description description="Identificateur unique du type d'ordre de travail associé au type d'incident." languagecode="1036" />
+        <Description description="インシデントの種類に関連付けられている作業指示書の種類を表す一意識別子です。" languagecode="1041" />
+        <Description description="문제 유형에 연결된 작업 주문 유형의 고유 식별자입니다." languagecode="1042" />
+        <Description description="Identificador exclusivo do Tipo de Ordem de Intervenção associado ao Tipo de Incidente." languagecode="2070" />
+        <Description description="与事件类型关联的工作订单类型的唯一标识符。" languagecode="2052" />
+      </Descriptions>
+    </RelationshipDescription>
+    <EntityRelationshipRoles>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>UseCollectionName</NavPaneDisplayOption>
+        <NavPaneArea>Details</NavPaneArea>
+        <NavPaneOrder>10000</NavPaneOrder>
+        <NavigationPropertyName>msdyn_defaultworkordertype</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="" languagecode="1033" />
+          <CustomLabel description="" languagecode="3082" />
+          <CustomLabel description="" languagecode="1036" />
+          <CustomLabel description="" languagecode="1041" />
+          <CustomLabel description="" languagecode="1042" />
+          <CustomLabel description="" languagecode="2070" />
+          <CustomLabel description="" languagecode="2052" />
+        </CustomLabels>
+        <RelationshipRoleType>1</RelationshipRoleType>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <RelationshipRoleType>0</RelationshipRoleType>
+      </EntityRelationshipRole>
+    </EntityRelationshipRoles>
+  </EntityRelationship>
+  <EntityRelationship Name="smp_msdyn_workordertype_msdyn_iotalert">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IsCustomizable>1</IsCustomizable>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>msdyn_iotalert</ReferencingEntityName>
+    <ReferencedEntityName>msdyn_workordertype</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>RemoveLink</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <CascadeRollupView>NoCascade</CascadeRollupView>
+    <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+    <ReferencingAttributeName>smp_workordertypeId</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="WO Type based on the Fault Category" languagecode="1033" />
+      </Descriptions>
+    </RelationshipDescription>
+    <EntityRelationshipRoles>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>UseCollectionName</NavPaneDisplayOption>
+        <NavPaneArea>Details</NavPaneArea>
+        <NavPaneOrder>10000</NavPaneOrder>
+        <NavigationPropertyName>smp_workordertypeId</NavigationPropertyName>
+        <RelationshipRoleType>1</RelationshipRoleType>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <NavigationPropertyName>smp_msdyn_workordertype_msdyn_iotalert</NavigationPropertyName>
+        <RelationshipRoleType>0</RelationshipRoleType>
+      </EntityRelationshipRole>
+    </EntityRelationshipRoles>
+  </EntityRelationship>
+</EntityRelationships>

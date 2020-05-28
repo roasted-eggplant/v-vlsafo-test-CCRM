@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{d928c332-8c65-43fc-95b2-5df41d2fa558}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msdyn_name" select="1" icon="1" preview="1">
+        <row name="result" id="msdyn_workorderid">
+          <cell name="msdyn_priority" width="100" />
+          <cell name="createdon" width="125" />
+          <cell name="msdyn_systemstatus" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msdyn_substatus" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msdyn_serviceaccount" width="100" />
+          <cell name="msdyn_workordertype" width="100" />
+          <cell name="msdyn_primaryincidenttype" width="100" />
+          <cell name="msdyn_name" width="150" />
+          <cell name="smp_room" width="100" />
+          <cell name="smp_roomtype" width="100" />
+          <cell name="ownerid" width="100" />
+          <cell name="smp_requestorname" width="100" />
+          <cell name="msdyn_servicerequest" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msdyn_workordersummary" width="125" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_dynamicproblemtypenotes" width="200" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msdyn_workorder">
+          <attribute name="msdyn_name" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="ownerid" />
+          <attribute name="msdyn_priority" />
+          <attribute name="msdyn_workordertype" />
+          <attribute name="smp_room" />
+          <attribute name="smp_requestorname" />
+          <attribute name="msdyn_primaryincidenttype" />
+          <attribute name="smp_roomtype" />
+          <attribute name="msdyn_servicerequest" />
+          <attribute name="msdyn_workordersummary" />
+          <attribute name="smp_dynamicproblemtypenotes" />
+          <attribute name="msdyn_systemstatus" />
+          <attribute name="msdyn_substatus" />
+          <order attribute="msdyn_name" descending="false" />
+          <order attribute="createdon" descending="false" />
+          <attribute name="msdyn_serviceaccount" />
+          <attribute name="msdyn_workorderid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>3.1.0.3</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Work Orders" languagecode="1033" />
+      <LocalizedName description="Ordres de travail inactifs" languagecode="1036" />
+      <LocalizedName description="非アクティブな作業指示書" languagecode="1041" />
+      <LocalizedName description="비활성 작업 주문" languagecode="1042" />
+      <LocalizedName description="Ordens de serviço inativas" languagecode="1046" />
+      <LocalizedName description="停用的工作订单" languagecode="2052" />
+      <LocalizedName description="Ordens de Intervenção Inativas" languagecode="2070" />
+      <LocalizedName description="Órdenes de trabajo inactivas" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{c0ec77a5-ab14-42cc-b13d-0b8ea327a7b9}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_name" select="1" icon="1" preview="1">
+        <row name="result" id="smp_attachmentsurlid">
+          <cell name="smp_source" width="100" />
+          <cell name="smp_name" width="300" />
+          <cell name="smp_bloburl" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_mimetype" width="100" />
+          <cell name="smp_objectid" width="100" />
+          <cell name="smp_objecttypecode" width="100" />
+          <cell name="createdon" width="125" />
+          <cell name="smp_isdelete" width="100" />
+          <cell name="smp_keyvalue" width="100" />
+          <cell name="smp_notesid" width="100" />
+          <cell name="smp_tier1provider" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_attachmentsurl">
+          <attribute name="smp_name" />
+          <attribute name="createdon" />
+          <order attribute="createdon" descending="false" />
+          <order attribute="smp_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="smp_objecttypecode" />
+          <attribute name="smp_objectid" />
+          <attribute name="smp_mimetype" />
+          <attribute name="smp_bloburl" />
+          <attribute name="smp_source" />
+          <attribute name="smp_tier1provider" />
+          <attribute name="smp_notesid" />
+          <attribute name="smp_keyvalue" />
+          <attribute name="smp_isdelete" />
+          <attribute name="smp_attachmentsurlid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Attachments URLs" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126" PluginAssemblyId="ed2adf69-1e87-4192-9e84-d6db9d593222" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/CCRMREFOptimizedPlugins-ED2ADF69-1E87-4192-9E84-D6DB9D593222/CCRMREFOptimizedPlugins.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="CCRM.REF.OptimizedPlugins.Plugin, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126" PluginTypeId="18199393-da5f-e811-8113-3863bb2e0660" Name="CCRM.REF.OptimizedPlugins.Plugin">
+      <FriendlyName>50bb6125-48e8-455e-bcc5-8e1743f76cca</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REF.OptimizedPlugins.PostCreateorUpdateSetPriorityBasedStatus, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126" PluginTypeId="19199393-da5f-e811-8113-3863bb2e0660" Name="CCRM.REF.OptimizedPlugins.PostCreateorUpdateSetPriorityBasedStatus">
+      <FriendlyName>9d9bb835-f30b-4196-9199-9cb59ebc3960</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REF.OptimizedPlugins.PostCreateSRCreateDynNotes, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126" PluginTypeId="1a199393-da5f-e811-8113-3863bb2e0660" Name="CCRM.REF.OptimizedPlugins.PostCreateSRCreateDynNotes">
+      <FriendlyName>3609aa64-fc74-49ba-add3-65b21c980459</FriendlyName>
+      <WorkflowActivityGroupName>CCRM.REF.OptimizedPlugins (1.0.0.0)</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REF.OptimizedPlugins.PostCreateUpdateDoIntegration, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126" PluginTypeId="1b199393-da5f-e811-8113-3863bb2e0660" Name="CCRM.REF.OptimizedPlugins.PostCreateUpdateDoIntegration">
+      <FriendlyName>263f249a-6612-4fd8-868a-f15aa98dd904</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REF.OptimizedPlugins.PostCreateUpdateIncidentInPortal, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126" PluginTypeId="1c199393-da5f-e811-8113-3863bb2e0660" Name="CCRM.REF.OptimizedPlugins.PostCreateUpdateIncidentInPortal">
+      <FriendlyName>dfed8a50-6cd1-44bc-9cba-b4d6be4d072f</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REF.OptimizedPlugins.PostProviderCreateTeam, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126" PluginTypeId="1d199393-da5f-e811-8113-3863bb2e0660" Name="CCRM.REF.OptimizedPlugins.PostProviderCreateTeam">
+      <FriendlyName>c0129475-80ac-47f7-a539-592b080cc04b</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REF.OptimizedPlugins.PostSatisfactionSurveyResponseCreate, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126" PluginTypeId="1e199393-da5f-e811-8113-3863bb2e0660" Name="CCRM.REF.OptimizedPlugins.PostSatisfactionSurveyResponseCreate">
+      <FriendlyName>e53de5ab-3db1-431b-9c23-dd81f00372cd</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REF.OptimizedPlugins.PostServiceRequestCreateEmailNotification, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126" PluginTypeId="1f199393-da5f-e811-8113-3863bb2e0660" Name="CCRM.REF.OptimizedPlugins.PostServiceRequestCreateEmailNotification">
+      <FriendlyName>0c2da84c-9354-41bb-ba24-2e0c4442a90a</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REF.OptimizedPlugins.PostServiceRequestsmp_CopySR, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126" PluginTypeId="20199393-da5f-e811-8113-3863bb2e0660" Name="CCRM.REF.OptimizedPlugins.PostServiceRequestsmp_CopySR">
+      <FriendlyName>2d2ece50-e7fb-424e-9b79-82c3dca1d2a5</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REF.OptimizedPlugins.PostServiceRequestsmp_Reclassify, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126" PluginTypeId="21199393-da5f-e811-8113-3863bb2e0660" Name="CCRM.REF.OptimizedPlugins.PostServiceRequestsmp_Reclassify">
+      <FriendlyName>e20e693f-50d7-4c81-9d4f-642fce214ec8</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REF.OptimizedPlugins.PostServiceRequestStatusChange, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126" PluginTypeId="22199393-da5f-e811-8113-3863bb2e0660" Name="CCRM.REF.OptimizedPlugins.PostServiceRequestStatusChange">
+      <FriendlyName>0f0b0ac4-d6f4-4269-b34a-d3dbac10093a</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REF.OptimizedPlugins.PostServiceRequestUpdateCreateAudit, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126" PluginTypeId="23199393-da5f-e811-8113-3863bb2e0660" Name="CCRM.REF.OptimizedPlugins.PostServiceRequestUpdateCreateAudit">
+      <FriendlyName>00b54fb8-e5a4-48c3-851f-8c96ad4f7fa2</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REF.OptimizedPlugins.PostUpdateSRUpdateDynNotes, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126" PluginTypeId="ee990456-938e-459e-a208-2692f7c618b4" Name="CCRM.REF.OptimizedPlugins.PostUpdateSRUpdateDynNotes">
+      <FriendlyName>67a8c74c-5fb5-4fd8-be45-b55fe78b80f2</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REF.OptimizedPlugins.PreEscalationCreateDuplicateDetection, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126" PluginTypeId="24199393-da5f-e811-8113-3863bb2e0660" Name="CCRM.REF.OptimizedPlugins.PreEscalationCreateDuplicateDetection">
+      <FriendlyName>72ae953d-02a5-4b33-aaa2-b0a33815eee2</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REF.OptimizedPlugins.PreEscalationUpdateDuplicateDetection, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126" PluginTypeId="25199393-da5f-e811-8113-3863bb2e0660" Name="CCRM.REF.OptimizedPlugins.PreEscalationUpdateDuplicateDetection">
+      <FriendlyName>9b07b21c-30ea-4d2f-ac4d-d0ac268f9fc4</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REF.OptimizedPlugins.PreProviderCreateDuplicateDetection, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126" PluginTypeId="27199393-da5f-e811-8113-3863bb2e0660" Name="CCRM.REF.OptimizedPlugins.PreProviderCreateDuplicateDetection">
+      <FriendlyName>ab09ae8c-04a9-4f77-8c63-ce39adf62d91</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REF.OptimizedPlugins.PreServiceRequestCreate, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126" PluginTypeId="28199393-da5f-e811-8113-3863bb2e0660" Name="CCRM.REF.OptimizedPlugins.PreServiceRequestCreate">
+      <FriendlyName>ef493359-c6d2-4e94-8355-01de9a493af3</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REF.OptimizedPlugins.PreServiceRequestCreateSetPriority, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126" PluginTypeId="29199393-da5f-e811-8113-3863bb2e0660" Name="CCRM.REF.OptimizedPlugins.PreServiceRequestCreateSetPriority">
+      <FriendlyName>bd36031f-d32f-46f5-9380-abace69a5260</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REF.OptimizedPlugins.PreServiceRequestUpdate, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126" PluginTypeId="2a199393-da5f-e811-8113-3863bb2e0660" Name="CCRM.REF.OptimizedPlugins.PreServiceRequestUpdate">
+      <FriendlyName>81774427-e9d2-4d23-aa15-38c351d576c3</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REF.OptimizedPlugins.PreServiceRequestUpdateCompletedDate, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126" PluginTypeId="2b199393-da5f-e811-8113-3863bb2e0660" Name="CCRM.REF.OptimizedPlugins.PreServiceRequestUpdateCompletedDate">
+      <FriendlyName>6caa0713-3b20-4db2-93b9-207e0f5a039b</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REF.OptimizedPlugins.PreServiceRequestUpdateSetIntegrationStatus, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126" PluginTypeId="2c199393-da5f-e811-8113-3863bb2e0660" Name="CCRM.REF.OptimizedPlugins.PreServiceRequestUpdateSetIntegrationStatus">
+      <FriendlyName>d77cf2ca-74d7-4015-b687-e912e89a76bb</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REF.OptimizedPlugins.PreServiceRequestUpdateSetPriority, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126" PluginTypeId="2d199393-da5f-e811-8113-3863bb2e0660" Name="CCRM.REF.OptimizedPlugins.PreServiceRequestUpdateSetPriority">
+      <FriendlyName>a9a69716-e96d-4839-adf0-6d7b990863a6</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REF.OptimizedPlugins.PreSRUpdatePriorityEscalationNotes, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126" PluginTypeId="2e199393-da5f-e811-8113-3863bb2e0660" Name="CCRM.REF.OptimizedPlugins.PreSRUpdatePriorityEscalationNotes">
+      <FriendlyName>36299f10-2755-406f-ae9d-f2bf75fe22d9</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REF.OptimizedPlugins.PreValidationCustomerAssetCreate, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126" PluginTypeId="705cc85b-8bc5-4a94-82d0-45fe1a70fa00" Name="CCRM.REF.OptimizedPlugins.PreValidationCustomerAssetCreate">
+      <FriendlyName>29f1cf82-5dba-46df-b146-2f224c57201f</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

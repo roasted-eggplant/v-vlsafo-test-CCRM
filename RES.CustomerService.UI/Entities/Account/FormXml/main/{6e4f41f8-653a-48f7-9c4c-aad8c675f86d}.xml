@@ -1,0 +1,505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{6e4f41f8-653a-48f7-9c4c-aad8c675f86d}</formid>
+    <IntroducedVersion>7.0.0003</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <hiddencontrols>
+        <data id="address1_addressid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" datafieldname="address1_addressid" />
+        <data id="address2_addressid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" datafieldname="address2_addressid" />
+      </hiddencontrols>
+      <tabs>
+        <tab id="{13b0fbf2-e596-4dc5-919b-7a0aea72598b}" name="{13b0fbf2-e596-4dc5-919b-7a0aea72598b}" labelid="{4dffea35-f1bc-487c-94ee-61b1da6b9304}" IsUserDefined="0" verticallayout="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Geral" languagecode="1046" />
+            <label description="General" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{407c4e29-b766-4efb-986c-f4c1d9be75ce}" name="{407c4e29-b766-4efb-986c-f4c1d9be75ce}" labelid="{83372aeb-28ca-4143-9f54-cdb009dafe22}" IsUserDefined="0" celllabelposition="Left" celllabelalignment="Left" labelwidth="200" locklevel="0" columns="11" showbar="false" showlabel="false">
+                  <labels>
+                    <label description="Account Information" languagecode="1033" />
+                    <label description="Informação da conta" languagecode="1046" />
+                    <label description="Información de la cuenta" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ea0b806e-b8ff-474e-a676-962a67ec191d}" labelid="{f3a67f77-b3cf-45f3-9f76-6e34416ff6da}">
+                        <labels>
+                          <label description="Provider Name" languagecode="1033" />
+                          <label description="客户名称" languagecode="2052" />
+                          <label description="Nom du compte" languagecode="1036" />
+                          <label description="取引先企業名" languagecode="1041" />
+                          <label description="거래처 이름" languagecode="1042" />
+                          <label description="Nome do provedor" languagecode="1046" />
+                          <label description="Nome da Conta" languagecode="2070" />
+                          <label description="Nombre del proveedor" languagecode="3082" />
+                        </labels>
+                        <control id="name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="name" />
+                      </cell>
+                      <cell id="{670dc25c-ddd3-422a-9981-e3cd3d977948}" labelid="{39260dff-91ad-43d5-a61b-d4326beba217}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="负责人" languagecode="2052" />
+                          <label description="Propriétaire" languagecode="1036" />
+                          <label description="所有者" languagecode="1041" />
+                          <label description="담당자" languagecode="1042" />
+                          <label description="Proprietário" languagecode="1046" />
+                          <label description="Proprietário" languagecode="2070" />
+                          <label description="Propietario" languagecode="3082" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bace426d-c4c9-e3cb-866e-356c6e274a38}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Preferred Method of Contact" languagecode="1033" />
+                          <label description="首选联系方式" languagecode="2052" />
+                          <label description="Mode de communication privilégié" languagecode="1036" />
+                          <label description="優先する連絡方法" languagecode="1041" />
+                          <label description="선호 연락 방법" languagecode="1042" />
+                          <label description="Método preferido de contato" languagecode="1046" />
+                          <label description="Método de Contacto Preferencial" languagecode="2070" />
+                          <label description="Método de contacto preferido" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="preferredcontactmethodcode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="preferredcontactmethodcode" />
+                      </cell>
+                      <cell id="{160cec3e-29ab-1947-89a5-d0229926b6e0}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Primary Contact" languagecode="1033" />
+                          <label description="主要联系人" languagecode="2052" />
+                          <label description="Contact principal" languagecode="1036" />
+                          <label description="取引先責任者" languagecode="1041" />
+                          <label description="기본 연락처" languagecode="1042" />
+                          <label description="Contato primário" languagecode="1046" />
+                          <label description="Contacto Primário" languagecode="2070" />
+                          <label description="Contacto primario" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="primarycontactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="primarycontactid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section id="{08662ac2-8cab-bd59-8338-37a1a85d0c7d}" name="{13b0fbf2-e596-4dc5-919b-7a0aea72598b}_section_2" IsUserDefined="0" celllabelposition="Left" celllabelalignment="Left" labelwidth="200" locklevel="0" columns="11" showbar="true" showlabel="true" layout="varwidth">
+                  <labels>
+                    <label description="Partner Info" languagecode="1033" />
+                    <label description="Informações do parceiro" languagecode="1046" />
+                    <label description="Información del socio" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{dec6c6ec-1eed-5e10-4521-9edd9c827475}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Minimum Opportunity Revenue" languagecode="1033" />
+                          <label description="Receita mínima da oportunidade" languagecode="1046" />
+                          <label description="Ingresos mínimos de oportunidad" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="adx_minimumopportunityrevenue" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="adx_minimumopportunityrevenue" />
+                      </cell>
+                      <cell id="{306c66d0-24dd-6ae4-3711-864268898c79}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Maximum Opportunity Revenue" languagecode="1033" />
+                          <label description="Receita máxima da oportunidade" languagecode="1046" />
+                          <label description="Máxima oportunidad de ingresos" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="adx_maximumopportunityrevenue" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="adx_maximumopportunityrevenue" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{478e239b-d504-1b18-c635-032d34d04886}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Partner Ranking" languagecode="1033" />
+                          <label description="Classificação de parceiros" languagecode="1046" />
+                          <label description="Ranking de socios" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="adx_partnerranking" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="adx_partnerranking" />
+                      </cell>
+                      <cell id="{a313d3d8-a25a-643d-8976-d3c38d5c1363}" showlabel="false" userspacer="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8d3d4d55-be73-3e58-74b2-a80d5334d659}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Address 1: Latitude" languagecode="1033" />
+                          <label description="地址 1: 纬度" languagecode="2052" />
+                          <label description="Adresse 1 : Latitude" languagecode="1036" />
+                          <label description="住所 1: 緯度" languagecode="1041" />
+                          <label description="주소 1: 위도" languagecode="1042" />
+                          <label description="Endereço 1: Latitude" languagecode="1046" />
+                          <label description="Endereço 1: Latitude" languagecode="2070" />
+                          <label description="Dirección 1: Latitud" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="address1_latitude" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="address1_latitude" />
+                      </cell>
+                      <cell id="{38a65e03-ad3a-02b1-dc2b-b40aacd033a8}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Address 1: Longitude" languagecode="1033" />
+                          <label description="地址 1: 经度" languagecode="2052" />
+                          <label description="Adresse 1 : Longitude" languagecode="1036" />
+                          <label description="住所 1: 経度" languagecode="1041" />
+                          <label description="주소 1: 경도" languagecode="1042" />
+                          <label description="Endereço 1: Longitude" languagecode="1046" />
+                          <label description="Endereço 1: Longitude" languagecode="2070" />
+                          <label description="Dirección 1: longitud" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="address1_longitude" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="address1_longitude" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section id="{2eeba5cb-269b-4dcd-5765-ad9b7598a409}" name="{13b0fbf2-e596-4dc5-919b-7a0aea72598b}_section_3" IsUserDefined="0" celllabelposition="Left" celllabelalignment="Left" labelwidth="200" locklevel="0" columns="11" showbar="true" showlabel="true" layout="varwidth">
+                  <labels>
+                    <label description="Sales Status" languagecode="1033" />
+                    <label description="Status de vendas" languagecode="1046" />
+                    <label description="Estado de ventas" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{40975ccd-a4d0-a421-1d9b-6edaadb1bbbb}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Active Opportunity Count" languagecode="1033" />
+                          <label description="Contagem de oportunidades ativas" languagecode="1046" />
+                          <label description="Recuento de oportunidades activas" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="adx_activeopportunitycount" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="adx_activeopportunitycount" />
+                      </cell>
+                      <cell id="{63822155-5c9c-45c0-b142-977bd842e913}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Current Partner Capacity" languagecode="1033" />
+                          <label description="Capacidade atual do parceiro" languagecode="1046" />
+                          <label description="Capacidad actual del socio" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="adx_currentpartnercapacity" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="adx_currentpartnercapacity" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{25583101-4dde-3654-a847-1c47c3eee4a0}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Partner Has Capacity" languagecode="1033" />
+                          <label description="O parceiro tem capacidade" languagecode="1046" />
+                          <label description="El socio tiene capacidad" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="adx_partnerhascapacity" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="adx_partnerhascapacity" />
+                      </cell>
+                      <cell id="{eccbc09c-8e94-2341-5b92-a0b9ae483b6b}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Win Rate" languagecode="1033" />
+                          <label description="Taxa de vitórias" languagecode="1046" />
+                          <label description="Ratio de victorias" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="adx_winrate" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="adx_winrate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3e3102e5-14e3-355c-d9de-3a89bb893659}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Number of Opportunities Won" languagecode="1033" />
+                          <label description="Número de oportunidades ganhas" languagecode="1046" />
+                          <label description="Número de oportunidades ganadas" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="adx_numberofopportunitieswon" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="adx_numberofopportunitieswon" />
+                      </cell>
+                      <cell id="{a4548c89-5a32-70be-2b09-539536b4a1ac}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section id="{8765d2a0-e0be-32be-d1a6-9a8425ac5691}" name="{13b0fbf2-e596-4dc5-919b-7a0aea72598b}_section_4" IsUserDefined="0" celllabelposition="Left" celllabelalignment="Left" labelwidth="220" locklevel="0" columns="11" showbar="true" showlabel="true" layout="varwidth">
+                  <labels>
+                    <label description="Lead Status" languagecode="1033" />
+                    <label description="Status do lead" languagecode="1046" />
+                    <label description="Estado del delantero" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e768254d-e966-9c0b-b6bc-61a813dbe2d2}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Number of Opportunities Delivered" languagecode="1033" />
+                          <label description="Número de oportunidades entregues" languagecode="1046" />
+                          <label description="Número de oportunidades entregadas" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="adx_numberofopportunitiesdelivered" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="adx_numberofopportunitiesdelivered" />
+                      </cell>
+                      <cell id="{7ba98401-030b-6e05-b094-5e9a82c2be94}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Number of Opportunities Accepted" languagecode="1033" />
+                          <label description="Número de oportunidades aceitas" languagecode="1046" />
+                          <label description="Número de oportunidades aceptadas" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="adx_numberofopportunitiesaccepted" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="adx_numberofopportunitiesaccepted" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a2680e0a-2ab3-779c-8664-bbb8aabab83b}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Number of Opportunities Declined" languagecode="1033" />
+                          <label description="Número de oportunidades recusadas" languagecode="1046" />
+                          <label description="Número de oportunidades rechazadas" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="adx_numberofopportunitiesdeclined" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="adx_numberofopportunitiesdeclined" />
+                      </cell>
+                      <cell id="{7bee85e8-810b-e37d-584a-042a187b51bd}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Number of Opportunities with Feedback" languagecode="1033" />
+                          <label description="Número de oportunidades com feedback" languagecode="1046" />
+                          <label description="Número de oportunidades con comentarios" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="adx_numberofopportunitieswithfeedback" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="adx_numberofopportunitieswithfeedback" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1394334c-ac83-2182-2440-c88038447b89}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Number of Returned Opportunities" languagecode="1033" />
+                          <label description="Número de oportunidades retornadas" languagecode="1046" />
+                          <label description="Número de oportunidades devueltas" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="adx_numberofreturnedopportunities" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="adx_numberofreturnedopportunities" />
+                      </cell>
+                      <cell id="{54635587-6547-6865-ec6d-ce8d6d9881d9}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Average Time to Close an Opportunity" languagecode="1033" />
+                          <label description="Tempo médio para fechar uma oportunidade" languagecode="1046" />
+                          <label description="Tiempo promedio para cerrar una oportunidad" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="adx_averagetimetocloseanopportunity" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="adx_averagetimetocloseanopportunity" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7306cb41-ac36-70a2-8658-2522c1a6c6b6}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Touch Rate" languagecode="1033" />
+                          <label description="Taxa de toque" languagecode="1046" />
+                          <label description="Touch Rate" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="adx_touchrate" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="adx_touchrate" />
+                      </cell>
+                      <cell id="{8d7117a9-70e2-3675-c022-a0e141d8d2c2}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Feedback Rate" languagecode="1033" />
+                          <label description="Taxa de Feedback" languagecode="1046" />
+                          <label description="Tasa de retroalimentación" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="adx_feedbackrate" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="adx_feedbackrate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d8224972-4ad2-716e-3c81-55d175331e61}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Stall Rate" languagecode="1033" />
+                          <label description="Taxa de parada" languagecode="1046" />
+                          <label description="Tasa de pérdida" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="adx_stallrate" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="adx_stallrate" />
+                      </cell>
+                      <cell id="{161378a7-b466-09d4-28c8-b59977c211c7}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Return Rate" languagecode="1033" />
+                          <label description="Taxa de retorno" languagecode="1046" />
+                          <label description="Tasa de retorno" languagecode="3082" />
+                        </labels>
+                        <control disabled="false" id="adx_returnrate" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="adx_returnrate" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab id="{61710424-A7C1-4db5-9489-788BCDCF267A}" name="{61710424-A7C1-4db5-9489-788BCDCF267A}" labelid="{d00b5ba2-3405-43a9-b783-a431a26e05bf}" IsUserDefined="0" expanded="false">
+          <labels>
+            <label description="Notes" languagecode="1033" />
+            <label description="Notas" languagecode="1046" />
+            <label description="Notas" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{2D4972DE-69D5-4518-B3F7-A9683B62E2C0}" height="auto" name="{2D4972DE-69D5-4518-B3F7-A9683B62E2C0}" labelid="{60ba7be2-b3cd-4aab-ac6d-281cca3993cb}" IsUserDefined="0" columns="11" showbar="false" showlabel="false">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                    <label description="Notas" languagecode="1046" />
+                    <label description="Notas" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1f818cf3-2603-40d8-bd5f-aced5b2351aa}" labelid="{73da7202-7c7e-4f08-9008-301990bbcc89}" showlabel="false" auto="true" rowspan="5" colspan="2">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                          <label description="Note Text" languagecode="1046" />
+                          <label description="Texto de la nota" languagecode="3082" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{b9d35373-4b7d-4408-9708-10697314050d}" columns="111">
+        <rows>
+          <row>
+            <cell id="{857e77ad-1807-944c-9c7d-5ec77d574a92}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d41288d5-9782-8be6-7eb3-10bac4599c3e}" labelid="{aee127f9-2c48-4aad-a1dd-b39a8fabc9b7}" locklevel="0" showlabel="true">
+              <labels>
+                <label description="Credit Limit" languagecode="1033" />
+                <label description="信用额度" languagecode="2052" />
+                <label description="Limite de crédit" languagecode="1036" />
+                <label description="利用限度額" languagecode="1041" />
+                <label description="신용 한도액" languagecode="1042" />
+                <label description="Limite de Crédito" languagecode="1046" />
+                <label description="Limite de Crédito" languagecode="2070" />
+                <label description="Límite del crédito" languagecode="3082" />
+              </labels>
+              <control disabled="true" id="header_creditlimit" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="creditlimit" />
+            </cell>
+            <cell id="{1ac59ba8-4964-025d-67d4-e2e1c9790529}" labelid="{433e3a6c-6625-4978-90bd-5d488396e2d2}" locklevel="0" showlabel="true">
+              <labels>
+                <label description="Annual Revenue" languagecode="1033" />
+                <label description="年收入" languagecode="2052" />
+                <label description="Chiffre d’affaires annuel" languagecode="1036" />
+                <label description="売上高" languagecode="1041" />
+                <label description="연간 매출" languagecode="1042" />
+                <label description="Receita Anual" languagecode="1046" />
+                <label description="Receita Anual" languagecode="2070" />
+                <label description="Ingresos anuales" languagecode="3082" />
+              </labels>
+              <control disabled="true" id="header_revenue" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="revenue" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{103244c0-2c26-4ba5-9496-1036fabe8d18}" columns="1">
+        <rows>
+          <row>
+            <cell id="{0c17759b-5325-48ad-b2b8-c7f1ceac8e17}" labelid="{64f415d7-33aa-4e65-8cb6-2dffd59c8c38}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+                <label description="状态" languagecode="2052" />
+                <label description="Statut" languagecode="1036" />
+                <label description="状態" languagecode="1041" />
+                <label description="상태" languagecode="1042" />
+                <label description="Status" languagecode="1046" />
+                <label description="Estado" languagecode="2070" />
+                <label description="Estado" languagecode="3082" />
+              </labels>
+              <control id="footer_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <clientresources>
+        <internalresources>
+          <clientincludes>
+            <internaljscriptfile src="/_static/sfa/accts/account.js" />
+            <internaljscriptfile src="/_static/sfa/sfautil.js" />
+            <internaljscriptfile src="/_static/sfa/accts/acct_cont.js" />
+            <internaljscriptfile src="/_static/sfa/address.js" />
+            <internaljscriptfile src="$webresource:AppCommon/Account/Account_main_system_library.js" />
+          </clientincludes>
+        </internalresources>
+      </clientresources>
+      <Navigation>
+        <NavBar>
+          <NavBarByRelationshipItem Id="navAddresses" Area="Info" Sequence="10" RelationshipName="Account_CustomerAddress" TitleResourceId="Tab_Label_MoreAddresses">
+            <Titles>
+              <Title Text="More Addresses" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="navActivities" Icon="/_imgs/ico_18_act.gif" Area="Info" Sequence="20" RelationshipName="Account_ActivityPointers">
+            <Privileges>
+              <Privilege Privilege="ReadActivity" Entity="" />
+            </Privileges>
+            <Titles>
+              <Title Text="Activities" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="navActivityHistory" Icon="/_imgs/ico_18_history.gif" Area="Info" Sequence="20" RelationshipName="Account_ActivityPointers" TitleResourceId="Tab_Label_History" ViewId="21E2B905-6FDB-470d-8517-AD69B4C01268">
+            <Privileges>
+              <Privilege Privilege="ReadActivity" Entity="" />
+            </Privileges>
+            <Titles>
+              <Title Text="Closed Activities" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="navSubAct" Icon="/_imgs/area/18_subAccounts.gif" Area="Info" Sequence="40" RelationshipName="account_parent_account" TitleResourceId="Label_SubAccounts">
+            <Titles>
+              <Title Text="Sub-Accounts" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="navRelationships" Area="Info" Sequence="60" RelationshipName="account_customer_relationship_customer" TitleResourceId="Left_Nav_Area_Relationships">
+            <Titles>
+              <Title Text="Relationships" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="nav_msdyn_account_account_BillingAccount" Area="Info" Sequence="10000" RelationshipName="msdyn_account_account_BillingAccount" Show="false">
+            <Titles>
+              <Title Text="Billed Accounts" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title Text="Common" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title Text="Sales" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title Text="Service" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title Text="Marketing" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title Text="Processes" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions FallbackForm="false" Order="3">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Partner Details" languagecode="1033" />
+      <LocalizedName description="Detalhes do Parceiro" languagecode="1046" />
+      <LocalizedName description="#REF!" languagecode="3082" />
+    </LocalizedNames>
+  </systemform>
+</forms>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{885fa661-205f-e211-895a-000c2959f9b8}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msdyn_name" select="1" preview="1" icon="1">
+        <row name="result" id="msdyn_purchaseorderid">
+          <cell name="msdyn_name" width="150" />
+          <cell name="createdon" width="100" />
+          <cell name="msdyn_purchaseorderdate" width="150" />
+          <cell name="msdyn_systemstatus" width="100" />
+          <cell name="msdyn_vendor" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="msdyn_purchaseorder">
+          <attribute name="msdyn_vendor" />
+          <attribute name="msdyn_systemstatus" />
+          <attribute name="msdyn_purchaseorderdate" />
+          <attribute name="createdon" />
+          <order attribute="msdyn_name" descending="false" />
+          <filter type="and">
+            <condition attribute="msdyn_systemstatus" operator="in">
+              <value>690970004</value>
+              <value>690970003</value>
+              <value>690970001</value>
+            </condition>
+          </filter>
+          <attribute name="msdyn_name" />
+          <attribute name="msdyn_purchaseorderid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>3.1.0.3</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Purchase Requisition Lookup View" languagecode="1033" />
+      <LocalizedName description="Vue Recherche Bon de commande" languagecode="1036" />
+      <LocalizedName description="発注書検索ダイアログ ビュー" languagecode="1041" />
+      <LocalizedName description="구매 주문 조회 보기" languagecode="1042" />
+      <LocalizedName description="Visualização de Consulta de Requisição de Compra" languagecode="1046" />
+      <LocalizedName description="采购订单查找视图" languagecode="2052" />
+      <LocalizedName description="Vista de Pesquisa de Notas de Encomenda" languagecode="2070" />
+      <LocalizedName description="Vista de búsqueda de pedidos de compra" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Active Purchase Requisitions excluding Draft or Canceled" languagecode="1033" />
+      <Description description="Bons de commande actifs à l'exclusion de Brouillon ou Annulé" languagecode="1036" />
+      <Description description="下書きまたはキャンセル済みを除外したアクティブな発注書" languagecode="1041" />
+      <Description description="초안 또는 취소됨을 제외한 활성 구매 주문" languagecode="1042" />
+      <Description description="Requisições de Compra Ativa, excluindo Rascunho ou Requisição de Compra Inativa" languagecode="1046" />
+      <Description description="可用采购订单(排除草稿或已取消的订单)" languagecode="2052" />
+      <Description description="Notas de Encomenda Ativas excluindo Rascunho ou Canceladas" languagecode="2070" />
+      <Description description="Pedidos de compra activos excluidos los que tienen el estado Borrador o Cancelado" languagecode="3082" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

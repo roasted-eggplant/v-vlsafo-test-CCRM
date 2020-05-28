@@ -1,0 +1,4 @@
+C:\Users\tadutta\Downloads\CCRM.REF\CCRM.REF\CCRM.REFFS.Plugins\obj\Debug\CCRM.REFFS.Plugins.csprojAssemblyReference.cache
+C:\Users\tadutta\Downloads\CCRM.REF\CCRM.REF\CCRM.REFFS.Plugins\obj\Debug\CCRM.REFFS.Plugins.csproj.CoreCompileInputs.cache
+C:\Users\tadutta\Downloads\CCRM.REF\CCRM.REF\CCRM.REFFS.Plugins\obj\Debug\CCRM.REFFS.Plugins.dll
+C:\Users\tadutta\Downloads\CCRM.REF\CCRM.REF\CCRM.REFFS.Plugins\obj\Debug\CCRM.REFFS.Plugins.pdb

@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>183fb50b-903c-4a55-9433-2f85c8ea5f71</ProjectGuid>
+    <ProjectTypeGuids>{88A30576-7583-4F75-8136-5EFD2C14ADFF}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RES.CrmPackage</RootNamespace>
+    <AssemblyName>RES.CrmPackage</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <OutputFile>RES.CrmPackage.zip</OutputFile>
+    <Name>RES.CrmPackage</Name>
+    <MainFile>WebResources\Script (JScript)\smp_AI_Telemetry.js</MainFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="WebResources\FieldService.UI" />
+    <Folder Include="WebResources\CustomerService.UI" />
+    <RegisterPlugin Include="RegisterFile.crmregister">
+      <DisplayName>RegisterFile</DisplayName>
+      <UniqueName>new_RegisterFile</UniqueName>
+      <WebResourceType>NotSupported</WebResourceType>
+    </RegisterPlugin>
+    <Folder Include="WebResources" />
+  </ItemGroup>
+  <ItemGroup>
+    <CRMWebResource Include="WebResources\CustomerService.UI\new_ReClassifyServiceRequest.htm">
+      <DisplayName>new_ReClassifyServiceRequest</DisplayName>
+      <UniqueName>smp_new_ReClassifyServiceRequest</UniqueName>
+      <WebResourceType>WebPage</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\CustomerService.UI\new_ReClassifyServiceRequestjs.js">
+      <DisplayName>new_ReClassifyServiceRequestjs</DisplayName>
+      <UniqueName>smp_new_ReClassifyServiceRequestjs</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\CustomerService.UI\smp_AI_Telemetry.js">
+      <DisplayName>smp_AI_Telemetry</DisplayName>
+      <UniqueName>smp_smp_AI_Telemetry</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\CustomerService.UI\smp_cancelmodify.js">
+      <DisplayName>smp_cancelmodify</DisplayName>
+      <UniqueName>smp_smp_cancelmodify</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\CustomerService.UI\smp_CheckUserRole_CSR.js">
+      <DisplayName>smp_CheckUserRole_CSR</DisplayName>
+      <UniqueName>smp_smp_CheckUserRole_CSR</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\CustomerService.UI\smp_escalationtable.htm">
+      <DisplayName>smp_escalationtable</DisplayName>
+      <UniqueName>smp_smp_escalationtable</UniqueName>
+      <WebResourceType>WebPage</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\CustomerService.UI\smp_FSServiceRequest.js">
+      <DisplayName>smp_FSServiceRequest</DisplayName>
+      <UniqueName>smp_smp_FSServiceRequest</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\CustomerService.UI\smp_HideButtons.js">
+      <DisplayName>smp_HideButtons</DisplayName>
+      <UniqueName>smp_smp_HideButtons</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\CustomerService.UI\smp_script.js">
+      <DisplayName>smp_script</DisplayName>
+      <UniqueName>smp_smp_script</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\FieldService.UI\smp_FulfillmentRequest.js">
+      <DisplayName>smp_FulfillmentRequest</DisplayName>
+      <UniqueName>smp_smp_FulfillmentRequest</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\FieldService.UI\smp_InspectionGridFieldDisable.js">
+      <DisplayName>smp_InspectionGridFieldDisable</DisplayName>
+      <UniqueName>smp_smp_InspectionGridFieldDisable</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\FieldService.UI\smp_IotAlert.js">
+      <DisplayName>smp_IotAlert</DisplayName>
+      <UniqueName>smp_smp_IotAlert</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\FieldService.UI\smp_PriceList.js">
+      <DisplayName>smp_PriceList</DisplayName>
+      <UniqueName>smp_smp_PriceList</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\FieldService.UI\smp_priorityescalations.htm">
+      <DisplayName>smp_priorityescalations</DisplayName>
+      <UniqueName>smp_smp_priorityescalations</UniqueName>
+      <WebResourceType>WebPage</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\FieldService.UI\smp_PurchaseRequisition.js">
+      <DisplayName>smp_PurchaseRequisition</DisplayName>
+      <UniqueName>smp_smp_PurchaseRequisition</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\FieldService.UI\smp_PurchaseRequisitionProduct.js">
+      <DisplayName>smp_PurchaseRequisitionProduct</DisplayName>
+      <UniqueName>smp_smp_PurchaseRequisitionProduct</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\FieldService.UI\smp_WorkOrder.js">
+      <DisplayName>smp_WorkOrder</DisplayName>
+      <UniqueName>smp_smp_WorkOrder</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!--<Import Project="$(MSBuildExtensionsPath32)\Microsoft\CRM\Microsoft.CrmDeveloperTools.12.targets" />-->
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+			 Other similar extension points exist, see Microsoft.Common.targets.
+	<Target Name="BeforeBuild">
+	</Target>
+	<Target Name="AfterBuild">
+	</Target>
+	-->
+</Project>

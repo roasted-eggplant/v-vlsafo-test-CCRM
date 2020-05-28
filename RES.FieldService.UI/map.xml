@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Mapping>  
+  <FileToFile map="WebResources\smp_FulfillmentRequest.js" to="..\..\..\..\RES.CrmPackage\WebResources\FieldService.UI\smp_FulfillmentRequest.js" />
+  <FileToFile map="WebResources\smp_InspectionGridFieldDisable" to="..\..\..\..\RES.CrmPackage\WebResources\FieldService.UI\smp_InspectionGridFieldDisable.js" />
+  <FileToFile map="WebResources\smp_IotAlert.js" to="..\..\..\..\RES.CrmPackage\WebResources\FieldService.UI\smp_IotAlert.js" />
+  <FileToFile map="WebResources\smp_PriceList.js" to="..\..\..\..\RES.CrmPackage\WebResources\FieldService.UI\smp_PriceList.js" />
+  <FileToFile map="WebResources\smp_PurchaseRequisition.js" to="..\..\..\..\RES.CrmPackage\WebResources\FieldService.UI\smp_PurchaseRequisition.js" />
+  <FileToFile map="WebResources\smp_PurchaseRequisitionProduct.js" to="..\..\..\..\RES.CrmPackage\WebResources\FieldService.UI\smp_PurchaseRequisitionProduct.js" />
+  <FileToFile  map="WebResources\smp_WorkOrder.js" to="..\..\..\..\RES.CrmPackage\WebResources\FieldService.UI\smp_WorkOrder.js" />
+</Mapping>

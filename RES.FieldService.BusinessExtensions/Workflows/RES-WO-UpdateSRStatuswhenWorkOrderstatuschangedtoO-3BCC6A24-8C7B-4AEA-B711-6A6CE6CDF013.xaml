@@ -1,0 +1,728 @@
+<Activity x:Class="XrmWorkflow3bcc6a248c7b4aeab7116a6ce6cdf013" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" xmlns:mxs="clr-namespace:Microsoft.Xrm.Sdk;assembly=Microsoft.Xrm.Sdk, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" xmlns:mxsq="clr-namespace:Microsoft.Xrm.Sdk.Query;assembly=Microsoft.Xrm.Sdk, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" xmlns:mxswa="clr-namespace:Microsoft.Xrm.Sdk.Workflow.Activities;assembly=Microsoft.Xrm.Sdk.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" xmlns:s="clr-namespace:System;assembly=mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" xmlns:srs="clr-namespace:System.Runtime.Serialization;assembly=System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" xmlns:this="clr-namespace:" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="InputEntities" Type="InArgument(scg:IDictionary(x:String, mxs:Entity))" />
+    <x:Property Name="CreatedEntities" Type="InArgument(scg:IDictionary(x:String, mxs:Entity))" />
+  </x:Members>
+  <this:XrmWorkflow3bcc6a248c7b4aeab7116a6ce6cdf013.InputEntities>
+    <InArgument x:TypeArguments="scg:IDictionary(x:String, mxs:Entity)" />
+  </this:XrmWorkflow3bcc6a248c7b4aeab7116a6ce6cdf013.InputEntities>
+  <this:XrmWorkflow3bcc6a248c7b4aeab7116a6ce6cdf013.CreatedEntities>
+    <InArgument x:TypeArguments="scg:IDictionary(x:String, mxs:Entity)" />
+  </this:XrmWorkflow3bcc6a248c7b4aeab7116a6ce6cdf013.CreatedEntities>
+  <mva:VisualBasic.Settings>Assembly references and imported namespaces for internal implementation</mva:VisualBasic.Settings>
+  <mxswa:Workflow>
+    <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.Composite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StageStep23: Update of System status or Sub-Status">
+      <mxswa:ActivityReference.Properties>
+        <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+        <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+          <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.ConditionSequence, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionStep24: Check Service Request contains data or not">
+            <mxswa:ActivityReference.Arguments>
+              <InArgument x:TypeArguments="x:Boolean" x:Key="Wait">False</InArgument>
+            </mxswa:ActivityReference.Arguments>
+            <mxswa:ActivityReference.Properties>
+              <sco:Collection x:TypeArguments="Variable" x:Key="Variables">
+                <Variable x:TypeArguments="x:Boolean" Default="False" Name="ConditionBranchStep50_condition" />
+                <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep50_1" />
+                <Variable x:TypeArguments="x:Boolean" Default="False" Name="ConditionBranchStep25_condition" />
+                <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep25_1" />
+              </sco:Collection>
+              <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                <mxswa:GetEntityProperty Attribute="msdyn_servicerequest" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="msdyn_workorder" Value="[ConditionBranchStep50_1]">
+                  <mxswa:GetEntityProperty.TargetType>
+                    <InArgument x:TypeArguments="s:Type">
+                      <mxswa:ReferenceLiteral x:TypeArguments="s:Type">
+                        <x:Null />
+                      </mxswa:ReferenceLiteral>
+                    </InArgument>
+                  </mxswa:GetEntityProperty.TargetType>
+                </mxswa:GetEntityProperty>
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateCondition, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateCondition">
+                  <mxswa:ActivityReference.Arguments>
+                    <InArgument x:TypeArguments="mxsq:ConditionOperator" x:Key="ConditionOperator">Null</InArgument>
+                    <x:Null x:Key="Parameters" />
+                    <InArgument x:TypeArguments="x:Object" x:Key="Operand">[ConditionBranchStep50_1]</InArgument>
+                    <OutArgument x:TypeArguments="x:Boolean" x:Key="Result">[ConditionBranchStep50_condition]</OutArgument>
+                  </mxswa:ActivityReference.Arguments>
+                </mxswa:ActivityReference>
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.ConditionBranch, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep50">
+                  <mxswa:ActivityReference.Arguments>
+                    <InArgument x:TypeArguments="x:Boolean" x:Key="Condition">[ConditionBranchStep50_condition]</InArgument>
+                  </mxswa:ActivityReference.Arguments>
+                  <mxswa:ActivityReference.Properties>
+                    <mxswa:ActivityReference x:Key="Then" AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.Composite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep50">
+                      <mxswa:ActivityReference.Properties>
+                        <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                        <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                          <Sequence DisplayName="StopWorkflowStep51: Stop Workflow">
+                            <Sequence.Variables>
+                              <Variable x:TypeArguments="x:Object" Name="StopWorkflowStep51_1" />
+                              <Variable x:TypeArguments="x:String" Default="4bcbbf84-b70e-4c03-918c-81076f5eedef" Name="stepLabelLabelId" />
+                              <Variable x:TypeArguments="x:String" Default="Success" Name="stepLabelDescription" />
+                              <Variable x:TypeArguments="x:Int32" Default="1033" Name="stepLabelLanguageCode" />
+                            </Sequence.Variables>
+                            <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
+                              <mxswa:ActivityReference.Arguments>
+                                <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">CreateCrmType</InArgument>
+                                <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { Microsoft.Xrm.Sdk.Workflow.WorkflowPropertyType.String, "Success", "String" }]</InArgument>
+                                <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+                                  <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="x:String" />
+                                </InArgument>
+                                <OutArgument x:TypeArguments="x:Object" x:Key="Result">[StopWorkflowStep51_1]</OutArgument>
+                              </mxswa:ActivityReference.Arguments>
+                            </mxswa:ActivityReference>
+                            <TerminateWorkflow DisplayName="StopWorkflowStep51: Stop Workflow" Exception="[New Microsoft.Xrm.Sdk.InvalidPluginExecutionException(Microsoft.Xrm.Sdk.OperationStatus.Succeeded)]" Reason="[DirectCast(StopWorkflowStep51_1, System.String)]" />
+                          </Sequence>
+                        </sco:Collection>
+                      </mxswa:ActivityReference.Properties>
+                    </mxswa:ActivityReference>
+                    <x:Null x:Key="Else" />
+                    <x:Null x:Key="Description" />
+                  </mxswa:ActivityReference.Properties>
+                </mxswa:ActivityReference>
+                <mxswa:GetEntityProperty Attribute="msdyn_servicerequest" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="msdyn_workorder" Value="[ConditionBranchStep25_1]">
+                  <mxswa:GetEntityProperty.TargetType>
+                    <InArgument x:TypeArguments="s:Type">
+                      <mxswa:ReferenceLiteral x:TypeArguments="s:Type">
+                        <x:Null />
+                      </mxswa:ReferenceLiteral>
+                    </InArgument>
+                  </mxswa:GetEntityProperty.TargetType>
+                </mxswa:GetEntityProperty>
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateCondition, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateCondition">
+                  <mxswa:ActivityReference.Arguments>
+                    <InArgument x:TypeArguments="mxsq:ConditionOperator" x:Key="ConditionOperator">NotNull</InArgument>
+                    <x:Null x:Key="Parameters" />
+                    <InArgument x:TypeArguments="x:Object" x:Key="Operand">[ConditionBranchStep25_1]</InArgument>
+                    <OutArgument x:TypeArguments="x:Boolean" x:Key="Result">[ConditionBranchStep25_condition]</OutArgument>
+                  </mxswa:ActivityReference.Arguments>
+                </mxswa:ActivityReference>
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.ConditionBranch, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep25">
+                  <mxswa:ActivityReference.Arguments>
+                    <InArgument x:TypeArguments="x:Boolean" x:Key="Condition">[ConditionBranchStep25_condition]</InArgument>
+                  </mxswa:ActivityReference.Arguments>
+                  <mxswa:ActivityReference.Properties>
+                    <mxswa:ActivityReference x:Key="Then" AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.Composite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep25">
+                      <mxswa:ActivityReference.Properties>
+                        <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                        <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                          <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.ConditionSequence, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionStep26: System status is Open Scheduled">
+                            <mxswa:ActivityReference.Arguments>
+                              <InArgument x:TypeArguments="x:Boolean" x:Key="Wait">False</InArgument>
+                            </mxswa:ActivityReference.Arguments>
+                            <mxswa:ActivityReference.Properties>
+                              <sco:Collection x:TypeArguments="Variable" x:Key="Variables">
+                                <Variable x:TypeArguments="x:Boolean" Default="False" Name="ConditionBranchStep27_condition" />
+                                <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep27_1" />
+                                <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep27_2" />
+                                <Variable x:TypeArguments="x:Boolean" Default="False" Name="ConditionBranchStep29_condition" />
+                                <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep29_1" />
+                                <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep29_2" />
+                                <Variable x:TypeArguments="x:Boolean" Default="False" Name="ConditionBranchStep31_condition" />
+                                <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep31_1" />
+                                <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep31_2" />
+                              </sco:Collection>
+                              <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                                <mxswa:GetEntityProperty Attribute="msdyn_systemstatus" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="msdyn_workorder" Value="[ConditionBranchStep27_1]">
+                                  <mxswa:GetEntityProperty.TargetType>
+                                    <InArgument x:TypeArguments="s:Type">
+                                      <mxswa:ReferenceLiteral x:TypeArguments="s:Type">
+                                        <x:Null />
+                                      </mxswa:ReferenceLiteral>
+                                    </InArgument>
+                                  </mxswa:GetEntityProperty.TargetType>
+                                </mxswa:GetEntityProperty>
+                                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
+                                  <mxswa:ActivityReference.Arguments>
+                                    <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">CreateCrmType</InArgument>
+                                    <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { Microsoft.Xrm.Sdk.Workflow.WorkflowPropertyType.OptionSetValue, "690970001", "Picklist" }]</InArgument>
+                                    <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+                                      <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:OptionSetValue" />
+                                    </InArgument>
+                                    <OutArgument x:TypeArguments="x:Object" x:Key="Result">[ConditionBranchStep27_2]</OutArgument>
+                                  </mxswa:ActivityReference.Arguments>
+                                </mxswa:ActivityReference>
+                                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateCondition, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateCondition">
+                                  <mxswa:ActivityReference.Arguments>
+                                    <InArgument x:TypeArguments="mxsq:ConditionOperator" x:Key="ConditionOperator">Equal</InArgument>
+                                    <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { ConditionBranchStep27_2 }]</InArgument>
+                                    <InArgument x:TypeArguments="x:Object" x:Key="Operand">[ConditionBranchStep27_1]</InArgument>
+                                    <OutArgument x:TypeArguments="x:Boolean" x:Key="Result">[ConditionBranchStep27_condition]</OutArgument>
+                                  </mxswa:ActivityReference.Arguments>
+                                </mxswa:ActivityReference>
+                                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.ConditionBranch, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep27">
+                                  <mxswa:ActivityReference.Arguments>
+                                    <InArgument x:TypeArguments="x:Boolean" x:Key="Condition">[ConditionBranchStep27_condition]</InArgument>
+                                  </mxswa:ActivityReference.Arguments>
+                                  <mxswa:ActivityReference.Properties>
+                                    <mxswa:ActivityReference x:Key="Then" AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.Composite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep27">
+                                      <mxswa:ActivityReference.Properties>
+                                        <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                                        <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                                          <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.ConditionSequence, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionStep39: System status is &quot;Open Scheduled&quot;">
+                                            <mxswa:ActivityReference.Arguments>
+                                              <InArgument x:TypeArguments="x:Boolean" x:Key="Wait">False</InArgument>
+                                            </mxswa:ActivityReference.Arguments>
+                                            <mxswa:ActivityReference.Properties>
+                                              <sco:Collection x:TypeArguments="Variable" x:Key="Variables">
+                                                <Variable x:TypeArguments="x:Boolean" Default="False" Name="ConditionBranchStep40_condition" />
+                                                <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep40_1" />
+                                                <Variable x:TypeArguments="x:Boolean" Default="False" Name="ConditionBranchStep42_condition" />
+                                                <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep42_1" />
+                                                <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep42_2" />
+                                                <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep42_3" />
+                                                <Variable x:TypeArguments="x:Boolean" Default="False" Name="ConditionBranchStep44_condition" />
+                                                <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep44_1" />
+                                                <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep44_2" />
+                                                <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep44_3" />
+                                                <Variable x:TypeArguments="x:Boolean" Default="False" Name="ConditionBranchStep46_condition" />
+                                                <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep46_1" />
+                                                <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep46_2" />
+                                                <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep46_3" />
+                                                <Variable x:TypeArguments="x:Boolean" Default="False" Name="ConditionBranchStep48_condition" />
+                                                <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep48_1" />
+                                                <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep48_2" />
+                                                <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep48_3" />
+                                              </sco:Collection>
+                                              <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                                                <mxswa:GetEntityProperty Attribute="msdyn_substatus" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="msdyn_workorder" Value="[ConditionBranchStep40_1]">
+                                                  <mxswa:GetEntityProperty.TargetType>
+                                                    <InArgument x:TypeArguments="s:Type">
+                                                      <mxswa:ReferenceLiteral x:TypeArguments="s:Type">
+                                                        <x:Null />
+                                                      </mxswa:ReferenceLiteral>
+                                                    </InArgument>
+                                                  </mxswa:GetEntityProperty.TargetType>
+                                                </mxswa:GetEntityProperty>
+                                                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateCondition, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateCondition">
+                                                  <mxswa:ActivityReference.Arguments>
+                                                    <InArgument x:TypeArguments="mxsq:ConditionOperator" x:Key="ConditionOperator">Null</InArgument>
+                                                    <x:Null x:Key="Parameters" />
+                                                    <InArgument x:TypeArguments="x:Object" x:Key="Operand">[ConditionBranchStep40_1]</InArgument>
+                                                    <OutArgument x:TypeArguments="x:Boolean" x:Key="Result">[ConditionBranchStep40_condition]</OutArgument>
+                                                  </mxswa:ActivityReference.Arguments>
+                                                </mxswa:ActivityReference>
+                                                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.ConditionBranch, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep40">
+                                                  <mxswa:ActivityReference.Arguments>
+                                                    <InArgument x:TypeArguments="x:Boolean" x:Key="Condition">[ConditionBranchStep40_condition]</InArgument>
+                                                  </mxswa:ActivityReference.Arguments>
+                                                  <mxswa:ActivityReference.Properties>
+                                                    <mxswa:ActivityReference x:Key="Then" AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.Composite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep40">
+                                                      <mxswa:ActivityReference.Properties>
+                                                        <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                                                        <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                                                          <mxswa:SetState DisplayName="SetStateStep41: Update Service request to Acknowledge" Entity="[InputEntities(&quot;related_msdyn_servicerequest#incident&quot;)]" EntityId="[InputEntities(&quot;related_msdyn_servicerequest#incident&quot;).Id]" EntityName="incident">
+                                                            <mxswa:SetState.State>
+                                                              <InArgument x:TypeArguments="mxs:OptionSetValue">
+                                                                <mxswa:ReferenceLiteral x:TypeArguments="mxs:OptionSetValue">
+                                                                  <mxs:OptionSetValue ExtensionData="{x:Null}" Value="0" />
+                                                                </mxswa:ReferenceLiteral>
+                                                              </InArgument>
+                                                            </mxswa:SetState.State>
+                                                            <mxswa:SetState.Status>
+                                                              <InArgument x:TypeArguments="mxs:OptionSetValue">
+                                                                <mxswa:ReferenceLiteral x:TypeArguments="mxs:OptionSetValue">
+                                                                  <mxs:OptionSetValue ExtensionData="{x:Null}" Value="180620004" />
+                                                                </mxswa:ReferenceLiteral>
+                                                              </InArgument>
+                                                            </mxswa:SetState.Status>
+                                                          </mxswa:SetState>
+                                                        </sco:Collection>
+                                                      </mxswa:ActivityReference.Properties>
+                                                    </mxswa:ActivityReference>
+                                                    <x:Null x:Key="Else" />
+                                                    <x:Null x:Key="Description" />
+                                                  </mxswa:ActivityReference.Properties>
+                                                </mxswa:ActivityReference>
+                                                <mxswa:GetEntityProperty Attribute="msdyn_substatus" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="msdyn_workorder" Value="[ConditionBranchStep42_1]">
+                                                  <mxswa:GetEntityProperty.TargetType>
+                                                    <InArgument x:TypeArguments="s:Type">
+                                                      <mxswa:ReferenceLiteral x:TypeArguments="s:Type">
+                                                        <x:Null />
+                                                      </mxswa:ReferenceLiteral>
+                                                    </InArgument>
+                                                  </mxswa:GetEntityProperty.TargetType>
+                                                </mxswa:GetEntityProperty>
+                                                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
+                                                  <mxswa:ActivityReference.Arguments>
+                                                    <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">CreateCrmType</InArgument>
+                                                    <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { Microsoft.Xrm.Sdk.Workflow.WorkflowPropertyType.Guid, "c9c88e71-e70b-e811-8116-5065f38bc1a1", "UniqueIdentifier" }]</InArgument>
+                                                    <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+                                                      <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="s:Guid" />
+                                                    </InArgument>
+                                                    <OutArgument x:TypeArguments="x:Object" x:Key="Result">[ConditionBranchStep42_3]</OutArgument>
+                                                  </mxswa:ActivityReference.Arguments>
+                                                </mxswa:ActivityReference>
+                                                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
+                                                  <mxswa:ActivityReference.Arguments>
+                                                    <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">CreateCrmType</InArgument>
+                                                    <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { Microsoft.Xrm.Sdk.Workflow.WorkflowPropertyType.EntityReference, "msdyn_workordersubstatus", "On&amp;#160;Hold&amp;#160;Pending&amp;#160;Customer/Scheduling", ConditionBranchStep42_3, "Lookup" }]</InArgument>
+                                                    <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+                                                      <mxswa:ReferenceLiteral x:TypeArguments="s:Type">
+                                                        <x:Null />
+                                                      </mxswa:ReferenceLiteral>
+                                                    </InArgument>
+                                                    <OutArgument x:TypeArguments="x:Object" x:Key="Result">[ConditionBranchStep42_2]</OutArgument>
+                                                  </mxswa:ActivityReference.Arguments>
+                                                </mxswa:ActivityReference>
+                                                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateCondition, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateCondition">
+                                                  <mxswa:ActivityReference.Arguments>
+                                                    <InArgument x:TypeArguments="mxsq:ConditionOperator" x:Key="ConditionOperator">Equal</InArgument>
+                                                    <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { ConditionBranchStep42_2 }]</InArgument>
+                                                    <InArgument x:TypeArguments="x:Object" x:Key="Operand">[ConditionBranchStep42_1]</InArgument>
+                                                    <OutArgument x:TypeArguments="x:Boolean" x:Key="Result">[ConditionBranchStep42_condition]</OutArgument>
+                                                  </mxswa:ActivityReference.Arguments>
+                                                </mxswa:ActivityReference>
+                                                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.ConditionBranch, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep42">
+                                                  <mxswa:ActivityReference.Arguments>
+                                                    <InArgument x:TypeArguments="x:Boolean" x:Key="Condition">[ConditionBranchStep42_condition]</InArgument>
+                                                  </mxswa:ActivityReference.Arguments>
+                                                  <mxswa:ActivityReference.Properties>
+                                                    <mxswa:ActivityReference x:Key="Then" AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.Composite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep42">
+                                                      <mxswa:ActivityReference.Properties>
+                                                        <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                                                        <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                                                          <mxswa:SetState DisplayName="SetStateStep43" Entity="[InputEntities(&quot;related_msdyn_servicerequest#incident&quot;)]" EntityId="[InputEntities(&quot;related_msdyn_servicerequest#incident&quot;).Id]" EntityName="incident">
+                                                            <mxswa:SetState.State>
+                                                              <InArgument x:TypeArguments="mxs:OptionSetValue">
+                                                                <mxswa:ReferenceLiteral x:TypeArguments="mxs:OptionSetValue">
+                                                                  <mxs:OptionSetValue ExtensionData="{x:Null}" Value="0" />
+                                                                </mxswa:ReferenceLiteral>
+                                                              </InArgument>
+                                                            </mxswa:SetState.State>
+                                                            <mxswa:SetState.Status>
+                                                              <InArgument x:TypeArguments="mxs:OptionSetValue">
+                                                                <mxswa:ReferenceLiteral x:TypeArguments="mxs:OptionSetValue">
+                                                                  <mxs:OptionSetValue ExtensionData="{x:Null}" Value="180620017" />
+                                                                </mxswa:ReferenceLiteral>
+                                                              </InArgument>
+                                                            </mxswa:SetState.Status>
+                                                          </mxswa:SetState>
+                                                        </sco:Collection>
+                                                      </mxswa:ActivityReference.Properties>
+                                                    </mxswa:ActivityReference>
+                                                    <x:Null x:Key="Else" />
+                                                    <x:Null x:Key="Description" />
+                                                  </mxswa:ActivityReference.Properties>
+                                                </mxswa:ActivityReference>
+                                                <mxswa:GetEntityProperty Attribute="msdyn_substatus" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="msdyn_workorder" Value="[ConditionBranchStep44_1]">
+                                                  <mxswa:GetEntityProperty.TargetType>
+                                                    <InArgument x:TypeArguments="s:Type">
+                                                      <mxswa:ReferenceLiteral x:TypeArguments="s:Type">
+                                                        <x:Null />
+                                                      </mxswa:ReferenceLiteral>
+                                                    </InArgument>
+                                                  </mxswa:GetEntityProperty.TargetType>
+                                                </mxswa:GetEntityProperty>
+                                                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
+                                                  <mxswa:ActivityReference.Arguments>
+                                                    <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">CreateCrmType</InArgument>
+                                                    <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { Microsoft.Xrm.Sdk.Workflow.WorkflowPropertyType.Guid, "b045dc7d-e70b-e811-8116-5065f38bc1a1", "UniqueIdentifier" }]</InArgument>
+                                                    <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+                                                      <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="s:Guid" />
+                                                    </InArgument>
+                                                    <OutArgument x:TypeArguments="x:Object" x:Key="Result">[ConditionBranchStep44_3]</OutArgument>
+                                                  </mxswa:ActivityReference.Arguments>
+                                                </mxswa:ActivityReference>
+                                                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
+                                                  <mxswa:ActivityReference.Arguments>
+                                                    <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">CreateCrmType</InArgument>
+                                                    <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { Microsoft.Xrm.Sdk.Workflow.WorkflowPropertyType.EntityReference, "msdyn_workordersubstatus", "On&amp;#160;Hold&amp;#160;Pending&amp;#160;Parts", ConditionBranchStep44_3, "Lookup" }]</InArgument>
+                                                    <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+                                                      <mxswa:ReferenceLiteral x:TypeArguments="s:Type">
+                                                        <x:Null />
+                                                      </mxswa:ReferenceLiteral>
+                                                    </InArgument>
+                                                    <OutArgument x:TypeArguments="x:Object" x:Key="Result">[ConditionBranchStep44_2]</OutArgument>
+                                                  </mxswa:ActivityReference.Arguments>
+                                                </mxswa:ActivityReference>
+                                                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateCondition, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateCondition">
+                                                  <mxswa:ActivityReference.Arguments>
+                                                    <InArgument x:TypeArguments="mxsq:ConditionOperator" x:Key="ConditionOperator">Equal</InArgument>
+                                                    <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { ConditionBranchStep44_2 }]</InArgument>
+                                                    <InArgument x:TypeArguments="x:Object" x:Key="Operand">[ConditionBranchStep44_1]</InArgument>
+                                                    <OutArgument x:TypeArguments="x:Boolean" x:Key="Result">[ConditionBranchStep44_condition]</OutArgument>
+                                                  </mxswa:ActivityReference.Arguments>
+                                                </mxswa:ActivityReference>
+                                                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.ConditionBranch, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep44">
+                                                  <mxswa:ActivityReference.Arguments>
+                                                    <InArgument x:TypeArguments="x:Boolean" x:Key="Condition">[ConditionBranchStep44_condition]</InArgument>
+                                                  </mxswa:ActivityReference.Arguments>
+                                                  <mxswa:ActivityReference.Properties>
+                                                    <mxswa:ActivityReference x:Key="Then" AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.Composite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep44">
+                                                      <mxswa:ActivityReference.Properties>
+                                                        <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                                                        <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                                                          <mxswa:SetState DisplayName="SetStateStep45" Entity="[InputEntities(&quot;related_msdyn_servicerequest#incident&quot;)]" EntityId="[InputEntities(&quot;related_msdyn_servicerequest#incident&quot;).Id]" EntityName="incident">
+                                                            <mxswa:SetState.State>
+                                                              <InArgument x:TypeArguments="mxs:OptionSetValue">
+                                                                <mxswa:ReferenceLiteral x:TypeArguments="mxs:OptionSetValue">
+                                                                  <mxs:OptionSetValue ExtensionData="{x:Null}" Value="0" />
+                                                                </mxswa:ReferenceLiteral>
+                                                              </InArgument>
+                                                            </mxswa:SetState.State>
+                                                            <mxswa:SetState.Status>
+                                                              <InArgument x:TypeArguments="mxs:OptionSetValue">
+                                                                <mxswa:ReferenceLiteral x:TypeArguments="mxs:OptionSetValue">
+                                                                  <mxs:OptionSetValue ExtensionData="{x:Null}" Value="180620007" />
+                                                                </mxswa:ReferenceLiteral>
+                                                              </InArgument>
+                                                            </mxswa:SetState.Status>
+                                                          </mxswa:SetState>
+                                                        </sco:Collection>
+                                                      </mxswa:ActivityReference.Properties>
+                                                    </mxswa:ActivityReference>
+                                                    <x:Null x:Key="Else" />
+                                                    <x:Null x:Key="Description" />
+                                                  </mxswa:ActivityReference.Properties>
+                                                </mxswa:ActivityReference>
+                                                <mxswa:GetEntityProperty Attribute="msdyn_substatus" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="msdyn_workorder" Value="[ConditionBranchStep46_1]">
+                                                  <mxswa:GetEntityProperty.TargetType>
+                                                    <InArgument x:TypeArguments="s:Type">
+                                                      <mxswa:ReferenceLiteral x:TypeArguments="s:Type">
+                                                        <x:Null />
+                                                      </mxswa:ReferenceLiteral>
+                                                    </InArgument>
+                                                  </mxswa:GetEntityProperty.TargetType>
+                                                </mxswa:GetEntityProperty>
+                                                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
+                                                  <mxswa:ActivityReference.Arguments>
+                                                    <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">CreateCrmType</InArgument>
+                                                    <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { Microsoft.Xrm.Sdk.Workflow.WorkflowPropertyType.Guid, "9dc3dd86-e70b-e811-8116-5065f38bc1a1", "UniqueIdentifier" }]</InArgument>
+                                                    <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+                                                      <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="s:Guid" />
+                                                    </InArgument>
+                                                    <OutArgument x:TypeArguments="x:Object" x:Key="Result">[ConditionBranchStep46_3]</OutArgument>
+                                                  </mxswa:ActivityReference.Arguments>
+                                                </mxswa:ActivityReference>
+                                                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
+                                                  <mxswa:ActivityReference.Arguments>
+                                                    <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">CreateCrmType</InArgument>
+                                                    <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { Microsoft.Xrm.Sdk.Workflow.WorkflowPropertyType.EntityReference, "msdyn_workordersubstatus", "On&amp;#160;Hold&amp;#160;Pending&amp;#160;Vendor&amp;#160;Arrival", ConditionBranchStep46_3, "Lookup" }]</InArgument>
+                                                    <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+                                                      <mxswa:ReferenceLiteral x:TypeArguments="s:Type">
+                                                        <x:Null />
+                                                      </mxswa:ReferenceLiteral>
+                                                    </InArgument>
+                                                    <OutArgument x:TypeArguments="x:Object" x:Key="Result">[ConditionBranchStep46_2]</OutArgument>
+                                                  </mxswa:ActivityReference.Arguments>
+                                                </mxswa:ActivityReference>
+                                                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateCondition, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateCondition">
+                                                  <mxswa:ActivityReference.Arguments>
+                                                    <InArgument x:TypeArguments="mxsq:ConditionOperator" x:Key="ConditionOperator">Equal</InArgument>
+                                                    <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { ConditionBranchStep46_2 }]</InArgument>
+                                                    <InArgument x:TypeArguments="x:Object" x:Key="Operand">[ConditionBranchStep46_1]</InArgument>
+                                                    <OutArgument x:TypeArguments="x:Boolean" x:Key="Result">[ConditionBranchStep46_condition]</OutArgument>
+                                                  </mxswa:ActivityReference.Arguments>
+                                                </mxswa:ActivityReference>
+                                                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.ConditionBranch, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep46">
+                                                  <mxswa:ActivityReference.Arguments>
+                                                    <InArgument x:TypeArguments="x:Boolean" x:Key="Condition">[ConditionBranchStep46_condition]</InArgument>
+                                                  </mxswa:ActivityReference.Arguments>
+                                                  <mxswa:ActivityReference.Properties>
+                                                    <mxswa:ActivityReference x:Key="Then" AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.Composite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep46">
+                                                      <mxswa:ActivityReference.Properties>
+                                                        <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                                                        <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                                                          <mxswa:SetState DisplayName="SetStateStep47" Entity="[InputEntities(&quot;related_msdyn_servicerequest#incident&quot;)]" EntityId="[InputEntities(&quot;related_msdyn_servicerequest#incident&quot;).Id]" EntityName="incident">
+                                                            <mxswa:SetState.State>
+                                                              <InArgument x:TypeArguments="mxs:OptionSetValue">
+                                                                <mxswa:ReferenceLiteral x:TypeArguments="mxs:OptionSetValue">
+                                                                  <mxs:OptionSetValue ExtensionData="{x:Null}" Value="0" />
+                                                                </mxswa:ReferenceLiteral>
+                                                              </InArgument>
+                                                            </mxswa:SetState.State>
+                                                            <mxswa:SetState.Status>
+                                                              <InArgument x:TypeArguments="mxs:OptionSetValue">
+                                                                <mxswa:ReferenceLiteral x:TypeArguments="mxs:OptionSetValue">
+                                                                  <mxs:OptionSetValue ExtensionData="{x:Null}" Value="180620008" />
+                                                                </mxswa:ReferenceLiteral>
+                                                              </InArgument>
+                                                            </mxswa:SetState.Status>
+                                                          </mxswa:SetState>
+                                                        </sco:Collection>
+                                                      </mxswa:ActivityReference.Properties>
+                                                    </mxswa:ActivityReference>
+                                                    <x:Null x:Key="Else" />
+                                                    <x:Null x:Key="Description" />
+                                                  </mxswa:ActivityReference.Properties>
+                                                </mxswa:ActivityReference>
+                                                <mxswa:GetEntityProperty Attribute="msdyn_substatus" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="msdyn_workorder" Value="[ConditionBranchStep48_1]">
+                                                  <mxswa:GetEntityProperty.TargetType>
+                                                    <InArgument x:TypeArguments="s:Type">
+                                                      <mxswa:ReferenceLiteral x:TypeArguments="s:Type">
+                                                        <x:Null />
+                                                      </mxswa:ReferenceLiteral>
+                                                    </InArgument>
+                                                  </mxswa:GetEntityProperty.TargetType>
+                                                </mxswa:GetEntityProperty>
+                                                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
+                                                  <mxswa:ActivityReference.Arguments>
+                                                    <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">CreateCrmType</InArgument>
+                                                    <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { Microsoft.Xrm.Sdk.Workflow.WorkflowPropertyType.Guid, "b1896990-e70b-e811-8116-5065f38bc1a1", "UniqueIdentifier" }]</InArgument>
+                                                    <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+                                                      <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="s:Guid" />
+                                                    </InArgument>
+                                                    <OutArgument x:TypeArguments="x:Object" x:Key="Result">[ConditionBranchStep48_3]</OutArgument>
+                                                  </mxswa:ActivityReference.Arguments>
+                                                </mxswa:ActivityReference>
+                                                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
+                                                  <mxswa:ActivityReference.Arguments>
+                                                    <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">CreateCrmType</InArgument>
+                                                    <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { Microsoft.Xrm.Sdk.Workflow.WorkflowPropertyType.EntityReference, "msdyn_workordersubstatus", "On&amp;#160;Hold&amp;#160;Pending&amp;#160;Vendor&amp;#160;Scheduling", ConditionBranchStep48_3, "Lookup" }]</InArgument>
+                                                    <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+                                                      <mxswa:ReferenceLiteral x:TypeArguments="s:Type">
+                                                        <x:Null />
+                                                      </mxswa:ReferenceLiteral>
+                                                    </InArgument>
+                                                    <OutArgument x:TypeArguments="x:Object" x:Key="Result">[ConditionBranchStep48_2]</OutArgument>
+                                                  </mxswa:ActivityReference.Arguments>
+                                                </mxswa:ActivityReference>
+                                                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateCondition, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateCondition">
+                                                  <mxswa:ActivityReference.Arguments>
+                                                    <InArgument x:TypeArguments="mxsq:ConditionOperator" x:Key="ConditionOperator">Equal</InArgument>
+                                                    <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { ConditionBranchStep48_2 }]</InArgument>
+                                                    <InArgument x:TypeArguments="x:Object" x:Key="Operand">[ConditionBranchStep48_1]</InArgument>
+                                                    <OutArgument x:TypeArguments="x:Boolean" x:Key="Result">[ConditionBranchStep48_condition]</OutArgument>
+                                                  </mxswa:ActivityReference.Arguments>
+                                                </mxswa:ActivityReference>
+                                                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.ConditionBranch, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep48">
+                                                  <mxswa:ActivityReference.Arguments>
+                                                    <InArgument x:TypeArguments="x:Boolean" x:Key="Condition">[ConditionBranchStep48_condition]</InArgument>
+                                                  </mxswa:ActivityReference.Arguments>
+                                                  <mxswa:ActivityReference.Properties>
+                                                    <mxswa:ActivityReference x:Key="Then" AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.Composite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep48">
+                                                      <mxswa:ActivityReference.Properties>
+                                                        <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                                                        <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                                                          <mxswa:SetState DisplayName="SetStateStep49" Entity="[InputEntities(&quot;related_msdyn_servicerequest#incident&quot;)]" EntityId="[InputEntities(&quot;related_msdyn_servicerequest#incident&quot;).Id]" EntityName="incident">
+                                                            <mxswa:SetState.State>
+                                                              <InArgument x:TypeArguments="mxs:OptionSetValue">
+                                                                <mxswa:ReferenceLiteral x:TypeArguments="mxs:OptionSetValue">
+                                                                  <mxs:OptionSetValue ExtensionData="{x:Null}" Value="0" />
+                                                                </mxswa:ReferenceLiteral>
+                                                              </InArgument>
+                                                            </mxswa:SetState.State>
+                                                            <mxswa:SetState.Status>
+                                                              <InArgument x:TypeArguments="mxs:OptionSetValue">
+                                                                <mxswa:ReferenceLiteral x:TypeArguments="mxs:OptionSetValue">
+                                                                  <mxs:OptionSetValue ExtensionData="{x:Null}" Value="180620009" />
+                                                                </mxswa:ReferenceLiteral>
+                                                              </InArgument>
+                                                            </mxswa:SetState.Status>
+                                                          </mxswa:SetState>
+                                                        </sco:Collection>
+                                                      </mxswa:ActivityReference.Properties>
+                                                    </mxswa:ActivityReference>
+                                                    <x:Null x:Key="Else" />
+                                                    <x:Null x:Key="Description" />
+                                                  </mxswa:ActivityReference.Properties>
+                                                </mxswa:ActivityReference>
+                                              </sco:Collection>
+                                              <x:Boolean x:Key="ContainsElseBranch">False</x:Boolean>
+                                            </mxswa:ActivityReference.Properties>
+                                          </mxswa:ActivityReference>
+                                        </sco:Collection>
+                                      </mxswa:ActivityReference.Properties>
+                                    </mxswa:ActivityReference>
+                                    <x:Null x:Key="Else" />
+                                    <x:Null x:Key="Description" />
+                                  </mxswa:ActivityReference.Properties>
+                                </mxswa:ActivityReference>
+                                <mxswa:GetEntityProperty Attribute="msdyn_systemstatus" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="msdyn_workorder" Value="[ConditionBranchStep29_1]">
+                                  <mxswa:GetEntityProperty.TargetType>
+                                    <InArgument x:TypeArguments="s:Type">
+                                      <mxswa:ReferenceLiteral x:TypeArguments="s:Type">
+                                        <x:Null />
+                                      </mxswa:ReferenceLiteral>
+                                    </InArgument>
+                                  </mxswa:GetEntityProperty.TargetType>
+                                </mxswa:GetEntityProperty>
+                                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
+                                  <mxswa:ActivityReference.Arguments>
+                                    <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">CreateCrmType</InArgument>
+                                    <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { Microsoft.Xrm.Sdk.Workflow.WorkflowPropertyType.OptionSetValue, "690970002", "Picklist" }]</InArgument>
+                                    <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+                                      <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:OptionSetValue" />
+                                    </InArgument>
+                                    <OutArgument x:TypeArguments="x:Object" x:Key="Result">[ConditionBranchStep29_2]</OutArgument>
+                                  </mxswa:ActivityReference.Arguments>
+                                </mxswa:ActivityReference>
+                                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateCondition, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateCondition">
+                                  <mxswa:ActivityReference.Arguments>
+                                    <InArgument x:TypeArguments="mxsq:ConditionOperator" x:Key="ConditionOperator">Equal</InArgument>
+                                    <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { ConditionBranchStep29_2 }]</InArgument>
+                                    <InArgument x:TypeArguments="x:Object" x:Key="Operand">[ConditionBranchStep29_1]</InArgument>
+                                    <OutArgument x:TypeArguments="x:Boolean" x:Key="Result">[ConditionBranchStep29_condition]</OutArgument>
+                                  </mxswa:ActivityReference.Arguments>
+                                </mxswa:ActivityReference>
+                                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.ConditionBranch, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep29">
+                                  <mxswa:ActivityReference.Arguments>
+                                    <InArgument x:TypeArguments="x:Boolean" x:Key="Condition">[ConditionBranchStep29_condition]</InArgument>
+                                  </mxswa:ActivityReference.Arguments>
+                                  <mxswa:ActivityReference.Properties>
+                                    <mxswa:ActivityReference x:Key="Then" AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.Composite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep29">
+                                      <mxswa:ActivityReference.Properties>
+                                        <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                                        <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                                          <mxswa:SetState DisplayName="SetStateStep30: Update Service Request to In progress" Entity="[InputEntities(&quot;related_msdyn_servicerequest#incident&quot;)]" EntityId="[InputEntities(&quot;related_msdyn_servicerequest#incident&quot;).Id]" EntityName="incident">
+                                            <mxswa:SetState.State>
+                                              <InArgument x:TypeArguments="mxs:OptionSetValue">
+                                                <mxswa:ReferenceLiteral x:TypeArguments="mxs:OptionSetValue">
+                                                  <mxs:OptionSetValue ExtensionData="{x:Null}" Value="0" />
+                                                </mxswa:ReferenceLiteral>
+                                              </InArgument>
+                                            </mxswa:SetState.State>
+                                            <mxswa:SetState.Status>
+                                              <InArgument x:TypeArguments="mxs:OptionSetValue">
+                                                <mxswa:ReferenceLiteral x:TypeArguments="mxs:OptionSetValue">
+                                                  <mxs:OptionSetValue ExtensionData="{x:Null}" Value="180620005" />
+                                                </mxswa:ReferenceLiteral>
+                                              </InArgument>
+                                            </mxswa:SetState.Status>
+                                          </mxswa:SetState>
+                                        </sco:Collection>
+                                      </mxswa:ActivityReference.Properties>
+                                    </mxswa:ActivityReference>
+                                    <x:Null x:Key="Else" />
+                                    <x:Null x:Key="Description" />
+                                  </mxswa:ActivityReference.Properties>
+                                </mxswa:ActivityReference>
+                                <mxswa:GetEntityProperty Attribute="msdyn_systemstatus" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="msdyn_workorder" Value="[ConditionBranchStep31_1]">
+                                  <mxswa:GetEntityProperty.TargetType>
+                                    <InArgument x:TypeArguments="s:Type">
+                                      <mxswa:ReferenceLiteral x:TypeArguments="s:Type">
+                                        <x:Null />
+                                      </mxswa:ReferenceLiteral>
+                                    </InArgument>
+                                  </mxswa:GetEntityProperty.TargetType>
+                                </mxswa:GetEntityProperty>
+                                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
+                                  <mxswa:ActivityReference.Arguments>
+                                    <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">CreateCrmType</InArgument>
+                                    <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { Microsoft.Xrm.Sdk.Workflow.WorkflowPropertyType.OptionSetValue, "690970004", "Picklist" }]</InArgument>
+                                    <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+                                      <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:OptionSetValue" />
+                                    </InArgument>
+                                    <OutArgument x:TypeArguments="x:Object" x:Key="Result">[ConditionBranchStep31_2]</OutArgument>
+                                  </mxswa:ActivityReference.Arguments>
+                                </mxswa:ActivityReference>
+                                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateCondition, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateCondition">
+                                  <mxswa:ActivityReference.Arguments>
+                                    <InArgument x:TypeArguments="mxsq:ConditionOperator" x:Key="ConditionOperator">Equal</InArgument>
+                                    <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { ConditionBranchStep31_2 }]</InArgument>
+                                    <InArgument x:TypeArguments="x:Object" x:Key="Operand">[ConditionBranchStep31_1]</InArgument>
+                                    <OutArgument x:TypeArguments="x:Boolean" x:Key="Result">[ConditionBranchStep31_condition]</OutArgument>
+                                  </mxswa:ActivityReference.Arguments>
+                                </mxswa:ActivityReference>
+                                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.ConditionBranch, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep31">
+                                  <mxswa:ActivityReference.Arguments>
+                                    <InArgument x:TypeArguments="x:Boolean" x:Key="Condition">[ConditionBranchStep31_condition]</InArgument>
+                                  </mxswa:ActivityReference.Arguments>
+                                  <mxswa:ActivityReference.Properties>
+                                    <mxswa:ActivityReference x:Key="Then" AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.Composite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep31">
+                                      <mxswa:ActivityReference.Properties>
+                                        <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                                        <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                                          <Sequence DisplayName="UpdateStep32: Update Service request">
+                                            <Sequence.Variables>
+                                              <Variable x:TypeArguments="x:Object" Name="UpdateStep32_1" />
+                                              <Variable x:TypeArguments="x:Object" Name="UpdateStep32_2" />
+                                              <Variable x:TypeArguments="x:Object" Name="UpdateStep32_3" />
+                                              <Variable x:TypeArguments="x:Object" Name="UpdateStep32_4" />
+                                            </Sequence.Variables>
+                                            <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;related_msdyn_servicerequest#incident#Temp&quot;)]" Value="[New Entity(&quot;incident&quot;)]" />
+                                            <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;related_msdyn_servicerequest#incident#Temp&quot;).Id]" Value="[InputEntities(&quot;related_msdyn_servicerequest#incident&quot;).Id]" />
+                                            <mxswa:GetEntityProperty Attribute="smp_opencompletedtime" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="msdyn_workorder" Value="[UpdateStep32_2]">
+                                              <mxswa:GetEntityProperty.TargetType>
+                                                <InArgument x:TypeArguments="s:Type">
+                                                  <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="x:String" />
+                                                </InArgument>
+                                              </mxswa:GetEntityProperty.TargetType>
+                                            </mxswa:GetEntityProperty>
+                                            <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
+                                              <mxswa:ActivityReference.Arguments>
+                                                <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">SelectFirstNonNull</InArgument>
+                                                <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { UpdateStep32_2 }]</InArgument>
+                                                <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+                                                  <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="x:String" />
+                                                </InArgument>
+                                                <OutArgument x:TypeArguments="x:Object" x:Key="Result">[UpdateStep32_1]</OutArgument>
+                                              </mxswa:ActivityReference.Arguments>
+                                            </mxswa:ActivityReference>
+                                            <mxswa:SetEntityProperty Attribute="smp_tier1workcompletiondatebybuildingtimezone" Entity="[CreatedEntities(&quot;related_msdyn_servicerequest#incident#Temp&quot;)]" EntityName="incident" Value="[UpdateStep32_1]">
+                                              <mxswa:SetEntityProperty.TargetType>
+                                                <InArgument x:TypeArguments="s:Type">
+                                                  <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="x:String" />
+                                                </InArgument>
+                                              </mxswa:SetEntityProperty.TargetType>
+                                            </mxswa:SetEntityProperty>
+                                            <mxswa:GetEntityProperty Attribute="smp_customercomments" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="msdyn_workorder" Value="[UpdateStep32_4]">
+                                              <mxswa:GetEntityProperty.TargetType>
+                                                <InArgument x:TypeArguments="s:Type">
+                                                  <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="x:String" />
+                                                </InArgument>
+                                              </mxswa:GetEntityProperty.TargetType>
+                                            </mxswa:GetEntityProperty>
+                                            <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
+                                              <mxswa:ActivityReference.Arguments>
+                                                <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">SelectFirstNonNull</InArgument>
+                                                <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { UpdateStep32_4 }]</InArgument>
+                                                <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+                                                  <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="x:String" />
+                                                </InArgument>
+                                                <OutArgument x:TypeArguments="x:Object" x:Key="Result">[UpdateStep32_3]</OutArgument>
+                                              </mxswa:ActivityReference.Arguments>
+                                            </mxswa:ActivityReference>
+                                            <mxswa:SetEntityProperty Attribute="smp_completionnotes" Entity="[CreatedEntities(&quot;related_msdyn_servicerequest#incident#Temp&quot;)]" EntityName="incident" Value="[UpdateStep32_3]">
+                                              <mxswa:SetEntityProperty.TargetType>
+                                                <InArgument x:TypeArguments="s:Type">
+                                                  <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="x:String" />
+                                                </InArgument>
+                                              </mxswa:SetEntityProperty.TargetType>
+                                            </mxswa:SetEntityProperty>
+                                            <mxswa:UpdateEntity DisplayName="UpdateStep32" Entity="[CreatedEntities(&quot;related_msdyn_servicerequest#incident#Temp&quot;)]" EntityName="incident" />
+                                            <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;related_msdyn_servicerequest#incident&quot;)]" Value="[CreatedEntities(&quot;related_msdyn_servicerequest#incident#Temp&quot;)]" />
+                                          </Sequence>
+                                          <mxswa:SetState DisplayName="SetStateStep33: Update Service Request status to completed" Entity="[InputEntities(&quot;related_msdyn_servicerequest#incident&quot;)]" EntityId="[InputEntities(&quot;related_msdyn_servicerequest#incident&quot;).Id]" EntityName="incident">
+                                            <mxswa:SetState.State>
+                                              <InArgument x:TypeArguments="mxs:OptionSetValue">
+                                                <mxswa:ReferenceLiteral x:TypeArguments="mxs:OptionSetValue">
+                                                  <mxs:OptionSetValue ExtensionData="{x:Null}" Value="0" />
+                                                </mxswa:ReferenceLiteral>
+                                              </InArgument>
+                                            </mxswa:SetState.State>
+                                            <mxswa:SetState.Status>
+                                              <InArgument x:TypeArguments="mxs:OptionSetValue">
+                                                <mxswa:ReferenceLiteral x:TypeArguments="mxs:OptionSetValue">
+                                                  <mxs:OptionSetValue ExtensionData="{x:Null}" Value="180620011" />
+                                                </mxswa:ReferenceLiteral>
+                                              </InArgument>
+                                            </mxswa:SetState.Status>
+                                          </mxswa:SetState>
+                                        </sco:Collection>
+                                      </mxswa:ActivityReference.Properties>
+                                    </mxswa:ActivityReference>
+                                    <x:Null x:Key="Else" />
+                                    <x:Null x:Key="Description" />
+                                  </mxswa:ActivityReference.Properties>
+                                </mxswa:ActivityReference>
+                              </sco:Collection>
+                              <x:Boolean x:Key="ContainsElseBranch">False</x:Boolean>
+                            </mxswa:ActivityReference.Properties>
+                          </mxswa:ActivityReference>
+                        </sco:Collection>
+                      </mxswa:ActivityReference.Properties>
+                    </mxswa:ActivityReference>
+                    <x:Null x:Key="Else" />
+                    <x:Null x:Key="Description" />
+                  </mxswa:ActivityReference.Properties>
+                </mxswa:ActivityReference>
+              </sco:Collection>
+              <x:Boolean x:Key="ContainsElseBranch">False</x:Boolean>
+            </mxswa:ActivityReference.Properties>
+          </mxswa:ActivityReference>
+        </sco:Collection>
+      </mxswa:ActivityReference.Properties>
+    </mxswa:ActivityReference>
+  </mxswa:Workflow>
+</Activity>

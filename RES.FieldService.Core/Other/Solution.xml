@@ -1,0 +1,1380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.1.0.12935" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>RES_FieldService_Core</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="RES.FieldService.Core" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>smp</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="smp" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>smp</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>18062</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="msdyn_agreementbookingsetup" behavior="0" />
+      <RootComponent type="1" schemaName="msdyn_customerasset" behavior="2" />
+      <RootComponent type="1" schemaName="msdyn_incidenttype" behavior="0" />
+      <RootComponent type="1" schemaName="msdyn_iotalert" behavior="1" />
+      <RootComponent type="1" schemaName="msdyn_purchaseorder" behavior="2" />
+      <RootComponent type="1" schemaName="msdyn_purchaseorderproduct" behavior="2" />
+      <RootComponent type="1" schemaName="msdyn_workorder" behavior="2" />
+      <RootComponent type="1" schemaName="msdyn_workorderproduct" behavior="2" />
+      <RootComponent type="1" schemaName="smp_fulfilmentrequestlineitem" behavior="1" />
+      <RootComponent type="1" schemaName="smp_inspection" behavior="1" />
+      <RootComponent type="1" schemaName="smp_inspectionquestion" behavior="1" />
+      <RootComponent type="1" schemaName="smp_inspectionrespons" behavior="1" />
+      <RootComponent type="1" schemaName="smp_inspectiontype" behavior="1" />
+      <RootComponent type="1" schemaName="smp_inventory" behavior="1" />
+      <RootComponent type="1" schemaName="smp_procedure" behavior="2" />
+      <RootComponent type="1" schemaName="smp_woemailnotification" behavior="1" />
+      <RootComponent type="1" schemaName="smp_workorderbpf" behavior="0" />
+      <RootComponent type="9" schemaName="msdyn_wosystemstatus" behavior="0" />
+      <RootComponent type="9" schemaName="smp_assetclass" behavior="0" />
+      <RootComponent type="9" schemaName="smp_devicetype" behavior="0" />
+      <RootComponent type="9" schemaName="smp_itemgroup" behavior="0" />
+      <RootComponent type="9" schemaName="smp_itemmodelgroup" behavior="0" />
+      <RootComponent type="29" id="{2525ce3a-ed4e-4899-bfc4-fc5c6c886b24}" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_purchaseorderproduct" displayName="Purchase Requisition Product" solution="FieldService (8.8.0.88)" />
+        <Dependent key="0" type="1" schemaName="msdyn_purchaseorderproduct" displayName="Purchase Requisition Product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="1" type="1" schemaName="msdyn_agreementbookingsetup" displayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="1" type="1" schemaName="msdyn_agreementbookingsetup" displayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="1" schemaName="msdyn_customerasset" displayName="Customer Asset" solution="FieldService (8.8.0.88)" />
+        <Dependent key="2" type="1" schemaName="msdyn_customerasset" displayName="Customer Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="msdyn_purchaseorder" displayName="Purchase Requisition" solution="FieldService (8.8.0.88)" />
+        <Dependent key="3" type="1" schemaName="msdyn_purchaseorder" displayName="Purchase Requisition" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="1" schemaName="msdyn_iotalert" displayName="IoT Alert" solution="IoTConnector (1.7.7.107)" />
+        <Dependent key="4" type="1" schemaName="msdyn_iotalert" displayName="IoT Alert" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="5" type="1" schemaName="msdyn_incidenttype" displayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="5" type="1" schemaName="msdyn_incidenttype" displayName="Incident Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="6" type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)" />
+        <Dependent key="6" type="1" schemaName="msdyn_workorder" displayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="7" type="1" schemaName="msdyn_workorderproduct" displayName="Work Order Product" solution="FieldService (8.8.0.88)" />
+        <Dependent key="7" type="1" schemaName="msdyn_workorderproduct" displayName="Work Order Product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="1" schemaName="msdyn_entitlementapplication" displayName="Entitlement Application" solution="FieldService (8.8.0.88)" />
+        <Dependent key="5" type="1" schemaName="msdyn_incidenttype" displayName="Incident Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="9" type="1" schemaName="msdyn_incidenttypeservice" displayName="Incident Type Service" solution="FieldService (8.8.0.88)" />
+        <Dependent key="5" type="1" schemaName="msdyn_incidenttype" displayName="Incident Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="10" type="1" schemaName="msdyn_agreementbookingservice" displayName="Agreement Booking Service" solution="FieldService (8.8.0.88)" />
+        <Dependent key="1" type="1" schemaName="msdyn_agreementbookingsetup" displayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="11" type="1" schemaName="msdyn_agreementbookingservicetask" displayName="Agreement Booking Service Task" solution="FieldService (8.8.0.88)" />
+        <Dependent key="1" type="1" schemaName="msdyn_agreementbookingsetup" displayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="12" type="1" schemaName="msdyn_workorderincident" displayName="Work Order Incident" solution="FieldService (8.8.0.88)" />
+        <Dependent key="5" type="1" schemaName="msdyn_incidenttype" displayName="Incident Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="13" type="1" schemaName="msdyn_incidenttypeservicetask" displayName="Incident Type Service Task" solution="FieldService (8.8.0.88)" />
+        <Dependent key="5" type="1" schemaName="msdyn_incidenttype" displayName="Incident Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="14" type="1" schemaName="msdyn_actual" displayName="Actual" solution="MicrosoftDynamicsScheduling (3.12.0.448)" />
+        <Dependent key="5" type="1" schemaName="msdyn_incidenttype" displayName="Incident Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="15" type="1" schemaName="msdyn_incidenttype_requirementgroup" displayName="Incident Type Requirement Group" solution="FieldService (8.8.0.88)" />
+        <Dependent key="5" type="1" schemaName="msdyn_incidenttype" displayName="Incident Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="16" type="1" schemaName="msdyn_agreementbookingproduct" displayName="Agreement Booking Product" solution="FieldService (8.8.0.88)" />
+        <Dependent key="1" type="1" schemaName="msdyn_agreementbookingsetup" displayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="1" schemaName="msdyn_quotebookingincident" displayName="Quote Booking Incident" solution="FieldService (8.8.0.88)" />
+        <Dependent key="5" type="1" schemaName="msdyn_incidenttype" displayName="Incident Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="18" type="1" schemaName="msdyn_agreementbookingincident" displayName="PM Plan Booking Incident" solution="FieldService (8.8.0.88)" />
+        <Dependent key="5" type="1" schemaName="msdyn_incidenttype" displayName="Incident Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="18" type="1" schemaName="msdyn_agreementbookingincident" displayName="PM Plan Booking Incident" solution="FieldService (8.8.0.88)" />
+        <Dependent key="1" type="1" schemaName="msdyn_agreementbookingsetup" displayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="19" type="1" schemaName="incident" displayName="Service Request" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="5" type="1" schemaName="msdyn_incidenttype" displayName="Incident Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="20" type="1" schemaName="msdyn_incidenttypeproduct" displayName="Incident Type Product" solution="FieldService (8.8.0.88)" />
+        <Dependent key="5" type="1" schemaName="msdyn_incidenttype" displayName="Incident Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="21" type="1" schemaName="msdyn_incidenttypecharacteristic" displayName="Incident Type Characteristic" solution="FieldService (8.8.0.88)" />
+        <Dependent key="5" type="1" schemaName="msdyn_incidenttype" displayName="Incident Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="22" type="1" schemaName="msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3" displayName="Agreement Business Process" solution="FieldService (8.8.0.88)" />
+        <Dependent key="1" type="1" schemaName="msdyn_agreementbookingsetup" displayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="23" type="1" schemaName="msdyn_agreementbookingdate" displayName="PM PLAN BOOKING DATE" solution="FieldService (8.8.0.88)" />
+        <Dependent key="1" type="1" schemaName="msdyn_agreementbookingsetup" displayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="24" type="1" schemaName="smp_woemailnotification" displayName="WO Email Notification" solution="Active" />
+        <Dependent key="24" type="1" schemaName="smp_woemailnotification" displayName="WO Email Notification" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="25" type="1" schemaName="smp_inspection" displayName="Inspection" solution="Active" />
+        <Dependent key="25" type="1" schemaName="smp_inspection" displayName="Inspection" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="26" type="1" schemaName="smp_inspectionquestion" displayName="Inspection Question" solution="Active" />
+        <Dependent key="26" type="1" schemaName="smp_inspectionquestion" displayName="Inspection Question" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="27" type="1" schemaName="smp_procedure" displayName="Procedure" solution="Active" />
+        <Dependent key="27" type="1" schemaName="smp_procedure" displayName="Procedure" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="28" type="1" schemaName="smp_inspectiontype" displayName="Inspection Type" solution="Active" />
+        <Dependent key="28" type="1" schemaName="smp_inspectiontype" displayName="Inspection Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="29" type="1" schemaName="smp_fulfilmentrequestlineitem" displayName="Fulfilment Request Line Item" solution="Active" />
+        <Dependent key="29" type="1" schemaName="smp_fulfilmentrequestlineitem" displayName="Fulfilment Request Line Item" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="30" type="1" schemaName="smp_inspectionrespons" displayName="Inspection Response" solution="Active" />
+        <Dependent key="30" type="1" schemaName="smp_inspectionrespons" displayName="Inspection Response" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="31" type="1" schemaName="smp_inventory" displayName="Inventory" solution="Active" />
+        <Dependent key="31" type="1" schemaName="smp_inventory" displayName="Inventory" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="32" type="1" schemaName="msdyn_workordertype" displayName="Work Order Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="33" type="10" schemaName="msdyn_msdyn_workordertype_msdyn_agreementbookingsetup_WorkOrderType" displayName="msdyn_msdyn_workordertype_msdyn_agreementbookingsetup_WorkOrderType" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="23" type="1" schemaName="msdyn_agreementbookingdate" displayName="PM PLAN BOOKING DATE" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="10" type="1" schemaName="msdyn_agreementbookingservice" displayName="Agreement Booking Service" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="11" type="1" schemaName="msdyn_agreementbookingservicetask" displayName="Agreement Booking Service Task" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="16" type="1" schemaName="msdyn_agreementbookingproduct" displayName="Agreement Booking Product" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="18" type="1" schemaName="msdyn_agreementbookingincident" displayName="PM Plan Booking Incident" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="21" type="1" schemaName="msdyn_incidenttypecharacteristic" displayName="Incident Type Characteristic" solution="FieldService (8.8.0.88)" />
+        <Dependent key="35" type="60" displayName="Information" parentDisplayName="Incident Type" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="9" type="1" schemaName="msdyn_incidenttypeservice" displayName="Incident Type Service" solution="FieldService (8.8.0.88)" />
+        <Dependent key="35" type="60" displayName="Information" parentDisplayName="Incident Type" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="13" type="1" schemaName="msdyn_incidenttypeservicetask" displayName="Incident Type Service Task" solution="FieldService (8.8.0.88)" />
+        <Dependent key="35" type="60" displayName="Information" parentDisplayName="Incident Type" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="20" type="1" schemaName="msdyn_incidenttypeproduct" displayName="Incident Type Product" solution="FieldService (8.8.0.88)" />
+        <Dependent key="35" type="60" displayName="Information" parentDisplayName="Incident Type" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="36" type="1" schemaName="msdyn_priority" displayName="Priority" solution="MicrosoftDynamicsScheduling (3.12.0.448)" />
+        <Dependent key="37" type="10" schemaName="msdyn_msdyn_priority_msdyn_agreementbookingsetup_Priority" displayName="msdyn_msdyn_priority_msdyn_agreementbookingsetup_Priority" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="10" type="1" schemaName="msdyn_agreementbookingservice" displayName="Agreement Booking Service" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="16" type="1" schemaName="msdyn_agreementbookingproduct" displayName="Agreement Booking Product" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="11" type="1" schemaName="msdyn_agreementbookingservicetask" displayName="Agreement Booking Service Task" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="18" type="1" schemaName="msdyn_agreementbookingincident" displayName="PM Plan Booking Incident" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="23" type="1" schemaName="msdyn_agreementbookingdate" displayName="PM PLAN BOOKING DATE" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="32" type="1" schemaName="msdyn_workordertype" displayName="Work Order Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="39" type="10" schemaName="msdyn_msdyn_workordertype_msdyn_incidenttype_DefaultWorkOrderType" displayName="msdyn_msdyn_workordertype_msdyn_incidenttype_DefaultWorkOrderType" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="40" type="1" schemaName="bookableresource" displayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent key="41" type="10" schemaName="msdyn_bookableresource_msdyn_agreementbookingsetup_PreferredResource" displayName="msdyn_bookableresource_msdyn_agreementbookingsetup_PreferredResource" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="42" type="1" schemaName="msdyn_agreement" displayName="Preventative Maintenance Plan" solution="FieldService (8.8.0.88)" />
+        <Dependent key="43" type="10" schemaName="msdyn_msdyn_agreement_msdyn_agreementbookingsetup_Agreement" displayName="msdyn_msdyn_agreement_msdyn_agreementbookingsetup_Agreement" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="44" type="2" schemaName="msdyn_workorderid" displayName="WO Number" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" />
+        <Dependent key="45" type="10" schemaName="bpf_msdyn_workorder_smp_workorderbpf" displayName="bpf_msdyn_workorder_smp_workorderbpf" parentSchemaName="smp_workorderbpf" parentDisplayName="Work Order BPF" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="44" type="2" schemaName="msdyn_workorderid" displayName="WO Number" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" />
+        <Dependent key="46" type="29" displayName="RES - WO - Work Order BPF" id="{2525ce3a-ed4e-4899-bfc4-fc5c6c886b24}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="47" type="2" schemaName="smp_stage" displayName="Stage" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="Active" />
+        <Dependent key="46" type="29" displayName="RES - WO - Work Order BPF" id="{2525ce3a-ed4e-4899-bfc4-fc5c6c886b24}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="48" type="2" schemaName="msdyn_workordertypeid" displayName="Work Order Type" parentSchemaName="msdyn_workordertype" parentDisplayName="Work Order Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="33" type="10" schemaName="msdyn_msdyn_workordertype_msdyn_agreementbookingsetup_WorkOrderType" displayName="msdyn_msdyn_workordertype_msdyn_agreementbookingsetup_WorkOrderType" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="49" type="2" schemaName="msdyn_customerassetid" displayName="Customer Asset" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" solution="FieldService (8.8.0.88)" />
+        <Dependent key="50" type="10" schemaName="smp_msdyn_customerasset_msdyn_agreementbookin" displayName="smp_msdyn_customerasset_msdyn_agreementbookin" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="51" type="2" schemaName="modifiedon" displayName="Modified On" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" solution="Active" />
+        <Dependent key="52" type="26" schemaName="Quick Find Active WO Email Notifications" displayName="Quick Find Active WO Email Notifications" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" id="{60368c51-e9f0-4627-ace5-d523eb9c68e8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="53" type="2" schemaName="createdon" displayName="Created On" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" solution="Active" />
+        <Dependent key="52" type="26" schemaName="Quick Find Active WO Email Notifications" displayName="Quick Find Active WO Email Notifications" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" id="{60368c51-e9f0-4627-ace5-d523eb9c68e8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="54" type="2" schemaName="smp_woemailnotificationid" displayName="WO Email Notification" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" solution="Active" />
+        <Dependent key="52" type="26" schemaName="Quick Find Active WO Email Notifications" displayName="Quick Find Active WO Email Notifications" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" id="{60368c51-e9f0-4627-ace5-d523eb9c68e8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="44" type="2" schemaName="msdyn_workorderid" displayName="WO Number" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" />
+        <Dependent key="55" type="26" schemaName="Active Work Order BPF on my Work Orders" displayName="Active Work Order BPF on my Work Orders" parentSchemaName="smp_workorderbpf" parentDisplayName="Work Order BPF" id="{a5cffd07-ce38-4420-8e3e-7f02c31b462e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="56" type="2" schemaName="name" displayName="Name" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent key="41" type="10" schemaName="msdyn_bookableresource_msdyn_agreementbookingsetup_PreferredResource" displayName="msdyn_bookableresource_msdyn_agreementbookingsetup_PreferredResource" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="47" type="2" schemaName="smp_stage" displayName="Stage" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="Active" />
+        <Dependent key="57" type="60" displayName="Information" parentDisplayName="Work Order BPF" id="{6b5f769b-417d-4e1f-a6e7-415693e9714f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="51" type="2" schemaName="modifiedon" displayName="Modified On" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" solution="Active" />
+        <Dependent key="58" type="26" schemaName="WO Email Notification Lookup View" displayName="WO Email Notification Lookup View" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" id="{b79b323f-00bd-4831-8101-b96b37e2fac0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="53" type="2" schemaName="createdon" displayName="Created On" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" solution="Active" />
+        <Dependent key="58" type="26" schemaName="WO Email Notification Lookup View" displayName="WO Email Notification Lookup View" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" id="{b79b323f-00bd-4831-8101-b96b37e2fac0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="54" type="2" schemaName="smp_woemailnotificationid" displayName="WO Email Notification" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" solution="Active" />
+        <Dependent key="58" type="26" schemaName="WO Email Notification Lookup View" displayName="WO Email Notification Lookup View" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" id="{b79b323f-00bd-4831-8101-b96b37e2fac0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="54" type="2" schemaName="smp_woemailnotificationid" displayName="WO Email Notification" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" solution="Active" />
+        <Dependent key="59" type="26" schemaName="WO Email Notification Advanced Find View" displayName="WO Email Notification Advanced Find View" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" id="{45c8f397-b452-4d53-93b2-e3698202295e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="51" type="2" schemaName="modifiedon" displayName="Modified On" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" solution="Active" />
+        <Dependent key="59" type="26" schemaName="WO Email Notification Advanced Find View" displayName="WO Email Notification Advanced Find View" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" id="{45c8f397-b452-4d53-93b2-e3698202295e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="53" type="2" schemaName="createdon" displayName="Created On" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" solution="Active" />
+        <Dependent key="59" type="26" schemaName="WO Email Notification Advanced Find View" displayName="WO Email Notification Advanced Find View" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" id="{45c8f397-b452-4d53-93b2-e3698202295e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="60" type="2" schemaName="msdyn_name" displayName="PM Plan Number" parentSchemaName="msdyn_agreement" parentDisplayName="Preventative Maintenance Plan" solution="FieldService (8.8.0.88)" />
+        <Dependent key="43" type="10" schemaName="msdyn_msdyn_agreement_msdyn_agreementbookingsetup_Agreement" displayName="msdyn_msdyn_agreement_msdyn_agreementbookingsetup_Agreement" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="48" type="2" schemaName="msdyn_workordertypeid" displayName="Work Order Type" parentSchemaName="msdyn_workordertype" parentDisplayName="Work Order Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="39" type="10" schemaName="msdyn_msdyn_workordertype_msdyn_incidenttype_DefaultWorkOrderType" displayName="msdyn_msdyn_workordertype_msdyn_incidenttype_DefaultWorkOrderType" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="61" type="2" schemaName="msdyn_priorityid" displayName="Priority" parentSchemaName="msdyn_priority" parentDisplayName="Priority" solution="MicrosoftDynamicsScheduling (3.12.0.448)" />
+        <Dependent key="37" type="10" schemaName="msdyn_msdyn_priority_msdyn_agreementbookingsetup_Priority" displayName="msdyn_msdyn_priority_msdyn_agreementbookingsetup_Priority" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="62" type="2" schemaName="msdyn_name" displayName="Name" parentSchemaName="msdyn_priority" parentDisplayName="Priority" solution="MicrosoftDynamicsScheduling (3.12.0.448)" />
+        <Dependent key="37" type="10" schemaName="msdyn_msdyn_priority_msdyn_agreementbookingsetup_Priority" displayName="msdyn_msdyn_priority_msdyn_agreementbookingsetup_Priority" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="54" type="2" schemaName="smp_woemailnotificationid" displayName="WO Email Notification" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" solution="Active" />
+        <Dependent key="63" type="26" schemaName="Inactive WO Email Notifications" displayName="Inactive WO Email Notifications" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" id="{9c3de35e-7372-486d-b562-8ba8cd16726e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="53" type="2" schemaName="createdon" displayName="Created On" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" solution="Active" />
+        <Dependent key="63" type="26" schemaName="Inactive WO Email Notifications" displayName="Inactive WO Email Notifications" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" id="{9c3de35e-7372-486d-b562-8ba8cd16726e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="51" type="2" schemaName="modifiedon" displayName="Modified On" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" solution="Active" />
+        <Dependent key="63" type="26" schemaName="Inactive WO Email Notifications" displayName="Inactive WO Email Notifications" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" id="{9c3de35e-7372-486d-b562-8ba8cd16726e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="64" type="2" schemaName="msdyn_name" displayName="Name" parentSchemaName="msdyn_workordertype" parentDisplayName="Work Order Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="39" type="10" schemaName="msdyn_msdyn_workordertype_msdyn_incidenttype_DefaultWorkOrderType" displayName="msdyn_msdyn_workordertype_msdyn_incidenttype_DefaultWorkOrderType" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="64" type="2" schemaName="msdyn_name" displayName="Name" parentSchemaName="msdyn_workordertype" parentDisplayName="Work Order Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="33" type="10" schemaName="msdyn_msdyn_workordertype_msdyn_agreementbookingsetup_WorkOrderType" displayName="msdyn_msdyn_workordertype_msdyn_agreementbookingsetup_WorkOrderType" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="65" type="2" schemaName="bookableresourceid" displayName="Bookable Resource" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent key="41" type="10" schemaName="msdyn_bookableresource_msdyn_agreementbookingsetup_PreferredResource" displayName="msdyn_bookableresource_msdyn_agreementbookingsetup_PreferredResource" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="44" type="2" schemaName="msdyn_workorderid" displayName="WO Number" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" />
+        <Dependent key="66" type="26" schemaName="Inactive Work Order BPF on my Work Orders" displayName="Inactive Work Order BPF on my Work Orders" parentSchemaName="smp_workorderbpf" parentDisplayName="Work Order BPF" id="{be7c5e68-d479-4136-ad10-84b0f29f1cc4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="51" type="2" schemaName="modifiedon" displayName="Modified On" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" solution="Active" />
+        <Dependent key="67" type="26" schemaName="Active WO Email Notifications" displayName="Active WO Email Notifications" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" id="{d06e3081-2a8f-4d8d-b6f7-0a19640d26dc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="54" type="2" schemaName="smp_woemailnotificationid" displayName="WO Email Notification" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" solution="Active" />
+        <Dependent key="67" type="26" schemaName="Active WO Email Notifications" displayName="Active WO Email Notifications" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" id="{d06e3081-2a8f-4d8d-b6f7-0a19640d26dc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="53" type="2" schemaName="createdon" displayName="Created On" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" solution="Active" />
+        <Dependent key="67" type="26" schemaName="Active WO Email Notifications" displayName="Active WO Email Notifications" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" id="{d06e3081-2a8f-4d8d-b6f7-0a19640d26dc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="51" type="2" schemaName="modifiedon" displayName="Modified On" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" solution="Active" />
+        <Dependent key="68" type="26" schemaName="WO Email Notification Associated View" displayName="WO Email Notification Associated View" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" id="{70a12fe9-ff12-4960-a6f8-d05ccd0da405}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="53" type="2" schemaName="createdon" displayName="Created On" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" solution="Active" />
+        <Dependent key="68" type="26" schemaName="WO Email Notification Associated View" displayName="WO Email Notification Associated View" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" id="{70a12fe9-ff12-4960-a6f8-d05ccd0da405}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="54" type="2" schemaName="smp_woemailnotificationid" displayName="WO Email Notification" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" solution="Active" />
+        <Dependent key="68" type="26" schemaName="WO Email Notification Associated View" displayName="WO Email Notification Associated View" parentSchemaName="smp_woemailnotification" parentDisplayName="WO Email Notification" id="{70a12fe9-ff12-4960-a6f8-d05ccd0da405}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="69" type="2" schemaName="msdyn_agreementid" displayName="Agreement" parentSchemaName="msdyn_agreement" parentDisplayName="Preventative Maintenance Plan" solution="FieldService (8.8.0.88)" />
+        <Dependent key="43" type="10" schemaName="msdyn_msdyn_agreement_msdyn_agreementbookingsetup_Agreement" displayName="msdyn_msdyn_agreement_msdyn_agreementbookingsetup_Agreement" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="70" type="2" schemaName="msdyn_name" displayName="Name" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="71" type="2" schemaName="msdyn_preferredresource" displayName="Preferred Resource" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="41" type="10" schemaName="msdyn_bookableresource_msdyn_agreementbookingsetup_PreferredResource" displayName="msdyn_bookableresource_msdyn_agreementbookingsetup_PreferredResource" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="72" type="2" schemaName="msdyn_defaultworkordertype" displayName="Default Work Order Type" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="35" type="60" displayName="Information" parentDisplayName="Incident Type" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="73" type="2" schemaName="msdyn_suggestedduration" displayName="Suggested Duration" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="35" type="60" displayName="Information" parentDisplayName="Incident Type" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="74" type="2" schemaName="msdyn_copyincidentitemstoagreement" displayName="Copy Incident Items to Agreement" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="35" type="60" displayName="Information" parentDisplayName="Incident Type" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="75" type="2" schemaName="msdyn_estimatedduration" displayName="Estimated Duration" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="35" type="60" displayName="Information" parentDisplayName="Incident Type" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="76" type="2" schemaName="statecode" displayName="Status" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="35" type="60" displayName="Information" parentDisplayName="Incident Type" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="77" type="2" schemaName="msdyn_purchaseorder" displayName="Purchase Requisition" parentSchemaName="msdyn_purchaseorderproduct" parentDisplayName="Purchase Requisition Product" solution="FieldService (8.8.0.88)" />
+        <Dependent key="77" type="2" schemaName="msdyn_purchaseorder" displayName="Purchase Requisition" parentSchemaName="msdyn_purchaseorderproduct" parentDisplayName="Purchase Requisition Product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="78" type="2" schemaName="msdyn_autogeneratebooking" displayName="Auto Generate Booking" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="79" type="2" schemaName="msdyn_prebookingflexibility" displayName="Pre Booking Flexibility" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="80" type="2" schemaName="msdyn_estimatedduration" displayName="Estimated Duration" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="81" type="2" schemaName="msdyn_workordersummary" displayName="Work Order Summary" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="82" type="2" schemaName="msdyn_description" displayName="Description" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="83" type="2" schemaName="msdyn_preferredstarttime" displayName="Preferred Start Time" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="84" type="2" schemaName="msdyn_latitude" displayName="Latitude" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="85" type="2" schemaName="msdyn_worklocation" displayName="Work Location" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="86" type="2" schemaName="msdyn_priority" displayName="Priority" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="71" type="2" schemaName="msdyn_preferredresource" displayName="Preferred Resource" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="87" type="2" schemaName="statecode" displayName="Status" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="88" type="2" schemaName="msdyn_generatewodaysinadvance" displayName="Generate Work Order Days In Advance" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="89" type="2" schemaName="msdyn_autogeneratewo" displayName="Auto Generate Work Order" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="90" type="2" schemaName="msdyn_timewindowstart" displayName="Time Window Start" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="91" type="2" schemaName="msdyn_recurrencesettings" displayName="Recurrence Settings" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="92" type="2" schemaName="msdyn_postbookingflexibility" displayName="Post Booking Flexibility" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="93" type="2" schemaName="msdyn_name" displayName="Name" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="94" type="26" schemaName="Incident Type Lookup View" displayName="Incident Type Lookup View" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" id="{6779156f-7d9b-4ff2-85b0-83e91cc95299}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="95" type="2" schemaName="msdyn_incidenttypeid" displayName="Incident Type" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="94" type="26" schemaName="Incident Type Lookup View" displayName="Incident Type Lookup View" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" id="{6779156f-7d9b-4ff2-85b0-83e91cc95299}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="76" type="2" schemaName="statecode" displayName="Status" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="94" type="26" schemaName="Incident Type Lookup View" displayName="Incident Type Lookup View" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" id="{6779156f-7d9b-4ff2-85b0-83e91cc95299}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="96" type="2" schemaName="createdon" displayName="Created On" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="94" type="26" schemaName="Incident Type Lookup View" displayName="Incident Type Lookup View" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" id="{6779156f-7d9b-4ff2-85b0-83e91cc95299}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="75" type="2" schemaName="msdyn_estimatedduration" displayName="Estimated Duration" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="94" type="26" schemaName="Incident Type Lookup View" displayName="Incident Type Lookup View" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" id="{6779156f-7d9b-4ff2-85b0-83e91cc95299}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="75" type="2" schemaName="msdyn_estimatedduration" displayName="Estimated Duration" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="97" type="26" schemaName="Allow On Work Order Lookup" displayName="Allow On Work Order Lookup" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" id="{82e357fe-4361-e111-ac14-000c2959f9b8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="96" type="2" schemaName="createdon" displayName="Created On" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="97" type="26" schemaName="Allow On Work Order Lookup" displayName="Allow On Work Order Lookup" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" id="{82e357fe-4361-e111-ac14-000c2959f9b8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="76" type="2" schemaName="statecode" displayName="Status" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="97" type="26" schemaName="Allow On Work Order Lookup" displayName="Allow On Work Order Lookup" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" id="{82e357fe-4361-e111-ac14-000c2959f9b8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="95" type="2" schemaName="msdyn_incidenttypeid" displayName="Incident Type" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="97" type="26" schemaName="Allow On Work Order Lookup" displayName="Allow On Work Order Lookup" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" id="{82e357fe-4361-e111-ac14-000c2959f9b8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="93" type="2" schemaName="msdyn_name" displayName="Name" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="97" type="26" schemaName="Allow On Work Order Lookup" displayName="Allow On Work Order Lookup" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" id="{82e357fe-4361-e111-ac14-000c2959f9b8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="93" type="2" schemaName="msdyn_name" displayName="Name" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="98" type="26" schemaName="Allow On Agreement Lookup" displayName="Allow On Agreement Lookup" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" id="{5a0393bc-f242-e811-811b-5065f38bc1a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="76" type="2" schemaName="statecode" displayName="Status" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="98" type="26" schemaName="Allow On Agreement Lookup" displayName="Allow On Agreement Lookup" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" id="{5a0393bc-f242-e811-811b-5065f38bc1a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="75" type="2" schemaName="msdyn_estimatedduration" displayName="Estimated Duration" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="98" type="26" schemaName="Allow On Agreement Lookup" displayName="Allow On Agreement Lookup" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" id="{5a0393bc-f242-e811-811b-5065f38bc1a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="95" type="2" schemaName="msdyn_incidenttypeid" displayName="Incident Type" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="98" type="26" schemaName="Allow On Agreement Lookup" displayName="Allow On Agreement Lookup" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" id="{5a0393bc-f242-e811-811b-5065f38bc1a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="96" type="2" schemaName="createdon" displayName="Created On" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="98" type="26" schemaName="Allow On Agreement Lookup" displayName="Allow On Agreement Lookup" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" id="{5a0393bc-f242-e811-811b-5065f38bc1a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="99" type="2" schemaName="msdyn_product" displayName="Product" parentSchemaName="msdyn_purchaseorderproduct" parentDisplayName="Purchase Requisition Product" solution="FieldService (8.8.0.88)" />
+        <Dependent key="99" type="2" schemaName="msdyn_product" displayName="Product" parentSchemaName="msdyn_purchaseorderproduct" parentDisplayName="Purchase Requisition Product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="100" type="2" schemaName="msdyn_agreement" displayName="Preventative Maintenance Plan" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="100" type="2" schemaName="msdyn_agreement" displayName="Preventative Maintenance Plan" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="101" type="2" schemaName="msdyn_name" displayName="Asset Name" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" solution="FieldService (8.8.0.88)" />
+        <Dependent key="101" type="2" schemaName="msdyn_name" displayName="Asset Name" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="102" type="2" schemaName="msdyn_serviceaccount" displayName="Problem Building" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" />
+        <Dependent key="102" type="2" schemaName="msdyn_serviceaccount" displayName="Problem Building" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="103" type="2" schemaName="msdyn_workordertype" displayName="Problem Class" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="103" type="2" schemaName="msdyn_workordertype" displayName="Problem Class" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="104" type="2" schemaName="msdyn_purchaseorderdate" displayName="Purchase Requisition Date" parentSchemaName="msdyn_purchaseorder" parentDisplayName="Purchase Requisition" solution="FieldService (8.8.0.88)" />
+        <Dependent key="104" type="2" schemaName="msdyn_purchaseorderdate" displayName="Purchase Requisition Date" parentSchemaName="msdyn_purchaseorder" parentDisplayName="Purchase Requisition" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="105" type="2" schemaName="msdyn_masterasset" displayName="Master Asset" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" solution="FieldService (8.8.0.88)" />
+        <Dependent key="105" type="2" schemaName="msdyn_masterasset" displayName="Master Asset" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="106" type="2" schemaName="msdyn_name" displayName="PR Number" parentSchemaName="msdyn_purchaseorder" parentDisplayName="Purchase Requisition" solution="FieldService (8.8.0.88)" />
+        <Dependent key="106" type="2" schemaName="msdyn_name" displayName="PR Number" parentSchemaName="msdyn_purchaseorder" parentDisplayName="Purchase Requisition" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="86" type="2" schemaName="msdyn_priority" displayName="Priority" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="79" type="2" schemaName="msdyn_prebookingflexibility" displayName="Pre Booking Flexibility" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="88" type="2" schemaName="msdyn_generatewodaysinadvance" displayName="Generate Work Order Days In Advance" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="91" type="2" schemaName="msdyn_recurrencesettings" displayName="Recurrence Settings" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="78" type="2" schemaName="msdyn_autogeneratebooking" displayName="Auto Generate Booking" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="71" type="2" schemaName="msdyn_preferredresource" displayName="Preferred Resource" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="92" type="2" schemaName="msdyn_postbookingflexibility" displayName="Post Booking Flexibility" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="80" type="2" schemaName="msdyn_estimatedduration" displayName="Estimated Duration" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="90" type="2" schemaName="msdyn_timewindowstart" displayName="Time Window Start" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="70" type="2" schemaName="msdyn_name" displayName="Name" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="107" type="2" schemaName="msdyn_timewindowend" displayName="Time Window End" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="82" type="2" schemaName="msdyn_description" displayName="Description" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="83" type="2" schemaName="msdyn_preferredstarttime" displayName="Preferred Start Time" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="81" type="2" schemaName="msdyn_workordersummary" displayName="Work Order Summary" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="89" type="2" schemaName="msdyn_autogeneratewo" displayName="Auto Generate Work Order" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="108" type="2" schemaName="msdyn_description" displayName="Description" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="35" type="60" displayName="Information" parentDisplayName="Incident Type" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="93" type="2" schemaName="msdyn_name" displayName="Name" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="35" type="60" displayName="Information" parentDisplayName="Incident Type" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="109" type="2" schemaName="msdyn_lastcalculatedtime" displayName="Last Calculated Time" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="35" type="60" displayName="Information" parentDisplayName="Incident Type" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="72" type="2" schemaName="msdyn_defaultworkordertype" displayName="Default Work Order Type" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="39" type="10" schemaName="msdyn_msdyn_workordertype_msdyn_incidenttype_DefaultWorkOrderType" displayName="msdyn_msdyn_workordertype_msdyn_incidenttype_DefaultWorkOrderType" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="86" type="2" schemaName="msdyn_priority" displayName="Priority" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="37" type="10" schemaName="msdyn_msdyn_priority_msdyn_agreementbookingsetup_Priority" displayName="msdyn_msdyn_priority_msdyn_agreementbookingsetup_Priority" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="107" type="2" schemaName="msdyn_timewindowend" displayName="Time Window End" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="110" type="2" schemaName="msdyn_longitude" displayName="Longitude" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="111" type="2" schemaName="msdyn_quantity" displayName="Quantity" parentSchemaName="msdyn_purchaseorderproduct" parentDisplayName="Purchase Requisition Product" solution="FieldService (8.8.0.88)" />
+        <Dependent key="111" type="2" schemaName="msdyn_quantity" displayName="Quantity" parentSchemaName="msdyn_purchaseorderproduct" parentDisplayName="Purchase Requisition Product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="112" type="2" schemaName="msdyn_quantity" displayName="Quantity" parentSchemaName="msdyn_workorderproduct" parentDisplayName="Work Order Product" solution="FieldService (8.8.0.88)" />
+        <Dependent key="112" type="2" schemaName="msdyn_quantity" displayName="Quantity" parentSchemaName="msdyn_workorderproduct" parentDisplayName="Work Order Product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="113" type="2" schemaName="msdyn_product" displayName="Product" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" solution="FieldService (8.8.0.88)" />
+        <Dependent key="113" type="2" schemaName="msdyn_product" displayName="Product" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="114" type="2" schemaName="msdyn_account" displayName="Building" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" solution="FieldService (8.8.0.88)" />
+        <Dependent key="114" type="2" schemaName="msdyn_account" displayName="Building" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="115" type="2" schemaName="msdyn_workordertype" displayName="Problem Class" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" />
+        <Dependent key="115" type="2" schemaName="msdyn_workordertype" displayName="Problem Class" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="116" type="2" schemaName="msdyn_primaryincidenttype" displayName="Problem Type" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" />
+        <Dependent key="116" type="2" schemaName="msdyn_primaryincidenttype" displayName="Problem Type" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="117" type="2" schemaName="statecode" displayName="Status" parentSchemaName="msdyn_purchaseorderproduct" parentDisplayName="Purchase Requisition Product" solution="FieldService (8.8.0.88)" />
+        <Dependent key="117" type="2" schemaName="statecode" displayName="Status" parentSchemaName="msdyn_purchaseorderproduct" parentDisplayName="Purchase Requisition Product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="118" type="2" schemaName="msdyn_substatus" displayName="Sub-Status" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" />
+        <Dependent key="118" type="2" schemaName="msdyn_substatus" displayName="Sub-Status" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="119" type="2" schemaName="msdyn_name" displayName="Work Order Number" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" />
+        <Dependent key="119" type="2" schemaName="msdyn_name" displayName="Work Order Number" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="120" type="2" schemaName="msdyn_vendor" displayName="Vendor" parentSchemaName="msdyn_purchaseorder" parentDisplayName="Purchase Requisition" solution="FieldService (8.8.0.88)" />
+        <Dependent key="120" type="2" schemaName="msdyn_vendor" displayName="Vendor" parentSchemaName="msdyn_purchaseorder" parentDisplayName="Purchase Requisition" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="121" type="2" schemaName="msdyn_parentasset" displayName="Parent Asset" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" solution="FieldService (8.8.0.88)" />
+        <Dependent key="121" type="2" schemaName="msdyn_parentasset" displayName="Parent Asset" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="122" type="2" schemaName="msdyn_systemstatus" displayName="System Status" parentSchemaName="msdyn_purchaseorder" parentDisplayName="Purchase Requisition" solution="FieldService (8.8.0.88)" />
+        <Dependent key="122" type="2" schemaName="msdyn_systemstatus" displayName="System Status" parentSchemaName="msdyn_purchaseorder" parentDisplayName="Purchase Requisition" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="123" type="2" schemaName="statecode" displayName="Status" parentSchemaName="msdyn_purchaseorder" parentDisplayName="Purchase Requisition" solution="FieldService (8.8.0.88)" />
+        <Dependent key="123" type="2" schemaName="statecode" displayName="Status" parentSchemaName="msdyn_purchaseorder" parentDisplayName="Purchase Requisition" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="124" type="2" schemaName="msdyn_iotalert" displayName="IoT Alert" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="ConnectedFieldService (1.7.7.107)" />
+        <Dependent key="124" type="2" schemaName="msdyn_iotalert" displayName="IoT Alert" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="125" type="2" schemaName="msdyn_name" displayName="Name" parentSchemaName="msdyn_purchaseorderproduct" parentDisplayName="Purchase Requisition Product" solution="FieldService (8.8.0.88)" />
+        <Dependent key="125" type="2" schemaName="msdyn_name" displayName="Name" parentSchemaName="msdyn_purchaseorderproduct" parentDisplayName="Purchase Requisition Product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="126" type="2" schemaName="msdyn_servicerequest" displayName="Service Request" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" />
+        <Dependent key="126" type="2" schemaName="msdyn_servicerequest" displayName="Service Request" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="127" type="2" schemaName="msdyn_systemstatus" displayName="System Status" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" />
+        <Dependent key="127" type="2" schemaName="msdyn_systemstatus" displayName="System Status" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="128" type="2" schemaName="statecode" displayName="Status" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" />
+        <Dependent key="128" type="2" schemaName="statecode" displayName="Status" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="129" type="2" schemaName="msdyn_workordersummary" displayName="Problem Description" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" />
+        <Dependent key="129" type="2" schemaName="msdyn_workordersummary" displayName="Problem Description" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="130" type="2" schemaName="msdyn_customerasset" displayName="Customer Asset" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" />
+        <Dependent key="130" type="2" schemaName="msdyn_customerasset" displayName="Customer Asset" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="131" type="2" schemaName="msdyn_priority" displayName="Priority" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" />
+        <Dependent key="131" type="2" schemaName="msdyn_priority" displayName="Priority" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="132" type="2" schemaName="msdyn_qtytobill" displayName="Quantity To Bill" parentSchemaName="msdyn_workorderproduct" parentDisplayName="Work Order Product" solution="FieldService (8.8.0.88)" />
+        <Dependent key="132" type="2" schemaName="msdyn_qtytobill" displayName="Quantity To Bill" parentSchemaName="msdyn_workorderproduct" parentDisplayName="Work Order Product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="133" type="2" schemaName="msdyn_customerasset" displayName="Customer Asset" parentSchemaName="msdyn_workorderproduct" parentDisplayName="Work Order Product" solution="FieldService (8.8.0.88)" />
+        <Dependent key="133" type="2" schemaName="msdyn_customerasset" displayName="Customer Asset" parentSchemaName="msdyn_workorderproduct" parentDisplayName="Work Order Product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="134" type="2" schemaName="msdyn_description" displayName="Description" parentSchemaName="msdyn_workorderproduct" parentDisplayName="Work Order Product" solution="FieldService (8.8.0.88)" />
+        <Dependent key="134" type="2" schemaName="msdyn_description" displayName="Description" parentSchemaName="msdyn_workorderproduct" parentDisplayName="Work Order Product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="135" type="2" schemaName="msdyn_customerassetcategory" displayName="Category" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" solution="FieldService (8.8.0.88)" />
+        <Dependent key="135" type="2" schemaName="msdyn_customerassetcategory" displayName="Category" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="136" type="2" schemaName="msdyn_lastcommandsent" displayName="Last Command Sent" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" solution="ConnectedFieldService (1.7.7.107)" />
+        <Dependent key="136" type="2" schemaName="msdyn_lastcommandsent" displayName="Last Command Sent" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="137" type="2" schemaName="msdyn_name" displayName="Name" parentSchemaName="msdyn_workorderproduct" parentDisplayName="Work Order Product" solution="FieldService (8.8.0.88)" />
+        <Dependent key="137" type="2" schemaName="msdyn_name" displayName="Name" parentSchemaName="msdyn_workorderproduct" parentDisplayName="Work Order Product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="138" type="2" schemaName="msdyn_billingaccount" displayName="Billing Account" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" />
+        <Dependent key="138" type="2" schemaName="msdyn_billingaccount" displayName="Billing Account" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="139" type="2" schemaName="msdyn_workorderproduct" displayName="Work Order Product" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" solution="FieldService (8.8.0.88)" />
+        <Dependent key="139" type="2" schemaName="msdyn_workorderproduct" displayName="Work Order Product" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="140" type="2" schemaName="msdyn_linestatus" displayName="Line Status" parentSchemaName="msdyn_workorderproduct" parentDisplayName="Work Order Product" solution="FieldService (8.8.0.88)" />
+        <Dependent key="140" type="2" schemaName="msdyn_linestatus" displayName="Line Status" parentSchemaName="msdyn_workorderproduct" parentDisplayName="Work Order Product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="141" type="2" schemaName="msdyn_product" displayName="Product" parentSchemaName="msdyn_workorderproduct" parentDisplayName="Work Order Product" solution="FieldService (8.8.0.88)" />
+        <Dependent key="141" type="2" schemaName="msdyn_product" displayName="Product" parentSchemaName="msdyn_workorderproduct" parentDisplayName="Work Order Product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="41" type="10" schemaName="msdyn_bookableresource_msdyn_agreementbookingsetup_PreferredResource" displayName="msdyn_bookableresource_msdyn_agreementbookingsetup_PreferredResource" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="41" type="10" schemaName="msdyn_bookableresource_msdyn_agreementbookingsetup_PreferredResource" displayName="msdyn_bookableresource_msdyn_agreementbookingsetup_PreferredResource" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="37" type="10" schemaName="msdyn_msdyn_priority_msdyn_agreementbookingsetup_Priority" displayName="msdyn_msdyn_priority_msdyn_agreementbookingsetup_Priority" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="37" type="10" schemaName="msdyn_msdyn_priority_msdyn_agreementbookingsetup_Priority" displayName="msdyn_msdyn_priority_msdyn_agreementbookingsetup_Priority" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="39" type="10" schemaName="msdyn_msdyn_workordertype_msdyn_incidenttype_DefaultWorkOrderType" displayName="msdyn_msdyn_workordertype_msdyn_incidenttype_DefaultWorkOrderType" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="39" type="10" schemaName="msdyn_msdyn_workordertype_msdyn_incidenttype_DefaultWorkOrderType" displayName="msdyn_msdyn_workordertype_msdyn_incidenttype_DefaultWorkOrderType" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="43" type="10" schemaName="msdyn_msdyn_agreement_msdyn_agreementbookingsetup_Agreement" displayName="msdyn_msdyn_agreement_msdyn_agreementbookingsetup_Agreement" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="43" type="10" schemaName="msdyn_msdyn_agreement_msdyn_agreementbookingsetup_Agreement" displayName="msdyn_msdyn_agreement_msdyn_agreementbookingsetup_Agreement" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="33" type="10" schemaName="msdyn_msdyn_workordertype_msdyn_agreementbookingsetup_WorkOrderType" displayName="msdyn_msdyn_workordertype_msdyn_agreementbookingsetup_WorkOrderType" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="33" type="10" schemaName="msdyn_msdyn_workordertype_msdyn_agreementbookingsetup_WorkOrderType" displayName="msdyn_msdyn_workordertype_msdyn_agreementbookingsetup_WorkOrderType" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="142" type="10" schemaName="msdyn_msdyn_priority_msdyn_workorder_Priority" displayName="msdyn_msdyn_priority_msdyn_workorder_Priority" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" />
+        <Dependent key="131" type="2" schemaName="msdyn_priority" displayName="Priority" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="143" type="10" schemaName="msdyn_incident_msdyn_workorder_ServiceRequest" displayName="msdyn_incident_msdyn_workorder_ServiceRequest" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" />
+        <Dependent key="126" type="2" schemaName="msdyn_servicerequest" displayName="Service Request" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="144" type="10" schemaName="msdyn_msdyn_iotalert_msdyn_workorder_IoTAlert" displayName="msdyn_msdyn_iotalert_msdyn_workorder_IoTAlert" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="ConnectedFieldService (1.7.7.107)" />
+        <Dependent key="124" type="2" schemaName="msdyn_iotalert" displayName="IoT Alert" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="145" type="10" schemaName="msdyn_msdyn_incidenttype_msdyn_workorder_PrimaryIncidentType" displayName="msdyn_msdyn_incidenttype_msdyn_workorder_PrimaryIncidentType" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" />
+        <Dependent key="116" type="2" schemaName="msdyn_primaryincidenttype" displayName="Problem Type" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="146" type="10" schemaName="smp_contact_msdyn_workorder_RequestorName" displayName="smp_contact_msdyn_workorder_RequestorName" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="Active" />
+        <Dependent key="147" type="2" schemaName="smp_requestorname" displayName="Requestor Name" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="148" type="10" schemaName="msdyn_msdyn_workordersubstatus_msdyn_workorder_Status" displayName="msdyn_msdyn_workordersubstatus_msdyn_workorder_Status" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" />
+        <Dependent key="118" type="2" schemaName="msdyn_substatus" displayName="Sub-Status" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="149" type="10" schemaName="msdyn_msdyn_workordertype_msdyn_workorder_WorkOrderType" displayName="msdyn_msdyn_workordertype_msdyn_workorder_WorkOrderType" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" />
+        <Dependent key="115" type="2" schemaName="msdyn_workordertype" displayName="Problem Class" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="150" type="10" schemaName="smp_bookableresource_msdyn_workorder_LeadTechnician" displayName="smp_bookableresource_msdyn_workorder_LeadTechnician" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="Active" />
+        <Dependent key="151" type="2" schemaName="smp_leadtechnician" displayName="Lead Technician" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="152" type="10" schemaName="msdyn_product_msdyn_purchaseorderproduct_Product" displayName="msdyn_product_msdyn_purchaseorderproduct_Product" parentSchemaName="msdyn_purchaseorderproduct" parentDisplayName="Purchase Requisition Product" solution="FieldService (8.8.0.88)" />
+        <Dependent key="99" type="2" schemaName="msdyn_product" displayName="Product" parentSchemaName="msdyn_purchaseorderproduct" parentDisplayName="Purchase Requisition Product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="153" type="10" schemaName="msdyn_msdyn_purchaseorder_msdyn_purchaseorderproduct_PurchaseOrder" displayName="msdyn_msdyn_purchaseorder_msdyn_purchaseorderproduct_PurchaseOrder" parentSchemaName="msdyn_purchaseorderproduct" parentDisplayName="Purchase Requisition Product" solution="FieldService (8.8.0.88)" />
+        <Dependent key="77" type="2" schemaName="msdyn_purchaseorder" displayName="Purchase Requisition" parentSchemaName="msdyn_purchaseorderproduct" parentDisplayName="Purchase Requisition Product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="33" type="10" schemaName="msdyn_msdyn_workordertype_msdyn_agreementbookingsetup_WorkOrderType" displayName="msdyn_msdyn_workordertype_msdyn_agreementbookingsetup_WorkOrderType" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="154" type="2" schemaName="msdyn_workordertypename" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="37" type="10" schemaName="msdyn_msdyn_priority_msdyn_agreementbookingsetup_Priority" displayName="msdyn_msdyn_priority_msdyn_agreementbookingsetup_Priority" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="155" type="2" schemaName="msdyn_priorityname" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="39" type="10" schemaName="msdyn_msdyn_workordertype_msdyn_incidenttype_DefaultWorkOrderType" displayName="msdyn_msdyn_workordertype_msdyn_incidenttype_DefaultWorkOrderType" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="156" type="2" schemaName="msdyn_defaultworkordertypename" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="41" type="10" schemaName="msdyn_bookableresource_msdyn_agreementbookingsetup_PreferredResource" displayName="msdyn_bookableresource_msdyn_agreementbookingsetup_PreferredResource" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="157" type="2" schemaName="msdyn_preferredresourcename" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="43" type="10" schemaName="msdyn_msdyn_agreement_msdyn_agreementbookingsetup_Agreement" displayName="msdyn_msdyn_agreement_msdyn_agreementbookingsetup_Agreement" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="158" type="2" schemaName="msdyn_agreementname" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="159" type="9" schemaName="msdyn_wosystemstatus" displayName="msdyn_wosystemstatus" solution="FieldService (8.8.0.88)" />
+        <Dependent key="159" type="9" schemaName="msdyn_wosystemstatus" displayName="msdyn_wosystemstatus" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="160" type="9" schemaName="msdyn_posystemstatus" displayName="PO System Status" solution="FieldService (8.8.0.88)" />
+        <Dependent key="122" type="2" schemaName="msdyn_systemstatus" displayName="System Status" parentSchemaName="msdyn_purchaseorder" parentDisplayName="Purchase Requisition" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="159" type="9" schemaName="msdyn_wosystemstatus" displayName="msdyn_wosystemstatus" solution="FieldService (8.8.0.88)" />
+        <Dependent key="127" type="2" schemaName="msdyn_systemstatus" displayName="System Status" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="161" type="10" schemaName="msdyn_msdyn_agreementbookingsetup_msdyn_agreementbookingincident_AgreementBookingSetup" displayName="msdyn_msdyn_agreementbookingsetup_msdyn_agreementbookingincident_AgreementBookingSetup" parentSchemaName="msdyn_agreementbookingincident" parentDisplayName="PM Plan Booking Incident" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="162" type="10" schemaName="msdyn_msdyn_agreementbookingsetup_msdyn_agreementbookingproduct_AgreementBookingSetup" displayName="msdyn_msdyn_agreementbookingsetup_msdyn_agreementbookingproduct_AgreementBookingSetup" parentSchemaName="msdyn_agreementbookingproduct" parentDisplayName="Agreement Booking Product" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="163" type="10" schemaName="msdyn_msdyn_agreementbookingsetup_msdyn_agreementbookingdate_BookingSetup" displayName="msdyn_msdyn_agreementbookingsetup_msdyn_agreementbookingdate_BookingSetup" parentSchemaName="msdyn_agreementbookingdate" parentDisplayName="PM PLAN BOOKING DATE" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="33" type="10" schemaName="msdyn_msdyn_workordertype_msdyn_agreementbookingsetup_WorkOrderType" displayName="msdyn_msdyn_workordertype_msdyn_agreementbookingsetup_WorkOrderType" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="161" type="10" schemaName="msdyn_msdyn_agreementbookingsetup_msdyn_agreementbookingincident_AgreementBookingSetup" displayName="msdyn_msdyn_agreementbookingsetup_msdyn_agreementbookingincident_AgreementBookingSetup" parentSchemaName="msdyn_agreementbookingincident" parentDisplayName="PM Plan Booking Incident" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="164" type="10" schemaName="msdyn_msdyn_agreementbookingsetup_msdyn_agreementbookingservicetask_AgreementBookingSetup" displayName="msdyn_msdyn_agreementbookingsetup_msdyn_agreementbookingservicetask_AgreementBookingSetup" parentSchemaName="msdyn_agreementbookingservicetask" parentDisplayName="Agreement Booking Service Task" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="37" type="10" schemaName="msdyn_msdyn_priority_msdyn_agreementbookingsetup_Priority" displayName="msdyn_msdyn_priority_msdyn_agreementbookingsetup_Priority" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="39" type="10" schemaName="msdyn_msdyn_workordertype_msdyn_incidenttype_DefaultWorkOrderType" displayName="msdyn_msdyn_workordertype_msdyn_incidenttype_DefaultWorkOrderType" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="35" type="60" displayName="Information" parentDisplayName="Incident Type" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="43" type="10" schemaName="msdyn_msdyn_agreement_msdyn_agreementbookingsetup_Agreement" displayName="msdyn_msdyn_agreement_msdyn_agreementbookingsetup_Agreement" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="165" type="10" schemaName="msdyn_msdyn_agreementbookingsetup_msdyn_agreementbookingservice_AgreementBookingSetup" displayName="msdyn_msdyn_agreementbookingsetup_msdyn_agreementbookingservice_AgreementBookingSetup" parentSchemaName="msdyn_agreementbookingservice" parentDisplayName="Agreement Booking Service" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="164" type="10" schemaName="msdyn_msdyn_agreementbookingsetup_msdyn_agreementbookingservicetask_AgreementBookingSetup" displayName="msdyn_msdyn_agreementbookingsetup_msdyn_agreementbookingservicetask_AgreementBookingSetup" parentSchemaName="msdyn_agreementbookingservicetask" parentDisplayName="Agreement Booking Service Task" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="162" type="10" schemaName="msdyn_msdyn_agreementbookingsetup_msdyn_agreementbookingproduct_AgreementBookingSetup" displayName="msdyn_msdyn_agreementbookingsetup_msdyn_agreementbookingproduct_AgreementBookingSetup" parentSchemaName="msdyn_agreementbookingproduct" parentDisplayName="Agreement Booking Product" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="163" type="10" schemaName="msdyn_msdyn_agreementbookingsetup_msdyn_agreementbookingdate_BookingSetup" displayName="msdyn_msdyn_agreementbookingsetup_msdyn_agreementbookingdate_BookingSetup" parentSchemaName="msdyn_agreementbookingdate" parentDisplayName="PM PLAN BOOKING DATE" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="165" type="10" schemaName="msdyn_msdyn_agreementbookingsetup_msdyn_agreementbookingservice_AgreementBookingSetup" displayName="msdyn_msdyn_agreementbookingsetup_msdyn_agreementbookingservice_AgreementBookingSetup" parentSchemaName="msdyn_agreementbookingservice" parentDisplayName="Agreement Booking Service" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="166" type="10" schemaName="msdyn_msdyn_incidenttype_msdyn_incidenttypeservicetask_IncidentType" displayName="msdyn_msdyn_incidenttype_msdyn_incidenttypeservicetask_IncidentType" parentSchemaName="msdyn_incidenttypeservicetask" parentDisplayName="Incident Type Service Task" solution="FieldService (8.8.0.88)" />
+        <Dependent key="35" type="60" displayName="Information" parentDisplayName="Incident Type" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="167" type="10" schemaName="msdyn_incidenttype_requirementgroup_incident" displayName="msdyn_incidenttype_requirementgroup_incident" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" />
+        <Dependent key="35" type="60" displayName="Information" parentDisplayName="Incident Type" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="168" type="10" schemaName="msdyn_msdyn_incidenttype_msdyn_incidenttypeproduct_IncidentType" displayName="msdyn_msdyn_incidenttype_msdyn_incidenttypeproduct_IncidentType" parentSchemaName="msdyn_incidenttypeproduct" parentDisplayName="Incident Type Product" solution="FieldService (8.8.0.88)" />
+        <Dependent key="35" type="60" displayName="Information" parentDisplayName="Incident Type" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="169" type="10" schemaName="msdyn_msdyn_incidenttype_msdyn_incidenttypeservice_IncidentType" displayName="msdyn_msdyn_incidenttype_msdyn_incidenttypeservice_IncidentType" parentSchemaName="msdyn_incidenttypeservice" parentDisplayName="Incident Type Service" solution="FieldService (8.8.0.88)" />
+        <Dependent key="35" type="60" displayName="Information" parentDisplayName="Incident Type" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="170" type="10" schemaName="msdyn_msdyn_incidenttype_msdyn_incidenttypecharacteristic_IncidentType" displayName="msdyn_msdyn_incidenttype_msdyn_incidenttypecharacteristic_IncidentType" parentSchemaName="msdyn_incidenttypecharacteristic" parentDisplayName="Incident Type Characteristic" solution="FieldService (8.8.0.88)" />
+        <Dependent key="35" type="60" displayName="Information" parentDisplayName="Incident Type" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="171" type="10" schemaName="msdyn_msdyn_iotdevicecommand_msdyn_customerasset_LastCommandSent" displayName="msdyn_msdyn_iotdevicecommand_msdyn_customerasset_LastCommandSent" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" solution="ConnectedFieldService (1.7.7.107)" />
+        <Dependent key="171" type="10" schemaName="msdyn_msdyn_iotdevicecommand_msdyn_customerasset_LastCommandSent" displayName="msdyn_msdyn_iotdevicecommand_msdyn_customerasset_LastCommandSent" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="172" type="10" schemaName="msdyn_msdyn_customerassetcategory_msdyn_customerasset_CustomerAssetCategory" displayName="msdyn_msdyn_customerassetcategory_msdyn_customerasset_CustomerAssetCategory" parentSchemaName="msdyn_customerassetcategory" parentDisplayName="Customer Asset Category" solution="FieldService (8.8.0.88)" />
+        <Dependent key="172" type="10" schemaName="msdyn_msdyn_customerassetcategory_msdyn_customerasset_CustomerAssetCategory" displayName="msdyn_msdyn_customerassetcategory_msdyn_customerasset_CustomerAssetCategory" parentSchemaName="msdyn_customerassetcategory" parentDisplayName="Customer Asset Category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="173" type="10" schemaName="msdyn_account_msdyn_customerasset_Account" displayName="msdyn_account_msdyn_customerasset_Account" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" solution="FieldService (8.8.0.88)" />
+        <Dependent key="173" type="10" schemaName="msdyn_account_msdyn_customerasset_Account" displayName="msdyn_account_msdyn_customerasset_Account" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="174" type="10" schemaName="msdyn_account_msdyn_purchaseorder_Vendor" displayName="msdyn_account_msdyn_purchaseorder_Vendor" parentSchemaName="msdyn_purchaseorder" parentDisplayName="Purchase Requisition" solution="FieldService (8.8.0.88)" />
+        <Dependent key="174" type="10" schemaName="msdyn_account_msdyn_purchaseorder_Vendor" displayName="msdyn_account_msdyn_purchaseorder_Vendor" parentSchemaName="msdyn_purchaseorder" parentDisplayName="Purchase Requisition" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="175" type="10" schemaName="msdyn_account_msdyn_workorder_BillingAccount" displayName="msdyn_account_msdyn_workorder_BillingAccount" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" />
+        <Dependent key="175" type="10" schemaName="msdyn_account_msdyn_workorder_BillingAccount" displayName="msdyn_account_msdyn_workorder_BillingAccount" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="176" type="10" schemaName="msdyn_account_msdyn_workorder_ServiceAccount" displayName="msdyn_account_msdyn_workorder_ServiceAccount" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" />
+        <Dependent key="176" type="10" schemaName="msdyn_account_msdyn_workorder_ServiceAccount" displayName="msdyn_account_msdyn_workorder_ServiceAccount" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="177" type="10" schemaName="msdyn_msdyn_customerasset_msdyn_customerasset_MasterAsset" displayName="msdyn_msdyn_customerasset_msdyn_customerasset_MasterAsset" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" solution="FieldService (8.8.0.88)" />
+        <Dependent key="177" type="10" schemaName="msdyn_msdyn_customerasset_msdyn_customerasset_MasterAsset" displayName="msdyn_msdyn_customerasset_msdyn_customerasset_MasterAsset" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="178" type="10" schemaName="msdyn_msdyn_customerasset_msdyn_customerasset_ParentAsset" displayName="msdyn_msdyn_customerasset_msdyn_customerasset_ParentAsset" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" solution="FieldService (8.8.0.88)" />
+        <Dependent key="178" type="10" schemaName="msdyn_msdyn_customerasset_msdyn_customerasset_ParentAsset" displayName="msdyn_msdyn_customerasset_msdyn_customerasset_ParentAsset" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="179" type="10" schemaName="msdyn_msdyn_customerasset_msdyn_workorder_CustomerAsset" displayName="msdyn_msdyn_customerasset_msdyn_workorder_CustomerAsset" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" />
+        <Dependent key="179" type="10" schemaName="msdyn_msdyn_customerasset_msdyn_workorder_CustomerAsset" displayName="msdyn_msdyn_customerasset_msdyn_workorder_CustomerAsset" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="180" type="10" schemaName="msdyn_msdyn_customerasset_msdyn_workorderproduct_CustomerAsset" displayName="msdyn_msdyn_customerasset_msdyn_workorderproduct_CustomerAsset" parentSchemaName="msdyn_workorderproduct" parentDisplayName="Work Order Product" solution="FieldService (8.8.0.88)" />
+        <Dependent key="180" type="10" schemaName="msdyn_msdyn_customerasset_msdyn_workorderproduct_CustomerAsset" displayName="msdyn_msdyn_customerasset_msdyn_workorderproduct_CustomerAsset" parentSchemaName="msdyn_workorderproduct" parentDisplayName="Work Order Product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="181" type="10" schemaName="msdyn_msdyn_workorderproduct_msdyn_customerasset_WorkOrderProduct" displayName="msdyn_msdyn_workorderproduct_msdyn_customerasset_WorkOrderProduct" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" solution="FieldService (8.8.0.88)" />
+        <Dependent key="181" type="10" schemaName="msdyn_msdyn_workorderproduct_msdyn_customerasset_WorkOrderProduct" displayName="msdyn_msdyn_workorderproduct_msdyn_customerasset_WorkOrderProduct" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="182" type="10" schemaName="msdyn_product_msdyn_customerasset_Product" displayName="msdyn_product_msdyn_customerasset_Product" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" solution="FieldService (8.8.0.88)" />
+        <Dependent key="182" type="10" schemaName="msdyn_product_msdyn_customerasset_Product" displayName="msdyn_product_msdyn_customerasset_Product" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="43" type="10" schemaName="msdyn_msdyn_agreement_msdyn_agreementbookingsetup_Agreement" displayName="msdyn_msdyn_agreement_msdyn_agreementbookingsetup_Agreement" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="41" type="10" schemaName="msdyn_bookableresource_msdyn_agreementbookingsetup_PreferredResource" displayName="msdyn_bookableresource_msdyn_agreementbookingsetup_PreferredResource" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="41" type="10" schemaName="msdyn_bookableresource_msdyn_agreementbookingsetup_PreferredResource" displayName="msdyn_bookableresource_msdyn_agreementbookingsetup_PreferredResource" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="33" type="10" schemaName="msdyn_msdyn_workordertype_msdyn_agreementbookingsetup_WorkOrderType" displayName="msdyn_msdyn_workordertype_msdyn_agreementbookingsetup_WorkOrderType" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="37" type="10" schemaName="msdyn_msdyn_priority_msdyn_agreementbookingsetup_Priority" displayName="msdyn_msdyn_priority_msdyn_agreementbookingsetup_Priority" parentSchemaName="msdyn_agreementbookingsetup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="183" type="20" displayName="Field Service - Dispatcher" solution="FieldService (8.8.0.88)" id="{d008bfde-da92-e111-9d8c-000c2959f9b8}" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="184" type="20" displayName="Field Service - Inventory Purchase" solution="FieldService (8.8.0.88)" id="{c4b99aff-89b6-e311-9b7e-00155da8fa1b}" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="185" type="20" displayName="Field Service - Administrator" solution="FieldService (8.8.0.88)" id="{00bb53d6-da92-e111-9d8c-000c2959f9b8}" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="186" type="20" displayName="Field Service - Resource" solution="FieldService (8.8.0.88)" id="{dc08bfde-da92-e111-9d8c-000c2959f9b8}" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="187" type="26" schemaName="Active PM Plan Booking Incidents" displayName="Active PM Plan Booking Incidents" parentSchemaName="msdyn_agreementbookingincident" parentDisplayName="PM Plan Booking Incident" solution="FieldService (8.8.0.88)" id="{403c268b-66ef-48d0-a8a5-7f654ce460b5}" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="188" type="26" schemaName="Active Agreement Booking Products" displayName="Active Agreement Booking Products" parentSchemaName="msdyn_agreementbookingproduct" parentDisplayName="Agreement Booking Product" solution="FieldService (8.8.0.88)" id="{3ac029b2-18b0-4623-9e93-7cdf0e0b989d}" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="189" type="26" schemaName="Work Order Type Lookup View" displayName="Work Order Type Lookup View" parentSchemaName="msdyn_workordertype" parentDisplayName="Work Order Type" solution="FieldService (8.8.0.88)" id="{8f0514ca-d271-46cc-b531-41791c56949a}" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="190" type="26" schemaName="PM Plan Lookup View" displayName="PM Plan Lookup View" parentSchemaName="msdyn_agreement" parentDisplayName="Preventative Maintenance Plan" solution="FieldService (8.8.0.88)" id="{0e202e69-7e40-4559-bd44-d1c1029e84e1}" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="191" type="26" schemaName="Agreement Booking Service Task View - Mobile" displayName="Agreement Booking Service Task View - Mobile" parentSchemaName="msdyn_agreementbookingservicetask" parentDisplayName="Agreement Booking Service Task" solution="FieldService (8.8.0.88)" id="{d22d67e7-e75f-e611-8109-000d3a146973}" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="192" type="26" schemaName="Agreement Booking Services View" displayName="Agreement Booking Services View" parentSchemaName="msdyn_agreementbookingservice" parentDisplayName="Agreement Booking Service" solution="FieldService (8.8.0.88)" id="{460defa8-2598-e111-bbdb-000c2959f9b8}" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="193" type="26" schemaName="Active PM Plan Booking Dates" displayName="Active PM Plan Booking Dates" parentSchemaName="msdyn_agreementbookingdate" parentDisplayName="PM PLAN BOOKING DATE" solution="FieldService (8.8.0.88)" id="{e1a307ec-db93-49e2-959b-7f15a57f4fd6}" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="194" type="26" schemaName="Agreement Booking Products View" displayName="Agreement Booking Products View" parentSchemaName="msdyn_agreementbookingproduct" parentDisplayName="Agreement Booking Product" solution="FieldService (8.8.0.88)" id="{458cb939-2598-e111-bbdb-000c2959f9b8}" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="195" type="26" schemaName="Agreement Booking Product View - Mobile" displayName="Agreement Booking Product View - Mobile" parentSchemaName="msdyn_agreementbookingproduct" parentDisplayName="Agreement Booking Product" solution="FieldService (8.8.0.88)" id="{2a5aa015-ea5f-e611-8109-000d3a146973}" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="196" type="26" schemaName="Agreement Booking Service Tasks View" displayName="Agreement Booking Service Tasks View" parentSchemaName="msdyn_agreementbookingservicetask" parentDisplayName="Agreement Booking Service Task" solution="FieldService (8.8.0.88)" id="{02ed10ed-1c98-e111-bbdb-000c2959f9b8}" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="197" type="26" schemaName="Active Agreement Booking Service Tasks" displayName="Active Agreement Booking Service Tasks" parentSchemaName="msdyn_agreementbookingservicetask" parentDisplayName="Agreement Booking Service Task" solution="FieldService (8.8.0.88)" id="{9033c1a8-4a46-4276-9348-8e4eff37e455}" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="198" type="26" schemaName="PM Plan Booking Incident View - MoCa" displayName="PM Plan Booking Incident View - MoCa" parentSchemaName="msdyn_agreementbookingincident" parentDisplayName="PM Plan Booking Incident" solution="FieldService (8.8.0.88)" id="{e397c682-e75f-e611-8109-000d3a146973}" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="199" type="26" schemaName="Active Agreement Booking Services" displayName="Active Agreement Booking Services" parentSchemaName="msdyn_agreementbookingservice" parentDisplayName="Agreement Booking Service" solution="FieldService (8.8.0.88)" id="{c6c3c1a9-737e-429a-b6b9-6ee0a975e545}" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="200" type="26" schemaName="Agreement Booking Service View - Mobile" displayName="Agreement Booking Service View - Mobile" parentSchemaName="msdyn_agreementbookingservice" parentDisplayName="Agreement Booking Service" solution="FieldService (8.8.0.88)" id="{34ec3b48-ea5f-e611-8109-000d3a146973}" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="193" type="26" schemaName="Active PM Plan Booking Dates" displayName="Active PM Plan Booking Dates" parentSchemaName="msdyn_agreementbookingdate" parentDisplayName="PM PLAN BOOKING DATE" solution="FieldService (8.8.0.88)" id="{e1a307ec-db93-49e2-959b-7f15a57f4fd6}" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="189" type="26" schemaName="Work Order Type Lookup View" displayName="Work Order Type Lookup View" parentSchemaName="msdyn_workordertype" parentDisplayName="Work Order Type" solution="FieldService (8.8.0.88)" id="{8f0514ca-d271-46cc-b531-41791c56949a}" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="192" type="26" schemaName="Agreement Booking Services View" displayName="Agreement Booking Services View" parentSchemaName="msdyn_agreementbookingservice" parentDisplayName="Agreement Booking Service" solution="FieldService (8.8.0.88)" id="{460defa8-2598-e111-bbdb-000c2959f9b8}" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="197" type="26" schemaName="Active Agreement Booking Service Tasks" displayName="Active Agreement Booking Service Tasks" parentSchemaName="msdyn_agreementbookingservicetask" parentDisplayName="Agreement Booking Service Task" solution="FieldService (8.8.0.88)" id="{9033c1a8-4a46-4276-9348-8e4eff37e455}" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="199" type="26" schemaName="Active Agreement Booking Services" displayName="Active Agreement Booking Services" parentSchemaName="msdyn_agreementbookingservice" parentDisplayName="Agreement Booking Service" solution="FieldService (8.8.0.88)" id="{c6c3c1a9-737e-429a-b6b9-6ee0a975e545}" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="187" type="26" schemaName="Active PM Plan Booking Incidents" displayName="Active PM Plan Booking Incidents" parentSchemaName="msdyn_agreementbookingincident" parentDisplayName="PM Plan Booking Incident" solution="FieldService (8.8.0.88)" id="{403c268b-66ef-48d0-a8a5-7f654ce460b5}" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="196" type="26" schemaName="Agreement Booking Service Tasks View" displayName="Agreement Booking Service Tasks View" parentSchemaName="msdyn_agreementbookingservicetask" parentDisplayName="Agreement Booking Service Task" solution="FieldService (8.8.0.88)" id="{02ed10ed-1c98-e111-bbdb-000c2959f9b8}" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="190" type="26" schemaName="PM Plan Lookup View" displayName="PM Plan Lookup View" parentSchemaName="msdyn_agreement" parentDisplayName="Preventative Maintenance Plan" solution="FieldService (8.8.0.88)" id="{0e202e69-7e40-4559-bd44-d1c1029e84e1}" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="188" type="26" schemaName="Active Agreement Booking Products" displayName="Active Agreement Booking Products" parentSchemaName="msdyn_agreementbookingproduct" parentDisplayName="Agreement Booking Product" solution="FieldService (8.8.0.88)" id="{3ac029b2-18b0-4623-9e93-7cdf0e0b989d}" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="194" type="26" schemaName="Agreement Booking Products View" displayName="Agreement Booking Products View" parentSchemaName="msdyn_agreementbookingproduct" parentDisplayName="Agreement Booking Product" solution="FieldService (8.8.0.88)" id="{458cb939-2598-e111-bbdb-000c2959f9b8}" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="201" type="26" schemaName="Active Incident Type Characteristics" displayName="Active Incident Type Characteristics" parentSchemaName="msdyn_incidenttypecharacteristic" parentDisplayName="Incident Type Characteristic" solution="FieldService (8.8.0.88)" id="{40598937-fd00-4052-bdc2-2ddaa6948e45}" />
+        <Dependent key="35" type="60" displayName="Information" parentDisplayName="Incident Type" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="202" type="26" schemaName="Incident Type Service Tasks" displayName="Incident Type Service Tasks" parentSchemaName="msdyn_incidenttypeservicetask" parentDisplayName="Incident Type Service Task" solution="FieldService (8.8.0.88)" id="{87c95118-e63d-e111-9bb9-00155d28960b}" />
+        <Dependent key="35" type="60" displayName="Information" parentDisplayName="Incident Type" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="203" type="26" schemaName="Incident Type Services" displayName="Incident Type Services" parentSchemaName="msdyn_incidenttypeservice" parentDisplayName="Incident Type Service" solution="FieldService (8.8.0.88)" id="{835ee191-3e89-e111-84bf-000c2959f9b8}" />
+        <Dependent key="35" type="60" displayName="Information" parentDisplayName="Incident Type" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="204" type="26" schemaName="Active Incident Type Products" displayName="Active Incident Type Products" parentSchemaName="msdyn_incidenttypeproduct" parentDisplayName="Incident Type Product" solution="FieldService (8.8.0.88)" id="{5f279b67-01a1-4869-8e56-67f7e713510d}" />
+        <Dependent key="35" type="60" displayName="Information" parentDisplayName="Incident Type" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="205" type="26" schemaName="Active Incident Type Services" displayName="Active Incident Type Services" parentSchemaName="msdyn_incidenttypeservice" parentDisplayName="Incident Type Service" solution="FieldService (8.8.0.88)" id="{e9b76eb8-b8a1-402a-98aa-4126cf897789}" />
+        <Dependent key="35" type="60" displayName="Information" parentDisplayName="Incident Type" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="206" type="26" schemaName="Active Incident Type Service Tasks" displayName="Active Incident Type Service Tasks" parentSchemaName="msdyn_incidenttypeservicetask" parentDisplayName="Incident Type Service Task" solution="FieldService (8.8.0.88)" id="{dfd45306-b1d8-438d-8360-ee7b4951868b}" />
+        <Dependent key="35" type="60" displayName="Information" parentDisplayName="Incident Type" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="207" type="26" schemaName="Incident Type Products" displayName="Incident Type Products" parentSchemaName="msdyn_incidenttypeproduct" parentDisplayName="Incident Type Product" solution="FieldService (8.8.0.88)" id="{1d107111-3e89-e111-84bf-000c2959f9b8}" />
+        <Dependent key="35" type="60" displayName="Information" parentDisplayName="Incident Type" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="94" type="26" schemaName="Incident Type Lookup View" displayName="Incident Type Lookup View" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" id="{6779156f-7d9b-4ff2-85b0-83e91cc95299}" />
+        <Dependent key="94" type="26" schemaName="Incident Type Lookup View" displayName="Incident Type Lookup View" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" id="{6779156f-7d9b-4ff2-85b0-83e91cc95299}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="97" type="26" schemaName="Allow On Work Order Lookup" displayName="Allow On Work Order Lookup" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" id="{82e357fe-4361-e111-ac14-000c2959f9b8}" />
+        <Dependent key="97" type="26" schemaName="Allow On Work Order Lookup" displayName="Allow On Work Order Lookup" parentSchemaName="msdyn_incidenttype" parentDisplayName="Incident Type" id="{82e357fe-4361-e111-ac14-000c2959f9b8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="208" type="26" schemaName="Work Order Type Lookup View For Agreements" displayName="Work Order Type Lookup View For Agreements" parentSchemaName="msdyn_workordertype" parentDisplayName="Work Order Type" solution="Active" id="{58283408-f242-e811-811b-5065f38bc1a1}" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="35" type="60" displayName="Information" parentDisplayName="Incident Type" solution="FieldService (8.8.0.88)" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+        <Dependent key="35" type="60" displayName="Information" parentDisplayName="Incident Type" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" solution="FieldService (8.8.0.88)" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="209" type="66" schemaName="MicrosoftDynamicsFPS.TimeControl" displayName="MicrosoftDynamicsFPS.TimeControl" solution="MicrosoftDynamicsScheduling (3.12.0.448)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="210" type="66" schemaName="MscrmControls.NumberInput.NumberInputControl" displayName="MscrmControls.NumberInput.NumberInputControl" solution="CustomControlsCore (9.1.0000.12935)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="211" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0000.12935)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="209" type="66" schemaName="MicrosoftDynamicsFPS.TimeControl" displayName="MicrosoftDynamicsFPS.TimeControl" solution="MicrosoftDynamicsScheduling (3.12.0.448)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="212" type="61" schemaName="smp_AppinsightsLens" displayName="smp_AppinsightsLens" solution="Active" />
+        <Dependent key="35" type="60" displayName="Information" parentDisplayName="Incident Type" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="213" type="61" schemaName="msdyn_/Icons/Entity/ServiceAgreement_16.png" displayName="msdyn_/Icons/Entity/ServiceAgreement_16.png" solution="FieldService (8.8.0.88)" />
+        <Dependent key="1" type="1" schemaName="msdyn_agreementbookingsetup" displayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="214" type="61" schemaName="msdyn_/Icons/Entity/ServiceAgreement_32/_imgs/NavBar/Invisible.gif" displayName="msdyn_/Icons/Entity/ServiceAgreement_32/_imgs/NavBar/Invisible.gif" solution="FieldService (8.8.0.88)" />
+        <Dependent key="1" type="1" schemaName="msdyn_agreementbookingsetup" displayName="PM Plan Booking Setup" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="215" type="61" schemaName="smp_Inspections" displayName="smp_Inspections" solution="Active" />
+        <Dependent key="25" type="1" schemaName="smp_inspection" displayName="Inspection" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="216" type="61" schemaName="msdyn_/Icons/Entity/PurchaseOrder_32/_imgs/NavBar/Invisible.gif" displayName="msdyn_/Icons/Entity/PurchaseOrder_32/_imgs/NavBar/Invisible.gif" solution="FieldService (8.8.0.88)" />
+        <Dependent key="0" type="1" schemaName="msdyn_purchaseorderproduct" displayName="Purchase Requisition Product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="217" type="61" schemaName="msdyn_/Icons/Entity/PurchaseOrder_16.png" displayName="msdyn_/Icons/Entity/PurchaseOrder_16.png" solution="FieldService (8.8.0.88)" />
+        <Dependent key="0" type="1" schemaName="msdyn_purchaseorderproduct" displayName="Purchase Requisition Product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="216" type="61" schemaName="msdyn_/Icons/Entity/PurchaseOrder_32/_imgs/NavBar/Invisible.gif" displayName="msdyn_/Icons/Entity/PurchaseOrder_32/_imgs/NavBar/Invisible.gif" solution="FieldService (8.8.0.88)" />
+        <Dependent key="3" type="1" schemaName="msdyn_purchaseorder" displayName="Purchase Requisition" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="217" type="61" schemaName="msdyn_/Icons/Entity/PurchaseOrder_16.png" displayName="msdyn_/Icons/Entity/PurchaseOrder_16.png" solution="FieldService (8.8.0.88)" />
+        <Dependent key="3" type="1" schemaName="msdyn_purchaseorder" displayName="Purchase Requisition" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="218" type="61" schemaName="smp_Procedures" displayName="smp_Procedures" solution="Active" />
+        <Dependent key="27" type="1" schemaName="smp_procedure" displayName="Procedure" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="219" type="61" schemaName="msdyn_/IoT/Images/IoTAlerts/IoTAlerts32/_imgs/NavBar/Invisible.gif" displayName="msdyn_/IoT/Images/IoTAlerts/IoTAlerts32/_imgs/NavBar/Invisible.gif" solution="IoTConnector (1.7.7.107)" />
+        <Dependent key="4" type="1" schemaName="msdyn_iotalert" displayName="IoT Alert" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="220" type="61" schemaName="msdyn_/IoT/Images/SVG/IoTAlerts/IoTAlerts.svg" displayName="msdyn_/IoT/Images/SVG/IoTAlerts/IoTAlerts.svg" solution="IoTConnector (1.7.7.107)" />
+        <Dependent key="4" type="1" schemaName="msdyn_iotalert" displayName="IoT Alert" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="221" type="61" schemaName="msdyn_/IoT/Images/IoTAlerts/IoTAlerts16.png" displayName="msdyn_/IoT/Images/IoTAlerts/IoTAlerts16.png" solution="IoTConnector (1.7.7.107)" />
+        <Dependent key="4" type="1" schemaName="msdyn_iotalert" displayName="IoT Alert" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="222" type="61" schemaName="msdyn_/IncidentType/IncidentType.Library.js" displayName="msdyn_/IncidentType/IncidentType.Library.js" solution="FieldService (8.8.0.88)" />
+        <Dependent key="35" type="60" displayName="Information" parentDisplayName="Incident Type" id="{4cbf19c2-8998-4fcf-b1a1-19a983797396}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="223" type="61" schemaName="msdyn_/Icons/Entity/WorkOrder_16.png" displayName="msdyn_/Icons/Entity/WorkOrder_16.png" solution="FieldService (8.8.0.88)" />
+        <Dependent key="7" type="1" schemaName="msdyn_workorderproduct" displayName="Work Order Product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="224" type="61" schemaName="msdyn_/Icons/Entity/WorkOrder_32/_imgs/NavBar/Invisible.gif" displayName="msdyn_/Icons/Entity/WorkOrder_32/_imgs/NavBar/Invisible.gif" solution="FieldService (8.8.0.88)" />
+        <Dependent key="7" type="1" schemaName="msdyn_workorderproduct" displayName="Work Order Product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="212" type="61" schemaName="smp_AppinsightsLens" displayName="smp_AppinsightsLens" solution="Active" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="225" type="61" schemaName="msdyn_/AgreementBookingSetup/AgreementBookingSetup.Library.js" displayName="msdyn_/AgreementBookingSetup/AgreementBookingSetup.Library.js" solution="FieldService (8.8.0.88)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="226" type="61" schemaName="msdyn_/fps/CrmControls/TimeField.html" displayName="msdyn_/fps/CrmControls/TimeField.html" solution="MicrosoftDynamicsScheduling (3.12.0.448)" />
+        <Dependent key="38" type="60" displayName="PM Plan Booking Setup" parentDisplayName="PM Plan Booking Setup" id="{43ba8f00-d25b-45b7-89d4-52a658cc62bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="226" type="61" schemaName="msdyn_/fps/CrmControls/TimeField.html" displayName="msdyn_/fps/CrmControls/TimeField.html" solution="MicrosoftDynamicsScheduling (3.12.0.448)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="225" type="61" schemaName="msdyn_/AgreementBookingSetup/AgreementBookingSetup.Library.js" displayName="msdyn_/AgreementBookingSetup/AgreementBookingSetup.Library.js" solution="FieldService (8.8.0.88)" />
+        <Dependent key="34" type="60" displayName="Agreement Booking Setup - Mobile" parentDisplayName="PM Plan Booking Setup" id="{2ed8ae97-4c5d-45cb-9c11-21400fd9e6d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="227" type="61" schemaName="smp_Inventory" displayName="smp_Inventory" solution="Active" />
+        <Dependent key="31" type="1" schemaName="smp_inventory" displayName="Inventory" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="223" type="61" schemaName="msdyn_/Icons/Entity/WorkOrder_16.png" displayName="msdyn_/Icons/Entity/WorkOrder_16.png" solution="FieldService (8.8.0.88)" />
+        <Dependent key="6" type="1" schemaName="msdyn_workorder" displayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="224" type="61" schemaName="msdyn_/Icons/Entity/WorkOrder_32/_imgs/NavBar/Invisible.gif" displayName="msdyn_/Icons/Entity/WorkOrder_32/_imgs/NavBar/Invisible.gif" solution="FieldService (8.8.0.88)" />
+        <Dependent key="6" type="1" schemaName="msdyn_workorder" displayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="228" type="61" schemaName="msdyn_/Icons/Entity/CustomerEquipment_16.png" displayName="msdyn_/Icons/Entity/CustomerEquipment_16.png" solution="FieldService (8.8.0.88)" />
+        <Dependent key="2" type="1" schemaName="msdyn_customerasset" displayName="Customer Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="229" type="61" schemaName="msdyn_/Icons/Entity/CustomerEquipment_32/_imgs/NavBar/Invisible.gif" displayName="msdyn_/Icons/Entity/CustomerEquipment_32/_imgs/NavBar/Invisible.gif" solution="FieldService (8.8.0.88)" />
+        <Dependent key="2" type="1" schemaName="msdyn_customerasset" displayName="Customer Asset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="230" type="61" schemaName="msdyn_/Icons/Entity/Incident_32/_imgs/NavBar/Invisible.gif" displayName="msdyn_/Icons/Entity/Incident_32/_imgs/NavBar/Invisible.gif" solution="FieldService (8.8.0.88)" />
+        <Dependent key="5" type="1" schemaName="msdyn_incidenttype" displayName="Incident Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="231" type="61" schemaName="msdyn_/Icons/Entity/Incident_16.png" displayName="msdyn_/Icons/Entity/Incident_16.png" solution="FieldService (8.8.0.88)" />
+        <Dependent key="5" type="1" schemaName="msdyn_incidenttype" displayName="Incident Type" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

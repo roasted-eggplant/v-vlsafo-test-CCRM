@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Purchase Requisition Product" OriginalName="Purchase Order Product">msdyn_purchaseorderproduct</Name>
+  <EntityInfo>
+    <entity Name="msdyn_purchaseorderproduct">
+      <attributes>
+        <attribute PhysicalName="msdyn_name">
+          <Type>nvarchar</Type>
+          <Name>msdyn_name</Name>
+          <LogicalName>msdyn_name</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ActivityPointerRegardingName|PrimaryName|ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="Name" languagecode="1033" />
+            <displayname description="Nombre" languagecode="3082" />
+            <displayname description="Nom" languagecode="1036" />
+            <displayname description="名前" languagecode="1041" />
+            <displayname description="이름" languagecode="1042" />
+            <displayname description="Nome" languagecode="2070" />
+            <displayname description="名称" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Enter the name of the custom entity." languagecode="1033" />
+            <Description description="Escriba el nombre de la entidad personalizada." languagecode="3082" />
+            <Description description="Entrez le nom de l'entité personnalisée." languagecode="1036" />
+            <Description description="ユーザー定義エンティティの名前を入力します。" languagecode="1041" />
+            <Description description="사용자 지정 엔터티의 이름을 입력합니다." languagecode="1042" />
+            <Description description="Introduza o nome da entidade personalizada." languagecode="2070" />
+            <Description description="输入自定义实体的名称。" languagecode="2052" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="msdyn_Product">
+          <Type>lookup</Type>
+          <Name>msdyn_product</Name>
+          <LogicalName>msdyn_product</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Product" languagecode="1033" />
+            <displayname description="Producto" languagecode="3082" />
+            <displayname description="Produit" languagecode="1036" />
+            <displayname description="製品" languagecode="1041" />
+            <displayname description="제품" languagecode="1042" />
+            <displayname description="Produto" languagecode="2070" />
+            <displayname description="产品" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Product to order" languagecode="1033" />
+            <Description description="Producto que se va a pedir" languagecode="3082" />
+            <Description description="Produit à commander" languagecode="1036" />
+            <Description description="発注する製品です" languagecode="1041" />
+            <Description description="주문할 제품" languagecode="1042" />
+            <Description description="Produto a encomendar" languagecode="2070" />
+            <Description description="要订购的产品" languagecode="2052" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="msdyn_PurchaseOrder">
+          <Type>lookup</Type>
+          <Name>msdyn_purchaseorder</Name>
+          <LogicalName>msdyn_purchaseorder</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Purchase Requisition" languagecode="1033" />
+            <displayname description="Pedido de compra" languagecode="3082" />
+            <displayname description="Bon de commande" languagecode="1036" />
+            <displayname description="発注書" languagecode="1041" />
+            <displayname description="구매 주문" languagecode="1042" />
+            <displayname description="Nota de Encomenda" languagecode="2070" />
+            <displayname description="采购订单" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Purchase order this line item relates to" languagecode="1033" />
+            <Description description="Pedido de compra relacionado con este elemento de línea" languagecode="3082" />
+            <Description description="Bon de commande auquel cette ligne se rapporte" languagecode="1036" />
+            <Description description="この品目に関連する発注書です" languagecode="1041" />
+            <Description description="이 품목과 관련된 구매 주문" languagecode="1042" />
+            <Description description="Nota de encomenda à qual este item está relacionado" languagecode="2070" />
+            <Description description="此明细项目关联到的采购订单" languagecode="2052" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="msdyn_Quantity">
+          <Type>float</Type>
+          <Name>msdyn_quantity</Name>
+          <LogicalName>msdyn_quantity</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <MinValue>0</MinValue>
+          <MaxValue>1000000000</MaxValue>
+          <Accuracy>2</Accuracy>
+          <displaynames>
+            <displayname description="Quantity" languagecode="1033" />
+            <displayname description="Cantidad" languagecode="3082" />
+            <displayname description="Quantité" languagecode="1036" />
+            <displayname description="数量" languagecode="1041" />
+            <displayname description="수량" languagecode="1042" />
+            <displayname description="Quantidade" languagecode="2070" />
+            <displayname description="数量" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Enter the quantity ordered." languagecode="1033" />
+            <Description description="Especifique la cantidad pedida." languagecode="3082" />
+            <Description description="Entrez la quantité commandée." languagecode="1036" />
+            <Description description="発注した数量を入力します。" languagecode="1041" />
+            <Description description="주문한 수량을 입력합니다." languagecode="1042" />
+            <Description description="Introduza a quantidade encomendada." languagecode="2070" />
+            <Description description="输入已订购的数量。" languagecode="2052" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_Inventory">
+          <Type>lookup</Type>
+          <Name>smp_inventory</Name>
+          <LogicalName>smp_inventory</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Inventory Item" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_Vendor">
+          <Type>nvarchar</Type>
+          <Name>smp_vendor</Name>
+          <LogicalName>smp_vendor</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>50</MaxLength>
+          <Length>100</Length>
+          <displaynames>
+            <displayname description="Vendor" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="statecode">
+          <Type>state</Type>
+          <Name>statecode</Name>
+          <LogicalName>statecode</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>1</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <optionset Name="msdyn_purchaseorderproduct_statecode">
+            <OptionSetType>state</OptionSetType>
+            <IntroducedVersion>6.2.0.342</IntroducedVersion>
+            <displaynames>
+              <displayname description="Status" languagecode="1033" />
+              <displayname description="状态" languagecode="2052" />
+              <displayname description="Statut" languagecode="1036" />
+              <displayname description="状態" languagecode="1041" />
+              <displayname description="상태" languagecode="1042" />
+              <displayname description="Estado" languagecode="2070" />
+              <displayname description="Estado" languagecode="3082" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Status of the Purchase Order Product" languagecode="1033" />
+              <Description description="采购订单产品的状态" languagecode="2052" />
+              <Description description="Statut de l'élément Produit du bon de commande" languagecode="1036" />
+              <Description description="発注書の製品の状態" languagecode="1041" />
+              <Description description="구매 주문 제품의 상태입니다." languagecode="1042" />
+              <Description description="Estado da Entidade Produto da Nota de Encomenda" languagecode="2070" />
+              <Description description="Estado del Producto de pedido de compra" languagecode="3082" />
+            </Descriptions>
+            <states>
+              <state value="0" defaultstatus="1" invariantname="Active">
+                <labels>
+                  <label description="Active" languagecode="1033" />
+                  <label description="Activo" languagecode="3082" />
+                  <label description="Actif" languagecode="1036" />
+                  <label description="アクティブ" languagecode="1041" />
+                  <label description="활성" languagecode="1042" />
+                  <label description="Ativo" languagecode="2070" />
+                  <label description="可用" languagecode="2052" />
+                  <label description="Ativo" languagecode="1046" />
+                </labels>
+              </state>
+              <state value="1" defaultstatus="2" invariantname="Inactive">
+                <labels>
+                  <label description="Inactive" languagecode="1033" />
+                  <label description="Inactivo" languagecode="3082" />
+                  <label description="Inactif" languagecode="1036" />
+                  <label description="非アクティブ" languagecode="1041" />
+                  <label description="비활성" languagecode="1042" />
+                  <label description="Inativo" languagecode="2070" />
+                  <label description="停用" languagecode="2052" />
+                  <label description="Inativo" languagecode="1046" />
+                </labels>
+              </state>
+            </states>
+          </optionset>
+          <displaynames>
+            <displayname description="Status" languagecode="1033" />
+            <displayname description="状态" languagecode="2052" />
+            <displayname description="Statut" languagecode="1036" />
+            <displayname description="状態" languagecode="1041" />
+            <displayname description="상태" languagecode="1042" />
+            <displayname description="Estado" languagecode="2070" />
+            <displayname description="Estado" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Status of the Purchase Order Product" languagecode="1033" />
+            <Description description="采购订单产品的状态" languagecode="2052" />
+            <Description description="Statut du produit du bon de commande" languagecode="1036" />
+            <Description description="発注書製品の状態です" languagecode="1041" />
+            <Description description="구매 주문 제품 상태" languagecode="1042" />
+            <Description description="Estado do Produto da Nota de Encomenda" languagecode="2070" />
+            <Description description="Estado del producto de pedido de compra" languagecode="3082" />
+          </Descriptions>
+        </attribute>
+      </attributes>
+    </entity>
+  </EntityInfo>
+  <RibbonDiffXml />
+</Entity>

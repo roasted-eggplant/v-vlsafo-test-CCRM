@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{4fe3f164-e254-47b3-9a43-a90f06e19c30}</formid>
+    <IntroducedVersion>3.0.0.4</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{76c631b9-3820-4d0a-948b-7965e98f0a57}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{c82dd0c2-1515-48cf-841f-f297250baec1}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4bc69b9d-194c-40cf-92a1-859458f9d426}">
+                        <labels>
+                          <label description="Escalation Name" languagecode="1033" />
+                        </labels>
+                        <control id="smp_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{13230ebb-b7e5-0095-9018-ad81ca26701c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Email Address" languagecode="1033" />
+                        </labels>
+                        <control id="emailaddress" classid="{ADA2203E-B4CD-49be-9DDF-234642B43B52}" datafieldname="emailaddress" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a384ad06-5917-0294-4788-c94029e57b44}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Country" languagecode="1033" />
+                        </labels>
+                        <control id="smp_country" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_country" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{eb7adc87-3439-0eb6-982a-4da2453b6023}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Other Phone" languagecode="1033" />
+                        </labels>
+                        <control id="smp_otherphone" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_otherphone" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ac24a1ec-e79a-c199-87d2-a7cc091e6c3b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Phone" languagecode="1033" />
+                        </labels>
+                        <control id="smp_phone" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_phone" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d22982d8-1770-7574-6c4e-813618b8d4a4}" showlabel="true" locklevel="0" rowspan="4">
+                        <labels>
+                          <label description="Dispatch Instructions" languagecode="1033" />
+                        </labels>
+                        <control id="smp_information" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="smp_information" disabled="false" />
+                      </cell>
+                    </row>
+                    <row></row>
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{b1480607-ba19-43f3-971a-5dedfbeaeefc}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%">
+              <sections>
+                <section showlabel="false" showbar="false" id="{1238b067-ea40-4f31-bb32-c8030afc5984}" IsUserDefined="0" height="auto">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" rowspan="15" auto="false" id="{934c4673-d571-4712-a2b7-c2d10b29c68e}">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}">
+                          <parameters>
+                            <DefaultTabId>NotesTab</DefaultTabId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row height="auto"></row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

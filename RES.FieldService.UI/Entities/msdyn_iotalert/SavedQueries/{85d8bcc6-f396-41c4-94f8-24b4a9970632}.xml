@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{85d8bcc6-f396-41c4-94f8-24b4a9970632}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msdyn_description" select="1" icon="1" preview="1">
+        <row name="result" id="msdyn_iotalertid">
+          <cell name="msdyn_description" width="300" />
+          <cell name="a_35d6baaa763ce911a97c000d3a30da56.smp_fiscalregionid" width="150" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_problembuildingid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_problemclassid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_problemtypeid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_deactivationtime" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="statuscode" width="200" />
+          <cell name="msdyn_customerasset" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_description" width="300" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msdyn_alerttype" width="100" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msdyn_iotalert">
+          <attribute name="msdyn_description" />
+          <order attribute="msdyn_description" descending="true" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="msdyn_customerasset" />
+          <attribute name="statuscode" />
+          <link-entity alias="a_35d6baaa763ce911a97c000d3a30da56" name="smp_building" from="smp_buildingid" to="smp_problembuildingid" link-type="outer" visible="false">
+            <attribute name="smp_fiscalregionid" />
+          </link-entity>
+          <attribute name="smp_problemtypeid" />
+          <attribute name="smp_problemclassid" />
+          <attribute name="smp_problembuildingid" />
+          <attribute name="smp_deactivationtime" />
+          <attribute name="smp_description" />
+          <attribute name="msdyn_alerttype" />
+          <attribute name="msdyn_iotalertid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive IoT Alerts" languagecode="1033" />
+      <LocalizedName description="Alertes IoT inactives" languagecode="1036" />
+      <LocalizedName description="非アクティブな IoT 通知" languagecode="1041" />
+      <LocalizedName description="비활성 IoT 알림" languagecode="1042" />
+      <LocalizedName description="Alertas de IoT inativos" languagecode="1046" />
+      <LocalizedName description="停用的 IoT 警报" languagecode="2052" />
+      <LocalizedName description="Alertas de IoT Inativos" languagecode="2070" />
+      <LocalizedName description="Alertas de IoT inactivas" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

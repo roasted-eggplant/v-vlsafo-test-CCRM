@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{00000000-0000-0000-00aa-000010001200}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="accounts" jump="name" select="1" icon="1" preview="1">
+        <row name="account" id="accountid">
+          <cell name="name" width="300" />
+          <cell name="primarycontactid" width="150" />
+          <cell name="telephone1" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="account">
+          <attribute name="name" />
+          <attribute name="primarycontactid" />
+          <attribute name="telephone1" />
+          <order attribute="name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="smp_accounttype" operator="eq" value="180620001" />
+          </filter>
+          <attribute name="accountid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Provider Associated View" languagecode="1033" />
+      <LocalizedName description="Vue associée Compte" languagecode="1036" />
+      <LocalizedName description="取引先企業関連ビュー" languagecode="1041" />
+      <LocalizedName description="거래처 관련 보기" languagecode="1042" />
+      <LocalizedName description="Exibição Associada à Conta" languagecode="1046" />
+      <LocalizedName description="客户关联视图" languagecode="2052" />
+      <LocalizedName description="Vista Associada de Contas" languagecode="2070" />
+      <LocalizedName description="Vista asociada de cuenta" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Displays information about related accounts in the detail form of any associated account record. This view is in the Sub-Accounts side tab." languagecode="1033" />
+      <Description description="Informations de comptes connexes dans le formulaire détaillé d'un compte associé. La vue se trouve sur l'onglet Sous-comptes." languagecode="1036" />
+      <Description description="関連付けられた任意の取引先企業レコードから成る詳細な形式で、関連取引先企業についての情報を表示します。このビューは [子会社] サイド タブにあります。" languagecode="1041" />
+      <Description description="관련 거래처에 대한 정보를 그와 연관된 거래처 레코드의 세부 정보 양식에 표시합니다. 이 보기는 왼쪽의 [하위 거래처] 탭에 있습니다." languagecode="1042" />
+      <Description description="Exibe informações relativas às contas no formulário detalhado de qualquer registro de conta associado. Esta exibição está na guia lateral Subcontas." languagecode="1046" />
+      <Description description="在任何关联客户记录的详细信息窗体中显示相关客户的信息。此视图位于“子客户”侧栏选项卡上。" languagecode="2052" />
+      <Description description="Apresenta informações sobre contas relacionadas no formulário de detalhes de qualquer registo de conta associado. Esta vista está no separador lateral Subcontas." languagecode="2070" />
+      <Description description="Muestra información de cuentas relacionadas en el formulario detallado de un registro de cuenta asociado. Esta vista está en la ficha lateral Subcuentas." languagecode="3082" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

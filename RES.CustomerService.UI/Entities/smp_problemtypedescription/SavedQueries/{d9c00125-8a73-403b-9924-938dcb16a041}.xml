@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{d9c00125-8a73-403b-9924-938dcb16a041}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="smp_problemtypedescriptionname" select="1" icon="1" preview="1">
+        <row name="smp_problemtypedescription" id="smp_problemtypedescriptionid">
+          <cell name="smp_problemtypedescriptionname" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_problemtypedescription">
+          <attribute name="smp_problemtypedescriptionid" />
+          <attribute name="smp_problemtypedescriptionname" />
+          <attribute name="createdon" />
+          <order attribute="smp_problemtypedescriptionname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Problem Type Description Associated View" languagecode="1033" />
+      <LocalizedName description="Visualização associada de Tipo de problema por Descrição " languagecode="1046" />
+      <LocalizedName description="Problema Tipo Descripción Vista asociada" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{dd7523ad-24d6-4fe9-bf09-cc3a84e52348}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_description" select="1" icon="1" preview="1">
+        <row name="result" id="smp_slamatrixid">
+          <cell name="smp_starthours" width="100" />
+          <cell name="smp_endhours" width="100" />
+          <cell name="smp_description" width="300" />
+          <cell name="smp_buildingid" width="100" />
+          <cell name="smp_isfinancialstatecampus" width="100" />
+          <cell name="smp_priorityid" width="100" />
+          <cell name="smp_problemclassid" width="100" />
+          <cell name="smp_problemtypeid" width="100" />
+          <cell name="smp_zone" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_slamatrix">
+          <attribute name="smp_description" />
+          <attribute name="createdon" />
+          <order attribute="smp_description" descending="false" />
+          <attribute name="smp_zone" />
+          <attribute name="smp_starthours" />
+          <attribute name="smp_problemtypeid" />
+          <attribute name="smp_problemclassid" />
+          <attribute name="smp_priorityid" />
+          <attribute name="smp_isfinancialstatecampus" />
+          <attribute name="smp_endhours" />
+          <attribute name="smp_buildingid" />
+          <attribute name="smp_slamatrixid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="SLA Matrix Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

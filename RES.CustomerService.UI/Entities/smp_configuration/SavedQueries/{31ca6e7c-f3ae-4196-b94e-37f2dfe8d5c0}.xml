@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{31ca6e7c-f3ae-4196-b94e-37f2dfe8d5c0}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_title" select="1" icon="1" preview="1">
+        <row name="result" id="smp_configurationid">
+          <cell name="smp_title" width="300" />
+          <cell name="smp_value" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_configuration">
+          <attribute name="smp_title" />
+          <order attribute="smp_title" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="smp_value" />
+          <attribute name="smp_configurationid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Configurations" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

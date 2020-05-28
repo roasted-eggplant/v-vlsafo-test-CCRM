@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{ca4a0404-5433-4076-85d4-f36f3f7478cd}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="smp_name" select="1" icon="1" preview="1">
+        <row name="smp_srsatisfactionsurvey" id="smp_srsatisfactionsurveyid">
+          <cell name="smp_servicerequest" width="100" />
+          <cell name="smp_thetechniciancompletedtheworkontime" width="300" />
+          <cell name="smp_thetechniciancompletedtheworkrightthefirs" width="300" />
+          <cell name="smp_itwaseasytorequestservice" width="200" />
+          <cell name="smp_courteousservicewasreceivedfromthecustom" width="300" />
+          <cell name="smp_overallsatisfaction" width="150" />
+          <cell name="smp_wouldyoulikesomeonetofollowupwithyouregar" width="300" />
+          <cell name="smp_pleaseprovideanyadditionalcommentsyoumayh" width="300" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_srsatisfactionsurvey">
+          <order attribute="smp_servicerequest" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="smp_wouldyoulikesomeonetofollowupwithyouregar" />
+          <attribute name="smp_thetechniciancompletedtheworkrightthefirs" />
+          <attribute name="smp_thetechniciancompletedtheworkontime" />
+          <attribute name="smp_servicerequest" />
+          <attribute name="smp_pleaseprovideanyadditionalcommentsyoumayh" />
+          <attribute name="smp_overallsatisfaction" />
+          <attribute name="smp_itwaseasytorequestservice" />
+          <attribute name="smp_courteousservicewasreceivedfromthecustom" />
+          <attribute name="smp_srsatisfactionsurveyid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="SR Satisfaction Survey Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

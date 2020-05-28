@@ -1,0 +1,10 @@
+C:\Users\tadutta\Downloads\CCRM.REF\CCRM.REF\RES.FieldService.BusinessExtensions\obj\Debug\RES_FieldService_BusinessExtensions.CSPROJAssemblyReference.cache
+C:\Users\tadutta\Downloads\CCRM.REF\CCRM.REF\RES.FieldService.BusinessExtensions\obj\Debug\RES_FieldService_BusinessExtensions.CSPROJ.CoreCompileInputs.cache
+C:\Users\tadutta\Downloads\CCRM.REF\CCRM.REF\RES.FieldService.BusinessExtensions\bin\Debug\RES.FieldService.BusinessExtensions.dll
+C:\Users\tadutta\Downloads\CCRM.REF\CCRM.REF\RES.FieldService.BusinessExtensions\bin\Debug\RES.FieldService.BusinessExtensions.pdb
+C:\Users\tadutta\Downloads\CCRM.REF\CCRM.REF\RES.FieldService.BusinessExtensions\bin\Debug\CCRM.REFFS.Plugins.dll
+C:\Users\tadutta\Downloads\CCRM.REF\CCRM.REF\RES.FieldService.BusinessExtensions\bin\Debug\Microsoft.Crm.SolutionProjects.MSBuild.dll
+C:\Users\tadutta\Downloads\CCRM.REF\CCRM.REF\RES.FieldService.BusinessExtensions\bin\Debug\CCRM.REFFS.Plugins.pdb
+C:\Users\tadutta\Downloads\CCRM.REF\CCRM.REF\RES.FieldService.BusinessExtensions\obj\Debug\RES_FieldService_BusinessExtensions.CSPROJ.CopyComplete
+C:\Users\tadutta\Downloads\CCRM.REF\CCRM.REF\RES.FieldService.BusinessExtensions\obj\Debug\RES.FieldService.BusinessExtensions.dll
+C:\Users\tadutta\Downloads\CCRM.REF\CCRM.REF\RES.FieldService.BusinessExtensions\obj\Debug\RES.FieldService.BusinessExtensions.pdb

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{01d8fb0e-2e71-4230-bab4-6d14509b06de}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msdyn_name" select="1" icon="1" preview="1">
+        <row name="result" id="msdyn_customerassetid">
+          <cell name="msdyn_name" width="300" />
+          <cell name="msdyn_account" width="100" />
+          <cell name="smp_manufacturer" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_model" width="100" />
+          <cell name="msdyn_parentasset" width="150" />
+          <cell name="msdyn_masterasset" width="150" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msdyn_customerasset">
+          <attribute name="createdon" />
+          <attribute name="msdyn_parentasset" />
+          <attribute name="msdyn_masterasset" />
+          <attribute name="msdyn_name" />
+          <attribute name="smp_model" />
+          <attribute name="smp_manufacturer" />
+          <attribute name="msdyn_customerassetid" />
+          <attribute name="msdyn_account" />
+          <order attribute="msdyn_account" descending="false" />
+          <order attribute="msdyn_name" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Customer Asset Advanced Find View" languagecode="1033" />
+      <LocalizedName description="Vue Recherche avancée Actif du client" languagecode="1036" />
+      <LocalizedName description="顧客資産の高度な検索ビュー" languagecode="1041" />
+      <LocalizedName description="고객 자산 상세하게 찾기 보기" languagecode="1042" />
+      <LocalizedName description="Visualização de busca avançada de ativos do cliente" languagecode="1046" />
+      <LocalizedName description="客户资产高级查找视图" languagecode="2052" />
+      <LocalizedName description="Vista Localização Avançada de Ativos de Clientes" languagecode="2070" />
+      <LocalizedName description="Vista de búsqueda avanzada de activos de clientes" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

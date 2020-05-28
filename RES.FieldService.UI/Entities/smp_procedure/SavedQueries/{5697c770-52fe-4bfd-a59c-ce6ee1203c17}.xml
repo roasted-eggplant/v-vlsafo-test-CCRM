@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{5697c770-52fe-4bfd-a59c-ce6ee1203c17}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="smp_name" select="1" icon="1" preview="1">
+        <row name="smp_procedure" id="smp_procedureid">
+          <cell name="smp_name" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_title" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_assetclass" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_description" width="300" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_procedure">
+          <attribute name="smp_procedureid" />
+          <attribute name="smp_name" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="smp_title" />
+          <attribute name="smp_description" />
+          <attribute name="smp_assetclass" />
+          <order attribute="smp_name" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Procedure Associated View" languagecode="1033" />
+      <LocalizedName description="Visão Associada ao Procedimento" languagecode="1046" />
+      <LocalizedName description="Vista asociada al procedimiento" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

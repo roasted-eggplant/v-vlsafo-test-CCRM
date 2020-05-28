@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{7075ec6d-0915-4520-9c52-dd6ae4f362b5}</savedqueryid>
+    <layoutxml>
+      <grid name="" preview="1" icon="1" select="1" jump="smp_attribute">
+        <row id="smp_auditlogid" name="smp_auditlog">
+          <cell name="smp_attribute" width="125" />
+          <cell name="smp_event" width="100" />
+          <cell name="smp_eventtime" width="150" />
+          <cell name="smp_previousvalue" width="300" />
+          <cell name="smp_currentvalue" width="300" />
+          <cell name="smp_initiatinguserid" width="200" />
+          <cell name="smp_incidentstatus" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch mapping="logical" version="1.0">
+        <entity name="smp_auditlog">
+          <attribute name="smp_attribute" />
+          <order descending="true" attribute="smp_eventtime" />
+          <filter type="and">
+            <condition value="0" attribute="statecode" operator="eq" />
+          </filter>
+          <attribute name="smp_previousvalue" />
+          <attribute name="smp_initiatinguserid" />
+          <attribute name="smp_incidentstatus" />
+          <attribute name="smp_eventtime" />
+          <attribute name="smp_event" />
+          <attribute name="smp_currentvalue" />
+          <attribute name="smp_auditlogid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Audit Log Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

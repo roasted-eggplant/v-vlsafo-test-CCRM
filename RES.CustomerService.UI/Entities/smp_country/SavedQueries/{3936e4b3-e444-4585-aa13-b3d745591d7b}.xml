@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{3936e4b3-e444-4585-aa13-b3d745591d7b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_countryname" select="1" icon="1" preview="1">
+        <row name="result" id="smp_countryid">
+          <cell name="smp_countryname" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_country">
+          <attribute name="smp_countryid" />
+          <attribute name="smp_countryname" />
+          <attribute name="createdon" />
+          <order attribute="smp_countryname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Countries" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <isquickfindquery>1</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <savedqueryid>{458b05a8-035b-4069-b680-14aac43f68ec}</savedqueryid>
+  <layoutxml>
+    <grid name="resultset" jump="msdyn_name" select="1" icon="1" preview="1">
+      <row name="result" id="msdyn_agreementbookingsetupid">
+        <cell name="msdyn_name" width="150" />
+        <cell name="msdyn_agreement" width="150" />
+        <cell name="msdyn_description" width="200" />
+        <cell name="msdyn_priority" width="150" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>4</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="msdyn_agreementbookingsetup">
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="0" />
+        </filter>
+        <filter type="or" isquickfindfields="1">
+          <condition attribute="msdyn_name" operator="like" value="{0}" />
+          <condition attribute="msdyn_agreement" operator="like" value="{0}" />
+        </filter>
+        <order attribute="msdyn_priority" descending="false" />
+        <attribute name="msdyn_priority" />
+        <attribute name="msdyn_description" />
+        <attribute name="msdyn_agreement" />
+        <attribute name="msdyn_name" />
+        <attribute name="msdyn_agreementbookingsetupid" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>3.1.0.3</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Quick Find Active Agreement Booking Setups" languagecode="1033" />
+    <LocalizedName description="Recherche rapide de configurations actives de réservation de contrat" languagecode="1036" />
+    <LocalizedName description="アクティブな契約予約設定の簡易検索" languagecode="1041" />
+    <LocalizedName description="활성 계약 예약 설정 빠른 찾기" languagecode="1042" />
+    <LocalizedName description="Configurações rápidas de reserva de contrato ativo" languagecode="1046" />
+    <LocalizedName description="快速查找可用协议预订设置" languagecode="2052" />
+    <LocalizedName description="Localização Rápida de Configurações da Reserva do Contrato Ativo" languagecode="2070" />
+    <LocalizedName description="Búsqueda rápida de configuraciones de reserva del acuerdo activas" languagecode="3082" />
+  </LocalizedNames>
+</savedquery>

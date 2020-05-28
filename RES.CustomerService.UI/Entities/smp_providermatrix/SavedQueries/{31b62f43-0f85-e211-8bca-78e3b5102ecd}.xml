@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{31b62f43-0f85-e211-8bca-78e3b5102ecd}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_name" select="1" preview="1" icon="1">
+        <row name="result" id="smp_providermatrixid">
+          <cell name="smp_tertiaryproviderid" width="100" />
+          <cell name="smp_problemtypeid" width="100" />
+          <cell name="smp_buildingid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="smp_providermatrix">
+          <order attribute="smp_tertiaryproviderid" descending="false" />
+          <attribute name="smp_problemtypeid" />
+          <attribute name="smp_buildingid" />
+          <attribute name="smp_tertiaryproviderid" />
+          <attribute name="smp_providermatrixid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Tiertiary" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

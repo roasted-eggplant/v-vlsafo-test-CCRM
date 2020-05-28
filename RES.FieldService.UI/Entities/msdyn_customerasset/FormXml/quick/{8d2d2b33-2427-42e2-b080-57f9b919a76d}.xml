@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform unmodified="1">
+    <formid>{8d2d2b33-2427-42e2-b080-57f9b919a76d}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400">
+      <tabs>
+        <tab id="{3098342e-df73-499a-9c2e-832b59743ac7}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+            <label description="Onglet" languagecode="1036" />
+            <label description="タブ" languagecode="1041" />
+            <label description="탭" languagecode="1042" />
+            <label description="选项卡" languagecode="2052" />
+            <label description="Separador" languagecode="2070" />
+            <label description="Pestaña" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{b7244697-10a2-4705-bc81-581f9c49262c}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                    <label description="section" languagecode="1036" />
+                    <label description="セクション" languagecode="1041" />
+                    <label description="섹션" languagecode="1042" />
+                    <label description="节" languagecode="2052" />
+                    <label description="secção" languagecode="2070" />
+                    <label description="sección" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7b82d5e3-d7b1-852c-6d79-17c7112a5d66}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Building" languagecode="1033" />
+                          <label description="客户" languagecode="2052" />
+                          <label description="Compte" languagecode="1036" />
+                          <label description="取引先企業" languagecode="1041" />
+                          <label description="거래처" languagecode="1042" />
+                          <label description="Conta" languagecode="2070" />
+                          <label description="Cuenta" languagecode="3082" />
+                        </labels>
+                        <control id="msdyn_account" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_account" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Customer Asset Tile Form" languagecode="1033" />
+      <LocalizedName description="Formulaire de vignette d'actif client" languagecode="1036" />
+      <LocalizedName description="顧客資産タイル フォーム" languagecode="1041" />
+      <LocalizedName description="고객 자산 타일 양식" languagecode="1042" />
+      <LocalizedName description="客户资产磁贴窗体" languagecode="2052" />
+      <LocalizedName description="Formulário do Mosaico do Ativo do Cliente" languagecode="2070" />
+      <LocalizedName description="Formulario de ventana de activo del cliente" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="This is the customer asset hierarchy definition." languagecode="1033" />
+      <Description description="Il s'agit de la définition de la hiérarchie des actifs du client." languagecode="1036" />
+      <Description description="これは顧客資産階層の定義です。" languagecode="1041" />
+      <Description description="고객 자산 계층 구조 정의입니다." languagecode="1042" />
+      <Description description="这是客户资产层次结构定义。" languagecode="2052" />
+      <Description description="Esta é a definição da hierarquia de ativos de cliente." languagecode="2070" />
+      <Description description="Es la definición de la jerarquía de activos de cliente." languagecode="3082" />
+    </Descriptions>
+  </systemform>
+</forms>

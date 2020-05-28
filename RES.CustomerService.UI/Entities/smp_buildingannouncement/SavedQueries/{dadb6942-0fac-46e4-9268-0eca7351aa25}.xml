@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{dadb6942-0fac-46e4-9268-0eca7351aa25}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="smp_name" select="1" icon="1" preview="0">
+        <row name="smp_buildingannouncement" id="smp_buildingannouncementid">
+          <cell name="smp_name" width="300" />
+          <cell name="smp_announcement" width="100" disableSorting="1" />
+          <cell name="smp_buildingid" width="100" />
+          <cell name="smp_expirationdate" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_buildingannouncement">
+          <attribute name="smp_buildingannouncementid" />
+          <attribute name="smp_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="smp_name" descending="false" />
+          <attribute name="smp_expirationdate" />
+          <attribute name="smp_buildingid" />
+          <attribute name="smp_announcement" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Building Announcement Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

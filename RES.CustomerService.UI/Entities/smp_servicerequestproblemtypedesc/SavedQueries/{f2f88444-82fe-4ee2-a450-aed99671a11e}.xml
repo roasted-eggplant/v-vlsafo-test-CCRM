@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{f2f88444-82fe-4ee2-a450-aed99671a11e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_description" select="1" icon="1" preview="1">
+        <row name="result" id="smp_servicerequestproblemtypedescid">
+          <cell name="smp_problemtypedescriptionid" width="300" />
+          <cell name="smp_answer" width="300" disableSorting="1" />
+          <cell name="modifiedby" width="100" />
+          <cell name="modifiedon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_servicerequestproblemtypedesc">
+          <order attribute="smp_problemtypedescriptionid" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="smp_problemtypedescriptionid" />
+          <attribute name="modifiedon" />
+          <attribute name="modifiedby" />
+          <attribute name="smp_answer" />
+          <attribute name="smp_servicerequestproblemtypedescid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Service Request Problem Type Descriptions" languagecode="1033" />
+      <LocalizedName description="Descrição de Tipo de Problema de Solicitação de Serviço Ativo" languagecode="1046" />
+      <LocalizedName description="Descripciones del tipo de problema de solicitud de servicio activa" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

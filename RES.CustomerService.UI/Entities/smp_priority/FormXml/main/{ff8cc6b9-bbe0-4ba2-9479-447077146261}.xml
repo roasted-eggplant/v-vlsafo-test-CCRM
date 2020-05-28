@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{ff8cc6b9-bbe0-4ba2-9479-447077146261}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{69eafff6-4166-4cd0-ba42-4b3a69dfd376}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Geral" languagecode="1046" />
+            <label description="General" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{9ad0013f-e5aa-45a8-abd0-0c3071447e5c}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Geral" languagecode="1046" />
+                    <label description="General" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e523252c-1888-4ef2-98c8-b4f937af2057}">
+                        <labels>
+                          <label description="Priority Name" languagecode="1033" />
+                          <label description="Nome da prioridade" languagecode="1046" />
+                          <label description="Nombre de prioridad" languagecode="3082" />
+                        </labels>
+                        <control id="smp_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_name" />
+                      </cell>
+                      <cell id="{a9c849bc-bc7a-dcb3-3504-5eb107d6120e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Complete Service Request(In Minutes)" languagecode="1033" />
+                          <label description="Solicitação de serviço completa (em minutos)" languagecode="1046" />
+                          <label description="Solicitud de servicio completa (en minutos)" languagecode="3082" />
+                        </labels>
+                        <control id="smp_noofminutes" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="smp_noofminutes" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1c6cdb02-a95d-d435-c8cc-64d3001134e5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Acknowledge Service Request (In Minutes)" languagecode="1033" />
+                          <label description="Confirmar solicitação de serviço (em minutos)" languagecode="1046" />
+                          <label description="Confirmar solicitud de servicio (en minutos)" languagecode="3082" />
+                        </labels>
+                        <control id="smp_acknowledgeservicerequestinminutes" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="smp_acknowledgeservicerequestinminutes" disabled="false" />
+                      </cell>
+                      <cell id="{592e994a-8b84-d4b2-db80-9e59cbdcdaca}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Respond to Service Request (In Minutes)" languagecode="1033" />
+                          <label description="Responder à solicitação de serviço (em minutos)" languagecode="1046" />
+                          <label description="Responder a la solicitud de servicio (en minutos)" languagecode="3082" />
+                        </labels>
+                        <control id="smp_respondtoservicerequestinminutes" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="smp_respondtoservicerequestinminutes" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a6e425e4-91cf-4c64-be00-e6e0160ebea5}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Proprietário" languagecode="1046" />
+                          <label description="Propietario" languagecode="3082" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{9a394ae8-8560-4d1e-35a5-1ea3549942db}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab id="{c6885f80-dc18-404f-83b8-2cf48a300be0}" IsUserDefined="0" expanded="false">
+          <labels>
+            <label description="Notes" languagecode="1033" />
+            <label description="Notas" languagecode="1046" />
+            <label description="Notas" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" id="{2ebe8f59-ddf5-47c4-924b-98015f4cd338}" IsUserDefined="0" height="auto">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                    <label description="Notas" languagecode="1046" />
+                    <label description="Notas" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell colspan="2" showlabel="false" rowspan="5" auto="true" id="{82b117a7-2026-4231-ae5e-29a3d336c28e}">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                          <label description="Texto de Nota" languagecode="1046" />
+                          <label description="Texto de la nota" languagecode="3082" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" />
+                      </cell>
+                    </row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row height="auto"></row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{12c05b88-5525-4d58-9fdb-1df8769363c6}">
+        <rows>
+          <row>
+            <cell id="{57c2ef94-851d-4191-9694-43141b1720ad}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control id="footer_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Processes" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Informação" languagecode="1046" />
+      <LocalizedName description="#REF!" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Um formulário pera esta entidade." languagecode="1046" />
+      <Description description="#REF!" languagecode="3082" />
+    </Descriptions>
+  </systemform>
+</forms>

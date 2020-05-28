@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{3b997452-4c7d-4896-8536-c61944927f8e}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="msdyn_name" select="1" icon="1" preview="1">
+        <row name="msdyn_purchaseorder" id="msdyn_purchaseorderid">
+          <cell name="msdyn_name" width="125" />
+          <cell name="msdyn_vendor" width="150" />
+          <cell name="msdyn_purchaseorderdate" width="150" />
+          <cell name="msdyn_systemstatus" width="100" />
+          <cell name="msdyn_dateexpected" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msdyn_purchaseorder">
+          <attribute name="msdyn_name" />
+          <attribute name="createdon" />
+          <order attribute="msdyn_name" descending="true" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="msdyn_vendor" />
+          <attribute name="msdyn_systemstatus" />
+          <attribute name="msdyn_purchaseorderdate" />
+          <attribute name="msdyn_dateexpected" />
+          <attribute name="msdyn_purchaseorderid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>3.1.0.3</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Purchase Requisition Associated View" languagecode="1033" />
+      <LocalizedName description="Vue associée Bon de commande" languagecode="1036" />
+      <LocalizedName description="発注書関連ビュー" languagecode="1041" />
+      <LocalizedName description="구매 주문 관련 보기" languagecode="1042" />
+      <LocalizedName description="Visualização Associada de Requisição de Compra" languagecode="1046" />
+      <LocalizedName description="采购订单关联视图" languagecode="2052" />
+      <LocalizedName description="Vista Associada de Notas de Encomenda" languagecode="2070" />
+      <LocalizedName description="Vista asociada de pedidos de compra" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

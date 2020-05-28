@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{0b579b9f-f56b-4f10-bef8-8173b9396ce4}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{53d1f70c-63ac-4985-b943-c51e82cd39a6}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{8c8666a8-2d58-4f1a-bf5e-0698a1a86675}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2e6e68f0-5f3f-4289-86b6-a9370cfa67c6}">
+                        <labels>
+                          <label description="Attribute" languagecode="1033" />
+                        </labels>
+                        <control id="smp_attribute" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_attribute" />
+                      </cell>
+                      <cell id="{89fe0b66-f85d-4a85-9873-3fcdf8a7e02a}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{19141d9d-7857-6b38-1db8-9e9dd2e962ea}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Event" languagecode="1033" />
+                        </labels>
+                        <control id="smp_event" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_event" disabled="false" />
+                      </cell>
+                      <cell id="{96c2ce93-8615-dd84-59da-7aaa105146da}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Event Time" languagecode="1033" />
+                        </labels>
+                        <control id="smp_eventtime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="smp_eventtime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7026054d-96e2-c11e-acb1-74eb70b90346}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Previous Value" languagecode="1033" />
+                        </labels>
+                        <control id="smp_previousvalue" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_previousvalue" disabled="false" />
+                      </cell>
+                      <cell id="{833d04d4-2445-600a-6a02-33ac75e60cca}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Current Value" languagecode="1033" />
+                        </labels>
+                        <control id="smp_currentvalue" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_currentvalue" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d440c026-7bae-e276-14a3-992d783bc2ab}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Incident Status" languagecode="1033" />
+                        </labels>
+                        <control id="smp_incidentstatus" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_incidentstatus" disabled="false" />
+                      </cell>
+                      <cell id="{0e64745d-1c40-666b-0929-7a0ed668be7b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Initiating User" languagecode="1033" />
+                        </labels>
+                        <control id="smp_initiatinguserid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_initiatinguserid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{fc0a1b46-d8e2-44a6-878a-b450e28d1631}">
+        <rows>
+          <row>
+            <cell id="{b338e193-4e30-4f65-8a86-a16d85dfe51e}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control id="footer_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Processes" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

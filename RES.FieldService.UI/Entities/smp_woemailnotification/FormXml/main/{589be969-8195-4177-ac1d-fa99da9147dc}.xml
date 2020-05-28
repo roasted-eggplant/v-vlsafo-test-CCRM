@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{589be969-8195-4177-ac1d-fa99da9147dc}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{b2546962-6d1d-4b03-bfaf-e093486e5f38}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Général" languagecode="1036" />
+            <label description="全般" languagecode="1041" />
+            <label description="일반" languagecode="1042" />
+            <label description="常规" languagecode="2052" />
+            <label description="Geral" languagecode="2070" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{7029a584-3be5-4a40-8d8c-237da3a9ccf3}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Général" languagecode="1036" />
+                    <label description="全般" languagecode="1041" />
+                    <label description="일반" languagecode="1042" />
+                    <label description="常规" languagecode="2052" />
+                    <label description="Geral" languagecode="2070" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a52cbb0b-5897-4064-9705-4feecfd10468}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="smp_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_name" uniqueid="{b4e6a861-55aa-1419-69b3-27984c0a1db4}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{94cdddca-0e1c-49fe-a542-086142b9f054}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="负责人" languagecode="2052" />
+                          <label description="Propriétaire" languagecode="1036" />
+                          <label description="所有者" languagecode="1041" />
+                          <label description="담당자" languagecode="1042" />
+                          <label description="Proprietário" languagecode="2070" />
+                          <label description="Propietario" languagecode="3082" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{d3398ec2-e577-5597-5694-40d72eb9751b}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5bb8a739-8291-889e-0482-2533c0a94464}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Full Name" languagecode="1033" />
+                        </labels>
+                        <control id="smp_user" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_user" disabled="false" uniqueid="{e334979c-164e-83b3-ccc0-b286d0c3115a}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{E88CA999-0B16-4AE9-B6A9-9EDC840D42D8}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                            <AvailableViewIds>{9C91FF7F-3DF9-4AA9-9F00-AAA2BEB3192F},{ABA981C9-16A2-4DCC-B694-376AE95FA4B0},{862C3CBF-23FF-4EAB-B9A9-7B438BAC70A9},{51AF2F40-36BB-4198-9B0C-71A986C7C953},{F79AD170-AE03-4F4C-8132-D4AA08520A0C},{79EA2CCE-4C0D-4DE8-A6A4-AB4B2E362937},{00000000-0000-0000-00AA-000010001019},{DA675923-DA9D-4702-AAD6-3207283A5ACE},{00000000-0000-0000-00AA-000010001020},{8DD58E14-0138-47D4-BA2D-A7DC76094D05},{00000000-0000-0000-00AA-000010001021},{AF89FDC8-5D83-40B4-988C-A0941579EE9D},{BB3CD580-ECFB-4A85-A623-9A109B73815F},{30CE6879-6B7A-E211-8976-00155D89AC0C},{AAD628C6-F0DD-4D34-B0ED-9A78F9C23A20},{E88CA999-0B16-4AE9-B6A9-9EDC840D42D8},{E5D893D1-2B1F-46E5-8EA4-25562567CCCE},{0DDA4FB7-84BC-E011-B85E-00155D8A2749},{E8AC8D63-47BA-E011-B85E-00155D8A2749},{B2529A68-5F90-E011-95AE-00155D9CFA02},{31E76B45-BFE7-447E-B4B5-50DC393BCDBE},{1D482328-AB23-486B-B241-26603D367F4D},{FCF02D37-524A-4332-8AC7-497EF6B739F9},{89939D86-F073-42BA-BFC4-DA7999C78825}</AvailableViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

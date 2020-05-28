@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{8cf7d7e7-4af7-e811-a971-000d3a30d7c8}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="title" select="1" preview="1" icon="1">
+        <row name="result" id="incidentid">
+          <cell name="smp_priorityid" width="100" />
+          <cell name="statuscode" width="100" />
+          <cell name="smp_isslametbybuildingtimezone" width="100" />
+          <cell name="title" width="150" />
+          <cell name="smp_completeddate" width="100" />
+          <cell name="a_61ae72226ddae711810b3863bb3c0560.smp_fiscalregionid" width="100" disableSorting="1" />
+          <cell name="a_61ae72226ddae711810b3863bb3c0560.smp_fiscalsubregionid" width="100" disableSorting="1" />
+          <cell name="smp_completeddatebybuildingtimezone" width="100" />
+          <cell name="createdon" width="100" />
+          <cell name="smp_tier1workcompletiondatebybuildingtimezone" width="100" />
+          <cell name="smp_problembuilding" width="100" />
+          <cell name="smp_problemclassid" width="100" />
+          <cell name="smp_problemtypeid" width="100" />
+          <cell name="smp_submitteddatetime" width="100" />
+          <cell name="smp_submitteddatetimebybuildingtimezone" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="incident">
+          <attribute name="title" />
+          <attribute name="smp_submitteddatetimebybuildingtimezone" />
+          <attribute name="smp_submitteddatetime" />
+          <attribute name="smp_problemtypeid" />
+          <attribute name="smp_problemclassid" />
+          <attribute name="smp_problembuilding" />
+          <attribute name="smp_isslametbybuildingtimezone" />
+          <attribute name="createdon" />
+          <attribute name="smp_completeddatebybuildingtimezone" />
+          <attribute name="smp_completeddate" />
+          <attribute name="statuscode" />
+          <attribute name="smp_priorityid" />
+          <attribute name="smp_tier1workcompletiondatebybuildingtimezone" />
+          <order attribute="createdon" descending="true" />
+          <order attribute="smp_priorityid" descending="false" />
+          <filter type="and">
+            <condition attribute="statuscode" operator="not-in">
+              <value>180620017</value>
+              <value>180620007</value>
+              <value>180620008</value>
+              <value>180620009</value>
+              <value>180620012</value>
+              <value>1</value>
+              <value>6</value>
+              <value>180620005</value>
+            </condition>
+            <condition attribute="smp_isslametbybuildingtimezone" operator="eq" value="0" />
+            <condition attribute="smp_completeddatebybuildingtimezone" operator="not-null" />
+            <condition attribute="smp_duedate" operator="not-null" />
+          </filter>
+          <link-entity name="smp_building" from="smp_buildingid" to="smp_problembuilding" visible="false" link-type="outer" alias="a_61ae72226ddae711810b3863bb3c0560">
+            <attribute name="smp_fiscalsubregionid" />
+            <attribute name="smp_fiscalregionid" />
+          </link-entity>
+          <attribute name="incidentid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All SLA Missed Service Requests" languagecode="1033" />
+      <LocalizedName description="Todas as solicitações de serviço perdidas do SLA" languagecode="1046" />
+      <LocalizedName description="Todas las Solicitudes de Servicio Fallados SLA" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

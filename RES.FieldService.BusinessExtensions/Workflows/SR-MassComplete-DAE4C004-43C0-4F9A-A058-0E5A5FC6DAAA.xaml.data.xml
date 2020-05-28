@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{dae4c004-43c0-4f9a-a058-0e5a5fc6daaa}" Name="SR - Mass Complete">
+  <XamlFileName>/Workflows/SR-MassComplete-DAE4C004-43C0-4F9A-A058-0E5A5FC6DAAA.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>0</Category>
+  <Mode>0</Mode>
+  <Scope>1</Scope>
+  <OnDemand>1</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>1</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <PrimaryEntity>Incident</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="SR - Mass Complete" />
+  </LocalizedNames>
+</Workflow>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{e8ac1a8f-bd5a-4fdd-9d92-66dcb37670b4}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msdyn_description" select="1" preview="1" icon="1">
+        <row name="result" id="msdyn_iotalertid">
+          <cell name="msdyn_alerttime" width="200" imageproviderwebresource="$webresource:msdyn_/IoT/Utils/GridIconUtils.js" imageproviderfunctionname="msdyn.IoT.GridIconUtils.setParentAlertIcon" />
+          <cell name="msdyn_description" width="300" />
+          <cell name="msdyn_alerttype" width="100" />
+          <cell name="statuscode" width="200" />
+          <cell name="msdyn_device" width="150" />
+          <cell name="msdyn_workorder" width="150" />
+          <cell name="msdyn_customerasset" width="150" />
+          <cell name="msdyn_iotdevice_alias.msdyn_account" width="150" disableSorting="1" />
+          <cell name="msdyn_lastcommandsent" width="200" />
+          <cell name="msdyn_lastcommandsenttime" width="200" />
+          <cell name="msdyn_parentalert" ishidden="1" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="msdyn_iotalert">
+          <attribute name="msdyn_description" />
+          <attribute name="msdyn_alerttime" />
+          <attribute name="msdyn_device" />
+          <attribute name="msdyn_customerasset" />
+          <attribute name="msdyn_workorder" />
+          <link-entity alias="msdyn_iotdevice_alias" name="msdyn_iotdevice" from="msdyn_iotdeviceid" to="msdyn_device" link-type="outer" visible="false">
+            <attribute name="msdyn_account" />
+          </link-entity>
+          <attribute name="msdyn_lastcommandsenttime" />
+          <attribute name="msdyn_lastcommandsent" />
+          <order attribute="msdyn_alerttime" descending="true" />
+          <filter type="and">
+            <condition attribute="statecode" operator="in">
+              <value>0</value>
+              <value>2</value>
+            </condition>
+          </filter>
+          <attribute name="statuscode" />
+          <attribute name="msdyn_iotalertid" />
+          <attribute name="msdyn_parentalert" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="IoT Alerts" languagecode="1033" />
+      <LocalizedName description="Alertes IoT" languagecode="1036" />
+      <LocalizedName description="IoT 通知" languagecode="1041" />
+      <LocalizedName description="IoT 알림" languagecode="1042" />
+      <LocalizedName description="Alertas IoT" languagecode="1046" />
+      <LocalizedName description="IoT 警报" languagecode="2052" />
+      <LocalizedName description="Alertas de IoT" languagecode="2070" />
+      <LocalizedName description="Alertas de IoT" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Active iot alerts dashboard view" languagecode="1033" />
+      <Description description="Vue du tableau de bord des alertes IoT actives" languagecode="1036" />
+      <Description description="アクティブな IoT 通知のダッシュボード ビュー" languagecode="1041" />
+      <Description description="활성 IoT 알림 대시보드 보기" languagecode="1042" />
+      <Description description="Visualização do painel de alertas ativos do iot" languagecode="1046" />
+      <Description description="可用 IoT 警报仪表板视图" languagecode="2052" />
+      <Description description="Vista de dashboard de alertas de IoT ativos" languagecode="2070" />
+      <Description description="Vista de panel de alertas de iot activas" languagecode="3082" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

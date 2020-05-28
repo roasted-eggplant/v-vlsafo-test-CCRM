@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{1b6af391-da26-4b68-b86c-f4cc379c41b3}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="msdyn_description" select="1" icon="1" preview="1">
+        <row name="msdyn_iotalert" id="msdyn_iotalertid">
+          <cell name="msdyn_description" width="300" />
+          <cell name="msdyn_alerttime" width="200" />
+          <cell name="msdyn_alerttype" width="100" />
+          <cell name="statuscode" width="200" />
+          <cell name="msdyn_device" width="150" />
+          <cell name="msdyn_customerasset" width="150" />
+          <cell name="a_082acba5525ee611810b00155dbd6a1d.msdyn_account" width="150" disableSorting="1" />
+          <cell name="a_082acba5525ee611810b00155dbd6a1d.msdyn_product" width="150" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msdyn_iotalert">
+          <attribute name="msdyn_description" />
+          <order attribute="msdyn_alerttime" descending="true" />
+          <filter type="and">
+            <condition attribute="statecode" operator="in">
+              <value>0</value>
+              <value>2</value>
+            </condition>
+          </filter>
+          <attribute name="msdyn_alerttime" />
+          <attribute name="msdyn_alerttype" />
+          <attribute name="msdyn_device" />
+          <attribute name="msdyn_customerasset" />
+          <link-entity alias="a_082acba5525ee611810b00155dbd6a1d" name="msdyn_customerasset" from="msdyn_customerassetid" to="msdyn_customerasset" link-type="outer" visible="false">
+            <attribute name="msdyn_product" />
+            <attribute name="msdyn_account" />
+          </link-entity>
+          <attribute name="statuscode" />
+          <attribute name="msdyn_iotalertid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="IoT Alert Associated View" languagecode="1033" />
+      <LocalizedName description="Vue associée Alerte IoT" languagecode="1036" />
+      <LocalizedName description="IoT 通知の関連ビュー" languagecode="1041" />
+      <LocalizedName description="IoT 알림 관련 보기" languagecode="1042" />
+      <LocalizedName description="Visualização associada ao alerta da IoT" languagecode="1046" />
+      <LocalizedName description="IoT 警报关联视图" languagecode="2052" />
+      <LocalizedName description="Vista Associada de Alertas de IoT" languagecode="2070" />
+      <LocalizedName description="Vista asociada de alertas de IoT" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

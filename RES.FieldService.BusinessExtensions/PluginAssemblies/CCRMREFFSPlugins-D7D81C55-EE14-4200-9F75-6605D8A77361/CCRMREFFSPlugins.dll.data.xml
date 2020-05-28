@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f" PluginAssemblyId="d7d81c55-ee14-4200-9f75-6605d8a77361" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/CCRMREFFSPlugins-D7D81C55-EE14-4200-9F75-6605D8A77361/CCRMREFFSPlugins.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Plugins.AssignToFieldServiceTeam, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f" PluginTypeId="8e776a27-9c76-e811-811a-3863bb355d28" Name="CCRM.REFFS.Plugins.AssignToFieldServiceTeam">
+      <FriendlyName>7e56382d-7513-4abe-9b0b-bbcacc24ff0a</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Plugins.AssociateProceduresToWO, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f" PluginTypeId="8f776a27-9c76-e811-811a-3863bb355d28" Name="CCRM.REFFS.Plugins.AssociateProceduresToWO">
+      <FriendlyName>2e789e47-d63b-4d32-af27-e2cf9b1224c4</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Plugins.AttachmentURLOnCreation, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f" PluginTypeId="90776a27-9c76-e811-811a-3863bb355d28" Name="CCRM.REFFS.Plugins.AttachmentURLOnCreation">
+      <FriendlyName>601a9b09-b1e6-442b-ae55-6a3b8838b9b3</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Plugins.AttachmentURLOnUpdate, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f" PluginTypeId="91776a27-9c76-e811-811a-3863bb355d28" Name="CCRM.REFFS.Plugins.AttachmentURLOnUpdate">
+      <FriendlyName>d331921b-76f2-491f-a896-7fd0b3be826d</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Plugins.AttachmentURLUpdateOnNoteDelete, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f" PluginTypeId="92776a27-9c76-e811-811a-3863bb355d28" Name="CCRM.REFFS.Plugins.AttachmentURLUpdateOnNoteDelete">
+      <FriendlyName>e20a571d-7e60-444d-b987-b38efa47ba72</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Plugins.Common.ErrorHandlerUtility, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f" PluginTypeId="93776a27-9c76-e811-811a-3863bb355d28" Name="CCRM.REFFS.Plugins.Common.ErrorHandlerUtility">
+      <FriendlyName>59db3023-6a02-49dc-87da-16569ad321fe</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Plugins.Common.Utility, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f" PluginTypeId="94776a27-9c76-e811-811a-3863bb355d28" Name="CCRM.REFFS.Plugins.Common.Utility">
+      <FriendlyName>a5350154-3104-4731-b92e-fa7c0ea3339b</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Plugins.CreateInspectionResponse, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f" PluginTypeId="95776a27-9c76-e811-811a-3863bb355d28" Name="CCRM.REFFS.Plugins.CreateInspectionResponse">
+      <FriendlyName>aabc87d3-2e59-43a2-819d-e923758bdd59</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Plugins.FSPostUpdateOfServiceRequestStatus, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f" PluginTypeId="96776a27-9c76-e811-811a-3863bb355d28" Name="CCRM.REFFS.Plugins.FSPostUpdateOfServiceRequestStatus">
+      <FriendlyName>3c117be7-e6c2-40ce-a3d1-45727af5a330</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Plugins.InspectionAutoNumber, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f" PluginTypeId="97776a27-9c76-e811-811a-3863bb355d28" Name="CCRM.REFFS.Plugins.InspectionAutoNumber">
+      <FriendlyName>cafcf74b-b042-454d-a902-3d56a94ef02d</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Plugins.InventoryCreate, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f" PluginTypeId="fcf5f178-8e6d-4890-bba4-0dbf52a05248" Name="CCRM.REFFS.Plugins.InventoryCreate">
+      <FriendlyName>6a9f09e9-4916-43a8-b366-3cd264fb79c1</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Plugins.NotesFromSRToWorkOrder, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f" PluginTypeId="98776a27-9c76-e811-811a-3863bb355d28" Name="CCRM.REFFS.Plugins.NotesFromSRToWorkOrder">
+      <FriendlyName>2398aef1-fcb9-471c-8e74-a95f91941dcd</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Plugins.NotesOnCreate, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f" PluginTypeId="99776a27-9c76-e811-811a-3863bb355d28" Name="CCRM.REFFS.Plugins.NotesOnCreate">
+      <FriendlyName>c282b234-4f9f-4396-8262-cc6458ad1a16</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Plugins.Plugin, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f" PluginTypeId="9a776a27-9c76-e811-811a-3863bb355d28" Name="CCRM.REFFS.Plugins.Plugin">
+      <FriendlyName>d7a9c0b4-5453-40b8-95cc-04f0eaeba4e8</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Plugins.PostUpdateofNoteIdAttachmentURL, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f" PluginTypeId="9b776a27-9c76-e811-811a-3863bb355d28" Name="CCRM.REFFS.Plugins.PostUpdateofNoteIdAttachmentURL">
+      <FriendlyName>efab4a11-3a59-4ee0-a1d1-4c729c338c69</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Plugins.PreCreateofProduct, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f" PluginTypeId="9c776a27-9c76-e811-811a-3863bb355d28" Name="CCRM.REFFS.Plugins.PreCreateofProduct">
+      <FriendlyName>85862659-cc27-4713-833e-60cf457950ea</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Plugins.PurchaseRequisitionCreateandUpdate, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f" PluginTypeId="9d776a27-9c76-e811-811a-3863bb355d28" Name="CCRM.REFFS.Plugins.PurchaseRequisitionCreateandUpdate">
+      <FriendlyName>beee0d63-8d86-48b1-b5c1-498ddf483038</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Plugins.ServiceRequestOnUpdate, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f" PluginTypeId="9e776a27-9c76-e811-811a-3863bb355d28" Name="CCRM.REFFS.Plugins.ServiceRequestOnUpdate">
+      <FriendlyName>92d8afef-4928-4ba0-abc9-6dc8aa63d3ed</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Plugins.ServiceRequestStatusChanged, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f" PluginTypeId="9f776a27-9c76-e811-811a-3863bb355d28" Name="CCRM.REFFS.Plugins.ServiceRequestStatusChanged">
+      <FriendlyName>81586683-96e8-404e-9366-5ad7bb5c645b</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Plugins.SetDueDateonWO, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f" PluginTypeId="a0776a27-9c76-e811-811a-3863bb355d28" Name="CCRM.REFFS.Plugins.SetDueDateonWO">
+      <FriendlyName>427a5d1d-6d2b-451f-9416-b4a41460fadc</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Plugins.UpdateNotesFormSRToWO, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f" PluginTypeId="a1776a27-9c76-e811-811a-3863bb355d28" Name="CCRM.REFFS.Plugins.UpdateNotesFormSRToWO">
+      <FriendlyName>f17d4ed3-e7e4-4384-bfa7-70df87e6ce43</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Plugins.WorkOrderPostCreate, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f" PluginTypeId="a2776a27-9c76-e811-811a-3863bb355d28" Name="CCRM.REFFS.Plugins.WorkOrderPostCreate">
+      <FriendlyName>ac183697-f54c-4f91-bb7d-126e8b0a181b</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Plugins.WorkOrderPostUpdate, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f" PluginTypeId="a3776a27-9c76-e811-811a-3863bb355d28" Name="CCRM.REFFS.Plugins.WorkOrderPostUpdate">
+      <FriendlyName>d42366ab-118a-439f-b14d-e050263ed62a</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Plugins.WorkOrderPreCreate, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f" PluginTypeId="a4776a27-9c76-e811-811a-3863bb355d28" Name="CCRM.REFFS.Plugins.WorkOrderPreCreate">
+      <FriendlyName>95437f17-eb78-4700-8017-0f3997e8d99f</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Plugins.WorkOrderReclassification, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f" PluginTypeId="a5776a27-9c76-e811-811a-3863bb355d28" Name="CCRM.REFFS.Plugins.WorkOrderReclassification">
+      <FriendlyName>e7cd678b-c56e-4547-9c3f-4a155eed9573</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

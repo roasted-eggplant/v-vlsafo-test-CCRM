@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform unmodified="1">
+    <formid>{a5bb4626-4194-4a65-9501-6f38901a4f04}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{fd57fa5f-ff2d-49f6-9301-82a8630ba995}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{cae845bf-6720-4834-b857-5f6d4c776529}">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                    <label description="GÉNÉRAL" languagecode="1036" />
+                    <label description="全般" languagecode="1041" />
+                    <label description="일반" languagecode="1042" />
+                    <label description="常规" languagecode="2052" />
+                    <label description="GERAL" languagecode="2070" />
+                    <label description="GENERAL" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e779ee38-d000-0b60-d4a1-8428dcbd3710}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Alert Time" languagecode="1033" />
+                          <label description="警报时间" languagecode="2052" />
+                          <label description="Heure de l'alerte" languagecode="1036" />
+                          <label description="通知日時" languagecode="1041" />
+                          <label description="알림 시간" languagecode="1042" />
+                          <label description="Tempo de Alerta" languagecode="2070" />
+                          <label description="Hora de alerta" languagecode="3082" />
+                        </labels>
+                        <control id="msdyn_alerttime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msdyn_alerttime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{91b2eb68-204a-77bb-4133-4dc79335726a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Alert Type" languagecode="1033" />
+                          <label description="警报类型" languagecode="2052" />
+                          <label description="Type d'alerte" languagecode="1036" />
+                          <label description="通知の種類" languagecode="1041" />
+                          <label description="알림 유형" languagecode="1042" />
+                          <label description="Tipo de Alerta" languagecode="2070" />
+                          <label description="Tipo de alerta" languagecode="3082" />
+                        </labels>
+                        <control id="msdyn_alerttype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msdyn_alerttype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9592d9c9-e044-b1cb-1b8e-14bebea29105}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Device" languagecode="1033" />
+                          <label description="设备" languagecode="2052" />
+                          <label description="Appareil" languagecode="1036" />
+                          <label description="デバイス" languagecode="1041" />
+                          <label description="장치" languagecode="1042" />
+                          <label description="Dispositivo" languagecode="2070" />
+                          <label description="Dispositivo" languagecode="3082" />
+                        </labels>
+                        <control id="msdyn_device" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_device" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{618c433d-697a-4190-b059-2b27c5fdd40c}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="IoT Alert ID" languagecode="1033" />
+                          <label description="说明" languagecode="2052" />
+                          <label description="Description" languagecode="1036" />
+                          <label description="説明" languagecode="1041" />
+                          <label description="설명" languagecode="1042" />
+                          <label description="Descrição" languagecode="2070" />
+                          <label description="Descripción" languagecode="3082" />
+                        </labels>
+                        <control id="msdyn_description" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msdyn_description" uniqueid="{97e55b41-e05c-79e3-2eae-8b5b793c51a3}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{81ed96dd-04ca-40d0-8a0a-159eac7b3612}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="负责人" languagecode="2052" />
+                          <label description="Propriétaire" languagecode="1036" />
+                          <label description="所有者" languagecode="1041" />
+                          <label description="담당자" languagecode="1042" />
+                          <label description="Proprietário" languagecode="2070" />
+                          <label description="Propietario" languagecode="3082" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{98166b6e-4a01-20c1-dba3-ac4eb3d844c0}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Informations" languagecode="1036" />
+      <LocalizedName description="情報" languagecode="1041" />
+      <LocalizedName description="정보" languagecode="1042" />
+      <LocalizedName description="信息" languagecode="2052" />
+      <LocalizedName description="Informações" languagecode="2070" />
+      <LocalizedName description="Información" languagecode="3082" />
+    </LocalizedNames>
+  </systemform>
+</forms>

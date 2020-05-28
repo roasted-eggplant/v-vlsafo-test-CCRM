@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions>
+    <CustomAction Id="smp.Mscrm.HomepageGrid.account.NewRecord.CustomAction" Location="Mscrm.HomepageGrid.account.MainTab.Management.Controls._children" Sequence="10">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:Mscrm.HomepageGrid.account.NewRecord.Alt" Command="Mscrm.NewRecordFromGrid" Id="Mscrm.HomepageGrid.account.NewRecord" Image32by32="/_imgs/ribbon/newrecord32.png" Image16by16="/_imgs/ribbon/New_16.png" LabelText="$LocLabels:Mscrm.HomepageGrid.account.NewRecord.LabelText" Sequence="10" TemplateAlias="o1" ToolTipTitle="$LocLabels:Mscrm.HomepageGrid.account.NewRecord.ToolTipTitle" ToolTipDescription="$Resources(EntityDisplayName):Ribbon.Tooltip.New" ModernImage="New" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="smp.Mscrm.SubGrid.account.NewRecord.CustomAction" Location="Mscrm.SubGrid.account.MainTab.Management.Controls._children" Sequence="10">
+      <CommandUIDefinition>
+        <Button Command="Mscrm.NewRecordFromGrid" Id="Mscrm.SubGrid.account.NewRecord" Image32by32="/_imgs/ribbon/newrecord32.png" Image16by16="/_imgs/ribbon/New_16.png" LabelText="$LocLabels:Mscrm.SubGrid.account.NewRecord.LabelText" Sequence="10" TemplateAlias="o1" ToolTipTitle="$LocLabels:Mscrm.SubGrid.account.NewRecord.ToolTipTitle" ToolTipDescription="$Resources(EntityDisplayName):Ribbon.Tooltip.New" ModernImage="New" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="Mscrm.HomepageGrid.account.NewRecord.Alt">
+      <Titles>
+        <Title description="New Case" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.HomepageGrid.account.NewRecord.LabelText">
+      <Titles>
+        <Title description="New Case" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.HomepageGrid.account.NewRecord.ToolTipTitle">
+      <Titles>
+        <Title description="New Case" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.SubGrid.account.NewRecord.LabelText">
+      <Titles>
+        <Title description="New Case" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.SubGrid.account.NewRecord.ToolTipTitle">
+      <Titles>
+        <Title description="New Case" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

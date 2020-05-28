@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\MSBuild.AutoILMerge.Task.1.1.1\build\MSBuild.AutoILMerge.Task.props" Condition="Exists('..\packages\MSBuild.AutoILMerge.Task.1.1.1\build\MSBuild.AutoILMerge.Task.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{748CCB6C-9EF8-4DF0-9C18-FAF777C01AA2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CCRM.REF.OptimizedPlugins</RootNamespace>
+    <AssemblyName>CCRM.REF.OptimizedPlugins</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>OptimizedPlugins.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Crm.Sdk.Proxy, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.4\lib\net452\Microsoft.Crm.Sdk.Proxy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.6.1.7600.16394\lib\net35\Microsoft.IdentityModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xrm.Sdk, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.4\lib\net452\Microsoft.Xrm.Sdk.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xrm.Sdk.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CrmSdk.Workflow.9.0.2.4\lib\net452\Microsoft.Xrm.Sdk.Workflow.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MSBuild.AutoILMerge.Task, Version=1.0.0.0, Culture=en-US, processorArchitecture=MSIL">
+      <HintPath>..\packages\MSBuild.AutoILMerge.Task.1.1.1\lib\net40\MSBuild.AutoILMerge.Task.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Activities.Presentation" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Globalization" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Workflow.Activities" />
+    <Reference Include="System.Workflow.ComponentModel" />
+    <Reference Include="System.Workflow.Runtime" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Helpers\BlobHelper.cs" />
+    <Compile Include="Helpers\ValidationHelper.cs" />
+    <Compile Include="Helpers\Constants.cs" />
+    <Compile Include="Helpers\ServiceRequestEnum.cs" />
+    <Compile Include="Helpers\GeneratedProxy.cs" />
+    <Compile Include="Helpers\RestHelper.cs" />
+    <Compile Include="Helpers\TimeZoneHelper.cs" />
+    <Compile Include="Plugin.cs" />
+    <Compile Include="PostCreateorUpdateSetPriorityBasedStatus.cs" />
+    <Compile Include="PostCreateSRCreateDynNotes.cs" />
+    <Compile Include="PostCreateUpdateDoIntegration.cs" />
+    <Compile Include="PostCreateUpdateIncidentInPortal.cs" />
+    <Compile Include="PostProviderCreateTeam.cs" />
+    <Compile Include="PostSatisfactionSurveyResponseCreate.cs" />
+    <Compile Include="PostUpdateSRUpdateDynNotes.cs" />
+    <Compile Include="PreEscalationCreateDuplicateDetection.cs" />
+    <Compile Include="PreEscalationUpdateDuplicateDetection.cs" />
+    <Compile Include="PostServiceRequestCreateEmailNotification.cs" />
+    <Compile Include="PostServiceRequestsmp_CopySR.cs" />
+    <Compile Include="PostServiceRequestsmp_Reclassify.cs" />
+    <Compile Include="PostServiceRequestStatusChange.cs" />
+    <Compile Include="PostServiceRequestUpdateCreateAudit.cs" />
+    <Compile Include="PreProviderCreateDuplicateDetection.cs" />
+    <Compile Include="PreServiceRequestUpdateSetIntegrationStatus.cs" />
+    <Compile Include="PreServiceRequestUpdateSetPriority.cs" />
+    <Compile Include="PreServiceRequestUpdate.cs" />
+    <Compile Include="PreServiceRequestUpdateCompletedDate.cs" />
+    <Compile Include="PreSRUpdatePriorityEscalationNotes.cs" />
+    <Compile Include="PreServiceRequestCreateSetPriority.cs" />
+    <Compile Include="PreServiceRequestCreate.cs" />
+    <Compile Include="CRMAttributesResource.Designer.cs">
+      <DependentUpon>CRMAttributesResource.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Entities\Provider.cs" />
+    <Compile Include="Helpers\AuditHelper.cs" />
+    <Compile Include="Helpers\BulkCRUDHelper.cs" />
+    <Compile Include="Helpers\CustomServiceManagementPortalException.cs" />
+    <Compile Include="Helpers\DynamicAnswers.cs" />
+    <Compile Include="Helpers\EmailHelper.cs" />
+    <Compile Include="Helpers\ExceptionType.cs" />
+    <Compile Include="Helpers\FieldServicesHelper.cs" />
+    <Compile Include="Helpers\JsonHelper.cs" />
+    <Compile Include="Helpers\Logger.cs" />
+    <Compile Include="Helpers\ServiceRequestHelper.cs" />
+    <Compile Include="PreValidationCustomerAssetCreate.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CRMAttributesResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CRMAttributesResource.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ILMerge.props" />
+    <None Include="OptimizedPlugins.snk" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\MsfacilitiesAzureBlobService\" />
+    <WCFMetadataStorage Include="Connected Services\UATAzureBlob\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\UATAzureBlob\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\UATAzureBlob\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\UATAzureBlob\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\MsfacilitiesAzureBlobService\GenerateUrl.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\MsfacilitiesAzureBlobService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\MsfacilitiesAzureBlobService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\MsfacilitiesAzureBlobService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\UATAzureBlob\GenerateUrl1.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="content\ILMergeOrder.txt" />
+    <Content Include="ILMergeInternalizeExcludeList.txt" />
+    <Content Include="ILMergeOrder.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CCRM.REF.TelemetryLog\CCRM.REF.TelemetryLog.csproj">
+      <Project>{f607a0e1-55e2-42b4-a97f-ac53e6b4a11c}</Project>
+      <Name>CCRM.REF.TelemetryLog</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\MSBuild.AutoILMerge.Task.1.1.1\build\MSBuild.AutoILMerge.Task.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSBuild.AutoILMerge.Task.1.1.1\build\MSBuild.AutoILMerge.Task.props'))" />
+    <Error Condition="!Exists('..\packages\MSBuild.AutoILMerge.Task.1.1.1\build\MSBuild.AutoILMerge.Task.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSBuild.AutoILMerge.Task.1.1.1\build\MSBuild.AutoILMerge.Task.targets'))" />
+  </Target>
+  <Import Project="..\packages\MSBuild.AutoILMerge.Task.1.1.1\build\MSBuild.AutoILMerge.Task.targets" Condition="Exists('..\packages\MSBuild.AutoILMerge.Task.1.1.1\build\MSBuild.AutoILMerge.Task.targets')" />
+</Project>

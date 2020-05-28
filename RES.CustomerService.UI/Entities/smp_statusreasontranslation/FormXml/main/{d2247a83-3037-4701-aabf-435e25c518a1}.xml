@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{d2247a83-3037-4701-aabf-435e25c518a1}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{b2cb2e75-df10-47b0-84b4-95d545825a8f}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{30102080-9a0e-41a1-b8d2-715a51308c17}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1a57bec6-5d5c-4b67-4150-176db27b1527}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="smp_statusreason" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="smp_statusreason" disabled="false" />
+                      </cell>
+                      <cell id="{8c16df4a-fb27-4234-9feb-111cdca4d92c}" colspan="1" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Status Reason –English" languagecode="1033" />
+                        </labels>
+                        <control id="smp_statusreasontext" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_statusreasontext" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3694e3c9-32d9-329d-44ca-3e5825780b4c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Status Reason Name - French - France" languagecode="1033" />
+                        </labels>
+                        <control id="smp_statusreasontext_fr_fr" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_statusreasontext_fr_fr" disabled="false" />
+                      </cell>
+                      <cell id="{aa03a88d-6440-87cc-83da-21c99a492561}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Status Reason Name - Spanish – Mexico" languagecode="1033" />
+                        </labels>
+                        <control id="smp_statusreasontext_es_mx" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_statusreasontext_es_mx" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b1dd2a87-e2dd-8330-15c1-7d25739ce3c8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Status Reason Name - Japanese – Japan" languagecode="1033" />
+                        </labels>
+                        <control id="smp_statusreasontext_ja_jp" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_statusreasontext_ja_jp" disabled="false" />
+                      </cell>
+                      <cell id="{97156784-e334-4c9e-334e-2cb196b273ee}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Status Reason Name - Korean – Korea" languagecode="1033" />
+                        </labels>
+                        <control id="smp_statusreasontext_ko_kr" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_statusreasontext_ko_kr" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{361457a5-2698-3a11-e073-499445ee820e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Status Reason Name - Mandarin – Mainland China" languagecode="1033" />
+                        </labels>
+                        <control id="smp_statusreasontext_zh_cn" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_statusreasontext_zh_cn" disabled="false" />
+                      </cell>
+                      <cell id="{93ccad63-565b-3106-9791-ea0a46091b2a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Status Reason Name - Portuguese – Portugal" languagecode="1033" />
+                        </labels>
+                        <control id="smp_statusreasontext_pt_pt" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_statusreasontext_pt_pt" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{4c0254ae-19a0-4ae2-9379-62e2bb190a53}">
+        <rows>
+          <row>
+            <cell id="{20b00de4-152e-477c-a30a-a1a8add84c75}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control id="footer_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Processes" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <isquickfindquery>0</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <savedqueryid>{eca9cccd-8c77-4f36-a22a-cb8e1bf8a0f7}</savedqueryid>
+  <layoutxml>
+    <grid name="resultset" jump="msdyn_name" select="1" icon="1" preview="1">
+      <row name="result" id="msdyn_agreementbookingsetupid">
+        <cell name="msdyn_name" width="150" />
+        <cell name="msdyn_agreement" width="150" />
+        <cell name="msdyn_description" width="200" />
+        <cell name="msdyn_priority" width="150" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>0</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="msdyn_agreementbookingsetup">
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="0" />
+        </filter>
+        <order attribute="msdyn_agreement" descending="false" />
+        <attribute name="msdyn_priority" />
+        <attribute name="msdyn_agreement" />
+        <attribute name="msdyn_description" />
+        <attribute name="msdyn_name" />
+        <attribute name="msdyn_agreementbookingsetupid" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>3.1.0.3</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Active Agreement Booking Setups" languagecode="1033" />
+    <LocalizedName description="Configurations actives de réservation de contrat" languagecode="1036" />
+    <LocalizedName description="アクティブな契約予約設定" languagecode="1041" />
+    <LocalizedName description="활성 계약 예약 설정" languagecode="1042" />
+    <LocalizedName description="Configurações de reserva de contrato ativo" languagecode="1046" />
+    <LocalizedName description="可用协议预订设置" languagecode="2052" />
+    <LocalizedName description="Configurações da Reserva do Contrato Ativo" languagecode="2070" />
+    <LocalizedName description="Configuraciones de reserva del acuerdo activas" languagecode="3082" />
+  </LocalizedNames>
+</savedquery>

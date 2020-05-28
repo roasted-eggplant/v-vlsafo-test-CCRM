@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{e7cad13e-87a5-e111-84f4-000c2959f9b8}</savedqueryid>
+    <querytype>8192</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical" output-format="xml-platform">
+        <entity name="msdyn_agreementbookingsetup">
+          <attribute name="msdyn_agreementbookingsetupid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="ownerid" operator="eq-userid" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>3.1.0.3</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="My Agreement Booking Setups" languagecode="1033" />
+      <LocalizedName description="Mes configurations de réservation du contrat" languagecode="1036" />
+      <LocalizedName description="自分の契約予約設定" languagecode="1041" />
+      <LocalizedName description="내 계약 예약 설정" languagecode="1042" />
+      <LocalizedName description="Configurações de reserva do meu contrato" languagecode="1046" />
+      <LocalizedName description="我的协议预订设置" languagecode="2052" />
+      <LocalizedName description="As Minhas Configurações da Reserva do Contrato" languagecode="2070" />
+      <LocalizedName description="Mis configuraciones de reserva del acuerdo" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

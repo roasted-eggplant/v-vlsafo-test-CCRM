@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{0d671846-601a-43fb-ad96-d4563022bfb7}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="msdyn_description" select="1" icon="1" preview="0">
+        <row name="msdyn_iotalert" id="msdyn_iotalertid">
+          <cell name="msdyn_description" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msdyn_iotalert">
+          <attribute name="msdyn_iotalertid" />
+          <attribute name="msdyn_description" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="in">
+              <value>0</value>
+              <value>2</value>
+            </condition>
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="IoT Alert Lookup View" languagecode="1033" />
+      <LocalizedName description="Vue Recherche d'alerte IoT" languagecode="1036" />
+      <LocalizedName description="IoT 通知の検索ダイアログ ビュー" languagecode="1041" />
+      <LocalizedName description="IoT 알림 조회 보기" languagecode="1042" />
+      <LocalizedName description="Visualização de pesquisa de alerta da IoT" languagecode="1046" />
+      <LocalizedName description="IoT 警报查找视图" languagecode="2052" />
+      <LocalizedName description="Vista de Pesquisa de Alertas de IoT" languagecode="2070" />
+      <LocalizedName description="Vista de búsqueda de alertas de IoT" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

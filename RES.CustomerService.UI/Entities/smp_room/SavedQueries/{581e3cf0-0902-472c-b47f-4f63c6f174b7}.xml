@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{581e3cf0-0902-472c-b47f-4f63c6f174b7}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="smp_name" select="1" icon="1" preview="0">
+        <row name="smp_room" id="smp_roomid">
+          <cell name="smp_name" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_room">
+          <attribute name="smp_roomid" />
+          <attribute name="smp_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="smp_name" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Room Lookup View" languagecode="1033" />
+      <LocalizedName description="Visualização de Pesquisa de Sala" languagecode="1046" />
+      <LocalizedName description="Vista búsqueda de sala" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

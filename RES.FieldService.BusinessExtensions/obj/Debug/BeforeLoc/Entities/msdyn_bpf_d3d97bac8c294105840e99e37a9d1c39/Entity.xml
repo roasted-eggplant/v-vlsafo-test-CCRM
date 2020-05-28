@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Work Order Business Process" OriginalName="Work Order Business Process">msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39</Name>
+  <EntityInfo>
+    <entity Name="msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39">
+      <LocalizedNames>
+        <LocalizedName description="Work Order Business Process" languagecode="1033" />
+        <LocalizedName description="Proceso de negocio de orden de trabajo" languagecode="3082" />
+        <LocalizedName description="Processus d'entreprise d'ordre de travail" languagecode="1036" />
+        <LocalizedName description="作業指示書ビジネス プロセス" languagecode="1041" />
+        <LocalizedName description="작업 주문 비즈니스 프로세스" languagecode="1042" />
+        <LocalizedName description="Processo de Negócio da Ordem de Intervenção" languagecode="2070" />
+        <LocalizedName description="工作订单业务流程" languagecode="2052" />
+      </LocalizedNames>
+      <LocalizedCollectionNames>
+        <LocalizedCollectionName description="Work Order Business Process" languagecode="1033" />
+        <LocalizedCollectionName description="Proceso de negocio de orden de trabajo" languagecode="3082" />
+        <LocalizedCollectionName description="Processus d'entreprise d'ordre de travail" languagecode="1036" />
+        <LocalizedCollectionName description="作業指示書ビジネス プロセス" languagecode="1041" />
+        <LocalizedCollectionName description="작업 주문 비즈니스 프로세스" languagecode="1042" />
+        <LocalizedCollectionName description="Processo de Negócio da Ordem de Intervenção" languagecode="2070" />
+        <LocalizedCollectionName description="工作订单业务流程" languagecode="2052" />
+      </LocalizedCollectionNames>
+      <Descriptions>
+        <Description description="Base entity for process Work Order Business Process" languagecode="1033" />
+        <Description description="Entidad base para proceso de negocio de orden de trabajo" languagecode="3082" />
+        <Description description="Entité de base de traitement du processus d'entreprise d'ordre de travail" languagecode="1036" />
+        <Description description="プロセス (作業指示書ビジネス プロセス) の基本エンティティ" languagecode="1041" />
+        <Description description="프로세스 작업 주문 비즈니스 프로세스의 기본 엔터티" languagecode="1042" />
+        <Description description="Entidade base para processar o Processo de Negócio da Ordem de Intervenção" languagecode="2070" />
+        <Description description="处理工作订单业务流程的基本实体" languagecode="2052" />
+      </Descriptions>
+      <attributes>
+        <attribute PhysicalName="ActiveStageId">
+          <Type>lookup</Type>
+          <Name>activestageid</Name>
+          <LogicalName>activestageid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Active Stage" languagecode="1033" />
+            <displayname description="活动阶段" languagecode="2052" />
+            <displayname description="Phase active" languagecode="1036" />
+            <displayname description="アクティブ ステージ" languagecode="1041" />
+            <displayname description="활성 스테이지" languagecode="1042" />
+            <displayname description="Fase Ativa" languagecode="2070" />
+            <displayname description="Fase activa" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier of the active stage for the Business Process Flow instance." languagecode="1033" />
+            <Description description="业务流程实例的活动阶段的唯一标识符。" languagecode="2052" />
+            <Description description="Identificateur unique de la phase active pour l'instance du flux des processus d'entreprise." languagecode="1036" />
+            <Description description="業務プロセス フロー インスタンスのアクティブ ステージを表す一意識別子です。" languagecode="1041" />
+            <Description description="비즈니스 프로세스 흐름 인스턴스의 활성 스테이지의 고유 식별자입니다." languagecode="1042" />
+            <Description description="Identificador exclusivo da fase ativa para a instância do Fluxo do Processo de Negócio." languagecode="2070" />
+            <Description description="Identificador único de la fase activa de la instancia del flujo de proceso de negocio." languagecode="3082" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="CreatedBy">
+          <Type>lookup</Type>
+          <Name>createdby</Name>
+          <LogicalName>createdby</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForReadApi>1</ValidForReadApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Created By" languagecode="1033" />
+            <displayname description="创建者" languagecode="2052" />
+            <displayname description="Créé(e) par" languagecode="1036" />
+            <displayname description="作成者" languagecode="1041" />
+            <displayname description="만든 사람" languagecode="1042" />
+            <displayname description="Criado Por" languagecode="2070" />
+            <displayname description="Autor" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier of the user who created the record." languagecode="1033" />
+            <Description description="创建记录的用户的唯一标识符。" languagecode="2052" />
+            <Description description="Identificateur unique de l'utilisateur qui a créé l’enregistrement." languagecode="1036" />
+            <Description description="レコードを作成したユーザーを表す一意識別子です。" languagecode="1041" />
+            <Description description="레코드를 만든 사용자의 고유 식별자입니다." languagecode="1042" />
+            <Description description="Identificador exclusivo do utilizador que criou o registo." languagecode="2070" />
+            <Description description="Identificador único del usuario que creó el registro." languagecode="3082" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="CreatedOnBehalfBy">
+          <Type>lookup</Type>
+          <Name>createdonbehalfby</Name>
+          <LogicalName>createdonbehalfby</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForReadApi>1</ValidForReadApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Created By (Delegate)" languagecode="1033" />
+            <displayname description="创建者(代理)" languagecode="2052" />
+            <displayname description="Créé par (délégué)" languagecode="1036" />
+            <displayname description="作成者 (代理)" languagecode="1041" />
+            <displayname description="만든 사람(대리인)" languagecode="1042" />
+            <displayname description="Criado Por (Delegado)" languagecode="2070" />
+            <displayname description="Creado por (delegado)" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier of the delegate user who created the record." languagecode="1033" />
+            <Description description="创建记录的代理用户的唯一标识符。" languagecode="2052" />
+            <Description description="Identificateur unique de l'utilisateur délégué qui a créé l'enregistrement." languagecode="1036" />
+            <Description description="レコードを作成した代理ユーザーを表す一意識別子です。" languagecode="1041" />
+            <Description description="레코드를 만든 대리인 사용자의 고유 식별자입니다." languagecode="1042" />
+            <Description description="Identificador exclusivo do utilizador delegado que criou o registo." languagecode="2070" />
+            <Description description="Identificador único del usuario delegado que creó el registro." languagecode="3082" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="ModifiedBy">
+          <Type>lookup</Type>
+          <Name>modifiedby</Name>
+          <LogicalName>modifiedby</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForReadApi>1</ValidForReadApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Modified By" languagecode="1033" />
+            <displayname description="修改者" languagecode="2052" />
+            <displayname description="Modifié par" languagecode="1036" />
+            <displayname description="修正者" languagecode="1041" />
+            <displayname description="수정한 사람" languagecode="1042" />
+            <displayname description="Modificado Por" languagecode="2070" />
+            <displayname description="Modificado por" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier of the user who modified the record." languagecode="1033" />
+            <Description description="修改记录的用户的唯一标识符。" languagecode="2052" />
+            <Description description="Identificateur unique de l'utilisateur qui a modifié l'enregistrement." languagecode="1036" />
+            <Description description="レコードを修正したユーザーを表す一意識別子です。" languagecode="1041" />
+            <Description description="레코드를 수정한 사용자의 고유 식별자입니다." languagecode="1042" />
+            <Description description="Identificador exclusivo do utilizador que modificou o registo." languagecode="2070" />
+            <Description description="Identificador único del usuario que modificó el registro." languagecode="3082" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="ModifiedOnBehalfBy">
+          <Type>lookup</Type>
+          <Name>modifiedonbehalfby</Name>
+          <LogicalName>modifiedonbehalfby</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForReadApi>1</ValidForReadApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Modified By (Delegate)" languagecode="1033" />
+            <displayname description="修改者(代理)" languagecode="2052" />
+            <displayname description="Modifié par (délégué)" languagecode="1036" />
+            <displayname description="修正者 (代理)" languagecode="1041" />
+            <displayname description="수정한 사람(대리인)" languagecode="1042" />
+            <displayname description="Modificado Por (Delegado)" languagecode="2070" />
+            <displayname description="Modificado por (delegado)" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier of the delegate user who modified the record." languagecode="1033" />
+            <Description description="修改记录的代理用户的唯一标识符。" languagecode="2052" />
+            <Description description="Identificateur unique de l'utilisateur délégué qui a modifié l'enregistrement." languagecode="1036" />
+            <Description description="レコードを修正した代理ユーザーを表す一意識別子です。" languagecode="1041" />
+            <Description description="레코드를 수정한 대리인 사용자의 고유 식별자입니다." languagecode="1042" />
+            <Description description="Identificador exclusivo do utilizador delegado que modificou o registo." languagecode="2070" />
+            <Description description="Identificador único del usuario delegado que modificó el registro." languagecode="3082" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="OrganizationId">
+          <Type>lookup</Type>
+          <Name>organizationid</Name>
+          <LogicalName>organizationid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <ImeMode>auto</ImeMode>
+          <ValidForReadApi>1</ValidForReadApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Organization Id" languagecode="1033" />
+            <displayname description="组织 ID" languagecode="2052" />
+            <displayname description="ID d'organisation" languagecode="1036" />
+            <displayname description="組織 ID" languagecode="1041" />
+            <displayname description="조직 Id" languagecode="1042" />
+            <displayname description="ID da Organização" languagecode="2070" />
+            <displayname description="Id. de la organización" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for the organization" languagecode="1033" />
+            <Description description="组织的唯一标识符" languagecode="2052" />
+            <Description description="Identificateur unique de l'organisation" languagecode="1036" />
+            <Description description="組織を表す一意識別子です" languagecode="1041" />
+            <Description description="조직의 고유 식별자" languagecode="1042" />
+            <Description description="Identificador exclusivo da organização" languagecode="2070" />
+            <Description description="Identificador único de la organización" languagecode="3082" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="ProcessId">
+          <Type>lookup</Type>
+          <Name>processid</Name>
+          <LogicalName>processid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Process" languagecode="1033" />
+            <displayname description="流程" languagecode="2052" />
+            <displayname description="Traiter" languagecode="1036" />
+            <displayname description="プロセス" languagecode="1041" />
+            <displayname description="프로세스" languagecode="1042" />
+            <displayname description="Processar" languagecode="2070" />
+            <displayname description="Proceso" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier of the workflow associated to the Business Process Flow instance." languagecode="1033" />
+            <Description description="与业务流程实例关联的工作流的唯一标识符。" languagecode="2052" />
+            <Description description="Identificateur unique du workflow associé à l'instance du flux des processus d'entreprise." languagecode="1036" />
+            <Description description="業務プロセス フロー インスタンスに関連付けられたワークフローを表す一意識別子です。" languagecode="1041" />
+            <Description description="비즈니스 프로세스 흐름 인스턴스에 연결된 워크플로의 고유 식별자입니다." languagecode="1042" />
+            <Description description="Identificador exclusivo do fluxo de trabalho associado à instância do Fluxo do Processo de Negócio." languagecode="2070" />
+            <Description description="Identificador único del flujo de trabajo asociado a la instancia del flujo de proceso de negocio." languagecode="3082" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="TraversedPath">
+          <Type>nvarchar</Type>
+          <Name>traversedpath</Name>
+          <LogicalName>traversedpath</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>1250</MaxLength>
+          <Length>2500</Length>
+          <displaynames>
+            <displayname description="Traversed Path" languagecode="1033" />
+            <displayname description="遍历的路径" languagecode="2052" />
+            <displayname description="Chemin d'accès traversé" languagecode="1036" />
+            <displayname description="渡ったパス" languagecode="1041" />
+            <displayname description="통과 경로" languagecode="1042" />
+            <displayname description="Caminho Percorrido" languagecode="2070" />
+            <displayname description="Ruta recorrida" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Comma delimited string of process stage ids that represent visited stages of the Business Process Flow instance." languagecode="1033" />
+            <Description description="过程阶段 ID 的以逗号分隔的字符串，这些 ID 表示业务流程实例的已访问阶段。" languagecode="2052" />
+            <Description description="Chaîne séparée par des virgules dans laquelle figurent des identificateurs de phases représentant les phases consultées de l'instance de flux des processus d'entreprise." languagecode="1036" />
+            <Description description="業務プロセス フロー インスタンスのアクセス済みステージを表すプロセス ステージ ID のコンマ区切り文字列です。" languagecode="1041" />
+            <Description description="비즈니스 프로세스 흐름 인스턴스의 방문한 스테이지를 나타내는 프로세스 스테이지 id의 쉼표로 구분된 문자열입니다." languagecode="1042" />
+            <Description description="Cadeia delimitada por vírgulas de IDs da fase de processo que representam as fases visitadas da instância do Fluxo do Processo de Negócio." languagecode="2070" />
+            <Description description="Cadena delimitada por comas de los id. de la fase de proceso que representan las fases visitadas de la instancia del flujo de proceso de negocio." languagecode="3082" />
+          </Descriptions>
+        </attribute>
+      </attributes>
+      <EntitySetName>msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39s</EntitySetName>
+      <IsDuplicateCheckSupported>0</IsDuplicateCheckSupported>
+      <IsBusinessProcessEnabled>0</IsBusinessProcessEnabled>
+      <IsRequiredOffline>0</IsRequiredOffline>
+      <IsInteractionCentricEnabled>0</IsInteractionCentricEnabled>
+      <IsCollaboration>0</IsCollaboration>
+      <AutoRouteToOwnerQueue>0</AutoRouteToOwnerQueue>
+      <IsConnectionsEnabled>0</IsConnectionsEnabled>
+      <IsDocumentManagementEnabled>0</IsDocumentManagementEnabled>
+      <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
+      <IsKnowledgeManagementEnabled>0</IsKnowledgeManagementEnabled>
+      <IsSLAEnabled>0</IsSLAEnabled>
+      <IsDocumentRecommendationsEnabled>0</IsDocumentRecommendationsEnabled>
+      <IsBPFEntity>1</IsBPFEntity>
+      <OwnershipTypeMask>OrgOwned</OwnershipTypeMask>
+      <IsAuditEnabled>0</IsAuditEnabled>
+      <IsRetrieveAuditEnabled>0</IsRetrieveAuditEnabled>
+      <IsRetrieveMultipleAuditEnabled>0</IsRetrieveMultipleAuditEnabled>
+      <IsActivity>0</IsActivity>
+      <ActivityTypeMask></ActivityTypeMask>
+      <IsActivityParty>0</IsActivityParty>
+      <IsReplicated>1</IsReplicated>
+      <IsReplicationUserFiltered>1</IsReplicationUserFiltered>
+      <IsMailMergeEnabled>0</IsMailMergeEnabled>
+      <IsVisibleInMobile>0</IsVisibleInMobile>
+      <IsVisibleInMobileClient>1</IsVisibleInMobileClient>
+      <IsReadOnlyInMobileClient>0</IsReadOnlyInMobileClient>
+      <IsOfflineInMobileClient>1</IsOfflineInMobileClient>
+      <DaysSinceRecordLastModified>0</DaysSinceRecordLastModified>
+      <MobileOfflineFilters></MobileOfflineFilters>
+      <IsMapiGridEnabled>1</IsMapiGridEnabled>
+      <IsReadingPaneEnabled>0</IsReadingPaneEnabled>
+      <IsQuickCreateEnabled>0</IsQuickCreateEnabled>
+      <SyncToExternalSearchIndex>0</SyncToExternalSearchIndex>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <EnforceStateTransitions>0</EnforceStateTransitions>
+      <EntityHelpUrlEnabled>0</EntityHelpUrlEnabled>
+      <ChangeTrackingEnabled>1</ChangeTrackingEnabled>
+      <IsEnabledForExternalChannels>0</IsEnabledForExternalChannels>
+      <IsSolutionAware>0</IsSolutionAware>
+    </entity>
+  </EntityInfo>
+  <FormXml />
+  <RibbonDiffXml />
+</Entity>

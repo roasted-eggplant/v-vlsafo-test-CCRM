@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform unmodified="1">
+    <formid>{90dd394d-6bc9-40f1-abd0-4dc19ab32b93}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="general" verticallayout="true" id="{0ea2bf39-1128-437c-bdc0-32860bc99c7c}" IsUserDefined="0">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="25%">
+              <sections>
+                <section name="ColorStrip" showlabel="false" showbar="false" columns="1" IsUserDefined="0" id="{9cd4ed1c-c638-4698-91e7-fc99635a9b31}">
+                  <labels>
+                    <label description="ColorStrip" languagecode="1033" />
+                    <label description="ColorStrip" languagecode="1036" />
+                    <label description="カラー ストリップ" languagecode="1041" />
+                    <label description="색상 스트립" languagecode="1042" />
+                    <label description="颜色条" languagecode="2052" />
+                    <label description="ColorStrip" languagecode="2070" />
+                    <label description="Franja de colores" languagecode="3082" />
+                  </labels>
+                </section>
+              </sections>
+            </column>
+            <column width="75%">
+              <sections>
+                <section name="CardHeader" showlabel="false" showbar="false" columns="111" id="{e7eafe7a-4b91-48fa-8932-f6acfb970bcd}" IsUserDefined="0">
+                  <labels>
+                    <label description="Header" languagecode="1033" />
+                    <label description="En-tête" languagecode="1036" />
+                    <label description="ヘッダー" languagecode="1041" />
+                    <label description="머리글" languagecode="1042" />
+                    <label description="标头" languagecode="2052" />
+                    <label description="Cabeçalho" languagecode="2070" />
+                    <label description="Encabezado" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{befd178d-1881-45ee-8ea8-bcf2bd179624}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Alert Status" languagecode="1033" />
+                          <label description="警报状态" languagecode="2052" />
+                          <label description="Statut de l'alerte" languagecode="1036" />
+                          <label description="通知の状態" languagecode="1041" />
+                          <label description="알림 상태" languagecode="1042" />
+                          <label description="Estado do Alerta" languagecode="2070" />
+                          <label description="Estado de alerta" languagecode="3082" />
+                        </labels>
+                        <control id="statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
+                      </cell>
+                      <cell id="{c97c48a6-f70a-418e-9e66-fa96d8ebbe9d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{03311c37-7bbb-4534-b9c2-39a8f61eda00}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="CardDetails" showlabel="false" showbar="false" columns="1" id="{c4cf3720-a028-44ba-88bb-9d6c0bee6fd1}" IsUserDefined="0">
+                  <labels>
+                    <label description="Details" languagecode="1033" />
+                    <label description="Détails" languagecode="1036" />
+                    <label description="詳細" languagecode="1041" />
+                    <label description="세부 정보" languagecode="1042" />
+                    <label description="详细信息" languagecode="2052" />
+                    <label description="Detalhes" languagecode="2070" />
+                    <label description="Detalles" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c77943ff-de7b-4fbd-b63e-c4bb5b29c031}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="IoT Alert ID" languagecode="1033" />
+                          <label description="说明" languagecode="2052" />
+                          <label description="Description" languagecode="1036" />
+                          <label description="説明" languagecode="1041" />
+                          <label description="설명" languagecode="1042" />
+                          <label description="Descrição" languagecode="2070" />
+                          <label description="Descripción" languagecode="3082" />
+                        </labels>
+                        <control id="msdyn_description" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msdyn_description" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="CardFooter" showlabel="false" columns="1111" showbar="false" id="{a36049c7-35a6-421b-98dc-084c23b1c613}" IsUserDefined="0">
+                  <labels>
+                    <label description="Footer" languagecode="1033" />
+                    <label description="Pied de page" languagecode="1036" />
+                    <label description="フッター" languagecode="1041" />
+                    <label description="바닥글" languagecode="1042" />
+                    <label description="页脚" languagecode="2052" />
+                    <label description="Rodapé" languagecode="2070" />
+                    <label description="Pie de página" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d154f069-6da7-4787-8619-e7ab34a42032}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="负责人" languagecode="2052" />
+                          <label description="Propriétaire" languagecode="1036" />
+                          <label description="所有者" languagecode="1041" />
+                          <label description="담당자" languagecode="1042" />
+                          <label description="Proprietário" languagecode="2070" />
+                          <label description="Propietario" languagecode="3082" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                      </cell>
+                      <cell id="{4cdb9089-1021-490a-a1f9-af01b26aee85}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Created On" languagecode="1033" />
+                          <label description="创建日期" languagecode="2052" />
+                          <label description="Date de création" languagecode="1036" />
+                          <label description="作成日" languagecode="1041" />
+                          <label description="만든 날짜" languagecode="1042" />
+                          <label description="Criado Em" languagecode="2070" />
+                          <label description="Fecha de creación" languagecode="3082" />
+                        </labels>
+                        <control id="createdon" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdon" disabled="false" />
+                      </cell>
+                      <cell id="{7ea7b55b-929f-45b9-bfed-5bd27a5abcc8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{ff525a74-aed9-4b8e-a217-83e7a872a985}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Informations" languagecode="1036" />
+      <LocalizedName description="情報" languagecode="1041" />
+      <LocalizedName description="정보" languagecode="1042" />
+      <LocalizedName description="信息" languagecode="2052" />
+      <LocalizedName description="Informações" languagecode="2070" />
+      <LocalizedName description="Información" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A card form for this entity." languagecode="1033" />
+      <Description description="Formulaire de carte pour cette entité." languagecode="1036" />
+      <Description description="このエンティティのカード フォームです。" languagecode="1041" />
+      <Description description="이 엔터티의 카드 양식입니다." languagecode="1042" />
+      <Description description="此实体的卡窗体。" languagecode="2052" />
+      <Description description="Um formulário de cartão para esta entidade." languagecode="2070" />
+      <Description description="Un formulario de tarjeta para esta entidad." languagecode="3082" />
+    </Descriptions>
+  </systemform>
+</forms>

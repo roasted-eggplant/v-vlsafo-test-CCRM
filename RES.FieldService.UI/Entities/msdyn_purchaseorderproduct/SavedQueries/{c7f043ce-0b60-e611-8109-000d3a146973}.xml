@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{c7f043ce-0b60-e611-8109-000d3a146973}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msdyn_name" select="1" icon="1" preview="1">
+        <row name="result" id="msdyn_purchaseorderproductid">
+          <cell name="msdyn_name" width="100" />
+          <cell name="msdyn_quantity" width="100" />
+          <cell name="msdyn_lineorder" width="100" />
+          <cell name="msdyn_product" width="150" />
+          <cell name="msdyn_description" width="100" disableSorting="1" />
+          <cell name="msdyn_dateexpected" width="100" />
+          <cell name="msdyn_purchaseorder" width="150" />
+          <cell name="createdon" width="125" />
+          <cell name="smp_vendor" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msdyn_purchaseorderproduct">
+          <attribute name="createdon" />
+          <order attribute="msdyn_lineorder" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="msdyn_purchaseorder" />
+          <attribute name="msdyn_product" />
+          <attribute name="msdyn_lineorder" />
+          <attribute name="msdyn_quantity" />
+          <attribute name="msdyn_name" />
+          <attribute name="msdyn_description" />
+          <attribute name="msdyn_dateexpected" />
+          <attribute name="smp_vendor" />
+          <attribute name="msdyn_purchaseorderproductid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>6.1.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Purchase Requisition Product View - MoCa" languagecode="1033" />
+      <LocalizedName description="Vue Produit de bon de commande - MoCa" languagecode="1036" />
+      <LocalizedName description="発注書の製品ビュー - MoCa" languagecode="1041" />
+      <LocalizedName description="구매 주문 제품 조회 보기 - MoCa" languagecode="1042" />
+      <LocalizedName description="Visualização de Requisição de Compra de Produtos - MoCa" languagecode="1046" />
+      <LocalizedName description="采购订单产品视图 - MoCa" languagecode="2052" />
+      <LocalizedName description="Vista de Produto da Nota de Encomenda - MoCa" languagecode="2070" />
+      <LocalizedName description="Vista de productos de pedidos de compra: MoCa" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="This view is used for MoCa." languagecode="1033" />
+      <Description description="Cette vue est utilisée pour MoCa." languagecode="1036" />
+      <Description description="このビューは MoCa 用に使用されます。" languagecode="1041" />
+      <Description description="이 보기는 MoCa에 사용됩니다." languagecode="1042" />
+      <Description description="Esta visualização é utilizada para MoCa" languagecode="1046" />
+      <Description description="此视图用于 MoCa。" languagecode="2052" />
+      <Description description="Esta vista é utilizada para MoCa." languagecode="2070" />
+      <Description description="Esta vista se utiliza para MoCa." languagecode="3082" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

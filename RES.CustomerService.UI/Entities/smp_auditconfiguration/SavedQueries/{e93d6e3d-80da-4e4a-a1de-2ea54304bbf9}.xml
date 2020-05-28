@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{e93d6e3d-80da-4e4a-a1de-2ea54304bbf9}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_entityname" select="1" icon="1" preview="1">
+        <row name="result" id="smp_auditconfigurationid">
+          <cell name="smp_entityname" width="300" />
+          <cell name="smp_attributename" width="100" />
+          <cell name="createdon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_auditconfiguration">
+          <attribute name="smp_entityname" />
+          <order attribute="smp_entityname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="smp_attributename" />
+          <attribute name="createdon" />
+          <attribute name="smp_auditconfigurationid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Audit Configurations" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

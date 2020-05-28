@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="business_unit_msdyn_agreementbookingsetup">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IsCustomizable>1</IsCustomizable>
+    <IntroducedVersion>3.1.0.3</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>msdyn_agreementbookingsetup</ReferencingEntityName>
+    <ReferencedEntityName>BusinessUnit</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>NoCascade</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <ReferencingAttributeName>OwningBusinessUnit</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Unique identifier for the business unit that owns the record" languagecode="1033" />
+        <Description description="负责记录的业务部门的唯一标识符" languagecode="2052" />
+        <Description description="Identificateur unique de la division propriétaire de l'enregistrement" languagecode="1036" />
+        <Description description="レコードを所有する部署を表す一意識別子です" languagecode="1041" />
+        <Description description="레코드를 담당하는 사업부의 고유 식별자" languagecode="1042" />
+        <Description description="Identificador exclusivo da unidade de negócio proprietária do registo" languagecode="2070" />
+        <Description description="Identificador único de la unidad de negocio propietaria del registro" languagecode="3082" />
+      </Descriptions>
+    </RelationshipDescription>
+  </EntityRelationship>
+  <EntityRelationship Name="business_unit_msdyn_incidenttype">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IsCustomizable>1</IsCustomizable>
+    <IntroducedVersion>3.1.0.3</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>msdyn_incidenttype</ReferencingEntityName>
+    <ReferencedEntityName>BusinessUnit</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>NoCascade</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <ReferencingAttributeName>OwningBusinessUnit</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Unique identifier for the business unit that owns the record" languagecode="1033" />
+        <Description description="负责记录的业务部门的唯一标识符" languagecode="2052" />
+        <Description description="Identificateur unique de la division propriétaire de l'enregistrement" languagecode="1036" />
+        <Description description="レコードを所有する部署を表す一意識別子です" languagecode="1041" />
+        <Description description="레코드를 담당하는 사업부의 고유 식별자" languagecode="1042" />
+        <Description description="Identificador exclusivo da unidade de negócio proprietária do registo" languagecode="2070" />
+        <Description description="Identificador único de la unidad de negocio propietaria del registro" languagecode="3082" />
+      </Descriptions>
+    </RelationshipDescription>
+  </EntityRelationship>
+</EntityRelationships>

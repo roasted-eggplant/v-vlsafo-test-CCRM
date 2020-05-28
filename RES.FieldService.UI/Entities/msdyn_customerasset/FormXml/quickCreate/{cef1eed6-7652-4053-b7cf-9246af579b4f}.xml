@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{cef1eed6-7652-4053-b7cf-9246af579b4f}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1900">
+      <tabs>
+        <tab id="{0f31a318-a7a2-46a4-b8ad-68e84f934ebe}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+            <label description="Onglet" languagecode="1036" />
+            <label description="タブ" languagecode="1041" />
+            <label description="탭" languagecode="1042" />
+            <label description="Guia" languagecode="1046" />
+            <label description="选项卡" languagecode="2052" />
+            <label description="Separador" languagecode="2070" />
+            <label description="Tabla" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{4c79658e-fc7d-4718-94c5-cc5ba72f1b1a}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                    <label description="section" languagecode="1036" />
+                    <label description="セクション" languagecode="1041" />
+                    <label description="섹션" languagecode="1042" />
+                    <label description="Seção" languagecode="1046" />
+                    <label description="节" languagecode="2052" />
+                    <label description="secção" languagecode="2070" />
+                    <label description="Sección" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{26e23c2d-82dd-735b-4608-a575ee23d627}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Asset Name" languagecode="1033" />
+                          <label description="名称" languagecode="2052" />
+                          <label description="Nom" languagecode="1036" />
+                          <label description="名前" languagecode="1041" />
+                          <label description="이름" languagecode="1042" />
+                          <label description="Nome" languagecode="2070" />
+                          <label description="Nombre de activo" languagecode="3082" />
+                        </labels>
+                        <control id="msdyn_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msdyn_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0b5c2634-74d0-3d30-e83a-8b41e130e79b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Category" languagecode="1033" />
+                          <label description="类别" languagecode="2052" />
+                          <label description="Catégorie" languagecode="1036" />
+                          <label description="カテゴリ" languagecode="1041" />
+                          <label description="범주" languagecode="1042" />
+                          <label description="Categoria" languagecode="2070" />
+                          <label description="Categoria" languagecode="3082" />
+                        </labels>
+                        <control id="msdyn_customerassetcategory" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_customerassetcategory" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c0734e0d-3615-2a9b-2727-1d07b58ecb2c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Building" languagecode="1033" />
+                          <label description="客户" languagecode="2052" />
+                          <label description="Compte" languagecode="1036" />
+                          <label description="取引先企業" languagecode="1041" />
+                          <label description="거래처" languagecode="1042" />
+                          <label description="Conta" languagecode="2070" />
+                          <label description="Edificio" languagecode="3082" />
+                        </labels>
+                        <control id="msdyn_account" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_account" disabled="false" uniqueid="{1960cab5-1314-b401-b69b-d625bb6cced0}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{F3378010-EE11-E811-8116-5065F38BC1A1}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{db7ee40e-b292-b328-8719-786697d192ca}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Product" languagecode="1033" />
+                          <label description="产品" languagecode="2052" />
+                          <label description="Produit" languagecode="1036" />
+                          <label description="製品" languagecode="1041" />
+                          <label description="제품" languagecode="1042" />
+                          <label description="Produto" languagecode="2070" />
+                          <label description="Producto" languagecode="3082" />
+                        </labels>
+                        <control id="msdyn_product" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_product" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{e57d3062-448a-46cd-90f6-d5ab28a4268a}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                    <label description="section" languagecode="1036" />
+                    <label description="セクション" languagecode="1041" />
+                    <label description="섹션" languagecode="1042" />
+                    <label description="Seção" languagecode="1046" />
+                    <label description="节" languagecode="2052" />
+                    <label description="secção" languagecode="2070" />
+                    <label description="Sección" languagecode="3082" />
+                  </labels>
+                  <rows></rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{25e7d3a0-1378-4d97-b5b3-c2c7c4ee6794}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                    <label description="section" languagecode="1036" />
+                    <label description="セクション" languagecode="1041" />
+                    <label description="섹션" languagecode="1042" />
+                    <label description="Seção" languagecode="1046" />
+                    <label description="节" languagecode="2052" />
+                    <label description="secção" languagecode="2070" />
+                    <label description="Sección" languagecode="3082" />
+                  </labels>
+                  <rows></rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <formLibraries>
+        <Library name="msdyn_/CustomerAsset/CustomerAsset.Library.js" libraryUniqueId="{9e6d097c-5453-7266-4d43-a4536d2c3de1}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="CustomerAssets.Library.Load" libraryName="msdyn_/CustomerAsset/CustomerAsset.Library.js" handlerUniqueId="{78098ab3-634a-cd88-32b5-3d5869aa12c7}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+      <controlDescriptions />
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Customer Asset Quick Create" languagecode="1033" />
+      <LocalizedName description="Création rapide d'actif client" languagecode="1036" />
+      <LocalizedName description="顧客資産の簡易作成" languagecode="1041" />
+      <LocalizedName description="고객 자산 빨리 만들기" languagecode="1042" />
+      <LocalizedName description="Criação rápida de ativos do cliente" languagecode="1046" />
+      <LocalizedName description="客户资产快速创建" languagecode="2052" />
+      <LocalizedName description="Criação Rápida do Ativo do Cliente" languagecode="2070" />
+      <LocalizedName description="Creación rápida de activos del cliente" languagecode="3082" />
+    </LocalizedNames>
+  </systemform>
+</forms>

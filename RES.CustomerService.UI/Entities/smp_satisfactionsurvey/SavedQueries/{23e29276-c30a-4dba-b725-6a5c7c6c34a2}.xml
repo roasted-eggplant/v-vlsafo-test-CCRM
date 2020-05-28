@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{23e29276-c30a-4dba-b725-6a5c7c6c34a2}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_name" select="1" icon="1" preview="1">
+        <row name="result" id="smp_satisfactionsurveyid">
+          <cell name="smp_incidentid" width="100" />
+          <cell name="smp_44c1306bc20443a78eb80401a9b8b1f4" width="100" />
+          <cell name="smp_a0c758b0247b4a4ba020420eb4142c5a" width="100" />
+          <cell name="smp_2fc71c11ac6141cfa92aebd830420325" width="100" />
+          <cell name="smp_d34a6d84bdd6416d99d2849e9220921a" width="100" />
+          <cell name="smp_contactid" width="100" />
+          <cell name="a_704dd3793df1e71180fd3863bb35cf80.smp_contactalias" width="100" disableSorting="1" />
+          <cell name="a_704dd3793df1e71180fd3863bb35cf80.smp_contactemail" width="100" disableSorting="1" />
+          <cell name="a_704dd3793df1e71180fd3863bb35cf80.smp_problembuilding" width="100" disableSorting="1" />
+          <cell name="a_704dd3793df1e71180fd3863bb35cf80.smp_problembuildingcountry" width="100" disableSorting="1" />
+          <cell name="a_704dd3793df1e71180fd3863bb35cf80.smp_problemclassid" width="100" disableSorting="1" />
+          <cell name="a_704dd3793df1e71180fd3863bb35cf80.smp_problemtypeid" width="100" disableSorting="1" />
+          <cell name="a_704dd3793df1e71180fd3863bb35cf80.smp_problemtypedescription" width="100" disableSorting="1" />
+          <cell name="a_704dd3793df1e71180fd3863bb35cf80.createdon" width="100" disableSorting="1" />
+          <cell name="a_704dd3793df1e71180fd3863bb35cf80.description" width="100" disableSorting="1" />
+          <cell name="a_704dd3793df1e71180fd3863bb35cf80.customerid" width="100" disableSorting="1" />
+          <cell name="smp_name" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_satisfactionsurvey">
+          <attribute name="smp_name" />
+          <attribute name="createdon" />
+          <order attribute="smp_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="smp_44c1306bc20443a78eb80401a9b8b1f4" />
+          <attribute name="smp_d34a6d84bdd6416d99d2849e9220921a" />
+          <attribute name="smp_incidentid" />
+          <attribute name="smp_2fc71c11ac6141cfa92aebd830420325" />
+          <attribute name="smp_a0c758b0247b4a4ba020420eb4142c5a" />
+          <link-entity alias="a_704dd3793df1e71180fd3863bb35cf80" name="incident" from="incidentid" to="smp_incidentid" link-type="outer" visible="false">
+            <attribute name="smp_problemtypedescription" />
+            <attribute name="smp_problemtypeid" />
+            <attribute name="smp_problemclassid" />
+            <attribute name="smp_problembuildingcountry" />
+            <attribute name="smp_problembuilding" />
+            <attribute name="smp_contactemail" />
+            <attribute name="smp_contactalias" />
+            <attribute name="customerid" />
+            <attribute name="description" />
+            <attribute name="createdon" />
+          </link-entity>
+          <attribute name="smp_contactid" />
+          <attribute name="smp_satisfactionsurveyid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Satisfaction Survey" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

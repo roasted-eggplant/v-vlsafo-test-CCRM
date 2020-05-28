@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{d70bcff2-816a-e611-8106-00155db8820b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msdyn_name" select="1" preview="1" icon="1">
+        <row name="result" id="msdyn_customerassetid">
+          <cell name="msdyn_name" width="150" />
+          <cell name="msdyn_account" width="100" />
+          <cell name="msdyn_product" width="100" />
+          <cell name="msdyn_parentasset" width="100" />
+          <cell name="createdon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="msdyn_customerasset">
+          <attribute name="msdyn_name" />
+          <attribute name="msdyn_product" />
+          <attribute name="createdon" />
+          <attribute name="msdyn_account" />
+          <attribute name="msdyn_parentasset" />
+          <order attribute="createdon" descending="true" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="msdyn_registrationstatus" operator="eq" value="192350004" />
+          </filter>
+          <attribute name="msdyn_customerassetid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Assets With Registration Errors" languagecode="1033" />
+      <LocalizedName description="Actifs avec des erreurs d'inscription" languagecode="1036" />
+      <LocalizedName description="登録エラーが発生している資産" languagecode="1041" />
+      <LocalizedName description="등록 오류가 있는 자산" languagecode="1042" />
+      <LocalizedName description="Ativos com erros de registro" languagecode="1046" />
+      <LocalizedName description="存在注册错误的资产" languagecode="2052" />
+      <LocalizedName description="Ativos Com Erros de Registo" languagecode="2070" />
+      <LocalizedName description="Activos con errores de registro" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

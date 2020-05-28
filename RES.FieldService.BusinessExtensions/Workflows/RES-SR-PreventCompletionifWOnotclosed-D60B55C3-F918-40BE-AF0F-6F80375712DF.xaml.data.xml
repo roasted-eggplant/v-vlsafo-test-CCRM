@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{d60b55c3-f918-40be-af0f-6f80375712df}" Name="RES - SR - Prevent Completion if WO not closed" Description="As a SWE, I want to prevent GFSC users from complete/resolve an SR with an open (in progress) WO, in order to ensure SR/WO records statuses stay in-sync">
+  <XamlFileName>/Workflows/RES-SR-PreventCompletionifWOnotclosed-D60B55C3-F918-40BE-AF0F-6F80375712DF.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>0</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnUpdateAttributeList>statuscode</TriggerOnUpdateAttributeList>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <CreateStage>40</CreateStage>
+  <UpdateStage>40</UpdateStage>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>3.6.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <PrimaryEntity>Incident</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="RES - SR - Prevent Completion if WO not closed" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="As a SWE, I want to prevent GFSC users from complete/resolve an SR with an open (in progress) WO, in order to ensure SR/WO records statuses stay in-sync" />
+  </Descriptions>
+  <labels>
+    <steplabels id="{f2fa9a66-8453-4bb1-b6e6-171a3299da32}">
+      <label languagecode="1033" description="Contact Tier1 to close the related Work Order and then Service Request will be completed automatically!!  " />
+    </steplabels>
+  </labels>
+</Workflow>

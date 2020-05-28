@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>0</CanBeDeleted>
+  <isquickfindquery>0</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <savedqueryid>{70a12fe9-ff12-4960-a6f8-d05ccd0da405}</savedqueryid>
+  <layoutxml>
+    <grid name="" jump="smp_name" select="1" icon="1" preview="1">
+      <row name="smp_woemailnotification" id="smp_woemailnotificationid">
+        <cell name="smp_user" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        <cell name="createdon" width="125" />
+        <cell name="modifiedon" width="100" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>2</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="smp_woemailnotification">
+        <attribute name="createdon" />
+        <order attribute="smp_user" descending="false" />
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="0" />
+        </filter>
+        <attribute name="modifiedon" />
+        <attribute name="smp_user" />
+        <attribute name="smp_woemailnotificationid" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="WO Email Notification Associated View" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

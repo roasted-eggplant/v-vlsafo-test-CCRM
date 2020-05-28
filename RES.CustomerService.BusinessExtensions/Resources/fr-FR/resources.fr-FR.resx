@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Source LCID" xml:space="preserve">
+    <value>1036</value>
+  </metadata>
+  <metadata name="Source file" xml:space="preserve">
+    <value>HoldingSolution.zip</value>
+  </metadata>
+  <metadata name="Source package type" xml:space="preserve">
+    <value>Unmanaged</value>
+  </metadata>
+  <metadata name="SolutionPackager Version" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZfQnVp
+        bGQJX1JldmlzaW9uAAAAAAgICAgJAAAAAAAAAAAAAAAAAAAACw==
+</value>
+  </metadata>
+  <data name="10:CustomLabel,bpf_msdyn_workorder_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39" xml:space="preserve">
+    <value>msdyn_workorder</value>
+    <comment>msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39 CustomLabel for EntityRelationship 'bpf_msdyn_workorder_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39'</comment>
+  </data>
+  <data name="10:Description,lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_activestageid" xml:space="preserve">
+    <value>Identificateur unique de la phase active pour l'instance du flux des processus d'entreprise.</value>
+    <comment>msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39 Description for EntityRelationship 'lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_activestageid'</comment>
+  </data>
+  <data name="10:Description,lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_createdby" xml:space="preserve">
+    <value>Identificateur unique de l'utilisateur qui a créé l’enregistrement.</value>
+    <comment>msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39 Description for EntityRelationship 'lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_createdby'</comment>
+  </data>
+  <data name="10:Description,lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_modifiedby" xml:space="preserve">
+    <value>Identificateur unique de l'utilisateur qui a modifié l'enregistrement.</value>
+    <comment>msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39 Description for EntityRelationship 'lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_modifiedby'</comment>
+  </data>
+  <data name="10:Description,lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_processid" xml:space="preserve">
+    <value>Identificateur unique du workflow associé à l'instance du flux des processus d'entreprise.</value>
+    <comment>msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39 Description for EntityRelationship 'lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_processid'</comment>
+  </data>
+  <data name="10:Description,organization_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39" xml:space="preserve">
+    <value>Identificateur unique de l'organisation</value>
+    <comment>msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39 Description for EntityRelationship 'organization_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39'</comment>
+  </data>
+  <data name="15062:LocalizedName,RES_CustomerService_BusinessExtensions" xml:space="preserve">
+    <value />
+    <comment> 'RES_CustomerService_BusinessExtensions' : LocalizedName for Solution</comment>
+  </data>
+  <data name="15062:LocalizedName,smpsmp18062" xml:space="preserve">
+    <value />
+    <comment> 'smp' : LocalizedName for Solution Publisher</comment>
+  </data>
+  <data name="1:Description,msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39ActiveStageId" xml:space="preserve">
+    <value>Identificateur unique de la phase active pour l'instance du flux des processus d'entreprise.</value>
+    <comment>'msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39' : Description for Attribute 'ActiveStageId' on Entity</comment>
+  </data>
+  <data name="1:Description,msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39CreatedBy" xml:space="preserve">
+    <value>Identificateur unique de l'utilisateur qui a créé l’enregistrement.</value>
+    <comment>'msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39' : Description for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39CreatedOnBehalfBy" xml:space="preserve">
+    <value>Identificateur unique de l'utilisateur délégué qui a créé l'enregistrement.</value>
+    <comment>'msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39' : Description for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39entitymsdyn_bpf_d3d97bac8c294105840e99e37a9d1c39" xml:space="preserve">
+    <value>Entité de base de traitement du processus d'entreprise d'ordre de travail</value>
+    <comment> 'msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39' : Description for Entity</comment>
+  </data>
+  <data name="1:Description,msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39ModifiedBy" xml:space="preserve">
+    <value>Identificateur unique de l'utilisateur qui a modifié l'enregistrement.</value>
+    <comment>'msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39' : Description for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39ModifiedOnBehalfBy" xml:space="preserve">
+    <value>Identificateur unique de l'utilisateur délégué qui a modifié l'enregistrement.</value>
+    <comment>'msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39' : Description for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39OrganizationId" xml:space="preserve">
+    <value>Identificateur unique de l'organisation</value>
+    <comment>'msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39' : Description for Attribute 'OrganizationId' on Entity</comment>
+  </data>
+  <data name="1:Description,msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39ProcessId" xml:space="preserve">
+    <value>Identificateur unique du workflow associé à l'instance du flux des processus d'entreprise.</value>
+    <comment>'msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39' : Description for Attribute 'ProcessId' on Entity</comment>
+  </data>
+  <data name="1:Description,msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39TraversedPath" xml:space="preserve">
+    <value>Chaîne séparée par des virgules dans laquelle figurent des identificateurs de phases représentant les phases consultées de l'instance de flux des processus d'entreprise.</value>
+    <comment>'msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39' : Description for Attribute 'TraversedPath' on Entity</comment>
+  </data>
+  <data name="1:Description,Work Order Business Process{1b9a121e-2445-4514-9949-9d17addf1375}" xml:space="preserve">
+    <value>Formulaire pour cette entité.</value>
+    <comment>'Work Order Business Process' : Description for systemform in Entity FormXml ID: '{1b9a121e-2445-4514-9949-9d17addf1375}'</comment>
+  </data>
+  <data name="1:Description,Work Order Business Process{91db31d8-cc7f-4a56-9d96-2680c9d07a28}" xml:space="preserve">
+    <value>Formulaire de carte pour cette entité.</value>
+    <comment>'Work Order Business Process' : Description for systemform in Entity FormXml ID: '{91db31d8-cc7f-4a56-9d96-2680c9d07a28}'</comment>
+  </data>
+  <data name="1:Description,Work Order Business Process{b7c53e87-a189-4870-a48b-c6ef6b4634cb}" xml:space="preserve">
+    <value>Formulaire pour cette entité.</value>
+    <comment>'Work Order Business Process' : Description for systemform in Entity FormXml ID: '{b7c53e87-a189-4870-a48b-c6ef6b4634cb}'</comment>
+  </data>
+  <data name="1:displayname,msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39ActiveStageId" xml:space="preserve">
+    <value>Phase active</value>
+    <comment>'msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39' : displayname for Attribute 'ActiveStageId' on Entity</comment>
+  </data>
+  <data name="1:displayname,msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39CreatedBy" xml:space="preserve">
+    <value>Créé(e) par</value>
+    <comment>'msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39' : displayname for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39CreatedOnBehalfBy" xml:space="preserve">
+    <value>Créé par (délégué)</value>
+    <comment>'msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39' : displayname for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39ModifiedBy" xml:space="preserve">
+    <value>Modifié par</value>
+    <comment>'msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39' : displayname for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39ModifiedOnBehalfBy" xml:space="preserve">
+    <value>Modifié par (délégué)</value>
+    <comment>'msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39' : displayname for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39OrganizationId" xml:space="preserve">
+    <value>ID d'organisation</value>
+    <comment>'msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39' : displayname for Attribute 'OrganizationId' on Entity</comment>
+  </data>
+  <data name="1:displayname,msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39ProcessId" xml:space="preserve">
+    <value>Traiter</value>
+    <comment>'msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39' : displayname for Attribute 'ProcessId' on Entity</comment>
+  </data>
+  <data name="1:displayname,msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39TraversedPath" xml:space="preserve">
+    <value>Chemin d'accès traversé</value>
+    <comment>'msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39' : displayname for Attribute 'TraversedPath' on Entity</comment>
+  </data>
+  <data name="1:label,Work Order Business Process{144cfa8c-e1c6-4418-aaf9-03c73948941f}" xml:space="preserve">
+    <value>Nom</value>
+    <comment>'Work Order Business Process' : label for cell in Entity FormXml ID: '{144cfa8c-e1c6-4418-aaf9-03c73948941f}'</comment>
+  </data>
+  <data name="1:label,Work Order Business Process{1d469b14-d094-4cf5-b1cd-0b79b49cab56}" xml:space="preserve">
+    <value>En-tête</value>
+    <comment>'Work Order Business Process' : label for section in Entity FormXml ID: '{1d469b14-d094-4cf5-b1cd-0b79b49cab56}'</comment>
+  </data>
+  <data name="1:label,Work Order Business Process{1ed1e236-9489-4ba9-b3dc-0167d35b743a}" xml:space="preserve">
+    <value>Détails</value>
+    <comment>'Work Order Business Process' : label for section in Entity FormXml ID: '{1ed1e236-9489-4ba9-b3dc-0167d35b743a}'</comment>
+  </data>
+  <data name="1:label,Work Order Business Process{3e752efe-d2fd-42af-8f94-96980be31646}" xml:space="preserve">
+    <value />
+    <comment>'Work Order Business Process' : label for cell in Entity FormXml ID: '{3e752efe-d2fd-42af-8f94-96980be31646}'</comment>
+  </data>
+  <data name="1:label,Work Order Business Process{421714b1-a67e-4f28-9c6e-de8f69ed050a}" xml:space="preserve">
+    <value>Nom</value>
+    <comment>'Work Order Business Process' : label for cell in Entity FormXml ID: '{421714b1-a67e-4f28-9c6e-de8f69ed050a}'</comment>
+  </data>
+  <data name="1:label,Work Order Business Process{572142c6-4878-41bb-ab7c-5dd67d72089d}" xml:space="preserve">
+    <value>CHRONOLOGIE</value>
+    <comment>'Work Order Business Process' : label for section in Entity FormXml ID: '{572142c6-4878-41bb-ab7c-5dd67d72089d}'</comment>
+  </data>
+  <data name="1:label,Work Order Business Process{5880d6ae-6ab4-44e8-81f6-0284e7db4f82}" xml:space="preserve">
+    <value />
+    <comment>'Work Order Business Process' : label for tab in Entity FormXml ID: '{5880d6ae-6ab4-44e8-81f6-0284e7db4f82}'</comment>
+  </data>
+  <data name="1:label,Work Order Business Process{6dd49609-56a8-43db-8d9c-2bfebb80e276}" xml:space="preserve">
+    <value>Onglets de conversation</value>
+    <comment>'Work Order Business Process' : label for cell in Entity FormXml ID: '{6dd49609-56a8-43db-8d9c-2bfebb80e276}'</comment>
+  </data>
+  <data name="1:label,Work Order Business Process{785a26e1-73f2-4455-afab-a0797696d0a3}" xml:space="preserve">
+    <value />
+    <comment>'Work Order Business Process' : label for tab in Entity FormXml ID: '{785a26e1-73f2-4455-afab-a0797696d0a3}'</comment>
+  </data>
+  <data name="1:label,Work Order Business Process{79a6ac24-f8c3-421f-8b08-34b1ca65e2eb}" xml:space="preserve">
+    <value>Général</value>
+    <comment>'Work Order Business Process' : label for tab in Entity FormXml ID: '{79a6ac24-f8c3-421f-8b08-34b1ca65e2eb}'</comment>
+  </data>
+  <data name="1:label,Work Order Business Process{7aecbd43-ce74-4827-bb15-77f41b4da8aa}" xml:space="preserve">
+    <value>ASSOCIATION</value>
+    <comment>'Work Order Business Process' : label for section in Entity FormXml ID: '{7aecbd43-ce74-4827-bb15-77f41b4da8aa}'</comment>
+  </data>
+  <data name="1:label,Work Order Business Process{84065829-99f4-43b8-84c5-495eb71bc203}" xml:space="preserve">
+    <value />
+    <comment>'Work Order Business Process' : label for cell in Entity FormXml ID: '{84065829-99f4-43b8-84c5-495eb71bc203}'</comment>
+  </data>
+  <data name="1:label,Work Order Business Process{8c8ddf62-f7fd-4405-83a0-ddcdf7cfe0fd}" xml:space="preserve">
+    <value />
+    <comment>'Work Order Business Process' : label for cell in Entity FormXml ID: '{8c8ddf62-f7fd-4405-83a0-ddcdf7cfe0fd}'</comment>
+  </data>
+  <data name="1:label,Work Order Business Process{8cb3969c-52d8-4624-990d-ac282b273f8c}" xml:space="preserve">
+    <value>Général</value>
+    <comment>'Work Order Business Process' : label for section in Entity FormXml ID: '{8cb3969c-52d8-4624-990d-ac282b273f8c}'</comment>
+  </data>
+  <data name="1:label,Work Order Business Process{8ebef580-e374-4453-b6c1-dedb9fd9d836}" xml:space="preserve">
+    <value>Date de création</value>
+    <comment>'Work Order Business Process' : label for cell in Entity FormXml ID: '{8ebef580-e374-4453-b6c1-dedb9fd9d836}'</comment>
+  </data>
+  <data name="1:label,Work Order Business Process{935494b7-916e-4cae-96a3-36cc86b3e844}" xml:space="preserve">
+    <value>Bande de couleurs</value>
+    <comment>'Work Order Business Process' : label for section in Entity FormXml ID: '{935494b7-916e-4cae-96a3-36cc86b3e844}'</comment>
+  </data>
+  <data name="1:label,Work Order Business Process{a679e822-a564-43fb-bc1c-8ac43955bcb5}" xml:space="preserve">
+    <value>Nom</value>
+    <comment>'Work Order Business Process' : label for cell in Entity FormXml ID: '{a679e822-a564-43fb-bc1c-8ac43955bcb5}'</comment>
+  </data>
+  <data name="1:label,Work Order Business Process{b50a57ea-6494-4175-a92a-0b4a265cc702}" xml:space="preserve">
+    <value>Pied de page</value>
+    <comment>'Work Order Business Process' : label for section in Entity FormXml ID: '{b50a57ea-6494-4175-a92a-0b4a265cc702}'</comment>
+  </data>
+  <data name="1:label,Work Order Business Process{b55d7655-ce62-47fc-8589-d724d35c8b68}" xml:space="preserve">
+    <value>Informations générales</value>
+    <comment>'Work Order Business Process' : label for tab in Entity FormXml ID: '{b55d7655-ce62-47fc-8589-d724d35c8b68}'</comment>
+  </data>
+  <data name="1:label,Work Order Business Process{bb31beef-b49e-4bdd-b2a7-55b2a0f569b8}" xml:space="preserve">
+    <value>Général</value>
+    <comment>'Work Order Business Process' : label for section in Entity FormXml ID: '{bb31beef-b49e-4bdd-b2a7-55b2a0f569b8}'</comment>
+  </data>
+  <data name="1:label,Work Order Business Process{c8250994-bef0-42ed-9213-92af80b212ef}" xml:space="preserve">
+    <value>GÉNÉRAL</value>
+    <comment>'Work Order Business Process' : label for section in Entity FormXml ID: '{c8250994-bef0-42ed-9213-92af80b212ef}'</comment>
+  </data>
+  <data name="1:label,Work Order Business Process{cb3aad11-eff3-4478-bdd7-bca7dc7fc091}" xml:space="preserve">
+    <value />
+    <comment>'Work Order Business Process' : label for cell in Entity FormXml ID: '{cb3aad11-eff3-4478-bdd7-bca7dc7fc091}'</comment>
+  </data>
+  <data name="1:label,Work Order Business Process{d76570d0-bb56-43c3-8695-7301249a9e1b}" xml:space="preserve">
+    <value>Nom</value>
+    <comment>'Work Order Business Process' : label for cell in Entity FormXml ID: '{d76570d0-bb56-43c3-8695-7301249a9e1b}'</comment>
+  </data>
+  <data name="1:label,Work Order Business Process{dfd1200a-8834-410a-8f98-101064b0c52a}" xml:space="preserve">
+    <value>Raison du statut</value>
+    <comment>'Work Order Business Process' : label for cell in Entity FormXml ID: '{dfd1200a-8834-410a-8f98-101064b0c52a}'</comment>
+  </data>
+  <data name="1:label,Work Order Business Process{ef1765e0-a62a-4ca4-b1ee-7b4c37b02524}" xml:space="preserve">
+    <value />
+    <comment>'Work Order Business Process' : label for cell in Entity FormXml ID: '{ef1765e0-a62a-4ca4-b1ee-7b4c37b02524}'</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39entitymsdyn_bpf_d3d97bac8c294105840e99e37a9d1c39" xml:space="preserve">
+    <value>Processus d'entreprise d'ordre de travail</value>
+    <comment> 'msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39entitymsdyn_bpf_d3d97bac8c294105840e99e37a9d1c39" xml:space="preserve">
+    <value>Processus d'entreprise d'ordre de travail</value>
+    <comment> 'msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39' : LocalizedName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,Work Order Business Process{1b9a121e-2445-4514-9949-9d17addf1375}" xml:space="preserve">
+    <value>Informations</value>
+    <comment>'Work Order Business Process' : LocalizedName for systemform in Entity FormXml ID: '{1b9a121e-2445-4514-9949-9d17addf1375}'</comment>
+  </data>
+  <data name="1:LocalizedName,Work Order Business Process{6a6a2a39-0796-4246-9bee-d3a2b0519e1f}" xml:space="preserve">
+    <value>Informations</value>
+    <comment>'Work Order Business Process' : LocalizedName for systemform in Entity FormXml ID: '{6a6a2a39-0796-4246-9bee-d3a2b0519e1f}'</comment>
+  </data>
+  <data name="1:LocalizedName,Work Order Business Process{91db31d8-cc7f-4a56-9d96-2680c9d07a28}" xml:space="preserve">
+    <value>Informations</value>
+    <comment>'Work Order Business Process' : LocalizedName for systemform in Entity FormXml ID: '{91db31d8-cc7f-4a56-9d96-2680c9d07a28}'</comment>
+  </data>
+  <data name="1:LocalizedName,Work Order Business Process{b7c53e87-a189-4870-a48b-c6ef6b4634cb}" xml:space="preserve">
+    <value>Informations</value>
+    <comment>'Work Order Business Process' : LocalizedName for systemform in Entity FormXml ID: '{b7c53e87-a189-4870-a48b-c6ef6b4634cb}'</comment>
+  </data>
+  <data name="29:Description,{d60b55c3-f918-40be-af0f-6f80375712df}" xml:space="preserve">
+    <value />
+    <comment>'RES - SR - Prevent Completion if WO not closed' : Description for Workflow</comment>
+  </data>
+  <data name="29:label,{f2fa9a66-8453-4bb1-b6e6-171a3299da32}" xml:space="preserve">
+    <value />
+    <comment>'RES - SR - Prevent Completion if WO not closed:{f2fa9a66-8453-4bb1-b6e6-171a3299da32}' : label for Workflow Label</comment>
+  </data>
+  <data name="29:LocalizedName,{2a896353-104e-4835-ac49-0daeef2bb892}" xml:space="preserve">
+    <value />
+    <comment>'RES - SR - Create Draft Copy of Service Request' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{4ef00cc9-d2ec-4006-a3bf-345fade89f31}" xml:space="preserve">
+    <value />
+    <comment>'RES - Contact - Change Contact Language on change of Portal Language' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{64fb4c3c-d867-4fe7-9aea-220abc2dae52}" xml:space="preserve">
+    <value />
+    <comment>'RES - SR - Cancel Service Request From Portal' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{7f8ec3a6-67df-417d-9364-3b9acd43b9f0}" xml:space="preserve">
+    <value />
+    <comment>'RES - Contact - Allow Email Notification' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{8ecf7c1a-2977-4c6c-bc39-474c4b33f8c0}" xml:space="preserve">
+    <value />
+    <comment>'RES - SR - Copy Completion Notes to Anotation' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{91b33e79-4203-4798-8b21-629ac5c2e9c6}" xml:space="preserve">
+    <value />
+    <comment>'RES - SR - Update Contact Information' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{a28cdc38-e952-44d5-bf73-3febe7131a92}" xml:space="preserve">
+    <value />
+    <comment>'RES - SR - PostCreateSRCreateDynNotes' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{ac6d943e-0247-4bca-a1f3-74477ef70d3d}" xml:space="preserve">
+    <value />
+    <comment>'RES - SR - Update Problem Code' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{d60b55c3-f918-40be-af0f-6f80375712df}" xml:space="preserve">
+    <value />
+    <comment>'RES - SR - Prevent Completion if WO not closed' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{d624b165-62f1-4d5d-896f-fb28424ed31c}" xml:space="preserve">
+    <value />
+    <comment>'RES - SR - CopySR' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{dae4c004-43c0-4f9a-a058-0e5a5fc6daaa}" xml:space="preserve">
+    <value />
+    <comment>'SR - Mass Complete' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{f18c8642-7bd2-48e7-846d-b149220ce260}" xml:space="preserve">
+    <value />
+    <comment>'RES - SR - ReclassifySR' : LocalizedName for Workflow</comment>
+  </data>
+</root>

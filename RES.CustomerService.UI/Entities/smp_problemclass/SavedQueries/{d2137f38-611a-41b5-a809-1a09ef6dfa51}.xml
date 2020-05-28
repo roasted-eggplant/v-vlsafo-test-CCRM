@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{d2137f38-611a-41b5-a809-1a09ef6dfa51}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_problemclassname" select="1" icon="1" preview="1">
+        <row name="result" id="smp_problemclassid">
+          <cell name="smp_problemclassname" width="300" />
+          <cell name="createdon" width="125" />
+          <cell name="ownerid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_problemclass">
+          <attribute name="smp_problemclassname" />
+          <attribute name="createdon" />
+          <order attribute="smp_problemclassname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="smp_problemclassname" operator="like" value="{0}" />
+          </filter>
+          <attribute name="ownerid" />
+          <attribute name="smp_problemclassid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Problem Classes" languagecode="1033" />
+      <LocalizedName description="Pesquisa rápida de classes de problemas ativos" languagecode="1046" />
+      <LocalizedName description="Búsqueda rápida de clases de problemas activos" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

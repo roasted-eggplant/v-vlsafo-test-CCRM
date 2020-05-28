@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{ae190423-3280-486c-9ae1-a5e8396d6521}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_name" select="1" icon="1" preview="1">
+        <row name="result" id="smp_inspectionid">
+          <cell name="smp_complete" width="100" />
+          <cell name="smp_inspectionnumber" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_inspection">
+          <order attribute="smp_complete" descending="false" />
+          <order attribute="smp_inspectionnumber" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="smp_inspectionnumber" />
+          <attribute name="smp_complete" />
+          <attribute name="smp_inspectionid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Inspections" languagecode="1033" />
+      <LocalizedName description="Inspeções Ativas" languagecode="1046" />
+      <LocalizedName description="Inspecciones Activas" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{73bc2d9b-4e0e-424c-8839-ed59d6817e3a}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="fullname" select="1" icon="1" preview="1">
+        <row name="result" id="contactid">
+          <cell name="fullname" width="150" />
+          <cell name="emailaddress1" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="contact">
+          <attribute name="fullname" />
+          <attribute name="emailaddress1" />
+          <order attribute="fullname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Contacts Subgrid View" languagecode="1033" />
+      <LocalizedName description="Vue Sous-grille des contacts actifs" languagecode="1036" />
+      <LocalizedName description="アクティブな取引先担当者のサブグリッド ビュー" languagecode="1041" />
+      <LocalizedName description="활성 연락처 하위 표 보기" languagecode="1042" />
+      <LocalizedName description="Ativar Exibição da Subgrade de Contatos" languagecode="1046" />
+      <LocalizedName description="可用联系人子网格视图" languagecode="2052" />
+      <LocalizedName description="Vista Subgrelha de Contactos Ativos" languagecode="2070" />
+      <LocalizedName description="Vista de subcuadrícula de contactos activos" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Displays the Name and Email of active contacts." languagecode="1033" />
+      <Description description="Affiche le nom et l'adresse de messagerie des contacts actifs." languagecode="1036" />
+      <Description description="アクティブな取引先担当者の名前と電子メール アドレスを表示します。" languagecode="1041" />
+      <Description description="활성 연락처의 이름과 전자 메일을 표시합니다." languagecode="1042" />
+      <Description description="Exibe o Nome e o Email dos contatos ativos." languagecode="1046" />
+      <Description description="显示可用联系人的名称和电子邮件。" languagecode="2052" />
+      <Description description="Apresenta o Nome e o Correio Eletrónico dos contactos ativos." languagecode="2070" />
+      <Description description="Muestra el nombre y la dirección de correo electrónico de los contactos activos." languagecode="3082" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{4479b1c4-baef-4161-bdda-fc0169c856aa}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_general" verticallayout="true" id="{98747475-42a5-4bf9-911b-baf1d51bd9b3}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{e3209210-e6a1-4c7f-9726-cea0b7129d2c}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{38159231-2afc-4820-a045-1e18ddc0cd5f}">
+                        <labels>
+                          <label description="Satisfaction Survey Name" languagecode="1033" />
+                        </labels>
+                        <control id="smp_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_name" />
+                      </cell>
+                      <cell id="{c02046ea-b5ef-4df7-ad5c-b7b048634cf9}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="负责人" languagecode="2052" />
+                          <label description="Propriétaire" languagecode="1036" />
+                          <label description="所有者" languagecode="1041" />
+                          <label description="담당자" languagecode="1042" />
+                          <label description="Proprietário" languagecode="2070" />
+                          <label description="Propietario" languagecode="3082" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{75157771-4920-4ae3-a86c-74ebe1d0f5a4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Survey" languagecode="1033" />
+                        </labels>
+                        <control id="smp_surveyid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_surveyid" disabled="false" />
+                      </cell>
+                      <cell id="{dbaf9132-1eb6-47f9-ad0c-6d6f3197215a}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Survey response" languagecode="1033" />
+                        </labels>
+                        <control id="smp_surveyresponseid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_surveyresponseid" disabled="false" uniqueid="{b5e152a3-72a6-7126-78cd-ab2b39404584}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{0720DBD2-FCA9-420D-917F-1AB5A9F4E8C0}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d39de783-00e9-475e-9a64-49eb716c2197}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Created On" languagecode="1033" />
+                          <label description="创建时间" languagecode="2052" />
+                          <label description="Créé le" languagecode="1036" />
+                          <label description="作成日" languagecode="1041" />
+                          <label description="만든 날짜" languagecode="1042" />
+                          <label description="Criado Em" languagecode="2070" />
+                          <label description="Fecha de creación" languagecode="3082" />
+                        </labels>
+                        <control id="createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+                      </cell>
+                      <cell id="{33f6c3b0-e2d5-4d4c-b606-c3bccc8cece8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Survey invitation" languagecode="1033" />
+                        </labels>
+                        <control id="smp_surveyinviteid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_surveyinviteid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="sectionRelatedEntities" showlabel="true" showbar="false" locklevel="0" id="{885e8260-319f-46a6-b5a5-cbd7e09963da}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Related Entities" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{72cbc242-1d80-4671-a26c-585909077c5d}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Contact" languagecode="1033" />
+                        </labels>
+                        <control id="smp_contactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_contactid" disabled="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_feedback" id="{4b4831e3-a861-4394-b688-2afb90755712}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Feedback" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="1c19b8d9-99c1-463f-91ba-637fce430a28_GENERAL" showlabel="true" showbar="true" locklevel="1" id="{8bb4893f-9227-4007-9fad-39779c1de929}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f97da799-3a21-4dca-8473-f765dc5a1451}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="My issue was resolved to my satisfaction" languagecode="1033" />
+                        </labels>
+                        <control id="smp_b6d68d0c07914b5dbe4665def2af8dd6" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="smp_b6d68d0c07914b5dbe4665def2af8dd6" disabled="true" />
+                      </cell>
+                      <cell id="{a4ef28f5-7feb-466b-8f00-cc140e2cba41}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="My issue was resolved to my satisfaction (OS)" languagecode="1033" />
+                        </labels>
+                        <control id="smp_2fc71c11ac6141cfa92aebd830420325" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="smp_2fc71c11ac6141cfa92aebd830420325" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a2c87610-16c5-4cd0-a46e-dec85e67d4f2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="The service provider left the working area in a clean and orderly fashion." languagecode="1033" />
+                        </labels>
+                        <control id="smp_6cf97d0d075941d4b1967c610b5f57cd" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="smp_6cf97d0d075941d4b1967c610b5f57cd" disabled="true" />
+                      </cell>
+                      <cell id="{ce087e2b-9cd0-43aa-bbc3-a3874fc8c546}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="The service provider left the working area in a clean and orderly fashion. (OS)" languagecode="1033" />
+                        </labels>
+                        <control id="smp_d34a6d84bdd6416d99d2849e9220921a" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="smp_d34a6d84bdd6416d99d2849e9220921a" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3846daa4-a496-422e-85ae-4d8330a852f7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Was it easy for you to request service?" languagecode="1033" />
+                        </labels>
+                        <control id="smp_9f9cfa0b95724f17bfef844ae729f15a" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="smp_9f9cfa0b95724f17bfef844ae729f15a" disabled="true" />
+                      </cell>
+                      <cell id="{de3ecb3b-c259-4489-99bb-f47e30802b62}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Was it easy for you to request service? (OS)" languagecode="1033" />
+                        </labels>
+                        <control id="smp_44c1306bc20443a78eb80401a9b8b1f4" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="smp_44c1306bc20443a78eb80401a9b8b1f4" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{39afbce9-079c-4178-913d-be9e51e6129c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="How satisfied are you with your overall interaction with Global Facilities Service Center (MSfa" languagecode="1033" />
+                        </labels>
+                        <control id="smp_082d459e5b6a4aad965b5dd73214af92" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="smp_082d459e5b6a4aad965b5dd73214af92" disabled="true" />
+                      </cell>
+                      <cell id="{f6b818af-c8da-4fc0-8ee7-f6de37781b62}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="How satisfied are you with your overall interaction with Global Facilities Service Center (MSfa" languagecode="1033" />
+                        </labels>
+                        <control id="smp_a0c758b0247b4a4ba020420eb4142c5a" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="smp_a0c758b0247b4a4ba020420eb4142c5a" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{65c0180a-360f-4500-99e4-7add86e3eb5f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Please select any item which you feel could use improvement" languagecode="1033" />
+                        </labels>
+                        <control id="smp_07a6915f69904737ad3cb1bd29e5eae8" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="smp_07a6915f69904737ad3cb1bd29e5eae8" disabled="true" />
+                      </cell>
+                      <cell id="{39b50851-e64f-4937-afde-590a66f6f645}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Please select any item which you feel could use improvement (OS)" languagecode="1033" />
+                        </labels>
+                        <control id="smp_39755fb4d3334042ac37c1478d5aa613" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="smp_39755fb4d3334042ac37c1478d5aa613" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{826e3fc5-8f92-434c-a56f-d9b4e9287575}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Completed On" languagecode="1033" />
+                        </labels>
+                        <control id="smp_completedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="smp_completedon" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f168aae9-18db-48c1-9afa-c9ec7e60272b}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Response outcome" languagecode="1033" />
+                        </labels>
+                        <control id="smp_responseoutcomeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_responseoutcomeid" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ed9890cb-a5aa-458a-bc67-b7d498dcd2be}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Service Request" languagecode="1033" />
+                        </labels>
+                        <control id="smp_incidentid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_incidentid" disabled="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_actions" id="{5be328f8-7b6f-49e2-bd3c-b4d76daae17b}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" visible="false">
+          <labels>
+            <label description="Actions" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_4_section_1" showlabel="false" showbar="false" locklevel="0" id="{17b20a4a-a6ec-4355-9bd1-2d4bf4ea228e}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="Actions" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4ad49dde-1640-4360-aa57-de4dcda0f20d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Actioned" languagecode="1033" />
+                        </labels>
+                        <control id="smp_actioned" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="smp_acknowledged" disabled="false" />
+                      </cell>
+                      <cell id="{f474a3d6-474b-41d9-8cea-9321c18e4079}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Escalated" languagecode="1033" />
+                        </labels>
+                        <control id="smp_escalated" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="smp_escalated" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ed858d04-0abf-4ea5-abb8-a83d35e8a34a}" showlabel="true" locklevel="0" colspan="2" rowspan="4">
+                        <labels>
+                          <label description="Response" languagecode="1033" />
+                        </labels>
+                        <control id="smp_response" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="smp_acknowledgedresponse" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_scores" id="{c807830c-4381-4ff6-a3fa-8b57976cbb13}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" visible="false">
+          <labels>
+            <label description="Scores" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{ab89d028-f4b9-491d-a416-9ab96c70dec6}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a87e35b0-af2f-4a9c-9dfc-041782803ad9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Score as percentage" languagecode="1033" />
+                        </labels>
+                        <control id="smp_scoreaspercentage" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="smp_scoreaspercentage" disabled="false" />
+                      </cell>
+                      <cell id="{2e9ca639-fc31-4da2-955e-7f0ecedd1a97}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Score as percentage (all routes)" languagecode="1033" />
+                        </labels>
+                        <control id="smp_scoreaspercentageallroutes" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="smp_scoreaspercentageallroutes" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{639edfa9-7a6f-4435-8293-e4eb5b7947a7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Score" languagecode="1033" />
+                        </labels>
+                        <control id="smp_score" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="smp_score" disabled="false" />
+                      </cell>
+                      <cell id="{b51a9b08-fbb9-4aee-82f9-95a06b6ffad2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Max Score" languagecode="1033" />
+                        </labels>
+                        <control id="smp_maxscore" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="smp_maxscore" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

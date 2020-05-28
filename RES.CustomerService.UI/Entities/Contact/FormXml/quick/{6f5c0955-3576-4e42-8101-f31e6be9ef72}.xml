@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{6f5c0955-3576-4e42-8101-f31e6be9ef72}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400">
+      <tabs>
+        <tab id="{793ec036-2d85-4841-9057-a1a29d4c92fe}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{423fff64-42c2-47e4-a816-9787b743c966}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{61de1698-9bc6-d4e8-d0ce-18945b016d68}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Requested for name:" languagecode="1033" />
+                          <label description="全名" languagecode="2052" />
+                          <label description="Nom complet" languagecode="1036" />
+                          <label description="氏名" languagecode="1041" />
+                          <label description="전체 이름" languagecode="1042" />
+                          <label description="Nome Completo" languagecode="1046" />
+                          <label description="Nome Completo" languagecode="2070" />
+                          <label description="Nombre completo" languagecode="3082" />
+                        </labels>
+                        <control id="fullname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="fullname" disabled="false" uniqueid="{99a0dbcc-4753-0ed1-08c3-8532a6e26345}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a83630a1-c60b-8dbb-6861-2e64c1a50a7c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Requested for email:" languagecode="1033" />
+                          <label description="请求人的电子邮件:" languagecode="2052" />
+                          <label description="Email du demandeur:" languagecode="1036" />
+                          <label description="要請者のEメール:" languagecode="1041" />
+                          <label description="이메일 요청:" languagecode="1042" />
+                          <label description="Email" languagecode="1046" />
+                          <label description="E-mail pedido:" languagecode="2070" />
+                          <label description="Solicitado para el correo electrónico:" languagecode="3082" />
+                        </labels>
+                        <control id="emailaddress1" classid="{ADA2203E-B4CD-49be-9DDF-234642B43B52}" datafieldname="emailaddress1" disabled="false" uniqueid="{d62781a3-a385-4678-7144-e17bd876b685}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="2">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Request For Quick View (Portal)" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

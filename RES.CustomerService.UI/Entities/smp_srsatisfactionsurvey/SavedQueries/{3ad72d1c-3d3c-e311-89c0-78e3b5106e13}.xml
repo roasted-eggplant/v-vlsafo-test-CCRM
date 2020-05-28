@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{3ad72d1c-3d3c-e311-89c0-78e3b5106e13}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_name" select="1" icon="1" preview="1">
+        <row name="result" id="smp_srsatisfactionsurveyid">
+          <cell name="a_25cc23cd3574e21190bd08002700f46f.ticketnumber" width="125" disableSorting="1" />
+          <cell name="smp_itwaseasytorequestservice" width="100" />
+          <cell name="smp_courteousservicewasreceivedfromthecustom" width="100" />
+          <cell name="smp_thetechniciancompletedtheworkontime" width="125" />
+          <cell name="smp_thetechniciancompletedtheworkrightthefirs" width="125" />
+          <cell name="smp_overallsatisfaction" width="100" />
+          <cell name="smp_pleaseprovideanyadditionalcommentsyoumayh" width="100" disableSorting="1" />
+          <cell name="a_25cc23cd3574e21190bd08002700f46f.smp_contact" width="100" disableSorting="1" />
+          <cell name="a_25cc23cd3574e21190bd08002700f46f.smp_contactalias" width="100" disableSorting="1" />
+          <cell name="a_25cc23cd3574e21190bd08002700f46f.smp_contactemail" width="100" disableSorting="1" />
+          <cell name="a_25cc23cd3574e21190bd08002700f46f.smp_problembuilding" width="100" disableSorting="1" />
+          <cell name="a_25cc23cd3574e21190bd08002700f46f.smp_problembuildingcountry" width="100" disableSorting="1" />
+          <cell name="a_25cc23cd3574e21190bd08002700f46f.smp_problemclassid" width="100" disableSorting="1" />
+          <cell name="a_25cc23cd3574e21190bd08002700f46f.smp_problemtypeid" width="100" disableSorting="1" />
+          <cell name="a_25cc23cd3574e21190bd08002700f46f.smp_problemtypedescription" width="100" disableSorting="1" />
+          <cell name="createdon" width="100" />
+          <cell name="a_25cc23cd3574e21190bd08002700f46f.customerid" width="100" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_srsatisfactionsurvey">
+          <order attribute="smp_thetechniciancompletedtheworkontime" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="smp_thetechniciancompletedtheworkrightthefirs" />
+          <attribute name="smp_thetechniciancompletedtheworkontime" />
+          <attribute name="smp_itwaseasytorequestservice" />
+          <attribute name="smp_courteousservicewasreceivedfromthecustom" />
+          <attribute name="smp_overallsatisfaction" />
+          <attribute name="smp_pleaseprovideanyadditionalcommentsyoumayh" />
+          <attribute name="createdon" />
+          <link-entity alias="a_25cc23cd3574e21190bd08002700f46f" name="incident" from="incidentid" to="smp_servicerequest" link-type="outer" visible="false">
+            <attribute name="ticketnumber" />
+            <attribute name="smp_problemtypedescription" />
+            <attribute name="smp_problemtypeid" />
+            <attribute name="smp_problemclassid" />
+            <attribute name="smp_problembuilding" />
+            <attribute name="smp_contactemail" />
+            <attribute name="smp_contactalias" />
+            <attribute name="smp_contact" />
+            <attribute name="customerid" />
+            <attribute name="smp_problembuildingcountry" />
+          </link-entity>
+          <attribute name="smp_srsatisfactionsurveyid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Detailed SR Satisfaction Surveys" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

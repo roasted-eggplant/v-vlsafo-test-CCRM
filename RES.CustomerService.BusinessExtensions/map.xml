@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Mapping>
+  <!--<FileToFile map="PluginAssemblies\**\CCRMREFFSPlugins.dll" to="..\..\..\bin\**\CCRM.REFFS.Plugins.dll"/>-->
+  <FileToFile map="PluginAssemblies\**\CCRMREFFSWorkflows.dll" to="..\..\..\..\CCRM.REFFS.Workflows\bin\**\CCRM.REFFS.Workflows.dll"/>
+  <FileToFile map="PluginAssemblies\**\CCRMREFOptimizedPlugins.dll" to="..\..\..\..\CCRM.REF.OptimizedPlugins\bin\**\CCRM.REF.OptimizedPlugins.dll"/>
+  <FileToFile map="PluginAssemblies\**\CCRMREFDataMallSync.dll" to="..\..\..\..\CCRM.REF.DataMallSync\bin\**\CCRM.REF.DataMallSync.dll"/>
+</Mapping>

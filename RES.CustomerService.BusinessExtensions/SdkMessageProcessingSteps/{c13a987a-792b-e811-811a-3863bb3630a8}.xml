@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="CCRM.REF.OptimizedPlugins.PreServiceRequestCreate: Create of incident" SdkMessageProcessingStepId="{c13a987a-792b-e811-811a-3863bb3630a8}">
+  <PluginTypeName>CCRM.REF.OptimizedPlugins.PreServiceRequestCreate, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126</PluginTypeName>
+  <PluginTypeId>28199393-da5f-e811-8113-3863bb2e0660</PluginTypeId>
+  <PrimaryEntity>incident</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{9ebdbb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>20</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

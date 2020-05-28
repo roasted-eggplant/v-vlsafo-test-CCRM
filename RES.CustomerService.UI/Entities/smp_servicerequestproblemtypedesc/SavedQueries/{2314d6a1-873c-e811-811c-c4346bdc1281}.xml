@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{2314d6a1-873c-e811-811c-c4346bdc1281}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_description" select="1" preview="1" icon="1">
+        <row name="result" id="smp_servicerequestproblemtypedescid">
+          <cell name="smp_problemtypedescriptionid" width="600" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_answer" width="300" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_servicerequestid" width="100" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="smp_servicerequestproblemtypedesc">
+          <attribute name="smp_servicerequestid" />
+          <attribute name="smp_problemtypedescriptionid" />
+          <attribute name="smp_answer" />
+          <order attribute="smp_problemtypedescriptionid" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="smp_servicerequestproblemtypedescid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Service Request Problem Type Description Work Order View" languagecode="1033" />
+      <LocalizedName description="Visualização de Descrição de Ordem de Trabalho de Problema de Serviço Solicitado" languagecode="1046" />
+      <LocalizedName description="Vista orden de trabajo de descripción del tipo de problema de solicitud de servicio" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform unmodified="1">
+    <formid>{79c33fb4-7126-41a8-9dff-13e4462c9b19}</formid>
+    <IntroducedVersion>7.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400">
+      <tabs>
+        <tab id="{53114f6f-bd33-49c0-9df6-0d413c101e69}" name="tab_1" showlabel="false" locklevel="0" expanded="true">
+          <labels>
+            <label description="Work Order" languagecode="1033" />
+            <label description="Ordre de travail" languagecode="1036" />
+            <label description="作業指示書" languagecode="1041" />
+            <label description="작업 주문" languagecode="1042" />
+            <label description="工作订单" languagecode="2052" />
+            <label description="Ordem de Intervenção" languagecode="2070" />
+            <label description="Orden de trabajo" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{15f20d13-e206-48b7-a815-9582518b662d}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                    <label description="section" languagecode="1036" />
+                    <label description="セクション" languagecode="1041" />
+                    <label description="섹션" languagecode="1042" />
+                    <label description="节" languagecode="2052" />
+                    <label description="secção" languagecode="2070" />
+                    <label description="sección" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{23cbc6b8-977c-ec75-e644-3b480cd4a741}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Problem Building" languagecode="1033" />
+                          <label description="服务帐户" languagecode="2052" />
+                          <label description="Compte de service" languagecode="1036" />
+                          <label description="サービス アカウント" languagecode="1041" />
+                          <label description="서비스 계정" languagecode="1042" />
+                          <label description="Conta de Serviço" languagecode="2070" />
+                          <label description="Cuenta de servicio" languagecode="3082" />
+                        </labels>
+                        <control id="msdyn_serviceaccount" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_serviceaccount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4589d578-8716-d652-738b-cb9c0933ba90}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Problem Type" languagecode="1033" />
+                          <label description="主要事件类型" languagecode="2052" />
+                          <label description="Type d'incident principal" languagecode="1036" />
+                          <label description="プライマリ インシデントの種類" languagecode="1041" />
+                          <label description="기본 문제 유형" languagecode="1042" />
+                          <label description="Tipo de Incidente Principal" languagecode="2070" />
+                          <label description="Tipo de incidente principal" languagecode="3082" />
+                        </labels>
+                        <control id="msdyn_primaryincidenttype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_primaryincidenttype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{203c4d56-2793-77d7-2de9-abac8eed5d4a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Primary Incident Description" languagecode="1033" />
+                          <label description="主要事件说明" languagecode="2052" />
+                          <label description="Description de l'incident principal" languagecode="1036" />
+                          <label description="プライマリ インシデントの説明" languagecode="1041" />
+                          <label description="기본 문제 설명" languagecode="1042" />
+                          <label description="Descrição do Incidente Principal" languagecode="2070" />
+                          <label description="Descripción del incidente principal" languagecode="3082" />
+                        </labels>
+                        <control id="msdyn_primaryincidentdescription" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="msdyn_primaryincidentdescription" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cd742757-0d5e-1359-5384-299da270e5a0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Customer Asset" languagecode="1033" />
+                          <label description="主要事件客户资产" languagecode="2052" />
+                          <label description="Actif client principal de l'incident" languagecode="1036" />
+                          <label description="プライマリ インシデント顧客資産" languagecode="1041" />
+                          <label description="기본 문제 고객 자산" languagecode="1042" />
+                          <label description="Ativo do Cliente do Incidente Principal" languagecode="2070" />
+                          <label description="Activo del cliente del incidente principal" languagecode="3082" />
+                        </labels>
+                        <control id="msdyn_customerasset" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_customerasset" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8b805ab0-328c-ec13-a998-1e6499e165eb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Street 1" languagecode="1033" />
+                          <label description="街道 1" languagecode="2052" />
+                          <label description="Rue 1" languagecode="1036" />
+                          <label description="番地 1" languagecode="1041" />
+                          <label description="주소 1" languagecode="1042" />
+                          <label description="Rua 1" languagecode="2070" />
+                          <label description="Calle 1" languagecode="3082" />
+                        </labels>
+                        <control id="msdyn_address1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msdyn_address1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4164c1a6-de51-d60d-add4-ee291b137288}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="City" languagecode="1033" />
+                          <label description="市/县" languagecode="2052" />
+                          <label description="Ville" languagecode="1036" />
+                          <label description="市区町村" languagecode="1041" />
+                          <label description="구/군/시" languagecode="1042" />
+                          <label description="Localidade" languagecode="2070" />
+                          <label description="Ciudad" languagecode="3082" />
+                        </labels>
+                        <control id="msdyn_city" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msdyn_city" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{02654235-9447-e5ad-6a1c-b8b57c9a96e9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="State Or Province" languagecode="1033" />
+                          <label description="省/市/自治区" languagecode="2052" />
+                          <label description="Département ou province" languagecode="1036" />
+                          <label description="都道府県" languagecode="1041" />
+                          <label description="시/도" languagecode="1042" />
+                          <label description="Estado Ou Distrito" languagecode="2070" />
+                          <label description="Estado o provincia" languagecode="3082" />
+                        </labels>
+                        <control id="msdyn_stateorprovince" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msdyn_stateorprovince" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{07bb4ee2-c6b0-c96d-3a14-a5813a5c829d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Postal Code" languagecode="1033" />
+                          <label description="邮政编码" languagecode="2052" />
+                          <label description="Code postal" languagecode="1036" />
+                          <label description="郵便番号" languagecode="1041" />
+                          <label description="우편 번호" languagecode="1042" />
+                          <label description="Código Postal" languagecode="2070" />
+                          <label description="Código postal" languagecode="3082" />
+                        </labels>
+                        <control id="msdyn_postalcode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msdyn_postalcode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5e79ec82-7e24-7a8b-4d29-707b35cba029}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Country/Region" languagecode="1033" />
+                          <label description="国家/地区" languagecode="2052" />
+                          <label description="Pays/région" languagecode="1036" />
+                          <label description="国/地域" languagecode="1041" />
+                          <label description="국가/지역" languagecode="1042" />
+                          <label description="País/Região" languagecode="2070" />
+                          <label description="País o región" languagecode="3082" />
+                        </labels>
+                        <control id="msdyn_country" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msdyn_country" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{00b27839-b4a9-3435-9e30-6e05e7365c67}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Sales Tax" languagecode="1033" />
+                          <label description="销售税总计" languagecode="2052" />
+                          <label description="Total des taxes sur les ventes" languagecode="1036" />
+                          <label description="合計売上税" languagecode="1041" />
+                          <label description="총 판매세" languagecode="1042" />
+                          <label description="Imposto sobre Vendas Total" languagecode="2070" />
+                          <label description="Importe sobre las ventas total" languagecode="3082" />
+                        </labels>
+                        <control id="msdyn_totalsalestax" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_totalsalestax" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4d63b855-75e9-e8e3-1c11-5ca2520c7159}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Amount" languagecode="1033" />
+                          <label description="总金额" languagecode="2052" />
+                          <label description="Montant total" languagecode="1036" />
+                          <label description="合計金額" languagecode="1041" />
+                          <label description="총 금액" languagecode="1042" />
+                          <label description="Montante Total" languagecode="2070" />
+                          <label description="Importe total" languagecode="3082" />
+                        </labels>
+                        <control id="msdyn_totalamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_totalamount" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Work Order Quick View" languagecode="1033" />
+      <LocalizedName description="Vue Aperçu de l'ordre de travail" languagecode="1036" />
+      <LocalizedName description="作業指示書の簡易表示" languagecode="1041" />
+      <LocalizedName description="작업 주문 빠른 보기" languagecode="1042" />
+      <LocalizedName description="工作订单快速视图" languagecode="2052" />
+      <LocalizedName description="Vista Rápida de Ordens de Intervenção" languagecode="2070" />
+      <LocalizedName description="Vista rápida de orden de trabajo" languagecode="3082" />
+    </LocalizedNames>
+  </systemform>
+</forms>

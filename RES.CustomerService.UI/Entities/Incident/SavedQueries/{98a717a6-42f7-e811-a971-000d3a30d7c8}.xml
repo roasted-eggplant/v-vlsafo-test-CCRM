@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{98a717a6-42f7-e811-a971-000d3a30d7c8}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="title" select="1" preview="1" icon="1">
+        <row name="result" id="incidentid">
+          <cell name="smp_priorityid" width="100" />
+          <cell name="createdon" width="100" />
+          <cell name="title" width="150" />
+          <cell name="smp_contactalias" width="100" />
+          <cell name="smp_contactphone" width="100" />
+          <cell name="new_contactroomnumber" width="100" />
+          <cell name="smp_problembuilding" width="100" />
+          <cell name="smp_problemclassid" width="100" />
+          <cell name="smp_problemtypeid" width="100" />
+          <cell name="customerid" width="100" />
+          <cell name="statuscode" width="100" />
+          <cell name="smp_submitteddatetime" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="incident">
+          <attribute name="title" />
+          <attribute name="smp_submitteddatetime" />
+          <attribute name="statuscode" />
+          <attribute name="customerid" />
+          <attribute name="smp_problemtypeid" />
+          <attribute name="smp_problemclassid" />
+          <attribute name="smp_problembuilding" />
+          <attribute name="smp_priorityid" />
+          <attribute name="new_contactroomnumber" />
+          <attribute name="smp_contactphone" />
+          <attribute name="smp_contactalias" />
+          <attribute name="createdon" />
+          <order attribute="createdon" descending="true" />
+          <order attribute="smp_priorityid" descending="false" />
+          <filter type="and">
+            <condition attribute="statuscode" operator="in">
+              <value>1</value>
+              <value>180620002</value>
+              <value>2</value>
+              <value>180620012</value>
+            </condition>
+            <condition attribute="smp_priorityid" operator="in">
+              <value uiname="P3" uitype="smp_priority">{36792E64-4148-E211-B3E3-78E3B511B663}</value>
+              <value uiname="P1" uitype="smp_priority">{32792E64-4148-E211-B3E3-78E3B511B663}</value>
+              <value uiname="P2" uitype="smp_priority">{34792E64-4148-E211-B3E3-78E3B511B663}</value>
+              <value uiname="PS1" uitype="smp_priority">{66998944-BD11-E311-AC7F-78E3B5103F1D}</value>
+              <value uiname="PS2" uitype="smp_priority">{6C998944-BD11-E311-AC7F-78E3B5103F1D}</value>
+              <value uiname="PS3" uitype="smp_priority">{AD3B93B3-E272-E811-8134-3863BB3CC560}</value>
+            </condition>
+          </filter>
+          <attribute name="incidentid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All Open High Priority Service Requests" languagecode="1033" />
+      <LocalizedName description="Todas as solicitações de serviço aberto de alta prioridade" languagecode="1046" />
+      <LocalizedName description="Todas las Solicitudes de Servicio Abiertas" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

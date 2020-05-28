@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="adx_contactproduct" />
+  <EntityRelationship Name="smp_smp_roomtype_smp_problemtype" />
+  <EntityRelationship Name="smp_team_product_Tier1provider" />
+</EntityRelationships>

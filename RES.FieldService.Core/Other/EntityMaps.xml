@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityMaps>
+  <EntityMap>
+    <EntitySource>msdyn_workorder</EntitySource>
+    <EntityTarget>msdyn_purchaseorder</EntityTarget>
+    <AttributeMaps>
+      <AttributeMap>
+        <AttributeSource>msdyn_serviceaccount</AttributeSource>
+        <AttributeTarget>smp_building</AttributeTarget>
+      </AttributeMap>
+    </AttributeMaps>
+  </EntityMap>
+  <EntityMap>
+    <EntitySource>msdyn_workorder</EntitySource>
+    <EntityTarget>smp_fulfilmentrequestlineitem</EntityTarget>
+    <AttributeMaps>
+      <AttributeMap>
+        <AttributeSource>smp_duedate</AttributeSource>
+        <AttributeTarget>smp_requesteddate</AttributeTarget>
+      </AttributeMap>
+    </AttributeMaps>
+  </EntityMap>
+  <EntityMap>
+    <EntitySource>msdyn_workorder</EntitySource>
+    <EntityTarget>smp_inspection</EntityTarget>
+    <AttributeMaps>
+      <AttributeMap>
+        <AttributeSource>msdyn_customerasset</AttributeSource>
+        <AttributeTarget>smp_customerassetid</AttributeTarget>
+      </AttributeMap>
+      <AttributeMap>
+        <AttributeSource>msdyn_serviceaccount</AttributeSource>
+        <AttributeTarget>smp_building</AttributeTarget>
+      </AttributeMap>
+      <AttributeMap>
+        <AttributeSource>ownerid</AttributeSource>
+        <AttributeTarget>ownerid</AttributeTarget>
+      </AttributeMap>
+    </AttributeMaps>
+  </EntityMap>
+</EntityMaps>

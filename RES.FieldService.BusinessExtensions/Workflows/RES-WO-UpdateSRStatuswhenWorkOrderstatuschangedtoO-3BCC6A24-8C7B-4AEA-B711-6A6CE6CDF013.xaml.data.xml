@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{3bcc6a24-8c7b-4aea-b711-6a6ce6cdf013}" Name="RES - WO - Update SR Status when Work Order status  changed to Open-Schedules and Closed Posted">
+  <XamlFileName>/Workflows/RES-WO-UpdateSRStatuswhenWorkOrderstatuschangedtoO-3BCC6A24-8C7B-4AEA-B711-6A6CE6CDF013.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>0</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnUpdateAttributeList>msdyn_systemstatus,msdyn_substatus</TriggerOnUpdateAttributeList>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <UpdateStage>40</UpdateStage>
+  <RunAs>0</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <PrimaryEntity>msdyn_workorder</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="RES - WO - Update SR Status when Work Order status  changed to Open-Schedules and Closed Posted" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{4bcbbf84-b70e-4c03-918c-81076f5eedef}">
+      <label languagecode="1033" description="Success" />
+    </steplabels>
+  </labels>
+</Workflow>

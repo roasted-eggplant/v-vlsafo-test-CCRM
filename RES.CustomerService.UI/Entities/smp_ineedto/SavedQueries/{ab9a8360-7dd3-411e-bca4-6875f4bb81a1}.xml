@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{ab9a8360-7dd3-411e-bca4-6875f4bb81a1}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="smp_taskdescription" select="1" icon="1" preview="0">
+        <row name="smp_ineedto" id="smp_ineedtoid">
+          <cell name="smp_taskdescription" width="300" />
+          <cell name="smp_buildingid" width="150" />
+          <cell name="smp_tasktext" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_ineedto">
+          <attribute name="smp_ineedtoid" />
+          <attribute name="smp_taskdescription" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="smp_taskdescription" descending="false" />
+          <attribute name="smp_tasktext" />
+          <attribute name="smp_buildingid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="I Need To Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

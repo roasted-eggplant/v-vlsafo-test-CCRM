@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{2d1187c4-23fe-4bb5-9647-43bb1c6ddbd1}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" icon="1" preview="1">
+        <row name="result" id="accountid">
+          <cell name="name" width="300" />
+          <cell name="telephone1" width="100" />
+          <cell name="primarycontactid" width="150" />
+          <cell name="address1_line1" width="150" />
+          <cell name="address1_city" width="100" />
+          <cell name="address1_stateorprovince" width="100" />
+          <cell name="address1_country" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="account">
+          <attribute name="name" />
+          <attribute name="primarycontactid" />
+          <attribute name="address1_city" />
+          <attribute name="telephone1" />
+          <attribute name="address1_line1" />
+          <attribute name="address1_stateorprovince" />
+          <attribute name="address1_country" />
+          <order attribute="name" descending="false" />
+          <order attribute="address1_stateorprovince" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="smp_accounttype" operator="eq" value="180620001" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="name" operator="like" value="{0}" />
+          </filter>
+          <attribute name="accountid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Providers" languagecode="1033" />
+      <LocalizedName description="Recherche rapide Comptes actifs" languagecode="1036" />
+      <LocalizedName description="アクティブな取引先企業の簡易検索" languagecode="1041" />
+      <LocalizedName description="활성 거래처의 빠른 찾기" languagecode="1042" />
+      <LocalizedName description="Localização Rápida de Contas Ativas" languagecode="1046" />
+      <LocalizedName description="快速查找可用客户" languagecode="2052" />
+      <LocalizedName description="Localização Rápida de Contas Ativas" languagecode="2070" />
+      <LocalizedName description="Búsqueda rápida de cuentas activas" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

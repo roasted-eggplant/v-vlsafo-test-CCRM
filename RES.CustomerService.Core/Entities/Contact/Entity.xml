@@ -1,0 +1,2483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Contact" OriginalName="Contact">Contact</Name>
+  <EntityInfo>
+    <entity Name="Contact">
+      <LocalizedNames>
+        <LocalizedName description="Contact" languagecode="1033" />
+        <LocalizedName description="Contact" languagecode="1042" />
+        <LocalizedName description="Contact" languagecode="1036" />
+        <LocalizedName description="Contact" languagecode="2070" />
+        <LocalizedName description="Contact" languagecode="1041" />
+        <LocalizedName description="Contact" languagecode="2052" />
+        <LocalizedName description="Contact" languagecode="3082" />
+        <LocalizedName description="Contato" languagecode="1046" />
+      </LocalizedNames>
+      <LocalizedCollectionNames>
+        <LocalizedCollectionName description="Contacts" languagecode="1033" />
+        <LocalizedCollectionName description="Contacts" languagecode="1036" />
+        <LocalizedCollectionName description="Contacts" languagecode="1042" />
+        <LocalizedCollectionName description="Contacts" languagecode="3082" />
+        <LocalizedCollectionName description="Contacts" languagecode="1041" />
+        <LocalizedCollectionName description="Contacts" languagecode="2070" />
+        <LocalizedCollectionName description="Contacts" languagecode="2052" />
+        <LocalizedCollectionName description="Contatos" languagecode="1046" />
+      </LocalizedCollectionNames>
+      <Descriptions>
+        <Description description="Person with whom a business unit has a relationship, such as customer, supplier, and colleague." languagecode="1033" />
+        <Description description="Person with whom a business unit has a relationship, such as customer, supplier, and colleague." languagecode="2070" />
+        <Description description="Person with whom a business unit has a relationship, such as customer, supplier, and colleague." languagecode="1042" />
+        <Description description="Person with whom a business unit has a relationship, such as customer, supplier, and colleague." languagecode="1036" />
+        <Description description="Person with whom a business unit has a relationship, such as customer, supplier, and colleague." languagecode="1041" />
+        <Description description="Person with whom a business unit has a relationship, such as customer, supplier, and colleague." languagecode="2052" />
+        <Description description="Person with whom a business unit has a relationship, such as customer, supplier, and colleague." languagecode="3082" />
+        <Description description="Pessoa com a qual uma unidade de negócios tem um relacionamento, como cliente, fornecedor e colega." languagecode="1046" />
+      </Descriptions>
+      <attributes>
+        <attribute PhysicalName="ContactId" unmodified="1">
+          <Type>primarykey</Type>
+          <Name>contactid</Name>
+          <LogicalName>contactid</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|RequiredForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>1</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <displaynames>
+            <displayname description="Contact" languagecode="1033" />
+            <displayname description="Contacto" languagecode="3082" />
+            <displayname description="Contacto" languagecode="2070" />
+            <displayname description="取引先担当者" languagecode="1041" />
+            <displayname description="연락처" languagecode="1042" />
+            <displayname description="联系人" languagecode="2052" />
+            <displayname description="Contact" languagecode="1036" />
+            <displayname description="Contato" languagecode="1046" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier of the contact." languagecode="1033" />
+            <Description description="Identificateur unique du contact." languagecode="1036" />
+            <Description description="取引先担当者を表す一意の識別子です。" languagecode="1041" />
+            <Description description="Identificador exclusivo do contacto." languagecode="2070" />
+            <Description description="Identificador único del contacto." languagecode="3082" />
+            <Description description="연락처의 고유 식별자입니다." languagecode="1042" />
+            <Description description="联系人的唯一标识符。" languagecode="2052" />
+            <Description description="Identificador exclusivo do contato." languagecode="1046" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="DoNotBulkEMail">
+          <Type>bit</Type>
+          <Name>donotbulkemail</Name>
+          <LogicalName>donotbulkemail</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="contact_donotbulkemail">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Do not allow Bulk Emails" languagecode="1033" />
+              <displayname description="Ne pas autoriser l’envoi de messages en nombre" languagecode="1036" />
+              <displayname description="대량 전자 메일 허용 안 함" languagecode="1042" />
+              <displayname description="Não permitir Emails em Massa" languagecode="1046" />
+              <displayname description="不允许使用批量电子邮件" languagecode="2052" />
+              <displayname description="No permitir correo elec. en masa" languagecode="3082" />
+              <displayname description="Não permitir Correio Eletrónico em Massa" languagecode="2070" />
+              <displayname description="電子メール広告を許可しない" languagecode="1041" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Information indiquant si l'envoi de courrier électronique direct au contact est autorisé." languagecode="1036" />
+              <Description description="取引先担当者への電子メール広告の送信を許可するかどうかを指定します。" languagecode="1041" />
+              <Description description="Informação que especifica se será permitido enviar mala direta por email ao contato." languagecode="1046" />
+              <Description description="有关是否允许向联系人发送电子直邮的信息。" languagecode="2052" />
+              <Description description="Informação sobre se é permitido enviar marketing direto por correio eletrónico para o contacto." languagecode="2070" />
+              <Description description="Especifica si se permite el envío de correo electrónico directo al contacto." languagecode="3082" />
+              <Description description="연락처에 다이렉트 전자 메일을 보낼 수 있도록 할지 여부에 대한 정보입니다." languagecode="1042" />
+              <Description description="Information about whether to allow sending direct email to the contact." languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="0">
+                <labels>
+                  <label description="Allow" languagecode="1033" />
+                  <label description="Permitir" languagecode="1046" />
+                  <label description="Permitir" languagecode="3082" />
+                  <label description="Autoriser" languagecode="1036" />
+                  <label description="允许" languagecode="2052" />
+                  <label description="Permitir" languagecode="2070" />
+                  <label description="허용" languagecode="1042" />
+                  <label description="許可" languagecode="1041" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="Descripción" languagecode="3082" />
+                </Descriptions>
+              </option>
+              <option value="1">
+                <labels>
+                  <label description="Do Not Allow" languagecode="1033" />
+                  <label description="Não Permitir" languagecode="1046" />
+                  <label description="No permitir" languagecode="3082" />
+                  <label description="許可しない" languagecode="1041" />
+                  <label description="허용 안 함" languagecode="1042" />
+                  <label description="Não Permitir" languagecode="2070" />
+                  <label description="Ne pas autoriser" languagecode="1036" />
+                  <label description="不允许" languagecode="2052" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="Descripción" languagecode="3082" />
+                </Descriptions>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Ne pas autoriser l’envoi de messages en nombre" languagecode="1036" />
+            <displayname description="대량 전자 메일 허용 안 함" languagecode="1042" />
+            <displayname description="不允许使用批量电子邮件" languagecode="2052" />
+            <displayname description="No permitir correo elec. en masa" languagecode="3082" />
+            <displayname description="Não permitir Correio Eletrónico em Massa" languagecode="2070" />
+            <displayname description="Não permitir Emails em Massa" languagecode="1046" />
+            <displayname description="電子メール広告を許可しない" languagecode="1041" />
+            <displayname description="Do not allow Bulk Emails" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Select whether the contact accepts bulk email sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the contact can be added to marketing lists, but will be excluded from the email." languagecode="1033" />
+            <Description description="Indiquez si le contact accepte les envois en nombre via les campagnes marketing ou les campagnes rapides. Si Ne pas autoriser est sélectionné, le contact peut être ajouté aux listes marketing, mais est exclu du courrier électronique." languagecode="1036" />
+            <Description description="取引先担当者がマーケティング キャンペーンまたは簡易キャンペーンを通じて送信される電子メール広告を受け取るかどうかを選択します。[許可しない] を選択した場合、取引先担当者をマーケティング リストに追加することはできますが、その取引先担当者は電子メールから除外されます。" languagecode="1041" />
+            <Description description="选择联系人是否接受通过市场营销活动或快速市场活动发送的批量电子邮件。如果选择“不允许”，则可将联系人添加到市场营销列表，但将其从电子邮件中排除。" languagecode="2052" />
+            <Description description="Seleccione si el contacto acepta correo electrónico en masa a través de campañas de marketing o campañas exprés. Si selecciona No permitir, el contacto podrá agregarse a listas de marketing, pero quedará excluida del correo electrónico." languagecode="3082" />
+            <Description description="마케팅 캠페인 또는 퀵 캠페인을 통해 보내는 대량 전자 메일을 연락처에서 허용할지 여부를 선택합니다. [허용 안 함]을 선택하면 연락처가 마케팅 목록에는 추가될 수 있지만 전자 메일에서는 제외됩니다." languagecode="1042" />
+            <Description description="Selecione se o contacto aceita o envio de correio eletrónico em massa através de campanhas de marketing ou campanhas rápidas. Se Não Permitir for selecionado, o contacto pode ser adicionado a listas de marketing, mas é excluído do correio eletrónico." languagecode="2070" />
+            <Description description="Escolha se o contato aceita envio de email em massa em campanhas de marketing ou rápidas. Se Não Permitir estiver escolhido, o contato poderá ser adicionado às listas de marketing, mas será excluído do email." languagecode="1046" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="DoNotBulkPostalMail">
+          <Type>bit</Type>
+          <Name>donotbulkpostalmail</Name>
+          <LogicalName>donotbulkpostalmail</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="contact_donotbulkpostalmail">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Do not allow Bulk Mails" languagecode="1033" />
+              <displayname description="Ne pas autoriser l'envoi de messages en nombre" languagecode="1036" />
+              <displayname description="ダイレクト メールを許可しない" languagecode="1041" />
+              <displayname description="대량 우편 허용 안 함" languagecode="1042" />
+              <displayname description="Não permitir Correspondência em Massa" languagecode="1046" />
+              <displayname description="Não permitir Correio em Massa" languagecode="2070" />
+              <displayname description="No permitir correo en masa" languagecode="3082" />
+              <displayname description="不允许使用批量邮件" languagecode="2052" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Information about whether to allow sending bulk-rate postal mail to the contact." languagecode="1033" />
+              <Description description="Information indiquant si l'envoi de publipostages postaux au contact est autorisé." languagecode="1036" />
+              <Description description="取引先担当者へのダイレクト メールの送付を許可するかどうかを指定します。" languagecode="1041" />
+              <Description description="연락처에 대량 우편을 보낼 수 있도록 할지 여부에 대한 정보입니다." languagecode="1042" />
+              <Description description="Informação sobre se é permitido enviar marketing por correio postal para o contacto." languagecode="2070" />
+              <Description description="Especifica si se permite el envío de correo postal masivo al contacto." languagecode="3082" />
+              <Description description="有关是否允许向联系人发送大宗邮政信件的信息。" languagecode="2052" />
+              <Description description="Informação que especifica se será permitido enviar correio em massa ao contato." languagecode="1046" />
+            </Descriptions>
+            <options>
+              <option value="0">
+                <labels>
+                  <label description="No" languagecode="1033" />
+                  <label description="Não" languagecode="1046" />
+                  <label description="No" languagecode="3082" />
+                  <label description="Non" languagecode="1036" />
+                  <label description="いいえ" languagecode="1041" />
+                  <label description="否" languagecode="2052" />
+                  <label description="Não" languagecode="2070" />
+                  <label description="아니요" languagecode="1042" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="Descripción" languagecode="3082" />
+                </Descriptions>
+              </option>
+              <option value="1">
+                <labels>
+                  <label description="Yes" languagecode="1033" />
+                  <label description="Sim" languagecode="1046" />
+                  <label description="Sí" languagecode="3082" />
+                  <label description="Sim" languagecode="2070" />
+                  <label description="是" languagecode="2052" />
+                  <label description="예" languagecode="1042" />
+                  <label description="はい" languagecode="1041" />
+                  <label description="Oui" languagecode="1036" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="Descripción" languagecode="3082" />
+                </Descriptions>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Ne pas autoriser l'envoi de messages en nombre" languagecode="1036" />
+            <displayname description="ダイレクト メールを許可しない" languagecode="1041" />
+            <displayname description="대량 우편 허용 안 함" languagecode="1042" />
+            <displayname description="不允许使用批量邮件" languagecode="2052" />
+            <displayname description="Não permitir Correio em Massa" languagecode="2070" />
+            <displayname description="No permitir correo en masa" languagecode="3082" />
+            <displayname description="Do not allow Bulk Mails" languagecode="1033" />
+            <displayname description="Não permitir Correspondência em Massa" languagecode="1046" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Select whether the contact accepts bulk postal mail sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the contact can be added to marketing lists, but will be excluded from the letters." languagecode="1033" />
+            <Description description="Indiquez si le contact accepte le courrier postal en nombre via les campagnes marketing ou les campagnes rapides. Si Ne pas autoriser est sélectionné, le contact peut être ajouté aux listes marketing, mais est exclu des lettres." languagecode="1036" />
+            <Description description="Escolha se o contato aceita envio de correio em massa em campanhas de marketing ou rápidas. Se Não Permitir estiver escolhido, o contato poderá ser adicionado às listas de marketing, mas será excluído de cartas." languagecode="1046" />
+            <Description description="Seleccione si el contacto acepta correo postal masivo a través de campañas de marketing o campañas exprés. Si selecciona No permitir, el contacto podrá agregarse a listas de marketing, pero quedará excluida de las cartas." languagecode="3082" />
+            <Description description="Selecione se o contacto aceita o envio de correio postal em massa através de campanhas de marketing ou campanhas rápidas. Se Não Permitir for selecionado, o contacto pode ser adicionado a listas de marketing, mas é excluído das cartas." languagecode="2070" />
+            <Description description="选择联系人是否接受通过市场营销活动或快速市场活动发送的批量邮政信件。如果选择“不允许”，则可将联系人添加到市场营销列表，但将其从信件中排除。" languagecode="2052" />
+            <Description description="마케팅 캠페인 또는 퀵 캠페인을 통해 보내는 대량 우편 메일을 연락처에서 허용할지 여부를 선택합니다. [허용 안 함]을 선택하면 연락처가 마케팅 목록에는 추가될 수 있지만 편지에서는 제외됩니다." languagecode="1042" />
+            <Description description="取引先担当者がマーケティング キャンペーンまたは簡易キャンペーンを通じて送付されるダイレクト メールを受け取るかどうかを選択します。[許可しない] を選択した場合、取引先担当者をマーケティング リストに追加することはできますが、その取引先担当者はレターから除外されます。" languagecode="1041" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="DoNotEMail">
+          <Type>bit</Type>
+          <Name>donotemail</Name>
+          <LogicalName>donotemail</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="contact_donotemail">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Do not allow Emails" languagecode="1033" />
+              <displayname description="Ne pas autoriser le courrier électronique" languagecode="1036" />
+              <displayname description="전자 메일 허용 안 함" languagecode="1042" />
+              <displayname description="Não permitir Emails" languagecode="1046" />
+              <displayname description="不允许使用电子邮件" languagecode="2052" />
+              <displayname description="Não permitir Mensagens de Correio Eletrónico" languagecode="2070" />
+              <displayname description="No permitir correo electrónico" languagecode="3082" />
+              <displayname description="電子メールを許可しない" languagecode="1041" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Information about whether to allow sending email to the contact." languagecode="1033" />
+              <Description description="Information indiquant si l'envoi de courrier électronique au contact est autorisé." languagecode="1036" />
+              <Description description="연락처에 전자 메일을 보낼 수 있도록 할지 여부에 대한 정보입니다." languagecode="1042" />
+              <Description description="有关是否允许向联系人发送电子邮件的信息。" languagecode="2052" />
+              <Description description="Informação sobre se é permitido enviar correio eletrónico para o contacto." languagecode="2070" />
+              <Description description="Especifica si se permite el envío de correo electrónico al contacto." languagecode="3082" />
+              <Description description="取引先担当者への電子メールの送信を許可するかどうかを指定します。" languagecode="1041" />
+              <Description description="Informação que especifica se será permitido enviar email ao contato." languagecode="1046" />
+            </Descriptions>
+            <options>
+              <option value="0">
+                <labels>
+                  <label description="Allow" languagecode="1033" />
+                  <label description="Permitir" languagecode="1046" />
+                  <label description="Permitir" languagecode="3082" />
+                  <label description="Autoriser" languagecode="1036" />
+                  <label description="許可" languagecode="1041" />
+                  <label description="허용" languagecode="1042" />
+                  <label description="允许" languagecode="2052" />
+                  <label description="Permitir" languagecode="2070" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="Descripción" languagecode="3082" />
+                </Descriptions>
+              </option>
+              <option value="1">
+                <labels>
+                  <label description="Do Not Allow" languagecode="1033" />
+                  <label description="Não Permitir" languagecode="1046" />
+                  <label description="No permitir" languagecode="3082" />
+                  <label description="Ne pas autoriser" languagecode="1036" />
+                  <label description="許可しない" languagecode="1041" />
+                  <label description="허용 안 함" languagecode="1042" />
+                  <label description="不允许" languagecode="2052" />
+                  <label description="Não Permitir" languagecode="2070" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="Descripción" languagecode="3082" />
+                </Descriptions>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Ne pas autoriser le courrier électronique" languagecode="1036" />
+            <displayname description="電子メールを許可しない" languagecode="1041" />
+            <displayname description="전자 메일 허용 안 함" languagecode="1042" />
+            <displayname description="不允许使用电子邮件" languagecode="2052" />
+            <displayname description="Não permitir Mensagens de Correio Eletrónico" languagecode="2070" />
+            <displayname description="No permitir correo electrónico" languagecode="3082" />
+            <displayname description="Não permitir Emails" languagecode="1046" />
+            <displayname description="Do not allow Emails" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Select whether the contact allows direct email sent from Microsoft Dynamics 365. If Do Not Allow is selected, Microsoft Dynamics 365 will not send the email." languagecode="1033" />
+            <Description description="取引先担当者が Microsoft Dynamics 365 から送信される電子メール広告を許可しているかどうかを選択します。[許可しない] を選択した場合、Microsoft Dynamics 365 からの電子メールは送信されません。" languagecode="1041" />
+            <Description description="Microsoft Dynamics 365에서 보내는 다이렉트 전자 메일을 연락처에서 허용할지 여부를 선택합니다. [허용 안 함]을 선택하면 Microsoft Dynamics 365에서 전자 메일을 보내지 않습니다." languagecode="1042" />
+            <Description description="Escolha se o contato permite o envio de email direto do Microsoft Dynamics 365. Se Não Permitir estiver escolhido, o Microsoft Dynamics 365 não enviará o email." languagecode="1046" />
+            <Description description="选择联系人是否允许从 Microsoft Dynamics 365 发送的电子直邮。如果选择“不允许”，则 Microsoft Dynamics 365 不会发送该电子邮件。" languagecode="2052" />
+            <Description description="Selecione se o contacto permite o envio de marketing direto por e-mail a partir do Microsoft Dynamics 365. Se Não Permitir for selecionado, o Microsoft Dynamics 365 não envia o e-mail." languagecode="2070" />
+            <Description description="Seleccione si el contacto permite enviar correo electrónico directo desde Microsoft Dynamics 365. Si se selecciona No permitir, Microsoft Dynamics 365 no enviará el correo electrónico." languagecode="3082" />
+            <Description description="Indiquez si le contact autorise le courrier direct envoyé depuis Microsoft Dynamics 365. Si Ne pas autoriser est sélectionné, Microsoft Dynamics 365 n'envoie pas le courrier électronique." languagecode="1036" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="DoNotFax">
+          <Type>bit</Type>
+          <Name>donotfax</Name>
+          <LogicalName>donotfax</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="contact_donotfax">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Do not allow Faxes" languagecode="1033" />
+              <displayname description="Ne pas autoriser la télécopie" languagecode="1036" />
+              <displayname description="FAX を許可しない" languagecode="1041" />
+              <displayname description="팩스 허용 안 함" languagecode="1042" />
+              <displayname description="Não permitir Faxes" languagecode="1046" />
+              <displayname description="不允许使用传真" languagecode="2052" />
+              <displayname description="Não permitir Faxes" languagecode="2070" />
+              <displayname description="No permitir faxes" languagecode="3082" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Information about whether to allow sending fax transmittals to the contact." languagecode="1033" />
+              <Description description="Information indiquant si l'envoi de télécopies au contact est autorisé." languagecode="1036" />
+              <Description description="Informação que especifica se será permitido enviar fax ao contato." languagecode="1046" />
+              <Description description="Informação sobre se é permitido enviar faxes para o contacto." languagecode="2070" />
+              <Description description="Especifica si se permite el envío de faxes al contacto." languagecode="3082" />
+              <Description description="取引先担当者への FAX の送付を許可するかどうかを指定します。" languagecode="1041" />
+              <Description description="有关是否允许向联系人发送传真的信息。" languagecode="2052" />
+              <Description description="연락처에 팩스를 보낼 수 있도록 할지 여부에 대한 정보입니다." languagecode="1042" />
+            </Descriptions>
+            <options>
+              <option value="0">
+                <labels>
+                  <label description="Allow" languagecode="1033" />
+                  <label description="Permitir" languagecode="1046" />
+                  <label description="Permitir" languagecode="3082" />
+                  <label description="Autoriser" languagecode="1036" />
+                  <label description="許可" languagecode="1041" />
+                  <label description="허용" languagecode="1042" />
+                  <label description="允许" languagecode="2052" />
+                  <label description="Permitir" languagecode="2070" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="Descripción" languagecode="3082" />
+                </Descriptions>
+              </option>
+              <option value="1">
+                <labels>
+                  <label description="Do Not Allow" languagecode="1033" />
+                  <label description="Não Permitir" languagecode="1046" />
+                  <label description="No permitir" languagecode="3082" />
+                  <label description="Ne pas autoriser" languagecode="1036" />
+                  <label description="許可しない" languagecode="1041" />
+                  <label description="허용 안 함" languagecode="1042" />
+                  <label description="不允许" languagecode="2052" />
+                  <label description="Não Permitir" languagecode="2070" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="Descripción" languagecode="3082" />
+                </Descriptions>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Ne pas autoriser la télécopie" languagecode="1036" />
+            <displayname description="FAX を許可しない" languagecode="1041" />
+            <displayname description="팩스 허용 안 함" languagecode="1042" />
+            <displayname description="不允许使用传真" languagecode="2052" />
+            <displayname description="Não permitir Faxes" languagecode="2070" />
+            <displayname description="No permitir faxes" languagecode="3082" />
+            <displayname description="Não permitir Faxes" languagecode="1046" />
+            <displayname description="Do not allow Faxes" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Select whether the contact allows faxes. If Do Not Allow is selected, the contact will be excluded from any fax activities distributed in marketing campaigns." languagecode="1033" />
+            <Description description="Indiquez si le contact autorise les télécopies. Si Ne pas autoriser est sélectionné, le contact peut être exclu des activités de télécopie distribuées dans les campagnes marketing." languagecode="1036" />
+            <Description description="取引先担当者が FAX を許可するかどうかを選択します。[許可しない] を選択した場合、その取引先担当者はマーケティング キャンペーンの FAX 活動から除外されます。" languagecode="1041" />
+            <Description description="Escolha se o contato permite fax. Se Não Permitir estiver escolhido, o contato será excluído de todas as atividades de fax distribuídas em campanhas de marketing." languagecode="1046" />
+            <Description description="选择联系人是否允许传真。如果选择“不允许”，则会将联系人从市场营销活动分发的任何传真活动中排除。" languagecode="2052" />
+            <Description description="Seleccione si el contacto permite faxes. Si selecciona No permitir, el contacto podrá quedar excluido de las actividades de fax distribuidas en campañas de marketing." languagecode="3082" />
+            <Description description="Selecione se o contacto permite faxes. Se Não Permitir for selecionado, o contacto será excluído de quaisquer atividades de fax distribuídas em campanhas de marketing." languagecode="2070" />
+            <Description description="연락처에서 팩스를 허용할지 여부를 선택합니다. [허용 안 함]을 선택하면 연락처가 마케팅 캠페인으로 배포된 모든 팩스 활동에서 제외됩니다." languagecode="1042" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="DoNotPhone">
+          <Type>bit</Type>
+          <Name>donotphone</Name>
+          <LogicalName>donotphone</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="contact_donotphone">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Do not allow Phone Calls" languagecode="1033" />
+              <displayname description="Ne pas autoriser les appels téléphoniques" languagecode="1036" />
+              <displayname description="電話を許可しない" languagecode="1041" />
+              <displayname description="전화 통화 허용 안 함" languagecode="1042" />
+              <displayname description="Não permitir Telefonemas" languagecode="1046" />
+              <displayname description="不允许电话联络" languagecode="2052" />
+              <displayname description="Não permitir Chamadas Telefónicas" languagecode="2070" />
+              <displayname description="No permitir llamadas de teléfono" languagecode="3082" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Information about whether to allow phone calls to the contact." languagecode="1033" />
+              <Description description="Information indiquant si l'émission d'appels téléphoniques au contact est autorisée." languagecode="1036" />
+              <Description description="取引先担当者への電話を許可するかどうかを指定します。" languagecode="1041" />
+              <Description description="연락처에 전화를 걸 수 있도록 할지 여부에 대한 정보입니다." languagecode="1042" />
+              <Description description="有关是否允许电话联络联系人的信息。" languagecode="2052" />
+              <Description description="Informação sobre se são permitidas chamadas telefónicas para o contacto." languagecode="2070" />
+              <Description description="Especifica si se permiten llamadas de teléfono al contacto." languagecode="3082" />
+              <Description description="Informação que especifica se será permitido telefonar para o contato." languagecode="1046" />
+            </Descriptions>
+            <options>
+              <option value="0">
+                <labels>
+                  <label description="Allow" languagecode="1033" />
+                  <label description="Permitir" languagecode="1046" />
+                  <label description="Permitir" languagecode="3082" />
+                  <label description="許可" languagecode="1041" />
+                  <label description="허용" languagecode="1042" />
+                  <label description="Autoriser" languagecode="1036" />
+                  <label description="Permitir" languagecode="2070" />
+                  <label description="允许" languagecode="2052" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="Descripción" languagecode="3082" />
+                </Descriptions>
+              </option>
+              <option value="1">
+                <labels>
+                  <label description="Do Not Allow" languagecode="1033" />
+                  <label description="Não Permitir" languagecode="1046" />
+                  <label description="No permitir" languagecode="3082" />
+                  <label description="허용 안 함" languagecode="1042" />
+                  <label description="不允许" languagecode="2052" />
+                  <label description="Não Permitir" languagecode="2070" />
+                  <label description="許可しない" languagecode="1041" />
+                  <label description="Ne pas autoriser" languagecode="1036" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="Descripción" languagecode="3082" />
+                </Descriptions>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Do not allow Phone Calls" languagecode="1033" />
+            <displayname description="Ne pas autoriser les appels téléphoniques" languagecode="1036" />
+            <displayname description="電話を許可しない" languagecode="1041" />
+            <displayname description="전화 통화 허용 안 함" languagecode="1042" />
+            <displayname description="Não permitir Telefonemas" languagecode="1046" />
+            <displayname description="不允许电话联络" languagecode="2052" />
+            <displayname description="Não permitir Chamadas Telefónicas" languagecode="2070" />
+            <displayname description="No permitir llamadas de teléfono" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Select whether the contact accepts phone calls. If Do Not Allow is selected, the contact will be excluded from any phone call activities distributed in marketing campaigns." languagecode="1033" />
+            <Description description="取引先担当者が電話を許可するかどうかを選択します。[許可しない] を選択した場合、その取引先担当者はマーケティング キャンペーンの電話活動から除外されます。" languagecode="1041" />
+            <Description description="Escolha se o contato aceita telefonemas. Se Não Permitir estiver escolhido, o contato será excluído de todas as atividades de telefonemas distribuídas em campanhas de marketing." languagecode="1046" />
+            <Description description="Seleccione si el contacto acepta llamadas de teléfono. Si selecciona No permitir, el contacto podrá quedar excluido de las actividades de llamada de teléfono distribuidas en campañas de marketing." languagecode="3082" />
+            <Description description="Selecione se o contacto aceita chamadas telefónicas. Se Não Permitir for selecionado, o contacto será excluído de quaisquer atividades de chamada telefónica distribuídas em campanhas de marketing." languagecode="2070" />
+            <Description description="选择联系人是否接受电话联络。如果选择“不允许”，则会将联系人从市场营销活动分发的任何电话联络活动中排除。" languagecode="2052" />
+            <Description description="연락처에서 전화 통화를 허용할지 여부를 선택합니다. [허용 안 함]을 선택하면 연락처가 마케팅 캠페인으로 배포된 모든 전화 통화 활동에서 제외됩니다." languagecode="1042" />
+            <Description description="Indiquez si le contact accepte les appels téléphoniques. Si Ne pas autoriser est sélectionné, le contact peut être exclu des activités d'appel téléphonique distribuées dans les campagnes marketing." languagecode="1036" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="DoNotPostalMail">
+          <Type>bit</Type>
+          <Name>donotpostalmail</Name>
+          <LogicalName>donotpostalmail</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="contact_donotpostalmail">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Do not allow Mails" languagecode="1033" />
+              <displayname description="Ne pas autoriser le courrier postal" languagecode="1036" />
+              <displayname description="郵便を許可しない" languagecode="1041" />
+              <displayname description="우편 허용 안 함" languagecode="1042" />
+              <displayname description="Não permitir Correio" languagecode="2070" />
+              <displayname description="不允许使用邮件" languagecode="2052" />
+              <displayname description="Não permitir Correspondência" languagecode="1046" />
+              <displayname description="No permitir correo" languagecode="3082" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Information about whether to allow sending postal mail to the contact." languagecode="1033" />
+              <Description description="取引先担当者への郵便物の送付を許可するかどうかを指定します。" languagecode="1041" />
+              <Description description="Informação sobre se é permitido enviar correio postal para o contacto." languagecode="2070" />
+              <Description description="Especifica si se permite el envío de correo postal al contacto." languagecode="3082" />
+              <Description description="Informação que especifica se será permitido enviar correio comum ao contato." languagecode="1046" />
+              <Description description="연락처에 우편을 보낼 수 있도록 할지 여부에 대한 정보입니다." languagecode="1042" />
+              <Description description="Information indiquant si l'envoi de courrier postal au contact est autorisé." languagecode="1036" />
+              <Description description="有关是否允许向联系人发送邮政信件的信息。" languagecode="2052" />
+            </Descriptions>
+            <options>
+              <option value="0">
+                <labels>
+                  <label description="Allow" languagecode="1033" />
+                  <label description="Permitir" languagecode="1046" />
+                  <label description="Permitir" languagecode="3082" />
+                  <label description="Autoriser" languagecode="1036" />
+                  <label description="허용" languagecode="1042" />
+                  <label description="允许" languagecode="2052" />
+                  <label description="許可" languagecode="1041" />
+                  <label description="Permitir" languagecode="2070" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="Descripción" languagecode="3082" />
+                </Descriptions>
+              </option>
+              <option value="1">
+                <labels>
+                  <label description="Do Not Allow" languagecode="1033" />
+                  <label description="Não Permitir" languagecode="1046" />
+                  <label description="No permitir" languagecode="3082" />
+                  <label description="許可しない" languagecode="1041" />
+                  <label description="허용 안 함" languagecode="1042" />
+                  <label description="不允许" languagecode="2052" />
+                  <label description="Não Permitir" languagecode="2070" />
+                  <label description="Ne pas autoriser" languagecode="1036" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="Descripción" languagecode="3082" />
+                </Descriptions>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Do not allow Mails" languagecode="1033" />
+            <displayname description="Ne pas autoriser le courrier postal" languagecode="1036" />
+            <displayname description="郵便を許可しない" languagecode="1041" />
+            <displayname description="不允许使用邮件" languagecode="2052" />
+            <displayname description="Não permitir Correio" languagecode="2070" />
+            <displayname description="No permitir correo" languagecode="3082" />
+            <displayname description="Não permitir Correspondência" languagecode="1046" />
+            <displayname description="우편 허용 안 함" languagecode="1042" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Select whether the contact allows direct mail. If Do Not Allow is selected, the contact will be excluded from letter activities distributed in marketing campaigns." languagecode="1033" />
+            <Description description="Indiquez si le contact autorise le courrier direct. Si Ne pas autoriser est sélectionné, le contact peut être exclu des activités de lettre distribuées dans les campagnes marketing." languagecode="1036" />
+            <Description description="取引先担当者がダイレクト メールを許可するかどうかを選択します。[許可しない] を選択した場合、その取引先担当者はマーケティング キャンペーンのレター活動から除外されます。" languagecode="1041" />
+            <Description description="Escolha se o contato permite email direto. Se Não Permitir estiver escolhido, o contato será excluído das atividades de cartas distribuídas em campanhas de marketing." languagecode="1046" />
+            <Description description="Selecione se o contacto permite mailing direto. Se Não Permitir for selecionado, o contacto será excluído das atividades de carta distribuídas em campanhas de marketing." languagecode="2070" />
+            <Description description="Seleccione si el contacto permite correo directo. Si selecciona No permitir, el contacto quedará excluido de las actividades de cartas distribuidas en campañas de marketing." languagecode="3082" />
+            <Description description="연락처에서 다이렉트 메일을 허용할지 여부를 선택합니다. [허용 안 함]을 선택하면 연락처가 마케팅 캠페인으로 배포된 편지 활동에서 제외됩니다." languagecode="1042" />
+            <Description description="选择联系人是否允许电子直邮。如果选择“不允许”，则会将联系人从市场营销活动分发的信件活动中排除。" languagecode="2052" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="DoNotSendMM">
+          <Type>bit</Type>
+          <Name>donotsendmm</Name>
+          <LogicalName>donotsendmm</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="contact_donotsendmm">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Send Marketing Materials" languagecode="1033" />
+              <displayname description="Envoyer les documents marketing" languagecode="1036" />
+              <displayname description="마케팅 자료 보내기" languagecode="1042" />
+              <displayname description="Enviar Materiais de Marketing" languagecode="1046" />
+              <displayname description="发送市场营销资料" languagecode="2052" />
+              <displayname description="Enviar materiales de marketing" languagecode="3082" />
+              <displayname description="Enviar Materiais de Marketing" languagecode="2070" />
+              <displayname description="マーケティング資料の送付" languagecode="1041" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Information regarding whether to allow sending marketing mail to the contact." languagecode="1033" />
+              <Description description="Information indiquant si l'envoi de courrier marketing au contact est autorisé." languagecode="1036" />
+              <Description description="取引先担当者へのマーケティング メールの送付を許可するかどうかを指定します。" languagecode="1041" />
+              <Description description="Informação que especifica se será permitido enviar correio de marketing ao contato." languagecode="1046" />
+              <Description description="有关是否允许向联系人发送市场营销邮件的信息。" languagecode="2052" />
+              <Description description="Informações sobre se deve permitir o envio de correio de marketing para o contacto." languagecode="2070" />
+              <Description description="Especifica si se permite el envío de marketing por correo al contacto." languagecode="3082" />
+              <Description description="연락처에 마케팅 우편을 보낼 수 있도록 할지 여부에 대한 정보입니다." languagecode="1042" />
+            </Descriptions>
+            <options>
+              <option value="0">
+                <labels>
+                  <label description="Send" languagecode="1033" />
+                  <label description="Enviar" languagecode="1046" />
+                  <label description="Enviar" languagecode="3082" />
+                  <label description="Envoyer" languagecode="1036" />
+                  <label description="送信する" languagecode="1041" />
+                  <label description="보내기" languagecode="1042" />
+                  <label description="发送" languagecode="2052" />
+                  <label description="Enviar" languagecode="2070" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="Descripción" languagecode="3082" />
+                </Descriptions>
+              </option>
+              <option value="1">
+                <labels>
+                  <label description="Do Not Send" languagecode="1033" />
+                  <label description="Não Enviar" languagecode="1046" />
+                  <label description="No enviar" languagecode="3082" />
+                  <label description="Ne pas envoyer" languagecode="1036" />
+                  <label description="보내지 않음" languagecode="1042" />
+                  <label description="不发送" languagecode="2052" />
+                  <label description="Não Enviar" languagecode="2070" />
+                  <label description="送信しない" languagecode="1041" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="Descripción" languagecode="3082" />
+                </Descriptions>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Send Marketing Materials" languagecode="1033" />
+            <displayname description="マーケティング資料の送付" languagecode="1041" />
+            <displayname description="마케팅 자료 보내기" languagecode="1042" />
+            <displayname description="发送市场营销资料" languagecode="2052" />
+            <displayname description="Enviar Materiais de Marketing" languagecode="2070" />
+            <displayname description="Enviar materiales de marketing" languagecode="3082" />
+            <displayname description="Enviar Materiais de Marketing" languagecode="1046" />
+            <displayname description="Envoyer les documents marketing" languagecode="1036" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Select whether the contact accepts marketing materials, such as brochures or catalogs. Contacts that opt out can be excluded from marketing initiatives." languagecode="1033" />
+            <Description description="Indiquez si le contact accepte les documents marketing, tels que des brochures ou des catalogues. Les contacts qui refusent de recevoir les publicités peuvent être exclus des initiatives marketing." languagecode="1036" />
+            <Description description="取引先担当者がパンフレットやカタログなどのマーケティング資料を受け取るかどうかを選択します。受け取らない取引先担当者は、マーケティング イニシアチブから除外できます。" languagecode="1041" />
+            <Description description="연락처에서 마케팅 자료(예: 브로슈어 또는 카탈로그)를 허용할지 여부를 선택합니다. 마케팅 이니셔티브에서 옵트아웃이 제외될 수 있는 연락처입니다." languagecode="1042" />
+            <Description description="Escolha se o contato aceita materiais de marketing, como brochuras ou catálogos. Os contatos que recusarem podem ser excluídos das iniciativas de marketing." languagecode="1046" />
+            <Description description="选择联系人是否接受市场营销材料，如小册子或目录。可从市场营销计划中排除选择退出的联系人。" languagecode="2052" />
+            <Description description="Seleccione si el contacto acepta materiales de marketing, como folletos o catálogos. Los contactos que optan por no participar pueden quedar excluidos de iniciativas de marketing." languagecode="3082" />
+            <Description description="Selecione se o contacto aceita materiais de marketing, como brochuras ou catálogos. Os contactos que optarem ativamente por não receber podem ser excluídos das iniciativas de marketing." languagecode="2070" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="EMailAddress1">
+          <Type>nvarchar</Type>
+          <Name>emailaddress1</Name>
+          <LogicalName>emailaddress1</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>inactive</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>1</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>email</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="E-mail" languagecode="1033" />
+            <displayname description="전자 메일" languagecode="1042" />
+            <displayname description="電子メール" languagecode="1041" />
+            <displayname description="Correio Eletrónico" languagecode="2070" />
+            <displayname description="Courrier électronique" languagecode="1036" />
+            <displayname description="电子邮件" languagecode="2052" />
+            <displayname description="Correo electrónico" languagecode="3082" />
+            <displayname description="Email" languagecode="1046" />
+          </displaynames>
+          <Descriptions>
+            <Description description="First e-mail address for the contact." languagecode="1033" />
+            <Description description="Introduza o endereço de correio eletrónico primário do contacto." languagecode="2070" />
+            <Description description="取引先担当者の既定電子メールのアドレスを入力します。" languagecode="1041" />
+            <Description description="연락처의 기본 전자 메일 주소를 입력합니다." languagecode="1042" />
+            <Description description="Tapez l'adresse de messagerie principale pour le contact." languagecode="1036" />
+            <Description description="Escriba la dirección de correo electrónico principal para el contacto." languagecode="3082" />
+            <Description description="键入联系人的主要电子邮件地址。" languagecode="2052" />
+            <Description description="Digite o endereço de email principal do contato." languagecode="1046" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="EMailAddress2">
+          <Type>nvarchar</Type>
+          <Name>emailaddress2</Name>
+          <LogicalName>emailaddress2</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>inactive</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>email</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="Email Address 2" languagecode="1033" />
+            <displayname description="电子邮件地址 2" languagecode="2052" />
+            <displayname description="電子メール アドレス 2" languagecode="1041" />
+            <displayname description="Dirección de correo electrónico 2" languagecode="3082" />
+            <displayname description="Adresse de messagerie 2" languagecode="1036" />
+            <displayname description="전자 메일 주소 2" languagecode="1042" />
+            <displayname description="Endereço de Correio Eletrónico 2" languagecode="2070" />
+            <displayname description="Endereço de Email 2" languagecode="1046" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Type the secondary email address for the contact." languagecode="1033" />
+            <Description description="Escriba la dirección de correo electrónico secundaria para el contacto." languagecode="3082" />
+            <Description description="Introduza o endereço de correio eletrónico secundário do contacto." languagecode="2070" />
+            <Description description="取引先担当者の電子メール アドレス 2 を入力します。" languagecode="1041" />
+            <Description description="Tapez l'adresse de messagerie secondaire pour le contact." languagecode="1036" />
+            <Description description="键入联系人的辅助电子邮件地址。" languagecode="2052" />
+            <Description description="연락처의 보조 전자 메일 주소를 입력합니다." languagecode="1042" />
+            <Description description="Digite o endereço de email secundário do contato." languagecode="1046" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="EMailAddress3">
+          <Type>nvarchar</Type>
+          <Name>emailaddress3</Name>
+          <LogicalName>emailaddress3</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>inactive</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>email</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="Email Address 3" languagecode="1033" />
+            <displayname description="Adresse de messagerie 3" languagecode="1036" />
+            <displayname description="전자 메일 주소 3" languagecode="1042" />
+            <displayname description="电子邮件地址 3" languagecode="2052" />
+            <displayname description="Dirección de correo electrónico 3" languagecode="3082" />
+            <displayname description="電子メール アドレス 3" languagecode="1041" />
+            <displayname description="Endereço de Correio Eletrónico 3" languagecode="2070" />
+            <displayname description="Endereço de Email 3" languagecode="1046" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Type an alternate email address for the contact." languagecode="1033" />
+            <Description description="键入联系人的备用电子邮件地址。" languagecode="2052" />
+            <Description description="Tapez une autre adresse de messagerie pour le contact." languagecode="1036" />
+            <Description description="Introduza um endereço de correio eletrónico alternativo do contacto." languagecode="2070" />
+            <Description description="Escriba una dirección de correo electrónico alternativa para el contacto." languagecode="3082" />
+            <Description description="取引先担当者の連絡用電子メール アドレスを入力します。" languagecode="1041" />
+            <Description description="연락처의 대체 전자 메일 주소를 입력합니다." languagecode="1042" />
+            <Description description="Digite o endereço de email alternativo do contato." languagecode="1046" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="FirstName">
+          <Type>nvarchar</Type>
+          <Name>firstname</Name>
+          <LogicalName>firstname</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
+          <ImeMode>active</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>50</MaxLength>
+          <Length>100</Length>
+          <displaynames>
+            <displayname description="First Name" languagecode="1033" />
+            <displayname description="Nome Próprio" languagecode="2070" />
+            <displayname description="이름" languagecode="1042" />
+            <displayname description="名" languagecode="2052" />
+            <displayname description="Prénom" languagecode="1036" />
+            <displayname description="名" languagecode="1041" />
+            <displayname description="Nombre de pila" languagecode="3082" />
+            <displayname description="Nome" languagecode="1046" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Type the contact's first name to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns." languagecode="1033" />
+            <Description description="键入联系人的名以确保在销售联络、电子邮件和市场营销活动中正确称呼联系人。" languagecode="2052" />
+            <Description description="営業の電話、電子メール、およびマーケティング キャンペーンで取引先担当者が適切に呼称されるように、取引先担当者の名を入力します。" languagecode="1041" />
+            <Description description="Introduza o nome próprio do contacto, para garantir que este é corretamente endereçado em chamadas de vendas, mensagens de correio eletrónico e campanhas de marketing." languagecode="2070" />
+            <Description description="Escriba el nombre de pila del contacto para asegurarse de que se dirige correctamente a él en llamadas de ventas, correo electrónico y campañas de marketing." languagecode="3082" />
+            <Description description="Tapez le prénom du contact pour vous assurer que le contact est mentionné correctement dans les appels de télévente, le courrier électronique et les campagnes marketing." languagecode="1036" />
+            <Description description="영업 통화, 전자 메일 및 마케팅 캠페인에 연락처가 제대로 처리되도록 연락처의 이름을 입력합니다." languagecode="1042" />
+            <Description description="Digite o nome do contato para garantir que o contato seja tratado corretamente em chamadas de vendas, emails e campanhas de marketing." languagecode="1046" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="FullName">
+          <Type>nvarchar</Type>
+          <Name>fullname</Name>
+          <LogicalName>fullname</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ActivityRegardingName|ActivityPointerRegardingName|PrimaryName|ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForGrid</DisplayMask>
+          <ImeMode>active</ImeMode>
+          <ValidForReadApi>1</ValidForReadApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>1</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>160</MaxLength>
+          <Length>320</Length>
+          <displaynames>
+            <displayname description="Full Name" languagecode="1033" />
+            <displayname description="Nom complet" languagecode="1036" />
+            <displayname description="氏名" languagecode="1041" />
+            <displayname description="Nome Completo" languagecode="2070" />
+            <displayname description="全名" languagecode="2052" />
+            <displayname description="전체 이름" languagecode="1042" />
+            <displayname description="Nombre completo" languagecode="3082" />
+            <displayname description="Nome Completo" languagecode="1046" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Combines and shows the contact's first and last names so that the full name can be displayed in views and reports." languagecode="1033" />
+            <Description description="ビューやレポートでフル ネームを表示できるように、取引先担当者の名と姓を組み合わせて表示します。" languagecode="1041" />
+            <Description description="组合并显示联系人的名和姓，以便在视图和报告中显示全名。" languagecode="2052" />
+            <Description description="Combina e mostra o nome próprio e o apelido do contacto, para que o nome completo possa ser apresentado em vistas e relatórios." languagecode="2070" />
+            <Description description="보기 및 보고서에 전체 이름을 표시할 수 있도록 연락처의 이름과 성을 결합하여 표시합니다." languagecode="1042" />
+            <Description description="Combine et affiche le nom et le prénom du contact pour que le nom complet puisse être affiché dans les vues et les rapports." languagecode="1036" />
+            <Description description="Combina y muestra el nombre y los apellidos del contacto para que pueda mostrarse el nombre completo en vistas e informes." languagecode="3082" />
+            <Description description="Combina e mostra o nome e o sobrenome do contato, para que o nome completo possa ser mostrado em exibições e relatórios." languagecode="1046" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="LastName">
+          <Type>nvarchar</Type>
+          <Name>lastname</Name>
+          <LogicalName>lastname</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
+          <ImeMode>active</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>50</MaxLength>
+          <Length>100</Length>
+          <displaynames>
+            <displayname description="Last Name" languagecode="1033" />
+            <displayname description="姓" languagecode="1041" />
+            <displayname description="Nom de famille" languagecode="1036" />
+            <displayname description="姓" languagecode="2052" />
+            <displayname description="성" languagecode="1042" />
+            <displayname description="Apelido" languagecode="2070" />
+            <displayname description="Apellidos" languagecode="3082" />
+            <displayname description="Sobrenome" languagecode="1046" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Type the contact's last name to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns." languagecode="1033" />
+            <Description description="Introduza o apelido do contacto, para garantir que este é corretamente endereçado em chamadas de vendas, mensagens de correio eletrónico e campanhas de marketing." languagecode="2070" />
+            <Description description="Tapez le nom du contact pour vous assurer que le contact est mentionné correctement dans les appels de télévente, le courrier électronique et les campagnes marketing." languagecode="1036" />
+            <Description description="영업 통화, 전자 메일 및 마케팅 캠페인에 연락처가 제대로 처리되도록 연락처의 성을 입력합니다." languagecode="1042" />
+            <Description description="键入联系人的姓以确保在销售联络、电子邮件和市场营销活动中正确称呼联系人。" languagecode="2052" />
+            <Description description="営業の電話、電子メール、およびマーケティング キャンペーンで取引先担当者が適切に呼称されるように、取引先担当者の姓を入力します。" languagecode="1041" />
+            <Description description="Escriba el apellido del contacto para asegurarse de que se dirige correctamente a él en llamadas de ventas, correo electrónico y campañas de marketing." languagecode="3082" />
+            <Description description="Digite o sobrenome do contato para garantir que o contato seja tratado corretamente em chamadas de vendas, emails e campanhas de marketing." languagecode="1046" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="Merged">
+          <Type>bit</Type>
+          <Name>merged</Name>
+          <LogicalName>merged</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <ImeMode>auto</ImeMode>
+          <ValidForReadApi>1</ValidForReadApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="contact_merged">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Intercalado" languagecode="2070" />
+              <displayname description="Merged" languagecode="1033" />
+              <displayname description="Fusionné(e)" languagecode="1036" />
+              <displayname description="Combinado" languagecode="3082" />
+              <displayname description="병합됨" languagecode="1042" />
+              <displayname description="合并" languagecode="2052" />
+              <displayname description="統合" languagecode="1041" />
+              <displayname description="Mesclado" languagecode="1046" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Informações relativas ao facto de a conta ter sido intercalada com um contacto principal." languagecode="2070" />
+              <Description description="Information regarding whether the account has been merged with a master contact." languagecode="1033" />
+              <Description description="Especifica si se ha combinado la cuenta con un contacto principal." languagecode="3082" />
+              <Description description="取引先企業がマスター取引先担当者と統合されているかどうかに関する情報です。" languagecode="1041" />
+              <Description description="Information indiquant si le compte a été fusionné avec un contact principal." languagecode="1036" />
+              <Description description="有关客户是否已与主联系人合并的信息。" languagecode="2052" />
+              <Description description="거래처가 마스터 연락처와 병합되었는지 여부에 대한 정보입니다." languagecode="1042" />
+              <Description description="Informações que especificam se a conta foi mesclada a um contato mestre." languagecode="1046" />
+            </Descriptions>
+            <options>
+              <option value="0">
+                <labels>
+                  <label description="否" languagecode="2052" />
+                  <label description="Non" languagecode="1036" />
+                  <label description="いいえ" languagecode="1041" />
+                  <label description="아니요" languagecode="1042" />
+                  <label description="Não" languagecode="2070" />
+                  <label description="No" languagecode="1033" />
+                  <label description="Não" languagecode="1046" />
+                  <label description="No" languagecode="3082" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="Descripción" languagecode="3082" />
+                </Descriptions>
+              </option>
+              <option value="1">
+                <labels>
+                  <label description="はい" languagecode="1041" />
+                  <label description="예" languagecode="1042" />
+                  <label description="是" languagecode="2052" />
+                  <label description="Sim" languagecode="2070" />
+                  <label description="Oui" languagecode="1036" />
+                  <label description="Yes" languagecode="1033" />
+                  <label description="Sim" languagecode="1046" />
+                  <label description="Sí" languagecode="3082" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="Descripción" languagecode="3082" />
+                </Descriptions>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Merged" languagecode="1033" />
+            <displayname description="병합됨" languagecode="1042" />
+            <displayname description="Intercalado" languagecode="2070" />
+            <displayname description="Combinado" languagecode="3082" />
+            <displayname description="統合" languagecode="1041" />
+            <displayname description="Fusionné(e)" languagecode="1036" />
+            <displayname description="合并" languagecode="2052" />
+            <displayname description="Mesclado" languagecode="1046" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Shows whether the account has been merged with a master contact." languagecode="1033" />
+            <Description description="거래처가 마스터 연락처와 병합되었는지 여부를 표시합니다." languagecode="1042" />
+            <Description description="Indique si le compte a été fusionné avec un contact principal." languagecode="1036" />
+            <Description description="Muestra si se ha combinado la cuenta con un contacto principal." languagecode="3082" />
+            <Description description="Mostra se a conta foi intercalada com um contacto principal." languagecode="2070" />
+            <Description description="显示客户是否已与主联系人合并。" languagecode="2052" />
+            <Description description="取引先企業がマスター取引先担当者と統合されているかどうかを表示します。" languagecode="1041" />
+            <Description description="Mostra se a conta foi mesclada com um contato mestre." languagecode="1046" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="new_allowemails">
+          <Type>bit</Type>
+          <Name>new_allowemails</Name>
+          <LogicalName>new_allowemails</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>1</AppDefaultValue>
+          <optionset Name="new_contact_new_allowemails">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Allow emails" languagecode="1033" />
+              <displayname description="Autoriser la notification par courrier électronique" languagecode="1036" />
+              <displayname description="電子メール通知を許可する" languagecode="1041" />
+              <displayname description="이메일 알림 허용" languagecode="1042" />
+              <displayname description="Permitir Notificação Email" languagecode="2070" />
+              <displayname description="Permitir Notificación por correo electrónico" languagecode="3082" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Select whether the contact allows direct email sent from Microsoft Dynamics 365. If Allow is selected, Microsoft Dynamics 365 will send the email." languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="0" Color="#0000ff">
+                <labels>
+                  <label description="No" languagecode="1033" />
+                  <label description="Não" languagecode="1046" />
+                  <label description="No" languagecode="3082" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="Descripción" languagecode="3082" />
+                </Descriptions>
+              </option>
+              <option value="1" Color="#0000ff">
+                <labels>
+                  <label description="Yes" languagecode="1033" />
+                  <label description="Sim" languagecode="1046" />
+                  <label description="Yes" languagecode="3082" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="Descripción" languagecode="3082" />
+                </Descriptions>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Allow emails" languagecode="1033" />
+            <displayname description="Autoriser la notification par courrier électronique" languagecode="1036" />
+            <displayname description="電子メール通知を許可する" languagecode="1041" />
+            <displayname description="이메일 알림 허용" languagecode="1042" />
+            <displayname description="Permitir Notificação Email" languagecode="2070" />
+            <displayname description="Permitir Notificación por correo electrónico" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Select whether the contact allows direct email sent from Microsoft Dynamics 365. If Allow is selected, Microsoft Dynamics 365 will send the email." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="new_EmailAlias">
+          <Type>nvarchar</Type>
+          <Name>new_emailalias</Name>
+          <LogicalName>new_emailalias</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="Email Alias" languagecode="1033" />
+            <displayname description="Alias e-mail" languagecode="1036" />
+            <displayname description="アリアス" languagecode="1041" />
+            <displayname description="이메일 별칭" languagecode="1042" />
+            <displayname description="Pseudônimo de E-mail" languagecode="2070" />
+            <displayname description="Alias de correo electrónico" languagecode="3082" />
+            <displayname description="电子邮件别名" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_Alias">
+          <Type>nvarchar</Type>
+          <Name>smp_alias</Name>
+          <LogicalName>smp_alias</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="Alias" languagecode="1033" />
+            <displayname description="Alias" languagecode="1036" />
+            <displayname description="Alias" languagecode="1041" />
+            <displayname description="Alias" languagecode="1042" />
+            <displayname description="Alias" languagecode="2052" />
+            <displayname description="Alias" languagecode="2070" />
+            <displayname description="Alias" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_AllowEmailNotification">
+          <Type>bit</Type>
+          <Name>smp_allowemailnotification</Name>
+          <LogicalName>smp_allowemailnotification</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="smp_contact_smp_allowemailnotification">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Allow Email Notification" languagecode="1033" />
+              <displayname description="Autoriser la notification par courrier électronique" languagecode="1036" />
+              <displayname description="電子メール通知を許可する" languagecode="1041" />
+              <displayname description="이메일 알림 허용" languagecode="1042" />
+              <displayname description="Permitir Notificação Email" languagecode="2070" />
+              <displayname description="Permitir Notificación por correo electrónico" languagecode="3082" />
+              <displayname description="允许电子邮件通知" languagecode="2052" />
+            </displaynames>
+            <Descriptions>
+              <Description description="" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="0" Color="#0000ff">
+                <labels>
+                  <label description="No" languagecode="1033" />
+                  <label description="Não" languagecode="1046" />
+                  <label description="No" languagecode="3082" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="Descripción" languagecode="3082" />
+                </Descriptions>
+              </option>
+              <option value="1" Color="#0000ff">
+                <labels>
+                  <label description="Yes" languagecode="1033" />
+                  <label description="Sim" languagecode="1046" />
+                  <label description="Yes" languagecode="3082" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="Descripción" languagecode="3082" />
+                </Descriptions>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Do Not Allow Email Notification" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_BuildingId">
+          <Type>lookup</Type>
+          <Name>smp_buildingid</Name>
+          <LogicalName>smp_buildingid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Building" languagecode="1033" />
+            <displayname description="Bâtiment" languagecode="1036" />
+            <displayname description="建物" languagecode="1041" />
+            <displayname description="건물" languagecode="1042" />
+            <displayname description="Construção" languagecode="2070" />
+            <displayname description="Edificio" languagecode="3082" />
+            <displayname description="建筑" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Building associated with Contact." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_buildingnumber">
+          <Type>nvarchar</Type>
+          <Name>smp_buildingnumber</Name>
+          <LogicalName>smp_buildingnumber</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="Building Number" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_BusinessUnit">
+          <Type>lookup</Type>
+          <Name>smp_businessunit</Name>
+          <LogicalName>smp_businessunit</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Business Unit" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Business Unit associated with Contact." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_Company">
+          <Type>nvarchar</Type>
+          <Name>smp_company</Name>
+          <LogicalName>smp_company</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="Company" languagecode="1033" />
+          </displaynames>
+        </attribute>
+        <attribute PhysicalName="smp_CompanyId">
+          <Type>lookup</Type>
+          <Name>smp_companyid</Name>
+          <LogicalName>smp_companyid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Company" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Company associated with Contact." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_ContactType">
+          <Type>picklist</Type>
+          <Name>smp_contacttype</Name>
+          <LogicalName>smp_contacttype</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>1</AppDefaultValue>
+          <optionset Name="smp_contact_smp_contacttype">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Contact Type" languagecode="1033" />
+            </displaynames>
+            <options>
+              <option value="1">
+                <labels>
+                  <label description="Microsoft Employee" languagecode="1033" />
+                  <label description="Empregado Microsoft" languagecode="1046" />
+                  <label description="Empleado de Microsoft" languagecode="3082" />
+                </labels>
+              </option>
+              <option value="2">
+                <labels>
+                  <label description="Provider" languagecode="1033" />
+                  <label description="Fornecedor" languagecode="1046" />
+                  <label description="Proveedor" languagecode="3082" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Contact Type" languagecode="1033" />
+          </displaynames>
+        </attribute>
+        <attribute PhysicalName="smp_CostCenter">
+          <Type>nvarchar</Type>
+          <Name>smp_costcenter</Name>
+          <LogicalName>smp_costcenter</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="Cost Center" languagecode="1033" />
+            <displayname description="Centre d'analyse" languagecode="1036" />
+            <displayname description="料金センター" languagecode="1041" />
+            <displayname description="비용 센터" languagecode="1042" />
+            <displayname description="Centro de Custo" languagecode="2070" />
+            <displayname description="Centro de costo" languagecode="3082" />
+            <displayname description="费用中心" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_Country">
+          <Type>lookup</Type>
+          <Name>smp_country</Name>
+          <LogicalName>smp_country</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Country" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Country associated with Contact." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_Floor">
+          <Type>lookup</Type>
+          <Name>smp_floor</Name>
+          <LogicalName>smp_floor</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Floor" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Floor associated with Contact." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_IOCode">
+          <Type>nvarchar</Type>
+          <Name>smp_iocode</Name>
+          <LogicalName>smp_iocode</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="IO Code" languagecode="1033" />
+          </displaynames>
+        </attribute>
+        <attribute PhysicalName="smp_IsProviderUser">
+          <Type>bit</Type>
+          <Name>smp_isprovideruser</Name>
+          <LogicalName>smp_isprovideruser</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="smp_contact_smp_isprovideruser">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Is Provider User" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="0">
+                <labels>
+                  <label description="No" languagecode="1033" />
+                  <label description="Não" languagecode="1046" />
+                  <label description="No" languagecode="3082" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="Descripción" languagecode="3082" />
+                </Descriptions>
+              </option>
+              <option value="1">
+                <labels>
+                  <label description="Yes" languagecode="1033" />
+                  <label description="Sim" languagecode="1046" />
+                  <label description="Yes" languagecode="3082" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="Descripción" languagecode="3082" />
+                </Descriptions>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Is Provider User" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_IsReceptionist">
+          <Type>bit</Type>
+          <Name>smp_isreceptionist</Name>
+          <LogicalName>smp_isreceptionist</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.0.0.14</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="smp_contact_smp_isreceptionist">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Is Receptionist" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="0">
+                <labels>
+                  <label description="No" languagecode="1033" />
+                  <label description="Não" languagecode="1046" />
+                  <label description="No" languagecode="3082" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="Descripción" languagecode="3082" />
+                </Descriptions>
+              </option>
+              <option value="1">
+                <labels>
+                  <label description="Yes" languagecode="1033" />
+                  <label description="Sim" languagecode="1046" />
+                  <label description="Yes" languagecode="3082" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                  <Description description="" languagecode="1046" />
+                  <Description description="Descripción" languagecode="3082" />
+                </Descriptions>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Is Super User?" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_Manager">
+          <Type>lookup</Type>
+          <Name>smp_manager</Name>
+          <LogicalName>smp_manager</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Manager" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Contact associated with Contact." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_mgrpersonalnumber">
+          <Type>nvarchar</Type>
+          <Name>smp_mgrpersonalnumber</Name>
+          <LogicalName>smp_mgrpersonalnumber</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="Manager Personal Number" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_PersonalNumber">
+          <Type>nvarchar</Type>
+          <Name>smp_personalnumber</Name>
+          <LogicalName>smp_personalnumber</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="Personal Number" languagecode="1033" />
+          </displaynames>
+        </attribute>
+        <attribute PhysicalName="smp_Preferredlanguage">
+          <Type>nvarchar</Type>
+          <Name>smp_preferredlanguage</Name>
+          <LogicalName>smp_preferredlanguage</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="Preferred Language" languagecode="1033" />
+          </displaynames>
+        </attribute>
+        <attribute PhysicalName="smp_Region">
+          <Type>lookup</Type>
+          <Name>smp_region</Name>
+          <LogicalName>smp_region</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Region" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Region associated with Contact." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_RoomNo">
+          <Type>nvarchar</Type>
+          <Name>smp_roomno</Name>
+          <LogicalName>smp_roomno</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="Room No" languagecode="1033" />
+            <displayname description="Room No*" languagecode="1036" />
+            <displayname description="Room No*" languagecode="1041" />
+            <displayname description="Room No*" languagecode="1042" />
+            <displayname description="Room No*" languagecode="2052" />
+            <displayname description="Room No*" languagecode="2070" />
+            <displayname description="Room No*" languagecode="3082" />
+          </displaynames>
+        </attribute>
+        <attribute PhysicalName="smp_RoomNumber">
+          <Type>lookup</Type>
+          <Name>smp_roomnumber</Name>
+          <LogicalName>smp_roomnumber</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Room Number" languagecode="1033" />
+            <displayname description="Numéro/Nom de la sale" languagecode="1036" />
+            <displayname description="座席番号" languagecode="1041" />
+            <displayname description="방 번호" languagecode="1042" />
+            <displayname description="Número do quarto" languagecode="2070" />
+            <displayname description="Número de cuarto" languagecode="3082" />
+            <displayname description="房间号" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_RoomTypeId">
+          <Type>lookup</Type>
+          <Name>smp_roomtypeid</Name>
+          <LogicalName>smp_roomtypeid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Room Type" languagecode="1033" />
+            <displayname description="Type de local" languagecode="1036" />
+            <displayname description="部屋の種類" languagecode="1041" />
+            <displayname description="방 유형" languagecode="1042" />
+            <displayname description="房间类型" languagecode="2052" />
+            <displayname description="Tipo de Dependência" languagecode="2070" />
+            <displayname description="Tipo de cuarto" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Room Type associated with Contact." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_StaffingResourceType">
+          <Type>picklist</Type>
+          <Name>smp_staffingresourcetype</Name>
+          <LogicalName>smp_staffingresourcetype</LogicalName>
+          <RequiredLevel>recommended</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>-1</AppDefaultValue>
+          <optionset Name="smp_contact_smp_staffingresourcetype">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Staffing Category" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="What type of staff this contact is" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="180620000" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Regular" languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description description="A regular employee of Microsoft (FTE or fixed-term contract)" languagecode="1033" />
+                </Descriptions>
+              </option>
+              <option value="180620001" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Other" languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description description="Other resource (intern, independent contractor, temp, etc)" languagecode="1033" />
+                </Descriptions>
+              </option>
+              <option value="180620002" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Vendor" languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description description="Employee of a vendor to Microsoft" languagecode="1033" />
+                </Descriptions>
+              </option>
+              <option value="180620003" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="External" languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description description="Non-Microsoft contact (no alias)" languagecode="1033" />
+                </Descriptions>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Staffing Category" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="What type of staff this contact is" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_SubRegion">
+          <Type>lookup</Type>
+          <Name>smp_subregion</Name>
+          <LogicalName>smp_subregion</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Sub Region" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Sub Region associated with Contact." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+      </attributes>
+      <EntitySetName>contacts</EntitySetName>
+      <IsDuplicateCheckSupported>1</IsDuplicateCheckSupported>
+      <IsBusinessProcessEnabled>1</IsBusinessProcessEnabled>
+      <IsRequiredOffline>0</IsRequiredOffline>
+      <IsInteractionCentricEnabled>1</IsInteractionCentricEnabled>
+      <IsCollaboration>0</IsCollaboration>
+      <AutoRouteToOwnerQueue>0</AutoRouteToOwnerQueue>
+      <IsConnectionsEnabled>1</IsConnectionsEnabled>
+      <EntityColor>#005088</EntityColor>
+      <IsDocumentManagementEnabled>0</IsDocumentManagementEnabled>
+      <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
+      <IsKnowledgeManagementEnabled>0</IsKnowledgeManagementEnabled>
+      <IsSLAEnabled>0</IsSLAEnabled>
+      <IsDocumentRecommendationsEnabled>0</IsDocumentRecommendationsEnabled>
+      <IsBPFEntity>0</IsBPFEntity>
+      <OwnershipTypeMask>UserOwned</OwnershipTypeMask>
+      <EntityMask>ActivityPointer</EntityMask>
+      <IsAuditEnabled>0</IsAuditEnabled>
+      <IsRetrieveAuditEnabled>0</IsRetrieveAuditEnabled>
+      <IsRetrieveMultipleAuditEnabled>0</IsRetrieveMultipleAuditEnabled>
+      <IsActivity>0</IsActivity>
+      <ActivityTypeMask></ActivityTypeMask>
+      <IsActivityParty>1</IsActivityParty>
+      <IsReplicated>1</IsReplicated>
+      <IsReplicationUserFiltered>1</IsReplicationUserFiltered>
+      <IsMailMergeEnabled>1</IsMailMergeEnabled>
+      <IsVisibleInMobile>1</IsVisibleInMobile>
+      <IsVisibleInMobileClient>1</IsVisibleInMobileClient>
+      <IsReadOnlyInMobileClient>0</IsReadOnlyInMobileClient>
+      <IsOfflineInMobileClient>1</IsOfflineInMobileClient>
+      <DaysSinceRecordLastModified>10</DaysSinceRecordLastModified>
+      <MobileOfflineFilters>
+		&lt;fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false"&gt;
+			&lt;entity name="contact"&gt;
+				&lt;filter type="and"&gt;
+					&lt;condition attribute="modifiedon" operator="last-x-days" value="10"/&gt;
+				&lt;/filter&gt;
+			&lt;/entity&gt;
+		&lt;/fetch&gt;
+      </MobileOfflineFilters>
+      <IsMapiGridEnabled>1</IsMapiGridEnabled>
+      <IsReadingPaneEnabled>1</IsReadingPaneEnabled>
+      <IsQuickCreateEnabled>1</IsQuickCreateEnabled>
+      <SyncToExternalSearchIndex>1</SyncToExternalSearchIndex>
+      <IntroducedVersion>5.0.0.0</IntroducedVersion>
+      <EnforceStateTransitions>0</EnforceStateTransitions>
+      <EntityHelpUrlEnabled>0</EntityHelpUrlEnabled>
+      <ChangeTrackingEnabled>1</ChangeTrackingEnabled>
+      <IsEnabledForExternalChannels>1</IsEnabledForExternalChannels>
+      <IsSolutionAware>0</IsSolutionAware>
+      <HasRelatedNotes>True</HasRelatedNotes>
+      <HasRelatedFeedback>True</HasRelatedFeedback>
+      <HasRelatedActivities>True</HasRelatedActivities>
+    </entity>
+  </EntityInfo>
+  <RibbonDiffXml />
+</Entity>

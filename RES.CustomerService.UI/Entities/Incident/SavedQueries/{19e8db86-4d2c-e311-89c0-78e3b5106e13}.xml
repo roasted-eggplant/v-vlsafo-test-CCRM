@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{19e8db86-4d2c-e311-89c0-78e3b5106e13}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="title" select="1" preview="1" icon="1">
+        <row name="result" id="incidentid">
+          <cell name="ticketnumber" width="100" />
+          <cell name="statuscode" width="100" />
+          <cell name="modifiedon" width="100" />
+          <cell name="smp_submitteddatetime" width="100" />
+          <cell name="smp_contact" width="100" />
+          <cell name="a_cad603021448e2118d5378e3b511b6a7.smp_fiscalregionid" width="100" disableSorting="1" />
+          <cell name="smp_problembuilding" width="100" />
+          <cell name="smp_problemroom" width="100" />
+          <cell name="smp_problemclassid" width="100" />
+          <cell name="smp_problemtypeid" width="100" />
+          <cell name="customerid" width="100" />
+          <cell name="prioritycode" width="100" />
+          <cell name="createdon" width="100" />
+          <cell name="caseorigincode" width="100" />
+          <cell name="description" width="100" disableSorting="1" />
+          <cell name="smp_problemtypedescription" width="100" disableSorting="1" />
+          <cell name="smp_problembuildingcountry" width="100" />
+          <cell name="smp_duedate" width="100" />
+          <cell name="smp_duedatebybuildingtimezone" width="100" />
+          <cell name="smp_tier1workcompletiondatebybuildingtimezone" width="100" />
+          <cell name="a_4b5945b8a4a64613afc1ae1d5e6828c7.address1_country" width="100" disableSorting="1" />
+          <cell name="a_4b5945b8a4a64613afc1ae1d5e6828c7.description" width="100" disableSorting="1" />
+          <cell name="title" width="100" />
+          <cell name="smp_providerduedatebybuildingtimezone" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="incident">
+          <order attribute="createdon" descending="false" />
+          <attribute name="ticketnumber" />
+          <attribute name="smp_submitteddatetime" />
+          <attribute name="statuscode" />
+          <attribute name="modifiedon" />
+          <link-entity alias="a_cad603021448e2118d5378e3b511b6a7" name="smp_building" from="smp_buildingid" to="smp_problembuilding" link-type="outer" visible="false">
+            <attribute name="smp_fiscalregionid" />
+          </link-entity>
+          <attribute name="smp_problembuilding" />
+          <attribute name="smp_problemtypeid" />
+          <attribute name="smp_problemroom" />
+          <attribute name="smp_problemclassid" />
+          <attribute name="smp_tier1workcompletiondatebybuildingtimezone" />
+          <attribute name="caseorigincode" />
+          <attribute name="customerid" />
+          <attribute name="smp_problemtypedescription" />
+          <attribute name="smp_problembuildingcountry" />
+          <attribute name="prioritycode" />
+          <attribute name="smp_duedatebybuildingtimezone" />
+          <attribute name="smp_duedate" />
+          <attribute name="description" />
+          <attribute name="createdon" />
+          <attribute name="title" />
+          <attribute name="smp_providerduedatebybuildingtimezone" />
+          <link-entity alias="a_4b5945b8a4a64613afc1ae1d5e6828c7" name="account" from="accountid" to="customerid" link-type="outer" visible="false">
+            <attribute name="description" />
+            <attribute name="address1_country" />
+          </link-entity>
+          <attribute name="smp_contact" />
+          <attribute name="incidentid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Detailed Service Request" languagecode="1033" />
+      <LocalizedName description="Solicitação de Serviço Detalhada" languagecode="1046" />
+      <LocalizedName description="Detailed Service Request" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="view used for extracting data for monthly reports " languagecode="1033" />
+      <Description description="visualização usada para extrair dados para relatórios mensais" languagecode="1046" />
+      <Description description="view used for extracting data for monthly reports " languagecode="3082" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Provider" OriginalName="Account">Account</Name>
+  <EntityInfo>
+    <entity Name="Account">
+      <LocalizedNames>
+        <LocalizedName description="Provider" languagecode="1033" />
+        <LocalizedName description="Conta" languagecode="2070" />
+        <LocalizedName description="거래처" languagecode="1042" />
+        <LocalizedName description="取引先企業 " languagecode="1041" />
+        <LocalizedName description="客户" languagecode="2052" />
+        <LocalizedName description="Cuenta" languagecode="3082" />
+        <LocalizedName description="Compte" languagecode="1036" />
+        <LocalizedName description="Conta" languagecode="1046" />
+      </LocalizedNames>
+      <LocalizedCollectionNames>
+        <LocalizedCollectionName description="Providers" languagecode="1033" />
+        <LocalizedCollectionName description="取引先企業 " languagecode="1041" />
+        <LocalizedCollectionName description="客户" languagecode="2052" />
+        <LocalizedCollectionName description="Cuentas" languagecode="3082" />
+        <LocalizedCollectionName description="Contas" languagecode="2070" />
+        <LocalizedCollectionName description="Comptes" languagecode="1036" />
+        <LocalizedCollectionName description="거래처 " languagecode="1042" />
+        <LocalizedCollectionName description="Contas" languagecode="1046" />
+      </LocalizedCollectionNames>
+      <Descriptions>
+        <Description description="Business that represents a customer or potential customer. The company that is billed in business transactions." languagecode="1033" />
+        <Description description="고객 회사 또는 잠재 고객 회사를 나타내며, 비즈니스 거래에서 청구 대상이 되는 회사입니다." languagecode="1042" />
+        <Description description="Companhia que representa um cliente ou cliente potencial. A empresa que é faturada em transações comerciais." languagecode="2070" />
+        <Description description="顧客または見込み顧客を表す会社です。この会社には、業務取引で請求が行われます。" languagecode="1041" />
+        <Description description="代表客户或潜在客户的企业，也是在商业交易中向其出具帐单的公司。" languagecode="2052" />
+        <Description description="Entité commerciale qui représente un client ou un prospect. Société facturée dans les transactions professionnelles." languagecode="1036" />
+        <Description description="Empresa que representa a un cliente o cliente potencial. La empresa a la que se factura en transacciones comerciales." languagecode="3082" />
+        <Description description="Um negócio que representa um cliente ou cliente potencial. A empresa que é cobrada em transações comerciais." languagecode="1046" />
+      </Descriptions>
+      <attributes>
+        <attribute PhysicalName="Address1_City">
+          <Type>nvarchar</Type>
+          <Name>address1_city</Name>
+          <LogicalName>address1_city</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>active</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsLogical>1</IsLogical>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>1</IsGlobalFilterEnabled>
+          <IsSortableEnabled>1</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>80</MaxLength>
+          <Length>160</Length>
+          <displaynames>
+            <displayname description="City" languagecode="1033" />
+            <displayname description="地址 1: 市/县" languagecode="2052" />
+            <displayname description="住所 1: 市区町村" languagecode="1041" />
+            <displayname description="주소 1: 구/군/시" languagecode="1042" />
+            <displayname description="Endereço 1: Localidade" languagecode="2070" />
+            <displayname description="Dirección 1: ciudad" languagecode="3082" />
+            <displayname description="Adresse 1 : Ville" languagecode="1036" />
+            <displayname description="Endereço 1: Cidade" languagecode="1046" />
+          </displaynames>
+          <Descriptions>
+            <Description description="City name for address 1." languagecode="1033" />
+            <Description description="Introduza a localidade do endereço primário." languagecode="2070" />
+            <Description description="键入主要地址中的市/县。" languagecode="2052" />
+            <Description description="기본 주소의 구/군/시를 입력합니다." languagecode="1042" />
+            <Description description="Tapez la ville de l'adresse principale." languagecode="1036" />
+            <Description description="Escriba la ciudad de la dirección principal." languagecode="3082" />
+            <Description description="住所 1 の市区町村を入力します。" languagecode="1041" />
+            <Description description="Digite a cidade do endereço principal." languagecode="1046" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="Address1_Country">
+          <Type>nvarchar</Type>
+          <Name>address1_country</Name>
+          <LogicalName>address1_country</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>active</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsLogical>1</IsLogical>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>80</MaxLength>
+          <Length>160</Length>
+          <displaynames>
+            <displayname description="Country/Region" languagecode="1033" />
+            <displayname description="Endereço 1: País/Região" languagecode="2070" />
+            <displayname description="Dirección 1: país o región" languagecode="3082" />
+            <displayname description="주소 1: 국가/지역" languagecode="1042" />
+            <displayname description="住所 1: 国/地域" languagecode="1041" />
+            <displayname description="地址 1: 国家/地区" languagecode="2052" />
+            <displayname description="Adresse 1 : Pays/région" languagecode="1036" />
+            <displayname description="Endereço 1: País/Região" languagecode="1046" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Country/region name for address 1." languagecode="1033" />
+            <Description description="键入主要地址中的国家或地区。" languagecode="2052" />
+            <Description description="Escriba el país o la región de la dirección principal." languagecode="3082" />
+            <Description description="기본 주소의 국가 또는 지역을 입력합니다" languagecode="1042" />
+            <Description description="Introduza o país ou região do endereço primário." languagecode="2070" />
+            <Description description="Tapez le pays ou la région de l'adresse principale." languagecode="1036" />
+            <Description description="住所 1 の国または地域を入力します。" languagecode="1041" />
+            <Description description="Digite o país ou região do endereço principal." languagecode="1046" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="Address1_Line1">
+          <Type>nvarchar</Type>
+          <Name>address1_line1</Name>
+          <LogicalName>address1_line1</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>active</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsLogical>1</IsLogical>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>250</MaxLength>
+          <Length>500</Length>
+          <displaynames>
+            <displayname description="Street 1" languagecode="1033" />
+            <displayname description="주소 1: 나머지 주소" languagecode="1042" />
+            <displayname description="Adresse 1 : Rue 1" languagecode="1036" />
+            <displayname description="Endereço 1: Rua 1" languagecode="2070" />
+            <displayname description="地址 1: 街道 1" languagecode="2052" />
+            <displayname description="住所 1: 番地" languagecode="1041" />
+            <displayname description="Dirección 1: calle 1" languagecode="3082" />
+            <displayname description="Endereço 1: Rua 1" languagecode="1046" />
+          </displaynames>
+          <Descriptions>
+            <Description description="First line for entering address 1 information." languagecode="1033" />
+            <Description description="Tapez la première ligne de l'adresse principale." languagecode="1036" />
+            <Description description="Escriba la primera línea de la dirección principal." languagecode="3082" />
+            <Description description="键入主要地址中的第一行内容。" languagecode="2052" />
+            <Description description="기본 주소의 첫 번째 줄을 입력합니다." languagecode="1042" />
+            <Description description="Introduza a primeira linha do endereço primário." languagecode="2070" />
+            <Description description="住所 1 の 1 行目を入力します。" languagecode="1041" />
+            <Description description="Digite a primeira linha do endereço principal." languagecode="1046" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="Address1_StateOrProvince">
+          <Type>nvarchar</Type>
+          <Name>address1_stateorprovince</Name>
+          <LogicalName>address1_stateorprovince</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>active</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsLogical>1</IsLogical>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>50</MaxLength>
+          <Length>100</Length>
+          <displaynames>
+            <displayname description="State/Province" languagecode="1033" />
+            <displayname description="Endereço 1: Distrito" languagecode="2070" />
+            <displayname description="住所 1: 都道府県" languagecode="1041" />
+            <displayname description="주소 1: 시/도" languagecode="1042" />
+            <displayname description="Adresse 1 : Département/province" languagecode="1036" />
+            <displayname description="Dirección 1: estado o provincia" languagecode="3082" />
+            <displayname description="地址 1: 省/市/自治区" languagecode="2052" />
+            <displayname description="Endereço 1: Estado" languagecode="1046" />
+          </displaynames>
+          <Descriptions>
+            <Description description="State or province for address 1." languagecode="1033" />
+            <Description description="键入主要地址中的省/市/自治区。" languagecode="2052" />
+            <Description description="기본 주소의 시/도를 입력합니다" languagecode="1042" />
+            <Description description="Escriba el estado o la provincia de la dirección principal." languagecode="3082" />
+            <Description description="Tapez l'état ou la province de l'adresse principale." languagecode="1036" />
+            <Description description="Introduza o distrito do endereço primário." languagecode="2070" />
+            <Description description="住所 1 の都道府県を入力します。" languagecode="1041" />
+            <Description description="Digite o estado ou província do endereço principal." languagecode="1046" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="Name">
+          <Type>nvarchar</Type>
+          <Name>name</Name>
+          <LogicalName>name</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ActivityRegardingName|ActivityPointerRegardingName|PrimaryName|ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm|RequiredForGrid</DisplayMask>
+          <ImeMode>active</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>1</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>160</MaxLength>
+          <Length>320</Length>
+          <displaynames>
+            <displayname description="Provider Name" languagecode="1033" />
+            <displayname description="거래처 이름" languagecode="1042" />
+            <displayname description="Nom du compte" languagecode="1036" />
+            <displayname description="Nome da Conta" languagecode="2070" />
+            <displayname description="客户名称" languagecode="2052" />
+            <displayname description="Nombre de cuenta" languagecode="3082" />
+            <displayname description="取引先企業名" languagecode="1041" />
+            <displayname description="Nome da Conta" languagecode="1046" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Name of the account." languagecode="1033" />
+            <Description description="会社名または事業名を入力します。" languagecode="1041" />
+            <Description description="Escriba el nombre de la compañía o empresa." languagecode="3082" />
+            <Description description="Introduza o nome da empresa ou companhia." languagecode="2070" />
+            <Description description="Tapez le nom de la société ou de la division." languagecode="1036" />
+            <Description description="회사 또는 사업체 이름을 입력합니다." languagecode="1042" />
+            <Description description="键入公司或企业名称。" languagecode="2052" />
+            <Description description="Digite o nome da empresa ou do negócio." languagecode="1046" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="PrimaryContactId">
+          <Type>lookup</Type>
+          <Name>primarycontactid</Name>
+          <LogicalName>primarycontactid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>1</IsGlobalFilterEnabled>
+          <IsSortableEnabled>1</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes>
+            <LookupType id="00000000-0000-0000-0000-000000000000">2</LookupType>
+          </LookupTypes>
+          <displaynames>
+            <displayname description="Primary Contact" languagecode="1033" />
+            <displayname description="主要联系人" languagecode="2052" />
+            <displayname description="取引先責任者" languagecode="1041" />
+            <displayname description="Contact principal" languagecode="1036" />
+            <displayname description="Contacto principal" languagecode="3082" />
+            <displayname description="기본 연락처" languagecode="1042" />
+            <displayname description="Contacto Primário" languagecode="2070" />
+            <displayname description="Contato Primário" languagecode="1046" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Choose the primary contact for the account to provide quick access to contact details." languagecode="1033" />
+            <Description description="取引先担当者の詳細にすばやくアクセスできるように、取引先企業の取引先責任者を選択します。" languagecode="1041" />
+            <Description description="연락처 정보에 대한 빠른 액세스를 제공하도록 거래처의 기본 연락처를 선택합니다." languagecode="1042" />
+            <Description description="Choisissez le contact principal pour le compte pour fournir un accès rapide aux détails du contact." languagecode="1036" />
+            <Description description="Elija el contacto principal de la cuenta para facilitar el acceso rápido a los detalles del contacto." languagecode="3082" />
+            <Description description="选择客户的主要联系人以提供对联系人详细信息的快速访问。" languagecode="2052" />
+            <Description description="Escolha o contacto principal da conta, para proporcionar acesso rápido aos detalhes do contacto." languagecode="2070" />
+            <Description description="Escolha o contato principal da conta para fornecer acesso rápido aos detalhes do contato." languagecode="1046" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_AccountType">
+          <Type>picklist</Type>
+          <Name>smp_accounttype</Name>
+          <LogicalName>smp_accounttype</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>1</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>-1</AppDefaultValue>
+          <optionset Name="smp_account_smp_accounttype">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Account Type" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="180620000" Color="#0000ff">
+                <labels>
+                  <label description="Building" languagecode="1033" />
+                  <label description="Construção" languagecode="1046" />
+                  <label description="Edificio" languagecode="3082" />
+                </labels>
+              </option>
+              <option value="180620001" Color="#0000ff">
+                <labels>
+                  <label description="Provider" languagecode="1033" />
+                  <label description="Fornecedor" languagecode="1046" />
+                  <label description="Proveedor" languagecode="3082" />
+                </labels>
+              </option>
+              <option value="180620002" Color="#0000ff">
+                <labels>
+                  <label description="Vendor" languagecode="1033" />
+                  <label description="Fornecedor" languagecode="1046" />
+                  <label description="Proveedor" languagecode="3082" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Account Type" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="StateCode">
+          <Type>state</Type>
+          <Name>statecode</Name>
+          <LogicalName>statecode</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>1</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <optionset Name="account_statecode">
+            <OptionSetType>state</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Statut" languagecode="1036" />
+              <displayname description="Estado" languagecode="3082" />
+              <displayname description="状態" languagecode="1041" />
+              <displayname description="Status" languagecode="1033" />
+              <displayname description="状态" languagecode="2052" />
+              <displayname description="상태" languagecode="1042" />
+              <displayname description="Estado" languagecode="2070" />
+              <displayname description="Status" languagecode="1046" />
+            </displaynames>
+            <Descriptions>
+              <Description description="客户的状态。" languagecode="2052" />
+              <Description description="Status of the account." languagecode="1033" />
+              <Description description="거래처의 상태입니다." languagecode="1042" />
+              <Description description="取引先企業の状態です。" languagecode="1041" />
+              <Description description="Estado da conta." languagecode="2070" />
+              <Description description="Estado de la cuenta." languagecode="3082" />
+              <Description description="Statut du compte." languagecode="1036" />
+              <Description description="Status da conta." languagecode="1046" />
+            </Descriptions>
+            <states>
+              <state value="0" defaultstatus="1" invariantname="Active">
+                <labels>
+                  <label description="Active" languagecode="1033" />
+                  <label description="활성" languagecode="1042" />
+                  <label description="Activo" languagecode="3082" />
+                  <label description="Ativo" languagecode="2070" />
+                  <label description="Actif" languagecode="1036" />
+                  <label description="アクティブ" languagecode="1041" />
+                  <label description="可用" languagecode="2052" />
+                  <label description="Ativo" languagecode="1046" />
+                </labels>
+              </state>
+              <state value="1" defaultstatus="2" invariantname="Inactive">
+                <labels>
+                  <label description="Inactive" languagecode="1033" />
+                  <label description="非アクティブ" languagecode="1041" />
+                  <label description="停用" languagecode="2052" />
+                  <label description="Inactivo" languagecode="3082" />
+                  <label description="Inativo" languagecode="2070" />
+                  <label description="비활성" languagecode="1042" />
+                  <label description="Inactif" languagecode="1036" />
+                  <label description="Inativo" languagecode="1046" />
+                </labels>
+              </state>
+            </states>
+          </optionset>
+          <displaynames>
+            <displayname description="Status" languagecode="1033" />
+            <displayname description="Statut" languagecode="1036" />
+            <displayname description="Estado" languagecode="3082" />
+            <displayname description="状态" languagecode="2052" />
+            <displayname description="상태" languagecode="1042" />
+            <displayname description="Estado" languagecode="2070" />
+            <displayname description="状態" languagecode="1041" />
+            <displayname description="Status" languagecode="1046" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Shows whether the account is active or inactive. Inactive accounts are read-only and can't be edited unless they are reactivated." languagecode="1033" />
+            <Description description="Muestra si la cuenta está activa o inactiva. Las cuentas inactivas son de solo lectura y no se pueden editar si no se reactivan." languagecode="3082" />
+            <Description description="显示客户的状态是活动的还是停用的。停用的客户是只读的，无法编辑(除非已重新激活)。" languagecode="2052" />
+            <Description description="取引先企業がアクティブか非アクティブかを表示します。非アクティブな取引先企業は読み取り専用のため、再アクティブ化しない限り編集できません。" languagecode="1041" />
+            <Description description="Mostra se a conta está ativa ou inativa. As contas inativas são só de leitura e não podem ser editadas, a menos que sejam reativadas." languagecode="2070" />
+            <Description description="Indique si le compte est actif ou inactif. Les comptes inactifs sont en lecture seule et ne peuvent pas être modifiés avant d'être réactivés." languagecode="1036" />
+            <Description description="거래처가 활성인지, 아니면 비활성인지를 표시합니다. 비활성 거래처는 읽기 전용이므로 다시 활성화하지 않으면 편집할 수 없습니다." languagecode="1042" />
+            <Description description="Status de {0}" languagecode="1046" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="Telephone1">
+          <Type>nvarchar</Type>
+          <Name>telephone1</Name>
+          <LogicalName>telephone1</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>inactive</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>1</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>phone</Format>
+          <MaxLength>50</MaxLength>
+          <Length>100</Length>
+          <displaynames>
+            <displayname description="Main Phone" languagecode="1033" />
+            <displayname description="Número de centralita" languagecode="3082" />
+            <displayname description="기본 전화" languagecode="1042" />
+            <displayname description="代表電話" languagecode="1041" />
+            <displayname description="主要电话" languagecode="2052" />
+            <displayname description="Telefone Principal" languagecode="2070" />
+            <displayname description="Téléphone principal" languagecode="1036" />
+            <displayname description="Telefone Principal" languagecode="1046" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Type the main phone number for this account." languagecode="1033" />
+            <Description description="이 거래처의 기본 전화 번호를 입력합니다." languagecode="1042" />
+            <Description description="Escriba el número de teléfono principal para esta cuenta." languagecode="3082" />
+            <Description description="Tapez le numéro de téléphone principal pour ce compte." languagecode="1036" />
+            <Description description="Introduza o número de telefone principal desta conta." languagecode="2070" />
+            <Description description="この取引先企業の電話番号 1 を入力します。" languagecode="1041" />
+            <Description description="键入此客户的主要电话号码。" languagecode="2052" />
+            <Description description="Digite o número do telefone principal desta conta." languagecode="1046" />
+          </Descriptions>
+        </attribute>
+      </attributes>
+      <EntitySetName>accounts</EntitySetName>
+      <IsDuplicateCheckSupported>1</IsDuplicateCheckSupported>
+      <IsBusinessProcessEnabled>1</IsBusinessProcessEnabled>
+      <IsRequiredOffline>0</IsRequiredOffline>
+      <IsInteractionCentricEnabled>1</IsInteractionCentricEnabled>
+      <IsCollaboration>0</IsCollaboration>
+      <AutoRouteToOwnerQueue>0</AutoRouteToOwnerQueue>
+      <IsConnectionsEnabled>1</IsConnectionsEnabled>
+      <EntityColor>#794300</EntityColor>
+      <IsDocumentManagementEnabled>1</IsDocumentManagementEnabled>
+      <IsOneNoteIntegrationEnabled>1</IsOneNoteIntegrationEnabled>
+      <IsKnowledgeManagementEnabled>0</IsKnowledgeManagementEnabled>
+      <IsSLAEnabled>0</IsSLAEnabled>
+      <IsDocumentRecommendationsEnabled>0</IsDocumentRecommendationsEnabled>
+      <IsBPFEntity>0</IsBPFEntity>
+      <OwnershipTypeMask>UserOwned</OwnershipTypeMask>
+      <EntityMask>ActivityPointer</EntityMask>
+      <IsAuditEnabled>1</IsAuditEnabled>
+      <IsRetrieveAuditEnabled>0</IsRetrieveAuditEnabled>
+      <IsRetrieveMultipleAuditEnabled>0</IsRetrieveMultipleAuditEnabled>
+      <IsActivity>0</IsActivity>
+      <ActivityTypeMask></ActivityTypeMask>
+      <IsActivityParty>1</IsActivityParty>
+      <IsReplicated>1</IsReplicated>
+      <IsReplicationUserFiltered>1</IsReplicationUserFiltered>
+      <IsMailMergeEnabled>1</IsMailMergeEnabled>
+      <IsVisibleInMobile>0</IsVisibleInMobile>
+      <IsVisibleInMobileClient>1</IsVisibleInMobileClient>
+      <IsReadOnlyInMobileClient>0</IsReadOnlyInMobileClient>
+      <IsOfflineInMobileClient>1</IsOfflineInMobileClient>
+      <DaysSinceRecordLastModified>10</DaysSinceRecordLastModified>
+      <MobileOfflineFilters>
+		&lt;fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false"&gt;
+			&lt;entity name="account"&gt;
+				&lt;filter type="and"&gt;
+					&lt;condition attribute="modifiedon" operator="last-x-days" value="10"/&gt;
+				&lt;/filter&gt;
+			&lt;/entity&gt;
+		&lt;/fetch&gt;
+	</MobileOfflineFilters>
+      <IsMapiGridEnabled>1</IsMapiGridEnabled>
+      <IsReadingPaneEnabled>1</IsReadingPaneEnabled>
+      <IsQuickCreateEnabled>1</IsQuickCreateEnabled>
+      <SyncToExternalSearchIndex>1</SyncToExternalSearchIndex>
+      <IntroducedVersion>5.0.0.0</IntroducedVersion>
+      <EnforceStateTransitions>0</EnforceStateTransitions>
+      <EntityHelpUrlEnabled>0</EntityHelpUrlEnabled>
+      <EntityHelpUrl></EntityHelpUrl>
+      <ChangeTrackingEnabled>1</ChangeTrackingEnabled>
+      <IsEnabledForExternalChannels>1</IsEnabledForExternalChannels>
+      <IsSolutionAware>0</IsSolutionAware>
+      <HasRelatedNotes>True</HasRelatedNotes>
+      <HasRelatedActivities>True</HasRelatedActivities>
+    </entity>
+  </EntityInfo>
+  <FormXml />
+  <SavedQueries />
+  <RibbonDiffXml />
+</Entity>

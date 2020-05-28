@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions>
+    <CustomAction Id="smp.Mscrm.Form.msdyn_iotalert.ConvertToWo.CustomAction" Location="Mscrm.Form.msdyn_iotalert.MainTab.Save.Controls._children" Sequence="71">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:smp.Mscrm.Form.msdyn_iotalert.ConvertToWo.Alt" Command="smp.msdyn_iotalert.ConvertToWO.OnClick" CommandValueId="" Id="smp.Mscrm.Form.msdyn_iotalert.ConvertToWo" Image32by32="$webresource:Service/_imgs/ribbon/ConvertCase_32.png" Image16by16="$webresource:Service/_imgs/ribbon/ConvertCase_16.png" LabelText="$LocLabels:smp.Mscrm.Form.msdyn_iotalert.ConvertToWo.LabelText" Sequence="71" TemplateAlias="o2" ToolTipTitle="$LocLabels:smp.Mscrm.Form.msdyn_iotalert.ConvertToWo.ToolTipTitle" ToolTipDescription="$LocLabels:smp.Mscrm.Form.msdyn_iotalert.ConvertToWo.ToolTipDescription" ModernImage="Convert to Work Order" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="smp.msdyn_iotalert.ConvertToWO.OnClick">
+      <EnableRules>
+        <EnableRule Id="smp.msdyn_iotalert.EnableRule0.EnableRule" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="CCRM_REF_Customization_IotAlert.invokeConvertToWorkOrderAction" Library="$webresource:smp_IotAlert.js">
+          <CrmParameter Value="PrimaryControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules>
+      <DisplayRule Id="smp.msdyn_iotalert.DisplayRule0.DisplayRule">
+        <EntityRule AppliesTo="PrimaryEntity" Default="false" />
+      </DisplayRule>
+    </DisplayRules>
+    <EnableRules>
+      <EnableRule Id="smp.msdyn_iotalert.EnableRule0.EnableRule">
+        <FormStateRule State="Existing" Default="false" />
+        <CustomRule FunctionName="CCRM_REF_Customization_IotAlert.disableRibbonButton" Library="$webresource:smp_IotAlert.js" Default="true" InvertResult="false">
+          <CrmParameter Value="PrimaryControl" />
+        </CustomRule>
+      </EnableRule>
+    </EnableRules>
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="smp.Mscrm.Form.msdyn_iotalert.ConvertToWo.Alt">
+      <Titles>
+        <Title description="Convert To Work Order" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="smp.Mscrm.Form.msdyn_iotalert.ConvertToWo.LabelText">
+      <Titles>
+        <Title description="To Work Order" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="smp.Mscrm.Form.msdyn_iotalert.ConvertToWo.ToolTipDescription">
+      <Titles>
+        <Title description="This would convert iot alert to service request/work order" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="smp.Mscrm.Form.msdyn_iotalert.ConvertToWo.ToolTipTitle">
+      <Titles>
+        <Title description="Convert To Work Order" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

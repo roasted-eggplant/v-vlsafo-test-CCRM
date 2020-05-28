@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <OutputType>Library</OutputType>
+    <ProjectGuid>{743C25AC-F743-4869-AED9-462F0383FC40}</ProjectGuid>
+    <ProjectTypeGuids>{4B952A0A-A664-46EC-8D7E-51EBEA2E954D};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RES.FieldService.BusinessExtensions</RootNamespace>
+    <AssemblyName>RES.FieldService.BusinessExtensions</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <SolutionPackagerDir>..\CoreTools</SolutionPackagerDir>
+    <SolutionLocToolsDir>..\CoreTools</SolutionLocToolsDir>
+    <SolutionType>0</SolutionType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <!--<None Include="MetadataProjectBinPlace.targets" />-->
+    <ResourceDefinition Include="WebResources.xml" />
+    <None Include="Microsoft.Crm.SolutionProjects.Metadata.targets" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Crm.SolutionProjects.MSBuild">
+      <HintPath>$(SolutionDir)packages\Microsoft.Crm.SolutionMSBuildExtention.1.3.2\lib\net452\Microsoft.Crm.SolutionProjects.MSBuild.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Entities\msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39\Entity.xml" />
+    <Content Include="Entities\msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39\FormXml\card\{91db31d8-cc7f-4a56-9d96-2680c9d07a28}.xml" />
+    <Content Include="Entities\msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39\FormXml\main\{1b9a121e-2445-4514-9949-9d17addf1375}.xml" />
+    <Content Include="Entities\msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39\FormXml\main\{b7c53e87-a189-4870-a48b-c6ef6b4634cb}.xml" />
+    <Content Include="Entities\msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39\FormXml\quick\{6a6a2a39-0796-4246-9bee-d3a2b0519e1f}.xml" />
+    <Content Include="Entities\msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39\RibbonDiff.xml" />
+    <Content Include="Entities\smp_workorderbpf\Entity.xml" />
+    <Content Include="Entities\smp_workorderbpf\Formulas\smp_workorderbpf-bpf_duration.xaml" />
+    <Content Include="Entities\smp_workorderbpf\FormXml\main\{6b5f769b-417d-4e1f-a6e7-415693e9714f}.xml" />
+    <Content Include="Entities\smp_workorderbpf\RibbonDiff.xml" />
+    <Content Include="Entities\smp_workorderbpf\SavedQueries\{21a1ec78-bdc3-4fb7-96fc-86c0fabf525f}.xml" />
+    <Content Include="Entities\smp_workorderbpf\SavedQueries\{42d89901-b811-4919-b8b5-56f7f4ce6a30}.xml" />
+    <Content Include="Entities\smp_workorderbpf\SavedQueries\{54c310ff-c1f6-4b81-b0c4-285113dcd44b}.xml" />
+    <Content Include="Entities\smp_workorderbpf\SavedQueries\{67aa569b-884f-e911-a985-000d3a30dc28}.xml" />
+    <Content Include="Entities\smp_workorderbpf\SavedQueries\{a5cffd07-ce38-4420-8e3e-7f02c31b462e}.xml" />
+    <Content Include="Entities\smp_workorderbpf\SavedQueries\{ade7b553-897e-4b5c-8b9a-8d2d8f530a69}.xml" />
+    <Content Include="Entities\smp_workorderbpf\SavedQueries\{be7c5e68-d479-4136-ad10-84b0f29f1cc4}.xml" />
+    <Content Include="Entities\smp_workorderbpf\SavedQueries\{c4d40880-3db6-48bf-add0-548fad382542}.xml" />
+    <Content Include="Entities\smp_workorderbpf\SavedQueries\{d8a8ae02-31ba-4056-952c-7a5ddb484c8a}.xml" />
+    <Content Include="Entities\smp_workorderbpf\SavedQueries\{eef207f4-f60f-4b1d-82b5-3253791ec9ca}.xml" />
+    <Content Include="map.xml" />
+    <Content Include="Other\Customizations.xml" />
+    <Content Include="Other\Relationships.xml" />
+    <Content Include="Other\Relationships\msdyn_workorder.xml" />
+    <Content Include="Other\Relationships\Organization.xml" />
+    <Content Include="Other\Relationships\ProcessStage.xml" />
+    <Content Include="Other\Relationships\SystemUser.xml" />
+    <Content Include="Other\Relationships\Workflow.xml" />
+    <Content Include="Other\Solution.xml" />
+    <Content Include="PluginAssemblies\CCRMREFFSPlugins-D7D81C55-EE14-4200-9F75-6605D8A77361\CCRMREFFSPlugins.dll" />
+    <Content Include="PluginAssemblies\CCRMREFFSPlugins-D7D81C55-EE14-4200-9F75-6605D8A77361\CCRMREFFSPlugins.dll.data.xml" />
+    <Content Include="Resources\en-US\resources.en-US.resx" />
+    <Content Include="Resources\es-ES\resources.es-ES.resx" />
+    <Content Include="Resources\fr-FR\resources.fr-FR.resx" />
+    <Content Include="Resources\ja-JP\resources.ja-JP.resx" />
+    <Content Include="Resources\ko-KR\resources.ko-KR.resx" />
+    <Content Include="Resources\pt-BR\resources.pt-BR.resx" />
+    <Content Include="Resources\pt-PT\resources.pt-PT.resx" />
+    <Content Include="Resources\template_resources.resx" />
+    <Content Include="Resources\zh-CN\resources.zh-CN.resx" />
+    <Content Include="SdkMessageProcessingSteps\{00291319-ac2d-e811-811b-c4346bdc1281}.xml" />
+    <Content Include="SdkMessageProcessingSteps\{0bd72f34-ed58-e811-8122-c4346bdc1281}.xml" />
+    <Content Include="SdkMessageProcessingSteps\{0f896167-b130-e811-811f-c4346bdcb211}.xml" />
+    <Content Include="SdkMessageProcessingSteps\{1202a86f-fe57-e811-8123-5065f38bb411}.xml" />
+    <Content Include="SdkMessageProcessingSteps\{188af121-5b5a-e811-8122-c4346bdc1281}.xml" />
+    <Content Include="SdkMessageProcessingSteps\{1d3a1d9a-ad2d-e811-811b-c4346bdc1281}.xml" />
+    <Content Include="SdkMessageProcessingSteps\{2b13cbaf-632e-e811-811f-5065f38bb411}.xml" />
+    <Content Include="SdkMessageProcessingSteps\{359ff38b-9e3c-e811-811c-c4346bdc1281}.xml" />
+    <Content Include="SdkMessageProcessingSteps\{3fdcc167-eb4d-e811-8121-c4346bdcb211}.xml" />
+    <Content Include="SdkMessageProcessingSteps\{553c1253-f863-e811-8124-c4346bdc1281}.xml" />
+    <Content Include="SdkMessageProcessingSteps\{71c2a965-ac30-e811-811c-c4346bdc1281}.xml" />
+    <Content Include="SdkMessageProcessingSteps\{72dbadb8-6915-e911-a979-000d3a30da56}.xml" />
+    <Content Include="SdkMessageProcessingSteps\{852cc77a-9e3c-e811-811c-c4346bdc1281}.xml" />
+    <Content Include="SdkMessageProcessingSteps\{a6f0e8b4-752e-e811-811f-5065f38bb411}.xml" />
+    <Content Include="SdkMessageProcessingSteps\{b43548ab-d258-e811-8123-5065f38bb411}.xml" />
+    <Content Include="SdkMessageProcessingSteps\{cbbc8843-ac2d-e811-811b-c4346bdc1281}.xml" />
+    <Content Include="SdkMessageProcessingSteps\{d73ed963-be4e-e811-8121-c4346bdcb211}.xml" />
+    <Content Include="SdkMessageProcessingSteps\{e1be3cd7-ad2d-e811-811b-c4346bdc1281}.xml" />
+    <Content Include="SdkMessageProcessingSteps\{e5e9911d-9e59-e811-8122-c4346bdc1281}.xml" />
+    <Content Include="SdkMessageProcessingSteps\{fabc626b-ac2d-e811-811b-c4346bdc1281}.xml" />
+    <Content Include="SdkMessageProcessingSteps\{fca5defe-c059-e811-8123-5065f38bb411}.xml" />
+    <Content Include="SdkMessageProcessingSteps\{fdf902b0-ab2d-e811-811b-c4346bdc1281}.xml" />
+    <Content Include="Workflows\RES-Booking-NewBookingMobilePushNotification-C0668205-1B9E-4F42-85D3-B142B4AC5A6A.xaml" />
+    <Content Include="Workflows\RES-Booking-NewBookingMobilePushNotification-C0668205-1B9E-4F42-85D3-B142B4AC5A6A.xaml.data.xml" />
+    <Content Include="Workflows\RES-Booking-ReassignBookingtoWOTeam-D2095CD2-191D-46B7-B937-E5AEA13C79A0.xaml" />
+    <Content Include="Workflows\RES-Booking-ReassignBookingtoWOTeam-D2095CD2-191D-46B7-B937-E5AEA13C79A0.xaml.data.xml" />
+    <Content Include="Workflows\RES-Booking-SetLeadTechnicianinWO-8B1D9BA0-14A3-4CC9-8BB9-BA3E59EB7281.xaml" />
+    <Content Include="Workflows\RES-Booking-SetLeadTechnicianinWO-8B1D9BA0-14A3-4CC9-8BB9-BA3E59EB7281.xaml.data.xml" />
+    <Content Include="Workflows\RES-Contact-AllowEmailNotification-7F8EC3A6-67DF-417D-9364-3B9ACD43B9F0.xaml" />
+    <Content Include="Workflows\RES-Contact-AllowEmailNotification-7F8EC3A6-67DF-417D-9364-3B9ACD43B9F0.xaml.data.xml" />
+    <Content Include="Workflows\RES-Contact-ChangeContactLanguageonchangeofPortalL-4EF00CC9-D2EC-4006-A3BF-345FADE89F31.xaml" />
+    <Content Include="Workflows\RES-Contact-ChangeContactLanguageonchangeofPortalL-4EF00CC9-D2EC-4006-A3BF-345FADE89F31.xaml.data.xml" />
+    <Content Include="Workflows\RES-Inventory-ReassignInventoryRecordtoProviderTea-5BB8FBEA-077C-4066-9597-4D0DB548E39A.xaml" />
+    <Content Include="Workflows\RES-Inventory-ReassignInventoryRecordtoProviderTea-5BB8FBEA-077C-4066-9597-4D0DB548E39A.xaml.data.xml" />
+    <Content Include="Workflows\RES-IOT-ConvertIoTAlerttoWorkOrder-95F95F9B-8BD5-4A8E-84E0-6DAF27F5D435.xaml" />
+    <Content Include="Workflows\RES-IOT-ConvertIoTAlerttoWorkOrder-95F95F9B-8BD5-4A8E-84E0-6DAF27F5D435.xaml.data.xml" />
+    <Content Include="Workflows\RES-IOT-ReassignIoTAlertfromCustomerAsset-BAC0A174-D8D2-4955-AD8F-792D38B03701.xaml" />
+    <Content Include="Workflows\RES-IOT-ReassignIoTAlertfromCustomerAsset-BAC0A174-D8D2-4955-AD8F-792D38B03701.xaml.data.xml" />
+    <Content Include="Workflows\RES-Procedure-ReassignmentofProcedure-66995951-7064-460A-B485-4BB4C08B1023.xaml" />
+    <Content Include="Workflows\RES-Procedure-ReassignmentofProcedure-66995951-7064-460A-B485-4BB4C08B1023.xaml.data.xml" />
+    <Content Include="Workflows\RES-Product-ChangeRecordStatusandActive-138A559D-B04B-43AA-BB23-CBF84AAF7470.xaml" />
+    <Content Include="Workflows\RES-Product-ChangeRecordStatusandActive-138A559D-B04B-43AA-BB23-CBF84AAF7470.xaml.data.xml" />
+    <Content Include="Workflows\RES-SR-CancelServiceRequestFromPortal-64FB4C3C-D867-4FE7-9AEA-220ABC2DAE52.xaml" />
+    <Content Include="Workflows\RES-SR-CancelServiceRequestFromPortal-64FB4C3C-D867-4FE7-9AEA-220ABC2DAE52.xaml.data.xml" />
+    <Content Include="Workflows\RES-SR-CopyCompletionNotestoAnotation-8ECF7C1A-2977-4C6C-BC39-474C4B33F8C0.xaml" />
+    <Content Include="Workflows\RES-SR-CopyCompletionNotestoAnotation-8ECF7C1A-2977-4C6C-BC39-474C4B33F8C0.xaml.data.xml" />
+    <Content Include="Workflows\RES-SR-CopySR-D624B165-62F1-4D5D-896F-FB28424ED31C.xaml" />
+    <Content Include="Workflows\RES-SR-CopySR-D624B165-62F1-4D5D-896F-FB28424ED31C.xaml.data.xml" />
+    <Content Include="Workflows\RES-SR-CreateDraftCopyofServiceRequest-2A896353-104E-4835-AC49-0DAEEF2BB892.xaml" />
+    <Content Include="Workflows\RES-SR-CreateDraftCopyofServiceRequest-2A896353-104E-4835-AC49-0DAEEF2BB892.xaml.data.xml" />
+    <Content Include="Workflows\RES-SR-PostCreateSRCreateDynNotes-A28CDC38-E952-44D5-BF73-3FEBE7131A92.xaml" />
+    <Content Include="Workflows\RES-SR-PostCreateSRCreateDynNotes-A28CDC38-E952-44D5-BF73-3FEBE7131A92.xaml.data.xml" />
+    <Content Include="Workflows\RES-SR-PreventCompletionifWOnotclosed-D60B55C3-F918-40BE-AF0F-6F80375712DF.xaml" />
+    <Content Include="Workflows\RES-SR-PreventCompletionifWOnotclosed-D60B55C3-F918-40BE-AF0F-6F80375712DF.xaml.data.xml" />
+    <Content Include="Workflows\RES-SR-ReclassifySR-F18C8642-7BD2-48E7-846D-B149220CE260.xaml" />
+    <Content Include="Workflows\RES-SR-ReclassifySR-F18C8642-7BD2-48E7-846D-B149220CE260.xaml.data.xml" />
+    <Content Include="Workflows\RES-SR-UpdateContactInformation-91B33E79-4203-4798-8B21-629AC5C2E9C6.xaml" />
+    <Content Include="Workflows\RES-SR-UpdateContactInformation-91B33E79-4203-4798-8B21-629AC5C2E9C6.xaml.data.xml" />
+    <Content Include="Workflows\RES-SR-UpdateProblemCode-AC6D943E-0247-4BCA-A1F3-74477EF70D3D.xaml" />
+    <Content Include="Workflows\RES-SR-UpdateProblemCode-AC6D943E-0247-4BCA-A1F3-74477EF70D3D.xaml.data.xml" />
+    <Content Include="Workflows\RES-WO-AssignToPreventativeMaintenance-D895A364-7071-4D84-8092-D46516CEED82.xaml" />
+    <Content Include="Workflows\RES-WO-AssignToPreventativeMaintenance-D895A364-7071-4D84-8092-D46516CEED82.xaml.data.xml" />
+    <Content Include="Workflows\RES-WO-CancelledSRwhenWOStatuschangedtoClosed-Canc-A9C9B995-D27D-44CE-9865-92CA0DAA3118.xaml" />
+    <Content Include="Workflows\RES-WO-CancelledSRwhenWOStatuschangedtoClosed-Canc-A9C9B995-D27D-44CE-9865-92CA0DAA3118.xaml.data.xml" />
+    <Content Include="Workflows\RES-WO-CaptureOpenCompleteTime-162F3611-909D-4AD9-B725-EBF27212B0D9.xaml" />
+    <Content Include="Workflows\RES-WO-CaptureOpenCompleteTime-162F3611-909D-4AD9-B725-EBF27212B0D9.xaml.data.xml" />
+    <Content Include="Workflows\RES-WO-CopyCommentsformWOtoSRasNote-1643E2A8-BD79-41C0-9913-F4E7D31BA43A.xaml" />
+    <Content Include="Workflows\RES-WO-CopyCommentsformWOtoSRasNote-1643E2A8-BD79-41C0-9913-F4E7D31BA43A.xaml.data.xml" />
+    <Content Include="Workflows\RES-WO-GetUserLocalDateTimeonWorkOrderStatusClosed-3226D13D-4C11-4526-9E8B-83D6BC8831EF.xaml" />
+    <Content Include="Workflows\RES-WO-GetUserLocalDateTimeonWorkOrderStatusClosed-3226D13D-4C11-4526-9E8B-83D6BC8831EF.xaml.data.xml" />
+    <Content Include="Workflows\RES-WO-TargetCompletionDateUpdate-A7967AA6-3FE3-4043-AC16-AD3A5D5100D5.xaml" />
+    <Content Include="Workflows\RES-WO-TargetCompletionDateUpdate-A7967AA6-3FE3-4043-AC16-AD3A5D5100D5.xaml.data.xml" />
+    <Content Include="Workflows\RES-WO-UpdateCostCenterCode-6F4D7551-A037-45E2-B39D-B1707FD4A05B.xaml" />
+    <Content Include="Workflows\RES-WO-UpdateCostCenterCode-6F4D7551-A037-45E2-B39D-B1707FD4A05B.xaml.data.xml" />
+    <Content Include="Workflows\RES-WO-UpdatePricelist-5D08A137-66F4-4753-BB12-04B3859B5D18.xaml" />
+    <Content Include="Workflows\RES-WO-UpdatePricelist-5D08A137-66F4-4753-BB12-04B3859B5D18.xaml.data.xml" />
+    <Content Include="Workflows\RES-WO-UpdateProviderDueDateonSR-50B3BDA7-D9EC-4F21-B238-CB4A8B2C2D6C.xaml" />
+    <Content Include="Workflows\RES-WO-UpdateProviderDueDateonSR-50B3BDA7-D9EC-4F21-B238-CB4A8B2C2D6C.xaml.data.xml" />
+    <Content Include="Workflows\RES-WO-UpdateServiceRequestWorkOrderBillablechange-1D200228-273E-4BE3-ACF6-C4C503C1C320.xaml" />
+    <Content Include="Workflows\RES-WO-UpdateServiceRequestWorkOrderBillablechange-1D200228-273E-4BE3-ACF6-C4C503C1C320.xaml.data.xml" />
+    <Content Include="Workflows\RES-WO-UpdateSLADatesfromServiceRequest-516144A1-4AB7-4FDA-A788-ABCD1BD6C80D.xaml" />
+    <Content Include="Workflows\RES-WO-UpdateSLADatesfromServiceRequest-516144A1-4AB7-4FDA-A788-ABCD1BD6C80D.xaml.data.xml" />
+    <Content Include="Workflows\RES-WO-UpdateSRRoomwhenWorkOrderRoomChanged-2F98C9B6-C4B4-4AFA-ADBE-4817F32D0725.xaml" />
+    <Content Include="Workflows\RES-WO-UpdateSRRoomwhenWorkOrderRoomChanged-2F98C9B6-C4B4-4AFA-ADBE-4817F32D0725.xaml.data.xml" />
+    <Content Include="Workflows\RES-WO-UpdateSRStatuswhenWorkOrderstatuschangedtoO-3BCC6A24-8C7B-4AEA-B711-6A6CE6CDF013.xaml" />
+    <Content Include="Workflows\RES-WO-UpdateSRStatuswhenWorkOrderstatuschangedtoO-3BCC6A24-8C7B-4AEA-B711-6A6CE6CDF013.xaml.data.xml" />
+    <Content Include="Workflows\RES-WO-UpdateSRStatusWhenWOSubStatusChanged-F6AF5E77-56C3-4792-8FF9-5150BDBBFC75.xaml" />
+    <Content Include="Workflows\RES-WO-UpdateSRStatusWhenWOSubStatusChanged-F6AF5E77-56C3-4792-8FF9-5150BDBBFC75.xaml.data.xml" />
+    <Content Include="Workflows\RES-WO-UpdateTargetCompletionDateonSR-9F9E6E15-8745-4785-AEA4-7823F438933B.xaml" />
+    <Content Include="Workflows\RES-WO-UpdateTargetCompletionDateonSR-9F9E6E15-8745-4785-AEA4-7823F438933B.xaml.data.xml" />
+    <Content Include="Workflows\RES-WO-UpdateWorkOrderBPFstagebasedonWOstatus-3031E376-F7F3-420F-BE0D-008072B8253A.xaml" />
+    <Content Include="Workflows\RES-WO-UpdateWorkOrderBPFstagebasedonWOstatus-3031E376-F7F3-420F-BE0D-008072B8253A.xaml.data.xml" />
+    <Content Include="Workflows\RES-WO-WorkOrderBPF-2525CE3A-ED4E-4899-BFC4-FC5C6C886B24.xaml" />
+    <Content Include="Workflows\RES-WO-WorkOrderBPF-2525CE3A-ED4E-4899-BFC4-FC5C6C886B24.xaml.data.xml" />
+    <Content Include="Workflows\RES-WO-WorkOrdertoIoTAlertSync-65D41894-F521-4BA1-BC36-C92100AED805.xaml" />
+    <Content Include="Workflows\RES-WO-WorkOrdertoIoTAlertSync-65D41894-F521-4BA1-BC36-C92100AED805.xaml.data.xml" />
+    <Content Include="Workflows\RES-WOP-AssignOwnerinWorkOrderProduct-08F04250-CA0E-47A1-AEF0-992EF823DED5.xaml" />
+    <Content Include="Workflows\RES-WOP-AssignOwnerinWorkOrderProduct-08F04250-CA0E-47A1-AEF0-992EF823DED5.xaml.data.xml" />
+    <Content Include="Workflows\SR-MassComplete-DAE4C004-43C0-4F9A-A058-0E5A5FC6DAAA.xaml" />
+    <Content Include="Workflows\SR-MassComplete-DAE4C004-43C0-4F9A-A058-0E5A5FC6DAAA.xaml.data.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CCRM.REFFS.Plugins\CCRM.REFFS.Plugins.csproj">
+      <Project>{5c4b85d2-2915-49f8-845a-27e044ccb241}</Project>
+      <Name>CCRM.REFFS.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="Microsoft.Crm.SolutionProjects.Metadata.targets" />
+</Project>

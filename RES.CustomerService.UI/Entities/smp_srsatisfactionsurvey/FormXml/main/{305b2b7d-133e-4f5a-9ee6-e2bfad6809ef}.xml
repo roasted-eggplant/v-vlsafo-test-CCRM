@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{305b2b7d-133e-4f5a-9ee6-e2bfad6809ef}</formid>
+    <IntroducedVersion>3.0.0.10</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{6498dbe1-c12a-461a-8128-12151c865550}" IsUserDefined="1" labelid="{03a7668a-1a15-48ed-a02e-5be2e887f876}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{f2bc4e9c-4b90-4258-9096-3a25017a01e1}" labelid="{59182951-cfdc-4225-8d47-209d004e5145}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{534e0ce1-2445-4472-ad0d-30e96788798e}" labelid="{3de77eec-cfc7-4f81-b862-8d868639ce3d}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="smp_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_name" disabled="true" />
+                      </cell>
+                      <cell id="{b654fee9-b39a-44d4-b048-f308fdd71a37}" labelid="{3c174c3c-05a6-420c-ad26-70b823882c8c}" showlabel="true" locklevel="1">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="负责人" languagecode="2052" />
+                          <label description="Propriétaire" languagecode="1036" />
+                          <label description="所有者" languagecode="1041" />
+                          <label description="담당자" languagecode="1042" />
+                          <label description="Proprietário" languagecode="2070" />
+                          <label description="Propietario" languagecode="3082" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="true">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{de977b86-0901-1952-5aac-1618d7ac97b3}" showlabel="true" locklevel="0" labelid="{5689a4c0-da2f-4fb5-a42f-d1775892e5f4}">
+                        <labels>
+                          <label description="My issue was resolved to my satisfaction" languagecode="1033" />
+                        </labels>
+                        <control id="smp_thetechniciancompletedtheworkontime" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="smp_thetechniciancompletedtheworkontime" disabled="false" />
+                      </cell>
+                      <cell id="{ecae3304-89b6-ad0c-b150-862049911c3e}" showlabel="false" labelid="{06134a86-7ac9-441c-92ca-e6f19e1dfb72}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cbc69419-13dd-b08a-11ad-d7235b389b5b}" showlabel="true" locklevel="0" labelid="{e287c884-8608-4bd1-8b31-eb525eaab88e}">
+                        <labels>
+                          <label description="The service provider left the working area in a clean and orderly fashion" languagecode="1033" />
+                        </labels>
+                        <control id="smp_thetechniciancompletedtheworkrightthefirs" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="smp_thetechniciancompletedtheworkrightthefirs" disabled="false" />
+                      </cell>
+                      <cell id="{7622a774-1aab-e158-213b-d0d2b55507d2}" showlabel="false" labelid="{574cd95a-8f0f-402d-a786-0f820b03cd50}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3ade7d55-bd7a-053b-e097-ddd9520be21e}" showlabel="true" locklevel="0" labelid="{d1f5b016-231b-40c2-907a-d3b58d1e2285}">
+                        <labels>
+                          <label description="Was it easy for you to request service?" languagecode="1033" />
+                        </labels>
+                        <control id="smp_itwaseasytorequestservice" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="smp_itwaseasytorequestservice" disabled="false" />
+                      </cell>
+                      <cell id="{05b67a88-a1b6-7c70-7d63-690e95a5e8bc}" showlabel="false" labelid="{6f324b48-b46b-47fa-aadb-62aeb8cc777e}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0d487bb2-d291-2a9a-b954-96760e505aa5}" showlabel="true" locklevel="0" labelid="{33ba362b-3297-4a5f-b7a8-7b80e20df746}">
+                        <labels>
+                          <label description="How satisfied were you with the overall quality of your interaction with the Facilities Service Cent" languagecode="1033" />
+                        </labels>
+                        <control id="smp_courteousservicewasreceivedfromthecustom" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="smp_courteousservicewasreceivedfromthecustom" disabled="false" />
+                      </cell>
+                      <cell id="{ac87704a-9e13-3374-7c13-4e375b66be57}" showlabel="false" labelid="{338eb912-cd2c-4b72-85ea-f8b0465311da}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{92fd54ae-8e12-4c67-bea7-1622f4175759}">
+        <rows>
+          <row>
+            <cell id="{04317ab4-628e-4375-a062-18804996b039}" labelid="{8363cc91-d6d1-4b60-9834-5e6ca1f01fdb}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+                <label description="状态" languagecode="2052" />
+                <label description="Statut" languagecode="1036" />
+                <label description="状態" languagecode="1041" />
+                <label description="상태" languagecode="1042" />
+                <label description="Estado" languagecode="2070" />
+                <label description="Estado" languagecode="3082" />
+              </labels>
+              <control id="footer_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAudit" Sequence="9600" Area="Info" Id="navAudit" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Audit History" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Processes" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="3">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Survey Web Form (Chinese)" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Survey Web Form (Chinese)" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform unmodified="1">
+    <formid>{b7c53e87-a189-4870-a48b-c6ef6b4634cb}</formid>
+    <IntroducedVersion>6.1.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{79a6ac24-f8c3-421f-8b08-34b1ca65e2eb}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Général" languagecode="1036" />
+            <label description="全般" languagecode="1041" />
+            <label description="일반" languagecode="1042" />
+            <label description="常规" languagecode="2052" />
+            <label description="Geral" languagecode="2070" />
+            <label description="General" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{bb31beef-b49e-4bdd-b2a7-55b2a0f569b8}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Général" languagecode="1036" />
+                    <label description="全般" languagecode="1041" />
+                    <label description="일반" languagecode="1042" />
+                    <label description="常规" languagecode="2052" />
+                    <label description="Geral" languagecode="2070" />
+                    <label description="General" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{421714b1-a67e-4f28-9c6e-de8f69ed050a}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                          <label description="名称" languagecode="2052" />
+                          <label description="Nom" languagecode="1036" />
+                          <label description="名前" languagecode="1041" />
+                          <label description="이름" languagecode="1042" />
+                          <label description="Nome" languagecode="2070" />
+                          <label description="Nombre" languagecode="3082" />
+                        </labels>
+                        <control id="bpf_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bpf_name" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Informations" languagecode="1036" />
+      <LocalizedName description="情報" languagecode="1041" />
+      <LocalizedName description="정보" languagecode="1042" />
+      <LocalizedName description="信息" languagecode="2052" />
+      <LocalizedName description="Informações" languagecode="2070" />
+      <LocalizedName description="Información" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Formulaire pour cette entité." languagecode="1036" />
+      <Description description="このエンティティ用のフォームです。" languagecode="1041" />
+      <Description description="이 엔터티에 대한 양식입니다." languagecode="1042" />
+      <Description description="此实体的窗体。" languagecode="2052" />
+      <Description description="Um formulário para esta entidade." languagecode="2070" />
+      <Description description="Un formulario para esta entidad." languagecode="3082" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{d5db4cfb-e9aa-470c-b0fb-8b7eef4cb4d1}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{990bbb4b-2f23-407e-a0cb-add0aeedcc3a}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Geral" languagecode="1046" />
+            <label description="General" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="true" showbar="true" IsUserDefined="0" id="{d91611c5-a857-458c-889a-0bc8ebd82228}" name="{d91611c5-a857-458c-889a-0bc8ebd82228}" columns="11" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Geral" languagecode="1046" />
+                    <label description="General" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{51a29362-3a0a-440f-aed5-14ef7c284974}">
+                        <labels>
+                          <label description="Room Type" languagecode="1033" />
+                          <label description="Tipo de Sala" languagecode="1046" />
+                          <label description="Tipo de sala" languagecode="3082" />
+                        </labels>
+                        <control id="smp_roomtype" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_roomtype" />
+                      </cell>
+                      <cell id="{7cc7b07c-e62c-d1a7-45a0-3c1c671cee00}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Zone" languagecode="1033" />
+                          <label description="Zona" languagecode="1046" />
+                          <label description="Zona" languagecode="3082" />
+                        </labels>
+                        <control id="smp_zone" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="smp_zone" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a00483ec-a506-d198-e50d-4accac86deea}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{fca3a310-92e5-437c-8fd1-22f5b17cf5d0}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Proprietário" languagecode="1046" />
+                          <label description="Dueño" languagecode="3082" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{990bbb4b-2f23-407e-a0cb-add0aeedcc3a}_section_2" showlabel="true" showbar="true" locklevel="0" id="{cc1c4425-e32e-48e2-b9e1-6d6c33add8d1}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Translations" languagecode="1033" />
+                    <label description="Traduções" languagecode="1046" />
+                    <label description="Traducciones" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2b29550b-1a8d-5429-77d6-a7a60dddcbda}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Room Type - French - France" languagecode="1033" />
+                          <label description="Tipo de Sala - Francês - França" languagecode="1046" />
+                          <label description="Tipo de sala - Francés - Francia" languagecode="3082" />
+                        </labels>
+                        <control id="smp_roomtype_fr_fr" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_roomtype_fr_fr" disabled="false" />
+                      </cell>
+                      <cell id="{cd302a53-2a17-6550-4be0-22006192a067}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Room Type - Japanese – Japan" languagecode="1033" />
+                          <label description="Tipo de Sala - Japonês - Japão" languagecode="1046" />
+                          <label description="Tipo de sala - Japonés - Japón" languagecode="3082" />
+                        </labels>
+                        <control id="smp_roomtype_ja_jp" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_roomtype_ja_jp" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0eebc710-7bee-e886-54e5-86cc0a9ec449}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Room Type - Korean – Korea" languagecode="1033" />
+                          <label description="Tipo de Sala - Coreano - Coreia" languagecode="1046" />
+                          <label description="Tipo de sala - Coreano - Corea" languagecode="3082" />
+                        </labels>
+                        <control id="smp_roomtype_ko_kr" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_roomtype_ko_kr" disabled="false" />
+                      </cell>
+                      <cell id="{930ae664-e57c-2a91-ce81-5ca33a190d52}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Room Type - Mandarin – Mainland China" languagecode="1033" />
+                          <label description="Tipo de Sala - Mandarim - China Continental" languagecode="1046" />
+                          <label description="Tipo de sala - Mandarín - China continental" languagecode="3082" />
+                        </labels>
+                        <control id="smp_roomtype_zh_cn" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_roomtype_zh_cn" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bb405d47-6247-3239-e33a-b2e1c7ae2c5a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Room Type - Portuguese – Portugal" languagecode="1033" />
+                          <label description="Tipo de Sala - Português - Portugal" languagecode="1046" />
+                          <label description="Tipo de sala - Portugués - Portugal" languagecode="3082" />
+                        </labels>
+                        <control id="smp_roomtype_pt_pt" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_roomtype_pt_pt" disabled="false" />
+                      </cell>
+                      <cell id="{bde09e54-369a-4144-8870-7dc18d818044}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Room Type - Spanish – Mexico" languagecode="1033" />
+                          <label description="Tipo de Sala - Espanhol - México" languagecode="1046" />
+                          <label description="Tipo de sala - Español - México" languagecode="3082" />
+                        </labels>
+                        <control id="smp_roomtype_es_mx" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_roomtype_es_mx" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{eae9c014-99a5-434f-8ddc-61b3bf2a103f}">
+        <rows>
+          <row>
+            <cell id="{e8d3dbeb-8601-4797-9dc2-d5651e8865df}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control id="footer_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Processes" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Informação" languagecode="1046" />
+      <LocalizedName description="Información" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Formulário para esta Entidade." languagecode="1046" />
+      <Description description="Formulario para esta entidad." languagecode="3082" />
+    </Descriptions>
+  </systemform>
+</forms>

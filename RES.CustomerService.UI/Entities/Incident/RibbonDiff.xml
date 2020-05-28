@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions>
+    <CustomAction Id="smp.incident.Button1.Button.CustomAction" Location="Mscrm.Form.incident.MainTab.Save.Controls._children" Sequence="75">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:smp.incident.Button1.Button.Alt" Command="smp.incident.Command0.Command_Reclassification" Description="Reclassify" Id="smp.incident.Button1.Button" Image32by32="$webresource:smp_cancelandmodify32x32" Image16by16="$webresource:smp_cancelandmodify16x16" LabelText="$LocLabels:smp.incident.Button1.Button.LabelText" Sequence="75" TemplateAlias="o2" ToolTipTitle="$LocLabels:smp.incident.Button1.Button.ToolTipTitle" ToolTipDescription="$LocLabels:smp.incident.Button1.Button.ToolTipDescription" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="smp.incident.Button2.Button.CustomAction" Location="Mscrm.Form.incident.MainTab.Save.Controls._children" Sequence="48">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:smp.incident.Button2.Button.Alt" Command="Mscrm.Form.incident.Resolve" Id="smp.incident.Button2.Button" Image32by32="/_imgs/ribbon/resolvecase32.png" Image16by16="/_imgs/ribbon/ResolveCase_16.png" LabelText="$LocLabels:smp.incident.Button2.Button.LabelText" Sequence="48" TemplateAlias="o1" ToolTipTitle="$LocLabels:smp.incident.Button2.Button.ToolTipTitle" ToolTipDescription="$Resources:Ribbon.Tooltip.ResolveCase" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="smp.incident.Button3.Button.CustomAction" Location="Mscrm.Form.incident.MainTab.Save.Controls._children" Sequence="73">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:smp.incident.Button3.Button.Alt" Command="smp.incident.Command2.Command.CopyServiceRequest" Description="Copy Service Request" Id="smp.incident.Button3.Button" Image32by32="$webresource:smp_copysr32" Image16by16="$webresource:smp_copysr16" LabelText="$LocLabels:smp.incident.Button3.Button.LabelText" Sequence="73" TemplateAlias="o2" ToolTipTitle="$LocLabels:smp.incident.Button3.Button.ToolTipTitle" ToolTipDescription="$LocLabels:smp.incident.Button3.Button.ToolTipDescription" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="smp.incident.Button5.EditEscalations.CustomAction" Location="Mscrm.Form.incident.MainTab.ExportData.Controls._children" Sequence="30">
+      <CommandUIDefinition>
+        <Button Command="smp.incident.Command4.EscalationPopUp" Id="smp.incident.Button5.EditEscalations" LabelText="$LocLabels:smp.incident.Button5.EditEscalations.LabelText" Sequence="30" TemplateAlias="o1" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="smp.Mscrm.Form.incident.Cancel.CustomAction" Location="Mscrm.Form.incident.MainTab.Save.Controls._children" Sequence="49">
+      <CommandUIDefinition>
+        <Button Command="smp.incident.CancelCommand" Id="Mscrm.Form.incident.Cancel" Image32by32="/_imgs/ribbon/CancelIncident32.png" Image16by16="/_imgs/ribbon/CaseCancel_16.png" LabelText="$LocLabels:Mscrm.Form.incident.Cancel.LabelText" Sequence="49" TemplateAlias="o1" ToolTipTitle="$LocLabels:Mscrm.Form.incident.Cancel.ToolTipTitle" ToolTipDescription="$LocLabels:Mscrm.Form.incident.Cancel.ToolTipDescription" ModernImage="" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <HideCustomAction HideActionId="smp.Mscrm.Form.incident.Cancel.Hide" Location="Mscrm.Form.incident.Cancel" />
+    <HideCustomAction HideActionId="smp.Mscrm.Form.incident.Reactivate.Hide" Location="Mscrm.Form.incident.Reactivate" />
+    <HideCustomAction HideActionId="smp.Mscrm.Form.incident.Resolve.Hide" Location="Mscrm.Form.incident.Resolve" />
+    <HideCustomAction HideActionId="smp.Mscrm.Form.incident.RunRoutingRule.Hide" Location="Mscrm.Form.incident.RunRoutingRule" />
+    <HideCustomAction HideActionId="smp.Mscrm.Form.incident.SaveAndRunRoutingRule.Hide" Location="Mscrm.Form.incident.SaveAndRunRoutingRule" />
+    <CustomAction Id="smp.Mscrm.HomepageGrid.incident.NewRecord.CustomAction" Location="Mscrm.HomepageGrid.incident.MainTab.Management.Controls._children" Sequence="5">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:Mscrm.HomepageGrid.incident.NewRecord.Alt" Command="Mscrm.NewRecordFromGrid" Id="Mscrm.HomepageGrid.incident.NewRecord" Image32by32="$webresource:Service/_imgs/ribbon/newrecord32.png" Image16by16="$webresource:Service/_imgs/ribbon/NewRecord_16.png" LabelText="$LocLabels:Mscrm.HomepageGrid.incident.NewRecord.LabelText" Sequence="5" TemplateAlias="o1" ToolTipTitle="$LocLabels:Mscrm.HomepageGrid.incident.NewRecord.ToolTipTitle" ToolTipDescription="$LocLabels:Mscrm.HomepageGrid.incident.NewRecord.ToolTipDescription" ModernImage="New" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="smp.Mscrm.HomepageGrid.incident.NewRecordForBPFEntity.CustomAction" Location="Mscrm.HomepageGrid.incident.MainTab.Management.Controls._children" Sequence="10">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:Mscrm.HomepageGrid.incident.NewRecordForBPFEntity.Alt" Command="Mscrm.HomepageGrid.NewRecordForBPFEntity" Id="Mscrm.HomepageGrid.incident.NewRecordForBPFEntity" Image32by32="/_imgs/ribbon/newrecord32.png" Image16by16="/_imgs/ribbon/NewRecord_16.png" LabelText="$LocLabels:Mscrm.HomepageGrid.incident.NewRecordForBPFEntity.LabelText" Sequence="10" TemplateAlias="o1" ToolTipTitle="$LocLabels:Mscrm.HomepageGrid.incident.NewRecordForBPFEntity.ToolTipTitle" ToolTipDescription="$Resources(EntityDisplayName):Ribbon.Tooltip.New" ModernImage="New" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="smp.Mscrm.SubGrid.incident.AddNewStandard.CustomAction" Location="Mscrm.SubGrid.incident.MainTab.Management.Controls._children" Sequence="20">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:Mscrm.SubGrid.incident.AddNewStandard.Alt" Command="Mscrm.AddNewRecordFromSubGridStandard" Id="Mscrm.SubGrid.incident.AddNewStandard" Image32by32="/_imgs/ribbon/newrecord32.png" Image16by16="/_imgs/ribbon/New_16.png" LabelText="$LocLabels:Mscrm.SubGrid.incident.AddNewStandard.LabelText" Sequence="20" TemplateAlias="o1" ToolTipTitle="$LocLabels:Mscrm.SubGrid.incident.AddNewStandard.ToolTipTitle" ToolTipDescription="$LocLabels:Mscrm.SubGrid.incident.AddNewStandard.ToolTipDescription" ModernImage="New" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="smp.Mscrm.SubGrid.incident.NewRecord.CustomAction" Location="Mscrm.SubGrid.incident.MainTab.Management.Controls._children" Sequence="10">
+      <CommandUIDefinition>
+        <Button Command="Mscrm.NewRecordFromGrid" Id="Mscrm.SubGrid.incident.NewRecord" Image32by32="/_imgs/ribbon/newrecord32.png" Image16by16="/_imgs/ribbon/New_16.png" LabelText="$LocLabels:Mscrm.SubGrid.incident.NewRecord.LabelText" Sequence="10" TemplateAlias="o1" ToolTipTitle="$LocLabels:Mscrm.SubGrid.incident.NewRecord.ToolTipTitle" ToolTipDescription="$LocLabels:Mscrm.SubGrid.incident.NewRecord.ToolTipDescription" ModernImage="New" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="Mscrm.Form.incident.Cancel">
+      <EnableRules>
+        <EnableRule Id="Mscrm.CanChangeIncidentForm" />
+        <EnableRule Id="Mscrm.IncidentIsActive" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="Mscrm.CanChangeIncidentForm" />
+        <DisplayRule Id="Mscrm.IncidentIsActive" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="MandateCancellationReason" Library="$webresource:smp_script" />
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="Mscrm.Form.incident.Resolve">
+      <EnableRules>
+        <EnableRule Id="Mscrm.CanChangeIncidentForm" />
+        <EnableRule Id="Mscrm.IncidentIsActive" />
+        <EnableRule Id="Mscrm.IsAvailableInMocaOffline" />
+        <EnableRule Id="CheckCSRRole" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="Mscrm.CanChangeIncidentForm" />
+        <DisplayRule Id="Mscrm.IncidentIsActive" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="CrmService.IncidentRibbon.CommandBarActions.resolve" Library="$webresource:Service/Incident/Ribbon/Incident_ribbon_library.js" />
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="Mscrm.HomepageGrid.incident.Resolve">
+      <EnableRules>
+        <EnableRule Id="Mscrm.SelectionCountExactlyOne" />
+        <EnableRule Id="Mscrm.VisualizationPaneNotMaximized" />
+        <EnableRule Id="Mscrm.IsAvailableInMocaOffline" />
+        <EnableRule Id="CheckCSRRole" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="Mscrm.CanChangeIncidentForm" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="CrmService.IncidentRibbon.GridCommandActions.resolveCase" Library="$webresource:Service/Incident/Ribbon/Incident_ribbon_library.js">
+          <CrmParameter Value="FirstSelectedItemId" />
+          <CrmParameter Value="SelectedControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="smp.incident.CancelCommand">
+      <EnableRules />
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="MandateCancellationReason" Library="$webresource:smp_script">
+          <CrmParameter Value="PrimaryControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="smp.incident.CheckRoles">
+      <EnableRules>
+        <EnableRule Id="CheckCSRRole" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="CheckUserRole" Library="$webresource:smp_script">
+          <CrmParameter Value="PrimaryControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="smp.incident.Command0.Command_Reclassification">
+      <EnableRules />
+      <DisplayRules>
+        <DisplayRule Id="smp.incident.DisplayRule0.DisplayRule_Reclassify" />
+        <DisplayRule Id="smp.incident.DisplayRule3.DisplayRule" />
+        <DisplayRule Id="smp.incident.DisplayRule4.DisplayRule" />
+        <DisplayRule Id="smp.incident.DisplayRule5.DisplayRule" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="ReClassfymethod" Library="$webresource:new_ReClassifyServiceRequestjs">
+          <CrmParameter Value="PrimaryControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="smp.incident.Command2.Command.CopyServiceRequest">
+      <EnableRules />
+      <DisplayRules>
+        <DisplayRule Id="smp.incident.DisplayRule3.DisplayRule" />
+        <DisplayRule Id="smp.incident.DisplayRule4.DisplayRule" />
+        <DisplayRule Id="smp.incident.DisplayRule5.DisplayRule" />
+        <DisplayRule Id="smp.incident.DisplayRule6.DisplayRule.CopySR" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="CopySR" Library="$webresource:smp_script">
+          <CrmParameter Value="PrimaryControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="smp.incident.Command4.EscalationPopUp">
+      <EnableRules />
+      <DisplayRules>
+        <DisplayRule Id="smp.incident.DisplayRule7.EscalationPopup" />
+      </DisplayRules>
+      <Actions />
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules>
+      <DisplayRule Id="smp.incident.DisplayRule.CheckRoles">
+        <ValueRule Field="smp_flag" Value="0" Default="false" InvertResult="true" />
+      </DisplayRule>
+      <DisplayRule Id="smp.incident.DisplayRule0.DisplayRule_Reclassify">
+        <FormStateRule State="Create" Default="true" InvertResult="true" />
+      </DisplayRule>
+      <DisplayRule Id="smp.incident.DisplayRule3.DisplayRule">
+        <ValueRule Field="statuscode" Value="1" Default="true" InvertResult="true" />
+      </DisplayRule>
+      <DisplayRule Id="smp.incident.DisplayRule4.DisplayRule">
+        <ValueRule Field="statuscode" Value="5" Default="true" InvertResult="true" />
+      </DisplayRule>
+      <DisplayRule Id="smp.incident.DisplayRule5.DisplayRule">
+        <ValueRule Field="statuscode" Value="6" Default="true" InvertResult="true" />
+      </DisplayRule>
+      <DisplayRule Id="smp.incident.DisplayRule6.DisplayRule.CopySR">
+        <FormStateRule State="Create" Default="true" InvertResult="true" />
+      </DisplayRule>
+      <DisplayRule Id="smp.incident.DisplayRule7.EscalationPopup">
+        <FormStateRule State="Create" Default="false" InvertResult="true" />
+      </DisplayRule>
+      <DisplayRule Id="smp.incident.DisplayRule8.DisplayRule">
+        <ValueRule Field="smp_priorityescalationpopupnotes" Value="not null" Default="false" InvertResult="true" />
+      </DisplayRule>
+    </DisplayRules>
+    <EnableRules>
+      <EnableRule Id="CheckCSRRole">
+        <CustomRule FunctionName="CheckUserRole" Library="$webresource:smp_CheckUserRole_CSR" Default="true" InvertResult="false" />
+      </EnableRule>
+      <EnableRule Id="Mscrm.IsAvailableInMocaOffline">
+        <CustomRule FunctionName="XrmCore.Rules.Online.IsCommandAvailableInMocaOffline" Library="$webresource:Main_system_library.js">
+          <BoolParameter Value="true" />
+          <CrmParameter Value="SelectedEntityTypeName" />
+        </CustomRule>
+      </EnableRule>
+      <EnableRule Id="Mscrm.SelectionCountExactlyOne">
+        <SelectionCountRule AppliesTo="SelectedEntity" Minimum="1" Maximum="1" />
+      </EnableRule>
+      <EnableRule Id="Mscrm.VisualizationPaneNotMaximized">
+        <OrRule>
+          <Or>
+            <CommandClientTypeRule Type="Modern" />
+          </Or>
+          <Or>
+            <CustomRule FunctionName="XrmCore.Rules.Charts.disableButtonsWhenChartMaximized" Library="$webresource:Main_system_library.js">
+              <CrmParameter Value="SelectedControl" />
+            </CustomRule>
+          </Or>
+        </OrRule>
+      </EnableRule>
+      <EnableRule Id="smp.incident.EnableRule0.EnableRule_Reclassification">
+        <FormStateRule State="Existing" Default="true" InvertResult="true" />
+      </EnableRule>
+      <EnableRule Id="smp.incident.EnableRule3.Escalationpopup">
+        <FormStateRule State="Create" Default="false" InvertResult="true" />
+        <ValueRule Field="smp_ispopupshown" Value="1" Default="false" InvertResult="true" />
+      </EnableRule>
+      <EnableRule Id="test">
+        <ValueRule Field="statuscode" Value="1" Default="true" InvertResult="true" />
+      </EnableRule>
+    </EnableRules>
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="Mscrm.Form.incident.Cancel.LabelText">
+      <Titles>
+        <Title description="Cancel Service Request" languagecode="1033" />
+        <Title description="Annuler la demande de service" languagecode="1036" />
+        <Title description="キャンセル" languagecode="1041" />
+        <Title description="서비스 요청 취소" languagecode="1042" />
+        <Title description="取消服务需求" languagecode="2052" />
+        <Title description="Cancelar solicitação de serviço" languagecode="2070" />
+        <Title description="Cancelar solicitud de servicio" languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.Form.incident.Cancel.ToolTipDescription">
+      <Titles>
+        <Title description="Cancel this service request. Once it has been cancelled it can no longer be assigned. You can reactivate a cancelled service request." languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.Form.incident.Cancel.ToolTipTitle">
+      <Titles>
+        <Title description="Cancel Service Request" languagecode="1033" />
+        <Title description="Annuler la demande de service" languagecode="1036" />
+        <Title description="キャンセル" languagecode="1041" />
+        <Title description="서비스 요청 취소" languagecode="1042" />
+        <Title description="取消服务需求" languagecode="2052" />
+        <Title description="Cancelar solicitação de serviço" languagecode="2070" />
+        <Title description="Cancelar solicitud de servicio" languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.HomepageGrid.incident.NewRecord.Alt">
+      <Titles>
+        <Title description="New" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.HomepageGrid.incident.NewRecord.LabelText">
+      <Titles>
+        <Title description="New" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.HomepageGrid.incident.NewRecord.ToolTipDescription">
+      <Titles>
+        <Title description="New" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.HomepageGrid.incident.NewRecord.ToolTipTitle">
+      <Titles>
+        <Title description="New" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.HomepageGrid.incident.NewRecordForBPFEntity.Alt">
+      <Titles>
+        <Title description="New Case" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.HomepageGrid.incident.NewRecordForBPFEntity.LabelText">
+      <Titles>
+        <Title description="New Case" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.HomepageGrid.incident.NewRecordForBPFEntity.ToolTipTitle">
+      <Titles>
+        <Title description="New Case" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.SubGrid.incident.AddNewStandard.Alt">
+      <Titles>
+        <Title description="Add New Case" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.SubGrid.incident.AddNewStandard.LabelText">
+      <Titles>
+        <Title description="Add New Case" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.SubGrid.incident.AddNewStandard.ToolTipDescription">
+      <Titles>
+        <Title description="Add a related Service Request to this record." languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.SubGrid.incident.AddNewStandard.ToolTipTitle">
+      <Titles>
+        <Title description="Add New Case" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.SubGrid.incident.NewRecord.LabelText">
+      <Titles>
+        <Title description="New Case" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.SubGrid.incident.NewRecord.ToolTipDescription">
+      <Titles>
+        <Title description="Create a new {0}record." languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.SubGrid.incident.NewRecord.ToolTipTitle">
+      <Titles>
+        <Title description="New Case" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="smp.incident.Button1.Button.Alt">
+      <Titles>
+        <Title description="Reclassify" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="smp.incident.Button1.Button.LabelText">
+      <Titles>
+        <Title description="Reclassify" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="smp.incident.Button1.Button.ToolTipDescription">
+      <Titles>
+        <Title description="Reclassify" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="smp.incident.Button1.Button.ToolTipTitle">
+      <Titles>
+        <Title description="Reclassify" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="smp.incident.Button2.Button.Alt">
+      <Titles>
+        <Title description="Resolve Service Request" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="smp.incident.Button2.Button.LabelText">
+      <Titles>
+        <Title description="Resolve Service Request" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="smp.incident.Button2.Button.ToolTipTitle">
+      <Titles>
+        <Title description="Resolve Service Request" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="smp.incident.Button3.Button.Alt">
+      <Titles>
+        <Title description="Copy Service Request" languagecode="1033" />
+        <Title description="Copier la demande de service" languagecode="1036" />
+        <Title description="コピーサービスのリクエスト" languagecode="1041" />
+        <Title description="복사 서비스 요청" languagecode="1042" />
+        <Title description="复制服务请求" languagecode="2052" />
+        <Title description="Copiar solicitação de serviço" languagecode="2070" />
+        <Title description="Copiar solicitud de servicio" languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="smp.incident.Button3.Button.LabelText">
+      <Titles>
+        <Title description="Copy Service Request" languagecode="1033" />
+        <Title description="Copier la demande de service" languagecode="1036" />
+        <Title description="コピーサービスのリクエスト" languagecode="1041" />
+        <Title description="복사 서비스 요청" languagecode="1042" />
+        <Title description="复制服务请求" languagecode="2052" />
+        <Title description="Copiar solicitação de serviço" languagecode="2070" />
+        <Title description="Copiar solicitud de servicio" languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="smp.incident.Button3.Button.ToolTipDescription">
+      <Titles>
+        <Title description="Copy Service Request" languagecode="1033" />
+        <Title description="Copier la demande de service" languagecode="1036" />
+        <Title description="コピーサービスのリクエスト" languagecode="1041" />
+        <Title description="복사 서비스 요청" languagecode="1042" />
+        <Title description="复制服务请求" languagecode="2052" />
+        <Title description="Copiar solicitação de serviço" languagecode="2070" />
+        <Title description="Copiar solicitud de servicio" languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="smp.incident.Button3.Button.ToolTipTitle">
+      <Titles>
+        <Title description="Copy Service Request" languagecode="1033" />
+        <Title description="Copier la demande de service" languagecode="1036" />
+        <Title description="コピーサービスのリクエスト" languagecode="1041" />
+        <Title description="복사 서비스 요청" languagecode="1042" />
+        <Title description="复制服务请求" languagecode="2052" />
+        <Title description="Copiar solicitação de serviço" languagecode="2070" />
+        <Title description="Copiar solicitud de servicio" languagecode="3082" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="smp.incident.Button5.EditEscalations.LabelText">
+      <Titles>
+        <Title description="Edit Escalation PopUp" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

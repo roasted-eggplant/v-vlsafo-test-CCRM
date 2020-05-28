@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Work Order Product" OriginalName="Work Order Product">msdyn_workorderproduct</Name>
+  <EntityInfo>
+    <entity Name="msdyn_workorderproduct">
+      <attributes>
+        <attribute PhysicalName="msdyn_Description" unmodified="1">
+          <Type>ntext</Type>
+          <Name>msdyn_description</Name>
+          <LogicalName>msdyn_description</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format></Format>
+          <MaxLength>2000</MaxLength>
+          <displaynames>
+            <displayname description="Description" languagecode="1033" />
+            <displayname description="Descripción" languagecode="3082" />
+            <displayname description="Description" languagecode="1036" />
+            <displayname description="説明" languagecode="1041" />
+            <displayname description="설명" languagecode="1042" />
+            <displayname description="Descrição" languagecode="2070" />
+            <displayname description="说明" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Enter the description of the product as presented to the customer. The value defaults to the description defined on the product." languagecode="1033" />
+            <Description description="Escriba la descripción del producto tal y como se presentará al cliente. El valor predeterminado es la descripción definida en el producto." languagecode="3082" />
+            <Description description="Entrez la description du produit telle que présentée au client. Par défaut, la valeur est la description définie sur le produit." languagecode="1036" />
+            <Description description="顧客に提示される製品の説明を入力します。製品に定義されている説明が既定値になります。" languagecode="1041" />
+            <Description description="고객에게 표시되는 제품의 설명을 입력합니다. 제품에 정의된 설명의 기본값입니다." languagecode="1042" />
+            <Description description="Introduza a descrição do produto conforme é apresentada ao cliente. O valor predefinido é a descrição definida no produto." languagecode="2070" />
+            <Description description="输入向客户出示的产品的描述。该值默认为产品上定义的描述。" languagecode="2052" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="msdyn_LineStatus" unmodified="1">
+          <Type>picklist</Type>
+          <Name>msdyn_linestatus</Name>
+          <LogicalName>msdyn_linestatus</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>690970000</AppDefaultValue>
+          <OptionSetName>msdyn_productservicestatus</OptionSetName>
+          <displaynames>
+            <displayname description="Line Status" languagecode="1033" />
+            <displayname description="Estado de línea" languagecode="3082" />
+            <displayname description="Statut de la ligne" languagecode="1036" />
+            <displayname description="明細行の状態" languagecode="1041" />
+            <displayname description="라인 상태" languagecode="1042" />
+            <displayname description="Estado da Linha" languagecode="2070" />
+            <displayname description="明细状态" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Enter the current status of the line, estimate or used." languagecode="1033" />
+            <Description description="Escriba el estado actual de la línea: estimación o usado." languagecode="3082" />
+            <Description description="Entrez le statut actuel de la ligne, estimé ou utilisé." languagecode="1036" />
+            <Description description="明細行 (見積もりまたは使用済み) の現在の状態を入力します。" languagecode="1041" />
+            <Description description="예상 또는 사용된 라인의 현재 상태를 입력합니다." languagecode="1042" />
+            <Description description="Introduza o estado atual da linha, estimado ou utilizado." languagecode="2070" />
+            <Description description="输入行的当前状态 - 预计或已使用。" languagecode="2052" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="msdyn_name" unmodified="1">
+          <Type>nvarchar</Type>
+          <Name>msdyn_name</Name>
+          <LogicalName>msdyn_name</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ActivityPointerRegardingName|PrimaryName|ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>200</MaxLength>
+          <Length>400</Length>
+          <displaynames>
+            <displayname description="Name" languagecode="1033" />
+            <displayname description="Nombre" languagecode="3082" />
+            <displayname description="Nom" languagecode="1036" />
+            <displayname description="名前" languagecode="1041" />
+            <displayname description="이름" languagecode="1042" />
+            <displayname description="Nome" languagecode="2070" />
+            <displayname description="名称" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Enter the name of the custom entity." languagecode="1033" />
+            <Description description="Escriba el nombre de la entidad personalizada." languagecode="3082" />
+            <Description description="Entrez le nom de l'entité personnalisée." languagecode="1036" />
+            <Description description="ユーザー定義エンティティの名前を入力します。" languagecode="1041" />
+            <Description description="사용자 지정 엔터티의 이름을 입력합니다." languagecode="1042" />
+            <Description description="Introduza o nome da entidade personalizada." languagecode="2070" />
+            <Description description="输入自定义实体的名称。" languagecode="2052" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="msdyn_Product" unmodified="1">
+          <Type>lookup</Type>
+          <Name>msdyn_product</Name>
+          <LogicalName>msdyn_product</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Product" languagecode="1033" />
+            <displayname description="Producto" languagecode="3082" />
+            <displayname description="Produit" languagecode="1036" />
+            <displayname description="製品" languagecode="1041" />
+            <displayname description="제품" languagecode="1042" />
+            <displayname description="Produto" languagecode="2070" />
+            <displayname description="产品" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Product to use" languagecode="1033" />
+            <Description description="Producto que se va a usar" languagecode="3082" />
+            <Description description="Produit à utiliser" languagecode="1036" />
+            <Description description="使用する製品です" languagecode="1041" />
+            <Description description="사용할 제품" languagecode="1042" />
+            <Description description="Produto a utilizar" languagecode="2070" />
+            <Description description="要使用的产品" languagecode="2052" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="msdyn_QtyToBill" unmodified="1">
+          <Type>float</Type>
+          <Name>msdyn_qtytobill</Name>
+          <LogicalName>msdyn_qtytobill</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>1</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <MinValue>0</MinValue>
+          <MaxValue>1000000000</MaxValue>
+          <Accuracy>2</Accuracy>
+          <displaynames>
+            <displayname description="Quantity To Bill" languagecode="1033" />
+            <displayname description="Cantidad que se facturará" languagecode="3082" />
+            <displayname description="Quantité de facturation" languagecode="1036" />
+            <displayname description="請求数量" languagecode="1041" />
+            <displayname description="청구할 수량" languagecode="1042" />
+            <displayname description="Quantidade A Faturar" languagecode="2070" />
+            <displayname description="要记帐的数量" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Enter the quantity you wish to bill the customer for. By default, this will default to the same value as &quot;Quantity.&quot;" languagecode="1033" />
+            <Description description="Especifique la cantidad que desea facturar al cliente. De forma predeterminada, será el mismo valor que &quot;Cantidad&quot;." languagecode="3082" />
+            <Description description="Entrez la quantité que vous souhaitez facturer au client. Par défaut, cette valeur sera identique à celle de « Quantité »." languagecode="1036" />
+            <Description description="顧客に請求する数量を入力します。[数量] と同じ値が既定で設定されます。" languagecode="1041" />
+            <Description description="고객에게 부과할 수량을 입력합니다. 기본적으로 이 값은 &quot;수량&quot;과 같은 값이 사용됩니다." languagecode="1042" />
+            <Description description="Introduza a quantidade que pretende faturar ao cliente. Por predefinição, será o mesmo valor que &quot;Quantidade&quot;." languagecode="2070" />
+            <Description description="输入您希望向客户收取费用的数量。默认情况下，此值将默认为与“数量”相同的值。" languagecode="2052" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="msdyn_Quantity">
+          <Type>float</Type>
+          <Name>msdyn_quantity</Name>
+          <LogicalName>msdyn_quantity</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>1</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <MinValue>-1000000000</MinValue>
+          <MaxValue>1000000000</MaxValue>
+          <Accuracy>2</Accuracy>
+          <displaynames>
+            <displayname description="Quantity" languagecode="1033" />
+            <displayname description="Cantidad" languagecode="3082" />
+            <displayname description="Quantité" languagecode="1036" />
+            <displayname description="数量" languagecode="1041" />
+            <displayname description="수량" languagecode="1042" />
+            <displayname description="Quantidade" languagecode="2070" />
+            <displayname description="数量" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Shows the actual quantity of the product." languagecode="1033" />
+            <Description description="Muestra la cantidad real del producto." languagecode="3082" />
+            <Description description="Affiche la quantité réelle du produit." languagecode="1036" />
+            <Description description="製品の実際の数量を表示します。" languagecode="1041" />
+            <Description description="제품의 실제 수량을 표시합니다." languagecode="1042" />
+            <Description description="Mostra a quantidade real do produto." languagecode="2070" />
+            <Description description="显示产品的实际数量。" languagecode="2052" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="statecode">
+          <Type>state</Type>
+          <Name>statecode</Name>
+          <LogicalName>statecode</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>1</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <optionset Name="msdyn_workorderproduct_statecode">
+            <OptionSetType>state</OptionSetType>
+            <IntroducedVersion>6.2.0.342</IntroducedVersion>
+            <displaynames>
+              <displayname description="Status" languagecode="1033" />
+              <displayname description="状态" languagecode="2052" />
+              <displayname description="Statut" languagecode="1036" />
+              <displayname description="状態" languagecode="1041" />
+              <displayname description="상태" languagecode="1042" />
+              <displayname description="Estado" languagecode="2070" />
+              <displayname description="Estado" languagecode="3082" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Status of the Work Order Product" languagecode="1033" />
+              <Description description="工作订单产品的状态" languagecode="2052" />
+              <Description description="Statut du produit de l'ordre de travail" languagecode="1036" />
+              <Description description="作業指示書製品の状態です" languagecode="1041" />
+              <Description description="작업 주문 제품 상태" languagecode="1042" />
+              <Description description="Estado do Produto da Ordem de Intervenção" languagecode="2070" />
+              <Description description="Estado del producto de orden de trabajo" languagecode="3082" />
+            </Descriptions>
+            <states>
+              <state value="0" defaultstatus="1" invariantname="Active">
+                <labels>
+                  <label description="Actif" languagecode="1036" />
+                  <label description="アクティブ" languagecode="1041" />
+                  <label description="활성" languagecode="1042" />
+                  <label description="Ativo" languagecode="2070" />
+                  <label description="可用" languagecode="2052" />
+                  <label description="Active" languagecode="1033" />
+                  <label description="Ativo" languagecode="1046" />
+                  <label description="Activo" languagecode="3082" />
+                </labels>
+              </state>
+              <state value="1" defaultstatus="2" invariantname="Inactive">
+                <labels>
+                  <label description="Inactif" languagecode="1036" />
+                  <label description="非アクティブ" languagecode="1041" />
+                  <label description="비활성" languagecode="1042" />
+                  <label description="Inativo" languagecode="2070" />
+                  <label description="停用" languagecode="2052" />
+                  <label description="Inactive" languagecode="1033" />
+                  <label description="Inativo" languagecode="1046" />
+                  <label description="Inactivo" languagecode="3082" />
+                </labels>
+              </state>
+            </states>
+          </optionset>
+          <displaynames>
+            <displayname description="Status" languagecode="1033" />
+            <displayname description="状态" languagecode="2052" />
+            <displayname description="Statut" languagecode="1036" />
+            <displayname description="状態" languagecode="1041" />
+            <displayname description="상태" languagecode="1042" />
+            <displayname description="Estado" languagecode="2070" />
+            <displayname description="Estado" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Status of the Work Order Product" languagecode="1033" />
+            <Description description="工作订单产品的状态" languagecode="2052" />
+            <Description description="Statut du produit de l'ordre de travail" languagecode="1036" />
+            <Description description="作業指示書製品の状態です" languagecode="1041" />
+            <Description description="작업 주문 제품 상태" languagecode="1042" />
+            <Description description="Estado do Produto da Ordem de Intervenção" languagecode="2070" />
+            <Description description="Estado del producto de orden de trabajo" languagecode="3082" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="msdyn_TotalAmount" unmodified="1">
+          <Type>money</Type>
+          <Name>msdyn_totalamount</Name>
+          <LogicalName>msdyn_totalamount</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>1</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <MinValue>0</MinValue>
+          <MaxValue>1000000000</MaxValue>
+          <Accuracy>2</Accuracy>
+          <AccuracySource>1</AccuracySource>
+          <displaynames>
+            <displayname description="Total Amount" languagecode="1033" />
+            <displayname description="Importe total" languagecode="3082" />
+            <displayname description="Montant total" languagecode="1036" />
+            <displayname description="合計金額" languagecode="1041" />
+            <displayname description="총 금액" languagecode="1042" />
+            <displayname description="Montante Total" languagecode="2070" />
+            <displayname description="总金额" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Enter the total amount charged to the customer." languagecode="1033" />
+            <Description description="Escriba el importe total cobrado al cliente." languagecode="3082" />
+            <Description description="Entrez le montant total facturé au client." languagecode="1036" />
+            <Description description="顧客に請求する合計金額を入力します。" languagecode="1041" />
+            <Description description="고객에게 부과할 총 금액을 입력합니다." languagecode="1042" />
+            <Description description="Introduza o montante total cobrado ao cliente." languagecode="2070" />
+            <Description description="输入要向客户收取的总金额。" languagecode="2052" />
+          </Descriptions>
+        </attribute>
+      </attributes>
+    </entity>
+  </EntityInfo>
+  <FormXml />
+  <SavedQueries />
+  <RibbonDiffXml />
+</Entity>

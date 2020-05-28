@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="CCRM.REFFS.Workflows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=430daef7707b094d" PluginAssemblyId="0fd9a428-b1b0-4b83-a1da-3aa500499975" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/CCRMREFFSWorkflows-0FD9A428-B1B0-4B83-A1DA-3AA500499975/CCRMREFFSWorkflows.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Workflows.EmailTeam, CCRM.REFFS.Workflows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=430daef7707b094d" PluginTypeId="a6776a27-9c76-e811-811a-3863bb355d28" Name="CCRM.REFFS.Workflows.EmailTeam">
+      <FriendlyName>6497a334-e375-42e6-9666-94b72ed74da5</FriendlyName>
+      <WorkflowActivityGroupName>CCRM.REFFS.Workflows (1.0.0.0)</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Workflows.GetActiveBPFForIotAlert, CCRM.REFFS.Workflows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=430daef7707b094d" PluginTypeId="12bbede6-f505-41af-ac6b-0b1c5b050c26" Name="CCRM.REFFS.Workflows.GetActiveBPFForIotAlert">
+      <FriendlyName>96186674-b982-452a-8336-5f7ee285ef19</FriendlyName>
+      <WorkflowActivityGroupName>CCRM.REFFS.Workflows (1.0.0.0)</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Workflows.GetContactByUser, CCRM.REFFS.Workflows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=430daef7707b094d" PluginTypeId="7e65fdea-a4d4-4780-b840-043279bc5870" Name="CCRM.REFFS.Workflows.GetContactByUser">
+      <FriendlyName>d152c0a0-5928-4fc4-aa08-1238c6288c3b</FriendlyName>
+      <WorkflowActivityGroupName>CCRM.REFFS.Workflows (1.0.0.0)</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="CCRM.REFFS.Workflows.GetWorkOrderRelatedServiceRequest, CCRM.REFFS.Workflows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=430daef7707b094d" PluginTypeId="7b7430ad-6c03-4525-b540-64406a328745" Name="CCRM.REFFS.Workflows.GetWorkOrderRelatedServiceRequest">
+      <FriendlyName>105a57be-4388-4bfb-b67f-e5505d6dcb4f</FriendlyName>
+      <WorkflowActivityGroupName>CCRM.REFFS.Workflows (1.0.0.0)</WorkflowActivityGroupName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

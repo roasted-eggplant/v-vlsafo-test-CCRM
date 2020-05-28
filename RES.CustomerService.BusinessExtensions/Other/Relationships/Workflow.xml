@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_processid">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IsCustomizable>1</IsCustomizable>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39</ReferencingEntityName>
+    <ReferencedEntityName>Workflow</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>NoCascade</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <ReferencingAttributeName>ProcessId</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Unique identifier of the workflow associated to the Business Process Flow instance." languagecode="1033" />
+        <Description description="与业务流程实例关联的工作流的唯一标识符。" languagecode="2052" />
+        <Description description="Identificateur unique du workflow associé à l'instance du flux des processus d'entreprise." languagecode="1036" />
+        <Description description="業務プロセス フロー インスタンスに関連付けられたワークフローを表す一意識別子です。" languagecode="1041" />
+        <Description description="비즈니스 프로세스 흐름 인스턴스에 연결된 워크플로의 고유 식별자입니다." languagecode="1042" />
+        <Description description="Identificador exclusivo do fluxo de trabalho associado à instância do Fluxo do Processo de Negócio." languagecode="2070" />
+        <Description description="Identificador único del flujo de trabajo asociado a la instancia del flujo de proceso de negocio." languagecode="3082" />
+      </Descriptions>
+    </RelationshipDescription>
+  </EntityRelationship>
+</EntityRelationships>

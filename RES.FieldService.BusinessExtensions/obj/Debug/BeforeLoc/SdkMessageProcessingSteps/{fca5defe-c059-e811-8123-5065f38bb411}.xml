@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="CCRM.REFFS.Plugins.AttachmentURLOnUpdate: Update of smp_attachmentsurl" SdkMessageProcessingStepId="{fca5defe-c059-e811-8123-5065f38bb411}">
+  <PluginTypeName>CCRM.REFFS.Plugins.AttachmentURLOnUpdate, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f</PluginTypeName>
+  <PluginTypeId>91776a27-9c76-e811-811a-3863bb355d28</PluginTypeId>
+  <PrimaryEntity>smp_attachmentsurl</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>CCRM.REFFS.Plugins.AttachmentURLOnUpdate: Update of smp_attachmentsurl</Description>
+  <FilteringAttributes>smp_isdelete</FilteringAttributes>
+  <ImpersonatingUserIdName>REF UAT Account #</ImpersonatingUserIdName>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{20bebb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

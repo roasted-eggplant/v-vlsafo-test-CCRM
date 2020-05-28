@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="CCRM.REF.OptimizedPlugins.PostServiceRequestsmp_CopySR: smp_CopySR of incident" SdkMessageProcessingStepId="{3ab16f18-5f32-e811-811d-3863bb3630a8}">
+  <PluginTypeName>CCRM.REF.OptimizedPlugins.PostServiceRequestsmp_CopySR, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126</PluginTypeName>
+  <PluginTypeId>20199393-da5f-e811-8113-3863bb2e0660</PluginTypeId>
+  <PrimaryEntity>incident</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>0</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{2a66de49-0a4b-e511-b19b-00155d60c977}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

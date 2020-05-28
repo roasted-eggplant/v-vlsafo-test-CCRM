@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{638ef3f8-9fb0-4f0e-a328-bb575eebf413}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_problemtypename" select="1" icon="1" preview="1">
+        <row name="result" id="smp_problemtypeid">
+          <cell name="smp_problemclass" width="100" />
+          <cell name="smp_problemtypename" width="300" />
+          <cell name="smp_problemcode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_problemtype">
+          <attribute name="smp_problemtypename" />
+          <order attribute="smp_problemtypename" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="smp_problemcode" />
+          <attribute name="smp_problemclass" />
+          <attribute name="smp_problemtypeid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Problem Types" languagecode="1033" />
+      <LocalizedName description="Tipos de problemas inativos" languagecode="1046" />
+      <LocalizedName description="Tipos de problemas inactivos" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

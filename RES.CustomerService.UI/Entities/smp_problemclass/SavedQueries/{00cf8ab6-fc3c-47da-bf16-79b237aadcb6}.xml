@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{00cf8ab6-fc3c-47da-bf16-79b237aadcb6}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_problemclassname" select="1" icon="1" preview="1">
+        <row name="result" id="smp_problemclassid">
+          <cell name="smp_problemclassname" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_problemclass">
+          <attribute name="smp_problemclassid" />
+          <attribute name="smp_problemclassname" />
+          <attribute name="createdon" />
+          <order attribute="smp_problemclassname" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Problem Class Advanced Find View" languagecode="1033" />
+      <LocalizedName description="Classe de Problema Visualização Avançada de Localização" languagecode="1046" />
+      <LocalizedName description="Vista de búsqueda avanzada de clase de problema" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

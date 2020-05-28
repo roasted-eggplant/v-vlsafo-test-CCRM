@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityMaps>
+  <EntityMap>
+    <EntitySource>contact</EntitySource>
+    <EntityTarget>incident</EntityTarget>
+    <AttributeMaps>
+      <AttributeMap>
+        <AttributeSource>firstname</AttributeSource>
+        <AttributeTarget>smp_requestorfirstname</AttributeTarget>
+      </AttributeMap>
+      <AttributeMap>
+        <AttributeSource>smp_alias</AttributeSource>
+        <AttributeTarget>smp_requestoralias</AttributeTarget>
+      </AttributeMap>
+    </AttributeMaps>
+  </EntityMap>
+</EntityMaps>

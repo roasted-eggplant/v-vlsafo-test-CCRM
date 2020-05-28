@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{b5da53e4-55fc-48c0-ba15-2b365fb48e63}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_notestype" select="1" icon="1" preview="1">
+        <row name="result" id="smp_confidentialnotesid">
+          <cell name="smp_notestype" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_confidentialnotes">
+          <attribute name="smp_confidentialnotesid" />
+          <attribute name="smp_notestype" />
+          <attribute name="createdon" />
+          <order attribute="smp_notestype" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Confidential Notes" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

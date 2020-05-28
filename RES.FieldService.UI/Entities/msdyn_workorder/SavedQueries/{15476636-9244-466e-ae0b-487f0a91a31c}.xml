@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{15476636-9244-466e-ae0b-487f0a91a31c}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="msdyn_name" select="1" icon="1" preview="1">
+        <row name="msdyn_workorder" id="msdyn_workorderid">
+          <cell name="msdyn_name" width="125" />
+          <cell name="msdyn_serviceaccount" width="200" />
+          <cell name="msdyn_workordertype" width="125" />
+          <cell name="createdon" width="125" />
+          <cell name="msdyn_substatus" width="125" />
+          <cell name="msdyn_systemstatus" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msdyn_workorder">
+          <attribute name="msdyn_name" />
+          <attribute name="createdon" />
+          <order attribute="createdon" descending="true" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="msdyn_systemstatus" />
+          <attribute name="msdyn_serviceaccount" />
+          <attribute name="msdyn_workordertype" />
+          <attribute name="msdyn_substatus" />
+          <attribute name="msdyn_workorderid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>3.1.0.3</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Work Order Associated View" languagecode="1033" />
+      <LocalizedName description="Vue associée Commande" languagecode="1036" />
+      <LocalizedName description="作業指示書関連ビュー" languagecode="1041" />
+      <LocalizedName description="작업 주문 관련 보기" languagecode="1042" />
+      <LocalizedName description="Visão Associada à Ordem de Serviço" languagecode="1046" />
+      <LocalizedName description="工作订单关联视图" languagecode="2052" />
+      <LocalizedName description="Vista Associada de Ordens de Intervenção" languagecode="2070" />
+      <LocalizedName description="Vista asociada de órdenes de trabajo" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <isquickfindquery>0</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <savedqueryid>{6a725742-201a-e111-ad28-00155d289608}</savedqueryid>
+  <querytype>8192</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical" output-format="xml-platform">
+      <entity name="msdyn_incidenttype">
+        <attribute name="msdyn_incidenttypeid" />
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="0" />
+          <condition attribute="ownerid" operator="eq-userid" />
+        </filter>
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>3.1.0.3</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="My Incident Types" languagecode="1033" />
+    <LocalizedName description="Mes types d'incidents" languagecode="1036" />
+    <LocalizedName description="自分のインシデントの種類" languagecode="1041" />
+    <LocalizedName description="내 문제 유형" languagecode="1042" />
+    <LocalizedName description="Meus Tipos de Incidente" languagecode="1046" />
+    <LocalizedName description="我的事件类型" languagecode="2052" />
+    <LocalizedName description="Os Meus Tipos de Incidente" languagecode="2070" />
+    <LocalizedName description="Mis tipos de incidentes" languagecode="3082" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Active Incident Types owned by me" languagecode="1033" />
+    <Description description="Types d'incident actifs que je possède" languagecode="1036" />
+    <Description description="自分が所有しているアクティブなインシデントの種類です" languagecode="1041" />
+    <Description description="내가 담당하는 활성 문제 유형" languagecode="1042" />
+    <Description description="Tipos de incidentes ativos de minha propriedade" languagecode="1046" />
+    <Description description="由我负责的活动事件类型" languagecode="2052" />
+    <Description description="Tipos de Incidente Ativos dos quais sou proprietário" languagecode="2070" />
+    <Description description="Tipos de incidentes activos de mi propiedad" languagecode="3082" />
+  </Descriptions>
+</savedquery>

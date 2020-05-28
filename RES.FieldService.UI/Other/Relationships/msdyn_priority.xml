@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="msdyn_msdyn_priority_msdyn_agreementbookingsetup_Priority">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IntroducedVersion>3.1.0.3</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>msdyn_agreementbookingsetup</ReferencingEntityName>
+    <ReferencedEntityName>msdyn_priority</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>RemoveLink</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <CascadeRollupView>NoCascade</CascadeRollupView>
+    <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+    <ReferencingAttributeName>msdyn_Priority</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Booking Priority" languagecode="1033" />
+        <Description description="Prioridad de reserva" languagecode="3082" />
+        <Description description="Priorité de réservation" languagecode="1036" />
+        <Description description="予約の優先度" languagecode="1041" />
+        <Description description="예약 우선 순위" languagecode="1042" />
+        <Description description="Prioridade da Reserva" languagecode="2070" />
+        <Description description="预订优先级" languagecode="2052" />
+      </Descriptions>
+    </RelationshipDescription>
+    <EntityRelationshipRoles>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>UseLabel</NavPaneDisplayOption>
+        <NavPaneArea>Details</NavPaneArea>
+        <NavPaneOrder>10000</NavPaneOrder>
+        <NavigationPropertyName>msdyn_priority</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="Priority" languagecode="1033" />
+          <CustomLabel description="Prioridad" languagecode="3082" />
+          <CustomLabel description="Priorité" languagecode="1036" />
+          <CustomLabel description="優先度" languagecode="1041" />
+          <CustomLabel description="우선 순위" languagecode="1042" />
+          <CustomLabel description="Prioridade" languagecode="2070" />
+          <CustomLabel description="优先级" languagecode="2052" />
+          <CustomLabel description="Prioridade" languagecode="1046" />
+        </CustomLabels>
+        <RelationshipRoleType>1</RelationshipRoleType>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <RelationshipRoleType>0</RelationshipRoleType>
+      </EntityRelationshipRole>
+    </EntityRelationshipRoles>
+  </EntityRelationship>
+</EntityRelationships>

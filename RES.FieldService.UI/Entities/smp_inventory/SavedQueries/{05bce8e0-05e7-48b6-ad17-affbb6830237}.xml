@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{05bce8e0-05e7-48b6-ad17-affbb6830237}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_name" select="1" icon="1" preview="1">
+        <row name="result" id="smp_inventoryid">
+          <cell name="smp_productid" width="100" />
+          <cell name="smp_product" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_manufacturernumber" width="100" />
+          <cell name="smp_quantity" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_itemgroup" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_itemmodelgroup" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_warehouse" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_inventory">
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="smp_productid" operator="like" value="{0}" />
+            <condition attribute="smp_product" operator="like" value="{0}" />
+            <condition attribute="smp_manufacturernumber" operator="like" value="{0}" />
+            <condition attribute="smp_description" operator="like" value="{0}" />
+          </filter>
+          <attribute name="smp_inventoryid" />
+          <attribute name="smp_quantity" />
+          <attribute name="smp_productid" />
+          <attribute name="smp_product" />
+          <attribute name="smp_itemmodelgroup" />
+          <attribute name="smp_manufacturernumber" />
+          <attribute name="smp_warehouse" />
+          <attribute name="smp_itemgroup" />
+          <order attribute="smp_productid" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Inventory" languagecode="1033" />
+      <LocalizedName description="Busca rápida de inventário ativo" languagecode="1046" />
+      <LocalizedName description="Búsqueda Rápida de Inventario Activo" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

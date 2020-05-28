@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{00000000-0000-0000-00aa-000010001210}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="contacts" jump="lastname" select="1" icon="1" preview="1">
+        <row name="contact" id="contactid">
+          <cell name="lastname" width="100" />
+          <cell name="firstname" width="100" />
+          <cell name="smp_companyid" width="100" />
+          <cell name="telephone1" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch distinct="false" mapping="logical">
+        <entity name="contact">
+          <attribute name="telephone1" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="lastname" descending="false" />
+          <attribute name="lastname" />
+          <attribute name="firstname" />
+          <attribute name="smp_companyid" />
+          <attribute name="contactid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Contact Associated View" languagecode="1033" />
+      <LocalizedName description="Vue associée Contact" languagecode="1036" />
+      <LocalizedName description="取引先担当者関連ビュー" languagecode="1041" />
+      <LocalizedName description="연락처 관련 보기" languagecode="1042" />
+      <LocalizedName description="Visualização Associada ao Contato" languagecode="1046" />
+      <LocalizedName description="联系人关联视图" languagecode="2052" />
+      <LocalizedName description="Vista Associada de Contactos" languagecode="2070" />
+      <LocalizedName description="Vista asociada de contactos" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Displays contact information in the detail form of any associated account, opportunity, quote, order, or invoice record. This view is in Contacts and Other Contacts side tabs." languagecode="1033" />
+      <Description description="Informations de contacts dans le formulaire détaillé de compte, opportunité, devis, commande ou facture associé. La vue se trouve sur les onglets Contacts et Autres contacts." languagecode="1036" />
+      <Description description="関連付けられた任意の取引先企業、営業案件、見積もり、受注、または請求書レコードから成る詳細な形式で、取引先担当者情報を表示します。このビューは [取引先担当者] および [その他の担当者] サイド タブにあります。" languagecode="1041" />
+      <Description description="연락처 정보를 그와 연관된 거래처, 영업 기회, 견적, 주문 또는 송장 레코드의 세부 정보 양식에 표시합니다. 이 보기는 왼쪽의 [연락처] 및 [기타 연락처] 탭에 있습니다." languagecode="1042" />
+      <Description description="Exibe informações de contato no formulário de qualquer registro de conta, oportunidade, cotação, ordem ou fatura associado. Esta visualização está nas guias laterais Contatos e Outros Contatos." languagecode="1046" />
+      <Description description="在任何关联客户、商机、报价单、订单或发票记录的详细信息窗体中显示联系人信息。此视图位于“联系人”和“其他联系人”侧栏选项卡上。" languagecode="2052" />
+      <Description description="Apresenta info. de contacto no formulário de detalhes de conta, oportunidade, proposta, encomenda ou registo de fatura associado. Esta vista está nos separadores Contactos e Outros Contactos." languagecode="2070" />
+      <Description description="Muestra información de contacto en el formulario detallado de un registro de cuenta, oportunidad, oferta, pedido o factura asociado. Esta vista está en las fichas Contactos y Otros contactos." languagecode="3082" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

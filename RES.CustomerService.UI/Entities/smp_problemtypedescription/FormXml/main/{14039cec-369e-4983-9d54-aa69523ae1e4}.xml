@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{14039cec-369e-4983-9d54-aa69523ae1e4}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{0bdab81c-c029-40f5-b39c-e8af81da0527}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Geral" languagecode="1046" />
+            <label description="General" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="true" showbar="true" IsUserDefined="0" id="{02eec8f4-0f5f-481f-ad62-8f4dc5d4819e}" name="{02eec8f4-0f5f-481f-ad62-8f4dc5d4819e}" columns="11" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Geral" languagecode="1046" />
+                    <label description="General" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{20ea97c7-d0dc-7c3e-bc8e-bb459aae3e62}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Building" languagecode="1033" />
+                          <label description="Edificio" languagecode="3082" />
+                        </labels>
+                        <control id="smp_buildingid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_buildingid" disabled="false" uniqueid="{d16054c9-8eed-1bb5-ccd2-92658db22d40}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{4ED224C4-1485-474E-945D-AA5E43BB0C09}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{8ad89ec6-103f-4d9b-b684-fa0769bb3451}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Propietario" languagecode="3082" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6decec0d-482c-534d-54e9-ceaa79067c0c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Problem Class" languagecode="1033" />
+                          <label description="Clase problema" languagecode="3082" />
+                        </labels>
+                        <control id="smp_problemclassid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_problemclassid" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{F6B82D26-B835-4A35-B453-18C5CD4E042E}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{1555b6a6-0d74-296a-b37d-0b5e85835e77}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Problem Type" languagecode="1033" />
+                          <label description="Tipo de problema" languagecode="3082" />
+                        </labels>
+                        <control id="smp_problemtype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_problemtype" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{93772127-420B-4244-9DCA-D61C8FED7AFD}</DefaultViewId>
+                            <FilterRelationshipName>smp_smp_problemclass_smp_problemtype_ProblemClass</FilterRelationshipName>
+                            <DependentAttributeName>smp_problemtypedescription.smp_problemclassid</DependentAttributeName>
+                            <DependentAttributeType>smp_problemclass</DependentAttributeType>
+                            <AllowFilterOff>true</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6e4e10ea-6c7d-48d9-bc9c-b0f06da4766e}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Dynamic Problem Type Notes" languagecode="1033" />
+                          <label description="Notas de tipo de problema dinámico" languagecode="3082" />
+                        </labels>
+                        <control id="smp_problemtypedescriptionname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_problemtypedescriptionname" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{0bdab81c-c029-40f5-b39c-e8af81da0527}_section_2" showlabel="true" showbar="true" locklevel="0" id="{de820151-c493-9012-5013-445b6ad1b3ca}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Translations" languagecode="1033" />
+                    <label description="Traduções" languagecode="1046" />
+                    <label description="Traducciones" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{11390067-99c8-0d12-4cbb-93b7da6ed1d1}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Dynamic Problem Type Notes - French - France" languagecode="1033" />
+                          <label description="Notas de tipo de problema dinámico - Frances" languagecode="3082" />
+                        </labels>
+                        <control id="smp_problemtypedescriptionname_fr_fr" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_problemtypedescriptionname_fr_fr" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{33d478b3-6db4-6e32-616d-bd1aeb7a3da5}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Dynamic Problem Type Notes - Japanese – Japan" languagecode="1033" />
+                          <label description="Notas de tipo de problema dinámico - Japones" languagecode="3082" />
+                        </labels>
+                        <control id="smp_problemtypedescriptionname_ja_jp" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_problemtypedescriptionname_ja_jp" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2b60bee1-3180-283a-9d75-589d6368459a}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Dynamic Problem Type Notes - Korean – Korea" languagecode="1033" />
+                          <label description="Notas de tipo de problema dinámico - Koreano" languagecode="3082" />
+                        </labels>
+                        <control id="smp_problemtypedescriptionname_ko_kr" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_problemtypedescriptionname_ko_kr" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2b8056aa-5ed5-3547-1362-c779b19a0b90}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Dynamic Problem Type Notes - Mandarin – Mainland C" languagecode="1033" />
+                          <label description="Notas de tipo de problema dinámico - Mandarin" languagecode="3082" />
+                        </labels>
+                        <control id="smp_problemtypedescriptionname_zh_cn" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_problemtypedescriptionname_zh_cn" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6d7b7b8b-2cea-b9bc-a420-0c0559015340}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Dynamic Problem Type Notes - Portuguese – Portugal" languagecode="1033" />
+                          <label description="Notas de tipo de problema dinámico - Portugal" languagecode="3082" />
+                        </labels>
+                        <control id="smp_problemtypedescriptionname_pt_pt" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_problemtypedescriptionname_pt_pt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d4685486-464b-987a-5402-8c7c1e771c29}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Dynamic Problem Type Notes - Spanish – Mexico" languagecode="1033" />
+                          <label description="Notas de tipo de problema dinámico - Mexico" languagecode="3082" />
+                        </labels>
+                        <control id="smp_problemtypedescriptionname_es_mx" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_problemtypedescriptionname_es_mx" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{7153a5b7-adb2-4a3e-b6d7-17f1a504179f}">
+        <rows>
+          <row>
+            <cell id="{0502aa7d-9253-405e-98f3-836933e5caa8}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control id="footer_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Processes" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <formLibraries>
+        <Library name="smp_script" libraryUniqueId="{acae1db4-3182-32a0-6144-5dec2d048d69}" />
+      </formLibraries>
+      <events>
+        <event name="onchange" application="false" active="false" attribute="smp_problemclassid">
+          <Handlers>
+            <Handler functionName="DynamicProblemTypeProblemClassOnchange" libraryName="smp_script" handlerUniqueId="{4b093a9e-1e9d-2569-7295-75281093c5c8}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Informação" languagecode="1046" />
+      <LocalizedName description="Información" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Um formulário para esta entidade." languagecode="1046" />
+      <Description description="Un formulario para esta entidad." languagecode="3082" />
+    </Descriptions>
+  </systemform>
+</forms>

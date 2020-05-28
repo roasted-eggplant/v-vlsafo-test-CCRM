@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <isquickfindquery>1</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <savedqueryid>{a8550ece-7906-46e1-98c5-34cc2e803afc}</savedqueryid>
+  <layoutxml>
+    <grid name="resultset" jump="msdyn_name" select="1" icon="1" preview="1">
+      <row name="result" id="msdyn_incidenttypeid">
+        <cell name="msdyn_name" width="200" />
+        <cell name="msdyn_estimatedduration" width="125" />
+        <cell name="createdon" width="125" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>4</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="msdyn_incidenttype">
+        <attribute name="msdyn_name" />
+        <attribute name="createdon" />
+        <order attribute="msdyn_name" descending="false" />
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="0" />
+        </filter>
+        <filter type="or" isquickfindfields="1">
+          <condition attribute="msdyn_name" operator="like" value="{0}" />
+        </filter>
+        <attribute name="msdyn_estimatedduration" />
+        <attribute name="msdyn_incidenttypeid" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>3.1.0.3</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Quick Find Active Incident Types" languagecode="1033" />
+    <LocalizedName description="Recherche rapide Types d'incidents actifs" languagecode="1036" />
+    <LocalizedName description="アクティブなインシデントの種類の簡易検索" languagecode="1041" />
+    <LocalizedName description="활성 문제 유형 빠른 찾기" languagecode="1042" />
+    <LocalizedName description="Busca Rápida dos Tipos de Incidentes Ativos" languagecode="1046" />
+    <LocalizedName description="快速查找可用事件类型" languagecode="2052" />
+    <LocalizedName description="Localização Rápida de Tipos de Incidente Ativos" languagecode="2070" />
+    <LocalizedName description="Búsqueda rápida de tipos de incidentes activos" languagecode="3082" />
+  </LocalizedNames>
+</savedquery>

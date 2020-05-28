@@ -1,0 +1,2183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="smp_assetclass" localizedName="Asset Class">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Asset Class" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="180620000" Color="#0000ff">
+      <labels>
+        <label description="Administrative" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620001" Color="#0000ff">
+      <labels>
+        <label description="Air Compressor System/Refrigerated Air Dryer" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620002" Color="#0000ff">
+      <labels>
+        <label description="Air Compressors" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620003" Color="#0000ff">
+      <labels>
+        <label description="Air Vacuum Pump / Pneumatic Climate Control Air" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620004" Color="#0000ff">
+      <labels>
+        <label description="Audio Video Equipment (old)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620005" Color="#0000ff">
+      <labels>
+        <label description="AV Equipment" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620006" Color="#0000ff">
+      <labels>
+        <label description="Backflow - Preventer" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620007" Color="#0000ff">
+      <labels>
+        <label description="Building Exterior" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620008" Color="#0000ff">
+      <labels>
+        <label description="Building Exterior - Curtain Wall/Facade" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620009" Color="#0000ff">
+      <labels>
+        <label description="Building Exterior - Door" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620010" Color="#0000ff">
+      <labels>
+        <label description="Building Exterior - Paint" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620011" Color="#0000ff">
+      <labels>
+        <label description="Building Exterior - Window &amp; Glass" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620012" Color="#0000ff">
+      <labels>
+        <label description="Building Interior" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620013" Color="#0000ff">
+      <labels>
+        <label description="Building Interior - Doors" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620014" Color="#0000ff">
+      <labels>
+        <label description="Building Interior - Flooring - Carpet" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620015" Color="#0000ff">
+      <labels>
+        <label description="Building Interior - Flooring - Ceramic / Stone" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620016" Color="#0000ff">
+      <labels>
+        <label description="Building Interior - Flooring - Concrete w/ Coating" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620017" Color="#0000ff">
+      <labels>
+        <label description="Building Interior - Flooring - VCT/Sheet Vinyl" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620018" Color="#0000ff">
+      <labels>
+        <label description="Building Interior - Flooring - Wood/Cork" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620019" Color="#0000ff">
+      <labels>
+        <label description="Building Interior - Location/Room" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620020" Color="#0000ff">
+      <labels>
+        <label description="Building Interior - Paint" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620021" Color="#0000ff">
+      <labels>
+        <label description="Building Interior - Window &amp; Glass" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620022" Color="#0000ff">
+      <labels>
+        <label description="Building Interior - Cabinetry/Countertops" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620023" Color="#0000ff">
+      <labels>
+        <label description="Cryogenic ( Equipment / Systems )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620024" Color="#0000ff">
+      <labels>
+        <label description="Data and Telecom" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620025" Color="#0000ff">
+      <labels>
+        <label description="Digital - BAS ( BACnet/Bldg.Automation Control)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620026" Color="#0000ff">
+      <labels>
+        <label description="Digital - BAS ( Electrical Automation Controls)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620027" Color="#0000ff">
+      <labels>
+        <label description="Digital - BAS ( HVAC Automation Control System)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620028" Color="#0000ff">
+      <labels>
+        <label description="Digital - BAS ( Lighting Automation/Controls)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620029" Color="#0000ff">
+      <labels>
+        <label description="Digital - BAS (Fire Systems Automation/Controls)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620030" Color="#0000ff">
+      <labels>
+        <label description="Digital - BAS (Security/Surveillence Controls)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620031" Color="#0000ff">
+      <labels>
+        <label description="Digital - BAS (Sensor/Gas Detection/Control)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620032" Color="#0000ff">
+      <labels>
+        <label description="Door - Power Operator" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620033" Color="#0000ff">
+      <labels>
+        <label description="Electrical - ATS/Automatic Transfer Switch" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620034" Color="#0000ff">
+      <labels>
+        <label description="Electrical - Circuit Breaker - MCCB/ICCB/PCB" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620035" Color="#0000ff">
+      <labels>
+        <label description="Electrical - Circuit Breaker -ICCB/Insulated Case" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620036" Color="#0000ff">
+      <labels>
+        <label description="Electrical - DC Plant/Battery System" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620037" Color="#0000ff">
+      <labels>
+        <label description="Electrical - DC Power Plant" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620038" Color="#0000ff">
+      <labels>
+        <label description="Electrical - Disconnect/Safety Switches" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620039" Color="#0000ff">
+      <labels>
+        <label description="Electrical - General" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620040" Color="#0000ff">
+      <labels>
+        <label description="Electrical - Generator/GenSet" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620041" Color="#0000ff">
+      <labels>
+        <label description="Electrical - Generators/Portable Emergency" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620042" Color="#0000ff">
+      <labels>
+        <label description="Electrical - Heat Trace - Ice/Snow Removal/Freeze" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620043" Color="#0000ff">
+      <labels>
+        <label description="Electrical - Heat Trace/System" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620044" Color="#0000ff">
+      <labels>
+        <label description="Electrical - Lighting" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620045" Color="#0000ff">
+      <labels>
+        <label description="Electrical - Lighting (Exterior)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620046" Color="#0000ff">
+      <labels>
+        <label description="Electrical - Lighting (Garage)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620047" Color="#0000ff">
+      <labels>
+        <label description="Electrical - Lighting (Interior)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620048" Color="#0000ff">
+      <labels>
+        <label description="Electrical - Lighting Control/Systems" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620049" Color="#0000ff">
+      <labels>
+        <label description="Electrical - MCC/Motor Control Center" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620050" Color="#0000ff">
+      <labels>
+        <label description="Electrical - Meter/Power Meter/Energy Monitor" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620051" Color="#0000ff">
+      <labels>
+        <label description="Electrical - Meter/Service Entry/Utility Meter" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620052" Color="#0000ff">
+      <labels>
+        <label description="Electrical - Panel/Circuit Breaker Panelboard" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620053" Color="#0000ff">
+      <labels>
+        <label description="Electrical - PDU ( Power Distribution Unit )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620054" Color="#0000ff">
+      <labels>
+        <label description="Electrical - Power Distribution Oneline - P/A" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620055" Color="#0000ff">
+      <labels>
+        <label description="Electrical - Power Distribution System/EPM" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620056" Color="#0000ff">
+      <labels>
+        <label description="Electrical - Solar Panel" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620057" Color="#0000ff">
+      <labels>
+        <label description="Electrical - Solar Panel/Photovoltaic Power" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620058" Color="#0000ff">
+      <labels>
+        <label description="Electrical - Switchgear/Main Service" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620059" Color="#0000ff">
+      <labels>
+        <label description="Electrical - Transfer Switch/Manual" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620060" Color="#0000ff">
+      <labels>
+        <label description="Electrical - Transformer" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620061" Color="#0000ff">
+      <labels>
+        <label description="Electrical - TVSS/Surge Suppression" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620062" Color="#0000ff">
+      <labels>
+        <label description="Electrical - UPS ( Uninterruptible Power Supply )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620063" Color="#0000ff">
+      <labels>
+        <label description="Electrical - UPS Battery String" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620064" Color="#0000ff">
+      <labels>
+        <label description="Electrical - UPS Capacitor" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620065" Color="#0000ff">
+      <labels>
+        <label description="Electrical - UPS System Control Cabinet" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620066" Color="#0000ff">
+      <labels>
+        <label description="Electrical - Utility+MS Vault/Switch/Tran/Substatn" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620067" Color="#0000ff">
+      <labels>
+        <label description="Electrical - VFD ( Variable Frequency Drive )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620068" Color="#0000ff">
+      <labels>
+        <label description="Elevator - Hydraulic" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620069" Color="#0000ff">
+      <labels>
+        <label description="Elevator - Other" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620070" Color="#0000ff">
+      <labels>
+        <label description="Elevator - Roped Hydraulic" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620071" Color="#0000ff">
+      <labels>
+        <label description="Elevator - Traction" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620072" Color="#0000ff">
+      <labels>
+        <label description="Elevator - Traction MRL" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620073" Color="#0000ff">
+      <labels>
+        <label description="Escalator" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620074" Color="#0000ff">
+      <labels>
+        <label description="FLS - Air Compressor, FSPR" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620075" Color="#0000ff">
+      <labels>
+        <label description="FLS - Annunciator Alarm/Leak Detection Sensor" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620076" Color="#0000ff">
+      <labels>
+        <label description="FLS - ATS ( Fire Pump )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620077" Color="#0000ff">
+      <labels>
+        <label description="FLS - ATS ( LR/LS-DUAL/Life Safety )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620078" Color="#0000ff">
+      <labels>
+        <label description="FLS - ATS ( Optional Standby )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620079" Color="#0000ff">
+      <labels>
+        <label description="FLS - Back-Flow/Valve - FSPR" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620080" Color="#0000ff">
+      <labels>
+        <label description="FLS - Back-Flow/Valve - Plumbing" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620081" Color="#0000ff">
+      <labels>
+        <label description="FLS - Combined Fire Stand Pipe/Hose Valve" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620082" Color="#0000ff">
+      <labels>
+        <label description="FLS - Damper - Smoke/Fire/Fusible Link" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620083" Color="#0000ff">
+      <labels>
+        <label description="FLS - Damper - Smoke/Fire/Motorized" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620084" Color="#0000ff">
+      <labels>
+        <label description="FLS - DSP/SPKR-Combined Stand Pipe/Hose Valve" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620085" Color="#0000ff">
+      <labels>
+        <label description="FLS - Earth Quake Valve/Natural Gas" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620086" Color="#0000ff">
+      <labels>
+        <label description="FLS - Emergency Equipment" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620087" Color="#0000ff">
+      <labels>
+        <label description="FLS - Emergency Lights" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620088" Color="#0000ff">
+      <labels>
+        <label description="FLS - EMG Response/Disaster Recovery/EOC" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620089" Color="#0000ff">
+      <labels>
+        <label description="FLS - Eye Wash/Emergency Shower" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620090" Color="#0000ff">
+      <labels>
+        <label description="FLS - Fire Alarm System" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620091" Color="#0000ff">
+      <labels>
+        <label description="FLS - Fire Door/Movable Partition" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620092" Color="#0000ff">
+      <labels>
+        <label description="FLS - Fire Extinguisher" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620093" Color="#0000ff">
+      <labels>
+        <label description="FLS - Fire Extinguisher - Monitored" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620094" Color="#0000ff">
+      <labels>
+        <label description="FLS - Fire Hydrant" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620095" Color="#0000ff">
+      <labels>
+        <label description="FLS - Fire Pump" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620096" Color="#0000ff">
+      <labels>
+        <label description="FLS - Fire Sprinkler Control Valve-FCV/OS&amp;Y Valve" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620097" Color="#0000ff">
+      <labels>
+        <label description="FLS - Fire Sprinkler Drain System/Valve" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620098" Color="#0000ff">
+      <labels>
+        <label description="FLS - Fire Sprinkler System/Fire Sprinkler Valve" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620099" Color="#0000ff">
+      <labels>
+        <label description="FLS - Fire Suppression - Cafe Hood" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620100" Color="#0000ff">
+      <labels>
+        <label description="FLS - Fire Suppression - Pre-Action System" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620101" Color="#0000ff">
+      <labels>
+        <label description="FLS - Fire/Smoke Damper" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620102" Color="#0000ff">
+      <labels>
+        <label description="FLS - Fire/Smoke Vent" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620103" Color="#0000ff">
+      <labels>
+        <label description="FLS - Lifts/Cranes/Staging/Rescue Eq" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620104" Color="#0000ff">
+      <labels>
+        <label description="FLS - PIV/ Post Indicator Valve" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620105" Color="#0000ff">
+      <labels>
+        <label description="FLS - Radionics-Annunciator/Alarm" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620106" Color="#0000ff">
+      <labels>
+        <label description="Furniture - Common" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620107" Color="#0000ff">
+      <labels>
+        <label description="Furniture - Office" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620108" Color="#0000ff">
+      <labels>
+        <label description="Furniture - WPA Space" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620109" Color="#0000ff">
+      <labels>
+        <label description="Garage / Parking Structure" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620110" Color="#0000ff">
+      <labels>
+        <label description="Gate / Fence" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620111" Color="#0000ff">
+      <labels>
+        <label description="Grating/ Ventilation Shaft" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620112" Color="#0000ff">
+      <labels>
+        <label description="Hood - Cafe Exhaust,w/Hoodwash,PCU/SMK Control" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620113" Color="#0000ff">
+      <labels>
+        <label description="Hood - Laboratory Fume" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620114" Color="#0000ff">
+      <labels>
+        <label description="HSE - ADA Access Equipment" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620115" Color="#0000ff">
+      <labels>
+        <label description="HSE - ERP/Emergency Response/Fire Drill" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620116" Color="#0000ff">
+      <labels>
+        <label description="HSE - Permits/Inspection/Testing" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620117" Color="#0000ff">
+      <labels>
+        <label description="HSE - PPE/Life Safety Equipment/Tools" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620118" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AC Unit ( DX/Split System, Indoor AHU )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620119" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AC Unit ( DX/Split System, Outdoor CU )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620120" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AC Unit (DX Wall Mounted,Self Contained)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620121" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AC/POD/Evap. Cooling( Module/Data Center )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620122" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU ( CHW/Precision AC Unit w/ Remote CU )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620123" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU(Air &amp;Water/Glycol Cooled PAC)w/Fluid CU" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620124" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU/CAHU(Custom)CHW/HW or Nat.Gas,w/Fanwall" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620125" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU/CHW Package Unit" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620126" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU/CHW, CRAC/CHW,CRU/CHW" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620127" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU/CHW/ IDEC/ Indirect Adiabatic Cooling" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620128" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU/CHW/HW Package Unit, w/Fanwall" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620129" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU/CHW-INROW/Rack Cooling Unit" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620130" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU/CHW-INROW/Rack Over Head Cooling Unit" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620131" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU/CSU/Central Station,CHW/HW,w/Fanwall" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620132" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU/DX/ACU-Water Cooled" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620133" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU/DX/CSU/IDEC,DEC/Evap.Condenser" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620134" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU/DX/Evaporative Condenser(CD/SUMP)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620135" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU/DX/Package Unit w/Nat.Gas Heat" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620136" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU/DX/Package Unit,D.D.w/Turbocor" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620137" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU/DX/PU,w/Turbocor,Evaporate Cond,FanWall" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620138" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU/DX/RoofTop/Package Unit" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620139" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU/DX/Self Contained PAC/CRV-RACK COOLING" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620140" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU/DX/Self Contained Package Unit" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620141" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU/DX/Self Contained Portable Cooling Unit" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620142" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU/DX/Split System" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620143" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU/Heat Pump(DX/S.C. Package Unit)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620144" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU/Heat Pump(DX/S.C. Wall Mounted)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620145" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU/Heat Pump(WSHP)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620146" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU/MUA-Make Up Air(DX/Split,HW,CHW,N.G." languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620147" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU-EF/MOTOR" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620148" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU-EF/VFD" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620149" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU-SF/MOTOR" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620150" Color="#0000ff">
+      <labels>
+        <label description="HVAC - AHU-SF/VFD" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620151" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Air Curtain/Air Door" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620152" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Air Filter Bank" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620153" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Air Intake/Relief Dampers, Hoods, Louvers" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620154" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Air Terminal Device" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620155" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Boiler/Hot Water Heater" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620156" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Chillers" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620157" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Coil ( Heating, Cooling, Evaporation )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620158" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Compressor, Refrigerant" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620159" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Condensing Unit ( DX Central CU/VAR,TVR )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620160" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Condensing Unit, DX" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620161" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Condensing Unit, Remote Glycol/Water" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620162" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Control Panel" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620163" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Cooling Tower" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620164" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Damper - Smoke/Fire/Fusible Link" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620165" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Dry Cooler / Air Cooled Heat Exchanger" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620166" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Expansion Tank &amp; Air Separator" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620167" Color="#0000ff">
+      <labels>
+        <label description="HVAC - FAN ( Ceiling Destratification )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620168" Color="#0000ff">
+      <labels>
+        <label description="HVAC - FAN ( Exhaust, Air Transfer )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620169" Color="#0000ff">
+      <labels>
+        <label description="HVAC - FAN ( Fresh Air Supply, Pressure Air )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620170" Color="#0000ff">
+      <labels>
+        <label description="HVAC - FAN ( Garage Exhaust )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620171" Color="#0000ff">
+      <labels>
+        <label description="HVAC - FAN ( Kitchen, Smoke Ctrl, Pollution Ctrl )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620172" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Fan Coil Unit ( CHW )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620173" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Fan Coil Unit ( DX Central CU/VAR, TVR )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620174" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Fan Coil Unit ( DX Split )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620175" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Furnace/AHU w/Natural Gas Heater" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620176" Color="#0000ff">
+      <labels>
+        <label description="HVAC - General" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620177" Color="#0000ff">
+      <labels>
+        <label description="HVAC - GRH ( Gas Radiant Heater)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620178" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Heat Exchanger" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620179" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Heat Pump ( DX/Split, Indoor AHU )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620180" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Heat Pump ( DX/Split, Outdoor CU )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620181" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Heat Pump ( WSHP Indoor AHU )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620182" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Heat Pump ( WSHP/VRF Outdoor )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620183" Color="#0000ff">
+      <labels>
+        <label description="HVAC - HP/Condensing Unit, Variable CU/VRF" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620184" Color="#0000ff">
+      <labels>
+        <label description="HVAC - HP/Fan Coil served by Variable CU/VRF" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620185" Color="#0000ff">
+      <labels>
+        <label description="HVAC - HRU/Heat Reclamation &amp; Air Cleaning Units" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620186" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Humidifier/Steam, Dehumidifier" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620187" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Ice Thermal Storage" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620188" Color="#0000ff">
+      <labels>
+        <label description="HVAC - ICEMAKER/CHILLER" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620189" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Interior Air Boxes" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620190" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Misting/Fogging Evaporative Cooling Sys" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620191" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Prefabricated/DX,CHW (Data Center Module)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620192" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Pump ( Chilled Water )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620193" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Pump ( Condenser Water )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620194" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Pump ( Glycol )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620195" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Pump ( Hot Water Heating )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620196" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Refrigerant Monitor" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620197" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Tank ( Process Water Storage )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620198" Color="#0000ff">
+      <labels>
+        <label description="HVAC - UFAD/Under Floor Fan Term Unit w/WC, ELEC" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620199" Color="#0000ff">
+      <labels>
+        <label description="HVAC - UFAD/Under Floor VAV Unit,w/WC,ELEC" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620200" Color="#0000ff">
+      <labels>
+        <label description="HVAC - UFAD/Under flr VAV Indctn Unit, w/HW/CHW" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620201" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Unit Heaters ( Electric )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620202" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Unit Heaters ( Gas )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620203" Color="#0000ff">
+      <labels>
+        <label description="HVAC - VAV ( FTU,CV,VV,SFP,SQB )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620204" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Water Loop (Blowdown Valve/Water Strainer)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620205" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Water Loop, Closed" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620206" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Water Loop, Control Valve" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620207" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Water Loop, Geothermal" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620208" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Water Loop/Closed CHW" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620209" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Water Loop/Closed Condenser" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620210" Color="#0000ff">
+      <labels>
+        <label description="HVAC - Water Loop/Closed Hot Water" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620211" Color="#0000ff">
+      <labels>
+        <label description="HVAC - XDC Refrigerant Chiller/ Liebert" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620212" Color="#0000ff">
+      <labels>
+        <label description="HVAC - XDCU/Indoor Condensing Unit" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620213" Color="#0000ff">
+      <labels>
+        <label description="HVAC - XDF-High Heat DXAC Rack Enclosure" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620214" Color="#0000ff">
+      <labels>
+        <label description="HVAC - XDFN-W High Heat CHW Enclosure/ Liebert" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620215" Color="#0000ff">
+      <labels>
+        <label description="HVAC - XDK-W High Heat Density CHW Rack" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620216" Color="#0000ff">
+      <labels>
+        <label description="HVAC - XDO/XDV Overhead Cooling Module/Rack" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620217" Color="#0000ff">
+      <labels>
+        <label description="HVAC - XDP-W Coolant Distribution Unit/Liebert" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620218" Color="#0000ff">
+      <labels>
+        <label description="HVAC - XDR-W Chilled Water Rack Cooler/ Liebert" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620219" Color="#0000ff">
+      <labels>
+        <label description="Irrigation - Greenhouse Hydroponics/DripSystems" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620220" Color="#0000ff">
+      <labels>
+        <label description="Irrigation Equipment" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620221" Color="#0000ff">
+      <labels>
+        <label description="Kitchen / Food Service Equipment" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620222" Color="#0000ff">
+      <labels>
+        <label description="Loading Dock - Leveler / Misc. Equipment" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620223" Color="#0000ff">
+      <labels>
+        <label description="Natural Gas - Meters/Valves" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620224" Color="#0000ff">
+      <labels>
+        <label description="PBX/Telephony Switching Systems" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620225" Color="#0000ff">
+      <labels>
+        <label description="Piping Systems - Other" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620226" Color="#0000ff">
+      <labels>
+        <label description="Plumbing - Drains/Exterior" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620227" Color="#0000ff">
+      <labels>
+        <label description="Plumbing - Drains/Interior" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620228" Color="#0000ff">
+      <labels>
+        <label description="Plumbing - Drinking Fountain" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620229" Color="#0000ff">
+      <labels>
+        <label description="Plumbing - Pump ( Domestic Hot Water )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620230" Color="#0000ff">
+      <labels>
+        <label description="Plumbing - Pump ( Domestic Water Boost )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620231" Color="#0000ff">
+      <labels>
+        <label description="Plumbing System" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620232" Color="#0000ff">
+      <labels>
+        <label description="Pump - Gas Powered" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620233" Color="#0000ff">
+      <labels>
+        <label description="Recycle Program / Battery Pickup/Removal" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620234" Color="#0000ff">
+      <labels>
+        <label description="Recycle Program / PC Equipment" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620235" Color="#0000ff">
+      <labels>
+        <label description="Roof - Membrane / Flashing / Cap" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620236" Color="#0000ff">
+      <labels>
+        <label description="Sanitary Sewer - Grease Traps/Grease Interceptors" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620237" Color="#0000ff">
+      <labels>
+        <label description="Sanitary Sewer - Drainage Sump/Vault ( SMP/SS )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620238" Color="#0000ff">
+      <labels>
+        <label description="Sanitary Sewer - Pump / Sump / Vault" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620239" Color="#0000ff">
+      <labels>
+        <label description="Sanitary Sewer - System" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620240" Color="#0000ff">
+      <labels>
+        <label description="Security - Security Door / Turnstile" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620241" Color="#0000ff">
+      <labels>
+        <label description="Security - Security System" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620242" Color="#0000ff">
+      <labels>
+        <label description="Security Equipment" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620243" Color="#0000ff">
+      <labels>
+        <label description="Security Equipment - Omni/Digi Lock" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620244" Color="#0000ff">
+      <labels>
+        <label description="Shop Equipment" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620245" Color="#0000ff">
+      <labels>
+        <label description="Site &amp; Lot - Drive Lanes, Parking Space" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620246" Color="#0000ff">
+      <labels>
+        <label description="Site &amp; Lot - Landscape, Sport Courts, Fields" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620247" Color="#0000ff">
+      <labels>
+        <label description="Site &amp; Lot - Side Walks, Trails" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620248" Color="#0000ff">
+      <labels>
+        <label description="Site &amp; Lot - Signage, Banners, Flag Poles" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620249" Color="#0000ff">
+      <labels>
+        <label description="Specialty Instrumentation" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620250" Color="#0000ff">
+      <labels>
+        <label description="Storm Water - Detention Pond / Filtration Vault" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620251" Color="#0000ff">
+      <labels>
+        <label description="Storm Water - Drainage Sump / Vault ( SMP/SD )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620252" Color="#0000ff">
+      <labels>
+        <label description="Storm Water - Oil/Sand Interceptor" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620253" Color="#0000ff">
+      <labels>
+        <label description="Storm Water - Pump / Sump / Vault" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620254" Color="#0000ff">
+      <labels>
+        <label description="Storm Water - Sand Separator / Traps / Catch Basin" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620255" Color="#0000ff">
+      <labels>
+        <label description="Tank - Diesel Fuel Storage" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620256" Color="#0000ff">
+      <labels>
+        <label description="Tank - Pressure Vessel" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620257" Color="#0000ff">
+      <labels>
+        <label description="Tank - Water Storage" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620258" Color="#0000ff">
+      <labels>
+        <label description="Tanks - Flammable Gas Fuel Storage" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620260" Color="#0000ff">
+      <labels>
+        <label description="Trash/Recycle - Dumpster/Compactor/Bailer" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620261" Color="#0000ff">
+      <labels>
+        <label description="Vehicle &amp; Trailer" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620262" Color="#0000ff">
+      <labels>
+        <label description="Wall Covering / Non-Paint Wall Covering" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620263" Color="#0000ff">
+      <labels>
+        <label description="Waste Handling" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620264" Color="#0000ff">
+      <labels>
+        <label description="Water - Conditioning / Treatment" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620265" Color="#0000ff">
+      <labels>
+        <label description="Water - Domestic System" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620266" Color="#0000ff">
+      <labels>
+        <label description="Water - Meter" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620267" Color="#0000ff">
+      <labels>
+        <label description="Water Feature - Loop" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620268" Color="#0000ff">
+      <labels>
+        <label description="Water Feature - Pump" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620269" Color="#0000ff">
+      <labels>
+        <label description="Water Feature ( Pond, Fountain, Stream )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620270" Color="#0000ff">
+      <labels>
+        <label description="Water Heater ( Electric )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="180620271" Color="#0000ff">
+      <labels>
+        <label description="Water Heater ( Natural Gas )" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

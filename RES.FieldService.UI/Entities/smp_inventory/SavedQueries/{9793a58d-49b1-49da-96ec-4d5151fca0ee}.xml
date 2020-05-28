@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{9793a58d-49b1-49da-96ec-4d5151fca0ee}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_name" select="1" icon="1" preview="1">
+        <row name="result" id="smp_inventoryid">
+          <cell name="smp_productid" width="100" />
+          <cell name="smp_product" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_manufacturernumber" width="100" />
+          <cell name="smp_quantity" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_itemgroup" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_itemmodelgroup" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_warehouse" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_inventory">
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="smp_productid" descending="false" />
+          <attribute name="smp_quantity" />
+          <attribute name="smp_productid" />
+          <attribute name="smp_product" />
+          <attribute name="smp_itemmodelgroup" />
+          <attribute name="smp_manufacturernumber" />
+          <attribute name="smp_warehouse" />
+          <attribute name="smp_itemgroup" />
+          <attribute name="smp_inventoryid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Inventory" languagecode="1033" />
+      <LocalizedName description="Inventário Ativo" languagecode="1046" />
+      <LocalizedName description="Inventario Activo" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

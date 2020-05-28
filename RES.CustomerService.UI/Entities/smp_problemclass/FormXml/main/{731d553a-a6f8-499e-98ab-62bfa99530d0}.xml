@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{731d553a-a6f8-499e-98ab-62bfa99530d0}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{c4bd4777-6f20-4204-9d8f-510776728ea7}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Geral" languagecode="1046" />
+            <label description="General" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="true" showbar="true" IsUserDefined="0" id="{e66dc2e1-5fa0-4a73-88fe-f3d4711c9373}" name="{e66dc2e1-5fa0-4a73-88fe-f3d4711c9373}" columns="11" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Geral" languagecode="1046" />
+                    <label description="General" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b771c32b-8e8d-429d-a97b-9a7b121d5298}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Problem Class Name" languagecode="1033" />
+                          <label description="Nome da classe do problema" languagecode="1046" />
+                          <label description="Nombre de la clase del problema" languagecode="3082" />
+                        </labels>
+                        <control id="smp_problemclassname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_problemclassname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{76900d61-52e8-d552-7ec3-8646253881e8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Show in Portal" languagecode="1033" />
+                          <label description="Mostrar no Portal" languagecode="1046" />
+                          <label description="Mostrar en el portal" languagecode="3082" />
+                        </labels>
+                        <control id="smp_showinportal" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="smp_showinportal" disabled="false" />
+                      </cell>
+                      <cell id="{255a886d-000d-4f40-bc8a-c903199c3743}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Proprietário" languagecode="1046" />
+                          <label description="Propietario" languagecode="3082" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d6d370c4-9e7a-956b-d705-799190e13196}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Do Not Allow Survey" languagecode="1033" />
+                          <label description="Não permitir pesquisa" languagecode="1046" />
+                          <label description="No permitir encuesta" languagecode="3082" />
+                        </labels>
+                        <control id="smp_donotallowsurvey" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="smp_donotallowsurvey" disabled="false" />
+                      </cell>
+                      <cell id="{717ad407-1554-76b2-15bd-a64405132805}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{074d4bdd-6d84-26a9-54d9-9158b2d6ec70}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Allow Email Notification" languagecode="1033" />
+                          <label description="允许电子邮件通知" languagecode="2052" />
+                          <label description="Autoriser la notification par courrier électronique" languagecode="1036" />
+                          <label description="電子メール通知を許可する" languagecode="1041" />
+                          <label description="이메일 알림 허용" languagecode="1042" />
+                          <label description="Permitir Notificação Email" languagecode="2070" />
+                          <label description="Permitir notificación por correo electrónico" languagecode="3082" />
+                          <label description="Permitir notificação por email" languagecode="1046" />
+                        </labels>
+                        <control id="smp_allowemailnotification" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="smp_allowemailnotification" disabled="false" uniqueid="{0ab49cd6-1bb3-1aae-e109-863b569a619b}" />
+                      </cell>
+                      <cell id="{810b29e4-6da5-3a0b-948b-755ea9a58be1}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{c4bd4777-6f20-4204-9d8f-510776728ea7}_section_2" showlabel="true" showbar="true" locklevel="0" id="{d6beb53c-e016-db30-3001-56be7ba5880b}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Translations" languagecode="1033" />
+                    <label description="Traduções" languagecode="1046" />
+                    <label description="Traducciones" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1e967a2b-3c67-2628-e861-2deebb140934}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Problem Class Name - French - France" languagecode="1033" />
+                          <label description="Nome da classe de problema - francês - França" languagecode="1046" />
+                          <label description="Nombre de la clase del problema - Francés - Francia" languagecode="3082" />
+                        </labels>
+                        <control id="smp_problemclassname_fr_fr" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_problemclassname_fr_fr" disabled="false" />
+                      </cell>
+                      <cell id="{017d8eaa-aaa9-807a-4e27-5ae5bd348ac9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Problem Class Name - Japanese – Japan" languagecode="1033" />
+                          <label description="Nome da classe de problema - japonês - Japão" languagecode="1046" />
+                          <label description="Nombre de la clase del problema - Japonés - Japón" languagecode="3082" />
+                        </labels>
+                        <control id="smp_problemclassname_ja_jp" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_problemclassname_ja_jp" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7680ee87-6b54-d015-be33-a331ce5e9c56}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Problem Class Name - Korean – Korea" languagecode="1033" />
+                          <label description="Nome da Classe de Problema - Coreano - Coréia" languagecode="1046" />
+                          <label description="Nombre de la clase del problema - Coreano - Corea" languagecode="3082" />
+                        </labels>
+                        <control id="smp_problemclassname_ko_kr" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_problemclassname_ko_kr" disabled="false" />
+                      </cell>
+                      <cell id="{93481612-0dae-1a52-89a9-4c7e611bd302}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Problem Class Name - Mandarin – Mainland China" languagecode="1033" />
+                          <label description="Nome da Classe do Problema - Mandarim - China Continental" languagecode="1046" />
+                          <label description="Nombre de la clase del problema - Mandarín - China continental" languagecode="3082" />
+                        </labels>
+                        <control id="smp_problemclassname_zh_cn" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_problemclassname_zh_cn" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ce93be70-148b-0081-0758-8293a0da0222}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Problem Class Name - Portuguese – Portugal" languagecode="1033" />
+                          <label description="Nome da Classe de Problema - Português - Portugal" languagecode="1046" />
+                          <label description="Nombre de la clase del problema - Portugués - Portugal" languagecode="3082" />
+                        </labels>
+                        <control id="smp_problemclassname_pt_pt" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_problemclassname_pt_pt" disabled="false" />
+                      </cell>
+                      <cell id="{0c20b267-98ec-e43e-223a-4dd5474beb39}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Problem Class Name - Spanish – Mexico" languagecode="1033" />
+                          <label description="Nome da classe de problema - espanhol - México" languagecode="1046" />
+                          <label description="Nombre de la clase del problema - Español - México" languagecode="3082" />
+                        </labels>
+                        <control id="smp_problemclassname_es_mx" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_problemclassname_es_mx" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{8c155c06-3461-4db2-8fb9-804dc3c917ab}">
+        <rows>
+          <row>
+            <cell id="{f91d8d8f-b482-45f4-ae28-25a43ce8f289}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control id="footer_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Processes" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Informação" languagecode="1046" />
+      <LocalizedName description="#REF!" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Um formulário pera esta entidade." languagecode="1046" />
+      <Description description="#REF!" languagecode="3082" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,276 @@
+<html><!--
+/// <summary>
+///  Priority Escalations
+/// </summary>
+--><head>
+    <meta>
+    <meta>
+    <meta>
+    <meta>
+    <meta>
+    <meta>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+<meta></head>
+<body style="font-family: &quot;Segoe UI&quot;,Tahoma,Arial; overflow-wrap: break-word;" onload="onLoad();" onfocusout="parent.setEmailRange();" bgcolor="#f0f0f0">
+    <meta charset="utf-8">
+    <script src="ClientGlobalContext.js.aspx"></script>
+    <script id="script1" lang="ja" type="text/javascript">
+        /* function to handle on load */
+        function onLoad() {
+            var lookupProblemClass = window.opener.Xrm.Page.getAttribute("smp_problemclassid");
+            if (lookupProblemClass !== null) {
+                var lookupProblemClassValue = lookupProblemClass.getValue();
+                if (lookupProblemClassValue !== null) {
+                    var problemClassId = lookupProblemClassValue[0].id;
+                    //alert(problemClassId);
+                }
+            }
+
+            //Building
+            var lookupBuilding = window.opener.Xrm.Page.getAttribute("smp_problembuilding");
+            if (lookupBuilding !== null) {
+                var lookupBuildingValue = lookupBuilding.getValue();
+                if (lookupBuildingValue !== null) {
+                    var buildingId = lookupBuildingValue[0].id;
+                    //alert(buildingId);
+                }
+            }
+
+            //Problem Type
+            var lookupProblemType = window.opener.Xrm.Page.getAttribute("smp_problemtypeid");
+            if (lookupProblemType !== null) {
+                var lookupProblemTypeValue = lookupProblemType.getValue();
+                if (lookupProblemTypeValue !== null) {
+                    var problemTypeId = lookupProblemTypeValue[0].id;
+                    //alert(problemTypeId);
+                }
+            }
+
+            var providerId = null;
+            window["ENTITY_SET_NAMES"] = window["ENTITY_SET_NAMES"] || window.opener.top.ENTITY_SET_NAMES || JSON.stringify({ "smp_providermatrix": "smp_providermatrixes" });
+            //window.opener
+            if (problemClassId !== null && buildingId !== null && problemTypeId !== null) {
+                parent.Xrm.WebApi.retrieveMultipleRecords("smp_providermatrixes", "?$select=_smp_primaryproviderid_value&$filter=statecode eq 0 and _smp_buildingid_value eq " + buildingId.replace("{", "").replace("}", "") + " and  _smp_problemclassid_value eq " + problemClassId.replace("{", "").replace("}", "") + " and  _smp_problemtypeid_value eq " + problemTypeId.replace("{", "").replace("}", "") + "")
+                    .then(function success(primaryProviders) {
+                        if (primaryProviders != null && primaryProviders.entities.length > 0) {
+                            providerId = primaryProviders.entities[0]["_smp_primaryproviderid_value"];
+                            if (providerId !== null) {
+                                parent.Xrm.WebApi.retrieveMultipleRecords("smp_providermatrixes", "?$select=_smp_primaryescalationid_value,_smp_secondaryescalationid_value,_smp_tertiaryescalationid_value,_smp_primaryproviderid_value&$expand=smp_primaryproviderid($select=name,primarycontactid,telephone1,accountid),smp_primaryescalationid($select=emailaddress,smp_escalationid,smp_information,smp_name,smp_otherphone,smp_phone),smp_secondaryescalationid($select=emailaddress,smp_escalationid,smp_information,smp_name,smp_otherphone,smp_phone),smp_tertiaryescalationid($select=emailaddress,smp_information,smp_name,smp_otherphone,smp_phone)&$filter=statecode eq 0 and _smp_buildingid_value eq " + buildingId.replace("{", "").replace("}", "") + " and  _smp_problemclassid_value eq " + problemClassId.replace("{", "").replace("}", "") + " and  _smp_problemtypeid_value eq " + problemTypeId.replace("{", "").replace("}", "") + " and  _smp_primaryproviderid_value eq " + providerId.replace("{", "").replace("}", "") + "")
+                                    .then(function success(providerMatrixes) {
+                                        RetrieveEscalationsCallBack(providerMatrixes);
+                                    }, function (error) {
+                                        console.log("Exception in Fetching ProviderId " + error);
+                                    })
+                            }
+                        }
+                    }, function (error) {
+                        console.log("Exception in Fetching Primary Provider " + error);
+                    })
+            }
+        }
+
+        /*
+         * RetrieveEscalationsCallBack
+         * @param retrieveReq
+         */
+        function RetrieveEscalationsCallBack(retrieveReq) {
+            var primaryEscalation = null, primaryContact = null;
+            if (retrieveReq != null && retrieveReq.entities.length > 0) {
+                //for (var i = 0; i < retrieveReq.entities.length; i++) {
+                if (retrieveReq.entities[0].smp_primaryproviderid !== null) {
+                    primaryEscalation = retrieveReq.entities[0].smp_primaryproviderid.accountid;
+                    primaryContact = retrieveReq.entities[0].smp_primaryproviderid;
+                    CreateProviderRow(primaryEscalation, primaryContact, "primary provider");
+                }
+
+                if (retrieveReq.entities[0].smp_primaryescalationid !== null) {
+                    primaryEscalation = retrieveReq.entities[0].smp_primaryescalationid.smp_escalationid;
+                    primaryContact = retrieveReq.entities[0].smp_primaryescalationid;
+                    CreateRow(primaryEscalation, primaryContact, "primary escalation");
+                }
+
+                if (retrieveReq.entities[0].smp_secondaryescalationid !== null) {
+                    var secondaryEscalation = retrieveReq.entities[0].smp_secondaryescalationid.smp_escalationid;
+                    var secondaryContact = retrieveReq.entities[0].smp_secondaryescalationid;
+                    CreateRow(secondaryEscalation, secondaryContact, "secondary escalation");
+                }
+                //}
+            }
+        }
+
+        /*
+         * CreateProviderRow
+         * @param contactId
+         * @param contactDetails
+         * @param contactType
+         */
+        function CreateProviderRow(contactId, contactDetails, contactType) {
+            var table = document.getElementById("tblContact");
+            var row = table.insertRow(table.rows.length);
+            row.ondblclick = function () {
+                window.parent.Xrm.Utility.openEntityForm("account", contactId);
+            };
+            var tbclType = row.insertCell(0);
+            tbclType.innerHTML = contactType;
+            tbclType.className = "dataCell";
+
+            var tbclName = row.insertCell(1);
+            tbclName.innerHTML = contactDetails.name;
+            tbclName.className = "dataCell";
+
+            var tbclPhone = row.insertCell(2);
+            if (contactDetails.telephone1 !== null) {
+                tbclPhone.innerHTML = contactDetails.telephone1;
+            }
+            else {
+                tbclPhone.innerHTML = '';
+            }
+            tbclPhone.className = "dataCell";
+
+            var tbclOtherPhone = row.insertCell(3);
+            tbclOtherPhone.innerHTML = '';
+            tbclOtherPhone.className = "dataCell";
+
+            var tbclInformation = row.insertCell(4);
+            tbclInformation.innerHTML = '';
+            tbclInformation.className = "dataCell";
+        }
+
+        /*
+         * CreateRow
+         * @param contactId
+         * @param contactDetails
+         * @param contactType
+         */
+        function CreateRow(contactId, contactDetails, contactType) {
+            var table = document.getElementById("tblContact");
+            var row = table.insertRow(table.rows.length);
+            row.ondblclick = function () {
+                window.parent.Xrm.Utility.openEntityForm("smp_escalation", contactId.id);
+            };
+            //    openRecord(contactId.Id);
+            var tbclType = row.insertCell(0);
+            tbclType.innerHTML = contactType;
+            tbclType.className = "dataCell";
+
+            var tbclName = row.insertCell(1);
+            tbclName.innerHTML = contactDetails.smp_name;
+            tbclName.className = "dataCell";
+
+            var tbclPhone = row.insertCell(2);
+            tbclPhone.innerHTML = contactDetails.smp_phone;
+            tbclPhone.className = "dataCell";
+
+            var tbclOtherPhone = row.insertCell(3);
+            tbclOtherPhone.innerHTML = contactDetails.smp_otherphone;
+            tbclOtherPhone.className = "dataCell";
+
+            var tbclInformation = row.insertCell(4);
+            if (contactDetails.smp_Information !== null) {
+                tbclInformation.innerHTML = contactDetails.smp_information;
+            }
+            else {
+                tbclInformation.innerHTML = '';
+            }
+            tbclInformation.className = "dataCell";
+        }
+
+        /* SubmitNotes */
+        function SubmitNotes() {
+            if (window.opener.Xrm.Page.getAttribute("smp_priorityescalationpopupnotes") !== null && (txtNotes !== null || txtNotes !== "")) {
+                var notesText = document.getElementById("txtNotes").value;
+                window.opener.Xrm.Page.getAttribute("smp_priorityescalationpopupnotes").setValue(notesText);
+                window.opener.Xrm.Page.getAttribute("smp_ispopupshown").setValue(true);
+                window.opener.Xrm.Page.data.entity.save();
+            }
+            window.close();
+        }
+
+    </script>
+    <style type="text/css">
+        tr:hover td {
+            background-color: #FFFAF0;
+            color: #000;
+            cursor: pointer;
+        }
+
+        .dataCell {
+            width: 100%;
+            height: 21px;
+            table-layout: fixed;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+            border-bottom: 1px solid #DBDEE1;
+            font-family: Segoe UI, Tahoma, Arial;
+            font-size: 11px;
+            padding-left: 10px;
+            background-color: white;
+        }
+
+        .header {
+            width: 100%;
+            height: 21px;
+            table-layout: fixed;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+            border-bottom: 1px solid #DBDEE1;
+            font-family: Segoe UI, Tahoma, Arial;
+            font-size: 11px;
+            padding-left: 10px;
+            font-weight: 200;
+        }
+
+        .table {
+            border-width: 1px;
+            border-style: solid;
+            width: 100%;
+            table-layout: fixed;
+            background-color: #EFF2F6;
+        }
+    </style>
+
+    <table class="table" id="tblContact" style="border-collapse: collapse;" border="1" cellspacing="0" cellpadding="1">
+        <thead>
+            <tr>
+                <td class="header" style="width: 100px;">Contact Type</td>
+                <td class="header" style="width: 100px;">Name</td>
+                <td class="header" style="width: 100px;">Phone Number</td>
+                <td class="header" style="width: 100px;">Other Number</td>
+                <td class="header" style="width: 100px;">Dispatch Instructions</td>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <br><br><br>
+
+    <table>
+        <tbody>
+            <tr>
+                <td style="font-family:Segoe UI, Tahoma, Arial;">Notes:</td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea name="Notes" id="txtNotes" style="width:100%;" rows="6" cols="100"></textarea>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <input name="OK" id="btnOK" onclick="SubmitNotes();" type="submit" value="OK">
+                </td>
+                <td>
+                    <input name="Cancel" id="btnCancel" onclick="window.close();" type="button" value="Cancel">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body></html>

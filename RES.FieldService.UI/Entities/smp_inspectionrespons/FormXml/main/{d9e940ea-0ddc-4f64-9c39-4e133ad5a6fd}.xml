@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{d9e940ea-0ddc-4f64-9c39-4e133ad5a6fd}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{5a7d65b4-820c-4e4e-98bd-bc07ce0c8209}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Général" languagecode="1036" />
+            <label description="全般" languagecode="1041" />
+            <label description="일반" languagecode="1042" />
+            <label description="Geral" languagecode="1046" />
+            <label description="常规" languagecode="2052" />
+            <label description="Geral" languagecode="2070" />
+            <label description="General" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{b4331f58-a38d-43f5-bf7e-05485207dff8}" height="auto">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Général" languagecode="1036" />
+                    <label description="全般" languagecode="1041" />
+                    <label description="일반" languagecode="1042" />
+                    <label description="Geral" languagecode="1046" />
+                    <label description="常规" languagecode="2052" />
+                    <label description="Geral" languagecode="2070" />
+                    <label description="General" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c549bb7e-c8f8-4516-9546-ccdbde674c10}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                          <label description="Nome" languagecode="1046" />
+                          <label description="Nombre" languagecode="3082" />
+                        </labels>
+                        <control id="smp_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_name" uniqueid="{26599a65-285c-d246-3206-8ae4e56744d7}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7e410993-471c-46a7-8300-096b7a2fd0c3}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="负责人" languagecode="2052" />
+                          <label description="Propriétaire" languagecode="1036" />
+                          <label description="所有者" languagecode="1041" />
+                          <label description="담당자" languagecode="1042" />
+                          <label description="Proprietário" languagecode="2070" />
+                          <label description="Propietario" languagecode="3082" />
+                          <label description="Proprietário" languagecode="1046" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{41645bcb-93b2-b282-37cd-e9e36590945e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Inspection" languagecode="1033" />
+                          <label description="Inspeção" languagecode="1046" />
+                          <label description="Inspección" languagecode="3082" />
+                        </labels>
+                        <control id="smp_inspectionid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_inspectionid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d0ba5abb-6723-3709-01eb-e4b9700d27e3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Order" languagecode="1033" />
+                          <label description="Ordem" languagecode="1046" />
+                          <label description="Órden" languagecode="3082" />
+                        </labels>
+                        <control id="smp_order" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="smp_order" disabled="false" uniqueid="{9018189b-3ccc-14c0-0a60-1c1b211a386d}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{37729d5c-b4d8-021b-45d6-63c0b7bc8e56}" showlabel="true" locklevel="0" rowspan="5" auto="true">
+                        <labels>
+                          <label description="Inspection Question" languagecode="1033" />
+                          <label description="Inspeção" languagecode="1046" />
+                          <label description="Pregunta de Inspección" languagecode="3082" />
+                        </labels>
+                        <control id="smp_inspectionquestion" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="smp_inspectionquestion" disabled="true" uniqueid="{4e236995-46c3-6b12-ebbd-0c53aced9597}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto"></row>
+                    <row>
+                      <cell id="{4640d295-23ac-b86e-3071-1a6495315d62}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Response" languagecode="1033" />
+                          <label description="Resposta" languagecode="1046" />
+                          <label description="Respuestas" languagecode="3082" />
+                        </labels>
+                        <control id="smp_response" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="smp_response" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6977333c-9377-d20e-b380-ec89092361c1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Comment" languagecode="1033" />
+                          <label description="Comentário" languagecode="1046" />
+                          <label description="Comentario" languagecode="3082" />
+                        </labels>
+                        <control id="smp_comment" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_comment" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Informação" languagecode="1046" />
+      <LocalizedName description="Información" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Um formulário para esta entidade." languagecode="1046" />
+      <Description description="Un formulario para esta entidad." languagecode="3082" />
+    </Descriptions>
+  </systemform>
+</forms>

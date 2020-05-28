@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{cabd95e7-1f30-4251-b6a9-6627de6c9150}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{b1f85905-5818-4c73-bb52-70a6eae22d29}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="true" showbar="true" IsUserDefined="0" id="{ea02908a-f322-437f-be6a-0faad23f2118}" name="{ea02908a-f322-437f-be6a-0faad23f2118}" columns="11" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1378a234-e1c9-4650-bb3b-6849c476659e}">
+                        <labels>
+                          <label description="External Link Name" languagecode="1033" />
+                        </labels>
+                        <control id="smp_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_name" />
+                      </cell>
+                      <cell id="{3c2dde09-a002-4c85-b4de-af8401867b81}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{79da4cda-6c73-101e-623e-1c63d58ee36d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Building" languagecode="1033" />
+                        </labels>
+                        <control id="smp_building" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_building" disabled="false" />
+                      </cell>
+                      <cell id="{6a97ad46-5581-5457-b24d-4c741694e12e}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{00151669-1aa6-8e60-d28e-328ecde014d8}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="URL" languagecode="1033" />
+                        </labels>
+                        <control id="smp_url" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_url" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{b1f85905-5818-4c73-bb52-70a6eae22d29}_section_2" showlabel="true" showbar="true" locklevel="0" id="{d1373ad8-c9d6-3045-985d-2c8d98eb6d7c}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Translations" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1ebe77de-2371-7eb5-7819-59614516400a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="External Link Name - French - France" languagecode="1033" />
+                        </labels>
+                        <control id="smp_name_fr_fr" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_name_fr_fr" disabled="false" />
+                      </cell>
+                      <cell id="{37191b19-6280-e19b-1642-39339bc043dc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="External Link Name - Japanese – Japan" languagecode="1033" />
+                        </labels>
+                        <control id="smp_name_ja_jp" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_name_ja_jp" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{14656dea-0ee6-ab70-9554-7a7d9c99dc56}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="External Link Name - Korean – Korea" languagecode="1033" />
+                        </labels>
+                        <control id="smp_name_ko_kr" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_name_ko_kr" disabled="false" />
+                      </cell>
+                      <cell id="{cb2ea99c-87e3-c4e6-e34b-8ca9a8ec0e68}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="External Link Name - Mandarin – Mainland China" languagecode="1033" />
+                        </labels>
+                        <control id="smp_name_zh_cn" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_name_zh_cn" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{109c49a1-874b-a541-d848-13bd01c5979a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="External Link Name - Portuguese – Portugal" languagecode="1033" />
+                        </labels>
+                        <control id="smp_name_pt_pt" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_name_pt_pt" disabled="false" />
+                      </cell>
+                      <cell id="{8b016179-821e-474c-eb95-9a94ae81162b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="External Link Name - Spanish – Mexico" languagecode="1033" />
+                        </labels>
+                        <control id="smp_name_es_mx" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_name_es_mx" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{88066c30-0866-47c4-8fdb-26c3223d660f}">
+        <rows>
+          <row>
+            <cell id="{8cd4f69e-bbdb-438c-a9bb-764b8f10f2d0}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control id="footer_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Processes" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

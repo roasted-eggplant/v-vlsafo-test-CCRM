@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Service Request" OriginalName="Case">Incident</Name>
+  <EntityInfo>
+    <entity Name="Incident" unmodified="1">
+      <attributes />
+    </entity>
+  </EntityInfo>
+  <FormXml />
+  <SavedQueries />
+  <RibbonDiffXml />
+</Entity>

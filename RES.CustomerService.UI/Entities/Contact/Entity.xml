@@ -1,0 +1,720 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Contact" OriginalName="Contact">Contact</Name>
+  <EntityInfo>
+    <entity Name="Contact">
+      <LocalizedNames>
+        <LocalizedName description="Contact" languagecode="1033" />
+        <LocalizedName description="Contact" languagecode="1042" />
+        <LocalizedName description="Contact" languagecode="1036" />
+        <LocalizedName description="Contact" languagecode="2070" />
+        <LocalizedName description="Contact" languagecode="1041" />
+        <LocalizedName description="Contact" languagecode="2052" />
+        <LocalizedName description="Contact" languagecode="3082" />
+        <LocalizedName description="Contato" languagecode="1046" />
+      </LocalizedNames>
+      <LocalizedCollectionNames>
+        <LocalizedCollectionName description="Contacts" languagecode="1033" />
+        <LocalizedCollectionName description="Contacts" languagecode="1036" />
+        <LocalizedCollectionName description="Contacts" languagecode="1042" />
+        <LocalizedCollectionName description="Contacts" languagecode="3082" />
+        <LocalizedCollectionName description="Contacts" languagecode="1041" />
+        <LocalizedCollectionName description="Contacts" languagecode="2070" />
+        <LocalizedCollectionName description="Contacts" languagecode="2052" />
+        <LocalizedCollectionName description="Contatos" languagecode="1046" />
+      </LocalizedCollectionNames>
+      <Descriptions>
+        <Description description="Person with whom a business unit has a relationship, such as customer, supplier, and colleague." languagecode="1033" />
+        <Description description="Person with whom a business unit has a relationship, such as customer, supplier, and colleague." languagecode="2070" />
+        <Description description="Person with whom a business unit has a relationship, such as customer, supplier, and colleague." languagecode="1042" />
+        <Description description="Person with whom a business unit has a relationship, such as customer, supplier, and colleague." languagecode="1036" />
+        <Description description="Person with whom a business unit has a relationship, such as customer, supplier, and colleague." languagecode="1041" />
+        <Description description="Person with whom a business unit has a relationship, such as customer, supplier, and colleague." languagecode="2052" />
+        <Description description="Person with whom a business unit has a relationship, such as customer, supplier, and colleague." languagecode="3082" />
+        <Description description="Pessoa com a qual uma unidade de negócios tem um relacionamento, como cliente, fornecedor e colega." languagecode="1046" />
+      </Descriptions>
+      <attributes>
+        <attribute PhysicalName="EMailAddress1">
+          <Type>nvarchar</Type>
+          <Name>emailaddress1</Name>
+          <LogicalName>emailaddress1</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>inactive</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>1</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>email</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="E-mail" languagecode="1033" />
+            <displayname description="전자 메일" languagecode="1042" />
+            <displayname description="電子メール" languagecode="1041" />
+            <displayname description="Correio Eletrónico" languagecode="2070" />
+            <displayname description="Courrier électronique" languagecode="1036" />
+            <displayname description="电子邮件" languagecode="2052" />
+            <displayname description="Correo electrónico" languagecode="3082" />
+            <displayname description="Email" languagecode="1046" />
+          </displaynames>
+          <Descriptions>
+            <Description description="First e-mail address for the contact." languagecode="1033" />
+            <Description description="Introduza o endereço de correio eletrónico primário do contacto." languagecode="2070" />
+            <Description description="取引先担当者の既定電子メールのアドレスを入力します。" languagecode="1041" />
+            <Description description="연락처의 기본 전자 메일 주소를 입력합니다." languagecode="1042" />
+            <Description description="Tapez l'adresse de messagerie principale pour le contact." languagecode="1036" />
+            <Description description="Escriba la dirección de correo electrónico principal para el contacto." languagecode="3082" />
+            <Description description="键入联系人的主要电子邮件地址。" languagecode="2052" />
+            <Description description="Digite o endereço de email principal do contato." languagecode="1046" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="FirstName">
+          <Type>nvarchar</Type>
+          <Name>firstname</Name>
+          <LogicalName>firstname</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
+          <ImeMode>active</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>50</MaxLength>
+          <Length>100</Length>
+          <displaynames>
+            <displayname description="First Name" languagecode="1033" />
+            <displayname description="Nome Próprio" languagecode="2070" />
+            <displayname description="이름" languagecode="1042" />
+            <displayname description="名" languagecode="2052" />
+            <displayname description="Prénom" languagecode="1036" />
+            <displayname description="名" languagecode="1041" />
+            <displayname description="Nombre de pila" languagecode="3082" />
+            <displayname description="Nome" languagecode="1046" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Type the contact's first name to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns." languagecode="1033" />
+            <Description description="键入联系人的名以确保在销售联络、电子邮件和市场营销活动中正确称呼联系人。" languagecode="2052" />
+            <Description description="営業の電話、電子メール、およびマーケティング キャンペーンで取引先担当者が適切に呼称されるように、取引先担当者の名を入力します。" languagecode="1041" />
+            <Description description="Introduza o nome próprio do contacto, para garantir que este é corretamente endereçado em chamadas de vendas, mensagens de correio eletrónico e campanhas de marketing." languagecode="2070" />
+            <Description description="Escriba el nombre de pila del contacto para asegurarse de que se dirige correctamente a él en llamadas de ventas, correo electrónico y campañas de marketing." languagecode="3082" />
+            <Description description="Tapez le prénom du contact pour vous assurer que le contact est mentionné correctement dans les appels de télévente, le courrier électronique et les campagnes marketing." languagecode="1036" />
+            <Description description="영업 통화, 전자 메일 및 마케팅 캠페인에 연락처가 제대로 처리되도록 연락처의 이름을 입력합니다." languagecode="1042" />
+            <Description description="Digite o nome do contato para garantir que o contato seja tratado corretamente em chamadas de vendas, emails e campanhas de marketing." languagecode="1046" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="FullName">
+          <Type>nvarchar</Type>
+          <Name>fullname</Name>
+          <LogicalName>fullname</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ActivityRegardingName|ActivityPointerRegardingName|PrimaryName|ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForGrid</DisplayMask>
+          <ImeMode>active</ImeMode>
+          <ValidForReadApi>1</ValidForReadApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>1</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>160</MaxLength>
+          <Length>320</Length>
+          <displaynames>
+            <displayname description="Full Name" languagecode="1033" />
+            <displayname description="Nom complet" languagecode="1036" />
+            <displayname description="氏名" languagecode="1041" />
+            <displayname description="Nome Completo" languagecode="2070" />
+            <displayname description="全名" languagecode="2052" />
+            <displayname description="전체 이름" languagecode="1042" />
+            <displayname description="Nombre completo" languagecode="3082" />
+            <displayname description="Nome Completo" languagecode="1046" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Combines and shows the contact's first and last names so that the full name can be displayed in views and reports." languagecode="1033" />
+            <Description description="ビューやレポートでフル ネームを表示できるように、取引先担当者の名と姓を組み合わせて表示します。" languagecode="1041" />
+            <Description description="组合并显示联系人的名和姓，以便在视图和报告中显示全名。" languagecode="2052" />
+            <Description description="Combina e mostra o nome próprio e o apelido do contacto, para que o nome completo possa ser apresentado em vistas e relatórios." languagecode="2070" />
+            <Description description="보기 및 보고서에 전체 이름을 표시할 수 있도록 연락처의 이름과 성을 결합하여 표시합니다." languagecode="1042" />
+            <Description description="Combine et affiche le nom et le prénom du contact pour que le nom complet puisse être affiché dans les vues et les rapports." languagecode="1036" />
+            <Description description="Combina y muestra el nombre y los apellidos del contacto para que pueda mostrarse el nombre completo en vistas e informes." languagecode="3082" />
+            <Description description="Combina e mostra o nome e o sobrenome do contato, para que o nome completo possa ser mostrado em exibições e relatórios." languagecode="1046" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="LastName">
+          <Type>nvarchar</Type>
+          <Name>lastname</Name>
+          <LogicalName>lastname</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
+          <ImeMode>active</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>50</MaxLength>
+          <Length>100</Length>
+          <displaynames>
+            <displayname description="Last Name" languagecode="1033" />
+            <displayname description="姓" languagecode="1041" />
+            <displayname description="Nom de famille" languagecode="1036" />
+            <displayname description="姓" languagecode="2052" />
+            <displayname description="성" languagecode="1042" />
+            <displayname description="Apelido" languagecode="2070" />
+            <displayname description="Apellidos" languagecode="3082" />
+            <displayname description="Sobrenome" languagecode="1046" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Type the contact's last name to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns." languagecode="1033" />
+            <Description description="Introduza o apelido do contacto, para garantir que este é corretamente endereçado em chamadas de vendas, mensagens de correio eletrónico e campanhas de marketing." languagecode="2070" />
+            <Description description="Tapez le nom du contact pour vous assurer que le contact est mentionné correctement dans les appels de télévente, le courrier électronique et les campagnes marketing." languagecode="1036" />
+            <Description description="영업 통화, 전자 메일 및 마케팅 캠페인에 연락처가 제대로 처리되도록 연락처의 성을 입력합니다." languagecode="1042" />
+            <Description description="键入联系人的姓以确保在销售联络、电子邮件和市场营销活动中正确称呼联系人。" languagecode="2052" />
+            <Description description="営業の電話、電子メール、およびマーケティング キャンペーンで取引先担当者が適切に呼称されるように、取引先担当者の姓を入力します。" languagecode="1041" />
+            <Description description="Escriba el apellido del contacto para asegurarse de que se dirige correctamente a él en llamadas de ventas, correo electrónico y campañas de marketing." languagecode="3082" />
+            <Description description="Digite o sobrenome do contato para garantir que o contato seja tratado corretamente em chamadas de vendas, emails e campanhas de marketing." languagecode="1046" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="MiddleName">
+          <Type>nvarchar</Type>
+          <Name>middlename</Name>
+          <LogicalName>middlename</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>active</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>50</MaxLength>
+          <Length>100</Length>
+          <displaynames>
+            <displayname description="Middle Name" languagecode="1033" />
+            <displayname description="Segundo Nome" languagecode="2070" />
+            <displayname description="Deuxième prénom" languagecode="1036" />
+            <displayname description="中间名" languagecode="2052" />
+            <displayname description="Segundo nombre" languagecode="3082" />
+            <displayname description="중간 이름" languagecode="1042" />
+            <displayname description="ミドル ネーム" languagecode="1041" />
+            <displayname description="Segundo Nome" languagecode="1046" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Type the contact's middle name or initial to make sure the contact is addressed correctly." languagecode="1033" />
+            <Description description="Introduza o segundo nome ou inicial do contacto, para garantir que este é corretamente endereçado." languagecode="2070" />
+            <Description description="Escriba el segundo nombre o la inicial del contacto para asegurarse de que se dirige correctamente a él." languagecode="3082" />
+            <Description description="取引先担当者が適切に呼称されるように、取引先担当者のミドル ネームまたはイニシャルを入力します。" languagecode="1041" />
+            <Description description="연락처가 제대로 처리되도록 연락처의 중간 이름 또는 이니셜을 입력합니다." languagecode="1042" />
+            <Description description="Tapez le deuxième prénom ou l'initiale du contact pour vous assurer que le contact est mentionné correctement." languagecode="1036" />
+            <Description description="键入联系人的中间名或首字母以确保正确称呼联系人。" languagecode="2052" />
+            <Description description="Digite a inicial ou o nome do meio do contato para garantir que o contato seja tratado corretamente." languagecode="1046" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="MobilePhone">
+          <Type>nvarchar</Type>
+          <Name>mobilephone</Name>
+          <LogicalName>mobilephone</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>inactive</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>phone</Format>
+          <MaxLength>50</MaxLength>
+          <Length>100</Length>
+          <displaynames>
+            <displayname description="Mobile Phone" languagecode="1033" />
+            <displayname description="移动电话" languagecode="2052" />
+            <displayname description="휴대폰" languagecode="1042" />
+            <displayname description="Téléphone mobile" languagecode="1036" />
+            <displayname description="Teléfono móvil" languagecode="3082" />
+            <displayname description="携帯電話" languagecode="1041" />
+            <displayname description="Telemóvel" languagecode="2070" />
+            <displayname description="Telefone Celular" languagecode="1046" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Type the mobile phone number for the contact." languagecode="1033" />
+            <Description description="연락처의 휴대폰 번호를 입력합니다." languagecode="1042" />
+            <Description description="Escriba el número de teléfono móvil del contacto." languagecode="3082" />
+            <Description description="键入联系人的移动电话号码。" languagecode="2052" />
+            <Description description="Introduza o número de telemóvel do contacto." languagecode="2070" />
+            <Description description="取引先担当者の携帯電話番号を入力します。" languagecode="1041" />
+            <Description description="Tapez le numéro de téléphone mobile du contact." languagecode="1036" />
+            <Description description="Digite o número do celular do contato." languagecode="1046" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="ParentCustomerId">
+          <Type>customer</Type>
+          <Name>parentcustomerid</Name>
+          <LogicalName>parentcustomerid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>1</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <displaynames>
+            <displayname description="Provider" languagecode="1033" />
+            <displayname description="Nombre de la compañía" languagecode="3082" />
+            <displayname description="会社名" languagecode="1041" />
+            <displayname description="Nom de la société" languagecode="1036" />
+            <displayname description="Nome da Empresa" languagecode="2070" />
+            <displayname description="회사 이름" languagecode="1042" />
+            <displayname description="公司名称" languagecode="2052" />
+            <displayname description="Nome da Empresa" languagecode="1046" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier of the account or contact associated with the contact." languagecode="1033" />
+            <Description description="Sélectionnez le compte parent ou le contact parent du contact pour fournir un lien rapide vers les détails supplémentaires, comme les informations financières, les activités et les opportunités." languagecode="1036" />
+            <Description description="选择联系人的上级单位或上级联系人以提供指向其他详细信息(如财务信息、活动和商机)的快速链接。" languagecode="2052" />
+            <Description description="財務情報、活動、営業案件などの追加の詳細情報にすばやくリンクできるようにするために取引先担当者の親会社または上司を選択します。" languagecode="1041" />
+            <Description description="Selecione a conta principal ou o contacto principal do contacto para fornecer uma ligação rápida para detalhes adicionais, como informações financeiras, atividades e oportunidades." languagecode="2070" />
+            <Description description="재무 정보, 활동, 영업 기회와 같은 추가 정보에 대한 퀵 링크를 제공하는 거래처의 상위 거래처 또는 상위 연락처를 선택합니다." languagecode="1042" />
+            <Description description="Seleccione la cuenta primaria o el contacto primario del contacto para proporcionar un vínculo rápido a detalles adicionales, como información financiera, actividades y oportunidades." languagecode="3082" />
+            <Description description="Escolha a conta primária ou o contato principal do contato para fornecer um link rápido para detalhes adicionais, como informações financeiras, atividades e oportunidades." languagecode="1046" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_Alias">
+          <Type>nvarchar</Type>
+          <Name>smp_alias</Name>
+          <LogicalName>smp_alias</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="Alias" languagecode="1033" />
+            <displayname description="Alias" languagecode="1036" />
+            <displayname description="Alias" languagecode="1041" />
+            <displayname description="Alias" languagecode="1042" />
+            <displayname description="Alias" languagecode="2052" />
+            <displayname description="Alias" languagecode="2070" />
+            <displayname description="Alias" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_BuildingId">
+          <Type>lookup</Type>
+          <Name>smp_buildingid</Name>
+          <LogicalName>smp_buildingid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Building" languagecode="1033" />
+            <displayname description="Bâtiment" languagecode="1036" />
+            <displayname description="建物" languagecode="1041" />
+            <displayname description="건물" languagecode="1042" />
+            <displayname description="Construção" languagecode="2070" />
+            <displayname description="Edificio" languagecode="3082" />
+            <displayname description="建筑" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Building associated with Contact." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_Company">
+          <Type>nvarchar</Type>
+          <Name>smp_company</Name>
+          <LogicalName>smp_company</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="Company" languagecode="1033" />
+          </displaynames>
+        </attribute>
+        <attribute PhysicalName="smp_Floor">
+          <Type>lookup</Type>
+          <Name>smp_floor</Name>
+          <LogicalName>smp_floor</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Floor" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Floor associated with Contact." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_RoomNumber">
+          <Type>lookup</Type>
+          <Name>smp_roomnumber</Name>
+          <LogicalName>smp_roomnumber</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Room Number" languagecode="1033" />
+            <displayname description="Numéro/Nom de la sale" languagecode="1036" />
+            <displayname description="座席番号" languagecode="1041" />
+            <displayname description="방 번호" languagecode="1042" />
+            <displayname description="Número do quarto" languagecode="2070" />
+            <displayname description="Número de cuarto" languagecode="3082" />
+            <displayname description="房间号" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="StateCode">
+          <Type>state</Type>
+          <Name>statecode</Name>
+          <LogicalName>statecode</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>1</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <optionset Name="contact_statecode">
+            <OptionSetType>state</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Status" languagecode="1033" />
+              <displayname description="Statut" languagecode="1036" />
+              <displayname description="Estado" languagecode="3082" />
+              <displayname description="状態" languagecode="1041" />
+              <displayname description="状态" languagecode="2052" />
+              <displayname description="Estado" languagecode="2070" />
+              <displayname description="상태" languagecode="1042" />
+              <displayname description="Status" languagecode="1046" />
+            </displaynames>
+            <Descriptions>
+              <Description description="联系人的状态。" languagecode="2052" />
+              <Description description="Estado do contacto." languagecode="2070" />
+              <Description description="Status of the contact." languagecode="1033" />
+              <Description description="Estado del contacto." languagecode="3082" />
+              <Description description="연락처의 상태입니다." languagecode="1042" />
+              <Description description="Statut du contact." languagecode="1036" />
+              <Description description="取引先担当者の状態です。" languagecode="1041" />
+              <Description description="Status do contato." languagecode="1046" />
+            </Descriptions>
+            <states>
+              <state value="0" defaultstatus="1" invariantname="Active">
+                <labels>
+                  <label description="Active" languagecode="1033" />
+                  <label description="Activo" languagecode="3082" />
+                  <label description="활성" languagecode="1042" />
+                  <label description="Ativo" languagecode="2070" />
+                  <label description="Actif" languagecode="1036" />
+                  <label description="可用" languagecode="2052" />
+                  <label description="アクティブ" languagecode="1041" />
+                  <label description="Ativo" languagecode="1046" />
+                </labels>
+              </state>
+              <state value="1" defaultstatus="2" invariantname="Inactive">
+                <labels>
+                  <label description="Inactive" languagecode="1033" />
+                  <label description="停用" languagecode="2052" />
+                  <label description="비활성" languagecode="1042" />
+                  <label description="Inactif" languagecode="1036" />
+                  <label description="Inativo" languagecode="2070" />
+                  <label description="Inactivo" languagecode="3082" />
+                  <label description="非アクティブ" languagecode="1041" />
+                  <label description="Inativo" languagecode="1046" />
+                </labels>
+              </state>
+            </states>
+          </optionset>
+          <displaynames>
+            <displayname description="Status" languagecode="1033" />
+            <displayname description="Estado" languagecode="3082" />
+            <displayname description="Statut" languagecode="1036" />
+            <displayname description="状態" languagecode="1041" />
+            <displayname description="상태" languagecode="1042" />
+            <displayname description="Estado" languagecode="2070" />
+            <displayname description="状态" languagecode="2052" />
+            <displayname description="Status" languagecode="1046" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Shows whether the contact is active or inactive. Inactive contacts are read-only and can't be edited unless they are reactivated." languagecode="1033" />
+            <Description description="取引先担当者がアクティブか非アクティブかを表示します。非アクティブな取引先担当者は読み取り専用のため、再アクティブ化しない限り編集できません。" languagecode="1041" />
+            <Description description="显示联系人的状态是活动的还是停用的。停用的联系人为只读，无法编辑(除非已重新激活)。" languagecode="2052" />
+            <Description description="연락처가 활성인지, 아니면 비활성인지를 표시합니다. 비활성 연락처는 읽기 전용이므로 다시 활성화하지 않으면 편집할 수 없습니다." languagecode="1042" />
+            <Description description="Indique si le contact est actif ou inactif. Les contacts inactifs sont en lecture seule et ne peuvent pas être modifiés avant d'être réactivés." languagecode="1036" />
+            <Description description="Mostra se o contacto está ativo ou inativo. Os contactos inativos são só de leitura e não podem ser editados, a menos que sejam reativados." languagecode="2070" />
+            <Description description="Muestra si el contacto está activo o inactivo. Los contactos inactivos son de solo lectura y no se pueden editar si no se reactivan." languagecode="3082" />
+            <Description description="Status de {0}" languagecode="1046" />
+          </Descriptions>
+        </attribute>
+      </attributes>
+      <EntitySetName>contacts</EntitySetName>
+      <IsDuplicateCheckSupported>1</IsDuplicateCheckSupported>
+      <IsBusinessProcessEnabled>1</IsBusinessProcessEnabled>
+      <IsRequiredOffline>0</IsRequiredOffline>
+      <IsInteractionCentricEnabled>1</IsInteractionCentricEnabled>
+      <IsCollaboration>0</IsCollaboration>
+      <AutoRouteToOwnerQueue>0</AutoRouteToOwnerQueue>
+      <IsConnectionsEnabled>1</IsConnectionsEnabled>
+      <EntityColor>#005088</EntityColor>
+      <IsDocumentManagementEnabled>0</IsDocumentManagementEnabled>
+      <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
+      <IsKnowledgeManagementEnabled>0</IsKnowledgeManagementEnabled>
+      <IsSLAEnabled>0</IsSLAEnabled>
+      <IsDocumentRecommendationsEnabled>0</IsDocumentRecommendationsEnabled>
+      <IsBPFEntity>0</IsBPFEntity>
+      <OwnershipTypeMask>UserOwned</OwnershipTypeMask>
+      <EntityMask>ActivityPointer</EntityMask>
+      <IsAuditEnabled>0</IsAuditEnabled>
+      <IsRetrieveAuditEnabled>0</IsRetrieveAuditEnabled>
+      <IsRetrieveMultipleAuditEnabled>0</IsRetrieveMultipleAuditEnabled>
+      <IsActivity>0</IsActivity>
+      <ActivityTypeMask></ActivityTypeMask>
+      <IsActivityParty>1</IsActivityParty>
+      <IsReplicated>1</IsReplicated>
+      <IsReplicationUserFiltered>1</IsReplicationUserFiltered>
+      <IsMailMergeEnabled>1</IsMailMergeEnabled>
+      <IsVisibleInMobile>1</IsVisibleInMobile>
+      <IsVisibleInMobileClient>1</IsVisibleInMobileClient>
+      <IsReadOnlyInMobileClient>0</IsReadOnlyInMobileClient>
+      <IsOfflineInMobileClient>1</IsOfflineInMobileClient>
+      <DaysSinceRecordLastModified>10</DaysSinceRecordLastModified>
+      <MobileOfflineFilters>
+		&lt;fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false"&gt;
+			&lt;entity name="contact"&gt;
+				&lt;filter type="and"&gt;
+					&lt;condition attribute="modifiedon" operator="last-x-days" value="10"/&gt;
+				&lt;/filter&gt;
+			&lt;/entity&gt;
+		&lt;/fetch&gt;
+      </MobileOfflineFilters>
+      <IsMapiGridEnabled>1</IsMapiGridEnabled>
+      <IsReadingPaneEnabled>1</IsReadingPaneEnabled>
+      <IsQuickCreateEnabled>1</IsQuickCreateEnabled>
+      <SyncToExternalSearchIndex>1</SyncToExternalSearchIndex>
+      <IntroducedVersion>5.0.0.0</IntroducedVersion>
+      <EnforceStateTransitions>0</EnforceStateTransitions>
+      <EntityHelpUrlEnabled>0</EntityHelpUrlEnabled>
+      <ChangeTrackingEnabled>1</ChangeTrackingEnabled>
+      <IsEnabledForExternalChannels>1</IsEnabledForExternalChannels>
+      <IsSolutionAware>0</IsSolutionAware>
+      <HasRelatedNotes>True</HasRelatedNotes>
+      <HasRelatedFeedback>True</HasRelatedFeedback>
+      <HasRelatedActivities>True</HasRelatedActivities>
+    </entity>
+  </EntityInfo>
+  <FormXml />
+  <SavedQueries />
+  <RibbonDiffXml />
+</Entity>

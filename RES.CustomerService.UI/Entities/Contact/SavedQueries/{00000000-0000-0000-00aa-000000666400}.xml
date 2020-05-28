@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{00000000-0000-0000-00aa-000000666400}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="lastname" select="1" icon="1" preview="1">
+        <row name="result" id="contactid">
+          <cell name="smp_companyid" width="100" />
+          <cell name="parentcustomerid" width="100" />
+          <cell name="lastname" width="100" />
+          <cell name="firstname" width="100" />
+          <cell name="emailaddress1" width="100" />
+          <cell name="telephone1" width="125" />
+          <cell name="smp_buildingid" width="100" />
+          <cell name="smp_roomno" width="100" />
+          <cell name="address1_line1" width="100" />
+          <cell name="address1_line2" width="100" />
+          <cell name="address1_city" width="100" />
+          <cell name="address1_stateorprovince" width="100" />
+          <cell name="address1_country" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="contact">
+          <attribute name="telephone1" />
+          <order attribute="lastname" descending="false" />
+          <attribute name="smp_roomno" />
+          <attribute name="parentcustomerid" />
+          <attribute name="lastname" />
+          <attribute name="emailaddress1" />
+          <attribute name="smp_companyid" />
+          <attribute name="smp_buildingid" />
+          <attribute name="address1_line2" />
+          <attribute name="address1_line1" />
+          <attribute name="address1_stateorprovince" />
+          <attribute name="address1_country" />
+          <attribute name="address1_city" />
+          <attribute name="firstname" />
+          <attribute name="contactid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Contacts Advanced Find View" languagecode="1033" />
+      <LocalizedName description="Vue Recherche avancée Contacts" languagecode="1036" />
+      <LocalizedName description="取引先担当者の高度な検索ビュー" languagecode="1041" />
+      <LocalizedName description="연락처의 상세하게 찾기 보기" languagecode="1042" />
+      <LocalizedName description="Visualização de Localização Avançada de Contatos" languagecode="1046" />
+      <LocalizedName description="联系人高级查找视图" languagecode="2052" />
+      <LocalizedName description="Vista Localização Avançada de Contactos" languagecode="2070" />
+      <LocalizedName description="Vista de búsqueda avanzada de contactos" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

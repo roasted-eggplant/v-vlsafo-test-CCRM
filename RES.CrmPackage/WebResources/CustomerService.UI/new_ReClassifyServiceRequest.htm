@@ -1,0 +1,173 @@
+<html><!--
+    <summary>
+      To capture the reclassification  resons while reclassify the existing SR3s.
+    </summary>
+--><head>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js">
+    </script>
+    <script src="./ClientGlobalContext.js.aspx" type="text/javascript"></script>
+    <script type="text/javascript">
+        /* function to handle on ready change */
+        document.onreadystatechange = function () {
+            if (document.readyState === "interactive") {
+                DropdownValues();
+            }
+        };
+
+        /*function to bind the rop drops to relcassification reason */
+        function DropdownValues() {
+            ////alert("DropdownValues");
+            var Options = [];
+            $.ajax({
+                type: "GET",
+                contentType: "application/json; charset=utf-8",
+                datatype: "json",
+                url: Xrm.Page.context.getClientUrl() + "/api/data/v9.0/new_reclassiftingdropdownvalueses?$filter=statecode eq 0",
+                beforeSend: function (XMLHttpRequest) {
+                    XMLHttpRequest.setRequestHeader("Accept", "application/json");
+                },
+                async: false,
+                success: function (data, textStatus, xhr) {
+                    var select = document.getElementById("mylist");
+                    var results = data;
+                    for (var i = 0; i < results.value.length; i++) {
+                        var opt = document.createElement("option");
+                        opt.textContent = results.value[i].new_value;
+                        opt.value = i;
+                        select.appendChild(opt);
+                    }
+                },
+                error: function (xhr, textStatus, errorThrown) {
+                    alert(textStatus + " " + errorThrown);
+                }
+            });
+        }
+
+        /* function to relcassify existing SR */
+        function Reclasify() {
+            var id = getUrlVars()["entityId"].replace("{", "").replace("}", "");
+            var name = getUrlVars()["entitytypename"];
+
+            var IndexValue = document.getElementById("mylist").selectedIndex;
+            var SelectedoptionValue = document.getElementById("mylist").options;
+            var UserComment = document.getElementById("reclassifytxt").value;
+            var UserSelectedReason = SelectedoptionValue[IndexValue].text + ", " + UserComment;
+            if (IndexValue !== 0 && IndexValue !== null) {
+                var entity = {};
+                entity.smp_reasonforreclassifyingtherecordmemo = UserSelectedReason
+                // update the record
+                window["ENTITY_SET_NAMES"] = window["ENTITY_SET_NAMES"] || JSON.stringify({ "incident": "incidents" });
+                Xrm.WebApi.online.updateRecord(name, id, entity).then(
+                    function success(result) {
+                        successCallback(id, name);
+                        // perform operations on record update
+                    },
+                    function (error) {
+                        console.log(error.message);
+                        // handle error conditions
+                    }
+                );
+            }
+            else {
+                alert("Please Select Below Correct Reason for Re-classifying the Service Request");
+            }
+        }
+
+        function successCallback(id, name) {
+            var incidentId = DuplicateSR(id, name);
+            if (incidentId !== "error") {
+                parent.opener.Xrm.Utility.openEntityForm(name, incidentId);
+                window.parent.close();
+            }
+        }
+
+        function DuplicateSR(id, name) {
+            var logicalName = name + "s";
+            var query = logicalName + "(" + id.replace('{', "").replace('}', "") + ")/Microsoft.Dynamics.CRM.smp_Reclassify";
+            var req = new XMLHttpRequest();
+            req.open("POST", parent.opener.Xrm.Page.context.getClientUrl() + "/api/data/v9.0/" + query, false);
+            req.setRequestHeader("Accept", "application/json");
+            req.setRequestHeader("Content-Type", "application/json; charset=utf-8");
+            req.setRequestHeader("OData-MaxVersion", "4.0");
+            req.setRequestHeader("OData-Version", "4.0");
+            req.send();
+            if (req.status === 200) {
+                var result = JSON.parse(req.responseText);
+                return result.incidentid;
+            }
+            else {
+                var error = JSON.parse(this.response).error;
+                Console.log(error.message);
+                return "error";
+            }
+        }
+
+        /* function to close the window */
+        function CLose() {
+            window.parent.close();
+        }
+
+        function getUrlVars() {
+            var globalContext = Xrm.Utility.getGlobalContext();
+            var vars = [], hash;
+            var hashes = unescape(window.location.search.replace('?', ''));
+            if (globalContext.getCurrentAppUrl() !== globalContext.getClientUrl()) {
+                hashes = decodeURIComponent(hashes);
+            }
+            hashes = hashes.replace('Data=', '').replace('data=', '').split(',');
+            var params = hashes[0].split('&');
+            for (var i = 0; i < params.length; i++) {
+                hash = params[i].split('=');
+                vars.push(hash[0]);
+                vars[hash[0]] = hash[1];
+            }
+            return vars;
+        }
+    </script>
+    <meta charset="utf-8">
+<meta></head>
+<body style="word-wrap: break-word;" onfocusout="parent.setEmailRange;">
+    <form>
+        <br>
+        <table>
+            <tbody>
+                <tr>
+                    <td style="font-family: Segoe UI, Tahoma, Arial;">
+                        Please Select the Reason for Reclassifying  :
+                    </td>
+                    <td>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <select id="mylist" style="width: 300px;">
+                            <option>Select</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-family: Segoe UI, Tahoma, Arial;">
+                        Comments  :
+                    </td>
+                    <td>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <textarea rows="5" id="reclassifytxt" style="width: 300px;"></textarea>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <button style="width: auto; margin-left: 30px;" onclick="Reclasify();" type="button">Submit</button>
+                    </td>
+                    <td>
+                        <button style="width: auto; margin-left: 100px;" onclick="CLose();" type="button">Cancel</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+
+</body></html>

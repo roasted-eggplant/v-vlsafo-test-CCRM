@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="incident_customer_accounts">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>Incident</ReferencingEntityName>
+    <ReferencedEntityName>Account</ReferencedEntityName>
+    <CascadeAssign>Cascade</CascadeAssign>
+    <CascadeDelete>Cascade</CascadeDelete>
+    <CascadeReparent>Cascade</CascadeReparent>
+    <CascadeShare>Cascade</CascadeShare>
+    <CascadeUnshare>Cascade</CascadeUnshare>
+    <ReferencingAttributeName>CustomerId</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Unique identifier of the account or contact associated with the case." languagecode="1033" />
+        <Description description="거래처 정보, 활동, 영업 기회와 같은 추가 고객 정보에 대한 퀵 링크를 제공하는 고객 거래처 또는 연락처를 선택합니다." languagecode="1042" />
+        <Description description="Sélectionnez le compte client ou le contact pour fournir un lien rapide vers les détails supplémentaires du client, comme les informations de compte, les activités et les opportunités." languagecode="1036" />
+        <Description description="选择客户帐户或联系人以提供指向其他客户详细信息(如帐户信息、活动和商机)的快速链接。" languagecode="2052" />
+        <Description description="取引先企業の情報、活動、営業案件などの追加の顧客詳細情報にすばやくリンクできるようにするために顧客の取引先企業または取引先担当者を選択します。" languagecode="1041" />
+        <Description description="Seleccione la cuenta o el contacto del cliente para proporcionar un vínculo rápido a detalles adicionales del cliente, como información de cuenta, actividades y oportunidades." languagecode="3082" />
+        <Description description="Selecione a conta ou o contacto do cliente para fornecer uma ligação rápida para detalhes adicionais sobre o cliente, como informações sobre a conta, atividades e oportunidades." languagecode="2070" />
+        <Description description="Selecione a conta ou o contato do cliente para fornecer um link rápido para detalhes adicionais do cliente, como informações sobre a conta, atividades e oportunidades." languagecode="1046" />
+      </Descriptions>
+    </RelationshipDescription>
+    <EntityRelationshipRoles>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>UseCollectionName</NavPaneDisplayOption>
+        <NavPaneArea>Service</NavPaneArea>
+        <NavPaneOrder>10</NavPaneOrder>
+        <NavigationPropertyName>customerid_account</NavigationPropertyName>
+        <RelationshipRoleType>1</RelationshipRoleType>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <RelationshipRoleType>0</RelationshipRoleType>
+      </EntityRelationshipRole>
+    </EntityRelationshipRoles>
+  </EntityRelationship>
+  <EntityRelationship Name="msa_account_incident">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IntroducedVersion>1.0.21</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>Incident</ReferencingEntityName>
+    <ReferencedEntityName>Account</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>Restrict</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <CascadeRollupView>NoCascade</CascadeRollupView>
+    <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+    <ReferencingAttributeName>msa_partnerid</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Creates a Relationship between a Partner (account) and a case for indirect service arrangements." languagecode="1033" />
+        <Description description="" languagecode="1041" />
+        <Description description="" languagecode="3082" />
+        <Description description="" languagecode="1036" />
+        <Description description="" languagecode="2052" />
+        <Description description="" languagecode="2070" />
+        <Description description="" languagecode="1042" />
+      </Descriptions>
+    </RelationshipDescription>
+    <EntityRelationshipRoles>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>UseLabel</NavPaneDisplayOption>
+        <NavPaneArea>Service</NavPaneArea>
+        <NavPaneOrder>100100</NavPaneOrder>
+        <NavigationPropertyName>msa_partnerid</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="Incidentes de Parceiros" languagecode="2070" />
+          <CustomLabel description="Partner Cases" languagecode="1033" />
+          <CustomLabel description="파트너 서비스 케이스" languagecode="1042" />
+          <CustomLabel description="合作伙伴案例" languagecode="2052" />
+          <CustomLabel description="Casos de asociados" languagecode="3082" />
+          <CustomLabel description="Incidents partenaires" languagecode="1036" />
+          <CustomLabel description="パートナーのサポート案件" languagecode="1041" />
+          <CustomLabel description="Casos de parceiros" languagecode="1046" />
+        </CustomLabels>
+        <RelationshipRoleType>1</RelationshipRoleType>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <RelationshipRoleType>0</RelationshipRoleType>
+      </EntityRelationshipRole>
+    </EntityRelationshipRoles>
+  </EntityRelationship>
+  <EntityRelationship Name="msa_account_managingpartner">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IntroducedVersion>1.0.21</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>Account</ReferencingEntityName>
+    <ReferencedEntityName>Account</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>RemoveLink</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <CascadeRollupView>NoCascade</CascadeRollupView>
+    <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+    <ReferencingAttributeName>msa_managingpartnerid</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="与帐户关联的帐户的唯一标识符。" languagecode="2052" />
+        <Description description="取引先企業に関連付けられている取引先企業を表す一意識別子です。" languagecode="1041" />
+        <Description description="Unique identifier for Account associated with Account." languagecode="1033" />
+        <Description description="Identificador exclusivo da Conta associada à Conta." languagecode="2070" />
+        <Description description="Identificador único de la cuenta asociada a la cuenta." languagecode="3082" />
+        <Description description="Identificateur unique du compte associé au compte." languagecode="1036" />
+        <Description description="거래처에 연결된 거래처의 고유 식별자입니다." languagecode="1042" />
+      </Descriptions>
+    </RelationshipDescription>
+    <EntityRelationshipRoles>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>UseLabel</NavPaneDisplayOption>
+        <NavPaneArea>Details</NavPaneArea>
+        <NavPaneOrder>100400</NavPaneOrder>
+        <NavigationPropertyName>msa_managingpartnerid</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="Contas Geridas" languagecode="2070" />
+          <CustomLabel description="Managed Accounts" languagecode="1033" />
+          <CustomLabel description="托管的帐户" languagecode="2052" />
+          <CustomLabel description="Comptes gérés" languagecode="1036" />
+          <CustomLabel description="Cuentas administradas" languagecode="3082" />
+          <CustomLabel description="管理対象の取引先企業" languagecode="1041" />
+          <CustomLabel description="관리되는 거래처" languagecode="1042" />
+          <CustomLabel description="Contas gerenciadas" languagecode="1046" />
+        </CustomLabels>
+        <RelationshipRoleType>1</RelationshipRoleType>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <RelationshipRoleType>0</RelationshipRoleType>
+      </EntityRelationshipRole>
+    </EntityRelationshipRoles>
+  </EntityRelationship>
+  <EntityRelationship Name="msa_contact_managingpartner">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IntroducedVersion>1.0.21</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>Contact</ReferencingEntityName>
+    <ReferencedEntityName>Account</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>RemoveLink</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <CascadeRollupView>NoCascade</CascadeRollupView>
+    <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+    <ReferencingAttributeName>msa_managingpartnerid</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Identificateur unique du compte associé au contact." languagecode="1036" />
+        <Description description="Unique identifier for Account associated with Contact." languagecode="1033" />
+        <Description description="Identificador exclusivo da Conta associada ao Contacto." languagecode="2070" />
+        <Description description="与联系人关联的帐户的唯一标识符。" languagecode="2052" />
+        <Description description="Identificador único de la cuenta asociada al contacto." languagecode="3082" />
+        <Description description="연락처에 연결된 거래처의 고유 식별자입니다." languagecode="1042" />
+        <Description description="取引先担当者に関連付けられている取引先企業を表す一意識別子です。" languagecode="1041" />
+      </Descriptions>
+    </RelationshipDescription>
+    <EntityRelationshipRoles>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>UseLabel</NavPaneDisplayOption>
+        <NavPaneArea>Details</NavPaneArea>
+        <NavPaneOrder>100500</NavPaneOrder>
+        <NavigationPropertyName>msa_managingpartnerid</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="Managed Contacts" languagecode="1033" />
+          <CustomLabel description="Contacts gérés" languagecode="1036" />
+          <CustomLabel description="관리되는 연락처" languagecode="1042" />
+          <CustomLabel description="Contactos Geridos" languagecode="2070" />
+          <CustomLabel description="托管的联系人" languagecode="2052" />
+          <CustomLabel description="管理対象の取引先担当者" languagecode="1041" />
+          <CustomLabel description="Contactos administrados" languagecode="3082" />
+          <CustomLabel description="Contatos gerenciados" languagecode="1046" />
+        </CustomLabels>
+        <RelationshipRoleType>1</RelationshipRoleType>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <RelationshipRoleType>0</RelationshipRoleType>
+      </EntityRelationshipRole>
+    </EntityRelationshipRoles>
+  </EntityRelationship>
+  <EntityRelationship Name="msdyn_account_account_BillingAccount">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IntroducedVersion>3.1.0.3</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>Account</ReferencingEntityName>
+    <ReferencedEntityName>Account</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>RemoveLink</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <CascadeRollupView>NoCascade</CascadeRollupView>
+    <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+    <ReferencingAttributeName>msdyn_BillingAccount</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Reference to an other account to be used for billing (only to be used if billing account differs)" languagecode="1033" />
+        <Description description="Referencia a otra cuenta que se usará para la facturación (solo se usará si la cuenta de facturación es distinta)" languagecode="3082" />
+        <Description description="Référence à un autre compte à utiliser pour la facturation (uniquement si le compte de facturation est différent)" languagecode="1036" />
+        <Description description="請求で使用されるその他の口座の参照です (請求先口座が異なる場合のみ使用されます)" languagecode="1041" />
+        <Description description="청구에 사용되는 다른 계정에 대한 참조(청구 계정이 다른 경우에만 사용됨)" languagecode="1042" />
+        <Description description="Referência a uma outra conta a utilizar para faturação (apenas a ser utilizada se a conta de faturação for diferente)" languagecode="2070" />
+        <Description description="对要用于记帐的其他帐户的引用(仅在记帐帐户不同于此帐户时使用)" languagecode="2052" />
+      </Descriptions>
+    </RelationshipDescription>
+    <EntityRelationshipRoles>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>UseLabel</NavPaneDisplayOption>
+        <NavPaneArea>Details</NavPaneArea>
+        <NavPaneOrder>10000</NavPaneOrder>
+        <NavigationPropertyName>msdyn_billingaccount_account</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="Billed Accounts" languagecode="1033" />
+          <CustomLabel description="Cuentas facturadas" languagecode="3082" />
+          <CustomLabel description="Comptes facturés" languagecode="1036" />
+          <CustomLabel description="請求先口座" languagecode="1041" />
+          <CustomLabel description="청구된 계정" languagecode="1042" />
+          <CustomLabel description="Contas Faturadas" languagecode="2070" />
+          <CustomLabel description="已记帐帐户" languagecode="2052" />
+          <CustomLabel description="Contas Faturadas" languagecode="1046" />
+        </CustomLabels>
+        <RelationshipRoleType>1</RelationshipRoleType>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <RelationshipRoleType>0</RelationshipRoleType>
+      </EntityRelationshipRole>
+    </EntityRelationshipRoles>
+  </EntityRelationship>
+  <EntityRelationship Name="smp_account_incident_Landlord">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IsCustomizable>1</IsCustomizable>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>Incident</ReferencingEntityName>
+    <ReferencedEntityName>Account</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>RemoveLink</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <CascadeRollupView>NoCascade</CascadeRollupView>
+    <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+    <ReferencingAttributeName>smp_LandlordCompanyNameId</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Unique identifier for Provider associated with Service Request." languagecode="1033" />
+        <Description description="" languagecode="1042" />
+        <Description description="" languagecode="2070" />
+        <Description description="" languagecode="3082" />
+        <Description description="" languagecode="1041" />
+        <Description description="" languagecode="1036" />
+        <Description description="" languagecode="2052" />
+      </Descriptions>
+    </RelationshipDescription>
+    <EntityRelationshipRoles>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>DoNotDisplay</NavPaneDisplayOption>
+        <NavigationPropertyName>smp_landlordcompanynameid</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="" languagecode="1033" />
+        </CustomLabels>
+        <RelationshipRoleType>1</RelationshipRoleType>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <NavigationPropertyName>smp_account_incident_Landlord</NavigationPropertyName>
+        <RelationshipRoleType>0</RelationshipRoleType>
+      </EntityRelationshipRole>
+    </EntityRelationshipRoles>
+  </EntityRelationship>
+  <EntityRelationship Name="smp_account_smp_exceptionlog_Provider">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IsCustomizable>1</IsCustomizable>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>smp_exceptionlog</ReferencingEntityName>
+    <ReferencedEntityName>Account</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>RemoveLink</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <CascadeRollupView>NoCascade</CascadeRollupView>
+    <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+    <ReferencingAttributeName>smp_Provider</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Unique identifier for Provider associated with Exception Log." languagecode="1033" />
+      </Descriptions>
+    </RelationshipDescription>
+    <EntityRelationshipRoles>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>DoNotDisplay</NavPaneDisplayOption>
+        <NavPaneArea>Details</NavPaneArea>
+        <NavPaneOrder>10000</NavPaneOrder>
+        <NavigationPropertyName>smp_provider</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="" languagecode="1033" />
+        </CustomLabels>
+        <RelationshipRoleType>1</RelationshipRoleType>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <NavigationPropertyName>smp_account_smp_exceptionlog_Provider</NavigationPropertyName>
+        <RelationshipRoleType>0</RelationshipRoleType>
+      </EntityRelationshipRole>
+    </EntityRelationshipRoles>
+  </EntityRelationship>
+  <EntityRelationship Name="smp_account_smp_providermatrix">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IsCustomizable>1</IsCustomizable>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>smp_providermatrix</ReferencingEntityName>
+    <ReferencedEntityName>Account</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>RemoveLink</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <CascadeRollupView>NoCascade</CascadeRollupView>
+    <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+    <ReferencingAttributeName>smp_PrimaryProviderId</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Unique identifier for Provider associated with Provider Matrix." languagecode="1033" />
+      </Descriptions>
+    </RelationshipDescription>
+    <EntityRelationshipRoles>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>DoNotDisplay</NavPaneDisplayOption>
+        <NavPaneArea>Details</NavPaneArea>
+        <NavPaneOrder>10000</NavPaneOrder>
+        <NavigationPropertyName>smp_primaryproviderid</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="" languagecode="1033" />
+        </CustomLabels>
+        <RelationshipRoleType>1</RelationshipRoleType>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <NavigationPropertyName>smp_account_smp_providermatrix</NavigationPropertyName>
+        <RelationshipRoleType>0</RelationshipRoleType>
+      </EntityRelationshipRole>
+    </EntityRelationshipRoles>
+  </EntityRelationship>
+  <EntityRelationship Name="smp_account_smp_providermatrix_secondary">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IsCustomizable>1</IsCustomizable>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>smp_providermatrix</ReferencingEntityName>
+    <ReferencedEntityName>Account</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>RemoveLink</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <CascadeRollupView>NoCascade</CascadeRollupView>
+    <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+    <ReferencingAttributeName>smp_SecondaryProviderId</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Unique identifier for Provider associated with Provider Matrix." languagecode="1033" />
+      </Descriptions>
+    </RelationshipDescription>
+    <EntityRelationshipRoles>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>DoNotDisplay</NavPaneDisplayOption>
+        <NavPaneArea>Details</NavPaneArea>
+        <NavPaneOrder>10000</NavPaneOrder>
+        <NavigationPropertyName>smp_secondaryproviderid</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="" languagecode="1033" />
+        </CustomLabels>
+        <RelationshipRoleType>1</RelationshipRoleType>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <NavigationPropertyName>smp_account_smp_providermatrix_secondary</NavigationPropertyName>
+        <RelationshipRoleType>0</RelationshipRoleType>
+      </EntityRelationshipRole>
+    </EntityRelationshipRoles>
+  </EntityRelationship>
+  <EntityRelationship Name="smp_account_smp_providermatrix_tertiary">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IsCustomizable>1</IsCustomizable>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>smp_providermatrix</ReferencingEntityName>
+    <ReferencedEntityName>Account</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>RemoveLink</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <CascadeRollupView>NoCascade</CascadeRollupView>
+    <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+    <ReferencingAttributeName>smp_TertiaryProviderId</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Unique identifier for Provider associated with Provider Matrix." languagecode="1033" />
+      </Descriptions>
+    </RelationshipDescription>
+    <EntityRelationshipRoles>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>DoNotDisplay</NavPaneDisplayOption>
+        <NavPaneArea>Details</NavPaneArea>
+        <NavPaneOrder>10000</NavPaneOrder>
+        <NavigationPropertyName>smp_tertiaryproviderid</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="" languagecode="1033" />
+        </CustomLabels>
+        <RelationshipRoleType>1</RelationshipRoleType>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <NavigationPropertyName>smp_account_smp_providermatrix_tertiary</NavigationPropertyName>
+        <RelationshipRoleType>0</RelationshipRoleType>
+      </EntityRelationshipRole>
+    </EntityRelationshipRoles>
+  </EntityRelationship>
+</EntityRelationships>

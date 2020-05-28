@@ -1,0 +1,684 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <OutputType>Library</OutputType>
+    <ProjectGuid>{66B15E14-C229-40EC-B249-803994318710}</ProjectGuid>
+    <ProjectTypeGuids>{4B952A0A-A664-46EC-8D7E-51EBEA2E954D};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CCRM.REF.All.RES.CustomerService.UI</RootNamespace>
+    <AssemblyName>CCRM.REF.All.RES.CustomerService.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <SolutionPackagerDir>..\CoreTools</SolutionPackagerDir>
+    <SolutionLocToolsDir>..\CoreTools</SolutionLocToolsDir>
+    <SolutionType>0</SolutionType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <!--<None Include="MetadataProjectBinPlace.targets" />-->
+    <ResourceDefinition Include="WebResources.xml" />
+    <None Include="Microsoft.Crm.SolutionProjects.Metadata.targets" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Crm.SolutionProjects.MSBuild">
+      <HintPath>$(SolutionDir)packages\Microsoft.Crm.SolutionMSBuildExtention.1.3.2\lib\net452\Microsoft.Crm.SolutionProjects.MSBuild.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Entities\Account\Entity.xml" />
+    <Content Include="Entities\Account\FormXml\main\{64f87031-71ca-4f83-822a-8ce08d870bf3}.xml" />
+    <Content Include="Entities\Account\FormXml\main\{6e4f41f8-653a-48f7-9c4c-aad8c675f86d}.xml" />
+    <Content Include="Entities\Account\FormXml\main\{af00eba7-e84d-4df3-837a-0fc43f7e777d}.xml" />
+    <Content Include="Entities\Account\FormXml\main\{b053a39a-041a-4356-acef-ddf00182762b}.xml" />
+    <Content Include="Entities\Account\FormXml\main\{c29a9cdd-aef1-402d-ac6c-01da783afbbf}.xml" />
+    <Content Include="Entities\Account\FormXml\quick\{65336cb5-8775-4ee2-87fd-e285aa463ca5}.xml" />
+    <Content Include="Entities\Account\RibbonDiff.xml" />
+    <Content Include="Entities\Account\SavedQueries\{00000000-0000-0000-00aa-000000666000}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{00000000-0000-0000-00aa-000010001001}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{00000000-0000-0000-00aa-000010001002}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{00000000-0000-0000-00aa-000010001031}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{00000000-0000-0000-00aa-000010001200}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{2d1187c4-23fe-4bb5-9647-43bb1c6ddbd1}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{65ffaf9a-e8c5-432d-860b-32f841b00d87}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{a9af0ab8-861d-4cfa-92a5-c6281fed7fab}.xml" />
+    <Content Include="Entities\Account\SavedQueries\{f3378010-ee11-e811-8116-5065f38bc1a1}.xml" />
+    <Content Include="Entities\Contact\Entity.xml" />
+    <Content Include="Entities\Contact\FormXml\main\{0bd832d5-9d6a-456d-bdc1-21129e82cc0f}.xml" />
+    <Content Include="Entities\Contact\FormXml\main\{657bed95-e04a-4cab-965f-899ca32e1a11}.xml" />
+    <Content Include="Entities\Contact\FormXml\main\{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}.xml" />
+    <Content Include="Entities\Contact\FormXml\main\{ec9a685c-cf7d-46a9-8bec-ede82262395a}.xml" />
+    <Content Include="Entities\Contact\FormXml\quick\{6f5c0955-3576-4e42-8101-f31e6be9ef72}.xml" />
+    <Content Include="Entities\Contact\RibbonDiff.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{00000000-0000-0000-00aa-000000666400}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{00000000-0000-0000-00aa-000010001003}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{00000000-0000-0000-00aa-000010001004}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{00000000-0000-0000-00aa-000010001033}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{00000000-0000-0000-00aa-000010001210}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{73bc2d9b-4e0e-424c-8839-ed59d6817e3a}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{8df19b44-a073-40c3-9d6d-ee1355d8c4ba}.xml" />
+    <Content Include="Entities\Contact\SavedQueries\{901138ac-0343-e211-ab09-00155dc83f23}.xml" />
+    <Content Include="Entities\Incident\Entity.xml" />
+    <Content Include="Entities\Incident\FormXml\main\{4a63c8d1-6c1e-48ec-9db4-3e6c7155334c}.xml" />
+    <Content Include="Entities\Incident\FormXml\main\{5344d305-2509-4b8c-bb9e-a8d7c58a952e}.xml" />
+    <Content Include="Entities\Incident\FormXml\main\{bb5b1a96-a037-4872-8b3a-5bef372f9203}.xml" />
+    <Content Include="Entities\Incident\FormXml\main\{e40de8f4-b4bc-498e-a835-c91f0dd3dc13}.xml" />
+    <Content Include="Entities\Incident\RibbonDiff.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{00000000-0000-0000-00aa-000010001029}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{00000000-0000-0000-00aa-000010001030}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{00000000-0000-0000-00aa-000010001032}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{00000000-0000-0000-00aa-000010001034}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{19e8db86-4d2c-e311-89c0-78e3b5106e13}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{36bab8df-a1b8-e711-80fd-3863bb35ed38}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{8cf7d7e7-4af7-e811-a971-000d3a30d7c8}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{8f35c990-a1b8-e711-80fd-3863bb35ed38}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{98a717a6-42f7-e811-a971-000d3a30d7c8}.xml" />
+    <Content Include="Entities\Incident\SavedQueries\{b16f2c33-f742-e211-ab09-00155dc83f23}.xml" />
+    <Content Include="Entities\Product\Entity.xml" />
+    <Content Include="Entities\Product\RibbonDiff.xml" />
+    <Content Include="Entities\smp_8x8mailbox\Entity.xml" />
+    <Content Include="Entities\smp_8x8mailbox\FormXml\main\{067e0e62-7192-46b8-ace8-6bc369de89d6}.xml" />
+    <Content Include="Entities\smp_8x8mailbox\RibbonDiff.xml" />
+    <Content Include="Entities\smp_8x8mailbox\SavedQueries\{674db7fe-3b45-42ea-b681-9918413846e0}.xml" />
+    <Content Include="Entities\smp_8x8mailbox\SavedQueries\{6ec09dcf-e126-4ab9-8561-6b790b931a61}.xml" />
+    <Content Include="Entities\smp_8x8mailbox\SavedQueries\{9ab46646-dd8a-4c5f-8d29-dea37c55590b}.xml" />
+    <Content Include="Entities\smp_8x8mailbox\SavedQueries\{bb34d3f1-ad78-4cf9-b3e6-ba1b30d1aa9d}.xml" />
+    <Content Include="Entities\smp_8x8mailbox\SavedQueries\{cd0164eb-e2eb-4b5d-8890-94b044c51dab}.xml" />
+    <Content Include="Entities\smp_8x8mailbox\SavedQueries\{ce632616-d0fb-44b7-a4fc-165fc05cde1d}.xml" />
+    <Content Include="Entities\smp_attachmentsurl\Entity.xml" />
+    <Content Include="Entities\smp_attachmentsurl\FormXml\card\{a5bb5e07-f6e8-48c2-85e2-4d4f8b246c2d}.xml" />
+    <Content Include="Entities\smp_attachmentsurl\FormXml\main\{92c0ec5c-91f6-40fe-b6f8-e715ea1bf00b}.xml" />
+    <Content Include="Entities\smp_attachmentsurl\FormXml\quick\{4bf910a2-63a5-4b4a-91d3-65dc0d2f250f}.xml" />
+    <Content Include="Entities\smp_attachmentsurl\RibbonDiff.xml" />
+    <Content Include="Entities\smp_attachmentsurl\SavedQueries\{4dfdf0ef-8406-45e0-825a-b38a6d8b0f0a}.xml" />
+    <Content Include="Entities\smp_attachmentsurl\SavedQueries\{55a7adb9-9947-4c38-a56a-be11d861e472}.xml" />
+    <Content Include="Entities\smp_attachmentsurl\SavedQueries\{72aa5878-9639-4b7a-8fdd-38847e9a4a69}.xml" />
+    <Content Include="Entities\smp_attachmentsurl\SavedQueries\{b8a37438-16d3-4465-ab23-347b544d8c7f}.xml" />
+    <Content Include="Entities\smp_attachmentsurl\SavedQueries\{c0ec77a5-ab14-42cc-b13d-0b8ea327a7b9}.xml" />
+    <Content Include="Entities\smp_attachmentsurl\SavedQueries\{da5f323b-3079-45eb-a8e7-0f0a6dfa2249}.xml" />
+    <Content Include="Entities\smp_auditconfiguration\Entity.xml" />
+    <Content Include="Entities\smp_auditconfiguration\FormXml\main\{56414d99-71ea-4da0-aabd-361aaa2d491a}.xml" />
+    <Content Include="Entities\smp_auditconfiguration\RibbonDiff.xml" />
+    <Content Include="Entities\smp_auditconfiguration\SavedQueries\{067785b4-4c8e-42e9-84dd-f3633db6e7a9}.xml" />
+    <Content Include="Entities\smp_auditconfiguration\SavedQueries\{164e0c51-708c-452a-bf95-859b68b1343b}.xml" />
+    <Content Include="Entities\smp_auditconfiguration\SavedQueries\{660caf90-1bc9-484f-8203-c6c8bb1a8b95}.xml" />
+    <Content Include="Entities\smp_auditconfiguration\SavedQueries\{c19e0ad1-af7c-4850-bec9-45214a0d6760}.xml" />
+    <Content Include="Entities\smp_auditconfiguration\SavedQueries\{d80e3d09-2d04-448d-b122-72ab7fb37b2b}.xml" />
+    <Content Include="Entities\smp_auditconfiguration\SavedQueries\{e93d6e3d-80da-4e4a-a1de-2ea54304bbf9}.xml" />
+    <Content Include="Entities\smp_auditlog\Entity.xml" />
+    <Content Include="Entities\smp_auditlog\FormXml\main\{0b579b9f-f56b-4f10-bef8-8173b9396ce4}.xml" />
+    <Content Include="Entities\smp_auditlog\RibbonDiff.xml" />
+    <Content Include="Entities\smp_auditlog\SavedQueries\{0eca9b4b-cf1a-43da-be8c-804b26cc267a}.xml" />
+    <Content Include="Entities\smp_auditlog\SavedQueries\{5774abd7-e02f-41f2-aaf5-328974b4f676}.xml" />
+    <Content Include="Entities\smp_auditlog\SavedQueries\{5f0a9410-1260-4095-8069-50c7bd6ebac7}.xml" />
+    <Content Include="Entities\smp_auditlog\SavedQueries\{7075ec6d-0915-4520-9c52-dd6ae4f362b5}.xml" />
+    <Content Include="Entities\smp_auditlog\SavedQueries\{cd41cace-9e27-406d-b82c-0fa825c64bae}.xml" />
+    <Content Include="Entities\smp_auditlog\SavedQueries\{d988f29a-b27e-49d4-9c5f-b37c41443f2f}.xml" />
+    <Content Include="Entities\smp_buildingannouncement\Entity.xml" />
+    <Content Include="Entities\smp_buildingannouncement\FormXml\main\{f1906fd6-6cc8-417c-baf2-8298133d8851}.xml" />
+    <Content Include="Entities\smp_buildingannouncement\RibbonDiff.xml" />
+    <Content Include="Entities\smp_buildingannouncement\SavedQueries\{6ba9648d-ae0d-4793-a173-91bc98f10cba}.xml" />
+    <Content Include="Entities\smp_buildingannouncement\SavedQueries\{94b5c091-c479-e211-90bd-08002700f46f}.xml" />
+    <Content Include="Entities\smp_buildingannouncement\SavedQueries\{993bf5b3-f740-46dd-b3da-e97838df32c0}.xml" />
+    <Content Include="Entities\smp_buildingannouncement\SavedQueries\{9b6e0098-d180-4363-865c-4f5fa1dcb85f}.xml" />
+    <Content Include="Entities\smp_buildingannouncement\SavedQueries\{cea1f4ee-0dce-49b2-bd17-ecba4263b455}.xml" />
+    <Content Include="Entities\smp_buildingannouncement\SavedQueries\{dadb6942-0fac-46e4-9268-0eca7351aa25}.xml" />
+    <Content Include="Entities\smp_buildingannouncement\SavedQueries\{dfb445bf-9fcd-4fe8-b2e1-d29c2a246c71}.xml" />
+    <Content Include="Entities\smp_buildingworkhours\Entity.xml" />
+    <Content Include="Entities\smp_buildingworkhours\FormXml\main\{8d4e774b-1efa-4166-823f-e47de9e80825}.xml" />
+    <Content Include="Entities\smp_buildingworkhours\RibbonDiff.xml" />
+    <Content Include="Entities\smp_buildingworkhours\SavedQueries\{13ed50f1-0024-4f54-a42a-c66b0034ec12}.xml" />
+    <Content Include="Entities\smp_buildingworkhours\SavedQueries\{8a44f9ce-c530-4edd-ab86-fc3200434b92}.xml" />
+    <Content Include="Entities\smp_buildingworkhours\SavedQueries\{8e096e0f-4982-4fe7-9bdb-c328bb390c48}.xml" />
+    <Content Include="Entities\smp_buildingworkhours\SavedQueries\{ae002a53-9f2f-4784-b518-62ddbbe31b1f}.xml" />
+    <Content Include="Entities\smp_buildingworkhours\SavedQueries\{cafa6072-d9dd-42f4-b428-10f919f35eae}.xml" />
+    <Content Include="Entities\smp_buildingworkhours\SavedQueries\{dad3ed53-9d4e-489e-be96-7c2294176b6d}.xml" />
+    <Content Include="Entities\smp_building\Entity.xml" />
+    <Content Include="Entities\smp_building\FormXml\main\{1c34f5c8-5f2e-4d97-b181-43a515db9e7d}.xml" />
+    <Content Include="Entities\smp_building\FormXml\quick\{33782284-0987-4ecb-ad44-49a742e634fb}.xml" />
+    <Content Include="Entities\smp_building\RibbonDiff.xml" />
+    <Content Include="Entities\smp_building\SavedQueries\{27916000-0e15-4813-aad6-1d068f368318}.xml" />
+    <Content Include="Entities\smp_building\SavedQueries\{29bdf37b-862b-41a9-971e-a945c61eb7d3}.xml" />
+    <Content Include="Entities\smp_building\SavedQueries\{4a2463fa-cc4e-e811-811d-5065f38bc1a1}.xml" />
+    <Content Include="Entities\smp_building\SavedQueries\{4ed224c4-1485-474e-945d-aa5e43bb0c09}.xml" />
+    <Content Include="Entities\smp_building\SavedQueries\{59185f8c-5be5-4366-9afc-0338f7cedb2d}.xml" />
+    <Content Include="Entities\smp_building\SavedQueries\{9a1a715f-8a84-4363-b88d-199281705d7b}.xml" />
+    <Content Include="Entities\smp_building\SavedQueries\{cfe385ae-cdd6-4e8d-a028-594b15c63193}.xml" />
+    <Content Include="Entities\smp_businessunit\Entity.xml" />
+    <Content Include="Entities\smp_businessunit\FormXml\main\{6ac6bb4e-e51c-468b-bc91-5549014270cb}.xml" />
+    <Content Include="Entities\smp_businessunit\RibbonDiff.xml" />
+    <Content Include="Entities\smp_businessunit\SavedQueries\{21379382-63b9-49c0-85cb-be2cc720678f}.xml" />
+    <Content Include="Entities\smp_businessunit\SavedQueries\{26412dab-9ec6-4a1d-9c95-df121f75c9e2}.xml" />
+    <Content Include="Entities\smp_businessunit\SavedQueries\{5308f009-a552-475e-8a3c-4352b4a51fd3}.xml" />
+    <Content Include="Entities\smp_businessunit\SavedQueries\{67be19cf-3c32-4e1b-b6e4-bd3402ff1356}.xml" />
+    <Content Include="Entities\smp_businessunit\SavedQueries\{81100d6c-65ef-4beb-80ef-6a4aaa3d4a6c}.xml" />
+    <Content Include="Entities\smp_businessunit\SavedQueries\{85010706-679e-4f2b-b30c-fec3e81b4a6a}.xml" />
+    <Content Include="Entities\smp_company\Entity.xml" />
+    <Content Include="Entities\smp_company\FormXml\main\{d446c421-5d1d-40a5-ba3b-a31e850ef95c}.xml" />
+    <Content Include="Entities\smp_company\RibbonDiff.xml" />
+    <Content Include="Entities\smp_company\SavedQueries\{20b628ad-43e2-4f1b-a0ae-587396544aa8}.xml" />
+    <Content Include="Entities\smp_company\SavedQueries\{36fd4f0f-d435-4b46-887b-85fae1aa9808}.xml" />
+    <Content Include="Entities\smp_company\SavedQueries\{51677c1c-333b-4842-81b7-8738935d43ef}.xml" />
+    <Content Include="Entities\smp_company\SavedQueries\{539e3c8a-48dc-4cb5-9c82-35490523d83c}.xml" />
+    <Content Include="Entities\smp_company\SavedQueries\{6ffa64fe-1eb4-4782-8588-c3b6f263a33b}.xml" />
+    <Content Include="Entities\smp_company\SavedQueries\{d334fb15-4d56-4278-b4ae-2a782c1269cd}.xml" />
+    <Content Include="Entities\smp_confidentialnotes\Entity.xml" />
+    <Content Include="Entities\smp_confidentialnotes\FormXml\main\{14fd094c-5f2b-4ae0-82b8-0680baae1dfd}.xml" />
+    <Content Include="Entities\smp_confidentialnotes\RibbonDiff.xml" />
+    <Content Include="Entities\smp_confidentialnotes\SavedQueries\{360be090-03cf-45d3-a174-13ff704392a0}.xml" />
+    <Content Include="Entities\smp_confidentialnotes\SavedQueries\{5fcd81f5-84e0-426e-854d-ff390182a7a0}.xml" />
+    <Content Include="Entities\smp_confidentialnotes\SavedQueries\{61a59c41-1684-4351-a98c-e8e4560f3371}.xml" />
+    <Content Include="Entities\smp_confidentialnotes\SavedQueries\{b5da53e4-55fc-48c0-ba15-2b365fb48e63}.xml" />
+    <Content Include="Entities\smp_confidentialnotes\SavedQueries\{d0e33334-0892-4ab2-a1c5-235fb30348cf}.xml" />
+    <Content Include="Entities\smp_confidentialnotes\SavedQueries\{d838d7d5-3e89-4e22-bcc7-a838f85bf8ba}.xml" />
+    <Content Include="Entities\smp_configuration\Entity.xml" />
+    <Content Include="Entities\smp_configuration\FormXml\main\{acbd7628-502a-46b4-be42-a8a44e390b11}.xml" />
+    <Content Include="Entities\smp_configuration\RibbonDiff.xml" />
+    <Content Include="Entities\smp_configuration\SavedQueries\{31ca6e7c-f3ae-4196-b94e-37f2dfe8d5c0}.xml" />
+    <Content Include="Entities\smp_configuration\SavedQueries\{56ccde02-d01e-4b11-b55d-74cc3adf070c}.xml" />
+    <Content Include="Entities\smp_configuration\SavedQueries\{71c1d7b6-df03-48b7-b085-be07cf4c90bd}.xml" />
+    <Content Include="Entities\smp_configuration\SavedQueries\{95ecf267-c662-44f2-8ac7-26e8beee0b04}.xml" />
+    <Content Include="Entities\smp_configuration\SavedQueries\{e6fd2f89-4020-4ed9-9e64-4bbf0d4f7cba}.xml" />
+    <Content Include="Entities\smp_configuration\SavedQueries\{f07df926-561a-4612-b676-5314ead3dc2e}.xml" />
+    <Content Include="Entities\smp_country\Entity.xml" />
+    <Content Include="Entities\smp_country\FormXml\main\{66d380a7-9bc5-4005-ba5c-39f2419c4b63}.xml" />
+    <Content Include="Entities\smp_country\RibbonDiff.xml" />
+    <Content Include="Entities\smp_country\SavedQueries\{3936e4b3-e444-4585-aa13-b3d745591d7b}.xml" />
+    <Content Include="Entities\smp_country\SavedQueries\{5c106e50-dbfb-446a-b3e2-01ca3e04612f}.xml" />
+    <Content Include="Entities\smp_country\SavedQueries\{626ebae4-0ea3-4098-aaea-591ed9ddf160}.xml" />
+    <Content Include="Entities\smp_country\SavedQueries\{9d24a27b-7aa9-49f5-a5bd-ddc9bb0659e1}.xml" />
+    <Content Include="Entities\smp_country\SavedQueries\{d15e5cfb-e2c7-4342-a5c2-45807e540654}.xml" />
+    <Content Include="Entities\smp_country\SavedQueries\{dd2e8688-922b-420a-8600-ebf29029f1bc}.xml" />
+    <Content Include="Entities\smp_dwhlog\Entity.xml" />
+    <Content Include="Entities\smp_dwhlog\FormXml\card\{0bab0ed9-74a4-435c-92f7-493d1f397e9d}.xml" />
+    <Content Include="Entities\smp_dwhlog\FormXml\main\{5830735d-e2ca-476c-9c93-ca4ca608b2b1}.xml" />
+    <Content Include="Entities\smp_dwhlog\FormXml\quick\{caec61ec-3fd7-44d4-a26e-053aa83dbcfa}.xml" />
+    <Content Include="Entities\smp_dwhlog\RibbonDiff.xml" />
+    <Content Include="Entities\smp_dwhlog\SavedQueries\{044a736f-0837-4ec0-9daa-982768fa86d4}.xml" />
+    <Content Include="Entities\smp_dwhlog\SavedQueries\{5b3d662e-34ce-40f7-aea0-279b7c52587b}.xml" />
+    <Content Include="Entities\smp_dwhlog\SavedQueries\{9655cc26-73b2-49e2-b41b-09d04b4fc024}.xml" />
+    <Content Include="Entities\smp_dwhlog\SavedQueries\{b726ab39-371d-4393-927d-5ed2d5366469}.xml" />
+    <Content Include="Entities\smp_dwhlog\SavedQueries\{b75261cb-635f-43a7-8239-6f6c9a750be5}.xml" />
+    <Content Include="Entities\smp_dwhlog\SavedQueries\{d835111f-6ce5-4767-b39d-134ca76c9ec8}.xml" />
+    <Content Include="Entities\smp_escalation\Entity.xml" />
+    <Content Include="Entities\smp_escalation\FormXml\main\{4fe3f164-e254-47b3-9a43-a90f06e19c30}.xml" />
+    <Content Include="Entities\smp_escalation\RibbonDiff.xml" />
+    <Content Include="Entities\smp_escalation\SavedQueries\{07003b9b-bf70-4c1d-84cb-13471d333dab}.xml" />
+    <Content Include="Entities\smp_escalation\SavedQueries\{26fb5d9a-6848-4581-8f6a-f55c5e86dd34}.xml" />
+    <Content Include="Entities\smp_escalation\SavedQueries\{85d339ce-2978-4ce3-9b43-8f7e4eb0ed50}.xml" />
+    <Content Include="Entities\smp_escalation\SavedQueries\{8f59c2c1-b51a-4335-8bf4-1999ce5b2a0f}.xml" />
+    <Content Include="Entities\smp_escalation\SavedQueries\{a7e0199c-d08f-443b-92a2-2cea374f8302}.xml" />
+    <Content Include="Entities\smp_escalation\SavedQueries\{fbcdc563-1eda-42f2-9a29-bfcf5d1b68d8}.xml" />
+    <Content Include="Entities\smp_exceptionlog\Entity.xml" />
+    <Content Include="Entities\smp_exceptionlog\FormXml\main\{a9626546-4159-4b43-9978-dfc65dfcf3ed}.xml" />
+    <Content Include="Entities\smp_exceptionlog\RibbonDiff.xml" />
+    <Content Include="Entities\smp_exceptionlog\SavedQueries\{0a345321-9ba0-41d9-a59c-000080dc4a10}.xml" />
+    <Content Include="Entities\smp_exceptionlog\SavedQueries\{4b9796ac-848b-4ed8-a26b-2e318066a783}.xml" />
+    <Content Include="Entities\smp_exceptionlog\SavedQueries\{4bf2081c-1b7a-49f1-b393-eb384583f6a5}.xml" />
+    <Content Include="Entities\smp_exceptionlog\SavedQueries\{4d20640d-b924-4f7a-9346-eaebe74ceace}.xml" />
+    <Content Include="Entities\smp_exceptionlog\SavedQueries\{63f88066-a0a6-4f5c-aa72-3926d8b7e2d2}.xml" />
+    <Content Include="Entities\smp_exceptionlog\SavedQueries\{d5a92b14-c9bd-4dba-b5f5-4ac649d31b4c}.xml" />
+    <Content Include="Entities\smp_externallinks\Entity.xml" />
+    <Content Include="Entities\smp_externallinks\FormXml\main\{cabd95e7-1f30-4251-b6a9-6627de6c9150}.xml" />
+    <Content Include="Entities\smp_externallinks\RibbonDiff.xml" />
+    <Content Include="Entities\smp_externallinks\SavedQueries\{011f8976-4ce7-4715-99b6-6410cefe9033}.xml" />
+    <Content Include="Entities\smp_externallinks\SavedQueries\{21250058-09fe-42fd-9777-371cb59793a2}.xml" />
+    <Content Include="Entities\smp_externallinks\SavedQueries\{41fe30fc-eefd-4174-95ca-cf3dde369c53}.xml" />
+    <Content Include="Entities\smp_externallinks\SavedQueries\{a485ecbd-feb4-41f2-8057-11c604e45831}.xml" />
+    <Content Include="Entities\smp_externallinks\SavedQueries\{d49b7fcc-e9ff-426a-81e2-398203c6f9e3}.xml" />
+    <Content Include="Entities\smp_externallinks\SavedQueries\{de0344bc-bf5e-43e6-98c7-cf6a2648ed88}.xml" />
+    <Content Include="Entities\smp_floor\Entity.xml" />
+    <Content Include="Entities\smp_floor\FormXml\main\{9a41fd75-73fb-430f-b8bd-3c99c6ed8f68}.xml" />
+    <Content Include="Entities\smp_floor\RibbonDiff.xml" />
+    <Content Include="Entities\smp_floor\SavedQueries\{1cec0344-11eb-47f5-872c-c84a05630302}.xml" />
+    <Content Include="Entities\smp_floor\SavedQueries\{5a10c25b-6455-4968-859b-2a4c47a07f6b}.xml" />
+    <Content Include="Entities\smp_floor\SavedQueries\{66a65f69-b62f-4393-88ee-9e8f45dccfdc}.xml" />
+    <Content Include="Entities\smp_floor\SavedQueries\{7286c971-eb79-4fbd-bc42-330ed095b9fb}.xml" />
+    <Content Include="Entities\smp_floor\SavedQueries\{b798fe29-8dfe-4d46-a651-34c376c615e4}.xml" />
+    <Content Include="Entities\smp_floor\SavedQueries\{e7a8a2b5-5235-4871-98d3-4e48b82eb06f}.xml" />
+    <Content Include="Entities\smp_fulfilmentrequestlineitem\Entity.xml" />
+    <Content Include="Entities\smp_fulfilmentrequestlineitem\FormXml\main\{b5475ca3-dd1b-4012-bec7-9d24f2180acb}.xml" />
+    <Content Include="Entities\smp_fulfilmentrequestlineitem\RibbonDiff.xml" />
+    <Content Include="Entities\smp_fulfilmentrequestlineitem\SavedQueries\{1c177b97-510a-43a0-a0cf-20f55f5cdf4a}.xml" />
+    <Content Include="Entities\smp_fulfilmentrequestlineitem\SavedQueries\{20bf7c7f-ec45-4b33-9434-65e6922e2d1b}.xml" />
+    <Content Include="Entities\smp_fulfilmentrequestlineitem\SavedQueries\{4a073f7d-7bf0-42e2-9550-4f0dfb6525d3}.xml" />
+    <Content Include="Entities\smp_fulfilmentrequestlineitem\SavedQueries\{5a52ff94-bf74-4ce7-ba47-b386266628ef}.xml" />
+    <Content Include="Entities\smp_fulfilmentrequestlineitem\SavedQueries\{9d9c9d2a-e65d-43f3-9c5d-1d80aefae9a2}.xml" />
+    <Content Include="Entities\smp_fulfilmentrequestlineitem\SavedQueries\{c1b1b0bf-4afc-49e7-a8d0-9f6a1d87b0c6}.xml" />
+    <Content Include="Entities\smp_holiday\Entity.xml" />
+    <Content Include="Entities\smp_holiday\FormXml\main\{ea632328-455c-4a79-9a80-f681a4709479}.xml" />
+    <Content Include="Entities\smp_holiday\RibbonDiff.xml" />
+    <Content Include="Entities\smp_holiday\SavedQueries\{17783bce-8316-4212-be79-ec2273c5fc0e}.xml" />
+    <Content Include="Entities\smp_holiday\SavedQueries\{321c3c77-7233-4373-aba8-1ee28614c271}.xml" />
+    <Content Include="Entities\smp_holiday\SavedQueries\{349dc2ca-d7be-4778-8042-9d4e14eba154}.xml" />
+    <Content Include="Entities\smp_holiday\SavedQueries\{73c4c5f6-daa5-447d-9088-37b35089de49}.xml" />
+    <Content Include="Entities\smp_holiday\SavedQueries\{c4d908a3-4bba-4099-a12c-957b972a9977}.xml" />
+    <Content Include="Entities\smp_holiday\SavedQueries\{e63f66a8-fea8-4574-909b-1ec1ca3c8ba7}.xml" />
+    <Content Include="Entities\smp_ineedto\Entity.xml" />
+    <Content Include="Entities\smp_ineedto\FormXml\main\{69087b9c-5a0c-4262-ad23-90453ee9ab19}.xml" />
+    <Content Include="Entities\smp_ineedto\RibbonDiff.xml" />
+    <Content Include="Entities\smp_ineedto\SavedQueries\{0bc2931d-8ee5-4ad6-90ff-a514695bd630}.xml" />
+    <Content Include="Entities\smp_ineedto\SavedQueries\{1d010ec3-1fcd-4ab1-9f83-3a44986aa4b5}.xml" />
+    <Content Include="Entities\smp_ineedto\SavedQueries\{3bccde7b-30bc-404f-a80e-71931816192d}.xml" />
+    <Content Include="Entities\smp_ineedto\SavedQueries\{62967d12-65fb-43a4-a150-242b94a0f23c}.xml" />
+    <Content Include="Entities\smp_ineedto\SavedQueries\{ab9a8360-7dd3-411e-bca4-6875f4bb81a1}.xml" />
+    <Content Include="Entities\smp_ineedto\SavedQueries\{b11f2892-a412-4958-a5a6-7c46ebf9acc3}.xml" />
+    <Content Include="Entities\smp_priority\Entity.xml" />
+    <Content Include="Entities\smp_priority\FormXml\main\{ff8cc6b9-bbe0-4ba2-9479-447077146261}.xml" />
+    <Content Include="Entities\smp_priority\RibbonDiff.xml" />
+    <Content Include="Entities\smp_priority\SavedQueries\{00d2965e-4e12-45d4-8c7d-2a546f966fba}.xml" />
+    <Content Include="Entities\smp_priority\SavedQueries\{190e7534-8e1b-436e-a75e-21dbd2caa0fa}.xml" />
+    <Content Include="Entities\smp_priority\SavedQueries\{40f80c00-ecee-4f06-899a-aac8b07854bc}.xml" />
+    <Content Include="Entities\smp_priority\SavedQueries\{4dbea70d-019f-448a-9a6b-6dcee61aea60}.xml" />
+    <Content Include="Entities\smp_priority\SavedQueries\{7041461c-5ae0-42d5-a17f-9aa9cf8d3e57}.xml" />
+    <Content Include="Entities\smp_priority\SavedQueries\{8fc9bafe-4b6c-4570-8286-57fd166acd1f}.xml" />
+    <Content Include="Entities\smp_problemclass\Entity.xml" />
+    <Content Include="Entities\smp_problemclass\FormXml\main\{731d553a-a6f8-499e-98ab-62bfa99530d0}.xml" />
+    <Content Include="Entities\smp_problemclass\RibbonDiff.xml" />
+    <Content Include="Entities\smp_problemclass\SavedQueries\{00cf8ab6-fc3c-47da-bf16-79b237aadcb6}.xml" />
+    <Content Include="Entities\smp_problemclass\SavedQueries\{54b256af-1469-448c-be44-275cf00cd61e}.xml" />
+    <Content Include="Entities\smp_problemclass\SavedQueries\{76fbba25-7ff9-4ebe-a154-1d5b75ed991e}.xml" />
+    <Content Include="Entities\smp_problemclass\SavedQueries\{8177ada2-8438-423e-b5b4-6efef1fa649b}.xml" />
+    <Content Include="Entities\smp_problemclass\SavedQueries\{d2137f38-611a-41b5-a809-1a09ef6dfa51}.xml" />
+    <Content Include="Entities\smp_problemclass\SavedQueries\{f6b82d26-b835-4a35-b453-18c5cd4e042e}.xml" />
+    <Content Include="Entities\smp_problemtypedescription\Entity.xml" />
+    <Content Include="Entities\smp_problemtypedescription\FormXml\main\{14039cec-369e-4983-9d54-aa69523ae1e4}.xml" />
+    <Content Include="Entities\smp_problemtypedescription\RibbonDiff.xml" />
+    <Content Include="Entities\smp_problemtypedescription\SavedQueries\{4278f1d1-8619-46ae-97be-42f344ed8a2d}.xml" />
+    <Content Include="Entities\smp_problemtypedescription\SavedQueries\{57b9b1fc-0baf-4767-b1bd-26e569bd0c24}.xml" />
+    <Content Include="Entities\smp_problemtypedescription\SavedQueries\{94389750-f44b-481f-a819-b1452e560a6d}.xml" />
+    <Content Include="Entities\smp_problemtypedescription\SavedQueries\{c72fbb77-5360-4bd4-bece-ae00239fd5ae}.xml" />
+    <Content Include="Entities\smp_problemtypedescription\SavedQueries\{d9c00125-8a73-403b-9924-938dcb16a041}.xml" />
+    <Content Include="Entities\smp_problemtypedescription\SavedQueries\{f0ab6223-8309-41c7-aff9-627ef9916464}.xml" />
+    <Content Include="Entities\smp_problemtype\Entity.xml" />
+    <Content Include="Entities\smp_problemtype\FormXml\main\{135eb841-7e2d-47b9-91fc-0c0cadd8a4c7}.xml" />
+    <Content Include="Entities\smp_problemtype\RibbonDiff.xml" />
+    <Content Include="Entities\smp_problemtype\SavedQueries\{52e64032-bced-4c08-850c-35a7fa89dee9}.xml" />
+    <Content Include="Entities\smp_problemtype\SavedQueries\{638ef3f8-9fb0-4f0e-a328-bb575eebf413}.xml" />
+    <Content Include="Entities\smp_problemtype\SavedQueries\{641ac93e-f9e7-45b3-afcc-b7f23219793b}.xml" />
+    <Content Include="Entities\smp_problemtype\SavedQueries\{85d7b2f1-e17a-4cfc-bf15-504f6b2f49cf}.xml" />
+    <Content Include="Entities\smp_problemtype\SavedQueries\{93772127-420b-4244-9dca-d61c8fed7afd}.xml" />
+    <Content Include="Entities\smp_problemtype\SavedQueries\{fa38c569-5de4-4ef9-9c1a-603ca61f03d6}.xml" />
+    <Content Include="Entities\smp_providerintegration\Entity.xml" />
+    <Content Include="Entities\smp_providerintegration\FormXml\main\{1e935c64-6f82-4514-964e-4687c94f79d0}.xml" />
+    <Content Include="Entities\smp_providerintegration\RibbonDiff.xml" />
+    <Content Include="Entities\smp_providerintegration\SavedQueries\{87f33fc2-cbd7-4c30-9351-36c4e4de5593}.xml" />
+    <Content Include="Entities\smp_providerintegration\SavedQueries\{8a1dbe7a-b754-4bb2-9daa-fd6851dd9846}.xml" />
+    <Content Include="Entities\smp_providerintegration\SavedQueries\{919e3112-1341-4f0a-98e5-83ab00300399}.xml" />
+    <Content Include="Entities\smp_providerintegration\SavedQueries\{bfec5b76-566b-487d-ac88-349240b462df}.xml" />
+    <Content Include="Entities\smp_providerintegration\SavedQueries\{cdfa43a2-3636-452b-8b51-51d17a1ab2c9}.xml" />
+    <Content Include="Entities\smp_providerintegration\SavedQueries\{faf9f581-9b02-4efe-9aa2-fbe06f526516}.xml" />
+    <Content Include="Entities\smp_providermatrix\Entity.xml" />
+    <Content Include="Entities\smp_providermatrix\FormXml\main\{839aa798-71b6-4219-b0ed-d4eace8e405e}.xml" />
+    <Content Include="Entities\smp_providermatrix\RibbonDiff.xml" />
+    <Content Include="Entities\smp_providermatrix\SavedQueries\{17436b04-efe9-e911-a97c-000d3a329dae}.xml" />
+    <Content Include="Entities\smp_providermatrix\SavedQueries\{31b62f43-0f85-e211-8bca-78e3b5102ecd}.xml" />
+    <Content Include="Entities\smp_providermatrix\SavedQueries\{49c312f3-4def-e211-8af1-78e3b5106e13}.xml" />
+    <Content Include="Entities\smp_providermatrix\SavedQueries\{5c272f8e-82f2-45c1-ac17-b53a771bfb1d}.xml" />
+    <Content Include="Entities\smp_providermatrix\SavedQueries\{5cdf6ea7-b149-4e36-a043-11acee32f490}.xml" />
+    <Content Include="Entities\smp_providermatrix\SavedQueries\{7ab5ea79-1b85-e211-8bca-78e3b5102ecd}.xml" />
+    <Content Include="Entities\smp_providermatrix\SavedQueries\{7e045606-e6ce-45f8-ae01-d6457e4422bb}.xml" />
+    <Content Include="Entities\smp_providermatrix\SavedQueries\{9132c00a-e66c-4447-a665-199c62a5ab99}.xml" />
+    <Content Include="Entities\smp_providermatrix\SavedQueries\{9bb89b4d-af27-e311-89c0-78e3b5106e13}.xml" />
+    <Content Include="Entities\smp_providermatrix\SavedQueries\{9f29245b-ac37-4416-813c-021e1a5157c9}.xml" />
+    <Content Include="Entities\smp_providermatrix\SavedQueries\{c6c55233-0f85-e211-8bca-78e3b5102ecd}.xml" />
+    <Content Include="Entities\smp_providermatrix\SavedQueries\{d3a4b544-56e3-491a-8d6b-efbf0e2fb9f1}.xml" />
+    <Content Include="Entities\smp_Provider\Entity.xml" />
+    <Content Include="Entities\smp_Provider\FormXml\main\{511657e8-e450-4bde-ba25-7c31d30f1840}.xml" />
+    <Content Include="Entities\smp_Provider\RibbonDiff.xml" />
+    <Content Include="Entities\smp_Provider\SavedQueries\{06a45c64-ce0c-46ee-9923-8b6efceab653}.xml" />
+    <Content Include="Entities\smp_Provider\SavedQueries\{18c2c424-9709-4126-a9e2-9d5a1d869bc7}.xml" />
+    <Content Include="Entities\smp_Provider\SavedQueries\{57e96de9-b3e4-4604-b4f6-22c1caf753dd}.xml" />
+    <Content Include="Entities\smp_Provider\SavedQueries\{7e2ce831-82c4-4cc2-9b2b-e498aa345e50}.xml" />
+    <Content Include="Entities\smp_Provider\SavedQueries\{9c641932-af67-4e12-a855-968dfa2b6033}.xml" />
+    <Content Include="Entities\smp_Provider\SavedQueries\{b1c52847-e136-47db-b782-67d3101cb72e}.xml" />
+    <Content Include="Entities\smp_quicktickets\Entity.xml" />
+    <Content Include="Entities\smp_quicktickets\FormXml\main\{19d1ad00-ec54-45c0-a3fb-c5e80eb2e508}.xml" />
+    <Content Include="Entities\smp_quicktickets\RibbonDiff.xml" />
+    <Content Include="Entities\smp_quicktickets\SavedQueries\{28ac3e60-3549-4b7e-a2a5-41c970ed4dbc}.xml" />
+    <Content Include="Entities\smp_quicktickets\SavedQueries\{5375a135-2ba0-4788-878a-fbc76f674f20}.xml" />
+    <Content Include="Entities\smp_quicktickets\SavedQueries\{720542ca-fbd0-4058-b5c9-5f9c3a950700}.xml" />
+    <Content Include="Entities\smp_quicktickets\SavedQueries\{736c7d92-48c2-42ad-995e-0569a34e0904}.xml" />
+    <Content Include="Entities\smp_quicktickets\SavedQueries\{cce9a8ac-1374-47ad-852c-3b908b706541}.xml" />
+    <Content Include="Entities\smp_quicktickets\SavedQueries\{ebeca614-8a6b-40f8-a741-e9fddd7765e5}.xml" />
+    <Content Include="Entities\smp_region\Entity.xml" />
+    <Content Include="Entities\smp_region\FormXml\main\{458ecfd8-289c-407d-be74-d6c0439170f9}.xml" />
+    <Content Include="Entities\smp_region\RibbonDiff.xml" />
+    <Content Include="Entities\smp_region\SavedQueries\{09a31fb2-911d-4277-af76-c447035c1779}.xml" />
+    <Content Include="Entities\smp_region\SavedQueries\{235d6b25-c1df-4abb-96bf-9fba334a8a44}.xml" />
+    <Content Include="Entities\smp_region\SavedQueries\{4f8eeefb-6ab3-4cea-8c99-7197a6b4cf49}.xml" />
+    <Content Include="Entities\smp_region\SavedQueries\{90ed79b5-27be-4745-9e0b-04bae1f5976c}.xml" />
+    <Content Include="Entities\smp_region\SavedQueries\{da51fb91-2d6f-4d2a-8eee-f97c3c58ee54}.xml" />
+    <Content Include="Entities\smp_region\SavedQueries\{faf0e4f9-8a17-439e-9c1f-8c5407abf343}.xml" />
+    <Content Include="Entities\smp_roomtype\Entity.xml" />
+    <Content Include="Entities\smp_roomtype\FormXml\main\{d5db4cfb-e9aa-470c-b0fb-8b7eef4cb4d1}.xml" />
+    <Content Include="Entities\smp_roomtype\RibbonDiff.xml" />
+    <Content Include="Entities\smp_roomtype\SavedQueries\{5438b18a-83cf-48e4-ae03-89bde3453f34}.xml" />
+    <Content Include="Entities\smp_roomtype\SavedQueries\{8cd61ed2-0478-40af-a3b2-9c4922c33e9f}.xml" />
+    <Content Include="Entities\smp_roomtype\SavedQueries\{904eb4c0-9691-4b65-a0a7-1142aefdd876}.xml" />
+    <Content Include="Entities\smp_roomtype\SavedQueries\{ab539cd7-d605-4499-b798-916a60aefbd5}.xml" />
+    <Content Include="Entities\smp_roomtype\SavedQueries\{b0f8c4d7-76b9-4a02-8acd-21e2138d5b46}.xml" />
+    <Content Include="Entities\smp_roomtype\SavedQueries\{b1d9b719-c238-433f-af13-ccab84c63404}.xml" />
+    <Content Include="Entities\smp_room\Entity.xml" />
+    <Content Include="Entities\smp_room\FormXml\main\{53162f5f-1697-4cc9-896c-566da8ec9759}.xml" />
+    <Content Include="Entities\smp_room\RibbonDiff.xml" />
+    <Content Include="Entities\smp_room\SavedQueries\{581e3cf0-0902-472c-b47f-4f63c6f174b7}.xml" />
+    <Content Include="Entities\smp_room\SavedQueries\{80178911-146d-4ebd-a22b-652301e07ff3}.xml" />
+    <Content Include="Entities\smp_room\SavedQueries\{8d9d8de1-3196-4e94-be64-28119ae08608}.xml" />
+    <Content Include="Entities\smp_room\SavedQueries\{c1aeb659-6dc6-4173-957f-b76292d18fe0}.xml" />
+    <Content Include="Entities\smp_room\SavedQueries\{cf08c8b9-1547-4c15-8fff-171746605252}.xml" />
+    <Content Include="Entities\smp_room\SavedQueries\{fbc39f3a-0103-4898-a74d-8540e15f4324}.xml" />
+    <Content Include="Entities\smp_satisfactionsurvey\Entity.xml" />
+    <Content Include="Entities\smp_satisfactionsurvey\FormXml\main\{4479b1c4-baef-4161-bdda-fc0169c856aa}.xml" />
+    <Content Include="Entities\smp_satisfactionsurvey\RibbonDiff.xml" />
+    <Content Include="Entities\smp_satisfactionsurvey\SavedQueries\{02092169-3ef1-e711-80fd-3863bb35cf80}.xml" />
+    <Content Include="Entities\smp_satisfactionsurvey\SavedQueries\{04fde203-4472-409b-a69c-e2120752821c}.xml" />
+    <Content Include="Entities\smp_satisfactionsurvey\SavedQueries\{05092169-3ef1-e711-80fd-3863bb35cf80}.xml" />
+    <Content Include="Entities\smp_satisfactionsurvey\SavedQueries\{08092169-3ef1-e711-80fd-3863bb35cf80}.xml" />
+    <Content Include="Entities\smp_satisfactionsurvey\SavedQueries\{0b092169-3ef1-e711-80fd-3863bb35cf80}.xml" />
+    <Content Include="Entities\smp_satisfactionsurvey\SavedQueries\{0e092169-3ef1-e711-80fd-3863bb35cf80}.xml" />
+    <Content Include="Entities\smp_satisfactionsurvey\SavedQueries\{11092169-3ef1-e711-80fd-3863bb35cf80}.xml" />
+    <Content Include="Entities\smp_satisfactionsurvey\SavedQueries\{11629db9-3df1-e711-80fd-3863bb35cf80}.xml" />
+    <Content Include="Entities\smp_satisfactionsurvey\SavedQueries\{14092169-3ef1-e711-80fd-3863bb35cf80}.xml" />
+    <Content Include="Entities\smp_satisfactionsurvey\SavedQueries\{23e29276-c30a-4dba-b725-6a5c7c6c34a2}.xml" />
+    <Content Include="Entities\smp_satisfactionsurvey\SavedQueries\{24671c1d-7f22-4547-83c5-9345f87a8457}.xml" />
+    <Content Include="Entities\smp_satisfactionsurvey\SavedQueries\{74633e97-9300-47b5-88f4-c7e5e49cb80d}.xml" />
+    <Content Include="Entities\smp_satisfactionsurvey\SavedQueries\{8a80b90a-267d-4119-ae16-da9df59b86ec}.xml" />
+    <Content Include="Entities\smp_satisfactionsurvey\SavedQueries\{a8a4fd47-044e-46b8-bcfe-7c3fbe723892}.xml" />
+    <Content Include="Entities\smp_servicerequestproblemtypedesc\Entity.xml" />
+    <Content Include="Entities\smp_servicerequestproblemtypedesc\FormXml\main\{d19a748e-23cf-4cac-b2b5-ff80140590c8}.xml" />
+    <Content Include="Entities\smp_servicerequestproblemtypedesc\RibbonDiff.xml" />
+    <Content Include="Entities\smp_servicerequestproblemtypedesc\SavedQueries\{129f39cc-10ae-44d5-aa9c-f828560097cc}.xml" />
+    <Content Include="Entities\smp_servicerequestproblemtypedesc\SavedQueries\{2314d6a1-873c-e811-811c-c4346bdc1281}.xml" />
+    <Content Include="Entities\smp_servicerequestproblemtypedesc\SavedQueries\{2814c57d-5a43-4523-a81d-a39f6f6cb04d}.xml" />
+    <Content Include="Entities\smp_servicerequestproblemtypedesc\SavedQueries\{7eb9c939-dc50-4758-aa2f-014dead72568}.xml" />
+    <Content Include="Entities\smp_servicerequestproblemtypedesc\SavedQueries\{9f5e80eb-b49b-42c1-8ae6-d79847fcb778}.xml" />
+    <Content Include="Entities\smp_servicerequestproblemtypedesc\SavedQueries\{e16f2944-89f5-46e6-89f0-5cb361dfa277}.xml" />
+    <Content Include="Entities\smp_servicerequestproblemtypedesc\SavedQueries\{f2f88444-82fe-4ee2-a450-aed99671a11e}.xml" />
+    <Content Include="Entities\smp_servicerequeststatuscode\Entity.xml" />
+    <Content Include="Entities\smp_servicerequeststatuscode\FormXml\main\{b8f60135-6073-4537-9f8b-2b6012150af2}.xml" />
+    <Content Include="Entities\smp_servicerequeststatuscode\RibbonDiff.xml" />
+    <Content Include="Entities\smp_servicerequeststatuscode\SavedQueries\{15852f16-966f-4aa1-a5ef-40a12bfb82c5}.xml" />
+    <Content Include="Entities\smp_servicerequeststatuscode\SavedQueries\{39eb057b-99d6-4e45-8184-ac75a057bbe0}.xml" />
+    <Content Include="Entities\smp_servicerequeststatuscode\SavedQueries\{3a4e3a79-a5e8-40bc-9d5c-2c1009bec4fa}.xml" />
+    <Content Include="Entities\smp_servicerequeststatuscode\SavedQueries\{4d4026f1-5feb-4993-822f-0f2e6b11192d}.xml" />
+    <Content Include="Entities\smp_servicerequeststatuscode\SavedQueries\{b16588b7-0e67-4506-97d4-8f2d3e91cbb7}.xml" />
+    <Content Include="Entities\smp_servicerequeststatuscode\SavedQueries\{ce030f8b-7a52-4200-8fb3-d5664627e9dd}.xml" />
+    <Content Include="Entities\smp_servicerequeststoragequeue\Entity.xml" />
+    <Content Include="Entities\smp_servicerequeststoragequeue\FormXml\main\{04e31a07-5791-4528-b846-4c65551bbcac}.xml" />
+    <Content Include="Entities\smp_servicerequeststoragequeue\RibbonDiff.xml" />
+    <Content Include="Entities\smp_servicerequeststoragequeue\SavedQueries\{201c0f39-d409-47d3-ad78-c3fcbb634aa4}.xml" />
+    <Content Include="Entities\smp_servicerequeststoragequeue\SavedQueries\{2ce69f48-5dc3-402a-9244-b2cb2809ddc9}.xml" />
+    <Content Include="Entities\smp_servicerequeststoragequeue\SavedQueries\{8181a99a-46df-44e0-b84a-bad480145b38}.xml" />
+    <Content Include="Entities\smp_servicerequeststoragequeue\SavedQueries\{b747f37f-8792-4820-ae23-2de204ccc5b8}.xml" />
+    <Content Include="Entities\smp_servicerequeststoragequeue\SavedQueries\{e6c81cda-abd2-47dc-b9a8-73100302e812}.xml" />
+    <Content Include="Entities\smp_servicerequeststoragequeue\SavedQueries\{f38462f0-9a13-4898-9c64-145b6963cd8b}.xml" />
+    <Content Include="Entities\smp_siteinspection\Entity.xml" />
+    <Content Include="Entities\smp_siteinspection\FormXml\main\{446c27da-7b47-405f-8155-a4bef3e2730a}.xml" />
+    <Content Include="Entities\smp_siteinspection\RibbonDiff.xml" />
+    <Content Include="Entities\smp_siteinspection\SavedQueries\{08c2d75f-d33e-4325-97db-79bf2b8e1358}.xml" />
+    <Content Include="Entities\smp_siteinspection\SavedQueries\{34858502-bfaf-45b4-ae16-c26d789d5d78}.xml" />
+    <Content Include="Entities\smp_siteinspection\SavedQueries\{4c877e8d-7fe0-40b5-865c-517c8a4562cc}.xml" />
+    <Content Include="Entities\smp_siteinspection\SavedQueries\{6eb22b41-890d-4704-ae76-8ba4938837e7}.xml" />
+    <Content Include="Entities\smp_siteinspection\SavedQueries\{8eca04fa-1b62-4a5d-ab96-238414ac80f8}.xml" />
+    <Content Include="Entities\smp_siteinspection\SavedQueries\{b9432983-cb55-4798-b0fe-4bc0833ca609}.xml" />
+    <Content Include="Entities\smp_slamatrix\Entity.xml" />
+    <Content Include="Entities\smp_slamatrix\FormXml\main\{55f2f3b4-a087-4256-823c-1c6b3eed9df1}.xml" />
+    <Content Include="Entities\smp_slamatrix\RibbonDiff.xml" />
+    <Content Include="Entities\smp_slamatrix\SavedQueries\{67749eaa-c53b-42f0-9202-f36a0d67d710}.xml" />
+    <Content Include="Entities\smp_slamatrix\SavedQueries\{9c67a396-3314-44c9-adf9-d69d32141323}.xml" />
+    <Content Include="Entities\smp_slamatrix\SavedQueries\{b2eacbb6-60f4-45b2-acff-cef1c8b1e550}.xml" />
+    <Content Include="Entities\smp_slamatrix\SavedQueries\{b35bbccb-a2c5-42ca-b2a1-f5ad02cc61af}.xml" />
+    <Content Include="Entities\smp_slamatrix\SavedQueries\{d99bbd66-35ac-460e-81ce-3c7d293af497}.xml" />
+    <Content Include="Entities\smp_slamatrix\SavedQueries\{dd7523ad-24d6-4fe9-bf09-cc3a84e52348}.xml" />
+    <Content Include="Entities\smp_srsatisfactionsurvey\Entity.xml" />
+    <Content Include="Entities\smp_srsatisfactionsurvey\FormXml\main\{19b40e94-dcab-4a5e-850c-195956ed157a}.xml" />
+    <Content Include="Entities\smp_srsatisfactionsurvey\FormXml\main\{305b2b7d-133e-4f5a-9ee6-e2bfad6809ef}.xml" />
+    <Content Include="Entities\smp_srsatisfactionsurvey\FormXml\main\{31ce2b11-e272-44c9-a022-8cef06f59204}.xml" />
+    <Content Include="Entities\smp_srsatisfactionsurvey\FormXml\main\{3b2a4898-c5de-4d39-b701-c05ccb617e1a}.xml" />
+    <Content Include="Entities\smp_srsatisfactionsurvey\FormXml\main\{42673af4-234f-4b36-a6d1-5a229078269f}.xml" />
+    <Content Include="Entities\smp_srsatisfactionsurvey\FormXml\main\{49d34c37-dd05-41f7-8829-c790c55d3539}.xml" />
+    <Content Include="Entities\smp_srsatisfactionsurvey\FormXml\main\{5b0ef9dc-cbd4-44a4-861e-cce17bea5869}.xml" />
+    <Content Include="Entities\smp_srsatisfactionsurvey\FormXml\main\{802f7236-e5f1-4588-9d2b-9436cb98fd56}.xml" />
+    <Content Include="Entities\smp_srsatisfactionsurvey\FormXml\main\{d01dfde8-69a0-4dd3-a8d7-86c70efd7d9f}.xml" />
+    <Content Include="Entities\smp_srsatisfactionsurvey\RibbonDiff.xml" />
+    <Content Include="Entities\smp_srsatisfactionsurvey\SavedQueries\{3ad72d1c-3d3c-e311-89c0-78e3b5106e13}.xml" />
+    <Content Include="Entities\smp_srsatisfactionsurvey\SavedQueries\{3e77a4b7-f188-4417-a8d4-aecb979f65d5}.xml" />
+    <Content Include="Entities\smp_srsatisfactionsurvey\SavedQueries\{7a64a523-2cf1-4be0-aa49-1e8d78b30d0d}.xml" />
+    <Content Include="Entities\smp_srsatisfactionsurvey\SavedQueries\{829df2e1-e0be-e711-8106-3863bb3cc560}.xml" />
+    <Content Include="Entities\smp_srsatisfactionsurvey\SavedQueries\{859df2e1-e0be-e711-8106-3863bb3cc560}.xml" />
+    <Content Include="Entities\smp_srsatisfactionsurvey\SavedQueries\{889df2e1-e0be-e711-8106-3863bb3cc560}.xml" />
+    <Content Include="Entities\smp_srsatisfactionsurvey\SavedQueries\{8b9df2e1-e0be-e711-8106-3863bb3cc560}.xml" />
+    <Content Include="Entities\smp_srsatisfactionsurvey\SavedQueries\{8e9df2e1-e0be-e711-8106-3863bb3cc560}.xml" />
+    <Content Include="Entities\smp_srsatisfactionsurvey\SavedQueries\{919df2e1-e0be-e711-8106-3863bb3cc560}.xml" />
+    <Content Include="Entities\smp_srsatisfactionsurvey\SavedQueries\{949df2e1-e0be-e711-8106-3863bb3cc560}.xml" />
+    <Content Include="Entities\smp_srsatisfactionsurvey\SavedQueries\{a759a45c-972a-4e03-801e-37732c76a055}.xml" />
+    <Content Include="Entities\smp_srsatisfactionsurvey\SavedQueries\{ca4a0404-5433-4076-85d4-f36f3f7478cd}.xml" />
+    <Content Include="Entities\smp_srsatisfactionsurvey\SavedQueries\{dd1d333e-acf7-46ab-8e26-a172ba9f8423}.xml" />
+    <Content Include="Entities\smp_srsatisfactionsurvey\SavedQueries\{f442f96d-b3d0-4ab7-886d-22daa7a583ce}.xml" />
+    <Content Include="Entities\smp_statusreasontranslation\Entity.xml" />
+    <Content Include="Entities\smp_statusreasontranslation\FormXml\main\{d2247a83-3037-4701-aabf-435e25c518a1}.xml" />
+    <Content Include="Entities\smp_statusreasontranslation\RibbonDiff.xml" />
+    <Content Include="Entities\smp_statusreasontranslation\SavedQueries\{3826cfad-dfb2-4431-b384-8f64055cf669}.xml" />
+    <Content Include="Entities\smp_statusreasontranslation\SavedQueries\{43a0d715-6a85-4f68-9f19-0ba2a37a24f3}.xml" />
+    <Content Include="Entities\smp_statusreasontranslation\SavedQueries\{98cc6160-f2e7-422d-9cf4-d5fbc5957c5e}.xml" />
+    <Content Include="Entities\smp_statusreasontranslation\SavedQueries\{b1d53230-4edb-4331-87e5-680fef15f780}.xml" />
+    <Content Include="Entities\smp_statusreasontranslation\SavedQueries\{e4c77414-07c2-4442-b4eb-7bf850c2921d}.xml" />
+    <Content Include="Entities\smp_statusreasontranslation\SavedQueries\{f40b3d39-0003-49ed-b8a9-08e9e6ddd44b}.xml" />
+    <Content Include="Entities\smp_telemetrylog\Entity.xml" />
+    <Content Include="Entities\smp_telemetrylog\FormXml\card\{8e0ac7c3-7bcc-4232-8031-f1f1c0d275f6}.xml" />
+    <Content Include="Entities\smp_telemetrylog\FormXml\main\{f37840e2-1e94-4a96-81e9-110ccedb1f0b}.xml" />
+    <Content Include="Entities\smp_telemetrylog\FormXml\quick\{ce542d23-a3a9-4611-8e1b-8f033e8652a8}.xml" />
+    <Content Include="Entities\smp_telemetrylog\RibbonDiff.xml" />
+    <Content Include="Entities\smp_telemetrylog\SavedQueries\{070ae4e1-fb76-47b5-aa5f-7db0179474e3}.xml" />
+    <Content Include="Entities\smp_telemetrylog\SavedQueries\{35b00b3e-b7e3-42a2-bd9d-cdb3aff31e07}.xml" />
+    <Content Include="Entities\smp_telemetrylog\SavedQueries\{44b8ec18-8395-460d-abff-1d431d47f6a6}.xml" />
+    <Content Include="Entities\smp_telemetrylog\SavedQueries\{86ab536d-101d-4f61-96bc-bef1f05ab80f}.xml" />
+    <Content Include="Entities\smp_telemetrylog\SavedQueries\{8909b8bc-cb0a-4670-aeae-ae4151e2171e}.xml" />
+    <Content Include="Entities\smp_telemetrylog\SavedQueries\{ce19831d-648e-4702-bb2a-070f981ea518}.xml" />
+    <Content Include="Entities\smp_weekdays\Entity.xml" />
+    <Content Include="Entities\smp_weekdays\FormXml\main\{b684522a-5f90-46f6-8473-8e53ba1327f8}.xml" />
+    <Content Include="Entities\smp_weekdays\RibbonDiff.xml" />
+    <Content Include="Entities\smp_weekdays\SavedQueries\{0fde3c8b-a810-42f1-a43f-03d0e3537c0e}.xml" />
+    <Content Include="Entities\smp_weekdays\SavedQueries\{3bc48052-2657-4184-8e30-11f036efeade}.xml" />
+    <Content Include="Entities\smp_weekdays\SavedQueries\{62ee19ee-aba5-4cf7-b7a6-3d7c26af5e86}.xml" />
+    <Content Include="Entities\smp_weekdays\SavedQueries\{855f2a7e-7b64-447f-b1e3-f8eff2a7a068}.xml" />
+    <Content Include="Entities\smp_weekdays\SavedQueries\{9f968f32-d75a-4053-b510-b30038d18ee5}.xml" />
+    <Content Include="Entities\smp_weekdays\SavedQueries\{d85d56ae-0931-4891-b2a8-7791fd0b5627}.xml" />
+    <Content Include="map.xml" />
+    <Content Include="Other\Customizations.xml" />
+    <Content Include="Other\EntityMaps.xml" />
+    <Content Include="Other\Relationships.xml" />
+    <Content Include="Other\Relationships\Contact.xml" />
+    <Content Include="Other\Relationships\smp_roomtype.xml" />
+    <Content Include="Other\Relationships\Team.xml" />
+    <Content Include="Other\Solution.xml" />
+    <Content Include="Resources\ar-SA\resources.ar-SA.resx" />
+    <Content Include="Resources\bg-BG\resources.bg-BG.resx" />
+    <Content Include="Resources\ca-ES\resources.ca-ES.resx" />
+    <Content Include="Resources\cs-CZ\resources.cs-CZ.resx" />
+    <Content Include="Resources\da-DK\resources.da-DK.resx" />
+    <Content Include="Resources\de-DE\resources.de-DE.resx" />
+    <Content Include="Resources\el-GR\resources.el-GR.resx" />
+    <Content Include="Resources\en-US\resources.en-US.resx" />
+    <Content Include="Resources\es-ES\resources.es-ES.resx" />
+    <Content Include="Resources\et-EE\resources.et-EE.resx" />
+    <Content Include="Resources\eu-ES\resources.eu-ES.resx" />
+    <Content Include="Resources\fi-FI\resources.fi-FI.resx" />
+    <Content Include="Resources\fr-FR\resources.fr-FR.resx" />
+    <Content Include="Resources\gl-ES\resources.gl-ES.resx" />
+    <Content Include="Resources\he-IL\resources.he-IL.resx" />
+    <Content Include="Resources\hi-IN\resources.hi-IN.resx" />
+    <Content Include="Resources\hr-HR\resources.hr-HR.resx" />
+    <Content Include="Resources\hu-HU\resources.hu-HU.resx" />
+    <Content Include="Resources\id-ID\resources.id-ID.resx" />
+    <Content Include="Resources\it-IT\resources.it-IT.resx" />
+    <Content Include="Resources\ja-JP\resources.ja-JP.resx" />
+    <Content Include="Resources\kk-KZ\resources.kk-KZ.resx" />
+    <Content Include="Resources\ko-KR\resources.ko-KR.resx" />
+    <Content Include="Resources\lt-LT\resources.lt-LT.resx" />
+    <Content Include="Resources\lv-LV\resources.lv-LV.resx" />
+    <Content Include="Resources\ms-MY\resources.ms-MY.resx" />
+    <Content Include="Resources\nb-NO\resources.nb-NO.resx" />
+    <Content Include="Resources\nl-NL\resources.nl-NL.resx" />
+    <Content Include="Resources\pl-PL\resources.pl-PL.resx" />
+    <Content Include="Resources\pt-BR\resources.pt-BR.resx" />
+    <Content Include="Resources\pt-PT\resources.pt-PT.resx" />
+    <Content Include="Resources\ro-RO\resources.ro-RO.resx" />
+    <Content Include="Resources\ru-RU\resources.ru-RU.resx" />
+    <Content Include="Resources\sk-SK\resources.sk-SK.resx" />
+    <Content Include="Resources\sl-SI\resources.sl-SI.resx" />
+    <Content Include="Resources\sr-Cyrl-CS\resources.sr-Cyrl-CS.resx" />
+    <Content Include="Resources\sr-Cyrl-RS\resources.sr-Cyrl-RS.resx" />
+    <Content Include="Resources\sr-Latn-CS\resources.sr-Latn-CS.resx" />
+    <Content Include="Resources\sr-Latn-RS\resources.sr-Latn-RS.resx" />
+    <Content Include="Resources\sv-SE\resources.sv-SE.resx" />
+    <Content Include="Resources\template_resources.resx" />
+    <Content Include="Resources\th-TH\resources.th-TH.resx" />
+    <Content Include="Resources\tr-TR\resources.tr-TR.resx" />
+    <Content Include="Resources\uk-UA\resources.uk-UA.resx" />
+    <Content Include="Resources\vi-VN\resources.vi-VN.resx" />
+    <Content Include="Resources\zh-CN\resources.zh-CN.resx" />
+    <Content Include="Resources\zh-HK\resources.zh-HK.resx" />
+    <Content Include="Resources\zh-TW\resources.zh-TW.resx" />
+    <Content Include="WebResources\new_ReClassifyServiceRequest.html">
+      <WebResourceId>6347d0cc-981e-e611-8111-c4346bac52b8</WebResourceId>
+      <Name>new_ReClassifyServiceRequest</Name>
+      <DisplayName>ReClassifyServiceRequest</DisplayName>
+      <LanguageCode>1033</LanguageCode>
+      <WebResourceType>Html</WebResourceType>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsCustomizable>True</IsCustomizable>
+      <CanBeDeleted>True</CanBeDeleted>
+      <IsHidden>False</IsHidden>
+    </Content>
+    <Content Include="WebResources\new_ReClassifyServiceRequestjs.jscript">
+      <WebResourceId>6b9d738d-9c1e-e611-8111-c4346bac52b8</WebResourceId>
+      <Name>new_ReClassifyServiceRequestjs</Name>
+      <DisplayName>ReClassifyServiceRequestjs</DisplayName>
+      <LanguageCode>1033</LanguageCode>
+      <WebResourceType>JScript</WebResourceType>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsCustomizable>True</IsCustomizable>
+      <CanBeDeleted>True</CanBeDeleted>
+      <IsHidden>False</IsHidden>
+    </Content>
+    <Content Include="WebResources\smp_AI_Telemetry.jscript">
+      <WebResourceId>d9e6bee8-52ae-e711-80fa-3863bb35ed38</WebResourceId>
+      <Name>smp_AI_Telemetry</Name>
+      <DisplayName>AppinsightsErrorLog</DisplayName>
+      <LanguageCode>1033</LanguageCode>
+      <WebResourceType>JScript</WebResourceType>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>True</IsCustomizable>
+      <CanBeDeleted>True</CanBeDeleted>
+      <IsHidden>False</IsHidden>
+    </Content>
+    <Content Include="WebResources\smp_cancelmodify.jscript">
+      <WebResourceId>af05a043-61b6-e311-ae32-00155d61c449</WebResourceId>
+      <Name>smp_cancelmodify</Name>
+      <DisplayName>Cancel and Modify</DisplayName>
+      <WebResourceType>JScript</WebResourceType>
+      <IntroducedVersion>3.0.0.4</IntroducedVersion>
+      <IsCustomizable>True</IsCustomizable>
+      <CanBeDeleted>True</CanBeDeleted>
+      <IsHidden>False</IsHidden>
+    </Content>
+    <Content Include="WebResources\smp_CheckUserRole_CSR.jscript">
+      <WebResourceId>a1c7ab33-0fc6-e711-8108-3863bb3cc560</WebResourceId>
+      <Name>smp_CheckUserRole_CSR</Name>
+      <DisplayName>CheckUserRole_CSR</DisplayName>
+      <LanguageCode>1033</LanguageCode>
+      <WebResourceType>JScript</WebResourceType>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>True</IsCustomizable>
+      <CanBeDeleted>True</CanBeDeleted>
+      <IsHidden>False</IsHidden>
+    </Content>
+    <Content Include="WebResources\smp_escalationtable.html">
+      <WebResourceId>c031388b-5ca4-e311-adc6-00155d61c449</WebResourceId>
+      <Name>smp_escalationtable</Name>
+      <DisplayName>Escalation Table</DisplayName>
+      <LanguageCode>1033</LanguageCode>
+      <WebResourceType>Html</WebResourceType>
+      <IntroducedVersion>3.0.0.4</IntroducedVersion>
+      <IsCustomizable>True</IsCustomizable>
+      <CanBeDeleted>True</CanBeDeleted>
+      <IsHidden>False</IsHidden>
+    </Content>
+    <Content Include="WebResources\smp_FSServiceRequest.js">
+      <WebResourceId>35a439d8-6770-e811-8127-c4346bdc1281</WebResourceId>
+      <Name>smp_FSServiceRequest.js</Name>
+      <DisplayName>FSServiceRequest.js</DisplayName>
+      <WebResourceType>JScript</WebResourceType>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>True</IsCustomizable>
+      <CanBeDeleted>True</CanBeDeleted>
+      <IsHidden>False</IsHidden>
+    </Content>
+    <Content Include="WebResources\smp_HideButtons.jscript">
+      <WebResourceId>f99e86b4-352c-e811-811f-5065f38bb411</WebResourceId>
+      <Name>smp_HideButtons</Name>
+      <DisplayName>HideButtons</DisplayName>
+      <WebResourceType>JScript</WebResourceType>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>True</IsCustomizable>
+      <CanBeDeleted>True</CanBeDeleted>
+      <IsHidden>False</IsHidden>
+    </Content>
+    <Content Include="WebResources\smp_script.jscript">
+      <WebResourceId>4b90a82e-3327-e211-a8ab-00155dc83f23</WebResourceId>
+      <Name>smp_script</Name>
+      <DisplayName>Scripts</DisplayName>
+      <WebResourceType>JScript</WebResourceType>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>True</IsCustomizable>
+      <CanBeDeleted>True</CanBeDeleted>
+      <IsHidden>False</IsHidden>
+    </Content>
+  </ItemGroup>
+  <Import Project="Microsoft.Crm.SolutionProjects.Metadata.targets" />
+</Project>

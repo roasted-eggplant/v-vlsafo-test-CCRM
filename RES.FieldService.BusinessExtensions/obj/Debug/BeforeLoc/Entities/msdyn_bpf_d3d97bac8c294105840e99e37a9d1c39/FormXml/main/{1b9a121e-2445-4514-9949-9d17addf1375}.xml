@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform unmodified="1">
+    <formid>{1b9a121e-2445-4514-9949-9d17addf1375}</formid>
+    <IntroducedVersion>6.1.0.0</IntroducedVersion>
+    <FormPresentation>2</FormPresentation>
+    <FormActivationState>0</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{b55d7655-ce62-47fc-8589-d724d35c8b68}" IsUserDefined="1">
+          <labels>
+            <label description="General Info" languagecode="1033" />
+            <label description="Informations générales" languagecode="1036" />
+            <label description="全般情報" languagecode="1041" />
+            <label description="일반 정보" languagecode="1042" />
+            <label description="常规信息" languagecode="2052" />
+            <label description="Informações Gerais" languagecode="2070" />
+            <label description="Información general" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="24%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{8cb3969c-52d8-4624-990d-ac282b273f8c}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Général" languagecode="1036" />
+                    <label description="全般" languagecode="1041" />
+                    <label description="일반" languagecode="1042" />
+                    <label description="常规" languagecode="2052" />
+                    <label description="Geral" languagecode="2070" />
+                    <label description="General" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d76570d0-bb56-43c3-8695-7301249a9e1b}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                          <label description="名称" languagecode="2052" />
+                          <label description="Nom" languagecode="1036" />
+                          <label description="名前" languagecode="1041" />
+                          <label description="이름" languagecode="1042" />
+                          <label description="Nome" languagecode="2070" />
+                          <label description="Nombre" languagecode="3082" />
+                        </labels>
+                        <control id="bpf_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="bpf_name" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="38%">
+              <sections>
+                <section showlabel="true" showbar="false" id="{572142c6-4878-41bb-ab7c-5dd67d72089d}" IsUserDefined="0" height="auto">
+                  <labels>
+                    <label description="TIMELINE" languagecode="1033" />
+                    <label description="CHRONOLOGIE" languagecode="1036" />
+                    <label description="タイムライン" languagecode="1041" />
+                    <label description="타임라인" languagecode="1042" />
+                    <label description="日程表" languagecode="2052" />
+                    <label description="LINHA CRONOLÓGICA" languagecode="2070" />
+                    <label description="ESCALA DE TIEMPO" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" colspan="1" rowspan="18" auto="false" id="{6dd49609-56a8-43db-8d9c-2bfebb80e276}">
+                        <labels>
+                          <label description="Conversation Tabs" languagecode="1033" />
+                          <label description="Onglets de conversation" languagecode="1036" />
+                          <label description="会話タブ" languagecode="1041" />
+                          <label description="대화 탭" languagecode="1042" />
+                          <label description="对话选项卡" languagecode="2052" />
+                          <label description="Separadores de Conversação" languagecode="2070" />
+                          <label description="Pestañas de conversación" languagecode="3082" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="38%">
+              <sections>
+                <section showlabel="true" columns="1" showbar="false" id="{7aecbd43-ce74-4827-bb15-77f41b4da8aa}" name="ref_pan_{7aecbd43-ce74-4827-bb15-77f41b4da8aa}" IsUserDefined="0">
+                  <labels>
+                    <label description="RELATED" languagecode="1033" />
+                    <label description="ASSOCIATION" languagecode="1036" />
+                    <label description="関連" languagecode="1041" />
+                    <label description="관련됨" languagecode="1042" />
+                    <label description="相关" languagecode="2052" />
+                    <label description="RELACIONADA" languagecode="2070" />
+                    <label description="RELACIONADO" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{0980b639-963a-4a7c-9767-a42ab760dc33}" celllabelposition="Left" columns="1111">
+        <rows>
+          <row />
+        </rows>
+      </header>
+      <DisplayConditions Order="2" />
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Informations" languagecode="1036" />
+      <LocalizedName description="情報" languagecode="1041" />
+      <LocalizedName description="정보" languagecode="1042" />
+      <LocalizedName description="信息" languagecode="2052" />
+      <LocalizedName description="Informações" languagecode="2070" />
+      <LocalizedName description="Información" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Formulaire pour cette entité." languagecode="1036" />
+      <Description description="このエンティティ用のフォームです。" languagecode="1041" />
+      <Description description="이 엔터티에 대한 양식입니다." languagecode="1042" />
+      <Description description="此实体的窗体。" languagecode="2052" />
+      <Description description="Um formulário para esta entidade." languagecode="2070" />
+      <Description description="Un formulario para esta entidad." languagecode="3082" />
+    </Descriptions>
+  </systemform>
+</forms>

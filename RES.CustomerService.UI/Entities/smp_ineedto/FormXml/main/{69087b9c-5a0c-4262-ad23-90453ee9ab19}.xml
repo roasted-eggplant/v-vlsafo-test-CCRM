@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{69087b9c-5a0c-4262-ad23-90453ee9ab19}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{223e3a0e-4459-4b08-aeff-d9a6b432cd2e}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="true" showbar="true" IsUserDefined="0" id="{3998477c-b428-47cf-a157-5eae7f8d8a90}" name="{3998477c-b428-47cf-a157-5eae7f8d8a90}" columns="11" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e6252677-5bab-a393-d97a-b2d94ebb0ed8}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="I Need To Name" languagecode="1033" />
+                        </labels>
+                        <control id="smp_ineedtoname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_ineedtoname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{65523182-c621-8b61-a0da-03e18b28a8de}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Task Type Description" languagecode="1033" />
+                        </labels>
+                        <control id="smp_tasktypedescription" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="smp_tasktypedescription" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5ea425e1-91be-2748-69dc-7d851265bba0}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Task Text" languagecode="1033" />
+                        </labels>
+                        <control id="smp_tasktext" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_tasktext" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d5b4a2ae-74dd-0dd3-5262-9a6264555384}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Building" languagecode="1033" />
+                        </labels>
+                        <control id="smp_buildingid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_buildingid" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{4ED224C4-1485-474E-945D-AA5E43BB0C09}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{962a4c75-9df4-47aa-8f56-ef9eb61b0592}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Notes" languagecode="1033" />
+                        </labels>
+                        <control id="smp_taskdescription" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_taskdescription" disabled="false" />
+                      </cell>
+                      <cell id="{84549859-db53-4181-8d1b-f7fcfac50cf4}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{223e3a0e-4459-4b08-aeff-d9a6b432cd2e}_section_2" showlabel="true" showbar="true" locklevel="0" id="{5a68089c-259e-0a53-850a-0901b6d7272b}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Translations" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{87cb4073-e403-92e3-7eba-ea52a2b65406}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="I Need To Name - French - France" languagecode="1033" />
+                        </labels>
+                        <control id="smp_ineedtoname_fr_fr" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_ineedtoname_fr_fr" disabled="false" />
+                      </cell>
+                      <cell id="{dbbcdc8d-4b42-64c7-1a19-c5dba835e2c3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="I Need To Name -Japanese – Japan" languagecode="1033" />
+                        </labels>
+                        <control id="smp_ineedtoname_ja_jp" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_ineedtoname_ja_jp" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{34c59e21-c19b-2cdc-0bb0-a5ab79713a97}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="I Need To Name -Korean – Korea" languagecode="1033" />
+                        </labels>
+                        <control id="smp_ineedtoname_ko_kr" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_ineedtoname_ko_kr" disabled="false" />
+                      </cell>
+                      <cell id="{20875566-c812-26be-bcc0-7a99cca787a3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="I Need To Name -Mandarin – Mainland China" languagecode="1033" />
+                        </labels>
+                        <control id="smp_ineedtoname_zh_cn" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_ineedtoname_zh_cn" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c23a144c-0704-56d0-3d0a-656dcd60e493}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="I Need To Name -Portuguese – Portugal" languagecode="1033" />
+                        </labels>
+                        <control id="smp_ineedtoname_pt_pt" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_ineedtoname_pt_pt" disabled="false" />
+                      </cell>
+                      <cell id="{a9c4ad89-bd09-a337-3ae0-bd33d279b156}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="I Need To Name -Spanish – Mexico" languagecode="1033" />
+                        </labels>
+                        <control id="smp_ineedtoname_es_mx" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_ineedtoname_es_mx" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9a4dc56b-425d-95aa-662c-1d3d01e00049}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Task Text - French - France" languagecode="1033" />
+                        </labels>
+                        <control id="smp_tasktext_fr_fr" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_tasktext_fr_fr" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7c8a5eec-e3b7-b87e-4443-b57c76557ba2}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Task Text - Japanese – Japan" languagecode="1033" />
+                        </labels>
+                        <control id="smp_tasktext_ja_jp" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_tasktext_ja_jp" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{04c43e71-44e6-3d14-2bb7-ac1da19da7a7}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Task Text - Korean – Korea" languagecode="1033" />
+                        </labels>
+                        <control id="smp_tasktext_ko_kr" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_tasktext_ko_kr" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8439e949-1b30-5d40-b095-d583c8236cc0}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Task Text - Mandarin – Mainland China" languagecode="1033" />
+                        </labels>
+                        <control id="smp_tasktext_zh_cn" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_tasktext_zh_cn" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7e42302d-bbd0-37c3-ea1b-a4b73b762b3b}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Task Text - Portuguese – Portugal" languagecode="1033" />
+                        </labels>
+                        <control id="smp_tasktext_pt_pt" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_tasktext_pt_pt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{894e9b47-0a12-026b-2a15-c223dd6b5563}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Task Text - Spanish – Mexico" languagecode="1033" />
+                        </labels>
+                        <control id="smp_tasktext_es_mx" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_tasktext_es_mx" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{a31a24f6-ad82-4c91-9bae-1f684e955743}">
+        <rows>
+          <row>
+            <cell id="{a0c25899-deec-4f40-b42f-76d14529b6e1}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control id="footer_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Processes" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

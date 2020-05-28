@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{312224bc-3c2b-e811-811a-5065f38bc1a1}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_name" select="1" preview="1" icon="1">
+        <row name="result" id="smp_inspectionresponsid">
+          <cell name="smp_order" width="100" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_inspectionquestion" width="650" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_response" width="100" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_comment" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="smp_inspectionrespons">
+          <order attribute="smp_order" descending="false" />
+          <attribute name="smp_response" />
+          <attribute name="smp_inspectionquestion" />
+          <attribute name="smp_comment" />
+          <attribute name="smp_order" />
+          <attribute name="smp_inspectionresponsid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inspection Response" languagecode="1033" />
+      <LocalizedName description="Resposta de Inspeção" languagecode="1046" />
+      <LocalizedName description="Respuesta de Inspeccion " languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

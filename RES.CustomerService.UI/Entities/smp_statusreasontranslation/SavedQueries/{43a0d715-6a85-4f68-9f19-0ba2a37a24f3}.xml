@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{43a0d715-6a85-4f68-9f19-0ba2a37a24f3}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_statusreasontext" select="1" icon="1" preview="1">
+        <row name="result" id="smp_statusreasontranslationid">
+          <cell name="smp_statusreason" width="100" />
+          <cell name="smp_statusreasontext" width="300" />
+          <cell name="smp_statusreasontext_es_mx" width="100" />
+          <cell name="smp_statusreasontext_fr_fr" width="100" />
+          <cell name="smp_statusreasontext_ja_jp" width="100" />
+          <cell name="smp_statusreasontext_ko_kr" width="100" />
+          <cell name="smp_statusreasontext_zh_cn" width="100" />
+          <cell name="smp_statusreasontext_pt_pt" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_statusreasontranslation">
+          <attribute name="smp_statusreasontext" />
+          <order attribute="smp_statusreasontext" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="smp_statusreasontext_pt_pt" />
+          <attribute name="smp_statusreasontext_zh_cn" />
+          <attribute name="smp_statusreasontext_ko_kr" />
+          <attribute name="smp_statusreasontext_ja_jp" />
+          <attribute name="smp_statusreasontext_fr_fr" />
+          <attribute name="smp_statusreasontext_es_mx" />
+          <attribute name="smp_statusreason" />
+          <attribute name="smp_statusreasontranslationid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Status Reason Translations" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

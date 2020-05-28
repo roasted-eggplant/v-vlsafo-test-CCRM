@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="msdyn_msdyn_customerassetcategory_msdyn_customerasset_CustomerAssetCategory">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IntroducedVersion>8.3.0.0</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>msdyn_customerasset</ReferencingEntityName>
+    <ReferencedEntityName>msdyn_customerassetcategory</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>RemoveLink</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <CascadeRollupView>NoCascade</CascadeRollupView>
+    <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+    <ReferencingAttributeName>msdyn_CustomerAssetCategory</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="A categoria do ativo do cliente" languagecode="2070" />
+        <Description description="The category of the customer asset" languagecode="1033" />
+        <Description description="Categoría del activo de cliente" languagecode="3082" />
+        <Description description="고객 자산의 범주" languagecode="1042" />
+        <Description description="客户资产的类别" languagecode="2052" />
+        <Description description="顧客資産のカテゴリです" languagecode="1041" />
+        <Description description="Catégorie de l’actif client" languagecode="1036" />
+      </Descriptions>
+    </RelationshipDescription>
+    <EntityRelationshipRoles>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>UseCollectionName</NavPaneDisplayOption>
+        <NavPaneArea>Details</NavPaneArea>
+        <NavPaneOrder>10000</NavPaneOrder>
+        <NavigationPropertyName>msdyn_CustomerAssetCategory</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="" languagecode="1036" />
+          <CustomLabel description="" languagecode="2070" />
+          <CustomLabel description="" languagecode="3082" />
+          <CustomLabel description="" languagecode="2052" />
+          <CustomLabel description="" languagecode="1033" />
+          <CustomLabel description="" languagecode="1041" />
+          <CustomLabel description="" languagecode="1042" />
+        </CustomLabels>
+        <RelationshipRoleType>1</RelationshipRoleType>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <RelationshipRoleType>0</RelationshipRoleType>
+      </EntityRelationshipRole>
+    </EntityRelationshipRoles>
+  </EntityRelationship>
+</EntityRelationships>

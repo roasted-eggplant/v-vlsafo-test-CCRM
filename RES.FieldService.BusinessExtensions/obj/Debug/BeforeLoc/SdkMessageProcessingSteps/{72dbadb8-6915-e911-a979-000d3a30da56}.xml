@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="CCRM.REFFS.Plugins.InventoryCreate: Create of product" SdkMessageProcessingStepId="{72dbadb8-6915-e911-a979-000d3a30da56}">
+  <PluginTypeName>CCRM.REFFS.Plugins.InventoryCreate, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f</PluginTypeName>
+  <PluginTypeId>fcf5f178-8e6d-4890-bba4-0dbf52a05248</PluginTypeId>
+  <PrimaryEntity>product</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>CCRM.REFFS.Plugins.InventoryCreate: Create of product</Description>
+  <FilteringAttributes></FilteringAttributes>
+  <ImpersonatingUserIdName>REF UAT Account #</ImpersonatingUserIdName>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{9ebdbb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

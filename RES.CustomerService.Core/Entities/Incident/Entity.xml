@@ -1,0 +1,1336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Service Request" OriginalName="Case">Incident</Name>
+  <EntityInfo>
+    <entity Name="Incident">
+      <attributes>
+        <attribute PhysicalName="CustomerId">
+          <Type>customer</Type>
+          <Name>customerid</Name>
+          <LogicalName>customerid</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>1</IsGlobalFilterEnabled>
+          <IsSortableEnabled>1</IsSortableEnabled>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <displaynames>
+            <displayname description="Provider" languagecode="1033" />
+            <displayname description="顧客" languagecode="1041" />
+            <displayname description="Cliente" languagecode="3082" />
+            <displayname description="Client" languagecode="1036" />
+            <displayname description="고객" languagecode="1042" />
+            <displayname description="客户" languagecode="2052" />
+            <displayname description="Cliente" languagecode="2070" />
+            <displayname description="Cliente" languagecode="1046" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier of the account or contact associated with the case." languagecode="1033" />
+            <Description description="거래처 정보, 활동, 영업 기회와 같은 추가 고객 정보에 대한 퀵 링크를 제공하는 고객 거래처 또는 연락처를 선택합니다." languagecode="1042" />
+            <Description description="Sélectionnez le compte client ou le contact pour fournir un lien rapide vers les détails supplémentaires du client, comme les informations de compte, les activités et les opportunités." languagecode="1036" />
+            <Description description="选择客户帐户或联系人以提供指向其他客户详细信息(如帐户信息、活动和商机)的快速链接。" languagecode="2052" />
+            <Description description="取引先企業の情報、活動、営業案件などの追加の顧客詳細情報にすばやくリンクできるようにするために顧客の取引先企業または取引先担当者を選択します。" languagecode="1041" />
+            <Description description="Seleccione la cuenta o el contacto del cliente para proporcionar un vínculo rápido a detalles adicionales del cliente, como información de cuenta, actividades y oportunidades." languagecode="3082" />
+            <Description description="Selecione a conta ou o contacto do cliente para fornecer uma ligação rápida para detalhes adicionais sobre o cliente, como informações sobre a conta, atividades e oportunidades." languagecode="2070" />
+            <Description description="Selecione a conta ou o contato do cliente para fornecer um link rápido para detalhes adicionais do cliente, como informações sobre a conta, atividades e oportunidades." languagecode="1046" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="msa_partnerid">
+          <Type>lookup</Type>
+          <Name>msa_partnerid</Name>
+          <LogicalName>msa_partnerid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.21</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Partner" languagecode="1033" />
+            <displayname description="Partner" languagecode="1036" />
+            <displayname description="Partner" languagecode="3082" />
+            <displayname description="Partner" languagecode="2070" />
+            <displayname description="Partner" languagecode="2052" />
+            <displayname description="Partner" languagecode="1041" />
+            <displayname description="Partner" languagecode="1042" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Creates a Relationship between a Partner (account) and a case for indirect service arrangements." languagecode="1033" />
+            <Description description="" languagecode="1041" />
+            <Description description="" languagecode="3082" />
+            <Description description="" languagecode="1036" />
+            <Description description="" languagecode="2052" />
+            <Description description="" languagecode="2070" />
+            <Description description="" languagecode="1042" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="new_ContactRoomNumber">
+          <Type>lookup</Type>
+          <Name>new_contactroomnumber</Name>
+          <LogicalName>new_contactroomnumber</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Contact Room Number" languagecode="1033" />
+            <displayname description="Contact Room Number" languagecode="1041" />
+            <displayname description="Contact Room Number" languagecode="3082" />
+            <displayname description="Contact Room Number" languagecode="2052" />
+            <displayname description="Contact Room Number" languagecode="1042" />
+            <displayname description="Contact Room Number" languagecode="2070" />
+            <displayname description="Contact Room Number" languagecode="1036" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1041" />
+            <Description description="" languagecode="2070" />
+            <Description description="" languagecode="2052" />
+            <Description description="" languagecode="3082" />
+            <Description description="" languagecode="1042" />
+            <Description description="" languagecode="1036" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="new_problemroomnum">
+          <Type>lookup</Type>
+          <Name>new_problemroomnum</Name>
+          <LogicalName>new_problemroomnum</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Problem Room Number" languagecode="1033" />
+            <displayname description="Numéro de chambre problématique" languagecode="1036" />
+            <displayname description="リクエストルーム番号" languagecode="1041" />
+            <displayname description="문제있는 방 번호" languagecode="1042" />
+            <displayname description="需求房间号" languagecode="2052" />
+            <displayname description="Número do quarto com problema" languagecode="2070" />
+            <displayname description="Número de habitación con problema" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="This is test relation lookup to validate OOB option." languagecode="1033" />
+            <Description description="" languagecode="2070" />
+            <Description description="" languagecode="1042" />
+            <Description description="" languagecode="2052" />
+            <Description description="" languagecode="3082" />
+            <Description description="" languagecode="1041" />
+            <Description description="" languagecode="1036" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="new_ProblemRoomNumber">
+          <Type>lookup</Type>
+          <Name>new_problemroomnumber</Name>
+          <LogicalName>new_problemroomnumber</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Problem Room Number" languagecode="1033" />
+            <displayname description="需求房间号" languagecode="2052" />
+            <displayname description="Numéro de chambre problématique" languagecode="1036" />
+            <displayname description="リクエストルーム番号" languagecode="1041" />
+            <displayname description="문제 방 번호 " languagecode="1042" />
+            <displayname description="Número do quarto com problema" languagecode="2070" />
+            <displayname description="Número de habitación con problema" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
+            <Description description="" languagecode="3082" />
+            <Description description="" languagecode="1042" />
+            <Description description="" languagecode="2052" />
+            <Description description="" languagecode="2070" />
+            <Description description="" languagecode="1041" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="new_RequestorRoomNumber">
+          <Type>lookup</Type>
+          <Name>new_requestorroomnumber</Name>
+          <LogicalName>new_requestorroomnumber</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Requestor Room Number" languagecode="1033" />
+            <displayname description="Requestor Room Number" languagecode="1042" />
+            <displayname description="Requestor Room Number" languagecode="2052" />
+            <displayname description="Requestor Room Number" languagecode="1041" />
+            <displayname description="Requestor Room Number" languagecode="2070" />
+            <displayname description="Requestor Room Number" languagecode="1036" />
+            <displayname description="Requestor Room Number" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+            <Description description="" languagecode="3082" />
+            <Description description="" languagecode="2052" />
+            <Description description="" languagecode="1041" />
+            <Description description="" languagecode="1036" />
+            <Description description="" languagecode="1042" />
+            <Description description="" languagecode="2070" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_Approver">
+          <Type>lookup</Type>
+          <Name>smp_approver</Name>
+          <LogicalName>smp_approver</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Approver" languagecode="1033" />
+            <displayname description="Approver" languagecode="2070" />
+            <displayname description="Approver" languagecode="2052" />
+            <displayname description="Approver" languagecode="1036" />
+            <displayname description="Approver" languagecode="3082" />
+            <displayname description="Approver" languagecode="1041" />
+            <displayname description="Approver" languagecode="1042" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Contact associated with Service Request." languagecode="1033" />
+            <Description description="" languagecode="1042" />
+            <Description description="" languagecode="2070" />
+            <Description description="" languagecode="1036" />
+            <Description description="" languagecode="2052" />
+            <Description description="" languagecode="3082" />
+            <Description description="" languagecode="1041" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_AreaportfoliomanagerId">
+          <Type>lookup</Type>
+          <Name>smp_areaportfoliomanagerid</Name>
+          <LogicalName>smp_areaportfoliomanagerid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Area portfolio manager" languagecode="1033" />
+            <displayname description="Area portfolio manager" languagecode="1042" />
+            <displayname description="Area portfolio manager" languagecode="1036" />
+            <displayname description="Area portfolio manager" languagecode="2070" />
+            <displayname description="Area portfolio manager" languagecode="1041" />
+            <displayname description="Area portfolio manager" languagecode="2052" />
+            <displayname description="Area portfolio manager" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Contact associated with Case." languagecode="1033" />
+            <Description description="" languagecode="2052" />
+            <Description description="" languagecode="2070" />
+            <Description description="" languagecode="1041" />
+            <Description description="" languagecode="1036" />
+            <Description description="" languagecode="1042" />
+            <Description description="" languagecode="3082" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_BuildingId">
+          <Type>lookup</Type>
+          <Name>smp_buildingid</Name>
+          <LogicalName>smp_buildingid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Requestor Building" languagecode="1033" />
+            <displayname description="Requestor Building" languagecode="1041" />
+            <displayname description="Requestor Building" languagecode="1042" />
+            <displayname description="Requestor Building" languagecode="1036" />
+            <displayname description="Requestor Building" languagecode="3082" />
+            <displayname description="Requestor Building" languagecode="2070" />
+            <displayname description="Requestor Building" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Building associated with Case." languagecode="1033" />
+            <Description description="" languagecode="2070" />
+            <Description description="" languagecode="1041" />
+            <Description description="" languagecode="1042" />
+            <Description description="" languagecode="1036" />
+            <Description description="" languagecode="2052" />
+            <Description description="" languagecode="3082" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_cc">
+          <Type>lookup</Type>
+          <Name>smp_cc</Name>
+          <LogicalName>smp_cc</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.0.0.17</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="CC" languagecode="1033" />
+            <displayname description="CC" languagecode="1042" />
+            <displayname description="CC" languagecode="1041" />
+            <displayname description="CC" languagecode="2052" />
+            <displayname description="CC" languagecode="2070" />
+            <displayname description="CC" languagecode="1036" />
+            <displayname description="CC" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="V8 Change Request for adding CC" languagecode="1033" />
+            <Description description="" languagecode="1036" />
+            <Description description="" languagecode="1041" />
+            <Description description="" languagecode="3082" />
+            <Description description="" languagecode="2070" />
+            <Description description="" languagecode="2052" />
+            <Description description="" languagecode="1042" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_Contact">
+          <Type>lookup</Type>
+          <Name>smp_contact</Name>
+          <LogicalName>smp_contact</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Contact Name" languagecode="1033" />
+            <displayname description="Contact (Portal)" languagecode="1036" />
+            <displayname description="Contact (Portal)" languagecode="2052" />
+            <displayname description="Contact (Portal)" languagecode="3082" />
+            <displayname description="Contact (Portal)" languagecode="1041" />
+            <displayname description="Contact (Portal)" languagecode="1042" />
+            <displayname description="Contact (Portal)" languagecode="2070" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Contact associated with Service Request." languagecode="1033" />
+            <Description description="" languagecode="1041" />
+            <Description description="" languagecode="2070" />
+            <Description description="" languagecode="3082" />
+            <Description description="" languagecode="1042" />
+            <Description description="" languagecode="2052" />
+            <Description description="" languagecode="1036" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_ContactBuilding">
+          <Type>lookup</Type>
+          <Name>smp_contactbuilding</Name>
+          <LogicalName>smp_contactbuilding</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Contact Building" languagecode="1033" />
+            <displayname description="Contact Building" languagecode="2070" />
+            <displayname description="Contact Building" languagecode="2052" />
+            <displayname description="Contact Building" languagecode="1036" />
+            <displayname description="Contact Building" languagecode="3082" />
+            <displayname description="Contact Building" languagecode="1041" />
+            <displayname description="Contact Building" languagecode="1042" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Building associated with Service Request." languagecode="1033" />
+            <Description description="" languagecode="1042" />
+            <Description description="" languagecode="3082" />
+            <Description description="" languagecode="1036" />
+            <Description description="" languagecode="1041" />
+            <Description description="" languagecode="2070" />
+            <Description description="" languagecode="2052" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_FacilitiesmanagerId">
+          <Type>lookup</Type>
+          <Name>smp_facilitiesmanagerid</Name>
+          <LogicalName>smp_facilitiesmanagerid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Facilities manager" languagecode="1033" />
+            <displayname description="Facilities manager" languagecode="1036" />
+            <displayname description="Facilities manager" languagecode="3082" />
+            <displayname description="Facilities manager" languagecode="1042" />
+            <displayname description="Facilities manager" languagecode="1041" />
+            <displayname description="Facilities manager" languagecode="2052" />
+            <displayname description="Facilities manager" languagecode="2070" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Contact associated with Case." languagecode="1033" />
+            <Description description="" languagecode="2070" />
+            <Description description="" languagecode="3082" />
+            <Description description="" languagecode="1042" />
+            <Description description="" languagecode="2052" />
+            <Description description="" languagecode="1041" />
+            <Description description="" languagecode="1036" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_IFMPortfolioManagerId">
+          <Type>lookup</Type>
+          <Name>smp_ifmportfoliomanagerid</Name>
+          <LogicalName>smp_ifmportfoliomanagerid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="IFM Portfolio Manager" languagecode="1033" />
+            <displayname description="IFM Portfolio Manager" languagecode="1042" />
+            <displayname description="IFM Portfolio Manager" languagecode="2052" />
+            <displayname description="IFM Portfolio Manager" languagecode="1041" />
+            <displayname description="IFM Portfolio Manager" languagecode="2070" />
+            <displayname description="IFM Portfolio Manager" languagecode="1036" />
+            <displayname description="IFM Portfolio Manager" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Contact associated with Service Request." languagecode="1033" />
+            <Description description="" languagecode="1041" />
+            <Description description="" languagecode="3082" />
+            <Description description="" languagecode="2070" />
+            <Description description="" languagecode="1042" />
+            <Description description="" languagecode="2052" />
+            <Description description="" languagecode="1036" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_LandlordCompanyNameId">
+          <Type>lookup</Type>
+          <Name>smp_landlordcompanynameid</Name>
+          <LogicalName>smp_landlordcompanynameid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Landlord Company Name" languagecode="1033" />
+            <displayname description="Landlord Company Name" languagecode="1036" />
+            <displayname description="Landlord Company Name" languagecode="1042" />
+            <displayname description="Landlord Company Name" languagecode="2070" />
+            <displayname description="Landlord Company Name" languagecode="1041" />
+            <displayname description="Landlord Company Name" languagecode="2052" />
+            <displayname description="Landlord Company Name" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Provider associated with Service Request." languagecode="1033" />
+            <Description description="" languagecode="1042" />
+            <Description description="" languagecode="2070" />
+            <Description description="" languagecode="3082" />
+            <Description description="" languagecode="1041" />
+            <Description description="" languagecode="1036" />
+            <Description description="" languagecode="2052" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_PriorityId">
+          <Type>lookup</Type>
+          <Name>smp_priorityid</Name>
+          <LogicalName>smp_priorityid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Priority" languagecode="1033" />
+            <displayname description="Priority" languagecode="1042" />
+            <displayname description="Priority" languagecode="1041" />
+            <displayname description="Priority" languagecode="3082" />
+            <displayname description="Priority" languagecode="2070" />
+            <displayname description="Priority" languagecode="1036" />
+            <displayname description="Priority" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Priority associated with Case." languagecode="1033" />
+            <Description description="" languagecode="1042" />
+            <Description description="" languagecode="2070" />
+            <Description description="" languagecode="1041" />
+            <Description description="" languagecode="2052" />
+            <Description description="" languagecode="3082" />
+            <Description description="" languagecode="1036" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_ProblemBuilding">
+          <Type>lookup</Type>
+          <Name>smp_problembuilding</Name>
+          <LogicalName>smp_problembuilding</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Problem Building" languagecode="1033" />
+            <displayname description="服务需求大楼" languagecode="2052" />
+            <displayname description="Edificio del Problema" languagecode="1036" />
+            <displayname description="問題のある建物" languagecode="1041" />
+            <displayname description="문제 건물 " languagecode="1042" />
+            <displayname description="Construction de problème" languagecode="2070" />
+            <displayname description="Edificio del Problema" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Building associated with Service Request." languagecode="1033" />
+            <Description description="" languagecode="1042" />
+            <Description description="" languagecode="2070" />
+            <Description description="" languagecode="3082" />
+            <Description description="" languagecode="2052" />
+            <Description description="" languagecode="1041" />
+            <Description description="" languagecode="1036" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_ProblemBuildingTimeZone">
+          <Type>lookup</Type>
+          <Name>smp_problembuildingtimezone</Name>
+          <LogicalName>smp_problembuildingtimezone</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Problem Building Time Zone" languagecode="1033" />
+            <displayname description="Problem Building Time Zone" languagecode="1041" />
+            <displayname description="Problem Building Time Zone" languagecode="1042" />
+            <displayname description="Problem Building Time Zone" languagecode="3082" />
+            <displayname description="Problem Building Time Zone" languagecode="1036" />
+            <displayname description="Problem Building Time Zone" languagecode="2052" />
+            <displayname description="Problem Building Time Zone" languagecode="2070" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Time Zone associated with Service Request." languagecode="1033" />
+            <Description description="" languagecode="2070" />
+            <Description description="" languagecode="1041" />
+            <Description description="" languagecode="2052" />
+            <Description description="" languagecode="1036" />
+            <Description description="" languagecode="3082" />
+            <Description description="" languagecode="1042" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_ProblemClassId">
+          <Type>lookup</Type>
+          <Name>smp_problemclassid</Name>
+          <LogicalName>smp_problemclassid</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Problem Class" languagecode="1033" />
+            <displayname description="Catégorie de la demande" languagecode="1036" />
+            <displayname description="問題の部類" languagecode="1041" />
+            <displayname description="Classe do Problema" languagecode="2070" />
+            <displayname description="Clase de problema" languagecode="3082" />
+            <displayname description="문제 등급" languagecode="1042" />
+            <displayname description="问题类别" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Problem Class associated with Case." languagecode="1033" />
+            <Description description="" languagecode="3082" />
+            <Description description="" languagecode="2070" />
+            <Description description="" languagecode="1042" />
+            <Description description="" languagecode="2052" />
+            <Description description="" languagecode="1036" />
+            <Description description="" languagecode="1041" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_ProblemFloor">
+          <Type>lookup</Type>
+          <Name>smp_problemfloor</Name>
+          <LogicalName>smp_problemfloor</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Problem Floor" languagecode="1033" />
+            <displayname description="Problem Floor" languagecode="2070" />
+            <displayname description="Problem Floor" languagecode="1041" />
+            <displayname description="Problem Floor" languagecode="1042" />
+            <displayname description="Problem Floor" languagecode="3082" />
+            <displayname description="Problem Floor" languagecode="1036" />
+            <displayname description="Problem Floor" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Floor associated with Service Request." languagecode="1033" />
+            <Description description="" languagecode="1042" />
+            <Description description="" languagecode="1041" />
+            <Description description="" languagecode="2070" />
+            <Description description="" languagecode="1036" />
+            <Description description="" languagecode="3082" />
+            <Description description="" languagecode="2052" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_ProblemRoomType">
+          <Type>lookup</Type>
+          <Name>smp_problemroomtype</Name>
+          <LogicalName>smp_problemroomtype</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Problem Room Type" languagecode="1033" />
+            <displayname description="Problem Room Type" languagecode="1041" />
+            <displayname description="Problem Room Type" languagecode="1036" />
+            <displayname description="Problem Room Type" languagecode="3082" />
+            <displayname description="Problem Room Type" languagecode="1042" />
+            <displayname description="Problem Room Type" languagecode="2070" />
+            <displayname description="Problem Room Type" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Room Type associated with Service Request." languagecode="1033" />
+            <Description description="" languagecode="1036" />
+            <Description description="" languagecode="3082" />
+            <Description description="" languagecode="2052" />
+            <Description description="" languagecode="2070" />
+            <Description description="" languagecode="1042" />
+            <Description description="" languagecode="1041" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_ProblemTypeId">
+          <Type>lookup</Type>
+          <Name>smp_problemtypeid</Name>
+          <LogicalName>smp_problemtypeid</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Problem Type" languagecode="1033" />
+            <displayname description="문제 유형" languagecode="1042" />
+            <displayname description="问题类型" languagecode="2052" />
+            <displayname description="Type de demande" languagecode="1036" />
+            <displayname description="問題点" languagecode="1041" />
+            <displayname description="Tipo do Problema" languagecode="2070" />
+            <displayname description="Tipo de problema" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Problem Type associated with Case." languagecode="1033" />
+            <Description description="" languagecode="1036" />
+            <Description description="" languagecode="1041" />
+            <Description description="" languagecode="2070" />
+            <Description description="" languagecode="1042" />
+            <Description description="" languagecode="2052" />
+            <Description description="" languagecode="3082" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_ProviderId">
+          <Type>lookup</Type>
+          <Name>smp_providerid</Name>
+          <LogicalName>smp_providerid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="New Provider" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_ProviderMatrixId">
+          <Type>lookup</Type>
+          <Name>smp_providermatrixid</Name>
+          <LogicalName>smp_providermatrixid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Provider Matrix" languagecode="1033" />
+            <displayname description="Provider Matrix" languagecode="2052" />
+            <displayname description="Provider Matrix" languagecode="1042" />
+            <displayname description="Provider Matrix" languagecode="3082" />
+            <displayname description="Provider Matrix" languagecode="1036" />
+            <displayname description="Provider Matrix" languagecode="1041" />
+            <displayname description="Provider Matrix" languagecode="2070" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Provider Matrix associated with Service Request." languagecode="1033" />
+            <Description description="" languagecode="1042" />
+            <Description description="" languagecode="1041" />
+            <Description description="" languagecode="2052" />
+            <Description description="" languagecode="1036" />
+            <Description description="" languagecode="2070" />
+            <Description description="" languagecode="3082" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_RegionalOperationsandProgramManId">
+          <Type>lookup</Type>
+          <Name>smp_regionaloperationsandprogrammanid</Name>
+          <LogicalName>smp_regionaloperationsandprogrammanid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Regional Operations and Program Manager" languagecode="1033" />
+            <displayname description="Regional Operations and Program Manager" languagecode="1036" />
+            <displayname description="Regional Operations and Program Manager" languagecode="2070" />
+            <displayname description="Regional Operations and Program Manager" languagecode="1041" />
+            <displayname description="Regional Operations and Program Manager" languagecode="3082" />
+            <displayname description="Regional Operations and Program Manager" languagecode="1042" />
+            <displayname description="Regional Operations and Program Manager" languagecode="2052" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Contact associated with Case." languagecode="1033" />
+            <Description description="" languagecode="1036" />
+            <Description description="" languagecode="3082" />
+            <Description description="" languagecode="2052" />
+            <Description description="" languagecode="1041" />
+            <Description description="" languagecode="1042" />
+            <Description description="" languagecode="2070" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_RequestorId">
+          <Type>lookup</Type>
+          <Name>smp_requestorid</Name>
+          <LogicalName>smp_requestorid</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Requestor Name" languagecode="1033" />
+            <displayname description="Requestor" languagecode="2052" />
+            <displayname description="Solicitante" languagecode="1036" />
+            <displayname description="要請者" languagecode="1041" />
+            <displayname description="요청자 " languagecode="1042" />
+            <displayname description="Demander" languagecode="2070" />
+            <displayname description="Solicitante" languagecode="3082" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Contact associated with Case." languagecode="1033" />
+            <Description description="" languagecode="2070" />
+            <Description description="" languagecode="3082" />
+            <Description description="" languagecode="1042" />
+            <Description description="" languagecode="1036" />
+            <Description description="" languagecode="1041" />
+            <Description description="" languagecode="2052" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="smp_StatusCode">
+          <Type>lookup</Type>
+          <Name>smp_statuscode</Name>
+          <LogicalName>smp_statuscode</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Status Code From Tier 1" languagecode="1033" />
+            <displayname description="Status Code From Tier 1" languagecode="1041" />
+            <displayname description="Status Code From Tier 1" languagecode="1036" />
+            <displayname description="Status Code From Tier 1" languagecode="3082" />
+            <displayname description="Status Code From Tier 1" languagecode="2052" />
+            <displayname description="Status Code From Tier 1" languagecode="1042" />
+            <displayname description="Status Code From Tier 1" languagecode="2070" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Service Request Status Code associated with Service Request." languagecode="1033" />
+            <Description description="" languagecode="1041" />
+            <Description description="" languagecode="2070" />
+            <Description description="" languagecode="1036" />
+            <Description description="" languagecode="3082" />
+            <Description description="" languagecode="1042" />
+            <Description description="" languagecode="2052" />
+          </Descriptions>
+        </attribute>
+      </attributes>
+    </entity>
+  </EntityInfo>
+  <RibbonDiffXml />
+</Entity>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="bpf_msdyn_workorder_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39" />
+  <EntityRelationship Name="bpf_msdyn_workorder_smp_workorderbpf" />
+  <EntityRelationship Name="lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_activestageid" />
+  <EntityRelationship Name="lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_createdby" />
+  <EntityRelationship Name="lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_modifiedby" />
+  <EntityRelationship Name="lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_processid" />
+  <EntityRelationship Name="lk_smp_workorderbpf_activestageid" />
+  <EntityRelationship Name="lk_smp_workorderbpf_createdby" />
+  <EntityRelationship Name="lk_smp_workorderbpf_modifiedby" />
+  <EntityRelationship Name="lk_smp_workorderbpf_processid" />
+  <EntityRelationship Name="organization_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39" />
+  <EntityRelationship Name="organization_smp_workorderbpf" />
+</EntityRelationships>

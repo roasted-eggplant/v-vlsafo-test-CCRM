@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="CCRM.REF.OptimizedPlugins.PostSatisfactionSurveyResponseCreate: Create of smp_satisfactionsurvey" SdkMessageProcessingStepId="{03c85b19-c340-e811-8130-3863bb3c4528}">
+  <PluginTypeName>CCRM.REF.OptimizedPlugins.PostSatisfactionSurveyResponseCreate, CCRM.REF.OptimizedPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b90811e689bae126</PluginTypeName>
+  <PluginTypeId>1e199393-da5f-e811-8113-3863bb2e0660</PluginTypeId>
+  <PrimaryEntity>smp_satisfactionsurvey</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{9ebdbb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages>
+    <SdkMessageProcessingStepImage Name="PostImage">
+      <SdkMessageProcessingStepImageId>{bc62313f-c340-e811-8130-3863bb3c4528}</SdkMessageProcessingStepImageId>
+      <Attributes>smp_incidentid</Attributes>
+      <EntityAlias>PostImage</EntityAlias>
+      <ImageType>1</ImageType>
+      <MessagePropertyName>Id</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+  </SdkMessageProcessingStepImages>
+</SdkMessageProcessingStep>

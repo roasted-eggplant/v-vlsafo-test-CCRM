@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{9a1a715f-8a84-4363-b88d-199281705d7b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_buildingname" select="1" icon="1" preview="1">
+        <row name="result" id="smp_buildingid">
+          <cell name="smp_buildingname" width="300" />
+          <cell name="smp_addressline1" width="100" />
+          <cell name="smp_addressline2" width="100" />
+          <cell name="smp_city" width="100" />
+          <cell name="smp_state" width="100" />
+          <cell name="smp_country" width="100" />
+          <cell name="smp_zipcode" width="100" />
+          <cell name="smp_fiscalregionid" width="100" />
+          <cell name="smp_fiscalsubregionid" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_building">
+          <attribute name="smp_buildingname" />
+          <attribute name="createdon" />
+          <order attribute="smp_buildingname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="smp_zipcode" />
+          <attribute name="smp_state" />
+          <attribute name="smp_country" />
+          <attribute name="smp_city" />
+          <attribute name="smp_addressline2" />
+          <attribute name="smp_addressline1" />
+          <attribute name="smp_fiscalsubregionid" />
+          <attribute name="smp_fiscalregionid" />
+          <attribute name="smp_buildingid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Buildings" languagecode="1033" />
+      <LocalizedName description="Edificios activos" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="CCRM.REF.DataMallSync.CreateUpdateContactDataMallSync: Update of contact" SdkMessageProcessingStepId="{9cf35624-805b-e911-a981-000d3a30da56}">
+  <PluginTypeName>CCRM.REF.DataMallSync.CreateUpdateContactDataMallSync, CCRM.REF.DataMallSync, Version=1.0.0.0, Culture=neutral, PublicKeyToken=578f53b52ee79dc2</PluginTypeName>
+  <PluginTypeId>e47389a6-aeb9-430b-9e7c-05ef744e3682</PluginTypeId>
+  <PrimaryEntity>contact</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>CCRM.REF.DataMallSync.CreateUpdateContactDataMallSync: Update of contact</Description>
+  <FilteringAttributes>smp_buildingnumber,smp_company,smp_mgrpersonalnumber,smp_roomno</FilteringAttributes>
+  <ImpersonatingUserIdName>REF UAT Account #</ImpersonatingUserIdName>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{20bebb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages>
+    <SdkMessageProcessingStepImage Name="PostImage">
+      <SdkMessageProcessingStepImageId>{70cdbed8-986d-e911-a97d-000d3a30d7c8}</SdkMessageProcessingStepImageId>
+      <Attributes>smp_buildingid</Attributes>
+      <EntityAlias>PostImage</EntityAlias>
+      <ImageType>1</ImageType>
+      <MessagePropertyName>Target</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+  </SdkMessageProcessingStepImages>
+</SdkMessageProcessingStep>

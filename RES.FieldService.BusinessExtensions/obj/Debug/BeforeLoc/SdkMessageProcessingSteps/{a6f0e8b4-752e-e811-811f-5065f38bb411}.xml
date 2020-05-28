@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="CCRM.REFFS.Plugins.WorkOrderPostCreate: Create of msdyn_workorder" SdkMessageProcessingStepId="{a6f0e8b4-752e-e811-811f-5065f38bb411}">
+  <PluginTypeName>CCRM.REFFS.Plugins.WorkOrderPostCreate, CCRM.REFFS.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97b78806368ded4f</PluginTypeName>
+  <PluginTypeId>a2776a27-9c76-e811-811a-3863bb355d28</PluginTypeId>
+  <PrimaryEntity>msdyn_workorder</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>CCRM.REFFS.Plugins.WorkOrderPostCreate: Create of msdyn_workorder</Description>
+  <FilteringAttributes></FilteringAttributes>
+  <ImpersonatingUserIdName>REF UAT Account #</ImpersonatingUserIdName>
+  <InvocationSource>1</InvocationSource>
+  <Mode>1</Mode>
+  <Rank>2</Rank>
+  <SdkMessageId>{9ebdbb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

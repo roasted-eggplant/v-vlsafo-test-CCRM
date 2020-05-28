@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{6ecb03a4-acda-44ae-83e3-c60ba8338dbb}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msdyn_name" select="1" icon="1" preview="1">
+        <row name="result" id="msdyn_customerassetid">
+          <cell name="msdyn_name" width="300" />
+          <cell name="msdyn_account" width="150" />
+          <cell name="smp_manufacturer" width="100" />
+          <cell name="smp_model" width="100" />
+          <cell name="msdyn_parentasset" width="150" />
+          <cell name="msdyn_masterasset" width="150" />
+          <cell name="smp_customerassetclass" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msdyn_customerasset">
+          <attribute name="createdon" />
+          <order attribute="msdyn_account" descending="false" />
+          <order attribute="msdyn_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="msdyn_parentasset" />
+          <attribute name="msdyn_masterasset" />
+          <attribute name="msdyn_account" />
+          <attribute name="msdyn_name" />
+          <attribute name="smp_model" />
+          <attribute name="smp_manufacturer" />
+          <attribute name="smp_customerassetclass" />
+          <attribute name="msdyn_customerassetid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Customer Assets" languagecode="1033" />
+      <LocalizedName description="Actifs des clients actifs" languagecode="1036" />
+      <LocalizedName description="アクティブな顧客資産" languagecode="1041" />
+      <LocalizedName description="활성 고객 자산" languagecode="1042" />
+      <LocalizedName description="Ativos de clientes Ativos" languagecode="1046" />
+      <LocalizedName description="可用客户资产" languagecode="2052" />
+      <LocalizedName description="Ativos do Cliente Ativos" languagecode="2070" />
+      <LocalizedName description="Activos de clientes activos" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

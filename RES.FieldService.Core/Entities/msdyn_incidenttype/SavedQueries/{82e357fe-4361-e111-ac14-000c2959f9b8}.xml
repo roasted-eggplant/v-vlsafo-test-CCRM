@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <isquickfindquery>0</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>0</isdefault>
+  <savedqueryid>{82e357fe-4361-e111-ac14-000c2959f9b8}</savedqueryid>
+  <layoutxml>
+    <grid name="resultset" jump="msdyn_name" select="1" preview="1" icon="1">
+      <row name="result" id="msdyn_incidenttypeid">
+        <cell name="msdyn_name" width="200" />
+        <cell name="msdyn_estimatedduration" width="125" />
+        <cell name="createdon" width="125" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>0</querytype>
+  <fetchxml>
+    <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+      <entity name="msdyn_incidenttype">
+        <attribute name="createdon" />
+        <attribute name="msdyn_name" />
+        <attribute name="msdyn_estimatedduration" />
+        <order attribute="msdyn_name" descending="false" />
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="0" />
+          <condition attribute="smp_allowonsr" operator="eq" value="1" />
+        </filter>
+        <attribute name="msdyn_incidenttypeid" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>3.1.0.3</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Allow On Work Order Lookup" languagecode="1033" />
+    <LocalizedName description="Autoriser sur la recherche d'ordre de travail" languagecode="1036" />
+    <LocalizedName description="作業指示書検索の許可" languagecode="1041" />
+    <LocalizedName description="작업 주문 조회 시 허용" languagecode="1042" />
+    <LocalizedName description="Permitir Pesquisa de Ordem de Serviço" languagecode="1046" />
+    <LocalizedName description="允许在工作订单上查找" languagecode="2052" />
+    <LocalizedName description="Permitir Na Pesquisa de Ordens de Intervenção" languagecode="2070" />
+    <LocalizedName description="Permitir búsquedas en órdenes de trabajo" languagecode="3082" />
+  </LocalizedNames>
+</savedquery>

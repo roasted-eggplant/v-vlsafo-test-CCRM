@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="msdyn_msdyn_workorderproduct_msdyn_customerasset_WorkOrderProduct">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>msdyn_customerasset</ReferencingEntityName>
+    <ReferencedEntityName>msdyn_workorderproduct</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>RemoveLink</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <CascadeRollupView>NoCascade</CascadeRollupView>
+    <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+    <ReferencingAttributeName>msdyn_WorkOrderProduct</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Indicates a link to the Work Order Product from where this Asset was auto created by the system." languagecode="1033" />
+        <Description description="Indica un vínculo al producto de orden de trabajo desde el que el sistema creó automáticamente este activo." languagecode="3082" />
+        <Description description="Indique un lien au produit de l'ordre de travail à partir duquel cet actif a été créé automatiquement par le système." languagecode="1036" />
+        <Description description="この資産がシステムによって自動作成された作業指示書製品へのリンクを示します。" languagecode="1041" />
+        <Description description="시스템에서 이 자산이 자동으로 만들어진 작업 주문 제품에 대한 링크를 나타냅니다." languagecode="1042" />
+        <Description description="Indica uma hiperligação para o Produto da Ordem de Intervenção a partir do qual este Ativo foi criado automaticamente pelo sistema." languagecode="2070" />
+        <Description description="指示一个工作订单产品的链接，此资产是由系统自动从该工作订单产品创建的。" languagecode="2052" />
+      </Descriptions>
+    </RelationshipDescription>
+    <EntityRelationshipRoles>
+      <EntityRelationshipRole>
+        <NavPaneDisplayOption>UseCollectionName</NavPaneDisplayOption>
+        <NavPaneArea>Details</NavPaneArea>
+        <NavPaneOrder>10000</NavPaneOrder>
+        <NavigationPropertyName>msdyn_workorderproduct</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="" languagecode="1033" />
+          <CustomLabel description="" languagecode="3082" />
+          <CustomLabel description="" languagecode="1036" />
+          <CustomLabel description="" languagecode="1041" />
+          <CustomLabel description="" languagecode="1042" />
+          <CustomLabel description="" languagecode="2070" />
+          <CustomLabel description="" languagecode="2052" />
+        </CustomLabels>
+        <RelationshipRoleType>1</RelationshipRoleType>
+      </EntityRelationshipRole>
+      <EntityRelationshipRole>
+        <RelationshipRoleType>0</RelationshipRoleType>
+      </EntityRelationshipRole>
+    </EntityRelationshipRoles>
+  </EntityRelationship>
+</EntityRelationships>

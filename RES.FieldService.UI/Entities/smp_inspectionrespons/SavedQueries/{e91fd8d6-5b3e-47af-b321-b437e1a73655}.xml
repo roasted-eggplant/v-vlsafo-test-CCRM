@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{e91fd8d6-5b3e-47af-b321-b437e1a73655}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_name" select="1" icon="1" preview="1">
+        <row name="result" id="smp_inspectionresponsid">
+          <cell name="smp_inspectionid" width="100" />
+          <cell name="smp_inspectionquestion" width="125" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_response" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="smp_comment" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_inspectionrespons">
+          <attribute name="createdon" />
+          <order attribute="smp_inspectionid" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="smp_response" />
+          <attribute name="smp_inspectionquestion" />
+          <attribute name="smp_inspectionid" />
+          <attribute name="smp_comment" />
+          <attribute name="smp_inspectionresponsid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Inspection Responses" languagecode="1033" />
+      <LocalizedName description="Respostas de Inspeção Ativa" languagecode="1046" />
+      <LocalizedName description="Respuesta de Inspeccion Activa" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

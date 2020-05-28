@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{a9626546-4159-4b43-9978-dfc65dfcf3ed}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{cbe84774-6071-4b72-832b-58dd456d5ce4}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{348660a2-70f4-413b-ad1f-f78501915878}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ff1a217d-b8e3-4a1c-9ac1-5c56362d827d}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Exception Message" languagecode="1033" />
+                        </labels>
+                        <control id="smp_description" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{aabc53e8-20e0-4302-9912-e11909732185}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                      <cell id="{6106d183-c6d4-5bc6-29b9-4e7a76c152ec}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Service Request" languagecode="1033" />
+                        </labels>
+                        <control id="smp_servicerequestid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_servicerequestid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cbd3caa4-1031-1b3a-696b-8de3ec59e1d0}" showlabel="true" locklevel="0" colspan="2" rowspan="4">
+                        <labels>
+                          <label description="Exception Details" languagecode="1033" />
+                        </labels>
+                        <control id="smp_exceptiondetails" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="smp_exceptiondetails" disabled="false" />
+                      </cell>
+                    </row>
+                    <row></row>
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{124e0c34-4742-3b38-8bb3-a0938cb540c1}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Provider" languagecode="1033" />
+                        </labels>
+                        <control id="smp_provider" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_provider" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A9AF0AB8-861D-4CFA-92A5-C6281FED7FAB}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5deeae28-57b6-54a0-ab77-3a3218953a50}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Exception Type" languagecode="1033" />
+                        </labels>
+                        <control id="smp_exceptiontype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="smp_exceptiontype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7401c40c-266b-6d96-c036-23143ab20db4}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Missing Data Details" languagecode="1033" />
+                        </labels>
+                        <control id="smp_missingdatadetails" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_missingdatadetails" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{4f7d2567-fef4-4059-aaaa-0a61225f29e2}">
+        <rows>
+          <row>
+            <cell id="{be73cfac-ce29-4b16-96c4-d4b2e55b0afa}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control id="footer_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Processes" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

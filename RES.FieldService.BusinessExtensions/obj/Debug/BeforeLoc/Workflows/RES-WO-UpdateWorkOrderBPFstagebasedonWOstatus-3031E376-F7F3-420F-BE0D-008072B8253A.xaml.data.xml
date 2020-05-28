@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{3031e376-f7f3-420f-be0d-008072b8253a}" Name="RES - WO - Update Work Order BPF stage based on WO status" Description="Workflow to update the BPF stage based on System Status of the Work Order">
+  <XamlFileName>/Workflows/RES-WO-UpdateWorkOrderBPFstagebasedonWOstatus-3031E376-F7F3-420F-BE0D-008072B8253A.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>0</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnUpdateAttributeList>msdyn_workorder.msdyn_systemstatus</TriggerOnUpdateAttributeList>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>1</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <CreateStage>40</CreateStage>
+  <UpdateStage>40</UpdateStage>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>3.5.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <PrimaryEntity>smp_workorderbpf</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="RES - WO - Update Work Order BPF stage based on WO status" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="Workflow to update the BPF stage based on System Status of the Work Order" />
+  </Descriptions>
+</Workflow>

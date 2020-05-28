@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{da5e2948-baa4-4dcb-84b8-9f8a15b4f3a6}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1900">
+      <tabs>
+        <tab verticallayout="true" id="{a76919e7-4e05-4299-9a68-b1a81c4d1881}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Général" languagecode="1036" />
+            <label description="全般" languagecode="1041" />
+            <label description="일반" languagecode="1042" />
+            <label description="Geral" languagecode="1046" />
+            <label description="常规" languagecode="2052" />
+            <label description="Geral" languagecode="2070" />
+            <label description="General" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{e550d5ab-de51-4a8c-8498-1b2e08704143}" name="{e550d5ab-de51-4a8c-8498-1b2e08704143}" columns="11" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Général" languagecode="1036" />
+                    <label description="全般" languagecode="1041" />
+                    <label description="일반" languagecode="1042" />
+                    <label description="Geral" languagecode="1046" />
+                    <label description="常规" languagecode="2052" />
+                    <label description="Geral" languagecode="2070" />
+                    <label description="General" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{616deb39-d7ed-47ac-bffb-3d2dece77cd9}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                          <label description="Nome" languagecode="1046" />
+                          <label description="Nombre" languagecode="3082" />
+                        </labels>
+                        <control id="smp_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_name" uniqueid="{6aaee262-1e15-74e2-929c-1ba93c112d62}" disabled="false" />
+                      </cell>
+                      <cell id="{78c2d5c3-5ddb-5a17-6305-d373682c4e93}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Inspection Type" languagecode="1033" />
+                          <label description="Tipo de Inspeção" languagecode="1046" />
+                          <label description="Tipo de Inspección" languagecode="3082" />
+                        </labels>
+                        <control id="smp_inspectiontype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_inspectiontype" disabled="false" uniqueid="{cc94357d-c9c8-ea45-abb1-cca627ad51de}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{494d49bb-9b53-4a7d-809d-8a34dcc43003}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Inspection Number" languagecode="1033" />
+                          <label description="Número de Inspeção" languagecode="1046" />
+                          <label description="Número de Inspección" languagecode="3082" />
+                        </labels>
+                        <control id="smp_inspectionnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_inspectionnumber" disabled="true" uniqueid="{8ac0dab7-1807-d7ca-dc61-c9c3c99ada11}" />
+                      </cell>
+                      <cell id="{60c70a73-1e6d-5798-cbad-40b8e01be572}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Work Order" languagecode="1033" />
+                          <label description="Ordem de Serviço" languagecode="1046" />
+                          <label description="Órden de Trabajo" languagecode="3082" />
+                        </labels>
+                        <control id="smp_workorder" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_workorder" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9f5ea8fe-b3b5-4537-87b4-7cb6a78f48d0}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="负责人" languagecode="2052" />
+                          <label description="Propriétaire" languagecode="1036" />
+                          <label description="所有者" languagecode="1041" />
+                          <label description="담당자" languagecode="1042" />
+                          <label description="Proprietário" languagecode="2070" />
+                          <label description="Propietario" languagecode="3082" />
+                          <label description="Proprietário" languagecode="1046" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                      <cell id="{1b915c78-c327-1c2d-a8ba-6ea3b705e663}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Problem Building" languagecode="1033" />
+                          <label description="Construção de Problema" languagecode="1046" />
+                          <label description="Edificio" languagecode="3082" />
+                        </labels>
+                        <control id="smp_building" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_building" disabled="false" uniqueid="{a63b08c1-3618-8993-2204-4e4b912672de}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{F3378010-EE11-E811-8116-5065F38BC1A1}</DefaultViewId>
+                            <AvailableViewIds>{F3378010-EE11-E811-8116-5065F38BC1A1}</AvailableViewIds>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1d678291-69b5-e10d-99d4-5ca6da0d0621}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Complete" languagecode="1033" />
+                          <label description="Completo" languagecode="1046" />
+                          <label description="Completo" languagecode="3082" />
+                        </labels>
+                        <control id="smp_complete" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="smp_complete" disabled="false" />
+                      </cell>
+                      <cell id="{c95d6783-3692-b27a-1881-1a0bbb213eb0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Customer Asset" languagecode="1033" />
+                          <label description="Ativo do Cliente" languagecode="1046" />
+                          <label description="Activo de Cliente" languagecode="3082" />
+                        </labels>
+                        <control id="smp_customerassetid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_customerassetid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{a76919e7-4e05-4299-9a68-b1a81c4d1881}_section_2" showlabel="true" showbar="true" locklevel="0" id="{8ce37253-a48a-72ba-79a3-47a0e02da62d}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" height="auto">
+                  <labels>
+                    <label description="Inspection Responses" languagecode="1033" />
+                    <label description="Inspeção" languagecode="1046" />
+                    <label description="Inspección" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{09041256-e2db-6d56-1184-9280514d0de5}" showlabel="false" colspan="1" auto="true" rowspan="4">
+                        <labels>
+                          <label description="Inspection Responses (Inspection)" languagecode="1033" />
+                          <label description="Respostas de Inspeção (Inspeção)" languagecode="1046" />
+                          <label description="Respuestas de Inspección" languagecode="3082" />
+                        </labels>
+                        <control id="Inspection_Response" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{01904326-1056-e7d2-37ec-4153919071a0}">
+                          <parameters>
+                            <ViewId>{312224BC-3C2B-E811-811A-5065F38BC1A1}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>smp_smp_inspection_smp_inspectionrespons</RelationshipName>
+                            <TargetEntityType>smp_inspectionrespons</TargetEntityType>
+                            <AutoExpand>Auto</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{E91FD8D6-5B3E-47AF-B321-B437E1A73655},{312224BC-3C2B-E811-811A-5065F38BC1A1}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>10</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{01904326-1056-e7d2-37ec-4153919071a0}">
+          <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+            <parameters>
+              <ViewId>{312224BC-3C2B-E811-811A-5065F38BC1A1}</ViewId>
+              <IsUserView>false</IsUserView>
+              <RelationshipName>smp_smp_inspection_smp_inspectionrespons</RelationshipName>
+              <TargetEntityType>smp_inspectionrespons</TargetEntityType>
+              <AutoExpand>Auto</AutoExpand>
+              <EnableQuickFind>false</EnableQuickFind>
+              <EnableViewPicker>false</EnableViewPicker>
+              <ViewIds>{E91FD8D6-5B3E-47AF-B321-B437E1A73655},{312224BC-3C2B-E811-811A-5065F38BC1A1}</ViewIds>
+              <EnableJumpBar>false</EnableJumpBar>
+              <ChartGridMode>All</ChartGridMode>
+              <VisualizationId />
+              <IsUserChart>false</IsUserChart>
+              <EnableChartPicker>true</EnableChartPicker>
+              <RecordsPerPage>10</RecordsPerPage>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{312224BC-3C2B-E811-811A-5065F38BC1A1}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>smp_smp_inspection_smp_inspectionrespons</RelationshipName>
+                <TargetEntityType>smp_inspectionrespons</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{E91FD8D6-5B3E-47AF-B321-B437E1A73655},{312224BC-3C2B-E811-811A-5065F38BC1A1}</FilteredViewIds>
+              </data-set>
+              <data-set name="SubGrid">
+                <ViewId>{312224BC-3C2B-E811-811A-5065F38BC1A1}</ViewId>
+                <IsUserView>false</IsUserView>
+                <TargetEntityType>smp_inspectionrespons</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <RelationshipName>smp_smp_inspection_smp_inspectionrespons</RelationshipName>
+                <TargetEntityType>smp_inspectionrespons</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{E91FD8D6-5B3E-47AF-B321-B437E1A73655},{312224BC-3C2B-E811-811A-5065F38BC1A1}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">yes</EnableGroupBy>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{312224BC-3C2B-E811-811A-5065F38BC1A1}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>smp_smp_inspection_smp_inspectionrespons</RelationshipName>
+                <TargetEntityType>smp_inspectionrespons</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{E91FD8D6-5B3E-47AF-B321-B437E1A73655},{312224BC-3C2B-E811-811A-5065F38BC1A1}</FilteredViewIds>
+              </data-set>
+              <data-set name="SubGrid">
+                <ViewId>{312224BC-3C2B-E811-811A-5065F38BC1A1}</ViewId>
+                <IsUserView>false</IsUserView>
+                <TargetEntityType>smp_inspectionrespons</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <RelationshipName>smp_smp_inspection_smp_inspectionrespons</RelationshipName>
+                <TargetEntityType>smp_inspectionrespons</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{E91FD8D6-5B3E-47AF-B321-B437E1A73655},{312224BC-3C2B-E811-811A-5065F38BC1A1}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">yes</EnableGroupBy>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{312224BC-3C2B-E811-811A-5065F38BC1A1}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>smp_smp_inspection_smp_inspectionrespons</RelationshipName>
+                <TargetEntityType>smp_inspectionrespons</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{E91FD8D6-5B3E-47AF-B321-B437E1A73655},{312224BC-3C2B-E811-811A-5065F38BC1A1}</FilteredViewIds>
+              </data-set>
+              <data-set name="SubGrid">
+                <ViewId>{312224BC-3C2B-E811-811A-5065F38BC1A1}</ViewId>
+                <IsUserView>false</IsUserView>
+                <TargetEntityType>smp_inspectionrespons</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <RelationshipName>smp_smp_inspection_smp_inspectionrespons</RelationshipName>
+                <TargetEntityType>smp_inspectionrespons</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{E91FD8D6-5B3E-47AF-B321-B437E1A73655},{312224BC-3C2B-E811-811A-5065F38BC1A1}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">yes</EnableGroupBy>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <formLibraries>
+        <Library name="smp_InspectionGridFieldDisable" libraryUniqueId="{433bbdc8-e7ee-dd07-2e11-11e903a7c2c9}" />
+      </formLibraries>
+      <events>
+        <event name="onchange" application="false" active="false" attribute="createdby" relationship="" control="Inspection_Response">
+          <Handlers>
+            <Handler functionName="disableQuestionFields" libraryName="smp_InspectionGridFieldDisable" handlerUniqueId="{37988431-09b2-7e10-3ad4-8d3063c7de4d}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="smp_inspectionquestion" relationship="" control="Inspection_Response">
+          <Handlers>
+            <Handler functionName="disableQuestionFields" libraryName="smp_InspectionGridFieldDisable" handlerUniqueId="{a8086483-7424-8600-9241-5a6cca69a145}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onrecordselect" application="false" active="false" relationship="" control="Inspection_Response">
+          <Handlers>
+            <Handler functionName="disableQuestionFields" libraryName="smp_InspectionGridFieldDisable" handlerUniqueId="{9837b884-90b7-ae99-4ac1-d5e5c6a18cbd}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Informação" languagecode="1046" />
+      <LocalizedName description="Información" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Um formulário para esta entidade." languagecode="1046" />
+      <Description description="Un formulario para esta entidad." languagecode="3082" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,445 @@
+{
+    "options": [
+        {
+            "enabled": false,
+            "definition": {
+                "id": "a9db38f9-9fdc-478c-b0f9-464221e58316"
+            },
+            "inputs": {
+                "workItemType": "Bug",
+                "assignToRequestor": "true",
+                "additionalFields": "{}"
+            }
+        },
+        {
+            "enabled": false,
+            "definition": {
+                "id": "5d58cc01-7c75-450c-be18-a388ddb129ec"
+            },
+            "inputs": {
+                "branchFilters": "[\"+refs/heads/*\"]",
+                "additionalFields": "{}"
+            }
+        }
+    ],
+    "triggers": [
+        {
+            "branchFilters": [
+                "+refs/heads/users/tadutta/CRMSolutions"
+            ],
+            "pathFilters": [
+                "+CCRM.REF/RES.FieldService.BusinessExtensions/*",
+                "+CCRM.REF/CCRM.REFFS.Plugins/*"
+            ],
+            "batchChanges": true,
+            "maxConcurrentBuildsPerBranch": 1,
+            "pollingInterval": 0,
+            "triggerType": 2
+        }
+    ],
+    "variables": {
+        "BuildConfiguration": {
+            "value": "release",
+            "allowOverride": true
+        },
+        "BuildPlatform": {
+            "value": "any cpu",
+            "allowOverride": true
+        },
+        "EnableCGScanDetection": {
+            "value": "true"
+        },
+        "skipComponentGovernanceDetection": {
+            "value": "true"
+        },
+        "system.debug": {
+            "value": "false",
+            "allowOverride": true
+        }
+    },
+    "properties": {},
+    "tags": [],
+    "_links": {
+        "self": {
+            "href": "https://microsoftit.visualstudio.com/3d1a556d-2042-4a45-9dae-61808ff33d3b/_apis/build/Definitions/24829?revision=13"
+        },
+        "web": {
+            "href": "https://microsoftit.visualstudio.com/3d1a556d-2042-4a45-9dae-61808ff33d3b/_build/definition?definitionId=24829"
+        },
+        "editor": {
+            "href": "https://microsoftit.visualstudio.com/3d1a556d-2042-4a45-9dae-61808ff33d3b/_build/designer?id=24829&_a=edit-build-definition"
+        },
+        "badge": {
+            "href": "https://microsoftit.visualstudio.com/3d1a556d-2042-4a45-9dae-61808ff33d3b/_apis/build/status/24829"
+        }
+    },
+    "buildNumberFormat": "1.91.$(date:yyyyMMdd)$(rev:.r)",
+    "jobAuthorizationScope": 1,
+    "jobTimeoutInMinutes": 60,
+    "jobCancelTimeoutInMinutes": 5,
+    "process": {
+        "phases": [
+            {
+                "steps": [
+                    {
+                        "environment": {},
+                        "enabled": true,
+                        "continueOnError": false,
+                        "alwaysRun": false,
+                        "displayName": "NuGet restore **\\*.sln",
+                        "timeoutInMinutes": 0,
+                        "condition": "succeeded()",
+                        "refName": "NuGetInstaller_1",
+                        "task": {
+                            "id": "333b11bd-d341-40d9-afcf-b32d5ce6f23b",
+                            "versionSpec": "2.*",
+                            "definitionType": "task"
+                        },
+                        "inputs": {
+                            "command": "restore",
+                            "solution": "$(Parameters.solution)",
+                            "selectOrConfig": "select",
+                            "feedRestore": "",
+                            "includeNuGetOrg": "true",
+                            "nugetConfigPath": "",
+                            "externalEndpoints": "",
+                            "noCache": "false",
+                            "disableParallelProcessing": "false",
+                            "packagesDirectory": "",
+                            "verbosityRestore": "Detailed",
+                            "searchPatternPush": "$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg",
+                            "nuGetFeedType": "internal",
+                            "feedPublish": "",
+                            "publishPackageMetadata": "true",
+                            "allowPackageConflicts": "false",
+                            "externalEndpoint": "",
+                            "verbosityPush": "Detailed",
+                            "searchPatternPack": "**/*.csproj",
+                            "configurationToPack": "$(BuildConfiguration)",
+                            "outputDir": "$(Build.ArtifactStagingDirectory)",
+                            "versioningScheme": "off",
+                            "includeReferencedProjects": "false",
+                            "versionEnvVar": "",
+                            "requestedMajorVersion": "1",
+                            "requestedMinorVersion": "0",
+                            "requestedPatchVersion": "0",
+                            "packTimezone": "utc",
+                            "includeSymbols": "false",
+                            "toolPackage": "false",
+                            "buildProperties": "",
+                            "basePath": "",
+                            "verbosityPack": "Detailed",
+                            "arguments": ""
+                        }
+                    },
+                    {
+                        "environment": {},
+                        "enabled": true,
+                        "continueOnError": false,
+                        "alwaysRun": false,
+                        "displayName": "MSCRM Tool Installer",
+                        "timeoutInMinutes": 0,
+                        "condition": "succeeded()",
+                        "task": {
+                            "id": "04ad1c72-5e49-4686-8a3a-dda6948b0fcd",
+                            "versionSpec": "9.*",
+                            "definitionType": "task"
+                        },
+                        "inputs": {}
+                    },
+                    {
+                        "environment": {},
+                        "enabled": true,
+                        "continueOnError": false,
+                        "alwaysRun": false,
+                        "displayName": "MSCRM Set Version - RES.FieldService.BusinessExtentions",
+                        "timeoutInMinutes": 0,
+                        "condition": "succeeded()",
+                        "task": {
+                            "id": "1cacdeec-c8dd-4091-a522-5a8fbf49c851",
+                            "versionSpec": "10.*",
+                            "definitionType": "task"
+                        },
+                        "inputs": {
+                            "target": "xml",
+                            "crmConnectionString": "",
+                            "solutionName": "",
+                            "unpackedFilesFolder": "CCRM.REF/RES.FieldService.BusinessExtensions",
+                            "versionNumber": "$(Build.BuildNumber)"
+                        }
+                    },
+                    {
+                        "environment": {},
+                        "enabled": true,
+                        "continueOnError": false,
+                        "alwaysRun": false,
+                        "displayName": "Build solution **\\*.sln",
+                        "timeoutInMinutes": 0,
+                        "condition": "succeeded()",
+                        "task": {
+                            "id": "71a9a2d3-a98a-4caa-96ab-affca411ecda",
+                            "versionSpec": "1.*",
+                            "definitionType": "task"
+                        },
+                        "inputs": {
+                            "solution": "CCRM.REF/CCRM.REF.CRMSolutions.sln",
+                            "vsVersion": "latest",
+                            "msbuildArgs": "",
+                            "platform": "$(BuildPlatform)",
+                            "configuration": "$(BuildConfiguration)",
+                            "clean": "true",
+                            "maximumCpuCount": "false",
+                            "restoreNugetPackages": "false",
+                            "msbuildArchitecture": "x86",
+                            "logProjectEvents": "true",
+                            "createLogFile": "false",
+                            "logFileVerbosity": "normal"
+                        }
+                    },
+                    {
+                        "environment": {},
+                        "enabled": true,
+                        "continueOnError": false,
+                        "alwaysRun": false,
+                        "displayName": "Run Unit Test - Plugins",
+                        "timeoutInMinutes": 0,
+                        "condition": "succeeded()",
+                        "task": {
+                            "id": "ef087383-ee5e-42c7-9a53-ab56c98420f9",
+                            "versionSpec": "2.*",
+                            "definitionType": "task"
+                        },
+                        "inputs": {
+                            "testSelector": "testAssemblies",
+                            "testAssemblyVer2": "**\\CCRM.REFFS.Plugins.Test.dll\n!**\\*TestAdapter.dll\n!**\\obj\\**",
+                            "testPlan": "",
+                            "testSuite": "",
+                            "testConfiguration": "",
+                            "tcmTestRun": "$(test.RunId)",
+                            "searchFolder": "$(System.DefaultWorkingDirectory)",
+                            "resultsFolder": "$(Agent.TempDirectory)\\TestResults",
+                            "testFiltercriteria": "",
+                            "runOnlyImpactedTests": "False",
+                            "runAllTestsAfterXBuilds": "50",
+                            "uiTests": "false",
+                            "vstestLocationMethod": "version",
+                            "vsTestVersion": "latest",
+                            "vstestLocation": "",
+                            "runSettingsFile": "",
+                            "overrideTestrunParameters": "",
+                            "pathtoCustomTestAdapters": "",
+                            "runInParallel": "False",
+                            "runTestsInIsolation": "False",
+                            "codeCoverageEnabled": "False",
+                            "otherConsoleOptions": "",
+                            "distributionBatchType": "basedOnTestCases",
+                            "batchingBasedOnAgentsOption": "autoBatchSize",
+                            "customBatchSizeValue": "10",
+                            "batchingBasedOnExecutionTimeOption": "autoBatchSize",
+                            "customRunTimePerBatchValue": "60",
+                            "dontDistribute": "False",
+                            "testRunTitle": "",
+                            "platform": "",
+                            "configuration": "",
+                            "publishRunAttachments": "true",
+                            "failOnMinTestsNotRun": "False",
+                            "minimumExpectedTests": "1",
+                            "diagnosticsEnabled": "false",
+                            "collectDumpOn": "onAbortOnly",
+                            "rerunFailedTests": "False",
+                            "rerunType": "basedOnTestFailurePercentage",
+                            "rerunFailedThreshold": "30",
+                            "rerunFailedTestCasesMaxLimit": "5",
+                            "rerunMaxAttempts": "3"
+                        }
+                    },
+                    {
+                        "environment": {},
+                        "enabled": true,
+                        "continueOnError": false,
+                        "alwaysRun": true,
+                        "displayName": "Copy Files to: $(build.artifactstagingdirectory) ",
+                        "timeoutInMinutes": 0,
+                        "condition": "succeededOrFailed()",
+                        "task": {
+                            "id": "5bfb729a-a7c8-4a78-a7c3-8d717bb7c13c",
+                            "versionSpec": "2.*",
+                            "definitionType": "task"
+                        },
+                        "inputs": {
+                            "SourceFolder": "$(build.sourcesdirectory)",
+                            "Contents": "**\\RES.FieldService.BusinessExtensions\\bin\\$(BuildConfiguration)\\**\\*.zip\n**\\CCRM.REF.REFFSUCIAutomation\\bin\\$(BuildConfiguration)\\**\n",
+                            "TargetFolder": "$(build.artifactstagingdirectory)",
+                            "CleanTargetFolder": "false",
+                            "OverWrite": "false",
+                            "flattenFolders": "false",
+                            "preserveTimestamp": "false"
+                        }
+                    },
+                    {
+                        "environment": {},
+                        "enabled": true,
+                        "continueOnError": false,
+                        "alwaysRun": false,
+                        "displayName": "Copy Files to: $(build.artifactstagingdirectory)",
+                        "timeoutInMinutes": 0,
+                        "condition": "succeeded()",
+                        "refName": "",
+                        "task": {
+                            "id": "5bfb729a-a7c8-4a78-a7c3-8d717bb7c13c",
+                            "versionSpec": "2.*",
+                            "definitionType": "task"
+                        },
+                        "inputs": {
+                            "SourceFolder": "CCRM.REF/",
+                            "Contents": "test.runsettings",
+                            "TargetFolder": "$(build.artifactstagingdirectory)",
+                            "CleanTargetFolder": "false",
+                            "OverWrite": "false",
+                            "flattenFolders": "false",
+                            "preserveTimestamp": "false"
+                        }
+                    },
+                    {
+                        "environment": {},
+                        "enabled": true,
+                        "continueOnError": false,
+                        "alwaysRun": true,
+                        "displayName": "Publish Artifact: RES_CRM_Artifacts",
+                        "timeoutInMinutes": 0,
+                        "condition": "succeededOrFailed()",
+                        "refName": "",
+                        "task": {
+                            "id": "2ff763a7-ce83-4e1f-bc89-0ae63477cebe",
+                            "versionSpec": "1.*",
+                            "definitionType": "task"
+                        },
+                        "inputs": {
+                            "PathtoPublish": "$(build.artifactstagingdirectory)",
+                            "ArtifactName": "RES_CRM_Artifacts",
+                            "ArtifactType": "Container",
+                            "TargetPath": "\\\\my\\share\\$(Build.DefinitionName)\\$(Build.BuildNumber)",
+                            "Parallel": "false",
+                            "ParallelCount": "8",
+                            "FileCopyOptions": ""
+                        }
+                    }
+                ],
+                "name": "Phase 1",
+                "refName": "Phase_1",
+                "condition": "succeeded()",
+                "target": {
+                    "queue": {
+                        "_links": {
+                            "self": {
+                                "href": "https://microsoftit.visualstudio.com/_apis/build/Queues/3793"
+                            }
+                        },
+                        "id": 3793,
+                        "url": "https://microsoftit.visualstudio.com/_apis/build/Queues/3793",
+                        "pool": null
+                    },
+                    "agentSpecification": {
+                        "identifier": "vs2017-win2016"
+                    },
+                    "executionOptions": {
+                        "type": 0
+                    },
+                    "allowScriptsAuthAccessOption": false,
+                    "type": 1
+                },
+                "jobAuthorizationScope": 1,
+                "jobCancelTimeoutInMinutes": 1
+            }
+        ],
+        "target": {
+            "agentSpecification": {
+                "identifier": "vs2017-win2016"
+            }
+        },
+        "type": 1
+    },
+    "repository": {
+        "properties": {
+            "labelSources": "0",
+            "reportBuildStatus": "true",
+            "fetchDepth": "0",
+            "gitLfsSupport": "false",
+            "skipSyncSource": "false",
+            "cleanOptions": "0",
+            "labelSourcesFormat": "$(build.buildNumber)",
+            "checkoutNestedSubmodules": "false"
+        },
+        "id": "3f247f4c-9f89-4504-a694-a9546655a4c6",
+        "type": "TfsGit",
+        "name": "BAS-BAR-FLM-REandF-REnF",
+        "url": "https://microsoftit.visualstudio.com/OneITVSO/_git/BAS-BAR-FLM-REandF-REnF",
+        "defaultBranch": "refs/heads/users/tadutta/CRMSolutions",
+        "clean": "true",
+        "checkoutSubmodules": false
+    },
+    "processParameters": {
+        "inputs": [
+            {
+                "aliases": [],
+                "options": {},
+                "properties": {},
+                "name": "solution",
+                "label": "Solution",
+                "defaultValue": "CCRM.REF/CCRM.REF.CRMSolutions.sln",
+                "required": true,
+                "type": "filePath",
+                "helpMarkDown": "The path to the Visual Studio solution file or NuGet packages.config. Wildcards can be used.  For example, `**\\*.sln` for all sln files in all sub folders."
+            }
+        ]
+    },
+    "quality": 1,
+    "authoredBy": {
+        "displayName": "Tappu Dutta",
+        "url": "https://spsprodeus27.vssps.visualstudio.com/A11d3ce76-8087-40de-bd04-1e2712920b64/_apis/Identities/39a1869e-5dce-6cc4-aa33-b0f5d6b3052e",
+        "_links": {
+            "avatar": {
+                "href": "https://microsoftit.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.MzlhMTg2OWUtNWRjZS03Y2M0LWFhMzMtYjBmNWQ2YjMwNTJl"
+            }
+        },
+        "id": "39a1869e-5dce-6cc4-aa33-b0f5d6b3052e",
+        "uniqueName": "tadutta@microsoft.com",
+        "imageUrl": "https://microsoftit.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.MzlhMTg2OWUtNWRjZS03Y2M0LWFhMzMtYjBmNWQ2YjMwNTJl",
+        "descriptor": "aad.MzlhMTg2OWUtNWRjZS03Y2M0LWFhMzMtYjBmNWQ2YjMwNTJl"
+    },
+    "drafts": [],
+    "queue": {
+        "_links": {
+            "self": {
+                "href": "https://microsoftit.visualstudio.com/_apis/build/Queues/3793"
+            }
+        },
+        "id": 3793,
+        "name": "Azure Pipelines",
+        "url": "https://microsoftit.visualstudio.com/_apis/build/Queues/3793",
+        "pool": {
+            "id": 1476,
+            "name": "Azure Pipelines",
+            "isHosted": true
+        }
+    },
+    "id": 24829,
+    "name": "CCRM.REF.Develop-FieldService.BusinessExtensions",
+    "url": "https://microsoftit.visualstudio.com/3d1a556d-2042-4a45-9dae-61808ff33d3b/_apis/build/Definitions/24829?revision=13",
+    "uri": "vstfs:///Build/Definition/24829",
+    "path": "\\REnF",
+    "type": 2,
+    "queueStatus": 0,
+    "revision": 13,
+    "createdDate": "2020-05-06T22:43:07.920Z",
+    "project": {
+        "id": "3d1a556d-2042-4a45-9dae-61808ff33d3b",
+        "name": "OneITVSO",
+        "description": "OneITVSO is a single VSTS project operating at enterprise scale hosting 1000s of Core Service Engineering & Operations Engineering teams. To learn more, visit https://aka.ms/cseoengineeringwiki",
+        "url": "https://microsoftit.visualstudio.com/_apis/projects/3d1a556d-2042-4a45-9dae-61808ff33d3b",
+        "state": 1,
+        "revision": 566703,
+        "visibility": 0,
+        "lastUpdateTime": "2020-05-27T10:39:19.463Z"
+    }
+}

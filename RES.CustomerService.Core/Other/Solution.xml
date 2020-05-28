@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.1.0.12935" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>RES_CustomerService_Core</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="RES.CustomerService.Core" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>smp</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="smp" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>smp</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>18062</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="2" />
+      <RootComponent type="1" schemaName="contact" behavior="1" />
+      <RootComponent type="1" schemaName="incident" behavior="2" />
+      <RootComponent type="1" schemaName="smp_8x8mailbox" behavior="1" />
+      <RootComponent type="1" schemaName="smp_attachmentsurl" behavior="1" />
+      <RootComponent type="1" schemaName="smp_auditconfiguration" behavior="1" />
+      <RootComponent type="1" schemaName="smp_auditlog" behavior="1" />
+      <RootComponent type="1" schemaName="smp_building" behavior="1" />
+      <RootComponent type="1" schemaName="smp_buildingannouncement" behavior="1" />
+      <RootComponent type="1" schemaName="smp_buildingworkhours" behavior="1" />
+      <RootComponent type="1" schemaName="smp_businessunit" behavior="1" />
+      <RootComponent type="1" schemaName="smp_company" behavior="1" />
+      <RootComponent type="1" schemaName="smp_confidentialnotes" behavior="1" />
+      <RootComponent type="1" schemaName="smp_configuration" behavior="1" />
+      <RootComponent type="1" schemaName="smp_country" behavior="1" />
+      <RootComponent type="1" schemaName="smp_dwhlog" behavior="1" />
+      <RootComponent type="1" schemaName="smp_escalation" behavior="1" />
+      <RootComponent type="1" schemaName="smp_exceptionlog" behavior="1" />
+      <RootComponent type="1" schemaName="smp_externallinks" behavior="1" />
+      <RootComponent type="1" schemaName="smp_floor" behavior="2" />
+      <RootComponent type="1" schemaName="smp_fulfilmentrequestlineitem" behavior="1" />
+      <RootComponent type="1" schemaName="smp_holiday" behavior="2" />
+      <RootComponent type="1" schemaName="smp_ineedto" behavior="1" />
+      <RootComponent type="1" schemaName="smp_priority" behavior="1" />
+      <RootComponent type="1" schemaName="smp_problemclass" behavior="1" />
+      <RootComponent type="1" schemaName="smp_problemtype" behavior="1" />
+      <RootComponent type="1" schemaName="smp_problemtypedescription" behavior="1" />
+      <RootComponent type="1" schemaName="smp_provider" behavior="1" />
+      <RootComponent type="1" schemaName="smp_providerintegration" behavior="1" />
+      <RootComponent type="1" schemaName="smp_providermatrix" behavior="1" />
+      <RootComponent type="1" schemaName="smp_quicktickets" behavior="2" />
+      <RootComponent type="1" schemaName="smp_region" behavior="1" />
+      <RootComponent type="1" schemaName="smp_room" behavior="2" />
+      <RootComponent type="1" schemaName="smp_roomtype" behavior="1" />
+      <RootComponent type="1" schemaName="smp_satisfactionsurvey" behavior="1" />
+      <RootComponent type="1" schemaName="smp_servicerequestproblemtypedesc" behavior="1" />
+      <RootComponent type="1" schemaName="smp_servicerequeststatuscode" behavior="1" />
+      <RootComponent type="1" schemaName="smp_servicerequeststoragequeue" behavior="1" />
+      <RootComponent type="1" schemaName="smp_siteinspection" behavior="1" />
+      <RootComponent type="1" schemaName="smp_slamatrix" behavior="2" />
+      <RootComponent type="1" schemaName="smp_srsatisfactionsurvey" behavior="1" />
+      <RootComponent type="1" schemaName="smp_statusreasontranslation" behavior="1" />
+      <RootComponent type="1" schemaName="smp_subregion" behavior="2" />
+      <RootComponent type="1" schemaName="smp_telemetrylog" behavior="1" />
+      <RootComponent type="1" schemaName="smp_weekdays" behavior="1" />
+      <RootComponent type="9" schemaName="smp_endhours" behavior="0" />
+      <RootComponent type="9" schemaName="smp_languages" behavior="0" />
+      <RootComponent type="9" schemaName="smp_likertscale1to5" behavior="0" />
+      <RootComponent type="9" schemaName="smp_priorityoverridereason" behavior="0" />
+      <RootComponent type="9" schemaName="smp_servicerequestorigination" behavior="0" />
+      <RootComponent type="9" schemaName="smp_servicerequeststatusreason" behavior="0" />
+      <RootComponent type="9" schemaName="smp_starthours" behavior="0" />
+      <RootComponent type="9" schemaName="smp_tasktypedescription" behavior="0" />
+      <RootComponent type="9" schemaName="smp_zone" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="smp_8x8mailbox" displayName="8X8 Mailbox" solution="Active" />
+        <Dependent key="0" type="1" schemaName="smp_8x8mailbox" displayName="8X8 Mailbox" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="1" type="1" schemaName="smp_businessunit" displayName="Biz Unit" solution="Active" />
+        <Dependent key="1" type="1" schemaName="smp_businessunit" displayName="Biz Unit" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="1" schemaName="smp_company" displayName="Company" solution="Active" />
+        <Dependent key="2" type="1" schemaName="smp_company" displayName="Company" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="smp_confidentialnotes" displayName="Confidential Notes" solution="Active" />
+        <Dependent key="3" type="1" schemaName="smp_confidentialnotes" displayName="Confidential Notes" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="1" schemaName="smp_escalation" displayName="Escalation" solution="Active" />
+        <Dependent key="4" type="1" schemaName="smp_escalation" displayName="Escalation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="5" type="1" schemaName="smp_exceptionlog" displayName="CSR Action Log" solution="Active" />
+        <Dependent key="5" type="1" schemaName="smp_exceptionlog" displayName="CSR Action Log" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="6" type="1" schemaName="smp_externallinks" displayName="External Links" solution="Active" />
+        <Dependent key="6" type="1" schemaName="smp_externallinks" displayName="External Links" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="7" type="1" schemaName="smp_fulfilmentrequestlineitem" displayName="Fulfilment Request Line Item" solution="Active" />
+        <Dependent key="7" type="1" schemaName="smp_fulfilmentrequestlineitem" displayName="Fulfilment Request Line Item" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="1" schemaName="smp_ineedto" displayName="I Need To" solution="Active" />
+        <Dependent key="8" type="1" schemaName="smp_ineedto" displayName="I Need To" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="9" type="1" schemaName="smp_priority" displayName="Priority" solution="Active" />
+        <Dependent key="9" type="1" schemaName="smp_priority" displayName="Priority" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="10" type="1" schemaName="smp_problemclass" displayName="Problem Class" solution="Active" />
+        <Dependent key="10" type="1" schemaName="smp_problemclass" displayName="Problem Class" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="11" type="1" schemaName="smp_problemtype" displayName="Problem Type" solution="Active" />
+        <Dependent key="11" type="1" schemaName="smp_problemtype" displayName="Problem Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="12" type="1" schemaName="smp_problemtypedescription" displayName="Dynamic Problem Type Note" solution="Active" />
+        <Dependent key="12" type="1" schemaName="smp_problemtypedescription" displayName="Dynamic Problem Type Note" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="13" type="1" schemaName="smp_provider" displayName="Provider-New" solution="Active" />
+        <Dependent key="13" type="1" schemaName="smp_provider" displayName="Provider-New" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="14" type="1" schemaName="smp_providerintegration" displayName="Provider Integration" solution="Active" />
+        <Dependent key="14" type="1" schemaName="smp_providerintegration" displayName="Provider Integration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="15" type="1" schemaName="smp_providermatrix" displayName="Provider Matrix" solution="Active" />
+        <Dependent key="15" type="1" schemaName="smp_providermatrix" displayName="Provider Matrix" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="16" type="1" schemaName="smp_quicktickets" displayName="Quick Tickets" solution="Active" />
+        <Dependent key="16" type="1" schemaName="smp_quicktickets" displayName="Quick Tickets" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="1" schemaName="smp_satisfactionsurvey" displayName="Satisfaction Survey Response" solution="Active" />
+        <Dependent key="17" type="1" schemaName="smp_satisfactionsurvey" displayName="Satisfaction Survey Response" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="18" type="1" schemaName="smp_servicerequestproblemtypedesc" displayName="Service Request Dynamic Problem Type Notes" solution="Active" />
+        <Dependent key="18" type="1" schemaName="smp_servicerequestproblemtypedesc" displayName="Service Request Dynamic Problem Type Notes" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="19" type="1" schemaName="smp_servicerequeststatuscode" displayName="Service Request Status Code" solution="Active" />
+        <Dependent key="19" type="1" schemaName="smp_servicerequeststatuscode" displayName="Service Request Status Code" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="20" type="1" schemaName="smp_servicerequeststoragequeue" displayName="Service Request Storage Queue" solution="Active" />
+        <Dependent key="20" type="1" schemaName="smp_servicerequeststoragequeue" displayName="Service Request Storage Queue" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="21" type="1" schemaName="smp_siteinspection" displayName="Site Inspection" solution="Active" />
+        <Dependent key="21" type="1" schemaName="smp_siteinspection" displayName="Site Inspection" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="22" type="1" schemaName="smp_slamatrix" displayName="SLA Matrix" solution="Active" />
+        <Dependent key="22" type="1" schemaName="smp_slamatrix" displayName="SLA Matrix" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="23" type="1" schemaName="smp_srsatisfactionsurvey" displayName="SR Satisfaction Survey" solution="Active" />
+        <Dependent key="23" type="1" schemaName="smp_srsatisfactionsurvey" displayName="SR Satisfaction Survey" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="24" type="1" schemaName="smp_statusreasontranslation" displayName="Status Reason Translation" solution="Active" />
+        <Dependent key="24" type="1" schemaName="smp_statusreasontranslation" displayName="Status Reason Translation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="25" type="1" schemaName="smp_attachmentsurl" displayName="AttachmentsURL" solution="Active" />
+        <Dependent key="25" type="1" schemaName="smp_attachmentsurl" displayName="AttachmentsURL" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="26" type="1" schemaName="smp_auditconfiguration" displayName="Audit Configuration" solution="Active" />
+        <Dependent key="26" type="1" schemaName="smp_auditconfiguration" displayName="Audit Configuration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="27" type="1" schemaName="smp_auditlog" displayName="Audit Log" solution="Active" />
+        <Dependent key="27" type="1" schemaName="smp_auditlog" displayName="Audit Log" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="28" type="1" schemaName="smp_building" displayName="Building" solution="Active" />
+        <Dependent key="28" type="1" schemaName="smp_building" displayName="Building" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="29" type="1" schemaName="smp_buildingannouncement" displayName="Building Announcement" solution="Active" />
+        <Dependent key="29" type="1" schemaName="smp_buildingannouncement" displayName="Building Announcement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="30" type="1" schemaName="smp_buildingworkhours" displayName="Building Work Hours" solution="Active" />
+        <Dependent key="30" type="1" schemaName="smp_buildingworkhours" displayName="Building Work Hours" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="31" type="1" schemaName="smp_floor" displayName="Floor" solution="Active" />
+        <Dependent key="31" type="1" schemaName="smp_floor" displayName="Floor" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="32" type="1" schemaName="smp_holiday" displayName="Holiday" solution="Active" />
+        <Dependent key="32" type="1" schemaName="smp_holiday" displayName="Holiday" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="33" type="1" schemaName="smp_room" displayName="Room" solution="Active" />
+        <Dependent key="33" type="1" schemaName="smp_room" displayName="Room" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="34" type="1" schemaName="smp_configuration" displayName="Configuration" solution="Active" />
+        <Dependent key="34" type="1" schemaName="smp_configuration" displayName="Configuration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="35" type="1" schemaName="smp_country" displayName="Country" solution="Active" />
+        <Dependent key="35" type="1" schemaName="smp_country" displayName="Country" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="36" type="1" schemaName="smp_dwhlog" displayName="DWH Log" solution="Active" />
+        <Dependent key="36" type="1" schemaName="smp_dwhlog" displayName="DWH Log" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="37" type="1" schemaName="smp_region" displayName="Region" solution="Active" />
+        <Dependent key="37" type="1" schemaName="smp_region" displayName="Region" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="38" type="1" schemaName="smp_subregion" displayName="Sub Region" solution="Active" />
+        <Dependent key="38" type="1" schemaName="smp_subregion" displayName="Sub Region" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="39" type="1" schemaName="smp_roomtype" displayName="Room Type" solution="Active" />
+        <Dependent key="39" type="1" schemaName="smp_roomtype" displayName="Room Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="40" type="1" schemaName="smp_telemetrylog" displayName="Telemetry Log" solution="Active" />
+        <Dependent key="40" type="1" schemaName="smp_telemetrylog" displayName="Telemetry Log" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="41" type="1" schemaName="smp_weekdays" displayName="Weekends" solution="Active" />
+        <Dependent key="41" type="1" schemaName="smp_weekdays" displayName="Weekends" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="42" type="1" schemaName="incident" displayName="Service Request" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="42" type="1" schemaName="incident" displayName="Service Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="43" type="2" schemaName="msa_partnerid" displayName="Partner" parentSchemaName="incident" parentDisplayName="Service Request" solution="MicrosoftCrmPortalDependencies (9.0.12.10)" />
+        <Dependent key="43" type="2" schemaName="msa_partnerid" displayName="Partner" parentSchemaName="incident" parentDisplayName="Service Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="44" type="2" schemaName="customerid" displayName="Provider" parentSchemaName="incident" parentDisplayName="Service Request" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="44" type="2" schemaName="customerid" displayName="Provider" parentSchemaName="incident" parentDisplayName="Service Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="45" type="2" schemaName="msa_managingpartnerid" displayName="Managing Partner" parentSchemaName="account" parentDisplayName="Provider" solution="MicrosoftCrmPortalDependencies (9.0.12.10)" />
+        <Dependent key="45" type="2" schemaName="msa_managingpartnerid" displayName="Managing Partner" parentSchemaName="account" parentDisplayName="Provider" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="46" type="2" schemaName="msdyn_billingaccount" displayName="Billing Account" parentSchemaName="account" parentDisplayName="Provider" solution="FieldService (8.8.0.88)" />
+        <Dependent key="46" type="2" schemaName="msdyn_billingaccount" displayName="Billing Account" parentSchemaName="account" parentDisplayName="Provider" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="47" type="2" schemaName="msa_managingpartnerid" displayName="Managing Partner" parentSchemaName="contact" parentDisplayName="Contact" solution="MicrosoftCrmPortalDependencies (9.0.12.10)" />
+        <Dependent key="47" type="2" schemaName="msa_managingpartnerid" displayName="Managing Partner" parentSchemaName="contact" parentDisplayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="48" type="10" schemaName="smp_transactioncurrency_account_Currency" displayName="smp_transactioncurrency_account_Currency" parentSchemaName="account" parentDisplayName="Provider" solution="Active" />
+        <Dependent key="49" type="2" schemaName="smp_currency" displayName="Currency" parentSchemaName="account" parentDisplayName="Provider" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="50" type="9" schemaName="smp_itemgroup" displayName="Item Group" solution="Active" />
+        <Dependent key="51" type="2" schemaName="smp_itemgroup" displayName="Item Group" parentSchemaName="smp_fulfilmentrequestlineitem" parentDisplayName="Fulfilment Request Line Item" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="52" type="10" schemaName="msa_account_incident" displayName="msa_account_incident" parentSchemaName="incident" parentDisplayName="Service Request" solution="MicrosoftCrmPortalDependencies (9.0.12.10)" />
+        <Dependent key="52" type="10" schemaName="msa_account_incident" displayName="msa_account_incident" parentSchemaName="incident" parentDisplayName="Service Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="53" type="10" schemaName="msa_account_managingpartner" displayName="msa_account_managingpartner" parentSchemaName="account" parentDisplayName="Provider" solution="MicrosoftCrmPortalDependencies (9.0.12.10)" />
+        <Dependent key="53" type="10" schemaName="msa_account_managingpartner" displayName="msa_account_managingpartner" parentSchemaName="account" parentDisplayName="Provider" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="54" type="10" schemaName="msa_contact_managingpartner" displayName="msa_contact_managingpartner" parentSchemaName="contact" parentDisplayName="Contact" solution="MicrosoftCrmPortalDependencies (9.0.12.10)" />
+        <Dependent key="54" type="10" schemaName="msa_contact_managingpartner" displayName="msa_contact_managingpartner" parentSchemaName="contact" parentDisplayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="55" type="10" schemaName="msdyn_account_account_BillingAccount" displayName="msdyn_account_account_BillingAccount" parentSchemaName="account" parentDisplayName="Provider" solution="FieldService (8.8.0.88)" />
+        <Dependent key="55" type="10" schemaName="msdyn_account_account_BillingAccount" displayName="msdyn_account_account_BillingAccount" parentSchemaName="account" parentDisplayName="Provider" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="56" type="61" schemaName="smp_MediumLink" displayName="smp_MediumLink" solution="Active" />
+        <Dependent key="6" type="1" schemaName="smp_externallinks" displayName="External Links" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="57" type="61" schemaName="smp_smalllink" displayName="smp_smalllink" solution="Active" />
+        <Dependent key="6" type="1" schemaName="smp_externallinks" displayName="External Links" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="58" type="61" schemaName="smp_small_configuration" displayName="smp_small_configuration" solution="Active" />
+        <Dependent key="26" type="1" schemaName="smp_auditconfiguration" displayName="Audit Configuration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="59" type="61" schemaName="smp_medium_configuration" displayName="smp_medium_configuration" solution="Active" />
+        <Dependent key="26" type="1" schemaName="smp_auditconfiguration" displayName="Audit Configuration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="60" type="61" schemaName="smp_Large_configuration" displayName="smp_Large_configuration" solution="Active" />
+        <Dependent key="26" type="1" schemaName="smp_auditconfiguration" displayName="Audit Configuration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="61" type="61" schemaName="smp_MediumInfo" displayName="smp_MediumInfo" solution="Active" />
+        <Dependent key="8" type="1" schemaName="smp_ineedto" displayName="I Need To" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="62" type="61" schemaName="smp_smallinfo" displayName="smp_smallinfo" solution="Active" />
+        <Dependent key="8" type="1" schemaName="smp_ineedto" displayName="I Need To" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="63" type="61" schemaName="smp_smallcompany" displayName="smp_smallcompany" solution="Active" />
+        <Dependent key="2" type="1" schemaName="smp_company" displayName="Company" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="64" type="61" schemaName="smp_mediumcompany" displayName="smp_mediumcompany" solution="Active" />
+        <Dependent key="2" type="1" schemaName="smp_company" displayName="Company" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="65" type="61" schemaName="smp_SmallCLock" displayName="smp_SmallCLock" solution="Active" />
+        <Dependent key="9" type="1" schemaName="smp_priority" displayName="Priority" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="66" type="61" schemaName="smp_MediumClock" displayName="smp_MediumClock" solution="Active" />
+        <Dependent key="9" type="1" schemaName="smp_priority" displayName="Priority" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="67" type="61" schemaName="smp_MediumQuestion" displayName="smp_MediumQuestion" solution="Active" />
+        <Dependent key="18" type="1" schemaName="smp_servicerequestproblemtypedesc" displayName="Service Request Dynamic Problem Type Notes" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="68" type="61" schemaName="smp_smallquestion" displayName="smp_smallquestion" solution="Active" />
+        <Dependent key="18" type="1" schemaName="smp_servicerequestproblemtypedesc" displayName="Service Request Dynamic Problem Type Notes" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="69" type="61" schemaName="smp_MediumNotes" displayName="smp_MediumNotes" solution="Active" />
+        <Dependent key="3" type="1" schemaName="smp_confidentialnotes" displayName="Confidential Notes" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="70" type="61" schemaName="smp_smallnotes" displayName="smp_smallnotes" solution="Active" />
+        <Dependent key="3" type="1" schemaName="smp_confidentialnotes" displayName="Confidential Notes" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="71" type="61" schemaName="smp_mediumfloor" displayName="smp_mediumfloor" solution="Active" />
+        <Dependent key="31" type="1" schemaName="smp_floor" displayName="Floor" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="72" type="61" schemaName="smp_smallfloor" displayName="smp_smallfloor" solution="Active" />
+        <Dependent key="31" type="1" schemaName="smp_floor" displayName="Floor" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="67" type="61" schemaName="smp_MediumQuestion" displayName="smp_MediumQuestion" solution="Active" />
+        <Dependent key="12" type="1" schemaName="smp_problemtypedescription" displayName="Dynamic Problem Type Note" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="68" type="61" schemaName="smp_smallquestion" displayName="smp_smallquestion" solution="Active" />
+        <Dependent key="12" type="1" schemaName="smp_problemtypedescription" displayName="Dynamic Problem Type Note" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="73" type="61" schemaName="smp_Medium_Country" displayName="smp_Medium_Country" solution="Active" />
+        <Dependent key="35" type="1" schemaName="smp_country" displayName="Country" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="74" type="61" schemaName="smp_smallcountry" displayName="smp_smallcountry" solution="Active" />
+        <Dependent key="35" type="1" schemaName="smp_country" displayName="Country" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="75" type="61" schemaName="smp_smallsubregion" displayName="smp_smallsubregion" solution="Active" />
+        <Dependent key="38" type="1" schemaName="smp_subregion" displayName="Sub Region" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="76" type="61" schemaName="smp_MediumSubRegion" displayName="smp_MediumSubRegion" solution="Active" />
+        <Dependent key="38" type="1" schemaName="smp_subregion" displayName="Sub Region" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="77" type="61" schemaName="smp_MediumRoomType" displayName="smp_MediumRoomType" solution="Active" />
+        <Dependent key="39" type="1" schemaName="smp_roomtype" displayName="Room Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="78" type="61" schemaName="smp_smallroomtype" displayName="smp_smallroomtype" solution="Active" />
+        <Dependent key="39" type="1" schemaName="smp_roomtype" displayName="Room Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="79" type="61" schemaName="smp_LargeMatrix" displayName="smp_LargeMatrix" solution="Active" />
+        <Dependent key="15" type="1" schemaName="smp_providermatrix" displayName="Provider Matrix" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="80" type="61" schemaName="smp_MediumMatrix" displayName="smp_MediumMatrix" solution="Active" />
+        <Dependent key="15" type="1" schemaName="smp_providermatrix" displayName="Provider Matrix" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="81" type="61" schemaName="smp_smallmatrix" displayName="smp_smallmatrix" solution="Active" />
+        <Dependent key="15" type="1" schemaName="smp_providermatrix" displayName="Provider Matrix" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="79" type="61" schemaName="smp_LargeMatrix" displayName="smp_LargeMatrix" solution="Active" />
+        <Dependent key="22" type="1" schemaName="smp_slamatrix" displayName="SLA Matrix" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="80" type="61" schemaName="smp_MediumMatrix" displayName="smp_MediumMatrix" solution="Active" />
+        <Dependent key="22" type="1" schemaName="smp_slamatrix" displayName="SLA Matrix" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="81" type="61" schemaName="smp_smallmatrix" displayName="smp_smallmatrix" solution="Active" />
+        <Dependent key="22" type="1" schemaName="smp_slamatrix" displayName="SLA Matrix" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="82" type="61" schemaName="smp_MediumPhone" displayName="smp_MediumPhone" solution="Active" />
+        <Dependent key="0" type="1" schemaName="smp_8x8mailbox" displayName="8X8 Mailbox" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="83" type="61" schemaName="smp_smallphone" displayName="smp_smallphone" solution="Active" />
+        <Dependent key="0" type="1" schemaName="smp_8x8mailbox" displayName="8X8 Mailbox" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="84" type="61" schemaName="smp_QuickTicket_small" displayName="smp_QuickTicket_small" solution="Active" />
+        <Dependent key="16" type="1" schemaName="smp_quicktickets" displayName="Quick Tickets" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="85" type="61" schemaName="smp_quickticket_large" displayName="smp_quickticket_large" solution="Active" />
+        <Dependent key="16" type="1" schemaName="smp_quicktickets" displayName="Quick Tickets" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="86" type="61" schemaName="smp_quickticket_medium" displayName="smp_quickticket_medium" solution="Active" />
+        <Dependent key="16" type="1" schemaName="smp_quicktickets" displayName="Quick Tickets" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="60" type="61" schemaName="smp_Large_configuration" displayName="smp_Large_configuration" solution="Active" />
+        <Dependent key="34" type="1" schemaName="smp_configuration" displayName="Configuration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="59" type="61" schemaName="smp_medium_configuration" displayName="smp_medium_configuration" solution="Active" />
+        <Dependent key="34" type="1" schemaName="smp_configuration" displayName="Configuration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="58" type="61" schemaName="smp_small_configuration" displayName="smp_small_configuration" solution="Active" />
+        <Dependent key="34" type="1" schemaName="smp_configuration" displayName="Configuration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="87" type="61" schemaName="smp_MediumProblemclass" displayName="smp_MediumProblemclass" solution="Active" />
+        <Dependent key="10" type="1" schemaName="smp_problemclass" displayName="Problem Class" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="88" type="61" schemaName="smp_SmallProblemClass" displayName="smp_SmallProblemClass" solution="Active" />
+        <Dependent key="10" type="1" schemaName="smp_problemclass" displayName="Problem Class" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="89" type="61" schemaName="smp_smallproblemtype" displayName="smp_smallproblemtype" solution="Active" />
+        <Dependent key="11" type="1" schemaName="smp_problemtype" displayName="Problem Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="90" type="61" schemaName="smp_MediumProblemType" displayName="smp_MediumProblemType" solution="Active" />
+        <Dependent key="11" type="1" schemaName="smp_problemtype" displayName="Problem Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="91" type="61" schemaName="smp_MediumRegion" displayName="smp_MediumRegion" solution="Active" />
+        <Dependent key="37" type="1" schemaName="smp_region" displayName="Region" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="92" type="61" schemaName="smp_smallregion" displayName="smp_smallregion" solution="Active" />
+        <Dependent key="37" type="1" schemaName="smp_region" displayName="Region" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="58" type="61" schemaName="smp_small_configuration" displayName="smp_small_configuration" solution="Active" />
+        <Dependent key="19" type="1" schemaName="smp_servicerequeststatuscode" displayName="Service Request Status Code" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="59" type="61" schemaName="smp_medium_configuration" displayName="smp_medium_configuration" solution="Active" />
+        <Dependent key="19" type="1" schemaName="smp_servicerequeststatuscode" displayName="Service Request Status Code" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="60" type="61" schemaName="smp_Large_configuration" displayName="smp_Large_configuration" solution="Active" />
+        <Dependent key="19" type="1" schemaName="smp_servicerequeststatuscode" displayName="Service Request Status Code" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="93" type="61" schemaName="msdyn_/SurveyForms/Images/Feedback32.png" displayName="msdyn_/SurveyForms/Images/Feedback32.png" solution="VoiceOfTheCustomer (9.0.1438.4)" />
+        <Dependent key="17" type="1" schemaName="smp_satisfactionsurvey" displayName="Satisfaction Survey Response" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="94" type="61" schemaName="msdyn_/SurveyForms/Images/Feedback16.png" displayName="msdyn_/SurveyForms/Images/Feedback16.png" solution="VoiceOfTheCustomer (9.0.1438.4)" />
+        <Dependent key="17" type="1" schemaName="smp_satisfactionsurvey" displayName="Satisfaction Survey Response" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="95" type="61" schemaName="smp_small_CSRActionLog" displayName="smp_small_CSRActionLog" solution="Active" />
+        <Dependent key="5" type="1" schemaName="smp_exceptionlog" displayName="CSR Action Log" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="96" type="61" schemaName="smp_Medium_CSRActionlog" displayName="smp_Medium_CSRActionlog" solution="Active" />
+        <Dependent key="5" type="1" schemaName="smp_exceptionlog" displayName="CSR Action Log" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="97" type="61" schemaName="smp_Large_Actionlog" displayName="smp_Large_Actionlog" solution="Active" />
+        <Dependent key="5" type="1" schemaName="smp_exceptionlog" displayName="CSR Action Log" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

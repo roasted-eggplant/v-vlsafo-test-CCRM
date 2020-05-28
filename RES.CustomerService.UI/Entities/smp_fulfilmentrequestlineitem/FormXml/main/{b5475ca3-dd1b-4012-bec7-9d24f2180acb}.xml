@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{b5475ca3-dd1b-4012-bec7-9d24f2180acb}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1900">
+      <tabs>
+        <tab verticallayout="true" id="{bddb438c-931c-42e6-a38f-fdb2a431902d}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Général" languagecode="1036" />
+            <label description="全般" languagecode="1041" />
+            <label description="일반" languagecode="1042" />
+            <label description="常规" languagecode="2052" />
+            <label description="Geral" languagecode="2070" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{d160c153-28b9-477a-a299-8c2c40ef1292}" name="{d160c153-28b9-477a-a299-8c2c40ef1292}" columns="11" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Général" languagecode="1036" />
+                    <label description="全般" languagecode="1041" />
+                    <label description="일반" languagecode="1042" />
+                    <label description="常规" languagecode="2052" />
+                    <label description="Geral" languagecode="2070" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{724b9221-c315-49b9-8a23-6620a07e1e0b}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="smp_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_name" uniqueid="{413ee146-c9b5-0bb1-6212-08c4c45e9352}" disabled="false" />
+                      </cell>
+                      <cell id="{16aba80e-4c20-5ded-2901-5087c150616c}" showlabel="false" userspacer="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1308c3dd-a59a-2cba-b3a7-1adc323962dd}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Item Group" languagecode="1033" />
+                        </labels>
+                        <control id="smp_itemgroup" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="smp_itemgroup" disabled="false" uniqueid="{db683673-c774-d164-1373-02d4d8214398}" />
+                      </cell>
+                      <cell id="{eda0a5ed-ec6d-eea8-e17d-4501e3958b9c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Warehouse" languagecode="1033" />
+                        </labels>
+                        <control id="smp_warehouse" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_warehouse" disabled="false" uniqueid="{45c1ae30-3a5b-23c7-146a-3e8db7914daa}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d20d58d0-38a2-705e-e29c-b33018637862}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Inventory" languagecode="1033" />
+                        </labels>
+                        <control id="smp_inventory" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_inventory" disabled="false" uniqueid="{0c9e7ad9-aad1-c577-c881-9580ea8d8a40}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{9793A58D-49B1-49DA-96EC-4D5151FCA0EE}</DefaultViewId>
+                            <AllowFilterOff>true</AllowFilterOff>
+                            <AvailableViewIds>{9793A58D-49B1-49DA-96EC-4D5151FCA0EE}</AvailableViewIds>
+                            <FilterRelationshipName>smp_msdyn_warehouse_smp_inventory_Warehouse</FilterRelationshipName>
+                            <DependentAttributeName>smp_fulfilmentrequestlineitem.smp_warehouse</DependentAttributeName>
+                            <DependentAttributeType>msdyn_warehouse</DependentAttributeType>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{db2dc919-7b29-014e-b4e0-8e51bc133114}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Product" languagecode="1033" />
+                        </labels>
+                        <control id="smp_product" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_product" disabled="false" uniqueid="{4dd5ea90-20aa-a1b7-e383-de7e5670ece1}" />
+                      </cell>
+                      <cell id="{a079153e-3c82-2dc1-a710-6e3189eddc95}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b37711db-6459-5672-6006-a3be4a9ac512}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Quantity" languagecode="1033" />
+                        </labels>
+                        <control id="smp_quantity" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="smp_quantity" disabled="false" />
+                      </cell>
+                      <cell id="{abd6acea-764c-ab01-8908-2da44408aedc}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a4762682-2b56-52d7-a5e9-5401c4a4d315}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Requested Date" languagecode="1033" />
+                        </labels>
+                        <control id="smp_requesteddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="smp_requesteddate" disabled="false" />
+                      </cell>
+                      <cell id="{a6bae102-c7d5-c5d5-d039-39c100e1c243}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{0b4c0cdc-df52-493b-9fbe-cc9959313f37}" columns="111">
+        <rows>
+          <row>
+            <cell id="{e65673b0-48e0-ee0a-b78d-23aa6db0b6c0}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Work Order" languagecode="1033" />
+              </labels>
+              <control id="header_smp_workorder" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_workorder" disabled="false" />
+            </cell>
+            <cell id="{bf6254eb-4d04-415e-aa1c-15b5d75628e5}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{cce590a8-1370-8b80-11ed-6a2417704a3e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <formLibraries>
+        <Library name="smp_FulfillmentRequest.js" libraryUniqueId="{9aab9bd1-dd6c-85c7-ccad-3493c8a92486}" />
+      </formLibraries>
+      <events>
+        <event name="onchange" application="false" active="false" attribute="smp_inventory">
+          <Handlers>
+            <Handler functionName="OnchangeofInventory" libraryName="smp_FulfillmentRequest.js" handlerUniqueId="{cabec8bc-47e2-2ccc-b2ed-e03b4c785e3e}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="OnLoadFilterInventory" libraryName="smp_FulfillmentRequest.js" handlerUniqueId="{a7b84be0-4127-8ce4-292e-11a62174ec81}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

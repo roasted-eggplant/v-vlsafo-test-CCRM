@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountEntity" xml:space="preserve">
+    <value>account</value>
+  </data>
+  <data name="AccountIdAttribute" xml:space="preserve">
+    <value>accountid</value>
+  </data>
+  <data name="ActiveStatusCodeValue" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="AuditConfigAttributeNameAttribute" xml:space="preserve">
+    <value>smp_attributename</value>
+  </data>
+  <data name="AuditConfigEntityNameAttribute" xml:space="preserve">
+    <value>smp_entityname</value>
+  </data>
+  <data name="AuditConfigurationEntity" xml:space="preserve">
+    <value>smp_auditconfiguration</value>
+  </data>
+  <data name="AuditLogAttributeNameAttribute" xml:space="preserve">
+    <value>smp_attribute</value>
+  </data>
+  <data name="AuditLogCurrentValueAttribute" xml:space="preserve">
+    <value>smp_currentvalue</value>
+  </data>
+  <data name="AuditLogEntityName" xml:space="preserve">
+    <value>smp_auditlog</value>
+  </data>
+  <data name="AuditLogEventAttribute" xml:space="preserve">
+    <value>smp_event</value>
+  </data>
+  <data name="AuditLogEventTimeAttribute" xml:space="preserve">
+    <value>smp_eventtime</value>
+  </data>
+  <data name="AuditLogIncidentStatusAttribute" xml:space="preserve">
+    <value>smp_incidentstatus</value>
+  </data>
+  <data name="AuditLogInitiatingUserAttribute" xml:space="preserve">
+    <value>smp_initiatinguserid</value>
+  </data>
+  <data name="AuditLogPreviousValueAttribute" xml:space="preserve">
+    <value>smp_previousvalue</value>
+  </data>
+  <data name="AuditLogServiceRequestAttribute" xml:space="preserve">
+    <value>smp_servicerequestid</value>
+  </data>
+  <data name="BuildingIdAttribute" xml:space="preserve">
+    <value>smp_buildingid</value>
+  </data>
+  <data name="CancelledStatus" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="CompletedStatus" xml:space="preserve">
+    <value>180620011</value>
+  </data>
+  <data name="CostCenterCode" xml:space="preserve">
+    <value>smp_costcentercode</value>
+  </data>
+  <data name="CustomerIdAttribute" xml:space="preserve">
+    <value>customerid</value>
+  </data>
+  <data name="CustomerRepresentative" xml:space="preserve">
+    <value>smp_csr</value>
+  </data>
+  <data name="DebugOutBoundIntegration" xml:space="preserve">
+    <value>DebugOutBoundIntegration</value>
+  </data>
+  <data name="DeclinedStatus" xml:space="preserve">
+    <value>180620000</value>
+  </data>
+  <data name="DraftStatusCodeValue" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="EmailSenderDomainName" xml:space="preserve">
+    <value>EmailSenderDomainName</value>
+  </data>
+  <data name="ExceptionLogDescriptionAttribute" xml:space="preserve">
+    <value>smp_description</value>
+  </data>
+  <data name="ExceptionLogEntity" xml:space="preserve">
+    <value>smp_exceptionlog</value>
+  </data>
+  <data name="IncidentEntity" xml:space="preserve">
+    <value>incident</value>
+  </data>
+  <data name="IoCode" xml:space="preserve">
+    <value>smp_iocode</value>
+  </data>
+  <data name="OutBoundIntegrationtimeOutInSeconds" xml:space="preserve">
+    <value>OutBoundIntegrationtimeOutInSeconds</value>
+  </data>
+  <data name="PendingApporvalStatusValue" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PrimaryProviderIdAttribute" xml:space="preserve">
+    <value>smp_primaryproviderid</value>
+  </data>
+  <data name="ProblemBuildingIdAttribute" xml:space="preserve">
+    <value>smp_problembuilding</value>
+  </data>
+  <data name="ProblemClassIdAttribute" xml:space="preserve">
+    <value>smp_problemclassid</value>
+  </data>
+  <data name="ProblemRoomTypeIdAttribute" xml:space="preserve">
+    <value>smp_problemroomtype</value>
+  </data>
+  <data name="ProblemTypeAttribute" xml:space="preserve">
+    <value>smp_problemtype</value>
+  </data>
+  <data name="ProblemTypeDescriptionEntityName" xml:space="preserve">
+    <value>smp_problemtypedescription</value>
+  </data>
+  <data name="ProblemTypeDescriptionIdAttribute" xml:space="preserve">
+    <value>smp_problemtypedescriptionid</value>
+  </data>
+  <data name="ProblemTypeDescriptionNameAttribute" xml:space="preserve">
+    <value>smp_problemtypedescriptionname</value>
+  </data>
+  <data name="ProblemTypeIdAttribute" xml:space="preserve">
+    <value>smp_problemtypeid</value>
+  </data>
+  <data name="ProviderMatrixEntity" xml:space="preserve">
+    <value>smp_providermatrix</value>
+  </data>
+  <data name="ProviderMatrixIOCode" xml:space="preserve">
+    <value>smp_billablecode</value>
+  </data>
+  <data name="ProviderMatrixIsApprovalRequired" xml:space="preserve">
+    <value>smp_approvalrequired</value>
+  </data>
+  <data name="ProviderTeamAttribute" xml:space="preserve">
+    <value>smp_providerteam</value>
+  </data>
+  <data name="RoomTypeIdAttribute" xml:space="preserve">
+    <value>smp_roomtypeid</value>
+  </data>
+  <data name="RoutingPriorities8By8" xml:space="preserve">
+    <value>8/8RoutingPriorities</value>
+  </data>
+  <data name="ServiceRequestAcknowledgementTemplate" xml:space="preserve">
+    <value>Acknowledgement of Receipt of New Email Service Request</value>
+  </data>
+  <data name="ServiceRequestApprovalManager" xml:space="preserve">
+    <value>smp_approver</value>
+  </data>
+  <data name="ServiceRequestApprovalRejectionTemplate" xml:space="preserve">
+    <value>Service Request Approval Rejection Email Template</value>
+  </data>
+  <data name="ServiceRequestApprovalRequiredTemplate" xml:space="preserve">
+    <value>Service Request Approval Required Template</value>
+  </data>
+  <data name="ServiceRequestApprovedTemplate" xml:space="preserve">
+    <value>Service Request Approved Email Template</value>
+  </data>
+  <data name="ServiceRequestCancelledTemplate" xml:space="preserve">
+    <value>Service Request Cancelled Email Template</value>
+  </data>
+  <data name="ServiceRequestCC" xml:space="preserve">
+    <value>smp_cc</value>
+  </data>
+  <data name="ServiceRequestCompletedTemplate" xml:space="preserve">
+    <value>Service Request Completed Email Template</value>
+  </data>
+  <data name="ServiceRequestCompletedTemplateWithoutSurvey" xml:space="preserve">
+    <value>Service Request Completed Email Template Without Survey</value>
+  </data>
+  <data name="ServiceRequestContact" xml:space="preserve">
+    <value>smp_contact</value>
+  </data>
+  <data name="ServiceRequestIdAttribute" xml:space="preserve">
+    <value>smp_servicerequestid</value>
+  </data>
+  <data name="ServiceRequestIOCode" xml:space="preserve">
+    <value>smp_iocode</value>
+  </data>
+  <data name="ServiceRequestIsApprovalRequired" xml:space="preserve">
+    <value>smp_isapprovalrequired</value>
+  </data>
+  <data name="ServiceRequestProblemTypeEntity" xml:space="preserve">
+    <value>smp_servicerequestproblemtypedesc</value>
+  </data>
+  <data name="ServiceRequestProblemTypeIdAttribute" xml:space="preserve">
+    <value>smp_servicerequestproblemtypedescid</value>
+  </data>
+  <data name="ServiceRequestProvider" xml:space="preserve">
+    <value>customerid</value>
+  </data>
+  <data name="ServiceRequestRequester" xml:space="preserve">
+    <value>smp_requestorid</value>
+  </data>
+  <data name="ServiceRequestStatusChangeTemplate" xml:space="preserve">
+    <value>Service Request Status Change Email Template</value>
+  </data>
+  <data name="ServiceRequestSurveyEmailTemplate" xml:space="preserve">
+    <value>Service Request Survey Email Template</value>
+  </data>
+  <data name="ServiceRequestWaitingForApprovalTemplate" xml:space="preserve">
+    <value>Service Request Waiting for Approval Email Template</value>
+  </data>
+  <data name="StatusCodeAttribute" xml:space="preserve">
+    <value>statuscode</value>
+  </data>
+  <data name="SystemUserEntity" xml:space="preserve">
+    <value>systemuser</value>
+  </data>
+  <data name="TeamEntity" xml:space="preserve">
+    <value>team</value>
+  </data>
+  <data name="WaitingForApprovalStatus" xml:space="preserve">
+    <value>180620013</value>
+  </data>
+  <data name="ServiceRequestReclassifiedTemplate" xml:space="preserve">
+    <value>Service Request Reclassified Email Template</value>
+  </data>
+</root>

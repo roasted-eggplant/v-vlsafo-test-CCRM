@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{7e045606-e6ce-45f8-ae01-d6457e4422bb}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="smp_name" select="1" icon="1" preview="1">
+        <row name="smp_providermatrix" id="smp_providermatrixid">
+          <cell name="smp_problemclassid" width="100" />
+          <cell name="smp_problemtypeid" width="100" />
+          <cell name="smp_primaryproviderid" width="100" />
+          <cell name="a_3ad403021448e2118d5378e3b511b6a7.telephone1" width="100" disableSorting="1" />
+          <cell name="smp_secondaryproviderid" width="100" />
+          <cell name="a_45d403021448e2118d5378e3b511b6a7.telephone1" width="100" disableSorting="1" />
+          <cell name="smp_tertiaryproviderid" width="100" />
+          <cell name="a_4fd403021448e2118d5378e3b511b6a7.telephone1" width="100" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_providermatrix">
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="smp_problemtypeid" descending="false" />
+          <attribute name="smp_problemtypeid" />
+          <attribute name="smp_problemclassid" />
+          <attribute name="smp_tertiaryproviderid" />
+          <attribute name="smp_secondaryproviderid" />
+          <attribute name="smp_primaryproviderid" />
+          <link-entity alias="a_3ad403021448e2118d5378e3b511b6a7" name="account" from="accountid" to="smp_primaryproviderid" link-type="outer" visible="false">
+            <attribute name="telephone1" />
+          </link-entity>
+          <link-entity alias="a_45d403021448e2118d5378e3b511b6a7" name="account" from="accountid" to="smp_secondaryproviderid" link-type="outer" visible="false">
+            <attribute name="telephone1" />
+          </link-entity>
+          <link-entity alias="a_4fd403021448e2118d5378e3b511b6a7" name="account" from="accountid" to="smp_tertiaryproviderid" link-type="outer" visible="false">
+            <attribute name="telephone1" />
+          </link-entity>
+          <attribute name="smp_providermatrixid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Provider Matrix Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

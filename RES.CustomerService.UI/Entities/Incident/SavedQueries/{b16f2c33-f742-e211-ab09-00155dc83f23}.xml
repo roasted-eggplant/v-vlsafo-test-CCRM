@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{b16f2c33-f742-e211-ab09-00155dc83f23}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="title" select="1" preview="1" icon="1">
+        <row name="result" id="incidentid">
+          <cell name="ticketnumber" width="150" />
+          <cell name="statuscode" width="100" />
+          <cell name="smp_requestcancelledreason" width="300" disableSorting="1" />
+          <cell name="smp_submitteddatetime" width="150" />
+          <cell name="smp_contact" width="100" />
+          <cell name="smp_problembuilding" width="150" />
+          <cell name="smp_problemroom" width="100" />
+          <cell name="smp_problemclassid" width="100" />
+          <cell name="smp_problemtypeid" width="100" />
+          <cell name="customerid" width="150" />
+          <cell name="smp_priorityid" width="100" />
+          <cell name="createdon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="incident">
+          <attribute name="smp_submitteddatetime" />
+          <attribute name="statuscode" />
+          <attribute name="smp_requestcancelledreason" />
+          <attribute name="customerid" />
+          <attribute name="smp_problemtypeid" />
+          <attribute name="smp_problemroom" />
+          <attribute name="smp_problemclassid" />
+          <attribute name="smp_problembuilding" />
+          <attribute name="smp_priorityid" />
+          <attribute name="createdon" />
+          <attribute name="smp_contact" />
+          <attribute name="ticketnumber" />
+          <order attribute="smp_submitteddatetime" descending="true" />
+          <order attribute="ticketnumber" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="2" />
+          </filter>
+          <attribute name="incidentid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All Cancelled Service Requests" languagecode="1033" />
+      <LocalizedName description="Todas as solicitações de serviço canceladas" languagecode="1046" />
+      <LocalizedName description="All Cancelled Service Requests" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

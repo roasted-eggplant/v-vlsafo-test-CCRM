@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{f3378010-ee11-e811-8116-5065f38bc1a1}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" preview="1" icon="1">
+        <row name="result" id="accountid">
+          <cell name="name" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="account">
+          <attribute name="name" />
+          <order attribute="name" descending="false" />
+          <filter type="and">
+            <condition attribute="smp_accounttype" operator="eq" value="180620000" />
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="accountid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Building Lookup View" languagecode="1033" />
+      <LocalizedName description="Vista de pesquisa de construção" languagecode="1046" />
+      <LocalizedName description="Vista Búsqueda de Edificios" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

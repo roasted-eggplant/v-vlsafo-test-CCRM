@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{53162f5f-1697-4cc9-896c-566da8ec9759}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{3d3555dc-61b0-404d-a9a3-8b50d6bd6279}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Geral" languagecode="1046" />
+            <label description="General" languagecode="3082" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{89191969-fa0e-4b5a-83c8-0b6b57dc61e8}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Geral" languagecode="1046" />
+                    <label description="General" languagecode="3082" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b62ee8ca-62e8-4fe3-aca0-9dceecb6c2fc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Room Number" languagecode="1033" />
+                          <label description="Número de Sala" languagecode="1046" />
+                          <label description="Número de sala" languagecode="3082" />
+                        </labels>
+                        <control id="smp_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="smp_name" uniqueid="{d8560962-25ce-5c97-41ec-b764c587dec0}" disabled="false" />
+                      </cell>
+                      <cell id="{69e25ccb-6fc9-4c4e-9ab9-7e477b6aae51}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Proprietário" languagecode="1046" />
+                          <label description="Dueño" languagecode="3082" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ec46d0a0-9e1b-610c-8beb-3b092d66d4ba}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Building" languagecode="1033" />
+                          <label description="Edifício" languagecode="1046" />
+                          <label description="Edificio" languagecode="3082" />
+                        </labels>
+                        <control id="smp_building" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="smp_building" disabled="false" uniqueid="{95111398-ae80-b18a-0a45-2b3c7de18a30}" />
+                      </cell>
+                      <cell id="{95e52e23-4d85-16d9-a590-e8cb38cd1732}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7ada13de-9db7-a927-13be-17a3a84c6cd2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Room Type" languagecode="1033" />
+                          <label description="Tipo de Sala" languagecode="1046" />
+                          <label description="Tipo de sala" languagecode="3082" />
+                        </labels>
+                        <control id="new_roomtype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="new_roomtype" disabled="false" uniqueid="{19412095-3a1a-ad10-2dc3-e26709deb968}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{904EB4C0-9691-4B65-A0A7-1142AEFDD876}</DefaultViewId>
+                            <FilterRelationshipName>smp_smp_roomtype_smp_building</FilterRelationshipName>
+                            <DependentAttributeName>smp_room.smp_building</DependentAttributeName>
+                            <DependentAttributeType>smp_building</DependentAttributeType>
+                            <AllowFilterOff>true</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{03482e29-bcab-ed3a-a96d-411de3c747dd}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{13faedba-4649-4fdc-8349-4c1d60030898}">
+        <rows>
+          <row>
+            <cell id="{9884cc01-bb0a-41ac-9aa3-3a82aeea544d}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control id="footer_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Processes" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Informação" languagecode="1046" />
+      <LocalizedName description="Información" languagecode="3082" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Formulário para esta Entidade." languagecode="1046" />
+      <Description description="Formulario para esta entidad." languagecode="3082" />
+    </Descriptions>
+  </systemform>
+</forms>

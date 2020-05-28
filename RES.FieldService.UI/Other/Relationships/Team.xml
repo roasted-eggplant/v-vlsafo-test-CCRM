@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="team_msdyn_agreementbookingsetup">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IsCustomizable>1</IsCustomizable>
+    <IntroducedVersion>3.1.0.3</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>msdyn_agreementbookingsetup</ReferencingEntityName>
+    <ReferencedEntityName>Team</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>NoCascade</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <ReferencingAttributeName>OwningTeam</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Unique identifier for the team that owns the record." languagecode="1033" />
+        <Description description="负责记录的团队的唯一标识符。" languagecode="2052" />
+        <Description description="Identificateur unique de l’équipe à qui appartient l’enregistrement." languagecode="1036" />
+        <Description description="レコードを所有するチームを表す一意識別子です。" languagecode="1041" />
+        <Description description="레코드를 담당하는 팀의 고유 식별자입니다." languagecode="1042" />
+        <Description description="Identificador exclusivo da equipa proprietária do registo." languagecode="2070" />
+        <Description description="Identificador único del equipo propietario del registro." languagecode="3082" />
+      </Descriptions>
+    </RelationshipDescription>
+  </EntityRelationship>
+  <EntityRelationship Name="team_msdyn_incidenttype">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IsCustomizable>1</IsCustomizable>
+    <IntroducedVersion>3.1.0.3</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>msdyn_incidenttype</ReferencingEntityName>
+    <ReferencedEntityName>Team</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>NoCascade</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <ReferencingAttributeName>OwningTeam</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Unique identifier for the team that owns the record." languagecode="1033" />
+        <Description description="负责记录的团队的唯一标识符。" languagecode="2052" />
+        <Description description="Identificateur unique de l’équipe à qui appartient l’enregistrement." languagecode="1036" />
+        <Description description="レコードを所有するチームを表す一意識別子です。" languagecode="1041" />
+        <Description description="레코드를 담당하는 팀의 고유 식별자입니다." languagecode="1042" />
+        <Description description="Identificador exclusivo da equipa proprietária do registo." languagecode="2070" />
+        <Description description="Identificador único del equipo propietario del registro." languagecode="3082" />
+      </Descriptions>
+    </RelationshipDescription>
+  </EntityRelationship>
+</EntityRelationships>

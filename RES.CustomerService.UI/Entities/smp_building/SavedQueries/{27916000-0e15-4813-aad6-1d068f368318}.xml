@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{27916000-0e15-4813-aad6-1d068f368318}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="smp_buildingname" select="1" icon="1" preview="1">
+        <row name="result" id="smp_buildingid">
+          <cell name="smp_buildingname" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="smp_building">
+          <attribute name="smp_buildingname" />
+          <attribute name="createdon" />
+          <order attribute="smp_buildingname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="smp_buildingname" operator="like" value="{0}" />
+          </filter>
+          <attribute name="smp_buildingid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Buildings" languagecode="1033" />
+      <LocalizedName description="Búsqueda rápida de edificios activos" languagecode="3082" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
